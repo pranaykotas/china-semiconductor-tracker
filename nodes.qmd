@@ -1,6 +1,78 @@
 ---
 title: "Technology Nodes"
+subtitle: "China's process-node trajectory under export controls"
 date: last-modified
 ---
 
-*Content coming in Task 8 of the implementation plan.*
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+facilities <- load_facilities("data/facilities.yml")
+raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
+```
+
+## The Global Node Landscape
+
+Semiconductor "nodes" refer to manufacturing process technology; smaller numbers generally mean more advanced chips.
+
+```{r node-chart, echo=FALSE, fig.width=10, fig.height=7, dev="ragg_png"}
+nodes <- tibble(
+  node = c("3nm", "5nm", "7nm", "10nm", "14nm", "22nm", "28nm", "40nm", "55nm", "65nm", "90nm", "130nm", "180nm+"),
+  node_nm = c(3, 5, 7, 10, 14, 22, 28, 40, 55, 65, 90, 130, 180),
+  era = c("Cutting Edge", "Cutting Edge", "Advanced", "Advanced", "Advanced",
+          "Mature", "Mature", "Mature", "Mature", "Legacy", "Legacy", "Legacy", "Legacy"),
+  key_fabs = c(
+    "TSMC, Samsung", "TSMC, Samsung", "TSMC, Samsung, Intel, SMIC (via SAQP)",
+    "TSMC, Samsung, Intel", "TSMC, Samsung, Intel, SMIC", "Intel, GF, TSMC",
+    "TSMC, Samsung, GF, SMIC, UMC, Hua Hong", "TSMC, UMC, SMIC, Hua Hong",
+    "PSMC, UMC, Hua Hong", "Various (widely available)", "Various", "Various", "Various"
+  )
+)
+
+era_colors <- c("Cutting Edge" = "#620d3c", "Advanced" = "#f1a222", "Mature" = "#2f6b6b", "Legacy" = "#8C8480")
+
+ggplot(nodes, aes(x = reorder(node, -node_nm), y = 1, fill = era)) +
+  geom_col(width = 0.8) +
+  geom_text(aes(label = paste0(node, ": ", key_fabs)), hjust = 0, nudge_y = 0.05, size = 3) +
+  coord_flip() +
+  scale_fill_manual(values = era_colors) +
+  scale_y_continuous(limits = c(0, 4)) +
+  labs(x = NULL, y = NULL, fill = "Era") +
+  theme_minimal() +
+  theme(axis.text.x = element_blank(), panel.grid = element_blank())
+```
+
+## China's Indigenization Trajectory
+
+Each line traces one facility's most advanced disclosed process node over time — the clearest signal of how effectively export controls have slowed (or failed to slow) specific fabs.
+
+```{r trajectory-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=6, dev="ragg_png"}
+trajectory_rows <- do.call(rbind, lapply(raw_facs, function(f) {
+  if (is.null(f$node_trajectory) || length(f$node_trajectory) == 0) return(NULL)
+  do.call(rbind, lapply(f$node_trajectory, function(t) {
+    data.frame(facility = f$name_en, year = t$year, node = t$node, stringsAsFactors = FALSE)
+  }))
+}))
+
+if (!is.null(trajectory_rows) && nrow(trajectory_rows) > 0) {
+  node_to_nm <- function(n) as.numeric(gsub("[^0-9].*", "", n))
+  trajectory_rows$node_nm <- sapply(trajectory_rows$node, node_to_nm)
+
+  ggplot(trajectory_rows, aes(x = year, y = node_nm, color = facility, group = facility)) +
+    geom_line(linewidth = 1) +
+    geom_point(size = 2) +
+    scale_y_reverse() +
+    labs(x = "Year", y = "Node (nm, smaller = more advanced)", color = "Facility") +
+    theme_minimal()
+} else {
+  cat("*No node trajectory data yet — populated as facility research is added.*")
+}
+```
+
+::: {.callout-note}
+## Reading This Chart
+A facility with no plotted line has not yet had its node history researched (see [About](about.qmd) for data status). Absence from this chart is a data gap, not a claim about the facility's capability.
+:::
