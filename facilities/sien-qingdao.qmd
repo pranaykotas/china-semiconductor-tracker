@@ -1,0 +1,60 @@
+---
+title: "SiEn Qingdao"
+subtitle: "SiEn (Qingdao) Integrated Circuit Co., Ltd. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC.
+:::
+
+**Chinese name:** 芯恩（青岛）集成电路 (Xīn'ēn (Qīngdǎo) Jíchéng Diànlù)
+
+## What does this facility make?
+
+Logic/foundry, analog/power, and RF/wireless chips at 28nm and 40nm on both 200mm and 300mm wafers.
+
+## Why does it matter?
+
+A structurally different ownership model (collaborative IDM, not a pure foundry or a single-owner state fab) from every other entry in this tracker, and notable for its founder's direct SMIC lineage.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SiEn (Qingdao) Integrated Circuit Co., Ltd. |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 8-inch (200mm) and 12-inch (300mm) wafer fab, IDM model, 28-40nm logic/foundry, analog/power, RF |
+| **Status** | Operational |
+| **Investment** | ¥218亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Qingdao, Shandong |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **01 Apr 2018** — SiEn (Qingdao) established in the Qingdao West Coast New Area (Huangdao)
+- **01 Jan 2021** — Production commences on the first-phase lines
+
+## Sources
+
+- [Chinese IC company Sien IDM receives new funding in Qingdao City](https://jw.ijiwei.com/n/857735) (28 Sep 2026)
+- [SiEn (Qingdao) Integrated Circuits - Phase 1 fab profile](https://www.fabulousmap.com/pages/sien-qingdao-integrated-circuits-fab.html) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

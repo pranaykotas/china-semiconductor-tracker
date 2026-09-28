@@ -1,0 +1,61 @@
+---
+title: "CXMT Hefei"
+subtitle: "ChangXin Memory Technologies (CXMT) | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity.
+:::
+
+**Chinese name:** 长鑫存储 (Chángxīn Cúnchǔ)
+
+## What does this facility make?
+
+DRAM chips on 12-inch (300mm) wafers, now including DDR5-capable products.
+
+## Why does it matter?
+
+DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally by 2026 marks a real capability jump, arriving alongside a June 2026 US Department of Defense listing as a Chinese military-linked entity (distinct from, and less restrictive than, the Commerce Department's Entity List).
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | ChangXin Memory Technologies (CXMT) |
+| **Type** | Memory |
+| **Category** | State-Backed |
+| **Capability** | DRAM, 12-inch (300mm) wafers |
+| **Status** | Operational |
+| **Investment** | $7,200M |
+| **Funding Source** | Local Govt |
+| **Location** | Hefei, Anhui |
+| **Current Node** | DDR5-capable node (exact process width not disclosed) |
+| **Entity List** | Yes — US DoD 1260H List (Chinese Military Companies) (01 Jun 2026) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+- **2020**: 19nm-class DRAM
+- **2025**: DDR5-capable node (exact process width not disclosed)
+
+## Project Timeline
+
+- **01 May 2016** — Founded as Innotron Memory / Hefei Chang Xin
+- **01 Jan 2017** — $7.2 billion investment announced for a 125,000 wafer/month 12-inch DRAM fab
+- **01 Jun 2026** — Added to the US Department of Defense's list of Chinese military-linked companies (Section 1260H)
+
+## Sources
+
+- [ChangXin Memory Technologies (Wikipedia)](https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

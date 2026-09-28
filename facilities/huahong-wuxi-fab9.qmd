@@ -1,0 +1,61 @@
+---
+title: "Hua Hong Wuxi (Fab9, Phase II)"
+subtitle: "Hua Hong Semiconductor | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund-backed deal since the October 2022 US export control tightening — $4.02B new equity (Hua Hong Group, the Big Fund, and a Wuxi entity) plus $2.68B in debt.
+:::
+
+*Chinese name not yet verified.*
+
+## What does this facility make?
+
+12-inch (300mm) wafers at mature specialty nodes (65nm, 55nm, 40nm) — power management, automotive, and analog chips, not leading-edge logic.
+
+## Why does it matter?
+
+Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hua Hong Semiconductor |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 12-inch (300mm) wafer foundry, specialty/mature nodes (65nm, 55nm, 40nm) |
+| **Status** | Under Construction |
+| **Investment** | $6,700M |
+| **Funding Source** | Big Fund II |
+| **Location** | Wuxi, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **11 Jan 2023** — Hua Hong Semiconductor, the Big Fund, and a Wuxi entity sign agreement for a $6.7 billion second 12-inch Wuxi fab (Fab9)
+- **01 Jun 2023** — Construction of Fab9 begins, completing roughly 100 days ahead of schedule
+- **01 Dec 2024** — Hua Hong Manufacturing (Wuxi) Fab9 put into production
+
+## Sources
+
+- [Hua Hong Semiconductor gets state backing for US$6.7 billion wafer fab as China continues its pivot to mature chip nodes](https://www.scmp.com/tech/tech-trends/article/3207368/hua-hong-semiconductor-gets-state-backing-us67-billion-wafer-fab-china-continues-its-pivot-mature) (11 Jan 2023)
+- [Hua Hong Semiconductor Manufacturing (Wuxi) Co., Ltd. — company page](https://www.huahonggrace.com/html/about_fab_wuxi_manufacturing.php) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

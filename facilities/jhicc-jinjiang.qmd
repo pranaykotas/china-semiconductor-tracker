@@ -1,0 +1,60 @@
+---
+title: "JHICC (Fujian Jinhua)"
+subtitle: "Fujian Jinhua Integrated Circuit Co., Ltd. (JHICC) | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The starkest case of a US export-control action landing directly on a named facility: added to the Entity List in October 2018 amid a Micron trade-secret theft dispute involving JHICC and Taiwan's UMC, just as its DRAM line was nearing production.
+:::
+
+**Chinese name:** 晋华集成电路 (Jìnhuá Jíchéng Diànlù)
+
+## What does this facility make?
+
+DRAM chips on 12-inch (300mm) wafers, planned capacity of 60,000 wafers/month.
+
+## Why does it matter?
+
+Widely reported as crippled by the 2018 ban in the years immediately after — a criminal case against JHICC and UMC followed, later resolved without a conviction against JHICC. More recent reporting describes the fab holding roughly 40,000 wafers/month of stable capacity with plans to expand toward 60,000 by 2026, a status this tracker could not fully reconcile against the earlier 'crippled' narrative — treat the current production figure as provisional pending a dedicated follow-up source check.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Fujian Jinhua Integrated Circuit Co., Ltd. (JHICC) |
+| **Type** | Memory |
+| **Category** | State-Backed |
+| **Capability** | DRAM, 12-inch (300mm) wafers |
+| **Status** | Operational |
+| **Investment** | ¥370亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Jinjiang, Fujian |
+| **Current Node** | Not yet researched |
+| **Entity List** | Yes — US Commerce BIS (30 Oct 2018) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **30 Oct 2018** — Added to the US Commerce Department's Entity List amid Micron trade-secret allegations
+- **01 Nov 2018** — US Attorney's Office files criminal complaint against JHICC and UMC for conspiracy to steal Micron trade secrets
+
+## Sources
+
+- [Addition of Fujian Jinhua Integrated Circuit Company, Ltd (Jinhua) to the Entity List — US Department of Commerce](https://www.commerce.gov/news/press-releases/2018/10/addition-fujian-jinhua-integrated-circuit-company-ltd-jinhua-entity-list) (30 Oct 2018)
+- [Fujian Jinhua Integrated Circuit (Wikipedia)](https://en.wikipedia.org/wiki/Fujian_Jinhua_Integrated_Circuit) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

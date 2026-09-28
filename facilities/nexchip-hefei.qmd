@@ -1,0 +1,58 @@
+---
+title: "Nexchip Hefei"
+subtitle: "Nexchip Semiconductor Corporation | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-strait tensions.
+:::
+
+**Chinese name:** 晶合集成 (Jīnghé Jíchéng)
+
+## What does this facility make?
+
+Display driver ICs (DDIC) and CMOS image sensors (CIS) on 12-inch wafers — a foundry niche distinct from SMIC/Hua Hong's broader logic focus.
+
+## Why does it matter?
+
+Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Nexchip Semiconductor Corporation |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch (300mm) wafer foundry, display driver ICs and CIS |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Hefei, Anhui |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **01 May 2015** — Founded as a joint venture between PSMC (Powerchip) and Hefei City Construction and Investment Holding Group
+
+## Sources
+
+- [Nexchip (Wikipedia)](https://en.wikipedia.org/wiki/Nexchip) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

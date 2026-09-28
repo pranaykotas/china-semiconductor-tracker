@@ -1,0 +1,62 @@
+---
+title: "YMTC Wuhan"
+subtitle: "Yangtze Memory Technologies Co. (YMTC) | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer 3D NAND with its own Xtacking architecture before being added to the US Entity List.
+:::
+
+**Chinese name:** 长江存储 (Chángjiāng Cúnchǔ)
+
+## What does this facility make?
+
+3D NAND flash memory chips using XTacking wafer-bonding architecture, plus packaged memory chips and SSDs.
+
+## Why does it matter?
+
+The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it — a 2023 finding that YMTC chips were inside a Huawei phone helped trigger tighter memory-sector controls.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Yangtze Memory Technologies Co. (YMTC) |
+| **Type** | Memory |
+| **Category** | State-Backed |
+| **Capability** | 3D NAND flash memory, XTacking architecture |
+| **Status** | Operational |
+| **Investment** | $24,000M |
+| **Funding Source** | Big Fund I |
+| **Location** | Wuhan, Hubei |
+| **Current Node** | 128-layer 3D NAND (Xtacking 2.0) |
+| **Entity List** | Yes — US Commerce BIS (15 Dec 2022) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+- **2017**: 32-layer 3D NAND
+- **2020**: 128-layer 3D NAND (Xtacking 2.0)
+
+## Project Timeline
+
+- **26 Jul 2016** — YMTC founded by Tsinghua Unigroup with Hubei provincial and Big Fund backing, $24 billion planned investment
+- **01 Apr 2020** — YMTC introduces 128-layer 3D NAND using Xtacking 2.0 architecture
+- **15 Dec 2022** — Added to the US Commerce Department's Entity List
+
+## Sources
+
+- [Yangtze Memory Technologies (Wikipedia)](https://en.wikipedia.org/wiki/Yangtze_Memory_Technologies) (28 Sep 2026)
+- [YMTC moves ahead with third chipmaking fab in Wuhan despite U.S. sanctions](https://www.tomshardware.com/tech-industry/semiconductors/ymtc-moves-ahead-with-third-fab-in-wuhan-despite-us-sanctions) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>
