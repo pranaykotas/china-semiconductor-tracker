@@ -1,0 +1,61 @@
+---
+title: "SMIC Shanghai (Lingang)"
+subtitle: "SMIC | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+SMIC's largest single fab commitment — a $8.87B, 100,000 wafer/month 28nm-and-below joint venture with the Shanghai municipal government in the Lingang Special Area, formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司).
+:::
+
+**Chinese name:** 中芯临港 (Zhōngxīn Língǎng)
+
+## What does this facility make?
+
+12-inch (300mm) wafers at 28nm and more mature process nodes for foundry customers.
+
+## Why does it matter?
+
+Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SMIC |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch (300mm) wafer foundry, 28nm and below |
+| **Status** | Under Construction |
+| **Investment** | $8,870M |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **03 Sep 2021** — SMIC signs cooperation agreement with the Shanghai Lingang Management Committee for a $8.87 billion, 100,000 wafer/month 12-inch fab; registered capital $5.5 billion, SMIC holding no less than 51%
+- **12 Nov 2021** — Joint venture formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)
+
+## Sources
+
+- [SMIC to Build China's Largest Fab For $8.87 Billion](https://www.tomshardware.com/news/smic-to-build-chinas-largest-fab) (06 Sep 2021)
+- [China's top chip maker SMIC plans US$9 billion plant in Shanghai](https://www.scmp.com/tech/tech-war/article/3147472/chinas-top-chip-maker-smic-build-us9-billion-factory-shanghai-amid) (06 Sep 2021)
+- [Semiconductor Manufacturing International Corporation (Wikipedia) — Entity List addition, 18 Dec 2020](https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

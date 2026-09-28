@@ -1,0 +1,60 @@
+---
+title: "SMIC Tianjin (Xiqing)"
+subtitle: "SMIC | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+SMIC's fourth major mature-node fab of this expansion wave (中芯西青, 100% SMIC-owned), located in Tianjin's Xiqing Development Area.
+:::
+
+**Chinese name:** 中芯西青 (Zhōngxīn Xīqīng)
+
+## What does this facility make?
+
+12-inch (300mm) wafers spanning 0.18 micron to 28nm process nodes.
+
+## Why does it matter?
+
+Extends SMIC's mature-node capacity — the segment least affected by advanced-lithography export controls — into a fourth Chinese municipality.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SMIC |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 12-inch (300mm) wafer foundry, 0.18 micron to 28nm |
+| **Status** | Under Construction |
+| **Investment** | $7,500M |
+| **Funding Source** | Local Govt |
+| **Location** | Tianjin, Tianjin Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**3.4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **26 Aug 2022** — SMIC signs framework agreement to invest $7.5 billion in a new 12-inch fab in Tianjin's Xiqing district, initial registered capital $5 billion
+- **01 Sep 2022** — Construction begins on the Tianjin Xiqing fab
+
+## Sources
+
+- [Chinese chip maker SMIC boosts expansion with US$7.5 billion investment in new Tianjin plant amid concerns of US sanctions](https://www.scmp.com/tech/big-tech/article/3190397/chinese-chip-maker-smic-boosts-expansion-us75-billion-investment-new) (26 Aug 2022)
+- [China's biggest chip maker SMIC pushes ahead with construction of new Tianjin plant despite Covid-19 lockdowns](https://www.scmp.com/tech/big-tech/article/3194135/chinas-biggest-chip-maker-smic-pushes-ahead-construction-new-tianjin) (01 Sep 2022)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>
