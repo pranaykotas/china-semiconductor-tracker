@@ -1,6 +1,47 @@
 ---
 title: "Equipment & Materials"
+subtitle: "Tracking China's semiconductor equipment and materials chokepoint firms"
 date: last-modified
 ---
 
-*Content coming in Task 10 of the implementation plan.*
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(leaflet)
+library(DT)
+
+firms <- load_materials_firms("data/materials.yml")
+```
+
+## Overview
+
+Export controls target equipment and materials as much as fabs — the machines that deposit, etch, and pattern silicon, and the wafers and chemicals those machines consume. As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` firms**, of which **`r sum(firms$entity_list_flagged)`** are Entity List-flagged.
+
+## Firm Map
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE}
+firms$colour <- sapply(firms$segment, segment_color)
+popups <- vapply(1:nrow(firms), function(i) make_materials_popup(firms[i, ]), character(1))
+
+leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
+  addCircleMarkers(
+    lng = ~lon, lat = ~lat, radius = 8,
+    color = "#ffffff", fillColor = ~colour, fillOpacity = 0.85, stroke = TRUE, weight = 1.5,
+    popup = popups
+  )
+```
+
+## All Firms
+
+```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+table_data <- firms %>%
+  mutate(
+    Name = paste0('<a href="equipment-firms/', id, '.html">', name_en, '</a>'),
+    Segment = sapply(segment, segment_badge_html),
+    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name)
+  ) %>%
+  select(Name, Category = category, Segment, "Node Capability" = node_capability, "Entity List")
+
+datatable(table_data, escape = FALSE, filter = "top", options = list(pageLength = 15, dom = "ftip"), rownames = FALSE)
+```

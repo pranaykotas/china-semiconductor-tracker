@@ -1,0 +1,36 @@
+---
+title: "National Silicon Industry Group (NSIG)"
+subtitle: "Wafers"
+date: last-modified
+---
+
+**Chinese name:** 沪硅产业集团股份有限公司 (Hù Guī Chǎnyè Jítuán Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month.
+:::
+
+## What does this firm supply?
+
+300mm (12-inch) semiconductor-grade silicon wafers and SOI (silicon-on-insulator) substrates — the base material every fab in this tracker depends on, regardless of the fab's own ownership category or node.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Wafer/Substrate |
+| **Segment** | Wafers |
+| **Node Capability** | 300mm silicon wafers; not applicable in the process-node sense used for logic fabs |
+| **Founded** | 2015 |
+| **HQ** | Shanghai |
+| **Entity List** | No |
+
+## Sources
+
+- [National Silicon Industry Group (Wikipedia)](https://en.wikipedia.org/wiki/National_Silicon_Industry_Group) (28 Sep 2026)
+- [China-based National Silicon Industry to double wafer production capacity to foster self-reliant chip ecosystem](https://www.digitimes.com/news/a20240613VL201/national-silicon-industry-wafer-production-capacity-ic-manufacturing.html) (13 Jun 2024)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>

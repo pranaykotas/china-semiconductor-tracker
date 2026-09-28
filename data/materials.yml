@@ -1,0 +1,126 @@
+# China Equipment & Materials Firm Tracker — Source of Truth
+# Phase 1: five chokepoint firms across equipment and wafer/substrate categories
+#
+# Category values: Equipment | Materials | Wafer/Substrate
+# Segment values (free text, may combine): Lithography | Etch | Deposition | CMP | Photoresist | Specialty Gas | Wafers
+
+materials_firms:
+  - id: naura-technology
+    name_en: "Naura Technology"
+    name_zh: "北方华创"
+    name_pinyin: "Běifāng Huáchuàng"
+    category: "Equipment"
+    segment: "Etch, Deposition, CMP"
+    node_capability: "Advanced-node etch/deposition tools in volume use at SMIC and other mature-node fabs; not confirmed at leading-edge (sub-14nm) nodes"
+    founded: 2001
+    hq: {city: "Beijing", lat: 39.90, lon: 116.41}
+    entity_list:
+      status: true
+      date_added: "2024-12-03"
+      list: "US Commerce BIS"
+    narrative:
+      significance: "China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US Entity List in the December 2024 action that named 140 Chinese semiconductor firms."
+      what_it_supplies: "Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and wafer cleaning systems — alongside NAURA, AMEC, and Piotech helped raise China's global deposition-tool market share from roughly 2% to 7% between 2019 and 2024."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Naura_Technology"
+        title: "Naura Technology (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/"
+        title: "US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers"
+        date: "2024-12-03"
+
+  - id: amec
+    name_en: "AMEC (Advanced Micro-Fabrication Equipment)"
+    name_zh: "中微半导体设备（上海）股份有限公司"
+    name_pinyin: "Zhōngwēi Bàndǎotǐ Shèbèi (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Equipment"
+    segment: "Etch, Deposition (MOCVD)"
+    node_capability: "Plasma etch tools (Primo CCP/ICP series) in use down to 5nm at some customers, per company statements"
+    founded: 2004
+    hq: {city: "Shanghai", lat: 31.20, lon: 121.60}
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    narrative:
+      significance: "Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing."
+      what_it_supplies: "Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plasma, under the Primo brand) and MOCVD deposition tools used in compound semiconductor and LED manufacturing."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment"
+        title: "Advanced Micro-Fabrication Equipment (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.scmp.com/tech/tech-trends/article/3353937/chinas-amec-semiconductor-technology-now-industry-standard-adopted-rivals-founder"
+        title: "China's Amec setting industry standard for chipmaking tech, founder says"
+        date: "2026-09-28"
+
+  - id: smee
+    name_en: "SMEE (Shanghai Micro Electronics Equipment)"
+    name_zh: "上海微电子装备（集团）股份有限公司"
+    name_pinyin: "Shànghǎi Wēi Diànzǐ Zhuāngbèi (Jítuán) Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Equipment"
+    segment: "Lithography"
+    node_capability: "90nm-class confirmed in volume production (SSA600 scanner); a 28nm lithography claim surfaced via a shareholder social-media post in December 2023 but was later removed and is treated here as unverified"
+    founded: 2002
+    hq: {city: "Shanghai", lat: 31.21, lon: 121.61}
+    entity_list:
+      status: true
+      date_added: "2022-12-15"
+      list: "US Commerce BIS"
+    narrative:
+      significance: "China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest."
+      what_it_supplies: "Photolithography scanners (the SSA600 series, 90nm-class) and related mask-inspection tools."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Shanghai_Micro_Electronics_Equipment"
+        title: "Shanghai Micro Electronics Equipment (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.kharon.com/brief/semiconductors-lithography-smee-amies-technology-entity-list-export-controls"
+        title: "The U.S. Restricted China's Chipmaking-Tech Champion. Its New Spinoff Is Another Story."
+        date: "2026-09-28"
+
+  - id: acm-research
+    name_en: "ACM Research (Shanghai)"
+    name_zh: "盛美半导体设备（上海）股份有限公司"
+    name_pinyin: "Shèngměi Bàndǎotǐ Shèbèi (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Equipment"
+    segment: "Cleaning, Deposition (PECVD), ECP"
+    node_capability: "Not disclosed at a specific node; tools sold across mature and advanced-node fab lines"
+    founded: 2005
+    hq: {city: "Shanghai", lat: 31.19, lon: 121.59}
+    entity_list:
+      status: true
+      date_added: "2024-12-03"
+      list: "US Commerce BIS"
+    narrative:
+      significance: "China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit."
+      what_it_supplies: "Wafer cleaning systems, electrochemical plating (ECP) tools, PECVD deposition, furnace, and track platforms — several adjacent front-end process categories beyond its original cleaning-tool business."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/ACM_Research"
+        title: "ACM Research (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/"
+        title: "US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers"
+        date: "2024-12-03"
+
+  - id: national-silicon-industry-group
+    name_en: "National Silicon Industry Group (NSIG)"
+    name_zh: "沪硅产业集团股份有限公司"
+    name_pinyin: "Hù Guī Chǎnyè Jítuán Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Wafer/Substrate"
+    segment: "Wafers"
+    node_capability: "300mm silicon wafers; not applicable in the process-node sense used for logic fabs"
+    founded: 2015
+    hq: {city: "Shanghai", lat: 31.18, lon: 121.58}
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    narrative:
+      significance: "China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month."
+      what_it_supplies: "300mm (12-inch) semiconductor-grade silicon wafers and SOI (silicon-on-insulator) substrates — the base material every fab in this tracker depends on, regardless of the fab's own ownership category or node."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/National_Silicon_Industry_Group"
+        title: "National Silicon Industry Group (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.digitimes.com/news/a20240613VL201/national-silicon-industry-wafer-production-capacity-ic-manufacturing.html"
+        title: "China-based National Silicon Industry to double wafer production capacity to foster self-reliant chip ecosystem"
+        date: "2024-06-13"

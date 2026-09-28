@@ -1,0 +1,36 @@
+---
+title: "ACM Research (Shanghai)"
+subtitle: "Cleaning, Deposition (PECVD), ECP"
+date: last-modified
+---
+
+**Chinese name:** 盛美半导体设备（上海）股份有限公司 (Shèngměi Bàndǎotǐ Shèbèi (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit.
+:::
+
+## What does this firm supply?
+
+Wafer cleaning systems, electrochemical plating (ECP) tools, PECVD deposition, furnace, and track platforms — several adjacent front-end process categories beyond its original cleaning-tool business.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Equipment |
+| **Segment** | Cleaning, Deposition (PECVD), ECP |
+| **Node Capability** | Not disclosed at a specific node; tools sold across mature and advanced-node fab lines |
+| **Founded** | 2005 |
+| **HQ** | Shanghai |
+| **Entity List** | Yes — US Commerce BIS |
+
+## Sources
+
+- [ACM Research (Wikipedia)](https://en.wikipedia.org/wiki/ACM_Research) (28 Sep 2026)
+- [US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers](https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/) (03 Dec 2024)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>

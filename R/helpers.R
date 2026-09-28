@@ -282,3 +282,64 @@ make_design_popup <- function(row) {
     </div>
   ')
 }
+
+# ---- Load and flatten equipment/materials YAML into a tibble ----
+load_materials_firms <- function(path = "data/materials.yml") {
+  raw <- yaml::read_yaml(path)
+
+  rows <- lapply(raw$materials_firms, function(f) {
+    tibble(
+      id             = f$id,
+      name_en        = f$name_en,
+      name_zh        = f$name_zh %||% NA_character_,
+      name_pinyin    = f$name_pinyin %||% NA_character_,
+      category       = f$category,
+      segment        = f$segment,
+      node_capability = f$node_capability %||% "Not disclosed",
+      founded        = f$founded %||% NA_integer_,
+      city           = f$hq$city,
+      lat            = f$hq$lat,
+      lon            = f$hq$lon,
+      entity_list_flagged = f$entity_list$status %||% FALSE,
+      entity_list_date    = as.Date(f$entity_list$date_added %||% NA),
+      entity_list_name    = f$entity_list$list %||% NA_character_,
+      significance   = f$narrative$significance %||% "",
+      what_it_supplies = f$narrative$what_it_supplies %||% ""
+    )
+  })
+
+  df <- bind_rows(rows)
+  set.seed(45)
+  df %>% mutate(lat = lat + runif(n(), -0.015, 0.015), lon = lon + runif(n(), -0.015, 0.015))
+}
+
+segment_color <- function(segment) {
+  switch(segment,
+    "Lithography"     = "#620d3c",
+    "Etch"            = "#1565C0",
+    "Deposition"      = "#2f6b4a",
+    "CMP"             = "#6A1B9A",
+    "Photoresist"     = "#f1a222",
+    "Specialty Gas"   = "#00796B",
+    "Wafers"          = "#455A64",
+    "#8C8480"
+  )
+}
+
+segment_badge_html <- function(segment) {
+  glue('<span class="status-badge badge-announced" style="background-color:{segment_color(segment)};">{segment}</span>')
+}
+
+make_materials_popup <- function(row) {
+  glue('
+    <div class="facility-popup">
+      <h4>{row$name_en}</h4>
+      {zh_name_line(row$name_zh, row$name_pinyin)}
+      <div class="popup-row">{segment_badge_html(row$segment)}</div>
+      <div class="popup-row"><span class="popup-label">Category:</span> {row$category}</div>
+      <div class="popup-row"><span class="popup-label">Node capability:</span> {row$node_capability}</div>
+      <div class="popup-row">{entity_list_badge_html(row$entity_list_flagged, row$entity_list_date, row$entity_list_name)}</div>
+      <div class="popup-row" style="margin-top:6px;"><a href="equipment-firms/{row$id}.html" class="btn-detail">Full Profile →</a></div>
+    </div>
+  ')
+}

@@ -1,0 +1,36 @@
+---
+title: "AMEC (Advanced Micro-Fabrication Equipment)"
+subtitle: "Etch, Deposition (MOCVD)"
+date: last-modified
+---
+
+**Chinese name:** 中微半导体设备（上海）股份有限公司 (Zhōngwēi Bàndǎotǐ Shèbèi (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing.
+:::
+
+## What does this firm supply?
+
+Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plasma, under the Primo brand) and MOCVD deposition tools used in compound semiconductor and LED manufacturing.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Equipment |
+| **Segment** | Etch, Deposition (MOCVD) |
+| **Node Capability** | Plasma etch tools (Primo CCP/ICP series) in use down to 5nm at some customers, per company statements |
+| **Founded** | 2004 |
+| **HQ** | Shanghai |
+| **Entity List** | No |
+
+## Sources
+
+- [Advanced Micro-Fabrication Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment) (28 Sep 2026)
+- [China's Amec setting industry standard for chipmaking tech, founder says](https://www.scmp.com/tech/tech-trends/article/3353937/chinas-amec-semiconductor-technology-now-industry-standard-adopted-rivals-founder) (28 Sep 2026)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>

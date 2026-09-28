@@ -1,0 +1,36 @@
+---
+title: "SMEE (Shanghai Micro Electronics Equipment)"
+subtitle: "Lithography"
+date: last-modified
+---
+
+**Chinese name:** 上海微电子装备（集团）股份有限公司 (Shànghǎi Wēi Diànzǐ Zhuāngbèi (Jítuán) Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest.
+:::
+
+## What does this firm supply?
+
+Photolithography scanners (the SSA600 series, 90nm-class) and related mask-inspection tools.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Equipment |
+| **Segment** | Lithography |
+| **Node Capability** | 90nm-class confirmed in volume production (SSA600 scanner); a 28nm lithography claim surfaced via a shareholder social-media post in December 2023 but was later removed and is treated here as unverified |
+| **Founded** | 2002 |
+| **HQ** | Shanghai |
+| **Entity List** | Yes — US Commerce BIS |
+
+## Sources
+
+- [Shanghai Micro Electronics Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Shanghai_Micro_Electronics_Equipment) (28 Sep 2026)
+- [The U.S. Restricted China's Chipmaking-Tech Champion. Its New Spinoff Is Another Story.](https://www.kharon.com/brief/semiconductors-lithography-smee-amies-technology-entity-list-export-controls) (28 Sep 2026)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>
