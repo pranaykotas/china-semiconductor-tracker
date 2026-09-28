@@ -47,8 +47,8 @@ Widely reported as crippled by the 2018 ban in the years immediately after — a
 
 ## Project Timeline
 
-- **30 Oct 2018** — Added to the US Commerce Department's Entity List amid Micron trade-secret allegations
-- **01 Nov 2018** — US Attorney's Office files criminal complaint against JHICC and UMC for conspiracy to steal Micron trade secrets
+- **Oct 2018** — Added to the US Commerce Department's Entity List amid Micron trade-secret allegations
+- **Nov 2018** — US Attorney's Office files criminal complaint against JHICC and UMC for conspiracy to steal Micron trade secrets
 
 ## Sources
 

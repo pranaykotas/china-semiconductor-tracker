@@ -8,23 +8,27 @@ date: last-modified
 source("R/helpers.R")
 library(leaflet)
 library(DT)
+library(sf)
+library(rnaturalearth)
 
 firms <- load_design_firms("data/design.yml")
 ```
 
 ## Overview
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` design firms**, of which **`r sum(firms$entity_list_flagged)`** are Entity List-flagged.
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` design firms**, of which **`r sum(firms$entity_list_flagged)`** carry a US export-control or military-linked designation (Entity List or DoD 1260H — see the table below for which applies to each).
 
 ## Design Firm Map
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 firms$colour <- sapply(firms$category, design_category_color)
 popups <- vapply(1:nrow(firms), function(i) make_design_popup(firms[i, ]), character(1))
+boundaries <- load_boundaries()
 
 leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   addProviderTiles("CartoDB.Positron") %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
+  add_boundary_layers(boundaries) %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat, radius = 8,
     color = "#ffffff", fillColor = ~colour, fillOpacity = 0.85, stroke = TRUE, weight = 1.5,

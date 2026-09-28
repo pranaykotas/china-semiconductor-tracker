@@ -27,7 +27,7 @@ Illustrates China's mature-node strategy: rather than chase export-controlled ad
 | **Type** | Fab |
 | **Category** | State-Backed |
 | **Capability** | 12-inch (300mm) wafer foundry, specialty/mature nodes (65nm, 55nm, 40nm) |
-| **Status** | Under Construction |
+| **Status** | Operational |
 | **Investment** | $6,700M |
 | **Funding Source** | Big Fund II |
 | **Location** | Wuxi, Jiangsu |
@@ -47,9 +47,10 @@ Illustrates China's mature-node strategy: rather than chase export-controlled ad
 
 ## Project Timeline
 
-- **11 Jan 2023** — Hua Hong Semiconductor, the Big Fund, and a Wuxi entity sign agreement for a $6.7 billion second 12-inch Wuxi fab (Fab9)
-- **01 Jun 2023** — Construction of Fab9 begins, completing roughly 100 days ahead of schedule
-- **01 Dec 2024** — Hua Hong Manufacturing (Wuxi) Fab9 put into production
+- **Jan 2023** — Hua Hong Semiconductor, the Big Fund, and a Wuxi entity sign agreement for a $6.7 billion second 12-inch Wuxi fab (Fab9)
+- **Jun 2023** — Construction of Fab9 begins
+- **Sep 2023** — Fab9's main building topped out roughly 100 days ahead of schedule
+- **Dec 2024** — Hua Hong Manufacturing (Wuxi) Fab9 put into production
 
 ## Sources
 

@@ -9,7 +9,7 @@
 
 facilities:
 
-  - id: smic-shanghai
+  - id: smic-lingang
     name_en: "SMIC Shanghai (Lingang)"
     name_zh: "中芯临港"
     name_pinyin: "Zhōngxīn Língǎng"
@@ -252,7 +252,7 @@ facilities:
     investment:
       total_usd_million: 6700
       source: "Big Fund II"
-    status: "Under Construction"
+    status: "Operational"
     entity_list:
       status: false
       date_added: null
@@ -270,7 +270,9 @@ facilities:
       - date: "2023-01-11"
         event: "Hua Hong Semiconductor, the Big Fund, and a Wuxi entity sign agreement for a $6.7 billion second 12-inch Wuxi fab (Fab9)"
       - date: "2023-06-01"
-        event: "Construction of Fab9 begins, completing roughly 100 days ahead of schedule"
+        event: "Construction of Fab9 begins"
+      - date: "2023-09-01"
+        event: "Fab9's main building topped out roughly 100 days ahead of schedule"
       - date: "2024-12-01"
         event: "Hua Hong Manufacturing (Wuxi) Fab9 put into production"
     complexity:
@@ -325,7 +327,7 @@ facilities:
     narrative:
       significance: "China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer 3D NAND with its own Xtacking architecture before being added to the US Entity List."
       what_it_makes: "3D NAND flash memory chips using XTacking wafer-bonding architecture, plus packaged memory chips and SSDs."
-      why_it_matters: "The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it — a 2023 finding that YMTC chips were inside a Huawei phone helped trigger tighter memory-sector controls."
+      why_it_matters: "The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it. BIS cited YMTC's NAND supply to Huawei, and YMTC's earlier addition to BIS's Unverified List without cooperating on an end-use check within the required window, as grounds for the December 2022 Entity List action — this was distinct from the 2023 Huawei Mate 60 Pro teardown, whose memory chips were later identified as SK Hynix parts, not YMTC's."
     milestones:
       - date: "2016-07-26"
         event: "YMTC founded by Tsinghua Unigroup with Hubei provincial and Big Fund backing, $24 billion planned investment"
@@ -347,6 +349,12 @@ facilities:
       - url: "https://en.wikipedia.org/wiki/Yangtze_Memory_Technologies"
         title: "Yangtze Memory Technologies (Wikipedia)"
         date: "2026-09-28"
+      - url: "https://www.digitimes.com/news/a20221216VL204/us-china-chip-ban-ymtc.html"
+        title: "US adds 36 Chinese entities into Entity List, including YMTC"
+        date: "2022-12-16"
+      - url: "https://asia.nikkei.com/spotlight/most-read-in-2023/huawei-mate-60-pro-teardown-reveals-47-chinese-parts-in-phone"
+        title: "Huawei Mate 60 Pro teardown reveals 47% Chinese parts in phone (confirms SK Hynix, not YMTC, supplied the phone's memory)"
+        date: "2023-09-01"
       - url: "https://www.tomshardware.com/tech-industry/semiconductors/ymtc-moves-ahead-with-third-fab-in-wuhan-despite-us-sanctions"
         title: "YMTC moves ahead with third chipmaking fab in Wuhan despite U.S. sanctions"
         date: "2026-09-28"
@@ -373,7 +381,7 @@ facilities:
     status: "Operational"
     entity_list:
       status: true
-      date_added: "2026-06-01"
+      date_added: "2025-01-07"
       list: "US DoD 1260H List (Chinese Military Companies)"
     equipment_origin:
       domestic_pct: null
@@ -385,14 +393,14 @@ facilities:
     narrative:
       significance: "China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity."
       what_it_makes: "DRAM chips on 12-inch (300mm) wafers, now including DDR5-capable products."
-      why_it_matters: "DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally by 2026 marks a real capability jump, arriving alongside a June 2026 US Department of Defense listing as a Chinese military-linked entity (distinct from, and less restrictive than, the Commerce Department's Entity List)."
+      why_it_matters: "DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally marks a real capability jump, arriving alongside a January 2025 US Department of Defense listing as a Chinese military-linked entity under Section 1260H — a designation legally distinct from the Commerce Department's Entity List: 1260H does not itself restrict exports, but a subsequent statutory provision (FY2024 NDAA Section 805) bars US Department of Defense contracting with listed entities effective mid-2026. A June 2026 Pentagon update revised the 1260H list further; this tracker has not independently verified CXMT's exact status in that later revision, so the January 2025 addition is recorded as the confirmed fact."
     milestones:
       - date: "2016-05-01"
         event: "Founded as Innotron Memory / Hefei Chang Xin"
       - date: "2017-01-01"
         event: "$7.2 billion investment announced for a 125,000 wafer/month 12-inch DRAM fab"
-      - date: "2026-06-01"
-        event: "Added to the US Department of Defense's list of Chinese military-linked companies (Section 1260H)"
+      - date: "2025-01-07"
+        event: "Added to the US Department of Defense's Section 1260H list of Chinese military-linked companies (Federal Register notice)"
     complexity:
       technology_difficulty: 4
       foreign_dependence: 4

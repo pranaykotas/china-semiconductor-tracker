@@ -47,8 +47,8 @@ A structurally different ownership model (collaborative IDM, not a pure foundry 
 
 ## Project Timeline
 
-- **01 Apr 2018** — SiEn (Qingdao) established in the Qingdao West Coast New Area (Huangdao)
-- **01 Jan 2021** — Production commences on the first-phase lines
+- **Apr 2018** — SiEn (Qingdao) established in the Qingdao West Coast New Area (Huangdao)
+- **Jan 2021** — Production commences on the first-phase lines
 
 ## Sources
 

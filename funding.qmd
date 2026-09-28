@@ -12,7 +12,6 @@ library(dplyr)
 
 funding <- load_funding("data/funding.yml")
 facilities <- load_facilities("data/facilities.yml")
-design <- load_design_firms("data/design.yml")
 ```
 
 ## Big Fund Rounds
@@ -25,26 +24,55 @@ knitr::kable(funding %>% mutate(Size = ifelse(is.na(size_rmb_100m), "Not disclos
 
 ## Investment by Funding Source
 
-Aggregated across all tracked facilities.
+Aggregated across all tracked facilities. **RMB-denominated and USD-denominated figures are shown as two separate charts, never summed together** — most facilities in this tracker (including YMTC, tagged Big Fund I, and Hua Hong Wuxi, tagged Big Fund II) only disclose a USD figure, so a chart of RMB totals alone would make Big Fund's role look far smaller than the underlying data shows.
 
-```{r source-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
-source_data <- facilities %>%
+### RMB-Denominated Investment
+
+```{r source-chart-rmb, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
+source_data_rmb <- facilities %>%
   filter(!is.na(investment_rmb100m)) %>%
   group_by(investment_source) %>%
   summarise(total = sum(investment_rmb100m, na.rm = TRUE), n = n(), .groups = "drop") %>%
   filter(total > 0)
 
-ggplot(source_data, aes(x = reorder(investment_source, total), y = total, fill = investment_source)) +
-  geom_col(width = 0.6) +
-  geom_text(aes(label = paste0(n, " facilit", ifelse(n == 1, "y", "ies"), "\n¥", format(total, big.mark = ","), "亿")), hjust = -0.1, size = 3.5) +
-  coord_flip() +
-  scale_fill_manual(values = sapply(source_data$investment_source, funding_source_color), guide = "none") +
-  scale_y_continuous(expand = expansion(mult = c(0, 0.4))) +
-  labs(x = NULL, y = "Total disclosed investment (¥100M)") +
-  theme_minimal()
+if (nrow(source_data_rmb) > 0) {
+  ggplot(source_data_rmb, aes(x = reorder(investment_source, total), y = total, fill = investment_source)) +
+    geom_col(width = 0.6) +
+    geom_text(aes(label = paste0(n, " facilit", ifelse(n == 1, "y", "ies"), "\n¥", format(total, big.mark = ","), "亿")), hjust = -0.1, size = 3.5) +
+    coord_flip() +
+    scale_fill_manual(values = sapply(source_data_rmb$investment_source, funding_source_color), guide = "none") +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.4))) +
+    labs(x = NULL, y = "Total disclosed investment (¥100M)") +
+    theme_minimal()
+} else {
+  cat("*No RMB-denominated investment data yet.*")
+}
+```
+
+### USD-Denominated Investment
+
+```{r source-chart-usd, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
+source_data_usd <- facilities %>%
+  filter(!is.na(investment_usd_m)) %>%
+  group_by(investment_source) %>%
+  summarise(total = sum(investment_usd_m, na.rm = TRUE), n = n(), .groups = "drop") %>%
+  filter(total > 0)
+
+if (nrow(source_data_usd) > 0) {
+  ggplot(source_data_usd, aes(x = reorder(investment_source, total), y = total, fill = investment_source)) +
+    geom_col(width = 0.6) +
+    geom_text(aes(label = paste0(n, " facilit", ifelse(n == 1, "y", "ies"), "\n$", format(total, big.mark = ","), "M")), hjust = -0.1, size = 3.5) +
+    coord_flip() +
+    scale_fill_manual(values = sapply(source_data_usd$investment_source, funding_source_color), guide = "none") +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.4))) +
+    labs(x = NULL, y = "Total disclosed investment ($M)") +
+    theme_minimal()
+} else {
+  cat("*No USD-denominated investment data yet.*")
+}
 ```
 
 ::: {.callout-note}
 ## Data Limitation
-Unlike India's Union Budget documents, China does not publish itemized Big Fund disbursement-by-project data. Figures here are facility-level investment totals tagged by funding source where a source has disclosed the tag — not an audited Big Fund expenditure ledger.
+Unlike India's Union Budget documents, China does not publish itemized Big Fund disbursement-by-project data. Figures here are facility-level investment totals tagged by funding source where a source has disclosed the tag — not an audited Big Fund expenditure ledger. No currency conversion is applied anywhere on this site; RMB and USD figures are always shown separately.
 :::

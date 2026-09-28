@@ -47,9 +47,9 @@ ggplot(nodes, aes(x = reorder(node, -node_nm), y = 1, fill = era)) +
 
 ## China's Indigenization Trajectory
 
-Each line traces one facility's most advanced disclosed process node over time — the clearest signal of how effectively export controls have slowed (or failed to slow) specific fabs.
+Each line traces one facility's most advanced disclosed process technology over time — the clearest signal of how effectively export controls have slowed (or failed to slow) specific fabs. **Logic/DRAM process width (nm) and 3D NAND layer count are different units and are never plotted on the same axis** — a higher layer count is more advanced, while a smaller nm figure is more advanced, so combining them on one chart would misread as a regression for exactly the facilities making the fastest progress.
 
-```{r trajectory-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=6, dev="ragg_png"}
+```{r trajectory-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=5, dev="ragg_png"}
 trajectory_rows <- do.call(rbind, lapply(raw_facs, function(f) {
   if (is.null(f$node_trajectory) || length(f$node_trajectory) == 0) return(NULL)
   do.call(rbind, lapply(f$node_trajectory, function(t) {
@@ -57,22 +57,63 @@ trajectory_rows <- do.call(rbind, lapply(raw_facs, function(f) {
   }))
 }))
 
-if (!is.null(trajectory_rows) && nrow(trajectory_rows) > 0) {
-  node_to_nm <- function(n) as.numeric(gsub("[^0-9].*", "", n))
-  trajectory_rows$node_nm <- sapply(trajectory_rows$node, node_to_nm)
+# Strict unit-specific parsers: a value counts as an "nm" figure only when
+# the string literally says "Nnm", and as a "layer" figure only when it
+# literally says "N-layer" — never inferred from a bare leading number,
+# which previously misread 3D NAND layer counts (e.g. "128-layer") as a
+# 128nm process node.
+node_to_nm <- function(s) {
+  m <- regexpr("([0-9]+(\\.[0-9]+)?)\\s*nm", s, ignore.case = TRUE, perl = TRUE)
+  if (m[1] == -1) return(NA_real_)
+  as.numeric(gsub("[^0-9.]", "", regmatches(s, m)))
+}
+node_to_layers <- function(s) {
+  m <- regexpr("([0-9]+)-layer", s, ignore.case = TRUE, perl = TRUE)
+  if (m[1] == -1) return(NA_real_)
+  as.numeric(gsub("[^0-9]", "", regmatches(s, m)))
+}
 
-  ggplot(trajectory_rows, aes(x = year, y = node_nm, color = facility, group = facility)) +
+if (!is.null(trajectory_rows) && nrow(trajectory_rows) > 0) {
+  trajectory_rows$node_nm <- sapply(trajectory_rows$node, node_to_nm)
+  trajectory_rows$node_layers <- sapply(trajectory_rows$node, node_to_layers)
+  nm_rows <- trajectory_rows[!is.na(trajectory_rows$node_nm), ]
+  layer_rows <- trajectory_rows[!is.na(trajectory_rows$node_layers), ]
+} else {
+  nm_rows <- trajectory_rows[0, ]
+  layer_rows <- trajectory_rows[0, ]
+}
+```
+
+### Logic / DRAM Process Width
+
+```{r nm-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=4, dev="ragg_png"}
+if (nrow(nm_rows) > 0) {
+  ggplot(nm_rows, aes(x = year, y = node_nm, color = facility, group = facility)) +
     geom_line(linewidth = 1) +
     geom_point(size = 2) +
     scale_y_reverse() +
     labs(x = "Year", y = "Node (nm, smaller = more advanced)", color = "Facility") +
     theme_minimal()
 } else {
-  cat("*No node trajectory data yet — populated as facility research is added.*")
+  cat("*No nm-denominated node trajectory data yet.*")
+}
+```
+
+### 3D NAND Layer Count
+
+```{r layer-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=4, dev="ragg_png"}
+if (nrow(layer_rows) > 0) {
+  ggplot(layer_rows, aes(x = year, y = node_layers, color = facility, group = facility)) +
+    geom_line(linewidth = 1) +
+    geom_point(size = 2) +
+    labs(x = "Year", y = "Layer count (higher = more advanced)", color = "Facility") +
+    theme_minimal()
+} else {
+  cat("*No layer-count node trajectory data yet.*")
 }
 ```
 
 ::: {.callout-note}
-## Reading This Chart
-A facility with no plotted line has not yet had its node history researched (see [About](about.qmd) for data status). Absence from this chart is a data gap, not a claim about the facility's capability.
+## Reading These Charts
+A facility with no plotted line has not yet had its node history researched (see [About](about.qmd) for data status). Absence from a chart is a data gap, not a claim about the facility's capability. An entry whose process technology doesn't parse into either unit (for example, a named-but-unquantified node such as "DDR5-capable, exact width not disclosed") is excluded from both charts rather than guessed — it still appears in that facility's own profile page.
 :::

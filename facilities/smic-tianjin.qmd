@@ -47,8 +47,8 @@ Extends SMIC's mature-node capacity — the segment least affected by advanced-l
 
 ## Project Timeline
 
-- **26 Aug 2022** — SMIC signs framework agreement to invest $7.5 billion in a new 12-inch fab in Tianjin's Xiqing district, initial registered capital $5 billion
-- **01 Sep 2022** — Construction begins on the Tianjin Xiqing fab
+- **Aug 2022** — SMIC signs framework agreement to invest $7.5 billion in a new 12-inch fab in Tianjin's Xiqing district, initial registered capital $5 billion
+- **Sep 2022** — Construction begins on the Tianjin Xiqing fab
 
 ## Sources
 

@@ -20,11 +20,11 @@ facilities <- load_facilities("data/facilities.yml")
 
 China's semiconductor industry is racing to indigenize under an expanding regime of US-led export controls. State financing through the National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has backed fabs, memory makers, and equipment firms since 2014, while companies like SMIC have pushed mature-node lithography to produce chips at nodes once thought to require tools China cannot buy.
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities, of which **`r sum(facilities$entity_list_flagged)`** are flagged on the US Entity List. Total disclosed investment stands at **¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿** (¥100M units).
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities, of which **`r sum(facilities$entity_list_flagged)`** carry a US export-control or military-linked designation (Commerce Department Entity List or DoD Section 1260H — see [Export Controls](export-controls.qmd) for which applies to each). Disclosed investment stands at **¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿** in RMB-denominated figures and **$`r format(sum(facilities$investment_usd_m, na.rm = TRUE), big.mark = ",")`M** in USD-denominated figures — the two are shown separately rather than converted, since combining them would require an exchange-rate assumption (see [About](about.qmd)).
 
 ::: {.callout-note}
 ## Boundary Disclaimer
-China's national outline uses [Natural Earth](https://www.naturalearthdata.com/)'s standard boundary. **Indian territory on this map is drawn from the same official Government of India boundary dataset (DataMeet composite) used in the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com)** — layered on top so Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are always shown as Indian territory, regardless of how any third-party China-sourced dataset draws the disputed border. See [About](about.qmd) for full methodology.
+China's national outline uses [Natural Earth](https://www.naturalearthdata.com/)'s standard boundary, **clipped to remove any area India's own official boundary dataset (DataMeet composite, the same file the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com) uses) claims as Indian territory** — Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are never outlined as part of China on this map, regardless of how the underlying China-sourced dataset draws the disputed border. See [About](about.qmd) for full methodology.
 :::
 
 ---
@@ -38,12 +38,10 @@ colors <- sapply(facilities$category, category_color)
 popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), character(1))
 labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
 
-china <- ne_countries(country = "China", scale = "medium", returnclass = "sf")
-# India's OWN official boundary (same file as the India tracker), drawn on top of
-# the China layer below so Indian territory is never shown as Chinese regardless
-# of how ne_countries() draws the disputed border. Do not remove this layer or
-# reorder it before the China polygon — see Global Constraints in the plan.
-india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
+# China's boundary CLIPPED of India's officially claimed territory, plus
+# India's own official boundary — see load_boundaries() in R/helpers.R for
+# why the raw ne_countries() China polygon is never drawn directly.
+boundaries <- load_boundaries()
 
 carto_key <- Sys.getenv("CARTO_API_KEY")
 positron_url <- paste0(
@@ -57,22 +55,7 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
     attribution = '&copy; <a href="https://carto.com/attributions">CARTO</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   ) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
-  addPolygons(
-    data = china,
-    color = "#620d3c",
-    weight = 2,
-    fillColor = "#E8EAF0",
-    fillOpacity = 0.1,
-    group = "China Boundary"
-  ) %>%
-  addPolygons(
-    data = india,
-    color = "#1565C0",
-    weight = 2,
-    fillColor = "#D6E4F0",
-    fillOpacity = 0.25,
-    group = "India (Official Boundary)"
-  ) %>%
+  add_boundary_layers(boundaries) %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat,
     radius = 10,
@@ -115,14 +98,21 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
 [¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿]{.card-value}
-[Disclosed investment]{.card-label}
+[Disclosed investment (RMB)]{.card-label}
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+::: {.summary-card}
+[$`r format(sum(facilities$investment_usd_m, na.rm = TRUE), big.mark = ",")`M]{.card-value}
+[Disclosed investment (USD)]{.card-label}
 :::
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
 [`r sum(facilities$entity_list_flagged)`]{.card-value}
-[Entity List-flagged]{.card-label}
+[US-designated]{.card-label}
 :::
 :::
 

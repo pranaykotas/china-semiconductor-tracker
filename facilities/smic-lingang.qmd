@@ -47,8 +47,8 @@ Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, 
 
 ## Project Timeline
 
-- **03 Sep 2021** — SMIC signs cooperation agreement with the Shanghai Lingang Management Committee for a $8.87 billion, 100,000 wafer/month 12-inch fab; registered capital $5.5 billion, SMIC holding no less than 51%
-- **12 Nov 2021** — Joint venture formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)
+- **Sep 2021** — SMIC signs cooperation agreement with the Shanghai Lingang Management Committee for a $8.87 billion, 100,000 wafer/month 12-inch fab; registered capital $5.5 billion, SMIC holding no less than 51%
+- **Nov 2021** — Joint venture formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)
 
 ## Sources
 

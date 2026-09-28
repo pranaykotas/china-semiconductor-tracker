@@ -7,14 +7,56 @@ library(htmltools)
 
 `%||%` <- function(a, b) if (!is.null(a)) a else b
 
+# ---- Stop hard on a duplicate id within one entity file. A duplicate id
+# would make its generator overwrite one entry's generated profile page
+# with another's, silently. Called by every loader before building rows. ----
+stop_on_duplicate_ids <- function(entries, file_label) {
+  ids <- sapply(entries, function(e) e$id)
+  if (any(duplicated(ids))) {
+    stop("Duplicate id(s) found in ", file_label, ": ", paste(unique(ids[duplicated(ids)]), collapse = ", "))
+  }
+}
+
+# ---- Load China's boundary CLIPPED of India's officially claimed territory,
+# and India's own official boundary, for every map on this site. Never draw
+# the raw (unclipped) China polygon: ne_countries()'s China boundary overlaps
+# India's DataMeet boundary by ~41,000 sq km (Aksai Chin, Shaksgam valley) —
+# an opaque China outline drawn over that area would depict Indian territory
+# as Chinese even with India's layer added on top afterward. Clipping first
+# removes the China polygon from that area entirely, so there is nothing left
+# for China's stroke to outline there. Requires library(sf) and
+# library(rnaturalearth) loaded by the caller. ----
+load_boundaries <- function() {
+  china_raw <- rnaturalearth::ne_countries(country = "China", scale = "medium", returnclass = "sf")
+  india <- sf::st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
+
+  china_v <- sf::st_make_valid(china_raw)
+  india_v <- sf::st_make_valid(india)
+  china_clipped <- sf::st_make_valid(sf::st_difference(china_v, sf::st_union(india_v)))
+
+  list(china = china_clipped, india = india_v)
+}
+
+# ---- Add the clipped China boundary + India's official boundary to a
+# leaflet map, India always drawn last (on top). ----
+add_boundary_layers <- function(map, boundaries) {
+  map %>%
+    leaflet::addPolygons(
+      data = boundaries$china,
+      color = "#620d3c", weight = 2, fillColor = "#E8EAF0", fillOpacity = 0.1,
+      group = "China Boundary"
+    ) %>%
+    leaflet::addPolygons(
+      data = boundaries$india,
+      color = "#1565C0", weight = 2, fillColor = "#D6E4F0", fillOpacity = 0.25,
+      group = "India (Official Boundary)"
+    )
+}
+
 # ---- Load and flatten facilities YAML into a tibble ----
 load_facilities <- function(path = "data/facilities.yml") {
   raw <- yaml::read_yaml(path)
-
-  ids <- sapply(raw$facilities, function(f) f$id)
-  if (any(duplicated(ids))) {
-    stop("Duplicate facility id(s) found: ", paste(unique(ids[duplicated(ids)]), collapse = ", "))
-  }
+  stop_on_duplicate_ids(raw$facilities, path)
 
   rows <- lapply(raw$facilities, function(f) {
     trajectory <- f$node_trajectory
@@ -155,13 +197,19 @@ complexity_bar_html <- function(score) {
   glue('<span class="complexity-bar" title="Technical Complexity: {score}/5">{paste(segments, collapse = "")}</span>')
 }
 
-# ---- Render an Entity List badge (empty string if not flagged) ----
+# ---- Render a US-designation badge (empty string if not flagged). Labels
+# by which list actually applies — "Entity List" (Commerce/BIS export
+# restrictions) and "DoD 1260H" (a legally distinct Defense Department
+# military-company designation) are not interchangeable, and a badge that
+# always says "Entity List" would misdescribe a 1260H-only entry. ----
 entity_list_badge_html <- function(flagged, date_added = NA, list_name = NA_character_) {
   if (!isTRUE(flagged)) return("")
+  is_1260h <- !is.na(list_name) && grepl("1260H", list_name, ignore.case = TRUE)
+  label <- if (is_1260h) "⚠ DoD 1260H" else "⚠ Entity List"
   detail <- if (!is.na(date_added)) {
     paste0(" (added ", format(date_added, "%b %Y"), ", ", list_name, ")")
   } else ""
-  glue('<span class="status-badge badge-cancelled" title="Entity List{detail}">⚠ Entity List</span>')
+  glue('<span class="status-badge badge-cancelled" title="{label}{detail}">{label}</span>')
 }
 
 # ---- Build the Chinese-name subtitle line, gracefully empty if unverified ----
@@ -205,6 +253,7 @@ make_label <- function(row) {
 # ---- Load and flatten design firms YAML into a tibble ----
 load_design_firms <- function(path = "data/design.yml") {
   raw <- yaml::read_yaml(path)
+  stop_on_duplicate_ids(raw$design_firms, path)
 
   rows <- lapply(raw$design_firms, function(f) {
     tibble(
@@ -286,6 +335,7 @@ make_design_popup <- function(row) {
 # ---- Load and flatten equipment/materials YAML into a tibble ----
 load_materials_firms <- function(path = "data/materials.yml") {
   raw <- yaml::read_yaml(path)
+  stop_on_duplicate_ids(raw$materials_firms, path)
 
   rows <- lapply(raw$materials_firms, function(f) {
     tibble(

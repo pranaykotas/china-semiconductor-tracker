@@ -99,7 +99,11 @@ for (i in 1:nrow(facilities)) {
 
   if (!is.null(this_fac$milestones) && length(this_fac$milestones) > 0) {
     milestone_lines <- sapply(this_fac$milestones, function(m) {
-      date_str <- format(as.Date(m$date), "%d %b %Y")
+      # Month-precision only: several source milestone dates are only known
+      # to the month (or year), not the day — a stored day-of-month is a
+      # storage convenience for sorting, not a verified fact, so it is never
+      # displayed at day precision.
+      date_str <- format(as.Date(m$date), "%b %Y")
       paste0("- **", date_str, "** — ", m$event)
     })
     milestones_section <- paste(milestone_lines, collapse = "\n")
