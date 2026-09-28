@@ -1,6 +1,166 @@
 ---
 title: "China Semiconductor Tracker: Facilities"
+subtitle: "Tracking semiconductor manufacturing across mainland China"
 date: last-modified
 ---
 
-*Content coming in Task 4 of the implementation plan.*
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(leaflet)
+library(DT)
+library(ggplot2)
+library(scales)
+library(sf)
+library(rnaturalearth)
+
+facilities <- load_facilities("data/facilities.yml")
+```
+
+## The Story So Far
+
+China's semiconductor industry is racing to indigenize under an expanding regime of US-led export controls. State financing through the National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has backed fabs, memory makers, and equipment firms since 2014, while companies like SMIC have pushed mature-node lithography to produce chips at nodes once thought to require tools China cannot buy.
+
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities, of which **`r sum(facilities$entity_list_flagged)`** are flagged on the US Entity List. Total disclosed investment stands at **¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿** (¥100M units).
+
+::: {.callout-note}
+## Boundary Disclaimer
+China's national outline uses [Natural Earth](https://www.naturalearthdata.com/)'s standard boundary. **Indian territory on this map is drawn from the same official Government of India boundary dataset (DataMeet composite) used in the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com)** — layered on top so Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are always shown as Indian territory, regardless of how any third-party China-sourced dataset draws the disputed border. See [About](about.qmd) for full methodology.
+:::
+
+---
+
+## Facility Map
+
+Facilities are coloured by ownership category — the dimension most relevant to China's export-control and state-financing story.
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE}
+colors <- sapply(facilities$category, category_color)
+popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), character(1))
+labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
+
+china <- ne_countries(country = "China", scale = "medium", returnclass = "sf")
+# India's OWN official boundary (same file as the India tracker), drawn on top of
+# the China layer below so Indian territory is never shown as Chinese regardless
+# of how ne_countries() draws the disputed border. Do not remove this layer or
+# reorder it before the China polygon — see Global Constraints in the plan.
+india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
+
+carto_key <- Sys.getenv("CARTO_API_KEY")
+positron_url <- paste0(
+  "https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key=",
+  carto_key
+)
+
+leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
+  addTiles(
+    urlTemplate = positron_url,
+    attribution = '&copy; <a href="https://carto.com/attributions">CARTO</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  ) %>%
+  fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
+  addPolygons(
+    data = china,
+    color = "#620d3c",
+    weight = 2,
+    fillColor = "#E8EAF0",
+    fillOpacity = 0.1,
+    group = "China Boundary"
+  ) %>%
+  addPolygons(
+    data = india,
+    color = "#1565C0",
+    weight = 2,
+    fillColor = "#D6E4F0",
+    fillOpacity = 0.25,
+    group = "India (Official Boundary)"
+  ) %>%
+  addCircleMarkers(
+    lng = ~lon, lat = ~lat,
+    radius = 10,
+    color = colors,
+    fillColor = colors,
+    fillOpacity = 0.8,
+    stroke = TRUE,
+    weight = 1.5,
+    popup = popups,
+    label = labels,
+    labelOptions = labelOptions(
+      style = list("font-size" = "12px", "padding" = "6px 10px"),
+      direction = "auto"
+    ),
+    clusterOptions = markerClusterOptions(
+      maxClusterRadius = 30,
+      spiderfyOnMaxZoom = TRUE,
+      showCoverageOnHover = FALSE,
+      zoomToBoundsOnClick = TRUE
+    )
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    colors = c("#620d3c", "#2f6b6b", "#6A1B9A", "#1565C0"),
+    labels = c("State-Backed", "Private", "JV", "Foreign-Invested"),
+    title = "Ownership Category"
+  )
+```
+
+## Summary
+
+::: {.grid}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+::: {.summary-card}
+[`r nrow(facilities)`]{.card-value}
+[Facilities tracked]{.card-label}
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+::: {.summary-card}
+[¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿]{.card-value}
+[Disclosed investment]{.card-label}
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+::: {.summary-card}
+[`r sum(facilities$entity_list_flagged)`]{.card-value}
+[Entity List-flagged]{.card-label}
+:::
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+::: {.summary-card}
+[`r sum(facilities$status == "Operational")`]{.card-value}
+[Operational]{.card-label}
+:::
+:::
+:::
+
+## All Facilities
+
+```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+table_data <- facilities %>%
+  mutate(
+    Name = paste0('<a href="facilities/', id, '.html">', name_en, '</a>'),
+    Category = sapply(category, category_badge_html),
+    Status = mapply(status_badge_html, status, status_detail),
+    Complexity = sapply(complexity_score, complexity_bar_html),
+    Investment = mapply(format_investment, investment_rmb100m, investment_usd_m, MoreArgs = list(short = TRUE)),
+    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name),
+    Location = paste0(city, ", ", province)
+  ) %>%
+  select(Name, Type = type, Category, Investment, Status, Complexity, "Entity List", Location)
+
+datatable(
+  table_data,
+  escape = FALSE,
+  filter = "top",
+  options = list(pageLength = 15, dom = "ftip", scrollX = TRUE),
+  rownames = FALSE,
+  class = "display compact"
+)
+```
+
+::: {.callout-note}
+## Understanding the Metrics
+- **Technical Complexity:** weighted score, 55% Technology Difficulty + 45% Capital Intensity, benchmarked against a 3nm fab (5/5). See [About](about.qmd).
+- **Investment:** shown in ¥ (RMB) 亿 (100 million yuan); a dollar figure is shown alongside when a firm's investment is only disclosed in USD.
+:::
