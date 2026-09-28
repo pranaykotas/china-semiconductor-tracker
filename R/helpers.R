@@ -201,3 +201,84 @@ make_popup <- function(row) {
 make_label <- function(row) {
   glue('<strong>{row$name_en}</strong><br/>{row$company_en} | {row$capability}')
 }
+
+# ---- Load and flatten design firms YAML into a tibble ----
+load_design_firms <- function(path = "data/design.yml") {
+  raw <- yaml::read_yaml(path)
+
+  rows <- lapply(raw$design_firms, function(f) {
+    tibble(
+      id                = f$id,
+      name_en           = f$name_en,
+      name_zh           = f$name_zh %||% NA_character_,
+      name_pinyin       = f$name_pinyin %||% NA_character_,
+      category          = f$category,
+      founded           = f$founded %||% NA_integer_,
+      city              = f$location$city,
+      province          = f$location$province,
+      lat               = f$location$lat,
+      lon               = f$location$lon,
+      product_focus     = f$product_focus %||% "",
+      design_scope      = f$design_scope %||% "",
+      node_sophistication = f$node_sophistication %||% "",
+      entity_list_flagged = f$entity_list$status %||% FALSE,
+      entity_list_date  = as.Date(f$entity_list$date_added %||% NA),
+      entity_list_name  = f$entity_list$list %||% NA_character_,
+      significance      = f$narrative$significance %||% "",
+      what_it_designs   = f$narrative$what_it_designs %||% "",
+      score_dim1 = f$design_score$ip_ownership %||% NA_real_,
+      score_dim2 = f$design_score$design_completeness %||% NA_real_,
+      score_dim3 = f$design_score$domain_difficulty %||% NA_real_,
+      score_dim4 = f$design_score$market_readiness %||% NA_real_
+    )
+  })
+
+  df <- bind_rows(rows) %>%
+    mutate(design_composite = round(rowMeans(cbind(score_dim1, score_dim2, score_dim3, score_dim4), na.rm = FALSE), 1))
+
+  set.seed(43)
+  df %>% mutate(lat = lat + runif(n(), -0.015, 0.015), lon = lon + runif(n(), -0.015, 0.015))
+}
+
+design_category_color <- function(category) {
+  switch(category,
+    "Fabless"                    = "#620d3c",
+    "State-Backed Design House"  = "#2f6b4a",
+    "EDA & IP Provider"          = "#f1a222",
+    "#8C8480"
+  )
+}
+
+design_category_badge <- function(category) {
+  css_class <- switch(category,
+    "Fabless"                   = "badge-approved",
+    "State-Backed Design House" = "badge-operational",
+    "EDA & IP Provider"         = "badge-onhold",
+    "badge-announced"
+  )
+  glue('<span class="status-badge {css_class}">{category}</span>')
+}
+
+design_score_bar_html <- function(score) {
+  if (is.na(score)) return('<span class="complexity-bar" title="Not yet scored">—</span>')
+  filled <- round(score)
+  segments <- vapply(1:5, function(i) {
+    cls <- if (i <= filled) "complexity-segment filled" else "complexity-segment"
+    glue('<span class="{cls}"></span>')
+  }, character(1))
+  glue('<span class="complexity-bar" title="Design Score: {score}/5">{paste(segments, collapse = "")}</span>')
+}
+
+make_design_popup <- function(row) {
+  glue('
+    <div class="facility-popup">
+      <h4>{row$name_en}</h4>
+      {zh_name_line(row$name_zh, row$name_pinyin)}
+      <div class="popup-row">{design_category_badge(row$category)}</div>
+      <div class="popup-row"><span class="popup-label">Focus:</span> {row$product_focus}</div>
+      <div class="popup-row"><span class="popup-label">Node:</span> {row$node_sophistication}</div>
+      <div class="popup-row">{entity_list_badge_html(row$entity_list_flagged, row$entity_list_date, row$entity_list_name)}</div>
+      <div class="popup-row" style="margin-top:6px;"><a href="design-firms/{row$id}.html" class="btn-detail">Full Profile →</a></div>
+    </div>
+  ')
+}

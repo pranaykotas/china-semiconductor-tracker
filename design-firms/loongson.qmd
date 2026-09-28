@@ -1,0 +1,39 @@
+---
+title: "Loongson Technology"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 龙芯中科技术股份有限公司 (Lóngxīn Zhōngkē Jìshù Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86.
+:::
+
+## What does this firm design?
+
+General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 2010 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | General-purpose CPUs for government, industrial, and (increasingly) consumer use |
+| **Node Sophistication** | Not confirmed at leading-edge nodes; primarily mature-node CPU production |
+| **Entity List** | Yes — US Commerce BIS |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [Loongson (Wikipedia)](https://en.wikipedia.org/wiki/Loongson) (28 Sep 2026)
+- [U.S. Govt Blacklists Chinese Tech Firms Loongson and Inspur](https://www.tomshardware.com/news/us-govt-blacklists-loongson-and-inspur) (06 Mar 2023)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

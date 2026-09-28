@@ -1,0 +1,80 @@
+# China Chip Design Firm Tracker — Source of Truth
+# Phase 1: three firms spanning Fabless and State-Backed Design House categories
+#
+# Category values: Fabless | State-Backed Design House | EDA & IP Provider
+
+design_firms:
+  - id: hisilicon
+    name_en: "HiSilicon"
+    name_zh: "海思技术有限公司"
+    name_pinyin: "Hǎisī Jìshù Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2004
+    location: {city: "Shenzhen", province: "Guangdong", lat: 22.543, lon: 114.058}
+    product_focus: "Smartphone SoCs (Kirin), server/PC CPUs (Kunpeng), AI accelerators (Ascend), modem/baseband (Balong)"
+    design_scope: "Full SoC and chiplet design across mobile, server, and AI compute"
+    node_sophistication: "7nm-class (Kirin 9000S, fabricated by SMIC via multipatterning, August 2023)"
+    entity_list:
+      status: true
+      date_added: "2019-05-16"
+      list: "US Commerce BIS"
+    design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019."
+      what_it_designs: "Full-stack SoCs across smartphone (Kirin), server/PC (Kunpeng, based on ARM architecture licensed before restrictions tightened), AI accelerator (Ascend), and modem (Balong) product lines."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/HiSilicon"
+        title: "HiSilicon (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.androidauthority.com/huawei-hisilicon-852231/"
+        title: "HiSilicon: What you need to know about HUAWEI's chip design unit"
+        date: "2026-09-28"
+
+  - id: unisoc
+    name_en: "UNISOC"
+    name_zh: "紫光展锐（上海）科技有限公司"
+    name_pinyin: "Zǐguāng Zhǎnruì (Shànghǎi) Kējì Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2001
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.2304, lon: 121.4737}
+    product_focus: "Mobile communication chipsets (mid-range and entry-level), IoT chipsets, automotive chipsets"
+    design_scope: "SoC and baseband design, mass-market focus rather than flagship performance"
+    node_sophistication: "Mid-range mobile nodes; not confirmed at the most advanced nodes"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier."
+      what_it_designs: "Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/UNISOC"
+        title: "UNISOC (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: loongson
+    name_en: "Loongson Technology"
+    name_zh: "龙芯中科技术股份有限公司"
+    name_pinyin: "Lóngxīn Zhōngkē Jìshù Gǔfèn Yǒuxiàn Gōngsī"
+    category: "State-Backed Design House"
+    founded: 2010
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.984, lon: 116.317}
+    product_focus: "General-purpose CPUs for government, industrial, and (increasingly) consumer use"
+    design_scope: "Full CPU design on a self-developed instruction set architecture (LoongArch), not licensed from ARM, x86, or MIPS"
+    node_sophistication: "Not confirmed at leading-edge nodes; primarily mature-node CPU production"
+    entity_list:
+      status: true
+      date_added: "2023-03-02"
+      list: "US Commerce BIS"
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86."
+      what_it_designs: "General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Loongson"
+        title: "Loongson (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.tomshardware.com/news/us-govt-blacklists-loongson-and-inspur"
+        title: "U.S. Govt Blacklists Chinese Tech Firms Loongson and Inspur"
+        date: "2023-03-06"
