@@ -1,6 +1,50 @@
 ---
 title: "State Funding"
+subtitle: "China's National IC Industry Investment Fund (Big Fund) and other financing"
 date: last-modified
 ---
 
-*Content coming in Task 11 of the implementation plan.*
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(ggplot2)
+library(scales)
+library(dplyr)
+
+funding <- load_funding("data/funding.yml")
+facilities <- load_facilities("data/facilities.yml")
+design <- load_design_firms("data/design.yml")
+```
+
+## Big Fund Rounds
+
+The National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has run three rounds since 2014.
+
+```{r rounds-table, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::kable(funding %>% mutate(Size = ifelse(is.na(size_rmb_100m), "Not disclosed", paste0("¥", format(size_rmb_100m, big.mark = ","), "亿"))) %>% select(Round = round, Year = year, Size, Focus = focus))
+```
+
+## Investment by Funding Source
+
+Aggregated across all tracked facilities.
+
+```{r source-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
+source_data <- facilities %>%
+  filter(!is.na(investment_rmb100m)) %>%
+  group_by(investment_source) %>%
+  summarise(total = sum(investment_rmb100m, na.rm = TRUE), n = n(), .groups = "drop") %>%
+  filter(total > 0)
+
+ggplot(source_data, aes(x = reorder(investment_source, total), y = total, fill = investment_source)) +
+  geom_col(width = 0.6) +
+  geom_text(aes(label = paste0(n, " facilit", ifelse(n == 1, "y", "ies"), "\n¥", format(total, big.mark = ","), "亿")), hjust = -0.1, size = 3.5) +
+  coord_flip() +
+  scale_fill_manual(values = sapply(source_data$investment_source, funding_source_color), guide = "none") +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.4))) +
+  labs(x = NULL, y = "Total disclosed investment (¥100M)") +
+  theme_minimal()
+```
+
+::: {.callout-note}
+## Data Limitation
+Unlike India's Union Budget documents, China does not publish itemized Big Fund disbursement-by-project data. Figures here are facility-level investment totals tagged by funding source where a source has disclosed the tag — not an audited Big Fund expenditure ledger.
+:::

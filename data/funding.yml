@@ -1,0 +1,33 @@
+# China Big Fund Round Tracker — Source of Truth
+# National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金)
+
+rounds:
+  - round: "Big Fund I"
+    year: 2014
+    size_rmb_100m: 1387
+    focus: "Broad-based support across chip design, manufacturing, and packaging/testing — the fund's founding round, targeted at RMB 120 billion but closed at RMB 138.72 billion."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/China_Integrated_Circuit_Industry_Investment_Fund"
+        title: "China Integrated Circuit Industry Investment Fund (Wikipedia)"
+        date: "2026-09-28"
+
+  - round: "Big Fund II"
+    year: 2019
+    size_rmb_100m: 2000
+    focus: "Continued broad-based support, with stepped-up backing for memory self-sufficiency — CXMT (Hefei) and YMTC (Wuhan) both trace state financing to this period."
+    sources:
+      - url: "https://technode.com/2019/07/26/chinas-big-fund-raises-rmb-200-billion-to-fuel-chip-industry/"
+        title: "China's 'Big Fund' raises RMB 200 billion to fuel chip industry"
+        date: "2019-07-26"
+
+  - round: "Big Fund III"
+    year: 2024
+    size_rmb_100m: 3440
+    focus: "A pivot from broad-based fab-building toward selective, low-self-sufficiency chokepoints: lithography tools, inspection systems, etch platforms, EDA software, photoresists, specialty gases, wafer materials, advanced packaging, and AI chips — SMEE's lithography programme is a named priority."
+    sources:
+      - url: "https://www.gizmochina.com/2024/05/30/china-launches-47-5-billion-big-fund-iii-to-boost-semiconductor-self-sufficiency/"
+        title: "China launches $47.5 billion Big Fund III to boost semiconductor self-sufficiency"
+        date: "2024-05-30"
+      - url: "https://www.trendforce.com/news/2026/08/07/news-chinas-big-fund-phase-iii-pivot-from-fab-building-to-advanced-packaging-equipment-and-ai-chips/"
+        title: "China's Big Fund Phase III Pivot: From Fab-Building to Advanced Packaging, Equipment, and AI Chips"
+        date: "2026-08-07"

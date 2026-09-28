@@ -343,3 +343,24 @@ make_materials_popup <- function(row) {
     </div>
   ')
 }
+
+# ---- Load Big Fund macro rounds ----
+load_funding <- function(path = "data/funding.yml") {
+  raw <- yaml::read_yaml(path)
+  rows <- lapply(raw$rounds, function(r) {
+    tibble(round = r$round, year = r$year, size_rmb_100m = r$size_rmb_100m, focus = r$focus)
+  })
+  bind_rows(rows)
+}
+
+funding_source_color <- function(source) {
+  switch(source,
+    "Big Fund I"   = "#620d3c",
+    "Big Fund II"  = "#8c2f5c",
+    "Big Fund III" = "#b3527f",
+    "Local Govt"   = "#2f6b6b",
+    "Private"      = "#f1a222",
+    "Foreign"      = "#1565C0",
+    "#8C8480"
+  )
+}
