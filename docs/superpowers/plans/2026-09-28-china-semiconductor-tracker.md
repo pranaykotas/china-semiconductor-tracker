@@ -19,6 +19,7 @@
 - Every fact that goes into a YAML file (investment figures, dates, entity-list status, node capability) must trace to a cited source in that entry's `sources:` list, per the Sourcing Strategy section of the spec. Never fabricate a number to fill a field — if unverified, leave it `null`/omitted and the existing helper convention (`%||% "Not disclosed"` / `NA`) will render it honestly as unknown, exactly as the India tracker already does for undisclosed India investments.
 - Taiwan/TSMC entities are out of scope for every task in this plan (per spec).
 - Do not fork the India tracker's automation scripts (`scripts/india_semi_watch.py`, `design_sweep.py`, `weekly_digest.py`) or their GitHub Actions workflows — only `deploy.yml` is in scope (per spec's "real-time news/commentary scraping" exclusion).
+- **Border handling (non-negotiable):** every map on this site must render Indian territory exactly as the India tracker does — using the same `data/shp/datameet/india-composite.geojson` (the DataMeet composite reflecting the Government of India's official boundary, including Arunachal Pradesh and Aksai Chin as Indian territory). Never rely solely on a China-sourced or generic Natural Earth polygon for the India-China border region, since those can draw or imply a different line. Every map task in this plan (Task 1, Task 4) must layer the India boundary explicitly, on top of the China boundary, so Indian territory is never depicted as part of China regardless of what the China-side dataset does.
 
 ## Review Focus
 
@@ -37,6 +38,7 @@
 - Create: `styles.scss` (copied from `../techgeopolitics/styles.scss`)
 - Create: `takshashila-base.scss` (copied from `../techgeopolitics/takshashila-base.scss`)
 - Create: `images/favicon.svg` (copied from `../techgeopolitics/images/favicon.svg`)
+- Create: `data/shp/datameet/india-composite.geojson` (copied from `../techgeopolitics/data/shp/datameet/india-composite.geojson` — the Government of India's official boundary dataset, reused so every map on this site shows Indian territory correctly regardless of the China boundary source; see Global Constraints)
 - Create: `.gitignore`
 - Create: `about.qmd`, `index.qmd`, `timeline.qmd`, `nodes.qmd`, `design.qmd`, `equipment-materials.qmd`, `funding.qmd`, `export-controls.qmd` (stub pages)
 - Create: `.github/workflows/deploy.yml`
@@ -51,7 +53,11 @@ cp ../techgeopolitics/styles.scss styles.scss
 cp ../techgeopolitics/takshashila-base.scss takshashila-base.scss
 mkdir -p images
 cp ../techgeopolitics/images/favicon.svg images/favicon.svg
+mkdir -p data/shp/datameet
+cp ../techgeopolitics/data/shp/datameet/india-composite.geojson data/shp/datameet/india-composite.geojson
 ```
+
+The India boundary file is copied now, in the skeleton task, even though it isn't used until Task 4 — it's a static asset like the others, and copying it here keeps all "fork from the India tracker" steps in one place.
 
 - [ ] **Step 2: Write `.gitignore`**
 
@@ -636,7 +642,7 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)
 
 ::: {.callout-note}
 ## Boundary Disclaimer
-The map below uses [Natural Earth](https://www.naturalearthdata.com/)'s standard national boundary for China. It is shown for general geographic orientation only and carries no editorial position on any territorial dispute. See [About](about.qmd) for full methodology.
+China's national outline uses [Natural Earth](https://www.naturalearthdata.com/)'s standard boundary. **Indian territory on this map is drawn from the same official Government of India boundary dataset (DataMeet composite) used in the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com)** — layered on top so Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are always shown as Indian territory, regardless of how any third-party China-sourced dataset draws the disputed border. See [About](about.qmd) for full methodology.
 :::
 
 ---
@@ -651,6 +657,11 @@ popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), ch
 labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
 
 china <- ne_countries(country = "China", scale = "medium", returnclass = "sf")
+# India's OWN official boundary (same file as the India tracker), drawn on top of
+# the China layer below so Indian territory is never shown as Chinese regardless
+# of how ne_countries() draws the disputed border. Do not remove this layer or
+# reorder it before the China polygon — see Global Constraints in the plan.
+india <- st_read("data/shp/datameet/india-composite.geojson", quiet = TRUE)
 
 carto_key <- Sys.getenv("CARTO_API_KEY")
 positron_url <- paste0(
@@ -670,7 +681,15 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
     weight = 2,
     fillColor = "#E8EAF0",
     fillOpacity = 0.1,
-    group = "Boundary"
+    group = "China Boundary"
+  ) %>%
+  addPolygons(
+    data = india,
+    color = "#1565C0",
+    weight = 2,
+    fillColor = "#D6E4F0",
+    fillOpacity = 0.25,
+    group = "India (Official Boundary)"
   ) %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat,
@@ -1944,7 +1963,7 @@ Investment figures are shown in **¥ (RMB) 亿 (100 million yuan)** — the unit
 
 ## Boundary Disclaimer
 
-Maps use [Natural Earth](https://www.naturalearthdata.com/)'s standard national boundary for China, shown for general geographic orientation only. It carries no editorial position on any territorial dispute.
+Maps use [Natural Earth](https://www.naturalearthdata.com/)'s standard national boundary for China's outline. **Indian territory is drawn separately, from the same official Government of India boundary dataset (DataMeet composite) used in the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com)**, layered on top of the China outline. This ensures Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are always shown as Indian territory on this site, independent of how any China-sourced dataset draws the disputed border. This is a deliberate editorial choice, stated plainly here rather than left implicit.
 
 ## Sourcing Strategy
 
