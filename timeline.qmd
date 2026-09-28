@@ -1,6 +1,75 @@
 ---
 title: "Project Timeline"
+subtitle: "Milestones and expected completion dates for China's semiconductor facilities"
 date: last-modified
 ---
 
-*Content coming in Task 7 of the implementation plan.*
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(DT)
+library(ggplot2)
+library(scales)
+library(dplyr)
+library(tidyr)
+
+facilities <- load_facilities("data/facilities.yml")
+```
+
+## Facility Timelines
+
+Each row represents a facility. **Bars** show the span from construction start (or announcement, if construction hasn't begun) to expected or actual completion. **Diamond markers (◆)** mark the announcement date. The **dashed line** marks today.
+
+```{r gantt-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=12, fig.height=7.5, dev="ragg_png"}
+gantt_data <- facilities %>%
+  filter(!is.na(date_announced)) %>%
+  mutate(
+    bar_start = coalesce(date_construction, date_announced),
+    bar_end = coalesce(date_completion, date_original_expect, Sys.Date()),
+    has_construction = !is.na(date_construction) | status == "Operational",
+    name_label = gsub(" \\(Fab\\)| Facility", "", name_en)
+  ) %>%
+  arrange(category, date_announced)
+
+status_colors <- c(
+  "Operational"        = "#2f6b4a",
+  "Under Construction" = "#1565C0",
+  "Approved"           = "#f1a222",
+  "Announced"          = "#8C8480",
+  "On Hold"            = "#a3282d",
+  "Cancelled"          = "#a3282d"
+)
+
+p <- ggplot(gantt_data, aes(y = reorder(name_label, desc(date_announced)))) +
+  geom_segment(aes(x = bar_start, xend = bar_end, yend = name_label, color = status), linewidth = 5) +
+  geom_point(aes(x = date_announced), shape = 18, size = 3, color = "#333") +
+  geom_vline(xintercept = Sys.Date(), linetype = "dashed", color = "#888") +
+  scale_color_manual(values = status_colors, name = "Status") +
+  scale_x_date(date_labels = "%Y") +
+  labs(x = NULL, y = NULL) +
+  theme_minimal() +
+  theme(panel.grid.minor = element_blank())
+
+p
+```
+
+## Recent Milestones
+
+```{r milestones, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
+all_milestones <- do.call(rbind, lapply(raw_facs, function(f) {
+  if (is.null(f$milestones) || length(f$milestones) == 0) return(NULL)
+  do.call(rbind, lapply(f$milestones, function(m) {
+    data.frame(facility = f$name_en, id = f$id, date = as.Date(m$date), event = m$event, stringsAsFactors = FALSE)
+  }))
+}))
+
+if (!is.null(all_milestones)) {
+  recent <- head(all_milestones[order(all_milestones$date, decreasing = TRUE), ], 10)
+  for (i in seq_len(nrow(recent))) {
+    r <- recent[i, ]
+    cat(sprintf("- **%s** — %s ([%s](facilities/%s.html))\n", format(r$date, "%b %Y"), r$event, r$facility, r$id))
+  }
+} else {
+  cat("*No milestones recorded yet.*\n")
+}
+```
