@@ -1,0 +1,6 @@
+/_site/
+/.quarto/
+.Renviron
+*.qmd~
+.DS_Store
+/.superpowers/

@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+
+website:
+  title: "China Semiconductor Tracker"
+  description: "Tracking semiconductor manufacturing, chip design, and equipment firms across mainland China"
+  favicon: "images/favicon.svg"
+  site-url: "https://fabs-china.pranaykotas.com"
+
+  navbar:
+    background: "#620d3c"
+    foreground: "#ffffff"
+    left:
+      - text: "Map & Overview"
+        href: index.qmd
+      - text: "Timeline"
+        href: timeline.qmd
+      - text: "Technology Nodes"
+        href: nodes.qmd
+      - text: "Chip Design"
+        href: design.qmd
+      - text: "Equipment & Materials"
+        href: equipment-materials.qmd
+      - text: "State Funding"
+        href: funding.qmd
+      - text: "Export Controls"
+        href: export-controls.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - text: "Takshashila"
+        href: https://takshashila.org.in
+        aria-label: "Takshashila Institution"
+      - icon: github
+        href: https://github.com/pranaykotas/china-semiconductor-tracker
+        aria-label: "GitHub repository"
+
+  page-footer:
+    left: |
+      &copy; 2026 [Pranay Kotasthane](https://pranaykotas.com) · [Takshashila Institution](https://takshashila.org.in)
+    center: |
+      Part of the [Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html)
+    right: |
+      [Report an issue](https://github.com/pranaykotas/china-semiconductor-tracker/issues/new)
+
+  search: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 2
+    mainfont: "Inter"
+    monofont: "Roboto Mono"
