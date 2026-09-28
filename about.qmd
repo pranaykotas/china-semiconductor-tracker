@@ -1,6 +1,56 @@
 ---
 title: "About This Tracker"
-date: last-modified
 ---
 
-*Content coming in Task 13 of the implementation plan.*
+```{r setup, include=FALSE}
+source("R/helpers.R")
+```
+
+## What This Is
+
+The China Semiconductor Tracker is a curated, open-source resource monitoring semiconductor manufacturing facilities, chip design firms, and equipment/materials suppliers across mainland China.
+
+It is maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila Institution](https://takshashila.org.in), part of Takshashila's **[Siliconpolitik Project](https://takshashila.org.in/pages/research-areas/focus-areas/siliconpolitik.html)**. It is a companion to the [India Semiconductor Tracker](https://fabs.pranaykotas.com).
+
+## Scope
+
+This tracker covers mainland China (PRC) only. Taiwan and the Taiwanese semiconductor ecosystem are out of scope — a distinct political and market story that would need its own tracker.
+
+## Naming Convention
+
+Facility, company, design-firm, and equipment/materials-firm names are given in three forms where verified: English, simplified Chinese (简体), and Hanyu Pinyin. City and province names are given in English only. An entry showing "Chinese name not yet verified" reflects a genuine data gap, not an editorial choice.
+
+## Units
+
+Investment figures are shown in **¥ (RMB) 亿 (100 million yuan)** — the unit Chinese financial press and company filings typically report in — with a dollar figure alongside where a firm's investment is only disclosed in USD.
+
+## Boundary Disclaimer
+
+Maps use [Natural Earth](https://www.naturalearthdata.com/)'s standard national boundary for China's outline. **Indian territory is drawn separately, from the same official Government of India boundary dataset (DataMeet composite) used in the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com)**, layered on top of the China outline. This ensures Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are always shown as Indian territory on this site, independent of how any China-sourced dataset draws the disputed border. This is a deliberate editorial choice, stated plainly here rather than left implicit.
+
+## Sourcing Strategy
+
+- **Listed-company filings** (SMIC and Hua Hong on HKEX/SSE) are treated as primary sources for financials and capacity, sourced via exchange disclosures or cninfo.com.cn.
+- **Chinese financial and industry press** (Caixin, 21世纪经济报道) is cited directly, with the same scrutiny applied to any credible outlet.
+- **State media** (Xinhua, CCTV, People's Daily) is treated as a primary source for the fact of an announcement, not for its interpretation — the same standard applied to a government press release from any country.
+- **Export-control evasion, smuggled equipment, and actual sanctioned-node yields** are structurally under-covered by domestic sources; these rely on SemiAnalysis, BIS Federal Register entries, and investigative reporting (Reuters, Nikkei Asia, FT).
+- **LLM tools (including DeepSeek) are used only as research aids** — locating candidate sources, translating filings, summarizing documents — never cited as the source of a fact. Every figure in this tracker traces to a human-verified citation.
+- **Conflicting reports are stated, not silently resolved.** Where independent sources disagree on a figure or a facility's current status (for example, JHICC's production status, or Hua Hong Beijing's investment figure varying by $0.1B across outlets), the disagreement is noted directly in that entry's narrative rather than picking one number without comment.
+
+## Technical Complexity Index
+
+Each facility is scored 1 (low) to 5 (high), benchmarked against a cutting-edge 3nm fab (5/5): composite = Technology Difficulty (55%) + Capital Intensity (45%).
+
+## Export-Control Designations
+
+Two distinct US designations appear on this site: the Commerce Department's Bureau of Industry and Security (BIS) **Entity List**, which restricts exports of controlled items, and the Department of Defense's **Section 1260H list** of Chinese military-linked companies, a disclosure designation with different legal consequences. Each flagged entry names which list applies — see [Export Controls](export-controls.qmd).
+
+## Data Status
+
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers `r nrow(load_facilities("data/facilities.yml"))` facilities, `r nrow(load_design_firms("data/design.yml"))` chip design firms, and `r nrow(load_materials_firms("data/materials.yml"))` equipment/materials firms — Phase 1's initial batches, built to exercise every page and field in the schema end to end rather than to reach full national coverage.
+
+Known gaps queued for a future research batch, not omitted by oversight: the remaining facilities toward China's full national count of 100+ fabs, plus specific named candidates not yet researched to this tracker's sourcing standard — Wingtech/Nexperia's China operations, GTA Semiconductor, and TCL Zhonghuan (a separate silicon wafer maker from National Silicon Industry Group, already covered). See the project's GitHub repository for current status.
+
+## Have an Update?
+
+Found an error or have new information? [Open a GitHub Issue](https://github.com/pranaykotas/china-semiconductor-tracker/issues/new).
