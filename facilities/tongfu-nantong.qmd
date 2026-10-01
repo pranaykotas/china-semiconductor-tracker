@@ -1,0 +1,59 @@
+---
+title: "Tongfu Microelectronics Nantong"
+subtitle: "Tongfu Microelectronics Co., Ltd. | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; largest shareholder is the state-linked Nantong Huada Microelectronics Group (19.91%) with the Big Fund holding 11.26%. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright.
+:::
+
+**Chinese name:** 通富微电 (Tōngfù Wēidiàn)
+
+## What does this facility make?
+
+Chip assembly, test, and advanced packaging — including hybrid-bonding-based chiplet packaging and high-bandwidth memory (HBM) packaging, positioning it alongside JCET in China's advanced-packaging push.
+
+## Why does it matter?
+
+One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Tongfu Microelectronics Co., Ltd. |
+| **Type** | Assembly & Packaging |
+| **Category** | State-Backed |
+| **Capability** | OSAT — advanced packaging including hybrid bonding IP for chiplets; HBM (high-bandwidth memory) packaging |
+| **Status** | Operational |
+| **Investment** | $371M |
+| **Funding Source** | Big Fund I |
+| **Location** | Nantong, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2016** — Tongfu and the Big Fund jointly acquire 85% equity stakes in AMD's Suzhou and Penang assembly and test facilities for $371 million
+
+## Sources
+
+- [Tongfu Microelectronics (Wikipedia)](https://en.wikipedia.org/wiki/Tongfu_Microelectronics) (28 Sep 2026)
+- [Tongfu Microelectronics Chairman's Letter of Gratitude to All Sectors for Completing the Acquisition of 85% Equity in Two AMD Packaging and Testing Facilities](https://en.tfme.com/news/378.html) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

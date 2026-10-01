@@ -578,3 +578,162 @@ facilities:
       - url: "https://www.fabulousmap.com/pages/sien-qingdao-integrated-circuits-fab.html"
         title: "SiEn (Qingdao) Integrated Circuits - Phase 1 fab profile"
         date: "2026-09-28"
+
+  - id: jcet-jiangyin
+    name_en: "JCET Jiangyin"
+    name_zh: "长电科技"
+    name_pinyin: "Chángdiàn Kējì"
+    company_en: "JCET Group"
+    company_zh: "江苏长电科技股份有限公司"
+    company_pinyin: "Jiāngsū Chángdiàn Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["China Resources Microelectronics"]
+    location:
+      city: "Jiangyin"
+      province: "Jiangsu"
+      lat: 31.91
+      lon: 120.26
+    type: "Assembly & Packaging"
+    category: "State-Backed"
+    capability: "OSAT (assembly, test, and advanced packaging) — flip-chip, SiP, and chiplet-based heterogeneous integration; high-volume 4nm-class chiplet packaging demonstrated"
+    investment:
+      total_rmb_100m: null
+      source: "Not disclosed"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, now majority-owned via China Resources Microelectronics. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target."
+      what_it_makes: "Chip assembly, test, and advanced packaging services — not a fab, but the step between a finished wafer and a sellable chip. Demonstrated high-volume packaging of 4nm-class chips using chiplet technology."
+      why_it_matters: "Advanced packaging (chiplets, heterogeneous integration) is one of the segments China's Big Fund III and its OSAT majors are explicitly pivoting toward, since it offers a path to competitive chip performance without needing export-controlled leading-edge lithography."
+    milestones:
+      - date: "2015-08-01"
+        event: "Acquires Singapore's STATS ChipPAC, becoming one of the world's top-three OSAT firms by revenue"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://en.wikipedia.org/wiki/JCET_(company)"
+        title: "JCET (company) (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://jw.ijiwei.com/n/871800"
+        title: "China's leading OSAT company JCET Group achieves high-volume packaging of 4-nanometer chips by leveraging Chiplet technology"
+        date: "2026-09-28"
+
+  - id: tongfu-nantong
+    name_en: "Tongfu Microelectronics Nantong"
+    name_zh: "通富微电"
+    name_pinyin: "Tōngfù Wēidiàn"
+    company_en: "Tongfu Microelectronics Co., Ltd."
+    company_zh: "通富微电子股份有限公司"
+    company_pinyin: "Tōngfù Wēidiànzǐ Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Nantong Huada Microelectronics Group", "China Integrated Circuit Industry Investment Fund (Big Fund)"]
+    location:
+      city: "Nantong"
+      province: "Jiangsu"
+      lat: 32.03
+      lon: 120.89
+    type: "Assembly & Packaging"
+    category: "State-Backed"
+    capability: "OSAT — advanced packaging including hybrid bonding IP for chiplets; HBM (high-bandwidth memory) packaging"
+    investment:
+      total_usd_million: 371
+      source: "Big Fund I"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; largest shareholder is the state-linked Nantong Huada Microelectronics Group (19.91%) with the Big Fund holding 11.26%. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright."
+      what_it_makes: "Chip assembly, test, and advanced packaging — including hybrid-bonding-based chiplet packaging and high-bandwidth memory (HBM) packaging, positioning it alongside JCET in China's advanced-packaging push."
+      why_it_matters: "One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains."
+    milestones:
+      - date: "2016-01-01"
+        event: "Tongfu and the Big Fund jointly acquire 85% equity stakes in AMD's Suzhou and Penang assembly and test facilities for $371 million"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: "2016-01-01"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Tongfu_Microelectronics"
+        title: "Tongfu Microelectronics (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://en.tfme.com/news/378.html"
+        title: "Tongfu Microelectronics Chairman's Letter of Gratitude to All Sectors for Completing the Acquisition of 85% Equity in Two AMD Packaging and Testing Facilities"
+        date: "2026-09-28"
+
+  - id: huatian-tianshui
+    name_en: "Huatian Technology Tianshui"
+    name_zh: "华天科技"
+    name_pinyin: "Huátiān Kējì"
+    company_en: "Tianshui Huatian Technology Co., Ltd."
+    company_zh: "天水华天科技股份有限公司"
+    company_pinyin: "Tiānshuǐ Huátiān Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Tianshui Huatian Microelectronics Co."]
+    location:
+      city: "Tianshui"
+      province: "Gansu"
+      lat: 34.58
+      lon: 105.72
+    type: "Assembly & Packaging"
+    category: "State-Backed"
+    capability: "OSAT — wafer-level and advanced packaging"
+    investment:
+      total_rmb_100m: null
+      source: "Not disclosed"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale."
+      what_it_makes: "Chip assembly, test, and wafer-level/advanced packaging services."
+      why_it_matters: "Based in Gansu province — a notable geographic outlier among China's semiconductor firms, most of which cluster in the Yangtze River Delta (Jiangsu/Shanghai) or Pearl River Delta (Guangdong) regions."
+    milestones:
+      - date: "2003-12-25"
+        event: "Founded as Tianshui Huatian Technology Co., Ltd."
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: "2003-12-25"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Huatian_Technology"
+        title: "Huatian Technology (Wikipedia)"
+        date: "2026-09-28"
