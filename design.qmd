@@ -16,7 +16,7 @@ firms <- load_design_firms("data/design.yml")
 
 ## Overview
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` design firms**, of which **`r sum(firms$entity_list_flagged)`** carry a US export-control or military-linked designation (Entity List or DoD 1260H — see the table below for which applies to each).
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` design firms** spanning fabless companies, state-backed design houses, and EDA/IP providers.
 
 ## Design Firm Map
 
@@ -26,7 +26,7 @@ popups <- vapply(1:nrow(firms), function(i) make_design_popup(firms[i, ]), chara
 boundaries <- load_boundaries()
 
 leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
-  addProviderTiles("CartoDB.Positron") %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
   add_boundary_layers(boundaries) %>%
   addCircleMarkers(
@@ -44,9 +44,10 @@ table_data <- firms %>%
     Name = paste0('<a href="design-firms/', id, '.html">', name_en, '</a>'),
     Category = sapply(category, design_category_badge),
     "Design Score" = sapply(design_composite, design_score_bar_html),
-    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name)
+    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name),
+    Location = paste0(city, ", ", province)
   ) %>%
-  select(Name, Category, "Product Focus" = product_focus, "Design Score", "Entity List")
+  select(Name, Category, Founded = founded, "Product Focus" = product_focus, "Design Score", Location, "Entity List")
 
-datatable(table_data, escape = FALSE, filter = "top", options = list(pageLength = 15, dom = "ftip"), rownames = FALSE)
+datatable(table_data, escape = FALSE, filter = "top", options = list(pageLength = 20, dom = "ftip", scrollX = TRUE), rownames = FALSE)
 ```

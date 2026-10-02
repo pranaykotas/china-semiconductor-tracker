@@ -149,13 +149,27 @@ status_color <- function(status) {
   )
 }
 
-# ---- Map ownership category to marker colour (China's core narrative axis) ----
+# ---- Map ownership category to marker colour ----
 category_color <- function(category) {
   switch(category,
     "State-Backed"      = "#620d3c",
     "Private"           = "#2f6b6b",
     "JV"                = "#6A1B9A",
     "Foreign-Invested"  = "#1565C0",
+    "#757575"
+  )
+}
+
+# ---- Map facility type to marker colour (matches the India tracker's
+# Fab/Assembly & Packaging/Compound Semiconductor/Research Fab palette,
+# plus Memory for this site's memory-maker entries) ----
+type_color <- function(type) {
+  switch(type,
+    "Fab"                    = "#620d3c",
+    "Assembly & Packaging"   = "#2f6b6b",
+    "Memory"                 = "#1565C0",
+    "Compound Semiconductor" = "#6A1B9A",
+    "Research Fab"           = "#455A64",
     "#757575"
   )
 }

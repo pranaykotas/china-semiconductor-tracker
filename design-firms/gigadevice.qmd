@@ -1,0 +1,38 @@
+---
+title: "GigaDevice Semiconductor"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 兆易创新科技集团股份有限公司 (Zhàoyì Chuàngxīn Kējì Jítuán Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on.
+:::
+
+## What does this firm design?
+
+NOR flash memory chips, general-purpose microcontrollers, and sensors for consumer electronics, industrial, and automotive applications.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2005 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | NOR flash memory, microcontrollers (MCUs), sensors |
+| **Node Sophistication** | Mature nodes typical of flash memory and MCU products |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [GigaDevice (Wikipedia)](https://en.wikipedia.org/wiki/GigaDevice) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

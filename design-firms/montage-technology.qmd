@@ -1,0 +1,39 @@
+---
+title: "Montage Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 澜起科技股份有限公司 (Lánqǐ Kējì Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips.
+:::
+
+## What does this firm design?
+
+Memory interface chips for server DRAM modules and data-center/AI interconnect chips, including CXL-related products.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2004 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Memory interface chips (DDR5 registering clock drivers) and data-center/AI interconnect chips |
+| **Node Sophistication** | Not disclosed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [Montage Technology (Wikipedia)](https://en.wikipedia.org/wiki/Montage_Technology) (28 Sep 2026)
+- [Chinese IC design company Montage Technology cooperates with Intel to produce more AI chips](https://ijiwei.com/n/850608) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -1,0 +1,39 @@
+---
+title: "Enflame Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 上海燧原科技股份有限公司 (Shànghǎi Suìyuán Kējì Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded March 2018 by two former AMD engineers; completed a near-$900 million Shanghai STAR Market IPO, one of the larger domestic AI-chip listings to date.
+:::
+
+## What does this firm design?
+
+AI training and inference accelerators (branded GCUs) for cloud compute, with an accompanying software stack.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2018 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | AI training and inference accelerators (GCU — general-purpose compute units) |
+| **Node Sophistication** | Not disclosed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+
+## Sources
+
+- [Enflame (Wikipedia)](https://en.wikipedia.org/wiki/Enflame) (28 Sep 2026)
+- [AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO](https://finance.yahoo.com/technology/ai/articles/ai-chipmaker-enflame-sets-subscription-date-for-near-900-million-shanghai-ipo-030523823.html) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

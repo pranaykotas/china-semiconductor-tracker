@@ -25,10 +25,8 @@ website:
         href: design.qmd
       - text: "Equipment & Materials"
         href: equipment-materials.qmd
-      - text: "State Funding"
-        href: funding.qmd
-      - text: "Export Controls"
-        href: export-controls.qmd
+      - text: "Policy & Budget"
+        href: budget.qmd
       - text: "About"
         href: about.qmd
     right:

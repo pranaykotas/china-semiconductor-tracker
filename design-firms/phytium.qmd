@@ -1,0 +1,39 @@
+---
+title: "Phytium Technology"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 飞腾信息技术有限公司 (Fēiténg Xìnxī Jìshù Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Jointly established in 2014 by China Electronics Corporation (a central state-owned enterprise), the Tianjin Binhai New Area government, and the Tianjin Advanced Technology Research Institute — one of the most directly state-backed design houses in this tracker. Added to the Entity List in April 2021 over supercomputing ties to Chinese military modernization; TSMC subsequently stopped supplying it.
+:::
+
+## What does this firm design?
+
+ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 2014 |
+| **Location** | Tianjin, Tianjin Municipality |
+| **Product Focus** | Server, desktop, and embedded CPUs (ARM-based) |
+| **Node Sophistication** | Not disclosed; reported to have sold over 10 million CPUs, primarily for government and state-enterprise use |
+| **Entity List** | Yes — US Commerce BIS |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [FeiTeng (Wikipedia)](https://en.wikipedia.org/wiki/FeiTeng) (28 Sep 2026)
+- [Commerce Adds Seven Chinese Supercomputing Entities to Entity List](https://www.commerce.gov/news/press-releases/2021/04/commerce-adds-seven-chinese-supercomputing-entities-entity-list-their) (08 Apr 2021)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

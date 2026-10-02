@@ -24,10 +24,6 @@ Facility, company, design-firm, and equipment/materials-firm names are given in 
 
 Investment figures are shown in **¥ (RMB) 亿 (100 million yuan)** — the unit Chinese financial press and company filings typically report in — with a dollar figure alongside where a firm's investment is only disclosed in USD.
 
-## Boundary Disclaimer
-
-Every map on this site (Map & Overview, Chip Design, Equipment & Materials) uses [Natural Earth](https://www.naturalearthdata.com/)'s standard national boundary for China's outline, **clipped to remove any area claimed by India's own official boundary dataset (DataMeet composite, the same file the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com) uses)**, with India's boundary drawn on top of what remains. This means Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are never outlined as Chinese territory on this site — not merely covered by a semi-transparent Indian overlay, but removed from China's polygon entirely before rendering — independent of how the underlying China-sourced dataset draws the disputed border. This is a deliberate editorial choice, stated plainly here rather than left implicit.
-
 ## Sourcing Strategy
 
 - **Listed-company filings** (SMIC and Hua Hong on HKEX/SSE) are treated as primary sources for financials and capacity, sourced via exchange disclosures or cninfo.com.cn.
@@ -43,7 +39,7 @@ Each facility is scored 1 (low) to 5 (high), benchmarked against a cutting-edge 
 
 ## Export-Control Designations
 
-Two distinct US designations appear on this site: the Commerce Department's Bureau of Industry and Security (BIS) **Entity List**, which restricts exports of controlled items, and the Department of Defense's **Section 1260H list** of Chinese military-linked companies, a disclosure designation with different legal consequences. Each flagged entry names which list applies — see [Export Controls](export-controls.qmd).
+Two distinct US designations appear on this site where relevant: the Commerce Department's Bureau of Industry and Security (BIS) **Entity List**, which restricts exports of controlled items, and the Department of Defense's **Section 1260H list** of Chinese military-linked companies, a disclosure designation with different legal consequences. Each flagged entry names which list applies — see [Policy & Budget](budget.qmd).
 
 ## Data Status
 

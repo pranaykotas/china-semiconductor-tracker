@@ -20,40 +20,27 @@ facilities <- load_facilities("data/facilities.yml")
 
 China's semiconductor industry is racing to indigenize under an expanding regime of US-led export controls. State financing through the National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has backed fabs, memory makers, and equipment firms since 2014, while companies like SMIC have pushed mature-node lithography to produce chips at nodes once thought to require tools China cannot buy.
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities, of which **`r sum(facilities$entity_list_flagged)`** carry a US export-control or military-linked designation (Commerce Department Entity List or DoD Section 1260H — see [Export Controls](export-controls.qmd) for which applies to each). Disclosed investment stands at **¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿** in RMB-denominated figures and **$`r format(sum(facilities$investment_usd_m, na.rm = TRUE), big.mark = ",")`M** in USD-denominated figures — the two are shown separately rather than converted, since combining them would require an exchange-rate assumption (see [About](about.qmd)).
-
-::: {.callout-note}
-## Boundary Disclaimer
-China's national outline uses [Natural Earth](https://www.naturalearthdata.com/)'s standard boundary, **clipped to remove any area India's own official boundary dataset (DataMeet composite, the same file the companion [India Semiconductor Tracker](https://fabs.pranaykotas.com) uses) claims as Indian territory** — Arunachal Pradesh, Aksai Chin, and Jammu & Kashmir are never outlined as part of China on this map, regardless of how the underlying China-sourced dataset draws the disputed border. See [About](about.qmd) for full methodology.
-:::
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities. Disclosed investment stands at **¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿** in RMB-denominated figures and **$`r format(sum(facilities$investment_usd_m, na.rm = TRUE), big.mark = ",")`M** in USD-denominated figures — the two are shown separately rather than converted, since combining them would require an exchange-rate assumption (see [About](about.qmd)).
 
 ---
 
 ## Facility Map
 
-Facilities are coloured by ownership category — the dimension most relevant to China's export-control and state-financing story.
+Facilities are coloured by type, same as the [India Semiconductor Tracker](https://fabs.pranaykotas.com).
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
-colors <- sapply(facilities$category, category_color)
+colors <- sapply(facilities$type, type_color)
 popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), character(1))
 labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
 
 # China's boundary CLIPPED of India's officially claimed territory, plus
 # India's own official boundary — see load_boundaries() in R/helpers.R for
-# why the raw ne_countries() China polygon is never drawn directly.
+# why the raw ne_countries() China polygon is never drawn directly. No
+# on-page disclaimer here by request; the clipping itself still applies.
 boundaries <- load_boundaries()
 
-carto_key <- Sys.getenv("CARTO_API_KEY")
-positron_url <- paste0(
-  "https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key=",
-  carto_key
-)
-
 leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
-  addTiles(
-    urlTemplate = positron_url,
-    attribution = '&copy; <a href="https://carto.com/attributions">CARTO</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  ) %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
   add_boundary_layers(boundaries) %>%
   addCircleMarkers(
@@ -79,9 +66,9 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   ) %>%
   addLegend(
     position = "bottomright",
-    colors = c("#620d3c", "#2f6b6b", "#6A1B9A", "#1565C0"),
-    labels = c("State-Backed", "Private", "JV", "Foreign-Invested"),
-    title = "Ownership Category"
+    colors = c("#620d3c", "#2f6b6b", "#1565C0", "#6A1B9A", "#455A64"),
+    labels = c("Fab", "Assembly & Packaging (OSAT)", "Memory", "Compound Semiconductor", "Research Fab"),
+    title = "Facility Type"
   )
 ```
 
@@ -111,15 +98,15 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
-[`r sum(facilities$entity_list_flagged)`]{.card-value}
-[US-designated]{.card-label}
+[`r sum(facilities$status == "Operational")`]{.card-value}
+[Operational]{.card-label}
 :::
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
 ::: {.summary-card}
-[`r sum(facilities$status == "Operational")`]{.card-value}
-[Operational]{.card-label}
+[`r sum(facilities$status == "Under Construction")`]{.card-value}
+[Under Construction]{.card-label}
 :::
 :::
 :::
@@ -134,10 +121,9 @@ table_data <- facilities %>%
     Status = mapply(status_badge_html, status, status_detail),
     Complexity = sapply(complexity_score, complexity_bar_html),
     Investment = mapply(format_investment, investment_rmb100m, investment_usd_m, MoreArgs = list(short = TRUE)),
-    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name),
     Location = paste0(city, ", ", province)
   ) %>%
-  select(Name, Type = type, Category, Investment, Status, Complexity, "Entity List", Location)
+  select(Name, Type = type, Category, Investment, Status, Complexity, Location)
 
 datatable(
   table_data,

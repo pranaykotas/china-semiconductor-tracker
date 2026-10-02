@@ -1,0 +1,39 @@
+---
+title: "Biren Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 上海壁仞智能科技有限公司 (Shànghǎi Bìrèn Zhìnéng Kējì Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier.
+:::
+
+## What does this firm design?
+
+General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2019 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | General-purpose GPUs for AI training and inference (BR100 series) |
+| **Node Sophistication** | Designed for leading-edge nodes; fabrication access constrained by its Entity List status |
+| **Entity List** | Yes — US Commerce BIS (Footnote 4 Foreign Direct Product Rule) |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [Biren Technology (Wikipedia)](https://en.wikipedia.org/wiki/Biren_Technology) (28 Sep 2026)
+- [Commerce Department Aims to Restrain Chinese Military Modernization by Tightening Export Controls on Advanced AI Chips](https://www.arnoldporter.com/en/perspectives/advisories/2023/10/higher-fences-and-an-increasingly-bigger-yard) (17 Oct 2023)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

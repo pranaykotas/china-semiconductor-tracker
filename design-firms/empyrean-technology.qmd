@@ -1,0 +1,39 @@
+---
+title: "Empyrean Technology"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+**Chinese name:** 北京华大九天科技股份有限公司 (Běijīng Huádà Jiǔtiān Kējì Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA).
+:::
+
+## What does this firm design?
+
+EDA software tools used by chip designers for layout, verification, and simulation — the software layer that every other fabless firm in this tracker depends on.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Founded** | 2009 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | Electronic design automation (EDA) software |
+| **Node Sophistication** | Not applicable — an EDA software vendor |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+
+## Sources
+
+- [Empyrean Technology (Wikipedia)](https://en.wikipedia.org/wiki/Empyrean_Technology) (28 Sep 2026)
+- [China's top player Empyrean eyes opportunities from US chip curbs on design software](https://www.scmp.com/tech/article/3315237/chinas-top-player-empyrean-eyes-opportunities-us-chip-curbs-design-software) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

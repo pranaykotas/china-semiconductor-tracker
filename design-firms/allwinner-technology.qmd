@@ -1,0 +1,38 @@
+---
+title: "Allwinner Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 珠海市全志科技股份有限公司 (Zhūhǎi Shì Quánzhì Kējì Gǔfèn Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment.
+:::
+
+## What does this firm design?
+
+Application processor SoCs for tablets, streaming devices, and consumer IoT hardware.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2007 |
+| **Location** | Zhuhai, Guangdong |
+| **Product Focus** | Application processor SoCs for tablets, IoT, and consumer electronics |
+| **Node Sophistication** | Mature nodes typical of consumer/IoT application processors |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [Allwinner Technology (Wikipedia)](https://en.wikipedia.org/wiki/Allwinner_Technology) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

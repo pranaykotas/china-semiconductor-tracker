@@ -1,5 +1,5 @@
 # China Chip Design Firm Tracker — Source of Truth
-# Phase 1: three firms spanning Fabless and State-Backed Design House categories
+# Full sweep across AI/GPU, general IC, automotive, CPU, and EDA/IP categories
 #
 # Category values: Fabless | State-Backed Design House | EDA & IP Provider
 
@@ -78,3 +78,372 @@ design_firms:
       - url: "https://www.tomshardware.com/news/us-govt-blacklists-loongson-and-inspur"
         title: "U.S. Govt Blacklists Chinese Tech Firms Loongson and Inspur"
         date: "2023-03-06"
+
+  - id: cambricon
+    name_en: "Cambricon Technologies"
+    name_zh: "寒武纪科技股份有限公司"
+    name_pinyin: "Hánwǔjì Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2016
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.98, lon: 116.31}
+    product_focus: "AI accelerator chips for cloud training/inference and edge devices"
+    design_scope: "Full-stack AI chip design, including its own instruction set extensions for neural-network workloads"
+    node_sophistication: "Not disclosed; treated by markets as China's leading domestic alternative to Nvidia accelerators"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap."
+      what_it_designs: "AI accelerator chips spanning cloud training/inference and edge inference, positioned as a domestic substitute as US export controls restrict Nvidia GPU access in China."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Cambricon_Technologies"
+        title: "Cambricon Technologies (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.digitimes.com/news/a20250829PD213/cambricon-huawei-ai-chip-startup-shanghai.html"
+        title: "Cambricon's second act: From Huawei's castoff to China's AI hopeful"
+        date: "2026-09-28"
+
+  - id: biren-technology
+    name_en: "Biren Technology"
+    name_zh: "上海壁仞智能科技有限公司"
+    name_pinyin: "Shànghǎi Bìrèn Zhìnéng Kējì Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2019
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.03, lon: 121.38}
+    product_focus: "General-purpose GPUs for AI training and inference (BR100 series)"
+    design_scope: "Full GPU architecture design"
+    node_sophistication: "Designed for leading-edge nodes; fabrication access constrained by its Entity List status"
+    entity_list:
+      status: true
+      date_added: "2023-10-17"
+      list: "US Commerce BIS (Footnote 4 Foreign Direct Product Rule)"
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 2}
+    narrative:
+      significance: "Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier."
+      what_it_designs: "General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Biren_Technology"
+        title: "Biren Technology (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.arnoldporter.com/en/perspectives/advisories/2023/10/higher-fences-and-an-increasingly-bigger-yard"
+        title: "Commerce Department Aims to Restrain Chinese Military Modernization by Tightening Export Controls on Advanced AI Chips"
+        date: "2023-10-17"
+
+  - id: moore-threads
+    name_en: "Moore Threads"
+    name_zh: "摩尔线程智能科技（北京）有限责任公司"
+    name_pinyin: "Mó'ěr Xiànchéng Zhìnéng Kējì (Běijīng) Yǒuxiàn Zérèn Gōngsī"
+    category: "Fabless"
+    founded: 2020
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.92, lon: 116.46}
+    product_focus: "Consumer and data-center GPUs"
+    design_scope: "Full GPU architecture design"
+    node_sophistication: "Designed for leading-edge nodes; fabrication access constrained by its Entity List status"
+    entity_list:
+      status: true
+      date_added: "2023-10-17"
+      list: "US Commerce BIS (Footnote 4 Foreign Direct Product Rule)"
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 2}
+    narrative:
+      significance: "Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together."
+      what_it_designs: "Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'China's answer to Nvidia.'"
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Moore_Threads"
+        title: "Moore Threads (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://technode.com/2024/11/15/chinese-gpu-unicorn-moore-threads-files-for-ipo-in-china/"
+        title: "Chinese GPU unicorn Moore Threads files for IPO in China"
+        date: "2024-11-15"
+
+  - id: enflame-technology
+    name_en: "Enflame Technology"
+    name_zh: "上海燧原科技股份有限公司"
+    name_pinyin: "Shànghǎi Suìyuán Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2018
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.18, lon: 121.56}
+    product_focus: "AI training and inference accelerators (GCU — general-purpose compute units)"
+    design_scope: "Full-stack AI accelerator design plus software stack"
+    node_sophistication: "Not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 3}
+    narrative:
+      significance: "Founded March 2018 by two former AMD engineers; completed a near-$900 million Shanghai STAR Market IPO, one of the larger domestic AI-chip listings to date."
+      what_it_designs: "AI training and inference accelerators (branded GCUs) for cloud compute, with an accompanying software stack."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Enflame"
+        title: "Enflame (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://finance.yahoo.com/technology/ai/articles/ai-chipmaker-enflame-sets-subscription-date-for-near-900-million-shanghai-ipo-030523823.html"
+        title: "AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO"
+        date: "2026-09-28"
+
+  - id: horizon-robotics
+    name_en: "Horizon Robotics"
+    name_zh: "北京地平线机器人技术研发有限公司"
+    name_pinyin: "Běijīng Dìpíngxiàn Jīqìrén Jìshù Yánfā Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2015
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.95, lon: 116.35}
+    product_focus: "Automotive-grade AI processors for intelligent driving and ADAS"
+    design_scope: "SoC design plus accompanying software/algorithm platform for autonomous driving"
+    node_sophistication: "Not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 4, market_readiness: 5}
+    narrative:
+      significance: "Founded July 2015; listed on the Hong Kong Stock Exchange, one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation."
+      what_it_designs: "Automotive-grade processors and the accompanying software platform for intelligent/autonomous driving systems."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Horizon_Robotics"
+        title: "Horizon Robotics (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: black-sesame-technologies
+    name_en: "Black Sesame Technologies"
+    name_zh: "黑芝麻智能科技有限公司"
+    name_pinyin: "Hēizhīma Zhìnéng Kējì Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2016
+    location: {city: "Wuhan", province: "Hubei", lat: 30.58, lon: 114.30}
+    product_focus: "Automotive AI computing chips for self-driving and ADAS"
+    design_scope: "SoC design, including image processing and perception algorithms"
+    node_sophistication: "Not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 4}
+    narrative:
+      significance: "Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips."
+      what_it_designs: "AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Black_Sesame_Technologies"
+        title: "Black Sesame Technologies (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: phytium
+    name_en: "Phytium Technology"
+    name_zh: "飞腾信息技术有限公司"
+    name_pinyin: "Fēiténg Xìnxī Jìshù Yǒuxiàn Gōngsī"
+    category: "State-Backed Design House"
+    founded: 2014
+    location: {city: "Tianjin", province: "Tianjin Municipality", lat: 39.10, lon: 117.15}
+    product_focus: "Server, desktop, and embedded CPUs (ARM-based)"
+    design_scope: "Full CPU design across server (Tengyun S series), desktop (Tengrui D series), and embedded (Tenglong E series) product lines"
+    node_sophistication: "Not disclosed; reported to have sold over 10 million CPUs, primarily for government and state-enterprise use"
+    entity_list:
+      status: true
+      date_added: "2021-04-08"
+      list: "US Commerce BIS"
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "Jointly established in 2014 by China Electronics Corporation (a central state-owned enterprise), the Tianjin Binhai New Area government, and the Tianjin Advanced Technology Research Institute — one of the most directly state-backed design houses in this tracker. Added to the Entity List in April 2021 over supercomputing ties to Chinese military modernization; TSMC subsequently stopped supplying it."
+      what_it_designs: "ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/FeiTeng"
+        title: "FeiTeng (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.commerce.gov/news/press-releases/2021/04/commerce-adds-seven-chinese-supercomputing-entities-entity-list-their"
+        title: "Commerce Adds Seven Chinese Supercomputing Entities to Entity List"
+        date: "2021-04-08"
+
+  - id: gigadevice
+    name_en: "GigaDevice Semiconductor"
+    name_zh: "兆易创新科技集团股份有限公司"
+    name_pinyin: "Zhàoyì Chuàngxīn Kējì Jítuán Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2005
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.98, lon: 116.30}
+    product_focus: "NOR flash memory, microcontrollers (MCUs), sensors"
+    design_scope: "Mature-market fabless IC design, not leading-edge logic"
+    node_sophistication: "Mature nodes typical of flash memory and MCU products"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 2, market_readiness: 5}
+    narrative:
+      significance: "Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on."
+      what_it_designs: "NOR flash memory chips, general-purpose microcontrollers, and sensors for consumer electronics, industrial, and automotive applications."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/GigaDevice"
+        title: "GigaDevice (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: rockchip
+    name_en: "Rockchip"
+    name_zh: "福州瑞芯微电子股份有限公司"
+    name_pinyin: "Fúzhōu Ruìxīnwēi Diànzǐ Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2001
+    location: {city: "Fuzhou", province: "Fujian", lat: 26.08, lon: 119.30}
+    product_focus: "Application processor SoCs for tablets, set-top boxes, IoT, and embedded devices"
+    design_scope: "Mature-market fabless SoC design"
+    node_sophistication: "Mature nodes typical of embedded/IoT application processors"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market)."
+      what_it_designs: "Application processor SoCs for tablets, set-top boxes, and embedded/IoT devices."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Rockchip"
+        title: "Rockchip (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: allwinner-technology
+    name_en: "Allwinner Technology"
+    name_zh: "珠海市全志科技股份有限公司"
+    name_pinyin: "Zhūhǎi Shì Quánzhì Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2007
+    location: {city: "Zhuhai", province: "Guangdong", lat: 22.27, lon: 113.58}
+    product_focus: "Application processor SoCs for tablets, IoT, and consumer electronics"
+    design_scope: "Mature-market fabless SoC design"
+    node_sophistication: "Mature nodes typical of consumer/IoT application processors"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 2, market_readiness: 5}
+    narrative:
+      significance: "Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment."
+      what_it_designs: "Application processor SoCs for tablets, streaming devices, and consumer IoT hardware."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Allwinner_Technology"
+        title: "Allwinner Technology (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: montage-technology
+    name_en: "Montage Technology"
+    name_zh: "澜起科技股份有限公司"
+    name_pinyin: "Lánqǐ Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2004
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.21, lon: 121.59}
+    product_focus: "Memory interface chips (DDR5 registering clock drivers) and data-center/AI interconnect chips"
+    design_scope: "Analog/mixed-signal IC design for memory and data-center interconnect"
+    node_sophistication: "Not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips."
+      what_it_designs: "Memory interface chips for server DRAM modules and data-center/AI interconnect chips, including CXL-related products."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Montage_Technology"
+        title: "Montage Technology (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://ijiwei.com/n/850608"
+        title: "Chinese IC design company Montage Technology cooperates with Intel to produce more AI chips"
+        date: "2026-09-28"
+
+  - id: omnivision-will-semiconductor
+    name_en: "OmniVision (Will Semiconductor)"
+    name_zh: "豪威科技（韦尔股份）"
+    name_pinyin: "Háowēi Kējì (Wéi'ěr Gǔfèn)"
+    category: "Fabless"
+    founded: 2007
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.23, lon: 121.47}
+    product_focus: "CMOS image sensors, analog and display solutions"
+    design_scope: "Full image-sensor and analog IC design"
+    node_sophistication: "Not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; now operates as OmniVision Group, headquartered in Shanghai, and pursued a Hong Kong IPO — a notable case of a Chinese fabless firm acquiring a once-independent Western chip brand outright rather than building one from scratch."
+      what_it_designs: "CMOS image sensors (smartphone and automotive cameras), plus analog and display driver solutions."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/OmniVision_Group"
+        title: "OmniVision Group (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://law.asia/omnivision-hkex-ipo/"
+        title: "Firms act on sensor maker OmniVision's HKD4.8bn IPO on HKEX"
+        date: "2026-09-28"
+
+  - id: goodix-technology
+    name_en: "Goodix Technology"
+    name_zh: "深圳市汇顶科技股份有限公司"
+    name_pinyin: "Shēnzhèn Shì Huìdǐng Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    category: "Fabless"
+    founded: 2002
+    location: {city: "Shenzhen", province: "Guangdong", lat: 22.52, lon: 114.07}
+    product_focus: "Fingerprint and touch sensor ICs, biometric and display-integrated sensors"
+    design_scope: "Full analog/mixed-signal sensor IC design"
+    node_sophistication: "Not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "Founded 2002 in Shenzhen; known as China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers."
+      what_it_designs: "Fingerprint sensors (ultrasonic, optical in-display, and capacitive) and touch/display-integrated sensor ICs."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Goodix"
+        title: "Goodix (Wikipedia)"
+        date: "2026-09-28"
+
+  - id: verisilicon
+    name_en: "VeriSilicon"
+    name_zh: "芯原微电子（上海）股份有限公司"
+    name_pinyin: "Xīnyuán Wēidiànzǐ (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī"
+    category: "EDA & IP Provider"
+    founded: 2001
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.58}
+    product_focus: "Semiconductor IP licensing and one-stop chip customization (ASIC/SoC design services)"
+    design_scope: "IP licensing plus full turnkey chip design services for third-party customers"
+    node_sophistication: "Not applicable — a design-service and IP-licensing firm, not a chip brand owner"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
+    narrative:
+      significance: "Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product."
+      what_it_designs: "Licensable semiconductor IP blocks and full custom ASIC/SoC design services for other companies' chip products."
+    sources:
+      - url: "https://www.digitimes.com/news/a20230425VL206/ic-design-distribution-ip-verisilicon.html"
+        title: "China-based VeriSilicon became the world's 7th largest silicon IP vendor, says IPnest"
+        date: "2023-04-25"
+
+  - id: empyrean-technology
+    name_en: "Empyrean Technology"
+    name_zh: "北京华大九天科技股份有限公司"
+    name_pinyin: "Běijīng Huádà Jiǔtiān Kējì Gǔfèn Yǒuxiàn Gōngsī"
+    category: "EDA & IP Provider"
+    founded: 2009
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.90, lon: 116.40}
+    product_focus: "Electronic design automation (EDA) software"
+    design_scope: "EDA tool development, not chip design itself"
+    node_sophistication: "Not applicable — an EDA software vendor"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA)."
+      what_it_designs: "EDA software tools used by chip designers for layout, verification, and simulation — the software layer that every other fabless firm in this tracker depends on."
+    sources:
+      - url: "https://en.wikipedia.org/wiki/Empyrean_Technology"
+        title: "Empyrean Technology (Wikipedia)"
+        date: "2026-09-28"
+      - url: "https://www.scmp.com/tech/article/3315237/chinas-top-player-empyrean-eyes-opportunities-us-chip-curbs-design-software"
+        title: "China's top player Empyrean eyes opportunities from US chip curbs on design software"
+        date: "2026-09-28"

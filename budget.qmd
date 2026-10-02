@@ -1,6 +1,6 @@
 ---
-title: "State Funding"
-subtitle: "China's National IC Industry Investment Fund (Big Fund) and other financing"
+title: "Policy & Budget"
+subtitle: "State financing and export-control exposure across China's semiconductor sector"
 date: last-modified
 ---
 
@@ -9,9 +9,12 @@ source("R/helpers.R")
 library(ggplot2)
 library(scales)
 library(dplyr)
+library(DT)
 
 funding <- load_funding("data/funding.yml")
 facilities <- load_facilities("data/facilities.yml")
+design <- load_design_firms("data/design.yml")
+materials <- load_materials_firms("data/materials.yml")
 ```
 
 ## Big Fund Rounds
@@ -76,3 +79,24 @@ if (nrow(source_data_usd) > 0) {
 ## Data Limitation
 Unlike India's Union Budget documents, China does not publish itemized Big Fund disbursement-by-project data. Figures here are facility-level investment totals tagged by funding source where a source has disclosed the tag — not an audited Big Fund expenditure ledger. No currency conversion is applied anywhere on this site; RMB and USD figures are always shown separately.
 :::
+
+## Export-Control Exposure
+
+For reference: entries across this site carrying a US Commerce Department Entity List or Department of Defense Section 1260H designation. The two lists carry different legal consequences (Entity List restricts exports; 1260H does not itself, though a related statutory provision bars DoD contracting with listed entities) — see the List column for which applies to each.
+
+```{r export-controls-table, echo=FALSE, warning=FALSE, message=FALSE}
+fac_rows <- facilities %>% filter(entity_list_flagged) %>%
+  transmute(Name = name_en, Type = "Facility", "Date Added" = format(entity_list_date, "%b %Y"), List = entity_list_name)
+design_rows <- design %>% filter(entity_list_flagged) %>%
+  transmute(Name = name_en, Type = "Design Firm", "Date Added" = format(entity_list_date, "%b %Y"), List = entity_list_name)
+materials_rows <- materials %>% filter(entity_list_flagged) %>%
+  transmute(Name = name_en, Type = "Equipment/Materials Firm", "Date Added" = format(entity_list_date, "%b %Y"), List = entity_list_name)
+
+all_flagged <- bind_rows(fac_rows, design_rows, materials_rows)
+
+if (nrow(all_flagged) > 0) {
+  datatable(all_flagged, options = list(pageLength = 10, dom = "ftip"), rownames = FALSE)
+} else {
+  cat("*No entries flagged yet.*")
+}
+```

@@ -1,0 +1,38 @@
+---
+title: "Black Sesame Technologies"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 黑芝麻智能科技有限公司 (Hēizhīma Zhìnéng Kējì Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips.
+:::
+
+## What does this firm design?
+
+AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2016 |
+| **Location** | Wuhan, Hubei |
+| **Product Focus** | Automotive AI computing chips for self-driving and ADAS |
+| **Node Sophistication** | Not disclosed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [Black Sesame Technologies (Wikipedia)](https://en.wikipedia.org/wiki/Black_Sesame_Technologies) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

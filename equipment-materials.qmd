@@ -16,7 +16,7 @@ firms <- load_materials_firms("data/materials.yml")
 
 ## Overview
 
-Export controls target equipment and materials as much as fabs — the machines that deposit, etch, and pattern silicon, and the wafers and chemicals those machines consume. As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` firms**, of which **`r sum(firms$entity_list_flagged)`** carry a US export-control or military-linked designation (Entity List or DoD 1260H — see the table below for which applies to each).
+The machines that deposit, etch, and pattern silicon, and the wafers and chemicals those machines consume — the supply chain feeding every fab and OSAT tracked elsewhere on this site. As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` firms**.
 
 ## Firm Map
 
@@ -26,7 +26,7 @@ popups <- vapply(1:nrow(firms), function(i) make_materials_popup(firms[i, ]), ch
 boundaries <- load_boundaries()
 
 leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
-  addProviderTiles("CartoDB.Positron") %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
   add_boundary_layers(boundaries) %>%
   addCircleMarkers(

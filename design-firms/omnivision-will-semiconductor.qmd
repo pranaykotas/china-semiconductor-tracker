@@ -1,0 +1,39 @@
+---
+title: "OmniVision (Will Semiconductor)"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 豪威科技（韦尔股份） (Háowēi Kējì (Wéi'ěr Gǔfèn))
+
+::: {.callout-tip}
+## Why This Matters
+OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; now operates as OmniVision Group, headquartered in Shanghai, and pursued a Hong Kong IPO — a notable case of a Chinese fabless firm acquiring a once-independent Western chip brand outright rather than building one from scratch.
+:::
+
+## What does this firm design?
+
+CMOS image sensors (smartphone and automotive cameras), plus analog and display driver solutions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2007 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | CMOS image sensors, analog and display solutions |
+| **Node Sophistication** | Not disclosed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [OmniVision Group (Wikipedia)](https://en.wikipedia.org/wiki/OmniVision_Group) (28 Sep 2026)
+- [Firms act on sensor maker OmniVision's HKD4.8bn IPO on HKEX](https://law.asia/omnivision-hkex-ipo/) (28 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>
