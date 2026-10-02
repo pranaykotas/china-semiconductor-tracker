@@ -21,7 +21,7 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` des
 ## Design Firm Map
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
-firms$colour <- sapply(firms$category, design_category_color)
+firms$colour <- unname(sapply(firms$category, design_category_color))
 popups <- vapply(1:nrow(firms), function(i) make_design_popup(firms[i, ]), character(1))
 boundaries <- load_boundaries()
 

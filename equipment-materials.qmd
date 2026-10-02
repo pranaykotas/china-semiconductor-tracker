@@ -21,7 +21,7 @@ The machines that deposit, etch, and pattern silicon, and the wafers and chemica
 ## Firm Map
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
-firms$colour <- sapply(firms$segment, segment_color)
+firms$colour <- unname(sapply(firms$segment, segment_color))
 popups <- vapply(1:nrow(firms), function(i) make_materials_popup(firms[i, ]), character(1))
 boundaries <- load_boundaries()
 

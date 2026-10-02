@@ -29,7 +29,7 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)
 Facilities are coloured by type, same as the [India Semiconductor Tracker](https://fabs.pranaykotas.com).
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
-colors <- sapply(facilities$type, type_color)
+colors <- unname(sapply(facilities$type, type_color))
 popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), character(1))
 labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
 
