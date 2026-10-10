@@ -1,0 +1,58 @@
+---
+title: "Nexchip Hefei Phase 4"
+subtitle: "Nexchip Semiconductor Corporation | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Tracked separately from the main `nexchip-hefei` entry (which covers existing operational capacity) because this fourth phase is a distinct, large, separately-financed expansion — ¥35.5 billion for a new 55,000 wafer/month line — launched in January 2026.
+:::
+
+**Chinese name:** 晶合集成四期 (Jīnghé Jíchéng Sìqī)
+
+## What does this facility make?
+
+Additional 12-inch (300mm) wafer foundry capacity once complete.
+
+## Why does it matter?
+
+Full capacity is targeted for end of 2028, a multi-year construction horizon typical of the current wave of China fab expansions — a reminder that 'under construction' projects in this sector often run 2-3 years from groundbreaking to full ramp, not months.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Nexchip Semiconductor Corporation |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch (300mm) wafer foundry — fourth-phase expansion |
+| **Status** | Under Construction |
+| **Investment** | ¥355亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Hefei, Anhui |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2026** — Phase 4 launched: ¥35.5 billion investment in a new 55,000 wafer/month 12-inch line
+
+## Sources
+
+- [半导体扩产：晶合355亿四期项目开建、华虹官宣82亿收购 (国际电子商情)](https://www.esmchina.com/marketnews/56518.html) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

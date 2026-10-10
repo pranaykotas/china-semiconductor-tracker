@@ -42,7 +42,7 @@ facilities:
     narrative:
       significance: "SMIC's largest single fab commitment — a $8.87B (reported domestically as over ¥50 billion total investment), 100,000 wafer/month 28nm-and-below joint venture with the Shanghai municipal government in the Lingang Special Area, formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)."
       what_it_makes: "12-inch (300mm) wafers at 28nm and more mature process nodes for foundry customers."
-      why_it_matters: "Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List. Phase 1 (20,000 wafers/month) reached production by late 2024; Phase 2 construction was ongoing as of mid-2026, with equipment installation targeted for the first half of 2026 and Phase 2 production for the second half."
+      why_it_matters: "Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List. This entry covers the operational Phase 1 (20,000 wafers/month, running since late 2024) specifically — the site's actively-under-construction Phase 2 expansion is tracked as its own entry, `smic-lingang-phase2`, so this one's 'Operational' status isn't read as covering the whole site."
     milestones:
       - date: "2021-09-03"
         event: "SMIC signs cooperation agreement with the Shanghai Lingang Management Committee for a $8.87 billion, 100,000 wafer/month 12-inch fab; registered capital $5.5 billion, SMIC holding no less than 51%"
@@ -304,7 +304,7 @@ facilities:
     narrative:
       significance: "Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund-backed deal since the October 2022 US export control tightening — $4.02B new equity (Hua Hong Group, the Big Fund, and a Wuxi entity) plus $2.68B in debt. Reached production in December 2024 at a planned 83,000 wafers/month, with full-capacity ramp targeted for the end of Q3 2026 and process-equipment move-in completed by end of June 2026."
       what_it_makes: "12-inch (300mm) wafers at mature specialty nodes (65nm, 55nm, 40nm) — power management, automotive, and analog chips, not leading-edge logic."
-      why_it_matters: "Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access. Hua Hong announced a THIRD Wuxi phase in September 2026 — a separate $2.127 billion investment, with construction having started in March 2026 — signaling this is an open-ended expansion programme rather than a one-off Phase 2 project; that Phase 3 commitment is not yet broken out as its own tracker entry."
+      why_it_matters: "Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access. Hua Hong announced a THIRD Wuxi phase in September 2026 — a separate $2.127 billion investment, with construction having started in March 2026 — now tracked as its own entry, `huahong-wuxi-phase3`, signaling this is an open-ended expansion programme rather than a one-off Phase 2 project."
     milestones:
       - date: "2023-01-11"
         event: "Hua Hong Semiconductor, the Big Fund, and a Wuxi entity sign agreement for a $6.7 billion second 12-inch Wuxi fab (Fab9)"
@@ -522,7 +522,7 @@ facilities:
     narrative:
       significance: "Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-strait tensions. Analyst consensus as of April 2026 projected ¥1.11 billion net profit for the full year (+57.7% YoY), continuing 2025's roughly 24% growth."
       what_it_makes: "Display driver ICs (DDIC) and CMOS image sensors (CIS) on 12-inch wafers — a foundry niche distinct from SMIC/Hua Hong's broader logic focus."
-      why_it_matters: "Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later. Launched a fourth phase in January 2026 — ¥35.5 billion total investment for a new 55,000 wafer/month 12-inch line, targeted to reach full capacity by end of 2028."
+      why_it_matters: "Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later. This entry covers existing operational capacity; the January 2026 fourth-phase expansion (¥35.5 billion, a new 55,000 wafer/month line) is tracked as its own entry, `nexchip-phase4`, since it is actively under construction rather than operational."
     milestones:
       - date: "2015-05-01"
         event: "Founded as a joint venture between PSMC (Powerchip) and Hefei City Construction and Investment Holding Group"
@@ -1236,3 +1236,278 @@ facilities:
       - url: "https://www.digitimes.com/news/a20200212VL201.html"
         title: "UMC to pour CNY3.5 billion into China 12-inch fab operation (Digitimes)"
         date: "2020-02-12"
+
+  - id: cxmt-shanghai
+    name_en: "CXMT Shanghai (Pudong DRAM 'Super Factory')"
+    name_zh: "长鑫存储上海基地"
+    name_pinyin: "Chángxīn Cúnchǔ Shànghǎi Jīdì"
+    company_en: "ChangXin Memory Technologies (CXMT)"
+    company_zh: "长鑫存储技术有限公司"
+    company_pinyin: "Chángxīn Cúnchǔ Jìshù Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.21
+      lon: 121.65
+    type: "Memory"
+    category: "State-Backed"
+    capability: "12-inch (300mm) DRAM wafer fab — DDR5, LPDDR5X, and HBM3"
+    investment:
+      total_rmb_100m: 345
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "A genuinely new DRAM mega-fab, separate from CXMT's Hefei headquarters site, entering substantive construction in March 2026 — this tracker did not capture it in an earlier pass, and it is one of the single largest individual under-construction projects in this entire dataset. Planned monthly capacity of 400,000-600,000 wafers would be 2-3x CXMT's existing Hefei output."
+      what_it_makes: "High-end DDR5 and LPDDR5X DRAM, plus a dedicated HBM3 line (50,000 wafers/month of the planned total) aimed at AI compute, server, and automotive-grade demand."
+      why_it_matters: "If completed on the stated schedule, this single fab would roughly double CXMT's total DRAM capacity and push the company further up the global DRAM ranking — concrete evidence that the 'many fabs under construction' reality in China is larger than a facility-by-facility reading of status fields that lag real-time news can capture without active, repeated rechecking."
+    milestones:
+      - date: "2026-03-01"
+        event: "Project enters substantive construction progress"
+      - date: "2026-09-28"
+        event: "CXMT announces it will deploy ¥18 billion of IPO over-subscription proceeds toward DRAM R&D and a Phase 2 back-end (wafer test) base, part of a combined ¥34.9 billion in related investment"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 3
+      capital_intensity: 5
+    dates:
+      announced: "2026-03-01"
+      approved: null
+      construction_start: "2026-03-01"
+      original_expected_completion: "2028-12-31"
+      date_completion: null
+    sources:
+      - url: "https://www.toutiao.com/article/7602594871840490030/"
+        title: "长鑫存储上海新厂2027年投产，将填补哪些高端DRAM空白？ (今日头条)"
+        date: "2026-09-28"
+      - url: "https://www.esmchina.com/news/14639.html"
+        title: "长鑫存储宣布349亿元重大项目投资 (国际电子商情)"
+        date: "2026-09-28"
+      - url: "https://news.qq.com/rain/a/20260929A035RG00"
+        title: "超募368亿！长鑫180亿加码DRAM研发与测试！ (腾讯新闻)"
+        date: "2026-09-29"
+
+  - id: xian-chipyear-era
+    name_en: "Chipyear Era Xi'an (8-inch Power Semiconductor Line)"
+    name_zh: "陕西电子芯业时代科技有限公司"
+    name_pinyin: "Shǎnxī Diànzǐ Xīnyè Shídài Kējì Yǒuxiàn Gōngsī"
+    company_en: "Shaanxi Electronics Chipyear Era Technology Co., Ltd."
+    company_zh: "陕西电子芯业时代科技有限公司"
+    company_pinyin: "Shǎnxī Diànzǐ Xīnyè Shídài Kējì Yǒuxiàn Gōngsī"
+    partners: ["Shaanxi provincial government"]
+    location:
+      city: "Xi'an"
+      province: "Shaanxi"
+      lat: 34.30
+      lon: 108.90
+    type: "Fab"
+    category: "State-Backed"
+    capability: "8-inch (200mm) power semiconductor fab — IGBT, silicon carbide (SiC) chips"
+    investment:
+      total_rmb_100m: 190
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Northwest China's first 8-inch specialty-process semiconductor line — another facility this tracker missed in its first passes, illustrating that under-construction projects outside the handful of best-covered hubs (Shanghai, Beijing, Shenzhen) are easy to miss without deliberately searching provincial and industry-trade coverage rather than only the most prominent national outlets."
+      what_it_makes: "Industrial-grade and automotive-grade power semiconductors — IGBTs and silicon carbide (SiC) chips — for EVs, renewable energy storage, and AI data center power systems, not logic or memory."
+      why_it_matters: "A reminder that China's fab build-out is not only about advanced logic and memory — mature-node power semiconductors for the EV and renewable-energy supply chains are a large, separate wave of construction with their own set of projects, mostly outside the export-control narrative entirely."
+    milestones:
+      - date: "2025-12-01"
+        event: "Phase 1 (¥3.2 billion, 50,000 wafers/month design capacity) completes and enters production"
+      - date: "2026-09-01"
+        event: "Phase 2 construction preparation begins, formal start targeted for Q3 2026, under a stated ¥19 billion total investment plan through 2030"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: null
+      approved: null
+      construction_start: "2025-01-01"
+      original_expected_completion: null
+      date_completion: "2025-12-01"
+    sources:
+      - url: "https://www.sohu.com/a/959372050_120122160"
+        title: "西北首条8英寸高性能特色工艺半导体生产线正式投产 (搜狐)"
+        date: "2026-09-28"
+      - url: "https://finance.sina.com.cn/roll/2026-06-09/doc-iniauzkt5103109.shtml"
+        title: "陕西芯业时代8英寸芯片生产线项目预计Q3启动二期建设 (新浪财经)"
+        date: "2026-06-09"
+
+  - id: smic-lingang-phase2
+    name_en: "SMIC Shanghai (Lingang) Phase 2"
+    name_zh: "中芯临港二期"
+    name_pinyin: "Zhōngxīn Língǎng Èrqī"
+    company_en: "SMIC"
+    company_zh: "中芯国际集成电路制造有限公司"
+    company_pinyin: "Zhōngxīn Guójì Jíchéng Diànlù Zhìzào Yǒuxiàn Gōngsī"
+    partners: ["Shanghai Municipal Government"]
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 30.885
+      lon: 121.921
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch (300mm) wafer foundry, 28nm and below — second-phase expansion of the Lingang site"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: true
+      date_added: "2020-12-18"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Tracked as a separate entry from `smic-lingang` (which covers the operational Phase 1, 20,000 wafers/month) because Phase 2 is a distinct, actively-under-construction expansion with its own timeline — collapsing both into a single 'Operational' status would have hidden the fact that this site is still a live construction project, not a finished one."
+      what_it_makes: "Additional 12-inch (300mm) wafer capacity at 28nm and below, once complete."
+      why_it_matters: "One of several cases in this tracker where a facility's original phase is producing chips today while a large, separately-timed expansion is simultaneously under construction at the same site — a pattern that a single facility-level status field tends to obscure unless each phase gets its own entry."
+    milestones:
+      - date: "2026-07-08"
+        event: "China Construction Eighth Engineering Bureau wins the general contract for the Fab9-P3 building and Fab9-P4 foundation works"
+      - date: "2026-09-01"
+        event: "Construction of Phase 2 reported as formally starting, targeting delivery by end of 2027"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 4
+      capital_intensity: 5
+    dates:
+      announced: null
+      approved: null
+      construction_start: "2026-09-01"
+      original_expected_completion: "2027-12-31"
+      date_completion: null
+    sources:
+      - url: "https://finance.sina.com.cn/roll/2026-06-30/doc-inifehiu4887824.shtml"
+        title: "上海临港新片区芯港集成晶圆制造项目正式开工 (新浪财经)"
+        date: "2026-06-30"
+      - url: "https://www.guancha.cn/economy/2026_07_03_822486.shtml"
+        title: "我国多个半导体项目集中落地，投资额超1000亿，覆盖三大方向 (观察者网)"
+        date: "2026-07-03"
+
+  - id: nexchip-phase4
+    name_en: "Nexchip Hefei Phase 4"
+    name_zh: "晶合集成四期"
+    name_pinyin: "Jīnghé Jíchéng Sìqī"
+    company_en: "Nexchip Semiconductor Corporation"
+    company_zh: "晶合集成电路股份有限公司"
+    company_pinyin: "Jīnghé Jíchéng Diànlù Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Powerchip Semiconductor Manufacturing Corporation (Taiwan)", "Hefei City Construction and Investment Holding Group"]
+    location:
+      city: "Hefei"
+      province: "Anhui"
+      lat: 31.82
+      lon: 117.23
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch (300mm) wafer foundry — fourth-phase expansion"
+    investment:
+      total_rmb_100m: 355
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Tracked separately from the main `nexchip-hefei` entry (which covers existing operational capacity) because this fourth phase is a distinct, large, separately-financed expansion — ¥35.5 billion for a new 55,000 wafer/month line — launched in January 2026."
+      what_it_makes: "Additional 12-inch (300mm) wafer foundry capacity once complete."
+      why_it_matters: "Full capacity is targeted for end of 2028, a multi-year construction horizon typical of the current wave of China fab expansions — a reminder that 'under construction' projects in this sector often run 2-3 years from groundbreaking to full ramp, not months."
+    milestones:
+      - date: "2026-01-01"
+        event: "Phase 4 launched: ¥35.5 billion investment in a new 55,000 wafer/month 12-inch line"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: "2026-01-01"
+      approved: null
+      construction_start: "2026-01-01"
+      original_expected_completion: "2028-12-31"
+      date_completion: null
+    sources:
+      - url: "https://www.esmchina.com/marketnews/56518.html"
+        title: "半导体扩产：晶合355亿四期项目开建、华虹官宣82亿收购 (国际电子商情)"
+        date: "2026-09-28"
+
+  - id: huahong-wuxi-phase3
+    name_en: "Hua Hong Wuxi Phase 3"
+    name_zh: "华虹无锡三期"
+    name_pinyin: "Huáhóng Wúxī Sānqī"
+    company_en: "Hua Hong Semiconductor"
+    company_zh: "华虹半导体"
+    company_pinyin: "Huáhóng Bàndǎotǐ"
+    partners: []
+    location:
+      city: "Wuxi"
+      province: "Jiangsu"
+      lat: 31.57
+      lon: 120.30
+    type: "Fab"
+    category: "State-Backed"
+    capability: "12-inch (300mm) wafer foundry — third Wuxi phase"
+    investment:
+      total_usd_million: 2127
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Tracked separately from `huahong-wuxi-fab9` (Fab9/Phase II, now operational) because this third phase is a distinct, separately-announced $2.127 billion investment with construction having started in March 2026 — Hua Hong's expansion in Wuxi is an open-ended, multi-phase programme rather than a single project."
+      what_it_makes: "Additional 12-inch (300mm) wafer capacity at mature specialty nodes, once complete."
+      why_it_matters: "Alongside Nexchip Phase 4 and SMIC Lingang Phase 2, this is one of several concurrent 'next phase' projects at sites this tracker had already marked Operational based on an earlier phase — the clearest illustration of why a single facility-level status field needs per-phase entries to stay accurate."
+    milestones:
+      - date: "2026-03-01"
+        event: "Construction begins on a third Wuxi phase"
+      - date: "2026-09-01"
+        event: "Hua Hong Semiconductor formally announces the $2.127 billion Wuxi Phase 3 investment"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: "2026-09-01"
+      approved: null
+      construction_start: "2026-03-01"
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.esmchina.com/news/14554.html"
+        title: "华虹宏力21亿美元增资无锡三期：月产5.5万片12英寸产线落地 (国际电子商情)"
+        date: "2026-09-01"

@@ -1,0 +1,60 @@
+---
+title: "Chipyear Era Xi'an (8-inch Power Semiconductor Line)"
+subtitle: "Shaanxi Electronics Chipyear Era Technology Co., Ltd. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Northwest China's first 8-inch specialty-process semiconductor line — another facility this tracker missed in its first passes, illustrating that under-construction projects outside the handful of best-covered hubs (Shanghai, Beijing, Shenzhen) are easy to miss without deliberately searching provincial and industry-trade coverage rather than only the most prominent national outlets.
+:::
+
+**Chinese name:** 陕西电子芯业时代科技有限公司 (Shǎnxī Diànzǐ Xīnyè Shídài Kējì Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Industrial-grade and automotive-grade power semiconductors — IGBTs and silicon carbide (SiC) chips — for EVs, renewable energy storage, and AI data center power systems, not logic or memory.
+
+## Why does it matter?
+
+A reminder that China's fab build-out is not only about advanced logic and memory — mature-node power semiconductors for the EV and renewable-energy supply chains are a large, separate wave of construction with their own set of projects, mostly outside the export-control narrative entirely.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Shaanxi Electronics Chipyear Era Technology Co., Ltd. |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 8-inch (200mm) power semiconductor fab — IGBT, silicon carbide (SiC) chips |
+| **Status** | Under Construction |
+| **Investment** | ¥190亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Xi'an, Shaanxi |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Dec 2025** — Phase 1 (¥3.2 billion, 50,000 wafers/month design capacity) completes and enters production
+- **Sep 2026** — Phase 2 construction preparation begins, formal start targeted for Q3 2026, under a stated ¥19 billion total investment plan through 2030
+
+## Sources
+
+- [西北首条8英寸高性能特色工艺半导体生产线正式投产 (搜狐)](https://www.sohu.com/a/959372050_120122160) (28 Sep 2026)
+- [陕西芯业时代8英寸芯片生产线项目预计Q3启动二期建设 (新浪财经)](https://finance.sina.com.cn/roll/2026-06-09/doc-iniauzkt5103109.shtml) (09 Jun 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

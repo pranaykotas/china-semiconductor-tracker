@@ -1,0 +1,59 @@
+---
+title: "Hua Hong Wuxi Phase 3"
+subtitle: "Hua Hong Semiconductor | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Tracked separately from `huahong-wuxi-fab9` (Fab9/Phase II, now operational) because this third phase is a distinct, separately-announced $2.127 billion investment with construction having started in March 2026 — Hua Hong's expansion in Wuxi is an open-ended, multi-phase programme rather than a single project.
+:::
+
+**Chinese name:** 华虹无锡三期 (Huáhóng Wúxī Sānqī)
+
+## What does this facility make?
+
+Additional 12-inch (300mm) wafer capacity at mature specialty nodes, once complete.
+
+## Why does it matter?
+
+Alongside Nexchip Phase 4 and SMIC Lingang Phase 2, this is one of several concurrent 'next phase' projects at sites this tracker had already marked Operational based on an earlier phase — the clearest illustration of why a single facility-level status field needs per-phase entries to stay accurate.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hua Hong Semiconductor |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 12-inch (300mm) wafer foundry — third Wuxi phase |
+| **Status** | Under Construction |
+| **Investment** | $2,127M |
+| **Funding Source** | Local Govt |
+| **Location** | Wuxi, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Mar 2026** — Construction begins on a third Wuxi phase
+- **Sep 2026** — Hua Hong Semiconductor formally announces the $2.127 billion Wuxi Phase 3 investment
+
+## Sources
+
+- [华虹宏力21亿美元增资无锡三期：月产5.5万片12英寸产线落地 (国际电子商情)](https://www.esmchina.com/news/14554.html) (01 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -17,7 +17,7 @@ SMIC's largest single fab commitment — a $8.87B (reported domestically as over
 
 ## Why does it matter?
 
-Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List. Phase 1 (20,000 wafers/month) reached production by late 2024; Phase 2 construction was ongoing as of mid-2026, with equipment installation targeted for the first half of 2026 and Phase 2 production for the second half.
+Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List. This entry covers the operational Phase 1 (20,000 wafers/month, running since late 2024) specifically — the site's actively-under-construction Phase 2 expansion is tracked as its own entry, `smic-lingang-phase2`, so this one's 'Operational' status isn't read as covering the whole site.
 
 ## Key Facts
 

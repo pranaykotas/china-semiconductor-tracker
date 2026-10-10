@@ -1,0 +1,61 @@
+---
+title: "CXMT Shanghai (Pudong DRAM 'Super Factory')"
+subtitle: "ChangXin Memory Technologies (CXMT) | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A genuinely new DRAM mega-fab, separate from CXMT's Hefei headquarters site, entering substantive construction in March 2026 — this tracker did not capture it in an earlier pass, and it is one of the single largest individual under-construction projects in this entire dataset. Planned monthly capacity of 400,000-600,000 wafers would be 2-3x CXMT's existing Hefei output.
+:::
+
+**Chinese name:** 长鑫存储上海基地 (Chángxīn Cúnchǔ Shànghǎi Jīdì)
+
+## What does this facility make?
+
+High-end DDR5 and LPDDR5X DRAM, plus a dedicated HBM3 line (50,000 wafers/month of the planned total) aimed at AI compute, server, and automotive-grade demand.
+
+## Why does it matter?
+
+If completed on the stated schedule, this single fab would roughly double CXMT's total DRAM capacity and push the company further up the global DRAM ranking — concrete evidence that the 'many fabs under construction' reality in China is larger than a facility-by-facility reading of status fields that lag real-time news can capture without active, repeated rechecking.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | ChangXin Memory Technologies (CXMT) |
+| **Type** | Memory |
+| **Category** | State-Backed |
+| **Capability** | 12-inch (300mm) DRAM wafer fab — DDR5, LPDDR5X, and HBM3 |
+| **Status** | Under Construction |
+| **Investment** | ¥345亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Mar 2026** — Project enters substantive construction progress
+- **Sep 2026** — CXMT announces it will deploy ¥18 billion of IPO over-subscription proceeds toward DRAM R&D and a Phase 2 back-end (wafer test) base, part of a combined ¥34.9 billion in related investment
+
+## Sources
+
+- [长鑫存储上海新厂2027年投产，将填补哪些高端DRAM空白？ (今日头条)](https://www.toutiao.com/article/7602594871840490030/) (28 Sep 2026)
+- [长鑫存储宣布349亿元重大项目投资 (国际电子商情)](https://www.esmchina.com/news/14639.html) (28 Sep 2026)
+- [超募368亿！长鑫180亿加码DRAM研发与测试！ (腾讯新闻)](https://news.qq.com/rain/a/20260929A035RG00) (29 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -17,7 +17,7 @@ Display driver ICs (DDIC) and CMOS image sensors (CIS) on 12-inch wafers — a f
 
 ## Why does it matter?
 
-Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later. Launched a fourth phase in January 2026 — ¥35.5 billion total investment for a new 55,000 wafer/month 12-inch line, targeted to reach full capacity by end of 2028.
+Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later. This entry covers existing operational capacity; the January 2026 fourth-phase expansion (¥35.5 billion, a new 55,000 wafer/month line) is tracked as its own entry, `nexchip-phase4`, since it is actively under construction rather than operational.
 
 ## Key Facts
 

@@ -17,7 +17,7 @@ Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund
 
 ## Why does it matter?
 
-Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access. Hua Hong announced a THIRD Wuxi phase in September 2026 — a separate $2.127 billion investment, with construction having started in March 2026 — signaling this is an open-ended expansion programme rather than a one-off Phase 2 project; that Phase 3 commitment is not yet broken out as its own tracker entry.
+Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access. Hua Hong announced a THIRD Wuxi phase in September 2026 — a separate $2.127 billion investment, with construction having started in March 2026 — now tracked as its own entry, `huahong-wuxi-phase3`, signaling this is an open-ended expansion programme rather than a one-off Phase 2 project.
 
 ## Key Facts
 

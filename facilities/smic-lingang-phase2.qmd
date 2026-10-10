@@ -1,0 +1,60 @@
+---
+title: "SMIC Shanghai (Lingang) Phase 2"
+subtitle: "SMIC | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Tracked as a separate entry from `smic-lingang` (which covers the operational Phase 1, 20,000 wafers/month) because Phase 2 is a distinct, actively-under-construction expansion with its own timeline — collapsing both into a single 'Operational' status would have hidden the fact that this site is still a live construction project, not a finished one.
+:::
+
+**Chinese name:** 中芯临港二期 (Zhōngxīn Língǎng Èrqī)
+
+## What does this facility make?
+
+Additional 12-inch (300mm) wafer capacity at 28nm and below, once complete.
+
+## Why does it matter?
+
+One of several cases in this tracker where a facility's original phase is producing chips today while a large, separately-timed expansion is simultaneously under construction at the same site — a pattern that a single facility-level status field tends to obscure unless each phase gets its own entry.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SMIC |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch (300mm) wafer foundry, 28nm and below — second-phase expansion of the Lingang site |
+| **Status** | Under Construction |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jul 2026** — China Construction Eighth Engineering Bureau wins the general contract for the Fab9-P3 building and Fab9-P4 foundation works
+- **Sep 2026** — Construction of Phase 2 reported as formally starting, targeting delivery by end of 2027
+
+## Sources
+
+- [上海临港新片区芯港集成晶圆制造项目正式开工 (新浪财经)](https://finance.sina.com.cn/roll/2026-06-30/doc-inifehiu4887824.shtml) (30 Jun 2026)
+- [我国多个半导体项目集中落地，投资额超1000亿，覆盖三大方向 (观察者网)](https://www.guancha.cn/economy/2026_07_03_822486.shtml) (03 Jul 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>
