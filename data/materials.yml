@@ -142,3 +142,51 @@ materials_firms:
       - url: "https://www.cs.com.cn/ssgs/01/2026/08/20/detail_2026082010032570.html"
         title: "沪硅产业：2026年上半年营收同比增长36.51% 300mm硅片销量增幅超90% (中证网)"
         date: "2026-08-20"
+
+  - id: linde-gas-china
+    name_en: "Linde Gas China"
+    name_zh: "林德气体（中国）有限公司"
+    name_pinyin: "Líndé Qìtǐ (Zhōngguó) Yǒuxiàn Gōngsī"
+    category: "Materials"
+    segment: "Specialty Gas"
+    node_capability: "Not applicable — a materials/gas supplier, not a process-node-specific tool"
+    founded: null
+    hq: {city: "Shanghai", lat: 31.22, lon: 121.48}
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    narrative:
+      significance: "A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely a sales office. Linde built and started up dedicated ultra-high-purity nitrogen generation and air-separation plants in Shanghai under long-term (reportedly 20-year) supply contracts with named China fabs."
+      what_it_supplies: "Ultra-high-purity industrial and electronic gases (nitrogen, oxygen, argon, and specialty electronic gases) piped or delivered directly to fab customers — confirmed named customers include GTA Semiconductor and Shanghai Huali Microelectronics (HLMC), with broader on-site gas production facilities across China's major fab clusters."
+    sources:
+      - url: "https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-gta-semiconductor"
+        title: "Linde Starts Up New Plant in China to Supply GTA Semiconductor"
+        date: "2026-09-28"
+      - url: "https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-shanghai-huali-microelectronics"
+        title: "Linde Starts Up New Plant in China to Supply Shanghai Huali Microelectronics"
+        date: "2026-09-28"
+      - url: "https://www.prnewswire.com/news-releases/linde-invests-over-eur-110-million-in-china-to-strengthen-position-as-supplier-of-choice-for-electronics-manufacturers-300422247.html"
+        title: "Linde invests over EUR 110 million in China to strengthen position as supplier of choice for electronics manufacturers"
+        date: "2026-09-28"
+
+  - id: air-liquide-china
+    name_en: "Air Liquide China (Electronics)"
+    name_zh: "液化空气（中国）投资有限公司"
+    name_pinyin: "Yèhuà Kōngqì (Zhōngguó) Tóuzī Yǒuxiàn Gōngsī"
+    category: "Materials"
+    segment: "Specialty Gas"
+    node_capability: "Not applicable — a materials/gas supplier, not a process-node-specific tool"
+    founded: null
+    hq: {city: "Shanghai", lat: 31.20, lon: 121.50}
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    narrative:
+      significance: "A foreign (French-headquartered) industrial gas major with one of the largest confirmed manufacturing footprints of any multinational in China — reportedly close to 90 factories across 40+ Chinese cities and over 4,000 employees overall, with a dedicated electronics business (ultra-high-purity gases, chemical liquids, and related equipment for semiconductor, flat-panel-display, and photovoltaic customers) employing over 3,000 of them. Represented here at its Shanghai electronics-business base; its actual gas plants are distributed nationally, not concentrated at one site — a genuine case where a single map marker understates the real footprint."
+      what_it_supplies: "Ultra-high-purity carrier gases, electronic specialty gases, and chemical liquids for semiconductor fabs, alongside related delivery equipment — a parallel supplier to Linde in the same specialty-gas chokepoint category."
+    sources:
+      - url: "https://www.airliquide.com/sites/airliquide.com/files/2018/03/02/ye_hua_kong_qi_ji_tuan_zai_zhong_guo_.pdf"
+        title: "液化空气集团 在中国 (Air Liquide China corporate overview)"
+        date: "2026-09-28"

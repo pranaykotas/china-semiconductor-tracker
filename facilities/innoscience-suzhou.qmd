@@ -1,0 +1,63 @@
+---
+title: "Innoscience Suzhou"
+subtitle: "Innoscience (Suzhou) Technology Holding Co., Ltd. | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Missed in this tracker's earlier passes despite being the world's first company to mass-produce 8-inch silicon-based GaN wafers and, by one 2023 estimate, holder of roughly 42.4% of the global GaN power semiconductor market — illustrating a gap in this tracker's own coverage: it has focused heavily on silicon logic and memory, and had zero entries of type 'Compound Semiconductor' until this one, despite that category existing in the schema since Phase 1. Founded December 17, 2015 by chairperson Luo Weiwei; listed on the Hong Kong Stock Exchange (02577.HK) on December 30, 2024.
+:::
+
+**Chinese name:** 英诺赛科（苏州）科技股份有限公司 (Yīngnuò Sàikē (Sūzhōu) Kējì Gǔfèn Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Gallium nitride (GaN) power semiconductors — not silicon — for AI data center power supplies, automotive (EV), and fast-charging applications. An IDM (integrated device manufacturer): Innoscience designs, fabricates, and packages its own chips rather than using a foundry.
+
+## Why does it matter?
+
+GaN is a materially different technology bet from the silicon-based story that dominates most of this tracker — it targets power efficiency (AI data center power delivery, EV inverters) rather than logic density or export-control-constrained lithography, and China's GaN leadership is comparatively undercovered relative to its advanced-logic and memory narratives despite Innoscience's genuine global market-share lead.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Innoscience (Suzhou) Technology Holding Co., Ltd. |
+| **Type** | Compound Semiconductor |
+| **Category** | Private |
+| **Capability** | 8-inch (200mm) silicon-based gallium nitride (GaN) power semiconductor IDM — design, fab, and packaging in-house |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Private |
+| **Location** | Suzhou, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Dec 2015** — Founded in Suzhou (Wujiang District) by Luo Weiwei
+- **Dec 2024** — Lists on the Hong Kong Stock Exchange (02577.HK)
+- **Aug 2026** — Reports H1 2026 revenue of ¥834 million (+50.6% YoY) and a narrowed net loss of ¥309 million (-27.9% YoY), alongside reaching positive operating cash flow for the first time
+- **Dec 2026** — Targeted completion of an 8-inch GaN capacity expansion from 13,000 to 20,000 wafers/month
+
+## Sources
+
+- [Innoscience (Wikipedia)](https://en.wikipedia.org/wiki/Innoscience) (28 Sep 2026)
+- [英诺赛科发布中期业绩 销售收入同比增长50.6%至8.34亿元 实现经营净现金流转正里程碑 (腾讯新闻)](https://news.qq.com/rain/a/20260829A00N2A00) (29 Aug 2026)
+- [英诺赛科扩产：8英寸氮化镓晶圆产能年底将达到每月20000片 (电子工程专辑)](https://www.eet-china.com/news/202507143854.html) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

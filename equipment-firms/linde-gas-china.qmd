@@ -1,0 +1,37 @@
+---
+title: "Linde Gas China"
+subtitle: "Specialty Gas"
+date: last-modified
+---
+
+**Chinese name:** 林德气体（中国）有限公司 (Líndé Qìtǐ (Zhōngguó) Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely a sales office. Linde built and started up dedicated ultra-high-purity nitrogen generation and air-separation plants in Shanghai under long-term (reportedly 20-year) supply contracts with named China fabs.
+:::
+
+## What does this firm supply?
+
+Ultra-high-purity industrial and electronic gases (nitrogen, oxygen, argon, and specialty electronic gases) piped or delivered directly to fab customers — confirmed named customers include GTA Semiconductor and Shanghai Huali Microelectronics (HLMC), with broader on-site gas production facilities across China's major fab clusters.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Materials |
+| **Segment** | Specialty Gas |
+| **Node Capability** | Not applicable — a materials/gas supplier, not a process-node-specific tool |
+| **Founded** | Unknown |
+| **HQ** | Shanghai |
+| **Entity List** | No |
+
+## Sources
+
+- [Linde Starts Up New Plant in China to Supply GTA Semiconductor](https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-gta-semiconductor) (28 Sep 2026)
+- [Linde Starts Up New Plant in China to Supply Shanghai Huali Microelectronics](https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-shanghai-huali-microelectronics) (28 Sep 2026)
+- [Linde invests over EUR 110 million in China to strengthen position as supplier of choice for electronics manufacturers](https://www.prnewswire.com/news-releases/linde-invests-over-eur-110-million-in-china-to-strengthen-position-as-supplier-of-choice-for-electronics-manufacturers-300422247.html) (28 Sep 2026)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>

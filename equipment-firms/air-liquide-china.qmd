@@ -1,0 +1,35 @@
+---
+title: "Air Liquide China (Electronics)"
+subtitle: "Specialty Gas"
+date: last-modified
+---
+
+**Chinese name:** 液化空气（中国）投资有限公司 (Yèhuà Kōngqì (Zhōngguó) Tóuzī Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+A foreign (French-headquartered) industrial gas major with one of the largest confirmed manufacturing footprints of any multinational in China — reportedly close to 90 factories across 40+ Chinese cities and over 4,000 employees overall, with a dedicated electronics business (ultra-high-purity gases, chemical liquids, and related equipment for semiconductor, flat-panel-display, and photovoltaic customers) employing over 3,000 of them. Represented here at its Shanghai electronics-business base; its actual gas plants are distributed nationally, not concentrated at one site — a genuine case where a single map marker understates the real footprint.
+:::
+
+## What does this firm supply?
+
+Ultra-high-purity carrier gases, electronic specialty gases, and chemical liquids for semiconductor fabs, alongside related delivery equipment — a parallel supplier to Linde in the same specialty-gas chokepoint category.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Materials |
+| **Segment** | Specialty Gas |
+| **Node Capability** | Not applicable — a materials/gas supplier, not a process-node-specific tool |
+| **Founded** | Unknown |
+| **HQ** | Shanghai |
+| **Entity List** | No |
+
+## Sources
+
+- [液化空气集团 在中国 (Air Liquide China corporate overview)](https://www.airliquide.com/sites/airliquide.com/files/2018/03/02/ye_hua_kong_qi_ji_tuan_zai_zhong_guo_.pdf) (28 Sep 2026)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>
