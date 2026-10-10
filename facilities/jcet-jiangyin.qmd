@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, now majority-owned via China Resources Microelectronics. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target.
+China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, now majority-owned via China Resources Microelectronics. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target. H1 2026 non-GAAP net profit grew 84.7% year-on-year as advanced-packaging orders accelerated; Q1 2026 alone brought ¥9.171 billion revenue and ¥290 million net profit (+42.7% YoY).
 :::
 
 **Chinese name:** 长电科技 (Chángdiàn Kējì)
@@ -17,7 +17,7 @@ Chip assembly, test, and advanced packaging services — not a fab, but the step
 
 ## Why does it matter?
 
-Advanced packaging (chiplets, heterogeneous integration) is one of the segments China's Big Fund III and its OSAT majors are explicitly pivoting toward, since it offers a path to competitive chip performance without needing export-controlled leading-edge lithography.
+Advanced packaging (chiplets, heterogeneous integration) is one of the segments China's Big Fund III and its OSAT majors are explicitly pivoting toward, since it offers a path to competitive chip performance without needing export-controlled leading-edge lithography. By 2026 the company says its entire production line has moved upmarket to five top-tier processes: XDFOI multi-dimensional heterogeneous integration, 1.5-micron ultra-fine hybrid bonding, 3D logic folding, HBM (high-bandwidth memory) packaging, and CPO (co-packaged optics).
 
 ## Key Facts
 
@@ -48,11 +48,13 @@ Advanced packaging (chiplets, heterogeneous integration) is one of the segments 
 ## Project Timeline
 
 - **Aug 2015** — Acquires Singapore's STATS ChipPAC, becoming one of the world's top-three OSAT firms by revenue
+- **Jul 2026** — Reports H1 2026 non-GAAP net profit up 84.7% year-on-year, crediting advanced-packaging (chiplet, HBM, CPO) order growth
 
 ## Sources
 
 - [JCET (company) (Wikipedia)](https://en.wikipedia.org/wiki/JCET_(company)) (28 Sep 2026)
 - [China's leading OSAT company JCET Group achieves high-volume packaging of 4-nanometer chips by leveraging Chiplet technology](https://jw.ijiwei.com/n/871800) (28 Sep 2026)
+- [长电科技2026年半年报业绩预测+季度同比环比+78亿临港高端封测项目解读 (ZAKER)](https://app.myzaker.com/news/article.php?pk=6a56f1598e9f092c045b7dbd) (28 Sep 2026)
 
 ---
 

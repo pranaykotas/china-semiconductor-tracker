@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month.
+China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month. That expansion is ahead of its original pace: H1 2026 revenue grew 36.5% year-on-year with 300mm wafer shipment volume up over 90%, and combined Shanghai + Taiyuan 300mm capacity had already reached roughly 1 million wafers/month, with 1.2 million/month now targeted by end of 2026 rather than as a multi-year goal.
 :::
 
 ## What does this firm supply?
@@ -30,6 +30,7 @@ China's largest domestic semiconductor silicon wafer producer, founded December 
 
 - [National Silicon Industry Group (Wikipedia)](https://en.wikipedia.org/wiki/National_Silicon_Industry_Group) (28 Sep 2026)
 - [China-based National Silicon Industry to double wafer production capacity to foster self-reliant chip ecosystem](https://www.digitimes.com/news/a20240613VL201/national-silicon-industry-wafer-production-capacity-ic-manufacturing.html) (13 Jun 2024)
+- [沪硅产业：2026年上半年营收同比增长36.51% 300mm硅片销量增幅超90% (中证网)](https://www.cs.com.cn/ssgs/01/2026/08/20/detail_2026082010032570.html) (20 Aug 2026)
 
 ---
 

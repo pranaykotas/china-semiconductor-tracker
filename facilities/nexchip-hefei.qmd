@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-strait tensions.
+Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-strait tensions. Analyst consensus as of April 2026 projected ¥1.11 billion net profit for the full year (+57.7% YoY), continuing 2025's roughly 24% growth.
 :::
 
 **Chinese name:** 晶合集成 (Jīnghé Jíchéng)
@@ -17,7 +17,7 @@ Display driver ICs (DDIC) and CMOS image sensors (CIS) on 12-inch wafers — a f
 
 ## Why does it matter?
 
-Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later.
+Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later. Launched a fourth phase in January 2026 — ¥35.5 billion total investment for a new 55,000 wafer/month 12-inch line, targeted to reach full capacity by end of 2028.
 
 ## Key Facts
 
@@ -48,10 +48,12 @@ Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-c
 ## Project Timeline
 
 - **May 2015** — Founded as a joint venture between PSMC (Powerchip) and Hefei City Construction and Investment Holding Group
+- **Jan 2026** — Launches Phase 4: ¥35.5 billion investment in a new 55,000 wafer/month 12-inch line, full capacity targeted end of 2028
 
 ## Sources
 
 - [Nexchip (Wikipedia)](https://en.wikipedia.org/wiki/Nexchip) (28 Sep 2026)
+- [晶合集成2026一季报深度解析 (东方财富)](https://caifuhao.eastmoney.com/news/20260423174626657731640) (23 Apr 2026)
 
 ---
 

@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product.
+Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product. Revenue has grown very fast but profitability has not followed: H1 2026 revenue reached ¥1.864 billion (+91.4% YoY, a record half-year), while net loss widened to ¥612 million (roughly 91% worse than the prior year), as the company front-loads R&D and NRE costs against a reported AI ASIC order backlog exceeding ¥15 billion.
 :::
 
 ## What does this firm design?
 
-Licensable semiconductor IP blocks and full custom ASIC/SoC design services for other companies' chip products.
+Licensable semiconductor IP blocks and full custom ASIC/SoC design services for other companies' chip products, increasingly weighted toward AI ASIC design services.
 
 ## Key Facts
 
@@ -32,6 +32,7 @@ Licensable semiconductor IP blocks and full custom ASIC/SoC design services for 
 ## Sources
 
 - [China-based VeriSilicon became the world's 7th largest silicon IP vendor, says IPnest](https://www.digitimes.com/news/a20230425VL206/ic-design-distribution-ip-verisilicon.html) (25 Apr 2023)
+- [芯原股份上半年营收增长91%，仍亏损6.12亿元 (TechNode China)](https://cn.technode.com/post/2026-08-18/verisilicon-first-half-2026-revenue-loss-orders/) (18 Aug 2026)
 
 ---
 

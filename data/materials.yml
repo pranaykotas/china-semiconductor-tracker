@@ -103,7 +103,7 @@ materials_firms:
       date_added: "2024-12-03"
       list: "US Commerce BIS"
     narrative:
-      significance: "China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit."
+      significance: "China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit. 2025 full-year revenue reached ¥6.786 billion (+20.8% YoY) with net profit of ¥1.396 billion (+21.1% YoY); 2026 guidance was raised to $1.125-1.175 billion in revenue (+25-30% YoY), with management citing electroplating (ECP) demand and H1 2026 order growth of 105% year-on-year, concentrated in advanced packaging."
       what_it_supplies: "Wafer cleaning systems, electrochemical plating (ECP) tools, PECVD deposition, furnace, and track platforms — several adjacent front-end process categories beyond its original cleaning-tool business."
     sources:
       - url: "https://en.wikipedia.org/wiki/ACM_Research"
@@ -112,6 +112,9 @@ materials_firms:
       - url: "https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/"
         title: "US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers"
         date: "2024-12-03"
+      - url: "http://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-27/688082_20260227_7FPP.pdf"
+        title: "盛美半导体设备（上海）股份有限公司2025年年度报告 (Shanghai Stock Exchange annual report filing)"
+        date: "2026-02-27"
 
   - id: national-silicon-industry-group
     name_en: "National Silicon Industry Group (NSIG)"
@@ -127,7 +130,7 @@ materials_firms:
       date_added: null
       list: null
     narrative:
-      significance: "China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month."
+      significance: "China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month. That expansion is ahead of its original pace: H1 2026 revenue grew 36.5% year-on-year with 300mm wafer shipment volume up over 90%, and combined Shanghai + Taiyuan 300mm capacity had already reached roughly 1 million wafers/month, with 1.2 million/month now targeted by end of 2026 rather than as a multi-year goal."
       what_it_supplies: "300mm (12-inch) semiconductor-grade silicon wafers and SOI (silicon-on-insulator) substrates — the base material every fab in this tracker depends on, regardless of the fab's own ownership category or node."
     sources:
       - url: "https://en.wikipedia.org/wiki/National_Silicon_Industry_Group"
@@ -136,3 +139,6 @@ materials_firms:
       - url: "https://www.digitimes.com/news/a20240613VL201/national-silicon-industry-wafer-production-capacity-ic-manufacturing.html"
         title: "China-based National Silicon Industry to double wafer production capacity to foster self-reliant chip ecosystem"
         date: "2024-06-13"
+      - url: "https://www.cs.com.cn/ssgs/01/2026/08/20/detail_2026082010032570.html"
+        title: "沪硅产业：2026年上半年营收同比增长36.51% 300mm硅片销量增幅超90% (中证网)"
+        date: "2026-08-20"

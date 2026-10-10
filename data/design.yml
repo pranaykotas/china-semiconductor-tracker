@@ -13,14 +13,14 @@ design_firms:
     location: {city: "Shenzhen", province: "Guangdong", lat: 22.543, lon: 114.058}
     product_focus: "Smartphone SoCs (Kirin), server/PC CPUs (Kunpeng), AI accelerators (Ascend), modem/baseband (Balong)"
     design_scope: "Full SoC and chiplet design across mobile, server, and AI compute"
-    node_sophistication: "7nm-class (Kirin 9000S, fabricated by SMIC via multipatterning, August 2023)"
+    node_sophistication: "7nm-class via multipatterning (Kirin 9000S, August 2023); the Kirin 9050 Pro (September 2026) and an announced 'Kirin 2026' chip use 3D 'logic folding' (dual-layer vertical die stacking) to raise effective transistor density by a claimed 53.5% without requiring a smaller lithography node"
     entity_list:
       status: true
       date_added: "2019-05-16"
       list: "US Commerce BIS"
     design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019."
+      significance: "Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019. In May 2026, Huawei semiconductor unit president He Tingbo announced at ISCAS 2026 a new 'logic folding' architecture — stacking two device layers vertically to raise transistor density by a claimed 53.5% at a 3.1GHz core frequency — as a way to keep advancing performance without smaller lithography. The resulting Kirin 9050 Pro shipped in the Mate XT 2 tri-fold phone in September 2026, HiSilicon's first high-performance chip using the technique; reported 2025 HiSilicon revenue roughly doubled year-on-year."
       what_it_designs: "Full-stack SoCs across smartphone (Kirin), server/PC (Kunpeng, based on ARM architecture licensed before restrictions tightened), AI accelerator (Ascend), and modem (Balong) product lines."
     sources:
       - url: "https://en.wikipedia.org/wiki/HiSilicon"
@@ -29,6 +29,12 @@ design_firms:
       - url: "https://www.androidauthority.com/huawei-hisilicon-852231/"
         title: "HiSilicon: What you need to know about HUAWEI's chip design unit"
         date: "2026-09-28"
+      - url: "https://www.sina.cn/news/detail/5302408323273587.html"
+        title: "麒麟2026芯片今秋面世 (新浪)"
+        date: "2026-09-28"
+      - url: "https://finance.sina.com.cn/roll/2025-09-04/doc-infpkxsr1059506.shtml"
+        title: "华为麒麟芯片'重出江湖'：性能提升36%，去年海思营收翻倍 (新浪财经)"
+        date: "2025-09-04"
 
   - id: unisoc
     name_en: "UNISOC"
@@ -93,9 +99,9 @@ design_firms:
       status: false
       date_added: null
       list: null
-    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 5, market_readiness: 5}
     narrative:
-      significance: "Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap."
+      significance: "Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap. Full-year 2025 revenue reached ¥6.497 billion with ¥2.059 billion net profit — its first clearly profitable year — and Q1 2026 alone brought ¥2.885 billion revenue (+159.6% YoY) and ¥1.013 billion net profit (+185% YoY), with operating cash flow swinging from -¥1.399 billion a year earlier to +¥834 million. Market capitalization stood around ¥597.4 billion (roughly $84B) at the end of Q1 2026."
       what_it_designs: "AI accelerator chips spanning cloud training/inference and edge inference, positioned as a domestic substitute as US export controls restrict Nvidia GPU access in China."
     sources:
       - url: "https://en.wikipedia.org/wiki/Cambricon_Technologies"
@@ -104,6 +110,9 @@ design_firms:
       - url: "https://www.digitimes.com/news/a20250829PD213/cambricon-huawei-ai-chip-startup-shanghai.html"
         title: "Cambricon's second act: From Huawei's castoff to China's AI hopeful"
         date: "2026-09-28"
+      - url: "https://www.nbd.com.cn/articles/2026-04-29/4374207.html"
+        title: "寒武纪2026年一季度归母净利润增超185%，存货跌价计提2.46亿元 (每日经济新闻)"
+        date: "2026-04-29"
 
   - id: biren-technology
     name_en: "Biren Technology"
@@ -421,12 +430,15 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
     narrative:
-      significance: "Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product."
-      what_it_designs: "Licensable semiconductor IP blocks and full custom ASIC/SoC design services for other companies' chip products."
+      significance: "Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product. Revenue has grown very fast but profitability has not followed: H1 2026 revenue reached ¥1.864 billion (+91.4% YoY, a record half-year), while net loss widened to ¥612 million (roughly 91% worse than the prior year), as the company front-loads R&D and NRE costs against a reported AI ASIC order backlog exceeding ¥15 billion."
+      what_it_designs: "Licensable semiconductor IP blocks and full custom ASIC/SoC design services for other companies' chip products, increasingly weighted toward AI ASIC design services."
     sources:
       - url: "https://www.digitimes.com/news/a20230425VL206/ic-design-distribution-ip-verisilicon.html"
         title: "China-based VeriSilicon became the world's 7th largest silicon IP vendor, says IPnest"
         date: "2023-04-25"
+      - url: "https://cn.technode.com/post/2026-08-18/verisilicon-first-half-2026-revenue-loss-orders/"
+        title: "芯原股份上半年营收增长91%，仍亏损6.12亿元 (TechNode China)"
+        date: "2026-08-18"
 
   - id: empyrean-technology
     name_en: "Empyrean Technology"
@@ -444,7 +456,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA)."
+      significance: "Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA). H1 2026 revenue reached ¥566 million (+13.0% YoY) but the company posted a net loss of ¥45.06 million for the half; analyst forecasts cited in domestic coverage project a return to profitability by full-year 2026 (roughly ¥40 million net profit), rising toward ¥180 million by 2028 as revenue growth continues at a projected ~20%/year."
       what_it_designs: "EDA software tools used by chip designers for layout, verification, and simulation — the software layer that every other fabless firm in this tracker depends on."
     sources:
       - url: "https://en.wikipedia.org/wiki/Empyrean_Technology"
@@ -453,3 +465,6 @@ design_firms:
       - url: "https://www.scmp.com/tech/article/3315237/chinas-top-player-empyrean-eyes-opportunities-us-chip-curbs-design-software"
         title: "China's top player Empyrean eyes opportunities from US chip curbs on design software"
         date: "2026-09-28"
+      - url: "https://caifuhao.eastmoney.com/news/20260317220822529826630"
+        title: "华大九天（301269）投资价值分析报告：国产EDA龙头迈入攻坚期，全流程突破在即 (东方财富)"
+        date: "2026-03-17"

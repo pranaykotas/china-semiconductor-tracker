@@ -6,18 +6,18 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale.
+One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale. Earnings accelerated sharply in 2026: Q1 revenue reached ¥4.8 billion (+34.5% YoY), and the company guided H1 2026 net profit to ¥750-850 million, up 231-275% year-on-year, crediting advanced-packaging mix shift and M&A integration.
 :::
 
 **Chinese name:** 华天科技 (Huátiān Kējì)
 
 ## What does this facility make?
 
-Chip assembly, test, and wafer-level/advanced packaging services.
+Chip assembly, test, and wafer-level/advanced packaging services, now spanning SiP, flip-chip, TSV, bumping, fan-out (FO), wafer/panel-level packaging (WLP/PLP), and 2.5D/3D integration.
 
 ## Why does it matter?
 
-Based in Gansu province — a notable geographic outlier among China's semiconductor firms, most of which cluster in the Yangtze River Delta (Jiangsu/Shanghai) or Pearl River Delta (Guangdong) regions.
+Based in Gansu province — a notable geographic outlier among China's semiconductor firms, most of which cluster in the Yangtze River Delta (Jiangsu/Shanghai) or Pearl River Delta (Guangdong) regions. Its 2026 earnings jump, alongside JCET's and Tongfu's, points to a sector-wide advanced-packaging upcycle among China's three major OSATs rather than a single-company story.
 
 ## Key Facts
 
@@ -48,10 +48,12 @@ Based in Gansu province — a notable geographic outlier among China's semicondu
 ## Project Timeline
 
 - **Dec 2003** — Founded as Tianshui Huatian Technology Co., Ltd.
+- **Jul 2026** — Guides H1 2026 net profit to ¥750-850 million, up 231-275% year-on-year
 
 ## Sources
 
 - [Huatian Technology (Wikipedia)](https://en.wikipedia.org/wiki/Huatian_Technology) (28 Sep 2026)
+- [华天科技：预计2026年半年度盈利7.50亿至8.50亿 净利润同比增长231.16%至275.31% (同花顺)](http://yuanchuang.10jqka.com.cn/20260713/c678138484.shtml) (13 Jul 2026)
 
 ---
 

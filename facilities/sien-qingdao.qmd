@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC.
+China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC. Domestic reporting in 2026 describes Zhang as having since departed the company he founded, citing difficulty retaining talent — a leadership change this tracker has not independently corroborated beyond that single report. By 2026, reported capacity stood at roughly 60,000 wafers/month (8-inch line) and 40,000 wafers/month (12-inch line), with an annual output value around ¥4.6 billion at full capacity.
 :::
 
 **Chinese name:** 芯恩（青岛）集成电路 (Xīn'ēn (Qīngdǎo) Jíchéng Diànlù)
@@ -17,7 +17,7 @@ Logic/foundry, analog/power, and RF/wireless chips at 28nm and 40nm on both 200m
 
 ## Why does it matter?
 
-A structurally different ownership model (collaborative IDM, not a pure foundry or a single-owner state fab) from every other entry in this tracker, and notable for its founder's direct SMIC lineage.
+A structurally different ownership model (collaborative IDM, not a pure foundry or a single-owner state fab) from every other entry in this tracker, and notable for its founder's direct SMIC lineage. In September 2026 it opened a separate 'Industry Innovation Center' — five R&D buildings on a 30,154 sq m site, explicitly a research/innovation facility rather than a new wafer production line — framed domestically as a shift from 'scale manufacturing to innovation creation.'
 
 ## Key Facts
 
@@ -49,11 +49,14 @@ A structurally different ownership model (collaborative IDM, not a pure foundry 
 
 - **Apr 2018** — SiEn (Qingdao) established in the Qingdao West Coast New Area (Huangdao)
 - **Jan 2021** — Production commences on the first-phase lines
+- **Sep 2026** — Breaks ground on the SiEn Industry Innovation Center, a five-building R&D complex (not a new fab line) in the Qingdao Free Trade Zone IC industrial park
 
 ## Sources
 
 - [Chinese IC company Sien IDM receives new funding in Qingdao City](https://jw.ijiwei.com/n/857735) (28 Sep 2026)
 - [SiEn (Qingdao) Integrated Circuits - Phase 1 fab profile](https://www.fabulousmap.com/pages/sien-qingdao-integrated-circuits-fab.html) (28 Sep 2026)
+- [芯恩落子青岛'芯'项目！ (同花顺)](http://news.10jqka.com.cn/20260923/c680230057.shtml) (23 Sep 2026)
+- [张汝京离开自己创办的青岛芯恩，慨叹人才难得 (EDN电子技术设计)](https://www.ednchina.com/technews/13316.html) (28 Sep 2026)
 
 ---
 

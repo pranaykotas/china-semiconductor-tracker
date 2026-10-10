@@ -520,12 +520,14 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-strait tensions."
+      significance: "Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-strait tensions. Analyst consensus as of April 2026 projected ¥1.11 billion net profit for the full year (+57.7% YoY), continuing 2025's roughly 24% growth."
       what_it_makes: "Display driver ICs (DDIC) and CMOS image sensors (CIS) on 12-inch wafers — a foundry niche distinct from SMIC/Hua Hong's broader logic focus."
-      why_it_matters: "Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later."
+      why_it_matters: "Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-controlled entity through a JV structure, ahead of any Taiwan-specific tracker this project might build later. Launched a fourth phase in January 2026 — ¥35.5 billion total investment for a new 55,000 wafer/month 12-inch line, targeted to reach full capacity by end of 2028."
     milestones:
       - date: "2015-05-01"
         event: "Founded as a joint venture between PSMC (Powerchip) and Hefei City Construction and Investment Holding Group"
+      - date: "2026-01-01"
+        event: "Launches Phase 4: ¥35.5 billion investment in a new 55,000 wafer/month 12-inch line, full capacity targeted end of 2028"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -540,6 +542,9 @@ facilities:
       - url: "https://en.wikipedia.org/wiki/Nexchip"
         title: "Nexchip (Wikipedia)"
         date: "2026-09-28"
+      - url: "https://caifuhao.eastmoney.com/news/20260423174626657731640"
+        title: "晶合集成2026一季报深度解析 (东方财富)"
+        date: "2026-04-23"
 
   - id: jhicc-jinjiang
     name_en: "JHICC (Fujian Jinhua)"
@@ -573,12 +578,14 @@ facilities:
     narrative:
       significance: "The starkest case of a US export-control action landing directly on a named facility: added to the Entity List in October 2018 amid a Micron trade-secret theft dispute involving JHICC and Taiwan's UMC, just as its DRAM line was nearing production."
       what_it_makes: "DRAM chips on 12-inch (300mm) wafers, planned capacity of 60,000 wafers/month."
-      why_it_matters: "Widely reported as crippled by the 2018 ban in the years immediately after — a criminal case against JHICC and UMC followed, later resolved without a conviction against JHICC. More recent reporting describes the fab holding roughly 40,000 wafers/month of stable capacity with plans to expand toward 60,000 by 2026, a status this tracker could not fully reconcile against the earlier 'crippled' narrative — treat the current production figure as provisional pending a dedicated follow-up source check."
+      why_it_matters: "Widely reported as crippled by the 2018 ban in the years immediately after — a criminal case against JHICC and UMC followed, later resolved without a conviction against JHICC. 2026 Chinese-language industry coverage reconciles the earlier conflicting reports: the fab survived and stabilized at roughly 40,000 wafers/month with an expansion toward 60,000/month underway in 2026, but the five-year setback cost it competitive position — domestic rankings place it around 5th among Chinese memory makers, and coverage describes it as having fallen out of the global DRAM core supply chain entirely. Survival without competitiveness is the more precise read than either the original 'crippled' framing or an assumption of a clean recovery."
     milestones:
       - date: "2018-10-30"
         event: "Added to the US Commerce Department's Entity List amid Micron trade-secret allegations"
       - date: "2018-11-01"
         event: "US Attorney's Office files criminal complaint against JHICC and UMC for conspiracy to steal Micron trade secrets"
+      - date: "2026-01-01"
+        event: "Capacity expansion toward 60,000 wafers/month underway, per 2026 domestic industry coverage"
     complexity:
       technology_difficulty: 3
       foreign_dependence: 5
@@ -593,6 +600,9 @@ facilities:
       - url: "https://www.commerce.gov/news/press-releases/2018/10/addition-fujian-jinhua-integrated-circuit-company-ltd-jinhua-entity-list"
         title: "Addition of Fujian Jinhua Integrated Circuit Company, Ltd (Jinhua) to the Entity List — US Department of Commerce"
         date: "2018-10-30"
+      - url: "https://zhuanlan.zhihu.com/p/2056339740492878403"
+        title: "370亿建厂，量产前夜被美国'锁死'：福建晋华的血泪十年，给国产芯片留下了什么？ (Zhihu)"
+        date: "2026-09-28"
       - url: "https://en.wikipedia.org/wiki/Fujian_Jinhua_Integrated_Circuit"
         title: "Fujian Jinhua Integrated Circuit (Wikipedia)"
         date: "2026-09-28"
@@ -627,14 +637,16 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC."
+      significance: "China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC. Domestic reporting in 2026 describes Zhang as having since departed the company he founded, citing difficulty retaining talent — a leadership change this tracker has not independently corroborated beyond that single report. By 2026, reported capacity stood at roughly 60,000 wafers/month (8-inch line) and 40,000 wafers/month (12-inch line), with an annual output value around ¥4.6 billion at full capacity."
       what_it_makes: "Logic/foundry, analog/power, and RF/wireless chips at 28nm and 40nm on both 200mm and 300mm wafers."
-      why_it_matters: "A structurally different ownership model (collaborative IDM, not a pure foundry or a single-owner state fab) from every other entry in this tracker, and notable for its founder's direct SMIC lineage."
+      why_it_matters: "A structurally different ownership model (collaborative IDM, not a pure foundry or a single-owner state fab) from every other entry in this tracker, and notable for its founder's direct SMIC lineage. In September 2026 it opened a separate 'Industry Innovation Center' — five R&D buildings on a 30,154 sq m site, explicitly a research/innovation facility rather than a new wafer production line — framed domestically as a shift from 'scale manufacturing to innovation creation.'"
     milestones:
       - date: "2018-04-01"
         event: "SiEn (Qingdao) established in the Qingdao West Coast New Area (Huangdao)"
       - date: "2021-01-01"
         event: "Production commences on the first-phase lines"
+      - date: "2026-09-21"
+        event: "Breaks ground on the SiEn Industry Innovation Center, a five-building R&D complex (not a new fab line) in the Qingdao Free Trade Zone IC industrial park"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
@@ -651,6 +663,12 @@ facilities:
         date: "2026-09-28"
       - url: "https://www.fabulousmap.com/pages/sien-qingdao-integrated-circuits-fab.html"
         title: "SiEn (Qingdao) Integrated Circuits - Phase 1 fab profile"
+        date: "2026-09-28"
+      - url: "http://news.10jqka.com.cn/20260923/c680230057.shtml"
+        title: "芯恩落子青岛'芯'项目！ (同花顺)"
+        date: "2026-09-23"
+      - url: "https://www.ednchina.com/technews/13316.html"
+        title: "张汝京离开自己创办的青岛芯恩，慨叹人才难得 (EDN电子技术设计)"
         date: "2026-09-28"
 
   - id: jcet-jiangyin
@@ -683,12 +701,14 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, now majority-owned via China Resources Microelectronics. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target."
+      significance: "China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, now majority-owned via China Resources Microelectronics. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target. H1 2026 non-GAAP net profit grew 84.7% year-on-year as advanced-packaging orders accelerated; Q1 2026 alone brought ¥9.171 billion revenue and ¥290 million net profit (+42.7% YoY)."
       what_it_makes: "Chip assembly, test, and advanced packaging services — not a fab, but the step between a finished wafer and a sellable chip. Demonstrated high-volume packaging of 4nm-class chips using chiplet technology."
-      why_it_matters: "Advanced packaging (chiplets, heterogeneous integration) is one of the segments China's Big Fund III and its OSAT majors are explicitly pivoting toward, since it offers a path to competitive chip performance without needing export-controlled leading-edge lithography."
+      why_it_matters: "Advanced packaging (chiplets, heterogeneous integration) is one of the segments China's Big Fund III and its OSAT majors are explicitly pivoting toward, since it offers a path to competitive chip performance without needing export-controlled leading-edge lithography. By 2026 the company says its entire production line has moved upmarket to five top-tier processes: XDFOI multi-dimensional heterogeneous integration, 1.5-micron ultra-fine hybrid bonding, 3D logic folding, HBM (high-bandwidth memory) packaging, and CPO (co-packaged optics)."
     milestones:
       - date: "2015-08-01"
         event: "Acquires Singapore's STATS ChipPAC, becoming one of the world's top-three OSAT firms by revenue"
+      - date: "2026-07-01"
+        event: "Reports H1 2026 non-GAAP net profit up 84.7% year-on-year, crediting advanced-packaging (chiplet, HBM, CPO) order growth"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -705,6 +725,9 @@ facilities:
         date: "2026-09-28"
       - url: "https://jw.ijiwei.com/n/871800"
         title: "China's leading OSAT company JCET Group achieves high-volume packaging of 4-nanometer chips by leveraging Chiplet technology"
+        date: "2026-09-28"
+      - url: "https://app.myzaker.com/news/article.php?pk=6a56f1598e9f092c045b7dbd"
+        title: "长电科技2026年半年报业绩预测+季度同比环比+78亿临港高端封测项目解读 (ZAKER)"
         date: "2026-09-28"
 
   - id: tongfu-nantong
@@ -737,12 +760,14 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; largest shareholder is the state-linked Nantong Huada Microelectronics Group (19.91%) with the Big Fund holding 11.26%. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright."
+      significance: "Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; largest shareholder is the state-linked Nantong Huada Microelectronics Group (19.91%) with the Big Fund holding 11.26%. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright. H1 2026 revenue reached ¥16 billion (+23% YoY) with net profit up 317% YoY to ¥1.72 billion; Q2 2026 net profit alone grew 286-347% quarter-on-quarter."
       what_it_makes: "Chip assembly, test, and advanced packaging — including hybrid-bonding-based chiplet packaging and high-bandwidth memory (HBM) packaging, positioning it alongside JCET in China's advanced-packaging push."
-      why_it_matters: "One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains."
+      why_it_matters: "One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains. By 2026, domestic reporting says Tongfu has entered Samsung's and SK Hynix's own HBM supply chains, capturing close to 45% of Samsung's outsourced HBM packaging volume — and separately handles over 80% of AMD's global CPU/GPU packaging and test orders, with AMD alone accounting for about 52.3% of Tongfu's total revenue. That dependence cuts both ways: it is the clearest evidence of a Chinese OSAT firm embedded deep in the global AI-memory supply chain, and a concentration risk if AMD diversifies."
     milestones:
       - date: "2016-01-01"
         event: "Tongfu and the Big Fund jointly acquire 85% equity stakes in AMD's Suzhou and Penang assembly and test facilities for $371 million"
+      - date: "2026-07-01"
+        event: "Reports H1 2026 revenue of ¥16 billion (+23% YoY) and net profit of ¥1.72 billion (+317% YoY), crediting HBM and AMD-related advanced packaging volume"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -759,6 +784,12 @@ facilities:
         date: "2026-09-28"
       - url: "https://en.tfme.com/news/378.html"
         title: "Tongfu Microelectronics Chairman's Letter of Gratitude to All Sectors for Completing the Acquisition of 85% Equity in Two AMD Packaging and Testing Facilities"
+        date: "2026-09-28"
+      - url: "https://m.jrj.com.cn/madapter/stock/2026/07/14172357798587.shtml"
+        title: "不惧存储杀跌！封测龙头通富微电业绩炸裂，半年净利最高增337%，Q2环比暴涨286%-347% (金融界)"
+        date: "2026-07-14"
+      - url: "https://www.sina.cn/news/detail/5317759326225537.html"
+        title: "通富微电获42.2亿定增 (新浪财经) — AMD/Samsung HBM supply-chain detail"
         date: "2026-09-28"
 
   - id: huatian-tianshui
@@ -791,12 +822,14 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale."
-      what_it_makes: "Chip assembly, test, and wafer-level/advanced packaging services."
-      why_it_matters: "Based in Gansu province — a notable geographic outlier among China's semiconductor firms, most of which cluster in the Yangtze River Delta (Jiangsu/Shanghai) or Pearl River Delta (Guangdong) regions."
+      significance: "One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale. Earnings accelerated sharply in 2026: Q1 revenue reached ¥4.8 billion (+34.5% YoY), and the company guided H1 2026 net profit to ¥750-850 million, up 231-275% year-on-year, crediting advanced-packaging mix shift and M&A integration."
+      what_it_makes: "Chip assembly, test, and wafer-level/advanced packaging services, now spanning SiP, flip-chip, TSV, bumping, fan-out (FO), wafer/panel-level packaging (WLP/PLP), and 2.5D/3D integration."
+      why_it_matters: "Based in Gansu province — a notable geographic outlier among China's semiconductor firms, most of which cluster in the Yangtze River Delta (Jiangsu/Shanghai) or Pearl River Delta (Guangdong) regions. Its 2026 earnings jump, alongside JCET's and Tongfu's, points to a sector-wide advanced-packaging upcycle among China's three major OSATs rather than a single-company story."
     milestones:
       - date: "2003-12-25"
         event: "Founded as Tianshui Huatian Technology Co., Ltd."
+      - date: "2026-07-13"
+        event: "Guides H1 2026 net profit to ¥750-850 million, up 231-275% year-on-year"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -811,3 +844,6 @@ facilities:
       - url: "https://en.wikipedia.org/wiki/Huatian_Technology"
         title: "Huatian Technology (Wikipedia)"
         date: "2026-09-28"
+      - url: "http://yuanchuang.10jqka.com.cn/20260713/c678138484.shtml"
+        title: "华天科技：预计2026年半年度盈利7.50亿至8.50亿 净利润同比增长231.16%至275.31% (同花顺)"
+        date: "2026-07-13"

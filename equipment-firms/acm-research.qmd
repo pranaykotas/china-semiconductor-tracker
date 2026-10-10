@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit.
+China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit. 2025 full-year revenue reached ¥6.786 billion (+20.8% YoY) with net profit of ¥1.396 billion (+21.1% YoY); 2026 guidance was raised to $1.125-1.175 billion in revenue (+25-30% YoY), with management citing electroplating (ECP) demand and H1 2026 order growth of 105% year-on-year, concentrated in advanced packaging.
 :::
 
 ## What does this firm supply?
@@ -30,6 +30,7 @@ Wafer cleaning systems, electrochemical plating (ECP) tools, PECVD deposition, f
 
 - [ACM Research (Wikipedia)](https://en.wikipedia.org/wiki/ACM_Research) (28 Sep 2026)
 - [US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers](https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/) (03 Dec 2024)
+- [盛美半导体设备（上海）股份有限公司2025年年度报告 (Shanghai Stock Exchange annual report filing)](http://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-27/688082_20260227_7FPP.pdf) (27 Feb 2026)
 
 ---
 
