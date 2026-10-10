@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity.
+China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity. Went public on the Shanghai STAR Market in May 2026 — China's largest A-share IPO of the year to that point — raising roughly ¥29.5 billion at an issue price of ¥8.66/share.
 :::
 
 **Chinese name:** 长鑫存储 (Chángxīn Cúnchǔ)
@@ -17,7 +17,7 @@ DRAM chips on 12-inch (300mm) wafers, now including DDR5-capable products.
 
 ## Why does it matter?
 
-DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally marks a real capability jump, arriving alongside a January 2025 US Department of Defense listing as a Chinese military-linked entity under Section 1260H — a designation legally distinct from the Commerce Department's Entity List: 1260H does not itself restrict exports, but a subsequent statutory provision (FY2024 NDAA Section 805) bars US Department of Defense contracting with listed entities effective mid-2026. A June 2026 Pentagon update revised the 1260H list further; this tracker has not independently verified CXMT's exact status in that later revision, so the January 2025 addition is recorded as the confirmed fact.
+DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally marks a real capability jump, arriving alongside a January 2025 US Department of Defense listing as a Chinese military-linked entity under Section 1260H — a designation legally distinct from the Commerce Department's Entity List: 1260H does not itself restrict exports, but a subsequent statutory provision (FY2024 NDAA Section 805) bars US Department of Defense contracting with listed entities effective mid-2026. A June 2026 Pentagon update revised the 1260H list further; this tracker has not independently verified CXMT's exact status in that later revision, so the January 2025 addition is recorded as the confirmed fact. Domestic capacity reporting put CXMT above 300,000 wafers/month (DRAM equivalent) in early 2026, targeting roughly 350,000/month by year-end across Hefei, a Shanghai line, and Beijing — nearing contemporaneous estimates of Micron's own monthly capacity — with a second Beijing DRAM fab reportedly in planning as of August 2026.
 
 ## Key Facts
 
@@ -51,10 +51,15 @@ DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's ris
 - **May 2016** — Founded as Innotron Memory / Hefei Chang Xin
 - **Jan 2017** — $7.2 billion investment announced for a 125,000 wafer/month 12-inch DRAM fab
 - **Jan 2025** — Added to the US Department of Defense's Section 1260H list of Chinese military-linked companies (Federal Register notice)
+- **May 2026** — STAR Market (科创板) IPO formally approved; raises approximately ¥29.5 billion ($4.1B) at ¥8.66/share, the largest mainland A-share IPO of 2026 to that point
+- **Aug 2026** — Reported to be planning a second DRAM fab in Beijing
 
 ## Sources
 
 - [ChangXin Memory Technologies (Wikipedia)](https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies) (28 Sep 2026)
+- [长鑫科技集团股份有限公司 CXMT Corporation 首次公开发行股票并在科创板上市公告 (Shanghai Stock Exchange filing)](https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf) (17 May 2026)
+- [长鑫科技深度报告：从零起步，10年追赶，剑指全球第三！ (21世纪经济报道)](https://www.21jingji.com/article/20260625/herald/2ae96cf459babea7b4794efa8e88e91f.html) (25 Jun 2026)
+- [最新消息：长鑫存储拟在北京建设第二座DRAM工厂！ (电子工程专辑)](https://www.eet-china.com/news/202608044585.html) (04 Aug 2026)
 
 ---
 

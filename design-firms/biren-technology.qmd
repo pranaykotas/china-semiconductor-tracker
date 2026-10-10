@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier.
+Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier. Listed on the Hong Kong Stock Exchange's main board on January 2, 2026 — the first new HK listing of the year and, at the time, the largest IPO under HKEX's 18C mechanism for pre-revenue/early-revenue specialist technology companies — issuing about 248 million shares at HK$19.60, with the stock surging as much as 110% on debut (closing around +94.6%).
 :::
 
 ## What does this firm design?
 
-General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions.
+General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions. H1 2026 revenue reached approximately ¥1.236 billion, up roughly 2,000% year-on-year, reflecting a sharp commercialization acceleration despite the Entity List designation.
 
 ## Key Facts
 
@@ -27,12 +27,13 @@ General-purpose GPUs for AI compute, led by the BR100 series, competing directly
 | **Entity List** | Yes — US Commerce BIS (Footnote 4 Foreign Direct Product Rule) |
 
 ### Design Score
-<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
 
 ## Sources
 
 - [Biren Technology (Wikipedia)](https://en.wikipedia.org/wiki/Biren_Technology) (28 Sep 2026)
 - [Commerce Department Aims to Restrain Chinese Military Modernization by Tightening Export Controls on Advanced AI Chips](https://www.arnoldporter.com/en/perspectives/advisories/2023/10/higher-fences-and-an-increasingly-bigger-yard) (17 Oct 2023)
+- ['港股GPU第一股'壁仞科技大涨94.59% 2026科技企业IPO潮加速来袭 (财联社)](https://www.cls.cn/detail/2246285) (02 Jan 2026)
 
 ---
 

@@ -19,7 +19,7 @@ materials_firms:
       date_added: "2024-12-03"
       list: "US Commerce BIS"
     narrative:
-      significance: "China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US Entity List in the December 2024 action that named 140 Chinese semiconductor firms."
+      significance: "China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US Entity List in the December 2024 action that named 140 Chinese semiconductor firms. H1 2026 revenue reached ¥20.161 billion (+24.9% year-on-year) with net profit of ¥3.37 billion (+5.05%), driven by rising market share in etch and deposition tools."
       what_it_supplies: "Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and wafer cleaning systems — alongside NAURA, AMEC, and Piotech helped raise China's global deposition-tool market share from roughly 2% to 7% between 2019 and 2024."
     sources:
       - url: "https://en.wikipedia.org/wiki/Naura_Technology"
@@ -28,6 +28,9 @@ materials_firms:
       - url: "https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/"
         title: "US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers"
         date: "2024-12-03"
+      - url: "https://www.sohu.com/a/1068756715_114984"
+        title: "北方华创2026年上半年营收201.61亿元，归母净利润33.70亿元 (Sohu)"
+        date: "2026-09-28"
 
   - id: amec
     name_en: "AMEC (Advanced Micro-Fabrication Equipment)"
@@ -43,7 +46,7 @@ materials_firms:
       date_added: null
       list: null
     narrative:
-      significance: "Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing."
+      significance: "Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing. H1 2026 revenue reached ¥6.691 billion (+34.9% year-on-year) with net profit of ¥2.825 billion, up roughly 300% year-on-year; the company reported several key etch processes for advanced logic and memory devices reaching mass production during the half, and a second Lingang, Shanghai facility was reportedly being planned."
       what_it_supplies: "Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plasma, under the Primo brand) and MOCVD deposition tools used in compound semiconductor and LED manufacturing."
     sources:
       - url: "https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment"
@@ -52,6 +55,9 @@ materials_firms:
       - url: "https://www.scmp.com/tech/tech-trends/article/3353937/chinas-amec-semiconductor-technology-now-industry-standard-adopted-rivals-founder"
         title: "China's Amec setting industry standard for chipmaking tech, founder says"
         date: "2026-09-28"
+      - url: "https://www.cls.cn/detail/2458571"
+        title: "中微公司上半年归母净利增长3倍 刻蚀设备新品取得重复订单 临港二期项目拟投建 (财联社)"
+        date: "2026-09-28"
 
   - id: smee
     name_en: "SMEE (Shanghai Micro Electronics Equipment)"
@@ -59,7 +65,7 @@ materials_firms:
     name_pinyin: "Shànghǎi Wēi Diànzǐ Zhuāngbèi (Jítuán) Gǔfèn Yǒuxiàn Gōngsī"
     category: "Equipment"
     segment: "Lithography"
-    node_capability: "90nm-class confirmed in volume production (SSA600 scanner); a 28nm lithography claim surfaced via a shareholder social-media post in December 2023 but was later removed and is treated here as unverified"
+    node_capability: "90nm-class in volume production since 2023 (SSA600 scanner). 28nm-class immersion DUV (SSA800 series) delivered to SMIC from May 2025, cleared full-process validation with wafer yields consistently above 90% by early 2026, and was publicly confirmed by China's Minister of Science and Technology in March 2026 to have entered mass-production delivery — a status upgrade from the unverified December 2023 claim this entry previously carried."
     founded: 2002
     hq: {city: "Shanghai", lat: 31.21, lon: 121.61}
     entity_list:
@@ -67,14 +73,20 @@ materials_firms:
       date_added: "2022-12-15"
       list: "US Commerce BIS"
     narrative:
-      significance: "China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest."
-      what_it_supplies: "Photolithography scanners (the SSA600 series, 90nm-class) and related mask-inspection tools."
+      significance: "China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest. The SSA800's confirmed move to mass-production delivery in 2026 is the clearest single data point in this entire tracker of China closing an advanced-lithography gap that export controls were specifically designed to hold open; by April 2026 the tool had been delivered in volume to both SMIC and Hua Hong, and 2026 output plans called for roughly 50 units (doubling year-on-year), with installed capacity reportedly exceeding 120 units."
+      what_it_supplies: "Photolithography scanners — the SSA600 series (90nm-class, established volume product) and the newer SSA800 series (28nm-class immersion DUV, now in mass production) — plus related mask-inspection tools."
     sources:
       - url: "https://en.wikipedia.org/wiki/Shanghai_Micro_Electronics_Equipment"
         title: "Shanghai Micro Electronics Equipment (Wikipedia)"
         date: "2026-09-28"
       - url: "https://www.kharon.com/brief/semiconductors-lithography-smee-amies-technology-entity-list-export-controls"
         title: "The U.S. Restricted China's Chipmaking-Tech Champion. Its New Spinoff Is Another Story."
+        date: "2026-09-28"
+      - url: "https://zhuanlan.zhihu.com/p/2028184174327080121"
+        title: "重新认识中国光刻机的突围：中国光刻机的真实现状与近一年重大进展（2025—2026） (Zhihu)"
+        date: "2026-09-28"
+      - url: "https://netbig.top/thread-89272-1-1.html"
+        title: "中国首款可实现28nm制程的光刻设备于2026年4月官宣全面量产 (forum repost of official coverage)"
         date: "2026-09-28"
 
   - id: acm-research

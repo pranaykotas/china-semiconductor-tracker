@@ -27,8 +27,9 @@ facilities:
     capability: "12-inch (300mm) wafer foundry, 28nm and below"
     investment:
       total_usd_million: 8870
+      total_rmb_100m: 500
       source: "Local Govt"
-    status: "Under Construction"
+    status: "Operational"
     entity_list:
       status: true
       date_added: "2020-12-18"
@@ -39,14 +40,18 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "SMIC's largest single fab commitment — a $8.87B, 100,000 wafer/month 28nm-and-below joint venture with the Shanghai municipal government in the Lingang Special Area, formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)."
+      significance: "SMIC's largest single fab commitment — a $8.87B (reported domestically as over ¥50 billion total investment), 100,000 wafer/month 28nm-and-below joint venture with the Shanghai municipal government in the Lingang Special Area, formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)."
       what_it_makes: "12-inch (300mm) wafers at 28nm and more mature process nodes for foundry customers."
-      why_it_matters: "Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List."
+      why_it_matters: "Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List. Phase 1 (20,000 wafers/month) reached production by late 2024; Phase 2 construction was ongoing as of mid-2026, with equipment installation targeted for the first half of 2026 and Phase 2 production for the second half."
     milestones:
       - date: "2021-09-03"
         event: "SMIC signs cooperation agreement with the Shanghai Lingang Management Committee for a $8.87 billion, 100,000 wafer/month 12-inch fab; registered capital $5.5 billion, SMIC holding no less than 51%"
       - date: "2021-11-12"
         event: "Joint venture formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)"
+      - date: "2024-12-01"
+        event: "Phase 1 (20,000 wafers/month) reaches production"
+      - date: "2026-07-08"
+        event: "China Construction Eighth Engineering Bureau (中建八局) wins the Phase 2 general contract for the Fab9-P3 building and Fab9-P4 foundation works in the project's northern district"
     complexity:
       technology_difficulty: 3
       foreign_dependence: 4
@@ -56,7 +61,7 @@ facilities:
       approved: "2021-11-12"
       construction_start: null
       original_expected_completion: null
-      date_completion: null
+      date_completion: "2024-12-01"
     sources:
       - url: "https://www.tomshardware.com/news/smic-to-build-chinas-largest-fab"
         title: "SMIC to Build China's Largest Fab For $8.87 Billion"
@@ -67,6 +72,12 @@ facilities:
       - url: "https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation"
         title: "Semiconductor Manufacturing International Corporation (Wikipedia) — Entity List addition, 18 Dec 2020"
         date: "2026-09-28"
+      - url: "https://finance.sina.com.cn/roll/2026-05-20/doc-inhypxkf1660944.shtml"
+        title: "从'沙子到芯片'的完整产业生态，上海临港'东方芯港'全产业链集群已然成型 (Sina Finance)"
+        date: "2026-05-20"
+      - url: "https://finance.sina.com.cn/money/bond/2026-06-30/doc-inifehiu4887824.shtml"
+        title: "上海临港新片区芯港集成晶圆制造项目正式开工 (Sina Finance)"
+        date: "2026-06-30"
 
   - id: smic-beijing
     name_en: "SMIC Beijing (Jingcheng)"
@@ -88,7 +99,7 @@ facilities:
       total_usd_million: 7600
       total_rmb_100m: 497
       source: "Local Govt"
-    status: "Under Construction"
+    status: "Operational"
     entity_list:
       status: true
       date_added: "2020-12-18"
@@ -101,10 +112,14 @@ facilities:
     narrative:
       significance: "SMIC's Beijing expansion JV (中芯京城, 54.04% SMIC-owned), targeting 100,000 wafers/month of 12-inch, 28nm-and-above capacity in the Beijing Economic-Technological Development Area."
       what_it_makes: "12-inch (300mm) wafers at 28nm and more mature nodes for foundry customers."
-      why_it_matters: "Reported investment figures vary slightly by source — $7.6 billion (Yicai) and $7.7 billion / RMB 49.7 billion (CnTechPost) — likely the same commitment described at slightly different points or currency conversions; both are given here since no source explicitly reconciles them."
+      why_it_matters: "Reported investment figures vary slightly by source — $7.6 billion (Yicai) and $7.7 billion / RMB 49.7 billion (CnTechPost) — likely the same commitment described at slightly different points or currency conversions; both are given here since no source explicitly reconciles them. Phase 1 was already in use by late 2023; a separate Phase 2 land deal (early 2026) was reported at a total project investment of no less than ¥50 billion (¥40 billion in fixed-asset investment), targeting an annual output value of at least ¥6 billion once fully ramped."
     milestones:
       - date: "2021-02-23"
         event: "Development of the $7.6-7.7 billion Beijing fab (SMIC Jingcheng) begins; first phase targeted for completion by 2024"
+      - date: "2023-11-01"
+        event: "Phase 1 confirmed in use, per Beijing E-Town Investment Holding disclosure"
+      - date: "2025-01-01"
+        event: "Tongzhou district officials commit to fully completing Phase 2's main structure, with equipment installation underway"
     complexity:
       technology_difficulty: 3
       foreign_dependence: 4
@@ -114,7 +129,7 @@ facilities:
       approved: null
       construction_start: "2021-02-23"
       original_expected_completion: "2024-12-31"
-      date_completion: null
+      date_completion: "2023-11-01"
     sources:
       - url: "https://www.yicaiglobal.com/news/chinese-chipmaker-smic-to-build-usd76-billion-beijing-plant"
         title: "Chinese Chipmaker SMIC to Build USD7.6 Billion Beijing Plant"
@@ -122,6 +137,12 @@ facilities:
       - url: "https://cntechpost.com/2021/02/23/smic-builds-7-7-billion-fab-in-beijing-expected-to-be-completed-by-2024/"
         title: "SMIC builds $7.7 billion fab in Beijing, first phase expected to be completed by 2024"
         date: "2021-02-23"
+      - url: "https://www.cls.cn/detail/1946491"
+        title: "中芯国际扩产迎新进展！中芯京城二期工业用地成交 拟建项目总投资不低于500亿元 (Cailianshe)"
+        date: "2026-09-28"
+      - url: "https://www.uufund.com/News/Detail/NW202502183322504624"
+        title: "中芯国际位于北京的晶圆厂项目——中芯京城二期"
+        date: "2026-09-28"
 
   - id: smic-tianjin
     name_en: "SMIC Tianjin (Xiqing)"
@@ -142,7 +163,7 @@ facilities:
     investment:
       total_usd_million: 7500
       source: "Local Govt"
-    status: "Under Construction"
+    status: "Operational"
     entity_list:
       status: true
       date_added: "2020-12-18"
@@ -155,12 +176,16 @@ facilities:
     narrative:
       significance: "SMIC's fourth major mature-node fab of this expansion wave (中芯西青, 100% SMIC-owned), located in Tianjin's Xiqing Development Area."
       what_it_makes: "12-inch (300mm) wafers spanning 0.18 micron to 28nm process nodes."
-      why_it_matters: "Extends SMIC's mature-node capacity — the segment least affected by advanced-lithography export controls — into a fourth Chinese municipality."
+      why_it_matters: "Extends SMIC's mature-node capacity — the segment least affected by advanced-lithography export controls — into a fourth Chinese municipality. Domestic trade coverage in early 2025 described all four of SMIC's 2020-2022-era mega-fab JVs (Lingang, Jingcheng, Xiqing, Shenzhen) as having begun reaching production in stages ('陆续达产') by that point, with Xiqing's full-capacity ramp (达产) targeted for end of 2027."
     milestones:
       - date: "2022-08-26"
         event: "SMIC signs framework agreement to invest $7.5 billion in a new 12-inch fab in Tianjin's Xiqing district, initial registered capital $5 billion"
       - date: "2022-09-01"
         event: "Construction begins on the Tianjin Xiqing fab"
+      - date: "2023-01-01"
+        event: "Earliest reported production start for the Xiqing fab, per Chinese industry trade coverage"
+      - date: "2027-12-31"
+        event: "Target date for the Xiqing fab to reach full planned capacity (100,000 wafers/month)"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
@@ -169,8 +194,8 @@ facilities:
       announced: "2022-08-26"
       approved: "2022-08-26"
       construction_start: "2022-09-01"
-      original_expected_completion: null
-      date_completion: null
+      original_expected_completion: "2027-12-31"
+      date_completion: "2023-01-01"
     sources:
       - url: "https://www.scmp.com/tech/big-tech/article/3190397/chinese-chip-maker-smic-boosts-expansion-us75-billion-investment-new"
         title: "Chinese chip maker SMIC boosts expansion with US$7.5 billion investment in new Tianjin plant amid concerns of US sanctions"
@@ -178,6 +203,12 @@ facilities:
       - url: "https://www.scmp.com/tech/big-tech/article/3194135/chinas-biggest-chip-maker-smic-pushes-ahead-construction-new-tianjin"
         title: "China's biggest chip maker SMIC pushes ahead with construction of new Tianjin plant despite Covid-19 lockdowns"
         date: "2022-09-01"
+      - url: "https://www.eefocus.com/article/525303.html"
+        title: "中芯国际75亿美元项目落地，解读背后的西青'芯'速度 (EEFocus)"
+        date: "2026-09-28"
+      - url: "https://finance.sina.com.cn/roll/2025-01-06/doc-inecztfx8865924.shtml"
+        title: "国内四条12英寸晶圆生产线投产！ (Sina Finance)"
+        date: "2025-01-06"
 
   - id: smic-shenzhen
     name_en: "SMIC Shenzhen"
@@ -198,7 +229,7 @@ facilities:
     investment:
       total_usd_million: 2350
       source: "Local Govt"
-    status: "Under Construction"
+    status: "Operational"
     entity_list:
       status: true
       date_added: "2020-12-18"
@@ -211,10 +242,12 @@ facilities:
     narrative:
       significance: "SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-owned), a $2.35 billion 28nm foundry with the Shenzhen municipal government."
       what_it_makes: "12-inch (300mm) wafers at the 28nm node."
-      why_it_matters: "28nm is the workhorse node for automotive, IoT, and power-management chips — the segment of demand China's fabs can serve without needing export-controlled EUV lithography."
+      why_it_matters: "28nm is the workhorse node for automotive, IoT, and power-management chips — the segment of demand China's fabs can serve without needing export-controlled EUV lithography. Chinese industry trade coverage confirms the fab entered production by the end of 2022, on schedule against its original target."
     milestones:
       - date: "2021-03-18"
         event: "SMIC and the Shenzhen municipal government announce a $2.35 billion joint venture for a new 28nm foundry"
+      - date: "2022-12-01"
+        event: "Fab enters production, targeting an eventual ~40,000 wafers/month"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
@@ -224,8 +257,14 @@ facilities:
       approved: "2021-03-18"
       construction_start: null
       original_expected_completion: "2022-12-31"
-      date_completion: null
+      date_completion: "2022-12-01"
     sources:
+      - url: "https://www.icsmart.cn/48815/"
+        title: "中芯国际深圳扩产项目方案公示：月产能达4万片12英寸晶圆 (芯智讯)"
+        date: "2026-09-28"
+      - url: "https://www.esmchina.com/news/8874.html"
+        title: "2022年深圳发力12吋半导体产线，中芯国际和华润微产线项目如期推进 (国际电子商情)"
+        date: "2022-01-01"
       - url: "https://www.scmp.com/tech/big-tech/article/3125908/smic-joins-shenzhen-government-us235-billion-chip-foundry-28-nm-node"
         title: "SMIC joins Shenzhen government in US$2.35 billion chip foundry as China pushes for self-sufficiency in semiconductors"
         date: "2021-03-19"
@@ -263,9 +302,9 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund-backed deal since the October 2022 US export control tightening — $4.02B new equity (Hua Hong Group, the Big Fund, and a Wuxi entity) plus $2.68B in debt."
+      significance: "Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund-backed deal since the October 2022 US export control tightening — $4.02B new equity (Hua Hong Group, the Big Fund, and a Wuxi entity) plus $2.68B in debt. Reached production in December 2024 at a planned 83,000 wafers/month, with full-capacity ramp targeted for the end of Q3 2026 and process-equipment move-in completed by end of June 2026."
       what_it_makes: "12-inch (300mm) wafers at mature specialty nodes (65nm, 55nm, 40nm) — power management, automotive, and analog chips, not leading-edge logic."
-      why_it_matters: "Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access."
+      why_it_matters: "Illustrates China's mature-node strategy: rather than chase export-controlled advanced lithography, state capital doubles down on nodes where China already has working equipment access. Hua Hong announced a THIRD Wuxi phase in September 2026 — a separate $2.127 billion investment, with construction having started in March 2026 — signaling this is an open-ended expansion programme rather than a one-off Phase 2 project; that Phase 3 commitment is not yet broken out as its own tracker entry."
     milestones:
       - date: "2023-01-11"
         event: "Hua Hong Semiconductor, the Big Fund, and a Wuxi entity sign agreement for a $6.7 billion second 12-inch Wuxi fab (Fab9)"
@@ -274,7 +313,13 @@ facilities:
       - date: "2023-09-01"
         event: "Fab9's main building topped out roughly 100 days ahead of schedule"
       - date: "2024-12-01"
-        event: "Hua Hong Manufacturing (Wuxi) Fab9 put into production"
+        event: "Hua Hong Manufacturing (Wuxi) Fab9 put into production at a planned 83,000 wafers/month"
+      - date: "2026-03-01"
+        event: "Construction begins on a separate Wuxi Phase 3 project ($2.127 billion)"
+      - date: "2026-06-30"
+        event: "Fab9 process-equipment move-in completed; full-capacity ramp targeted for end of Q3 2026"
+      - date: "2026-09-01"
+        event: "Hua Hong Semiconductor formally announces the $2.127 billion Wuxi Phase 3 investment"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -292,6 +337,12 @@ facilities:
       - url: "https://www.huahonggrace.com/html/about_fab_wuxi_manufacturing.php"
         title: "Hua Hong Semiconductor Manufacturing (Wuxi) Co., Ltd. — company page"
         date: "2026-09-28"
+      - url: "https://www.icsmart.cn/81568/"
+        title: "华虹无锡二期项目首批设备顺利搬入，明年一季度量产 (芯智讯)"
+        date: "2026-09-28"
+      - url: "https://www.esmchina.com/news/14554.html"
+        title: "华虹宏力21亿美元增资无锡三期：月产5.5万片12英寸产线落地 (国际电子商情)"
+        date: "2026-09-01"
 
   - id: ymtc-wuhan
     name_en: "YMTC Wuhan"
@@ -325,9 +376,9 @@ facilities:
       - {year: 2017, node: "32-layer 3D NAND"}
       - {year: 2020, node: "128-layer 3D NAND (Xtacking 2.0)"}
     narrative:
-      significance: "China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer 3D NAND with its own Xtacking architecture before being added to the US Entity List."
+      significance: "China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer 3D NAND with its own Xtacking architecture before being added to the US Entity List. Filed for a STAR Market IPO in August 2026, with sources disagreeing sharply on valuation — Caixin reported a potential valuation of at least ¥1 trillion ($148B), while other reporting cited a lower $23.6-44.2B range; this tracker states both rather than picking one."
       what_it_makes: "3D NAND flash memory chips using XTacking wafer-bonding architecture, plus packaged memory chips and SSDs."
-      why_it_matters: "The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it. BIS cited YMTC's NAND supply to Huawei, and YMTC's earlier addition to BIS's Unverified List without cooperating on an end-use check within the required window, as grounds for the December 2022 Entity List action — this was distinct from the 2023 Huawei Mate 60 Pro teardown, whose memory chips were later identified as SK Hynix parts, not YMTC's."
+      why_it_matters: "The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it. BIS cited YMTC's NAND supply to Huawei, and YMTC's earlier addition to BIS's Unverified List without cooperating on an end-use check within the required window, as grounds for the December 2022 Entity List action — this was distinct from the 2023 Huawei Mate 60 Pro teardown, whose memory chips were later identified as SK Hynix parts, not YMTC's. Combined NAND capacity across YMTC's lines was reported around 300,000 wafers/month in 2026."
     milestones:
       - date: "2016-07-26"
         event: "YMTC founded by Tsinghua Unigroup with Hubei provincial and Big Fund backing, $24 billion planned investment"
@@ -335,6 +386,10 @@ facilities:
         event: "YMTC introduces 128-layer 3D NAND using Xtacking 2.0 architecture"
       - date: "2022-12-15"
         event: "Added to the US Commerce Department's Entity List"
+      - date: "2026-08-20"
+        event: "Completes pre-IPO regulatory tutoring, clearing a procedural hurdle toward a Shanghai STAR Market listing"
+      - date: "2026-08-24"
+        event: "STAR Market accepts YMTC's formal IPO application (acceptance alone does not guarantee listing approval); plans to raise approximately ¥33 billion by issuing 1.98-2.43 billion shares"
     complexity:
       technology_difficulty: 4
       foreign_dependence: 4
@@ -358,6 +413,12 @@ facilities:
       - url: "https://www.tomshardware.com/tech-industry/semiconductors/ymtc-moves-ahead-with-third-fab-in-wuhan-despite-us-sanctions"
         title: "YMTC moves ahead with third chipmaking fab in Wuhan despite U.S. sanctions"
         date: "2026-09-28"
+      - url: "https://www.caixinglobal.com/2026-08-20/ymtc-moves-closer-to-shanghai-ipo-102476082.html"
+        title: "YMTC Moves Closer to Shanghai IPO (Caixin Global)"
+        date: "2026-08-20"
+      - url: "https://cn.technode.com/post/2026-08-24/ymtc-shanghai-ipo-33-billion/"
+        title: "长江存储IPO申请获受理，拟募资330亿元 (TechNode China)"
+        date: "2026-08-24"
 
   - id: cxmt-hefei
     name_en: "CXMT Hefei"
@@ -391,9 +452,9 @@ facilities:
       - {year: 2020, node: "19nm-class DRAM"}
       - {year: 2025, node: "DDR5-capable node (exact process width not disclosed)"}
     narrative:
-      significance: "China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity."
+      significance: "China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity. Went public on the Shanghai STAR Market in May 2026 — China's largest A-share IPO of the year to that point — raising roughly ¥29.5 billion at an issue price of ¥8.66/share."
       what_it_makes: "DRAM chips on 12-inch (300mm) wafers, now including DDR5-capable products."
-      why_it_matters: "DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally marks a real capability jump, arriving alongside a January 2025 US Department of Defense listing as a Chinese military-linked entity under Section 1260H — a designation legally distinct from the Commerce Department's Entity List: 1260H does not itself restrict exports, but a subsequent statutory provision (FY2024 NDAA Section 805) bars US Department of Defense contracting with listed entities effective mid-2026. A June 2026 Pentagon update revised the 1260H list further; this tracker has not independently verified CXMT's exact status in that later revision, so the January 2025 addition is recorded as the confirmed fact."
+      why_it_matters: "DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally marks a real capability jump, arriving alongside a January 2025 US Department of Defense listing as a Chinese military-linked entity under Section 1260H — a designation legally distinct from the Commerce Department's Entity List: 1260H does not itself restrict exports, but a subsequent statutory provision (FY2024 NDAA Section 805) bars US Department of Defense contracting with listed entities effective mid-2026. A June 2026 Pentagon update revised the 1260H list further; this tracker has not independently verified CXMT's exact status in that later revision, so the January 2025 addition is recorded as the confirmed fact. Domestic capacity reporting put CXMT above 300,000 wafers/month (DRAM equivalent) in early 2026, targeting roughly 350,000/month by year-end across Hefei, a Shanghai line, and Beijing — nearing contemporaneous estimates of Micron's own monthly capacity — with a second Beijing DRAM fab reportedly in planning as of August 2026."
     milestones:
       - date: "2016-05-01"
         event: "Founded as Innotron Memory / Hefei Chang Xin"
@@ -401,6 +462,10 @@ facilities:
         event: "$7.2 billion investment announced for a 125,000 wafer/month 12-inch DRAM fab"
       - date: "2025-01-07"
         event: "Added to the US Department of Defense's Section 1260H list of Chinese military-linked companies (Federal Register notice)"
+      - date: "2026-05-27"
+        event: "STAR Market (科创板) IPO formally approved; raises approximately ¥29.5 billion ($4.1B) at ¥8.66/share, the largest mainland A-share IPO of 2026 to that point"
+      - date: "2026-08-01"
+        event: "Reported to be planning a second DRAM fab in Beijing"
     complexity:
       technology_difficulty: 4
       foreign_dependence: 4
@@ -415,6 +480,15 @@ facilities:
       - url: "https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies"
         title: "ChangXin Memory Technologies (Wikipedia)"
         date: "2026-09-28"
+      - url: "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf"
+        title: "长鑫科技集团股份有限公司 CXMT Corporation 首次公开发行股票并在科创板上市公告 (Shanghai Stock Exchange filing)"
+        date: "2026-05-17"
+      - url: "https://www.21jingji.com/article/20260625/herald/2ae96cf459babea7b4794efa8e88e91f.html"
+        title: "长鑫科技深度报告：从零起步，10年追赶，剑指全球第三！ (21世纪经济报道)"
+        date: "2026-06-25"
+      - url: "https://www.eet-china.com/news/202608044585.html"
+        title: "最新消息：长鑫存储拟在北京建设第二座DRAM工厂！ (电子工程专辑)"
+        date: "2026-08-04"
 
   - id: nexchip-hefei
     name_en: "Nexchip Hefei"

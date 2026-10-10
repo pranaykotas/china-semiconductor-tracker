@@ -17,7 +17,7 @@ SMIC's Beijing expansion JV (中芯京城, 54.04% SMIC-owned), targeting 100,000
 
 ## Why does it matter?
 
-Reported investment figures vary slightly by source — $7.6 billion (Yicai) and $7.7 billion / RMB 49.7 billion (CnTechPost) — likely the same commitment described at slightly different points or currency conversions; both are given here since no source explicitly reconciles them.
+Reported investment figures vary slightly by source — $7.6 billion (Yicai) and $7.7 billion / RMB 49.7 billion (CnTechPost) — likely the same commitment described at slightly different points or currency conversions; both are given here since no source explicitly reconciles them. Phase 1 was already in use by late 2023; a separate Phase 2 land deal (early 2026) was reported at a total project investment of no less than ¥50 billion (¥40 billion in fixed-asset investment), targeting an annual output value of at least ¥6 billion once fully ramped.
 
 ## Key Facts
 
@@ -27,7 +27,7 @@ Reported investment figures vary slightly by source — $7.6 billion (Yicai) and
 | **Type** | Fab |
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) wafer foundry, 28nm and above |
-| **Status** | Under Construction |
+| **Status** | Operational |
 | **Investment** | ¥497亿元 / $7,600M |
 | **Funding Source** | Local Govt |
 | **Location** | Beijing, Beijing Municipality |
@@ -48,11 +48,15 @@ Reported investment figures vary slightly by source — $7.6 billion (Yicai) and
 ## Project Timeline
 
 - **Feb 2021** — Development of the $7.6-7.7 billion Beijing fab (SMIC Jingcheng) begins; first phase targeted for completion by 2024
+- **Nov 2023** — Phase 1 confirmed in use, per Beijing E-Town Investment Holding disclosure
+- **Jan 2025** — Tongzhou district officials commit to fully completing Phase 2's main structure, with equipment installation underway
 
 ## Sources
 
 - [Chinese Chipmaker SMIC to Build USD7.6 Billion Beijing Plant](https://www.yicaiglobal.com/news/chinese-chipmaker-smic-to-build-usd76-billion-beijing-plant) (23 Feb 2021)
 - [SMIC builds $7.7 billion fab in Beijing, first phase expected to be completed by 2024](https://cntechpost.com/2021/02/23/smic-builds-7-7-billion-fab-in-beijing-expected-to-be-completed-by-2024/) (23 Feb 2021)
+- [中芯国际扩产迎新进展！中芯京城二期工业用地成交 拟建项目总投资不低于500亿元 (Cailianshe)](https://www.cls.cn/detail/1946491) (28 Sep 2026)
+- [中芯国际位于北京的晶圆厂项目——中芯京城二期](https://www.uufund.com/News/Detail/NW202502183322504624) (28 Sep 2026)
 
 ---
 

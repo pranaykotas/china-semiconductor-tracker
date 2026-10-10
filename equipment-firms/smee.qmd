@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest.
+China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest. The SSA800's confirmed move to mass-production delivery in 2026 is the clearest single data point in this entire tracker of China closing an advanced-lithography gap that export controls were specifically designed to hold open; by April 2026 the tool had been delivered in volume to both SMIC and Hua Hong, and 2026 output plans called for roughly 50 units (doubling year-on-year), with installed capacity reportedly exceeding 120 units.
 :::
 
 ## What does this firm supply?
 
-Photolithography scanners (the SSA600 series, 90nm-class) and related mask-inspection tools.
+Photolithography scanners — the SSA600 series (90nm-class, established volume product) and the newer SSA800 series (28nm-class immersion DUV, now in mass production) — plus related mask-inspection tools.
 
 ## Key Facts
 
@@ -21,7 +21,7 @@ Photolithography scanners (the SSA600 series, 90nm-class) and related mask-inspe
 |---|---|
 | **Category** | Equipment |
 | **Segment** | Lithography |
-| **Node Capability** | 90nm-class confirmed in volume production (SSA600 scanner); a 28nm lithography claim surfaced via a shareholder social-media post in December 2023 but was later removed and is treated here as unverified |
+| **Node Capability** | 90nm-class in volume production since 2023 (SSA600 scanner). 28nm-class immersion DUV (SSA800 series) delivered to SMIC from May 2025, cleared full-process validation with wafer yields consistently above 90% by early 2026, and was publicly confirmed by China's Minister of Science and Technology in March 2026 to have entered mass-production delivery — a status upgrade from the unverified December 2023 claim this entry previously carried. |
 | **Founded** | 2002 |
 | **HQ** | Shanghai |
 | **Entity List** | Yes — US Commerce BIS |
@@ -30,6 +30,8 @@ Photolithography scanners (the SSA600 series, 90nm-class) and related mask-inspe
 
 - [Shanghai Micro Electronics Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Shanghai_Micro_Electronics_Equipment) (28 Sep 2026)
 - [The U.S. Restricted China's Chipmaking-Tech Champion. Its New Spinoff Is Another Story.](https://www.kharon.com/brief/semiconductors-lithography-smee-amies-technology-entity-list-export-controls) (28 Sep 2026)
+- [重新认识中国光刻机的突围：中国光刻机的真实现状与近一年重大进展（2025—2026） (Zhihu)](https://zhuanlan.zhihu.com/p/2028184174327080121) (28 Sep 2026)
+- [中国首款可实现28nm制程的光刻设备于2026年4月官宣全面量产 (forum repost of official coverage)](https://netbig.top/thread-89272-1-1.html) (28 Sep 2026)
 
 ---
 

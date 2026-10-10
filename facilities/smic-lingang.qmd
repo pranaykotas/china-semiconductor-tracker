@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-SMIC's largest single fab commitment — a $8.87B, 100,000 wafer/month 28nm-and-below joint venture with the Shanghai municipal government in the Lingang Special Area, formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司).
+SMIC's largest single fab commitment — a $8.87B (reported domestically as over ¥50 billion total investment), 100,000 wafer/month 28nm-and-below joint venture with the Shanghai municipal government in the Lingang Special Area, formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司).
 :::
 
 **Chinese name:** 中芯临港 (Zhōngxīn Língǎng)
@@ -17,7 +17,7 @@ SMIC's largest single fab commitment — a $8.87B, 100,000 wafer/month 28nm-and-
 
 ## Why does it matter?
 
-Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List.
+Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, Shenzhen) aimed at building mature-node capacity for domestic demand, launched in the same window SMIC itself was added to the US Entity List. Phase 1 (20,000 wafers/month) reached production by late 2024; Phase 2 construction was ongoing as of mid-2026, with equipment installation targeted for the first half of 2026 and Phase 2 production for the second half.
 
 ## Key Facts
 
@@ -27,8 +27,8 @@ Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, 
 | **Type** | Fab |
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) wafer foundry, 28nm and below |
-| **Status** | Under Construction |
-| **Investment** | $8,870M |
+| **Status** | Operational |
+| **Investment** | ¥500亿元 / $8,870M |
 | **Funding Source** | Local Govt |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Current Node** | Not yet researched |
@@ -49,12 +49,16 @@ Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, 
 
 - **Sep 2021** — SMIC signs cooperation agreement with the Shanghai Lingang Management Committee for a $8.87 billion, 100,000 wafer/month 12-inch fab; registered capital $5.5 billion, SMIC holding no less than 51%
 - **Nov 2021** — Joint venture formally incorporated as Zhongxin Dongfang Integrated Circuit Manufacturing Co. (中芯东方集成电路制造有限公司)
+- **Dec 2024** — Phase 1 (20,000 wafers/month) reaches production
+- **Jul 2026** — China Construction Eighth Engineering Bureau (中建八局) wins the Phase 2 general contract for the Fab9-P3 building and Fab9-P4 foundation works in the project's northern district
 
 ## Sources
 
 - [SMIC to Build China's Largest Fab For $8.87 Billion](https://www.tomshardware.com/news/smic-to-build-chinas-largest-fab) (06 Sep 2021)
 - [China's top chip maker SMIC plans US$9 billion plant in Shanghai](https://www.scmp.com/tech/tech-war/article/3147472/chinas-top-chip-maker-smic-build-us9-billion-factory-shanghai-amid) (06 Sep 2021)
 - [Semiconductor Manufacturing International Corporation (Wikipedia) — Entity List addition, 18 Dec 2020](https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation) (28 Sep 2026)
+- [从'沙子到芯片'的完整产业生态，上海临港'东方芯港'全产业链集群已然成型 (Sina Finance)](https://finance.sina.com.cn/roll/2026-05-20/doc-inhypxkf1660944.shtml) (20 May 2026)
+- [上海临港新片区芯港集成晶圆制造项目正式开工 (Sina Finance)](https://finance.sina.com.cn/money/bond/2026-06-30/doc-inifehiu4887824.shtml) (30 Jun 2026)
 
 ---
 

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing.
+Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing. H1 2026 revenue reached ¥6.691 billion (+34.9% year-on-year) with net profit of ¥2.825 billion, up roughly 300% year-on-year; the company reported several key etch processes for advanced logic and memory devices reaching mass production during the half, and a second Lingang, Shanghai facility was reportedly being planned.
 :::
 
 ## What does this firm supply?
@@ -30,6 +30,7 @@ Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plas
 
 - [Advanced Micro-Fabrication Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment) (28 Sep 2026)
 - [China's Amec setting industry standard for chipmaking tech, founder says](https://www.scmp.com/tech/tech-trends/article/3353937/chinas-amec-semiconductor-technology-now-industry-standard-adopted-rivals-founder) (28 Sep 2026)
+- [中微公司上半年归母净利增长3倍 刻蚀设备新品取得重复订单 临港二期项目拟投建 (财联社)](https://www.cls.cn/detail/2458571) (28 Sep 2026)
 
 ---
 

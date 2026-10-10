@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer 3D NAND with its own Xtacking architecture before being added to the US Entity List.
+China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer 3D NAND with its own Xtacking architecture before being added to the US Entity List. Filed for a STAR Market IPO in August 2026, with sources disagreeing sharply on valuation — Caixin reported a potential valuation of at least ¥1 trillion ($148B), while other reporting cited a lower $23.6-44.2B range; this tracker states both rather than picking one.
 :::
 
 **Chinese name:** 长江存储 (Chángjiāng Cúnchǔ)
@@ -17,7 +17,7 @@ China's only advanced 3D NAND producer at national/global scale — founded by T
 
 ## Why does it matter?
 
-The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it. BIS cited YMTC's NAND supply to Huawei, and YMTC's earlier addition to BIS's Unverified List without cooperating on an end-use check within the required window, as grounds for the December 2022 Entity List action — this was distinct from the 2023 Huawei Mate 60 Pro teardown, whose memory chips were later identified as SK Hynix parts, not YMTC's.
+The clearest case of a Chinese chipmaker reaching a genuinely globally competitive memory technology (Xtacking) before US export controls specifically targeted it. BIS cited YMTC's NAND supply to Huawei, and YMTC's earlier addition to BIS's Unverified List without cooperating on an end-use check within the required window, as grounds for the December 2022 Entity List action — this was distinct from the 2023 Huawei Mate 60 Pro teardown, whose memory chips were later identified as SK Hynix parts, not YMTC's. Combined NAND capacity across YMTC's lines was reported around 300,000 wafers/month in 2026.
 
 ## Key Facts
 
@@ -51,6 +51,8 @@ The clearest case of a Chinese chipmaker reaching a genuinely globally competiti
 - **Jul 2016** — YMTC founded by Tsinghua Unigroup with Hubei provincial and Big Fund backing, $24 billion planned investment
 - **Apr 2020** — YMTC introduces 128-layer 3D NAND using Xtacking 2.0 architecture
 - **Dec 2022** — Added to the US Commerce Department's Entity List
+- **Aug 2026** — Completes pre-IPO regulatory tutoring, clearing a procedural hurdle toward a Shanghai STAR Market listing
+- **Aug 2026** — STAR Market accepts YMTC's formal IPO application (acceptance alone does not guarantee listing approval); plans to raise approximately ¥33 billion by issuing 1.98-2.43 billion shares
 
 ## Sources
 
@@ -58,6 +60,8 @@ The clearest case of a Chinese chipmaker reaching a genuinely globally competiti
 - [US adds 36 Chinese entities into Entity List, including YMTC](https://www.digitimes.com/news/a20221216VL204/us-china-chip-ban-ymtc.html) (16 Dec 2022)
 - [Huawei Mate 60 Pro teardown reveals 47% Chinese parts in phone (confirms SK Hynix, not YMTC, supplied the phone's memory)](https://asia.nikkei.com/spotlight/most-read-in-2023/huawei-mate-60-pro-teardown-reveals-47-chinese-parts-in-phone) (01 Sep 2023)
 - [YMTC moves ahead with third chipmaking fab in Wuhan despite U.S. sanctions](https://www.tomshardware.com/tech-industry/semiconductors/ymtc-moves-ahead-with-third-fab-in-wuhan-despite-us-sanctions) (28 Sep 2026)
+- [YMTC Moves Closer to Shanghai IPO (Caixin Global)](https://www.caixinglobal.com/2026-08-20/ymtc-moves-closer-to-shanghai-ipo-102476082.html) (20 Aug 2026)
+- [长江存储IPO申请获受理，拟募资330亿元 (TechNode China)](https://cn.technode.com/post/2026-08-24/ymtc-shanghai-ipo-33-billion/) (24 Aug 2026)
 
 ---
 

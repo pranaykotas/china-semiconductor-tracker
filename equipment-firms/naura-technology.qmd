@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US Entity List in the December 2024 action that named 140 Chinese semiconductor firms.
+China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US Entity List in the December 2024 action that named 140 Chinese semiconductor firms. H1 2026 revenue reached ¥20.161 billion (+24.9% year-on-year) with net profit of ¥3.37 billion (+5.05%), driven by rising market share in etch and deposition tools.
 :::
 
 ## What does this firm supply?
@@ -30,6 +30,7 @@ Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and 
 
 - [Naura Technology (Wikipedia)](https://en.wikipedia.org/wiki/Naura_Technology) (28 Sep 2026)
 - [US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers](https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/) (03 Dec 2024)
+- [北方华创2026年上半年营收201.61亿元，归母净利润33.70亿元 (Sohu)](https://www.sohu.com/a/1068756715_114984) (28 Sep 2026)
 
 ---
 

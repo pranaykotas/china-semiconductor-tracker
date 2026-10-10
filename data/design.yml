@@ -119,10 +119,10 @@ design_firms:
       status: true
       date_added: "2023-10-17"
       list: "US Commerce BIS (Footnote 4 Foreign Direct Product Rule)"
-    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 2}
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier."
-      what_it_designs: "General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions."
+      significance: "Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier. Listed on the Hong Kong Stock Exchange's main board on January 2, 2026 — the first new HK listing of the year and, at the time, the largest IPO under HKEX's 18C mechanism for pre-revenue/early-revenue specialist technology companies — issuing about 248 million shares at HK$19.60, with the stock surging as much as 110% on debut (closing around +94.6%)."
+      what_it_designs: "General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions. H1 2026 revenue reached approximately ¥1.236 billion, up roughly 2,000% year-on-year, reflecting a sharp commercialization acceleration despite the Entity List designation."
     sources:
       - url: "https://en.wikipedia.org/wiki/Biren_Technology"
         title: "Biren Technology (Wikipedia)"
@@ -130,6 +130,9 @@ design_firms:
       - url: "https://www.arnoldporter.com/en/perspectives/advisories/2023/10/higher-fences-and-an-increasingly-bigger-yard"
         title: "Commerce Department Aims to Restrain Chinese Military Modernization by Tightening Export Controls on Advanced AI Chips"
         date: "2023-10-17"
+      - url: "https://www.cls.cn/detail/2246285"
+        title: "'港股GPU第一股'壁仞科技大涨94.59% 2026科技企业IPO潮加速来袭 (财联社)"
+        date: "2026-01-02"
 
   - id: moore-threads
     name_en: "Moore Threads"
@@ -145,9 +148,9 @@ design_firms:
       status: true
       date_added: "2023-10-17"
       list: "US Commerce BIS (Footnote 4 Foreign Direct Product Rule)"
-    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 2}
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together."
+      significance: "Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024 and completed it on the Shanghai STAR Market on December 5, 2025 at an issue price of ¥114.28/share — the stock later traded as high as ¥657.02 intraday. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together. Announced in August 2026 that it was pursuing a secondary listing on the Hong Kong Stock Exchange."
       what_it_designs: "Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'China's answer to Nvidia.'"
     sources:
       - url: "https://en.wikipedia.org/wiki/Moore_Threads"
@@ -156,6 +159,9 @@ design_firms:
       - url: "https://technode.com/2024/11/15/chinese-gpu-unicorn-moore-threads-files-for-ipo-in-china/"
         title: "Chinese GPU unicorn Moore Threads files for IPO in China"
         date: "2024-11-15"
+      - url: "https://static.sse.com.cn/stock/disclosure/announcement/c/202509/002098_20250919_IP6Z.pdf"
+        title: "摩尔线程智能科技（北京）股份有限公司首次公开发行股票并在科创板上市招股说明书 (Shanghai Stock Exchange prospectus)"
+        date: "2025-09-19"
 
   - id: enflame-technology
     name_en: "Enflame Technology"
