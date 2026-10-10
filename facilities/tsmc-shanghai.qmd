@@ -1,0 +1,58 @@
+---
+title: "TSMC Shanghai"
+subtitle: "Taiwan Semiconductor Manufacturing Company (TSMC) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+TSMC's original mainland China manufacturing site, predating the newer Nanjing 12-inch fab, serving legacy/mature-node demand. Exact current process node and wafer size were not independently confirmed in the sources checked for this tracker; recorded here for completeness rather than with the same confidence as the Nanjing entry.
+:::
+
+**Chinese name:** 台积电（上海）有限公司 (Táijīdiàn (Shànghǎi) Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Legacy/mature-node wafers — the precise node and wafer diameter are not confirmed in this tracker's current sources.
+
+## Why does it matter?
+
+Alongside Nanjing, establishes that TSMC's mainland China footprint is deliberately confined to mature/legacy process technology, not its leading-edge nodes.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Taiwan Semiconductor Manufacturing Company (TSMC) |
+| **Type** | Fab |
+| **Category** | Foreign-Invested |
+| **Capability** | Wafer foundry, legacy/mature nodes (older than Nanjing's 16nm line) |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Foreign |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+*No milestones recorded yet.*
+
+## Sources
+
+- [U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC) — notes TSMC 'also has a chipmaking plant in Shanghai'](https://www.cnbc.com/2026/01/01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html) (01 Jan 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

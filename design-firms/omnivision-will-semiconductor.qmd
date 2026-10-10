@@ -1,14 +1,14 @@
 ---
-title: "OmniVision (Will Semiconductor)"
+title: "OmniVision (formerly Will Semiconductor)"
 subtitle: "Fabless"
 date: last-modified
 ---
 
-**Chinese name:** 豪威科技（韦尔股份） (Háowēi Kējì (Wéi'ěr Gǔfèn))
+**Chinese name:** 豪威集成电路（集团）股份有限公司 (Háowēi Jíchéng Diànlù (Jítuán) Gǔfèn Yǒuxiàn Gōngsī)
 
 ::: {.callout-tip}
 ## Why This Matters
-OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; now operates as OmniVision Group, headquartered in Shanghai, and pursued a Hong Kong IPO — a notable case of a Chinese fabless firm acquiring a once-independent Western chip brand outright rather than building one from scratch.
+OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; the parent formally renamed itself from Will Semiconductor (韦尔股份) to OmniVision Group (豪威集团/豪威集成电路（集团）股份有限公司) and pursued a Hong Kong IPO — a notable case of a Chinese fabless firm acquiring a once-independent Western chip brand outright rather than building one from scratch. Unlike most other entries updated in this tracker's 2026 sweep, OmniVision's recent results moved the other direction: Q1 2026 net profit fell 41.9% YoY to ¥503 million, and H1 2026 net profit fell 39.9% YoY to ¥1.22 billion — a useful reminder that China's chip sector is not uniformly booming even where AI/memory-linked names are. 2025 full-year net profit had been reported up ~498% YoY to ¥3.3 billion, making the 2026 decline a reversal from an unusually strong prior-year base rather than a new structural problem, though this tracker has not independently confirmed which explanation is correct.
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ CMOS image sensors (smartphone and automotive cameras), plus analog and display 
 
 - [OmniVision Group (Wikipedia)](https://en.wikipedia.org/wiki/OmniVision_Group) (28 Sep 2026)
 - [Firms act on sensor maker OmniVision's HKD4.8bn IPO on HKEX](https://law.asia/omnivision-hkex-ipo/) (28 Sep 2026)
+- [千亿芯片龙头韦尔股份拟更名'豪威集团'，去年净利增498%至33亿 (瑞财经)](https://m.rccaijing.com/news-7330236719361095012.html) (28 Sep 2026)
 
 ---
 

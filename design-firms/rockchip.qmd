@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market).
+Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market). H1 2026 revenue reached ¥2.877 billion (+40.6% YoY) with net profit of ¥859 million (+61.7% YoY), management citing an edge-AI product push across multiple end markets.
 :::
 
 ## What does this firm design?
@@ -32,6 +32,7 @@ Application processor SoCs for tablets, set-top boxes, and embedded/IoT devices.
 ## Sources
 
 - [Rockchip (Wikipedia)](https://en.wikipedia.org/wiki/Rockchip) (28 Sep 2026)
+- [瑞芯微2026半年报：营收增长40.6%净利润激增61.7% 端侧AI战略引领多领域突破 (新浪财经)](https://finance.sina.com.cn/stock/aigc/agcbld/2026-08-18/doc-ininrzfz9965736.shtml) (18 Aug 2026)
 
 ---
 

@@ -1,0 +1,61 @@
+---
+title: "Samsung Xi'an"
+subtitle: "Samsung Electronics | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Samsung's largest NAND flash site outside South Korea and a major share of its total NAND output (domestic Korean reporting put it around 40%) — the single biggest reminder that 'China's semiconductor sector' includes large-scale foreign-owned manufacturing on Chinese soil, not only domestic Chinese firms. Samsung reported a 67.5% year-on-year increase in Xi'an investment in its 2025 business report.
+:::
+
+**Chinese name:** 三星（中国）半导体有限公司 (Sānxīng (Zhōngguó) Bàndǎotǐ Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+3D NAND flash memory wafers; the fab has progressed from 128-layer (V6, now phased out) to 236-layer (V8, in mass production as of early 2026), with 286-layer V9 production targeted for later in 2026.
+
+## Why does it matter?
+
+A test case for how far US export controls reach into foreign multinationals' own China operations: Samsung ships significantly more semiconductor product to China than to the US by value, and continues to operate and upgrade Xi'an under an annual US tool-export licensing regime (replacing an earlier open-ended waiver) rather than a blanket ban.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Samsung Electronics |
+| **Type** | Memory |
+| **Category** | Foreign-Invested |
+| **Capability** | 3D NAND flash memory, 12-inch (300mm) wafers |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Foreign |
+| **Location** | Xi'an, Shaanxi |
+| **Current Node** | 236-layer 3D NAND (V8) |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+- **2026**: 236-layer 3D NAND (V8)
+
+## Project Timeline
+
+- **Mar 2026** — Reported to be advancing Xi'an to 236-layer (V8) NAND in mass production
+- **May 2026** — Reported to begin cleanroom build-out for V9 NAND infrastructure following the V8 ramp and V6 phase-out
+
+## Sources
+
+- [Samsung Reportedly Advances Xi'an to 236-Layer NAND; SK hynix Eyes Dalian Upgrade Amid Tight Supply (TrendForce)](https://www.trendforce.com/news/2026/03/30/news-samsung-reportedly-advances-xian-to-236-layer-nand-sk-hynix-eyes-dalian-upgrade-amid-tight-supply/) (30 Mar 2026)
+- [Memory Giants' China Investments Soar in 2025: Samsung Xi'an Up 67.5%, SK hynix Wuxi, Dalian Hit Trillion-Won (TrendForce)](https://www.trendforce.com/news/2026/03/27/news-memory-giants-china-investments-soar-in-2025-samsung-xian-up-67-5-sk-hynix-wuxi-dalian-hit-trillion-won/) (27 Mar 2026)
+- [Samsung Shipped $12.7B More Chips to China Than US in H1; Xi'an Fab Annual US License Deadline Looms (Tech Times)](https://www.techtimes.com/articles/324568/20260815/samsung-shipped-127b-more-chips-china-us-h1-xi-fab-annual-us-license-deadline-looms.htm) (15 Aug 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

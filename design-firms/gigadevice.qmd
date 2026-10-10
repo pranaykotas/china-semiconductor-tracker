@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on.
+Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. A 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue guidance of ¥11.5 billion (+177% YoY) and net profit of roughly ¥6.9 billion (+1,099% YoY), with Q1 2026 alone showing revenue +119.4% and net profit +522.8% year-on-year.
 :::
 
 ## What does this firm design?
@@ -32,6 +32,7 @@ NOR flash memory chips, general-purpose microcontrollers, and sensors for consum
 ## Sources
 
 - [GigaDevice (Wikipedia)](https://en.wikipedia.org/wiki/GigaDevice) (28 Sep 2026)
+- [兆易创新2026年一季度财报解读：营收增119.38% 净利润暴涨522.79% (新浪财经)](https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-30/doc-inhwhenh6201287.shtml) (30 Apr 2026)
 
 ---
 

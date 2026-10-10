@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment.
+Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment. H1 2026 revenue reached ¥1.888 billion (+41.2% YoY) with net profit of ¥490 million (+204.2% YoY), driven by new product ramp.
 :::
 
 ## What does this firm design?
@@ -32,6 +32,7 @@ Application processor SoCs for tablets, streaming devices, and consumer IoT hard
 ## Sources
 
 - [Allwinner Technology (Wikipedia)](https://en.wikipedia.org/wiki/Allwinner_Technology) (28 Sep 2026)
+- [全志科技2026年半年报：新产品量产放量，净利翻倍增长 (21世纪经济报道)](https://www.21jingji.com/article/20260826/herald/368f127ce51aa3c399b7b894a52ca7bf.html) (26 Aug 2026)
 
 ---
 

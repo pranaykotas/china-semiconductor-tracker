@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded March 2018 by two former AMD engineers; completed a near-$900 million Shanghai STAR Market IPO, one of the larger domestic AI-chip listings to date.
+Founded March 2018 by two former AMD engineers, with Tencent among its backers; completed its Shanghai STAR Market IPO on September 11, 2026, raising ¥6.12 billion ($912M) at an issue price of ¥142.18/share — the stock closed up 179% on debut, pushing market capitalization past ¥170 billion.
 :::
 
 ## What does this firm design?
@@ -27,12 +27,13 @@ AI training and inference accelerators (branded GCUs) for cloud compute, with an
 | **Entity List** | No |
 
 ### Design Score
-<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
 
 ## Sources
 
 - [Enflame (Wikipedia)](https://en.wikipedia.org/wiki/Enflame) (28 Sep 2026)
 - [AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO](https://finance.yahoo.com/technology/ai/articles/ai-chipmaker-enflame-sets-subscription-date-for-near-900-million-shanghai-ipo-030523823.html) (28 Sep 2026)
+- [美禁令重塑半導體供應鏈？中國燧原科技搭上「國產替代」熱潮，IPO 籌 61 億攻自主算力 (TechOrange)](https://techorange.com/2026/09/14/tencent-enflame-shanghai-912-million-ipo/) (14 Sep 2026)
 
 ---
 

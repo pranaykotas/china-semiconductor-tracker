@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips.
+Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips. H1 2026 revenue reached ¥458 million (+81.3% YoY, its fourth consecutive year of high YoY growth) with gross margin nearly doubling to 49.5% (gross profit +261.9% YoY) and cumulative chip shipments passing 6 million units — but net loss still widened slightly to ¥770 million, underscoring that revenue growth has not yet translated into profitability.
 :::
 
 ## What does this firm design?
@@ -32,6 +32,7 @@ AI chips for self-driving cars and advanced driver assistance systems (ADAS), in
 ## Sources
 
 - [Black Sesame Technologies (Wikipedia)](https://en.wikipedia.org/wiki/Black_Sesame_Technologies) (28 Sep 2026)
+- [黑芝麻智能2026上半年营收连续四年同比高增长，三大业务引擎协同进阶 (腾讯新闻)](https://news.qq.com/rain/a/20260831A08KAS00) (31 Aug 2026)
 
 ---
 

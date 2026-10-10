@@ -1,0 +1,60 @@
+---
+title: "UMC Xiamen (United Semiconductor)"
+subtitle: "United Microelectronics Corporation (UMC) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Southern China's first 12-inch foundry fab, a UMC joint-venture entity branded United Semiconductor; began volume production in 2016.
+:::
+
+**Chinese name:** 联芯集成电路制造（厦门）有限公司 (Liánxīn Jíchéng Diànlù Zhìzào (Xiàmén) Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+12-inch (300mm) wafers at mature/legacy process nodes for foundry customers.
+
+## Why does it matter?
+
+A second Taiwanese foundry major (alongside TSMC) with an operating mainland China fab, reinforcing that cross-strait manufacturing links persist in mature-node foundry work even as the leading-edge relationship (TSMC's most advanced nodes, UMC's own frontier R&D) stays firmly based in Taiwan.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | United Microelectronics Corporation (UMC) |
+| **Type** | Fab |
+| **Category** | Foreign-Invested |
+| **Capability** | 12-inch (300mm) wafer foundry, mature/legacy nodes |
+| **Status** | Operational |
+| **Investment** | ¥35亿元 |
+| **Funding Source** | Foreign |
+| **Location** | Xiamen, Fujian |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2016** — Begins volume production as southern China's first 12-inch foundry fab
+
+## Sources
+
+- [UMC opens new 12-inch wafer fab in China (Cleanroom Technology)](https://cleanroomtechnology.com/umc-opens-new-12-inch-wafer-fab-in-china) (28 Sep 2026)
+- [UMC Agrees to 12" Fab Joint Venture in China (EE Times)](https://www.eetimes.com/umc-agrees-12-fab-joint-venture-china/) (28 Sep 2026)
+- [UMC to pour CNY3.5 billion into China 12-inch fab operation (Digitimes)](https://www.digitimes.com/news/a20200212VL201.html) (12 Feb 2020)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

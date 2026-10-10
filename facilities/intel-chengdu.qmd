@@ -1,0 +1,58 @@
+---
+title: "Intel Chengdu"
+subtitle: "Intel Corporation | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix. Chengdu is an assembly-and-test (ATP) site, not a fab — it packages and tests chips rather than fabricating wafers.
+:::
+
+**Chinese name:** 英特尔产品（成都）有限公司 (Yīngtè'ěr Chǎnpǐn (Chéngdū) Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Chip assembly and test services for Intel products — the step between finished wafers and sellable packaged chips, not wafer fabrication.
+
+## Why does it matter?
+
+With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the clearest marker of what 'Intel in China' now means: assembly and test only, no fab. Included here to avoid the common misconception (prompted by Intel's historical Dalian fab) that Intel still operates a wafer fab in China.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Intel Corporation |
+| **Type** | Assembly & Packaging |
+| **Category** | Foreign-Invested |
+| **Capability** | Chip assembly and test (ATP) — not a wafer fab |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Foreign |
+| **Location** | Chengdu, Sichuan |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**1.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Sep 2026** — Becomes Intel's sole remaining manufacturing site in China once the Dalian fab's transfer to SK Hynix is finalized
+
+## Sources
+
+- [Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)](https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

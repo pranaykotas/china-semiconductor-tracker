@@ -52,6 +52,7 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
     stroke = TRUE,
     weight = 1.5,
     popup = popups,
+    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20)),
     label = labels,
     labelOptions = labelOptions(
       style = list("font-size" = "12px", "padding" = "6px 10px"),

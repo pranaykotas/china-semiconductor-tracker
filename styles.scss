@@ -199,6 +199,9 @@ h4 { font-weight: 500; line-height: 1.3; }
   font-family: 'Inter', -apple-system, system-ui, sans-serif;
   font-size: 0.9em;
   line-height: 1.5;
+  max-width: 280px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .facility-popup h4 {

@@ -32,7 +32,8 @@ leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat, radius = 8,
     color = "#ffffff", fillColor = ~colour, fillOpacity = 0.85, stroke = TRUE, weight = 1.5,
-    popup = popups
+    popup = popups,
+    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
   )
 ```
 

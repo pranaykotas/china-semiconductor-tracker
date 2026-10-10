@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86.
+Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86. Revenue is growing but the company remains unprofitable: H1 2026 revenue reached ¥272 million (+11.6% YoY) with gross margin up 9.6 points to 52.1%, but full-year 2026 guidance of ¥828 million revenue (+30.3% YoY) still projects a ¥230 million net loss.
 :::
 
 ## What does this firm design?
 
-General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability.
+General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability. H1 2026 segment mix: informatization/IT chips ¥147M (+27.8% YoY), industrial-control chips ¥68M (-22.6% YoY), and solutions/services ¥58M (+38.7% YoY).
 
 ## Key Facts
 
@@ -32,6 +32,7 @@ General-purpose CPUs (the Loongson 3-series and successors) built on the self-de
 ## Sources
 
 - [Loongson (Wikipedia)](https://en.wikipedia.org/wiki/Loongson) (28 Sep 2026)
+- [龙芯中科2026年一季报：营收增长但亏损持续，应收账款风险几何？ (股百科)](https://www.aigbk.com/article/loongson_q1_2026_earnings_report_analysis/) (28 Sep 2026)
 - [U.S. Govt Blacklists Chinese Tech Firms Loongson and Inspur](https://www.tomshardware.com/news/us-govt-blacklists-loongson-and-inspur) (06 Mar 2023)
 
 ---

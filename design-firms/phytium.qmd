@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Jointly established in 2014 by China Electronics Corporation (a central state-owned enterprise), the Tianjin Binhai New Area government, and the Tianjin Advanced Technology Research Institute — one of the most directly state-backed design houses in this tracker. Added to the Entity List in April 2021 over supercomputing ties to Chinese military modernization; TSMC subsequently stopped supplying it.
+Jointly established in 2014 by China Electronics Corporation (a central state-owned enterprise), the Tianjin Binhai New Area government, and the Tianjin Advanced Technology Research Institute — one of the most directly state-backed design houses in this tracker. Added to the Entity List in April 2021 over supercomputing ties to Chinese military modernization; TSMC subsequently stopped supplying it. Remains privately held (not publicly listed), so financial disclosure is limited, but reported a notable deployment milestone in February 2026: its chips went into production for the first time at a major international hub airport (Ürümqi Tianshan International, 10M+ annual passenger throughput) in civil aviation systems.
 :::
 
 ## What does this firm design?
 
-ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems.
+ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems. Its Tengyun S5000C-E server CPU won an industry innovation award in August 2026, around the same time roughly 3,000 dual-socket servers built on it won a sector procurement tender.
 
 ## Key Facts
 
@@ -33,6 +33,7 @@ ARM-based CPUs across server, desktop, and embedded product lines, used primaril
 
 - [FeiTeng (Wikipedia)](https://en.wikipedia.org/wiki/FeiTeng) (28 Sep 2026)
 - [Commerce Adds Seven Chinese Supercomputing Entities to Entity List](https://www.commerce.gov/news/press-releases/2021/04/commerce-adds-seven-chinese-supercomputing-entities-entity-list-their) (08 Apr 2021)
+- [筑牢智慧民航数字底座，飞腾芯护航春运'大考' (Phytium official site)](https://www.phytium.com.cn/homepage/news/940/) (28 Sep 2026)
 
 ---
 

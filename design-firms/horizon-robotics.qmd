@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded July 2015; listed on the Hong Kong Stock Exchange, one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation.
+Founded July 2015; listed on the Hong Kong Stock Exchange, one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation. Full-year 2025 revenue reached ¥3.758 billion (+57.7% YoY), while R&D spending grew even faster, up 63.3% to ¥5.154 billion — deliberately outspending revenue growth. H1 2026 revenue was ¥2.055 billion (+32.9% YoY) with ¥1.356 billion gross profit.
 :::
 
 ## What does this firm design?
@@ -32,6 +32,7 @@ Automotive-grade processors and the accompanying software platform for intellige
 ## Sources
 
 - [Horizon Robotics (Wikipedia)](https://en.wikipedia.org/wiki/Horizon_Robotics) (28 Sep 2026)
+- [地平线由盈转亏背后：研发大增投入超50亿，余凯瞄准60%+增长 (OFweek)](https://nev.ofweek.com/2026-03/ART-77015-12003-30683591.html) (20 Mar 2026)
 
 ---
 

@@ -1,0 +1,59 @@
+---
+title: "SK Hynix Dalian (former Intel fab)"
+subtitle: "SK Hynix | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Originally built and operated by Intel as its only fab in China, producing NAND flash — Intel agreed in 2020-2021 to sell its NAND/SSD business, including this fab, to SK Hynix in stages; the entity was formally renamed to reflect full SK Hynix ownership (effective September 1). It is tracked here as a distinct entry from SK Hynix's own Wuxi DRAM fab since it is a different site, product (NAND vs DRAM), and acquisition history.
+:::
+
+**Chinese name:** SK海力士半导体（大连）有限公司 (SK Hǎilìshì Bàndǎotǐ (Dàlián) Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+NAND flash memory on 12-inch (300mm) wafers.
+
+## Why does it matter?
+
+A rare case in this tracker of a facility changing foreign owners entirely (Intel to SK Hynix) while remaining a foreign-invested operation in China throughout — distinct from the far more common story of a facility being added to, or dropped from, a US control list.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SK Hynix |
+| **Type** | Memory |
+| **Category** | Foreign-Invested |
+| **Capability** | NAND flash memory, 12-inch (300mm) wafers |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Foreign |
+| **Location** | Dalian, Liaoning |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2021** — Intel completes the first phase of selling its NAND/SSD business and Dalian fab to SK Hynix (deal announced 2020)
+- **Sep 2026** — Entity formally renamed to reflect full SK Hynix ownership, ending Intel's fab presence in China
+
+## Sources
+
+- [Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)](https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix) (28 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -847,3 +847,392 @@ facilities:
       - url: "http://yuanchuang.10jqka.com.cn/20260713/c678138484.shtml"
         title: "华天科技：预计2026年半年度盈利7.50亿至8.50亿 净利润同比增长231.16%至275.31% (同花顺)"
         date: "2026-07-13"
+
+  - id: samsung-xian
+    name_en: "Samsung Xi'an"
+    name_zh: "三星（中国）半导体有限公司"
+    name_pinyin: "Sānxīng (Zhōngguó) Bàndǎotǐ Yǒuxiàn Gōngsī"
+    company_en: "Samsung Electronics"
+    company_zh: "三星电子"
+    company_pinyin: "Sānxīng Diànzǐ"
+    partners: []
+    location:
+      city: "Xi'an"
+      province: "Shaanxi"
+      lat: 34.27
+      lon: 108.95
+    type: "Memory"
+    category: "Foreign-Invested"
+    capability: "3D NAND flash memory, 12-inch (300mm) wafers"
+    investment:
+      total_rmb_100m: null
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory:
+      - {year: 2026, node: "236-layer 3D NAND (V8)"}
+    narrative:
+      significance: "Samsung's largest NAND flash site outside South Korea and a major share of its total NAND output (domestic Korean reporting put it around 40%) — the single biggest reminder that 'China's semiconductor sector' includes large-scale foreign-owned manufacturing on Chinese soil, not only domestic Chinese firms. Samsung reported a 67.5% year-on-year increase in Xi'an investment in its 2025 business report."
+      what_it_makes: "3D NAND flash memory wafers; the fab has progressed from 128-layer (V6, now phased out) to 236-layer (V8, in mass production as of early 2026), with 286-layer V9 production targeted for later in 2026."
+      why_it_matters: "A test case for how far US export controls reach into foreign multinationals' own China operations: Samsung ships significantly more semiconductor product to China than to the US by value, and continues to operate and upgrade Xi'an under an annual US tool-export licensing regime (replacing an earlier open-ended waiver) rather than a blanket ban."
+    milestones:
+      - date: "2026-03-01"
+        event: "Reported to be advancing Xi'an to 236-layer (V8) NAND in mass production"
+      - date: "2026-05-01"
+        event: "Reported to begin cleanroom build-out for V9 NAND infrastructure following the V8 ramp and V6 phase-out"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 2
+      capital_intensity: 5
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.trendforce.com/news/2026/03/30/news-samsung-reportedly-advances-xian-to-236-layer-nand-sk-hynix-eyes-dalian-upgrade-amid-tight-supply/"
+        title: "Samsung Reportedly Advances Xi'an to 236-Layer NAND; SK hynix Eyes Dalian Upgrade Amid Tight Supply (TrendForce)"
+        date: "2026-03-30"
+      - url: "https://www.trendforce.com/news/2026/03/27/news-memory-giants-china-investments-soar-in-2025-samsung-xian-up-67-5-sk-hynix-wuxi-dalian-hit-trillion-won/"
+        title: "Memory Giants' China Investments Soar in 2025: Samsung Xi'an Up 67.5%, SK hynix Wuxi, Dalian Hit Trillion-Won (TrendForce)"
+        date: "2026-03-27"
+      - url: "https://www.techtimes.com/articles/324568/20260815/samsung-shipped-127b-more-chips-china-us-h1-xi-fab-annual-us-license-deadline-looms.htm"
+        title: "Samsung Shipped $12.7B More Chips to China Than US in H1; Xi'an Fab Annual US License Deadline Looms (Tech Times)"
+        date: "2026-08-15"
+
+  - id: sk-hynix-wuxi
+    name_en: "SK Hynix Wuxi"
+    name_zh: "SK海力士半导体（中国）有限公司"
+    name_pinyin: "SK Hǎilìshì Bàndǎotǐ (Zhōngguó) Yǒuxiàn Gōngsī"
+    company_en: "SK Hynix"
+    company_zh: "SK海力士"
+    company_pinyin: "SK Hǎilìshì"
+    partners: []
+    location:
+      city: "Wuxi"
+      province: "Jiangsu"
+      lat: 31.60
+      lon: 120.33
+    type: "Memory"
+    category: "Foreign-Invested"
+    capability: "DRAM, 12-inch (300mm) wafers"
+    investment:
+      total_rmb_100m: null
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory:
+      - {year: 2026, node: "1a-class DRAM"}
+    narrative:
+      significance: "SK Hynix's largest DRAM site outside South Korea, reported to account for roughly 30-40% of the company's total DRAM production — on the same scale of significance as Samsung's Xi'an NAND operation, and likewise a reminder that foreign multinationals, not only domestic Chinese firms, make up a large share of chip manufacturing physically located in China. 2025 investment was reported at 581.1 billion KRW, up 102% year-on-year."
+      what_it_makes: "DRAM on 12-inch (300mm) wafers; completed conversion to the 1a (4th-generation 10nm-class) process, with roughly 200,000 wafers/month of capacity reported and expansion toward 360,000 wafers/month targeted by the first half of 2030."
+      why_it_matters: "Like Samsung Xi'an, operates under the same annual US tool-export licensing regime rather than a blanket restriction — both South Korean memory majors were granted 2026 licenses for chipmaking tool shipments to their China plants, replacing the earlier Validated End-User (VEU) waiver system."
+    milestones:
+      - date: "2026-01-16"
+        event: "Reported to have completed the 1a DRAM process conversion at the Wuxi fab"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 2
+      capital_intensity: 5
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.digitimes.com/news/a20260116VL202/sk-hynix-dram-plant-production-euv.html"
+        title: "SK Hynix reportedly completes 1a DRAM upgrade at Wuxi plant in China (Digitimes)"
+        date: "2026-01-16"
+      - url: "https://www.trendforce.com/news/2026/06/05/news-sk-hynix-reportedly-to-double-dram-capacity-to-1m-monthly-wafers-by-2030-speeds-yongin-expansion/"
+        title: "SK hynix Reportedly to Double DRAM Capacity to 1M Monthly Wafers by 2030, Speeds Yongin Expansion (TrendForce)"
+        date: "2026-06-05"
+      - url: "https://www.tomshardware.com/tech-industry/us-grants-samsung-and-sk-hynix-2026-licenses-for-chipmaking-tool-shipments-to-china"
+        title: "U.S. grants Samsung and SK hynix 2026 licenses for chipmaking tool shipments to China (Tom's Hardware)"
+        date: "2026-09-28"
+
+  - id: sk-hynix-dalian
+    name_en: "SK Hynix Dalian (former Intel fab)"
+    name_zh: "SK海力士半导体（大连）有限公司"
+    name_pinyin: "SK Hǎilìshì Bàndǎotǐ (Dàlián) Yǒuxiàn Gōngsī"
+    company_en: "SK Hynix"
+    company_zh: "SK海力士"
+    company_pinyin: "SK Hǎilìshì"
+    partners: []
+    location:
+      city: "Dalian"
+      province: "Liaoning"
+      lat: 38.91
+      lon: 121.61
+    type: "Memory"
+    category: "Foreign-Invested"
+    capability: "NAND flash memory, 12-inch (300mm) wafers"
+    investment:
+      total_rmb_100m: null
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Originally built and operated by Intel as its only fab in China, producing NAND flash — Intel agreed in 2020-2021 to sell its NAND/SSD business, including this fab, to SK Hynix in stages; the entity was formally renamed to reflect full SK Hynix ownership (effective September 1). It is tracked here as a distinct entry from SK Hynix's own Wuxi DRAM fab since it is a different site, product (NAND vs DRAM), and acquisition history."
+      what_it_makes: "NAND flash memory on 12-inch (300mm) wafers."
+      why_it_matters: "A rare case in this tracker of a facility changing foreign owners entirely (Intel to SK Hynix) while remaining a foreign-invested operation in China throughout — distinct from the far more common story of a facility being added to, or dropped from, a US control list."
+    milestones:
+      - date: "2021-01-01"
+        event: "Intel completes the first phase of selling its NAND/SSD business and Dalian fab to SK Hynix (deal announced 2020)"
+      - date: "2026-09-01"
+        event: "Entity formally renamed to reflect full SK Hynix ownership, ending Intel's fab presence in China"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix"
+        title: "Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)"
+        date: "2026-09-28"
+
+  - id: intel-chengdu
+    name_en: "Intel Chengdu"
+    name_zh: "英特尔产品（成都）有限公司"
+    name_pinyin: "Yīngtè'ěr Chǎnpǐn (Chéngdū) Yǒuxiàn Gōngsī"
+    company_en: "Intel Corporation"
+    company_zh: "英特尔"
+    company_pinyin: "Yīngtè'ěr"
+    partners: []
+    location:
+      city: "Chengdu"
+      province: "Sichuan"
+      lat: 30.57
+      lon: 104.07
+    type: "Assembly & Packaging"
+    category: "Foreign-Invested"
+    capability: "Chip assembly and test (ATP) — not a wafer fab"
+    investment:
+      total_rmb_100m: null
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix. Chengdu is an assembly-and-test (ATP) site, not a fab — it packages and tests chips rather than fabricating wafers."
+      what_it_makes: "Chip assembly and test services for Intel products — the step between finished wafers and sellable packaged chips, not wafer fabrication."
+      why_it_matters: "With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the clearest marker of what 'Intel in China' now means: assembly and test only, no fab. Included here to avoid the common misconception (prompted by Intel's historical Dalian fab) that Intel still operates a wafer fab in China."
+    milestones:
+      - date: "2026-09-01"
+        event: "Becomes Intel's sole remaining manufacturing site in China once the Dalian fab's transfer to SK Hynix is finalized"
+    complexity:
+      technology_difficulty: 1
+      foreign_dependence: 2
+      capital_intensity: 2
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix"
+        title: "Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)"
+        date: "2026-09-28"
+
+  - id: tsmc-nanjing
+    name_en: "TSMC Nanjing"
+    name_zh: "台积电（南京）有限公司"
+    name_pinyin: "Táijīdiàn (Nánjīng) Yǒuxiàn Gōngsī"
+    company_en: "Taiwan Semiconductor Manufacturing Company (TSMC)"
+    company_zh: "台湾积体电路制造股份有限公司"
+    company_pinyin: "Táiwān Jītǐ Diànlù Zhìzào Gǔfèn Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Nanjing"
+      province: "Jiangsu"
+      lat: 32.11
+      lon: 118.60
+    type: "Fab"
+    category: "Foreign-Invested"
+    capability: "12-inch (300mm) wafer foundry, 16nm and other mature nodes"
+    investment:
+      total_rmb_100m: null
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "TSMC's only 12-inch (300mm) fab in mainland China, producing 16nm and other mature-node chips — reported to contribute roughly 2.4% of TSMC's overall revenue per its 2024 annual report. Received a US annual export license (not individual per-shipment licenses) for chipmaking tool imports in early 2026, part of a broader shift from one-off vendor licensing to annual review for allied-country fabs operating in China."
+      what_it_makes: "12-inch (300mm) wafers at 16nm and other mature process nodes — intentionally kept well behind TSMC's leading-edge Taiwan/Arizona/Japan nodes."
+      why_it_matters: "The clearest example in this tracker of a foreign advanced-foundry leader operating a deliberately mature-node-only fab in China — TSMC has kept Nanjing's technology multiple generations behind its frontier nodes elsewhere, widely read as a deliberate choice to maintain a China manufacturing presence without exposing leading-edge process technology to export-control or diversion risk."
+    milestones:
+      - date: "2026-01-01"
+        event: "US Commerce Department grants TSMC Nanjing an annual export license for US-origin chipmaking tools, replacing individual per-shipment vendor licenses"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.cnbc.com/2026/01/01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html"
+        title: "U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC)"
+        date: "2026-01-01"
+      - url: "https://www.scmp.com/tech/big-tech/article/3338380/us-grants-tsmc-annual-licence-import-american-chipmaking-tools-china"
+        title: "US grants TSMC annual licence to import American chipmaking tools into China (SCMP)"
+        date: "2026-01-01"
+
+  - id: tsmc-shanghai
+    name_en: "TSMC Shanghai"
+    name_zh: "台积电（上海）有限公司"
+    name_pinyin: "Táijīdiàn (Shànghǎi) Yǒuxiàn Gōngsī"
+    company_en: "Taiwan Semiconductor Manufacturing Company (TSMC)"
+    company_zh: "台湾积体电路制造股份有限公司"
+    company_pinyin: "Táiwān Jītǐ Diànlù Zhìzào Gǔfèn Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.03
+      lon: 121.22
+    type: "Fab"
+    category: "Foreign-Invested"
+    capability: "Wafer foundry, legacy/mature nodes (older than Nanjing's 16nm line)"
+    investment:
+      total_rmb_100m: null
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "TSMC's original mainland China manufacturing site, predating the newer Nanjing 12-inch fab, serving legacy/mature-node demand. Exact current process node and wafer size were not independently confirmed in the sources checked for this tracker; recorded here for completeness rather than with the same confidence as the Nanjing entry."
+      what_it_makes: "Legacy/mature-node wafers — the precise node and wafer diameter are not confirmed in this tracker's current sources."
+      why_it_matters: "Alongside Nanjing, establishes that TSMC's mainland China footprint is deliberately confined to mature/legacy process technology, not its leading-edge nodes."
+    milestones: []
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.cnbc.com/2026/01/01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html"
+        title: "U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC) — notes TSMC 'also has a chipmaking plant in Shanghai'"
+        date: "2026-01-01"
+
+  - id: umc-xiamen
+    name_en: "UMC Xiamen (United Semiconductor)"
+    name_zh: "联芯集成电路制造（厦门）有限公司"
+    name_pinyin: "Liánxīn Jíchéng Diànlù Zhìzào (Xiàmén) Yǒuxiàn Gōngsī"
+    company_en: "United Microelectronics Corporation (UMC)"
+    company_zh: "联华电子"
+    company_pinyin: "Liánhuá Diànzǐ"
+    partners: []
+    location:
+      city: "Xiamen"
+      province: "Fujian"
+      lat: 24.48
+      lon: 118.09
+    type: "Fab"
+    category: "Foreign-Invested"
+    capability: "12-inch (300mm) wafer foundry, mature/legacy nodes"
+    investment:
+      total_rmb_100m: 35
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Southern China's first 12-inch foundry fab, a UMC joint-venture entity branded United Semiconductor; began volume production in 2016."
+      what_it_makes: "12-inch (300mm) wafers at mature/legacy process nodes for foundry customers."
+      why_it_matters: "A second Taiwanese foundry major (alongside TSMC) with an operating mainland China fab, reinforcing that cross-strait manufacturing links persist in mature-node foundry work even as the leading-edge relationship (TSMC's most advanced nodes, UMC's own frontier R&D) stays firmly based in Taiwan."
+    milestones:
+      - date: "2016-01-01"
+        event: "Begins volume production as southern China's first 12-inch foundry fab"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: null
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2016-01-01"
+    sources:
+      - url: "https://cleanroomtechnology.com/umc-opens-new-12-inch-wafer-fab-in-china"
+        title: "UMC opens new 12-inch wafer fab in China (Cleanroom Technology)"
+        date: "2026-09-28"
+      - url: "https://www.eetimes.com/umc-agrees-12-fab-joint-venture-china/"
+        title: "UMC Agrees to 12\" Fab Joint Venture in China (EE Times)"
+        date: "2026-09-28"
+      - url: "https://www.digitimes.com/news/a20200212VL201.html"
+        title: "UMC to pour CNY3.5 billion into China 12-inch fab operation (Digitimes)"
+        date: "2020-02-12"

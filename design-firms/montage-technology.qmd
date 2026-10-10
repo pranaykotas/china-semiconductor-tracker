@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips.
+Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips. H1 2026 revenue reached ¥3.335 billion (+26.7% YoY) with net profit of ¥1.997 billion (+72.3% YoY) — one of the stronger, steadier growth stories among this tracker's design firms, benefiting from the same AI-driven memory/data-center demand cycle lifting several other entries.
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ Memory interface chips for server DRAM modules and data-center/AI interconnect c
 
 - [Montage Technology (Wikipedia)](https://en.wikipedia.org/wiki/Montage_Technology) (28 Sep 2026)
 - [Chinese IC design company Montage Technology cooperates with Intel to produce more AI chips](https://ijiwei.com/n/850608) (28 Sep 2026)
+- [澜起科技：2026年中报净利润为19.97亿元 (腾讯新闻)](https://news.qq.com/rain/a/20260829A04V7600) (29 Aug 2026)
 
 ---
 
