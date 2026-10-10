@@ -1,0 +1,36 @@
+---
+title: "TCL Zhonghuan — Shenzhen Semiconductor Wafer Project"
+subtitle: "Wafers"
+date: last-modified
+---
+
+**Chinese name:** 深圳中环领先半导体材料有限公司 (Shēnzhèn Zhōnghuán Lǐngxiān Bàndǎotǐ Cáiliào Yǒuxiàn Gōngsī)
+
+::: {.callout-tip}
+## Why This Matters
+TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer company — the world's largest by shipment volume (190GW capacity, 125.8GW shipped in 2024) — and is tracked here specifically for its separate, smaller semiconductor-grade wafer business, not its core solar operation, to avoid overstating its role in the chip supply chain. That semiconductor-materials segment grew 17% year-on-year even as the parent company's core solar business posted a net loss (narrowing, but still a loss) amid a broader Chinese solar-panel oversupply downturn — a useful reminder that a company's overall financial headlines can mask a growing chip-adjacent sub-business.
+:::
+
+## What does this firm supply?
+
+Large-diameter semiconductor-grade silicon wafers, via a dedicated new project — the 'Integrated Circuit Semiconductor Large Silicon Wafer Shenzhen Project,' through subsidiary Shenzhen Zhonghuan Lingxian Semiconductor Materials Co., Ltd. — with a planned total investment of approximately ¥11.96 billion. A separate Ningxia Zhonghuan facility has also been recognized as a national-level 'intelligent manufacturing demonstration factory,' though this tracker could not confirm a capacity breakdown specific to semiconductor-grade (as opposed to solar) wafers there.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Wafer/Substrate |
+| **Segment** | Wafers |
+| **Node Capability** | Large-diameter (300mm-class) semiconductor-grade silicon wafers; exact node applicability not disclosed |
+| **Founded** | Unknown |
+| **HQ** | Shenzhen |
+| **Entity List** | No |
+
+## Sources
+
+- [TCL中环拟投建近120亿元项目，加码半导体大硅片 (新浪财经)](https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxru1479438.shtml) (18 Jul 2026)
+- [TCL中环：半导体材料业务销量同比增长17% (网易)](https://www.163.com/dy/article/L2FC7A4B051984TV.html) (28 Sep 2026)
+
+---
+
+<a href="../equipment-materials.html" class="btn btn-primary">Back to Equipment & Materials</a>

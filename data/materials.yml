@@ -190,3 +190,27 @@ materials_firms:
       - url: "https://www.airliquide.com/sites/airliquide.com/files/2018/03/02/ye_hua_kong_qi_ji_tuan_zai_zhong_guo_.pdf"
         title: "液化空气集团 在中国 (Air Liquide China corporate overview)"
         date: "2026-09-28"
+
+  - id: tcl-zhonghuan-shenzhen
+    name_en: "TCL Zhonghuan — Shenzhen Semiconductor Wafer Project"
+    name_zh: "深圳中环领先半导体材料有限公司"
+    name_pinyin: "Shēnzhèn Zhōnghuán Lǐngxiān Bàndǎotǐ Cáiliào Yǒuxiàn Gōngsī"
+    category: "Wafer/Substrate"
+    segment: "Wafers"
+    node_capability: "Large-diameter (300mm-class) semiconductor-grade silicon wafers; exact node applicability not disclosed"
+    founded: null
+    hq: {city: "Shenzhen", province: "Guangdong", lat: 22.54, lon: 114.06}
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    narrative:
+      significance: "TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer company — the world's largest by shipment volume (190GW capacity, 125.8GW shipped in 2024) — and is tracked here specifically for its separate, smaller semiconductor-grade wafer business, not its core solar operation, to avoid overstating its role in the chip supply chain. That semiconductor-materials segment grew 17% year-on-year even as the parent company's core solar business posted a net loss (narrowing, but still a loss) amid a broader Chinese solar-panel oversupply downturn — a useful reminder that a company's overall financial headlines can mask a growing chip-adjacent sub-business."
+      what_it_supplies: "Large-diameter semiconductor-grade silicon wafers, via a dedicated new project — the 'Integrated Circuit Semiconductor Large Silicon Wafer Shenzhen Project,' through subsidiary Shenzhen Zhonghuan Lingxian Semiconductor Materials Co., Ltd. — with a planned total investment of approximately ¥11.96 billion. A separate Ningxia Zhonghuan facility has also been recognized as a national-level 'intelligent manufacturing demonstration factory,' though this tracker could not confirm a capacity breakdown specific to semiconductor-grade (as opposed to solar) wafers there."
+    sources:
+      - url: "https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxru1479438.shtml"
+        title: "TCL中环拟投建近120亿元项目，加码半导体大硅片 (新浪财经)"
+        date: "2026-07-18"
+      - url: "https://www.163.com/dy/article/L2FC7A4B051984TV.html"
+        title: "TCL中环：半导体材料业务销量同比增长17% (网易)"
+        date: "2026-09-28"
