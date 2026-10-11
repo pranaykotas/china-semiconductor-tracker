@@ -1,7 +1,15 @@
 ---
-title: "SMIC Shanghai (Lingang)"
+title: "SMIC Shanghai (Lingang) · 中芯临港"
 subtitle: "SMIC | Fab"
+description: "SMIC's largest single fab commitment — a $8.87B (reported domestically as over ¥50 billion total investment), 100,000 wafer/month 28nm-and-below joint vent…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-lingang.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-lingang.png"
 ---
 
 ::: {.callout-tip}

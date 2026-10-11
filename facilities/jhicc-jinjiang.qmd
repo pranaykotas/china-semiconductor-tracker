@@ -1,7 +1,15 @@
 ---
-title: "JHICC (Fujian Jinhua)"
+title: "JHICC (Fujian Jinhua) · 晋华集成电路"
 subtitle: "Fujian Jinhua Integrated Circuit Co., Ltd. (JHICC) | Memory"
+description: "The starkest case of a US export-control action landing directly on a named facility: added to the Entity List in October 2018 amid a Micron trade-secret t…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-jhicc-jinjiang.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-jhicc-jinjiang.png"
 ---
 
 ::: {.callout-tip}

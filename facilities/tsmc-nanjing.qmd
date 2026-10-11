@@ -1,7 +1,15 @@
 ---
-title: "TSMC Nanjing"
+title: "TSMC Nanjing · 台积电（南京）有限公司"
 subtitle: "Taiwan Semiconductor Manufacturing Company (TSMC) | Fab"
+description: "TSMC's only 12-inch (300mm) fab in mainland China, producing 16nm and other mature-node chips — reported to contribute roughly 2.4% of TSMC's overall reven…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-tsmc-nanjing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-tsmc-nanjing.png"
 ---
 
 ::: {.callout-tip}

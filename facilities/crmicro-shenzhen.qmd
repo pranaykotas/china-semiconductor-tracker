@@ -1,7 +1,15 @@
 ---
-title: "CR Micro Shenzhen (Runpeng 12-inch Analog Line)"
+title: "CR Micro Shenzhen (Runpeng 12-inch Analog Line) · 润鹏半导体（深圳）有限公司"
 subtitle: "CR Microelectronics Ltd. (STAR: 688396) | Fab"
+description: "Shenzhen's second 12-inch wafer fab (after SMIC Shenzhen), part of Guangdong's push to give the province a 'third pole' of chip manufacturing; ¥22 billion …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-crmicro-shenzhen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-crmicro-shenzhen.png"
 ---
 
 ::: {.callout-tip}

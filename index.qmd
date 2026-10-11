@@ -2,6 +2,7 @@
 title: "China Semiconductor Tracker: Facilities"
 subtitle: "Tracking semiconductor manufacturing across mainland China"
 date: last-modified
+description: "Live interactive map of 57 semiconductor facilities across mainland China — fabs, memory, OSAT, compound semiconductors — with investment, capacity, status and sources."
 ---
 
 ```{r setup, include=FALSE}

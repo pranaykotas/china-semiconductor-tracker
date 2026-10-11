@@ -1,7 +1,15 @@
 ---
-title: "AMEC (Advanced Micro-Fabrication Equipment)"
+title: "AMEC (Advanced Micro-Fabrication Equipment) · 中微半导体设备（上海）股份有限公司"
 subtitle: "Etch, Deposition (MOCVD)"
+description: "Founded by veteran semiconductor engineer Dr."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-amec.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-amec.png"
 ---
 
 **Chinese name:** 中微半导体设备（上海）股份有限公司 (Zhōngwēi Bàndǎotǐ Shèbèi (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī)

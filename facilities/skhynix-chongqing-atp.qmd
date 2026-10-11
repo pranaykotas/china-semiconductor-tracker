@@ -1,7 +1,15 @@
 ---
-title: "SK Hynix Chongqing (Assembly & Test)"
+title: "SK Hynix Chongqing (Assembly & Test) · 爱思开海力士半导体（重庆）有限公司"
 subtitle: "SK Hynix | Assembly & Packaging"
+description: "SK Hynix's Chongqing back-end (2013 agreement, mass production 2014, phase-2 2019, ~$1.2B cumulative) — the assembly/test counterpart to its Wuxi DRAM and …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-skhynix-chongqing-atp.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-skhynix-chongqing-atp.png"
 ---
 
 ::: {.callout-tip}

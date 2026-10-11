@@ -1,7 +1,15 @@
 ---
-title: "Huatian Technology Tianshui"
+title: "Huatian Technology Tianshui · 华天科技"
 subtitle: "Tianshui Huatian Technology Co., Ltd. | Assembly & Packaging"
+description: "One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tia…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huatian-tianshui.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huatian-tianshui.png"
 ---
 
 ::: {.callout-tip}

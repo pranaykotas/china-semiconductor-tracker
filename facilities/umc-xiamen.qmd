@@ -1,7 +1,15 @@
 ---
-title: "UMC Xiamen (United Semiconductor)"
+title: "UMC Xiamen (United Semiconductor) · 联芯集成电路制造（厦门）有限公司"
 subtitle: "United Microelectronics Corporation (UMC) | Fab"
+description: "Southern China's first 12-inch foundry fab, a UMC joint-venture entity branded United Semiconductor; began volume production in 2016."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-umc-xiamen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-umc-xiamen.png"
 ---
 
 ::: {.callout-tip}

@@ -1,7 +1,15 @@
 ---
-title: "Sino Wealth Electronic"
+title: "Sino Wealth Electronic · 中颖电子股份有限公司"
 subtitle: "State-Backed Design House"
+description: "Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net ¥71m +72.9% incl."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-sinowealth.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-sinowealth.png"
 ---
 
 **Chinese name:** 中颖电子股份有限公司 (Zhōngyǐng Diànzǐ)
@@ -25,6 +33,7 @@ Appliance/industrial MCUs, BMICs for tools/batteries, AMOLED DDICs, early automo
 | **Product Focus** | Home-appliance/industrial MCUs (~60% of revenue, domestic leader), battery-management ICs (~30%), AMOLED display drivers |
 | **Node Sophistication** | Mature MCU nodes; no advanced-node exposure |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 03 Apr 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**

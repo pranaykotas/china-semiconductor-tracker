@@ -1,7 +1,15 @@
 ---
-title: "Maxscend Microelectronics"
+title: "Maxscend Microelectronics · 江苏卓胜微电子股份有限公司"
 subtitle: "Fabless"
+description: "The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-maxscend.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-maxscend.png"
 ---
 
 **Chinese name:** 江苏卓胜微电子股份有限公司 (Zhuóshèngwēi)
@@ -25,6 +33,7 @@ RF front-end chips and modules for smartphones/IoT, WiFi-7 and NTN satellite fro
 | **Product Focus** | Smartphone RF front-end: switches, LNAs, DiFEM/L-DiFEM modules, SAW/MAX-SAW filters, L-PAMiD, WiFi/BLE, satellite NTN front-ends |
 | **Node Sophistication** | 12-inch silicon-based RF platform (switch/LNA, second-gen in volume); 6-inch TCSAW/MAX-SAW filter process; fully domestic-supply-chain L-PAMiD transmit module shipping to top brands — a Chinese first |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 26 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**

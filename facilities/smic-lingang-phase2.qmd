@@ -1,7 +1,15 @@
 ---
-title: "SMIC Shanghai (Lingang) Phase 2"
+title: "SMIC Shanghai (Lingang) Phase 2 · 中芯临港二期"
 subtitle: "SMIC | Fab"
+description: "Tracked as a separate entry from `smic-lingang` (which covers the operational Phase 1, 20,000 wafers/month) because Phase 2 is a distinct, actively-under-c…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-lingang-phase2.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-lingang-phase2.png"
 ---
 
 ::: {.callout-tip}

@@ -1,7 +1,15 @@
 ---
-title: "Amlogic (Shanghai) Co., Ltd."
+title: "Amlogic (Shanghai) Co., Ltd. · 晶晨半导体（上海）股份有限公司"
 subtitle: "Fabless"
+description: "China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026 batch mass producti…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-amlogic.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-amlogic.png"
 ---
 
 **Chinese name:** 晶晨半导体（上海）股份有限公司 (Jīngchén Bàndǎotǐ)
@@ -25,6 +33,7 @@ China's most globally embedded video SoC designer — its chips run operator box
 | **Product Focus** | Smart set-top-box/TV SoCs (S/T lines), AIoT, smart-vision (C line), Wi-Fi 6 (W line); ~270 global operator customers |
 | **Node Sophistication** | 6nm in mass production — first ARMv9-based 6nm STB SoC (~9M units 2025, 30M targeted 2026); the most advanced consumer-SoC node among the listed design houses |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 08 Oct 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**

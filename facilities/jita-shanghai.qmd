@@ -1,7 +1,15 @@
 ---
-title: "GTA Semiconductor (Shanghai Lingang)"
+title: "GTA Semiconductor (Shanghai Lingang) · 上海积塔半导体有限公司"
 subtitle: "Shanghai Jita Integrated Technology Service Co., Ltd. (GTA Semi) | Fab"
+description: "CEC's (China Electronics Corporation) manufacturing anchor and China's flagship state-owned car-grade specialty foundry — a ¥35.9 billion Lingang complex (…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-jita-shanghai.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-jita-shanghai.png"
 ---
 
 ::: {.callout-tip}

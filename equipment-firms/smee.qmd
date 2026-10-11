@@ -1,7 +1,15 @@
 ---
-title: "SMEE (Shanghai Micro Electronics Equipment)"
+title: "SMEE (Shanghai Micro Electronics Equipment) · 上海微电子装备（集团）股份有限公司"
 subtitle: "Lithography"
+description: "China's only domestic lithography scanner maker of consequence, and the firm most exposed to the export controls that target lithography hardest."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-smee.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-smee.png"
 ---
 
 **Chinese name:** 上海微电子装备（集团）股份有限公司 (Shànghǎi Wēi Diànzǐ Zhuāngbèi (Jítuán) Gǔfèn Yǒuxiàn Gōngsī)

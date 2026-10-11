@@ -1,7 +1,15 @@
 ---
-title: "Anyi-Semic / ST-Sanan JV (Chongqing 8-inch SiC)"
+title: "Anyi-Semic / ST-Sanan JV (Chongqing 8-inch SiC) · 安意法半导体有限公司"
 subtitle: "Anyiwa Semiconductor Co., Ltd. (STMicroelectronics–Sanan JV) | Compound Semiconductor"
+description: "STMicroelectronics' China-for-China twin of its Catania 200mm SiC strategy: an 8-inch automotive SiC device fab built in ~20 months (per ST's CEO), line ac…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-anyiwa-chongqing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-anyiwa-chongqing.png"
 ---
 
 ::: {.callout-tip}

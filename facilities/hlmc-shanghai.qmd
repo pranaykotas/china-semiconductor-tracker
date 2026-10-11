@@ -1,7 +1,15 @@
 ---
-title: "HLMC (Shanghai Huali, Fab 5 & Fab 6)"
+title: "HLMC (Shanghai Huali, Fab 5 & Fab 6) · 上海华力微电子有限公司 / 上海华力集成电路制造有限公司"
 subtitle: "Hua Hong Semiconductor Group (HLMC) | Fab"
+description: "Mainland China's first fully-automated 12-inch fab (Fab 5, first wafers April 2011, built under the 'Project 909' upgrade lineage) and one of very few dome…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hlmc-shanghai.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hlmc-shanghai.png"
 ---
 
 ::: {.callout-tip}

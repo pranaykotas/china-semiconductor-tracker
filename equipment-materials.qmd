@@ -2,6 +2,7 @@
 title: "Equipment & Materials"
 subtitle: "Tracking China's semiconductor equipment and materials chokepoint firms"
 date: last-modified
+description: "China's semiconductor equipment and materials chokepoint firms — lithography, etch, deposition, CMP, wafers, gases, photoresist — with node capability and sourcing."
 ---
 
 ```{r setup, include=FALSE}

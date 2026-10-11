@@ -1,7 +1,15 @@
 ---
-title: "CXMT Hefei"
+title: "CXMT Hefei · 长鑫存储"
 subtitle: "ChangXin Memory Technologies (CXMT) | Memory"
+description: "China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, no…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-cxmt-hefei.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-cxmt-hefei.png"
 ---
 
 ::: {.callout-tip}

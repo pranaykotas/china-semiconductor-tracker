@@ -1,7 +1,15 @@
 ---
-title: "Dosilicon Co., Ltd."
+title: "Dosilicon Co., Ltd. · 东芯半导体股份有限公司"
 subtitle: "Fabless"
+description: "A two-story firm: a niche-memory designer riding the 2025-26 shortage to 67.7% gross margin and H1 2026 net profit ¥6.59亿 (vs FY2025 loss) — with an interi…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-dosilicon.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-dosilicon.png"
 ---
 
 **Chinese name:** 东芯半导体股份有限公司 (Dōngxīn Gǔfèn)
@@ -25,6 +33,7 @@ SLC/MLC NAND, NOR, niche DRAM and MCP/eMMC combos; affiliate's 6nm graphics GPUs
 | **Product Focus** | Niche small-capacity memory — SLC NAND (domestic leader), NOR, DDR3/LPDDR4x DRAM, MCP combos for phone/module platforms |
 | **Node Sophistication** | 1x-nm-class SLC NAND in volume; affiliate Lisuan's 7G100 GPU on 6nm (taped out early 2025, retail launch ¥2,688 on JD 16 July 2026; 4th globally WHQL-certified Windows GPU vendor) |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 21 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**

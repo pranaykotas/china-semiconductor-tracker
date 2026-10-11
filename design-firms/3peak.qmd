@@ -1,7 +1,15 @@
 ---
-title: "3PEAK Inc."
+title: "3PEAK Inc. · 思瑞浦微电子科技（苏州）股份有限公司"
 subtitle: "Fabless"
+description: "Standard-bearer for high-end analog indigenization — real share in telecom base-station signal chains and now AI-server/optical-module AFEs, the categories…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-3peak.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-3peak.png"
 ---
 
 **Chinese name:** 思瑞浦微电子科技（苏州）股份有限公司 (Sīruìpǔ)
@@ -25,6 +33,7 @@ Precision and high-speed analog/mixed-signal ICs for telecom, industrial instrum
 | **Product Focus** | High-performance analog: precision/high-speed signal chain, ADC/DAC, RF PA-control and optical-module/server-power AFEs + power management (via 创芯微 acquisition) |
 | **Node Sophistication** | Nodes undisclosed; headline capabilities: 8GHz-bandwidth op-amps, 250MSPS 8/10-bit ADCs, 64-channel base-station AFE in volume, 1.6T optical-module SiPho AFE sampling, 120V ASIL-D BMS AFE |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 20 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**

@@ -1,7 +1,15 @@
 ---
-title: "HiSilicon"
+title: "HiSilicon · 海思技术有限公司"
 subtitle: "Fabless"
+description: "Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 P…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-hisilicon.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-hisilicon.png"
 ---
 
 **Chinese name:** 海思技术有限公司 (Hǎisī Jìshù Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ Full-stack SoCs across smartphone (Kirin), server/PC (Kunpeng, based on ARM arch
 | **Product Focus** | Smartphone SoCs (Kirin), server/PC CPUs (Kunpeng), AI accelerators (Ascend), modem/baseband (Balong) |
 | **Node Sophistication** | 7nm-class via multipatterning (Kirin 9000S, August 2023); the Kirin 9050 Pro (launched 1 October 2026 in the Mate 90 series) and the rest of that 'tau-law' cohort use 3D 'logic folding' (dual-layer vertical die stacking) to raise effective transistor density by a claimed 53.5% (238 MTr/mm²) without requiring a smaller lithography node |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Newest source dated 01 Oct 2026 (6 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **4.8/5**

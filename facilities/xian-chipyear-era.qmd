@@ -1,7 +1,15 @@
 ---
-title: "Chipyear Era Xi'an (8-inch Power Semiconductor Line)"
+title: "Chipyear Era Xi'an (8-inch Power Semiconductor Line) · 陕西电子芯业时代科技有限公司"
 subtitle: "Shaanxi Electronics Chipyear Era Technology Co., Ltd. | Fab"
+description: "Northwest China's first 8-inch specialty-process semiconductor line — another facility this tracker missed in its first passes, illustrating that under-con…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-xian-chipyear-era.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-xian-chipyear-era.png"
 ---
 
 ::: {.callout-tip}

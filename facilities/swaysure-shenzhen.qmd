@@ -1,7 +1,15 @@
 ---
-title: "SwaySure (Shenzhen DRAM/Novel Memory Fab)"
+title: "SwaySure (Shenzhen DRAM/Novel Memory Fab) · 深圳市昇维旭技术有限公司"
 subtitle: "SwaySure Technology Co., Ltd. | Memory"
+description: "Shenzhen-state-backed memory venture founded March 2022 (registered capital ¥5 billion), led by CEO Liu Xiaoqiang (ex-TSMC fab manager) and initially by CS…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-swaysure-shenzhen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-swaysure-shenzhen.png"
 ---
 
 ::: {.callout-tip}

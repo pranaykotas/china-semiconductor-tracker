@@ -1,7 +1,15 @@
 ---
-title: "Horizon Robotics"
+title: "Horizon Robotics · 北京地平线机器人技术研发有限公司"
 subtitle: "Fabless"
+description: "Founded July 2015; listed on the Hong Kong Stock Exchange (9660.HK, entered the Hang Seng Tech Index March 2025 and the blue-chip Hang Seng Index itself at…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-horizon-robotics.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-horizon-robotics.png"
 ---
 
 **Chinese name:** 北京地平线机器人技术研发有限公司 (Běijīng Dìpíngxiàn Jīqìrén Jìshù Yánfā Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ Automotive-grade processors and the accompanying software platform for intellige
 | **Product Focus** | Automotive-grade AI processors for intelligent driving and ADAS |
 | **Node Sophistication** | Not disclosed |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 02 Sep 2026 (5 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**

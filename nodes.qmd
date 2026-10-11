@@ -2,6 +2,7 @@
 title: "Technology Nodes"
 subtitle: "China's process-node trajectory under export controls"
 date: last-modified
+description: "China's process-node trajectory under export controls — every tracked facility, from 180nm legacy to N+1/N+2 leading-edge attempts."
 ---
 
 ```{r setup, include=FALSE}

@@ -1,7 +1,15 @@
 ---
-title: "Worlds (Chongqing) Semiconductor"
+title: "Worlds (Chongqing) Semiconductor · 重庆万国半导体科技有限公司"
 subtitle: "Worlds (Chongqing) Semiconductor Technology Co., Ltd. | Fab"
+description: "The AOS–Chongqing JV (registered April 2016; AOS reported initial capitalisation of $330M and total capitalisation of $379M by November 2019, split 51% AOS…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-worlds-chongqing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-worlds-chongqing.png"
 ---
 
 ::: {.callout-tip}

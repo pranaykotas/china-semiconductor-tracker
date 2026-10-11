@@ -1,7 +1,15 @@
 ---
-title: "Hua Hong Wuxi Phase 3"
+title: "Hua Hong Wuxi Phase 3 · 华虹无锡三期"
 subtitle: "Hua Hong Semiconductor | Fab"
+description: "Tracked separately from `huahong-wuxi-fab9` (Fab9/Phase II, now operational) because this third phase (Fab 9B) is a distinct, separately-announced US$6.95 …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-wuxi-phase3.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-wuxi-phase3.png"
 ---
 
 ::: {.callout-tip}

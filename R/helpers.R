@@ -7,6 +7,68 @@ library(htmltools)
 
 `%||%` <- function(a, b) if (!is.null(a)) a else b
 
+# ---- Newest source date in an entry's sources[] list (NA when unlisted) ----
+max_source_date <- function(sources) {
+  if (is.null(sources) || length(sources) == 0) return(as.Date(NA))
+  ds <- suppressWarnings(as.Date(vapply(sources, function(s) as.character(s$date %||% ""), character(1))))
+  suppressWarnings(max(ds, na.rm = TRUE))
+}
+
+# ---- First sentence of the narrative, safe as an og:description meta tag ----
+social_description <- function(text, max_chars = 155) {
+  if (is.na(text) || nchar(text) == 0) return("Part of the China Semiconductor Tracker.")
+  sentences <- strsplit(text, "(?<=[.!?])\\s", perl = TRUE)[[1]]
+  sentence <- trimws(sentences[1])
+  if (nchar(sentence) > max_chars) sentence <- paste0(substr(sentence, 1, max_chars), "…")
+  gsub('["\u201c\u201d]', "", sentence)  # quotes would break the YAML meta string
+}
+
+# ---- Normalise a raw entity_list$list string to a short dashboard label ----
+designation_label <- function(list_raw) {
+  if (is.na(list_raw)) return("US designation")
+  if (grepl("1260H", list_raw, ignore.case = TRUE)) return("DoD 1260H")
+  if (grepl("Footnote 4", list_raw, ignore.case = TRUE)) return("Entity List · FN4")
+  "Entity List (BIS)"
+}
+
+# ---- All US-designated entities across the three data files ----
+load_designations <- function(fac_path = "data/facilities.yml", des_path = "data/design.yml", mat_path = "data/materials.yml") {
+  rows <- list()
+  fac <- yaml::read_yaml(fac_path)$facilities
+  for (f in fac) {
+    el <- f$entity_list
+    if (isTRUE(el$status)) rows[[length(rows)+1]] <- tibble(
+      id = f$id, name = f$name_en, kind = "Facility",
+      sub = f$type, place = paste(f$location$city, f$location$province),
+      date = as.Date(el$date_added %||% NA), list_raw = el$list %||% NA_character_,
+      page = paste0("facilities/", f$id, ".html")
+    )
+  }
+  des <- yaml::read_yaml(des_path)$design_firms
+  for (f in des) {
+    el <- f$entity_list
+    if (isTRUE(el$status)) rows[[length(rows)+1]] <- tibble(
+      id = f$id, name = f$name_en, kind = "Design firm",
+      sub = f$category, place = paste(f$location$city, f$location$province),
+      date = as.Date(el$date_added %||% NA), list_raw = el$list %||% NA_character_,
+      page = paste0("design-firms/", f$id, ".html")
+    )
+  }
+  mat <- yaml::read_yaml(mat_path)$materials_firms
+  for (f in mat) {
+    el <- f$entity_list
+    if (isTRUE(el$status)) rows[[length(rows)+1]] <- tibble(
+      id = f$id, name = f$name_en, kind = "Equipment & materials",
+      sub = f$segment, place = f$hq$city,
+      date = as.Date(el$date_added %||% NA), list_raw = el$list %||% NA_character_,
+      page = paste0("equipment-firms/", f$id, ".html")
+    )
+  }
+  bind_rows(rows) %>%
+    mutate(designation = sapply(list_raw, designation_label)) %>%
+    arrange(date)
+}
+
 # ---- Stop hard on a duplicate id within one entity file. A duplicate id
 # would make its generator overwrite one entry's generated profile page
 # with another's, silently. Called by every loader before building rows. ----
@@ -378,6 +440,8 @@ load_design_firms <- function(path = "data/design.yml") {
       entity_list_name  = f$entity_list$list %||% NA_character_,
       significance      = f$narrative$significance %||% "",
       what_it_designs   = f$narrative$what_it_designs %||% "",
+      latest_source_date = max_source_date(f$sources),
+      n_sources         = length(f$sources %||% list()),
       score_dim1 = f$design_score$ip_ownership %||% NA_real_,
       score_dim2 = f$design_score$design_completeness %||% NA_real_,
       score_dim3 = f$design_score$domain_difficulty %||% NA_real_,

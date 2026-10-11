@@ -1,7 +1,15 @@
 ---
-title: "ACM Research (Shanghai)"
+title: "ACM Research (Shanghai) · 盛美半导体设备（上海）股份有限公司"
 subtitle: "Cleaning, Deposition (PECVD), ECP"
+description: "China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action tha…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-acm-research.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-acm-research.png"
 ---
 
 **Chinese name:** 盛美半导体设备（上海）股份有限公司 (Shèngměi Bàndǎotǐ Shèbèi (Shànghǎi) Gǔfèn Yǒuxiàn Gōngsī)

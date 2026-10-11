@@ -4,9 +4,14 @@ project:
   render:
     - "*.qmd"
     - "!CLAUDE.md"
-  # CSV/JSON downloads written by R/export_data.R
+  # CSV/JSON downloads written by R/export_data.R; social cards are built by
+  # R/generate_social_cards.R and must ship to _site for og:image URLs to
+  # resolve (absolute-URL references do not trigger Quarto's asset copying).
   resources:
     - "downloads/*"
+    - "images/og-image.png"
+    - "images/cards/*"
+    - "images/favicon.svg"
 
 website:
   title: "China Semiconductor Tracker"
@@ -30,6 +35,8 @@ website:
             href: design.qmd
           - text: "Equipment & Materials"
             href: equipment-materials.qmd
+          - text: "US Designations"
+            href: designations.qmd
           - text: "What Changed"
             href: changes.qmd
       - text: "Policy & Budget"
@@ -62,3 +69,11 @@ format:
     toc-depth: 2
     mainfont: "Inter"
     monofont: "Roboto Mono"
+    # Site-level social card; profile-page front matter overrides the image
+    # with its entity-specific card.
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/og-image.png"
+      site-name: "China Semiconductor Tracker"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/og-image.png"

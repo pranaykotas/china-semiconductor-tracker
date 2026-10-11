@@ -1,7 +1,15 @@
 ---
-title: "Novosense Semiconductor"
+title: "Novosense Semiconductor · 苏州纳芯微电子股份有限公司"
 subtitle: "Fabless"
+description: "China's most credible challenger to ADI/TI in automotive/energy infrastructure analog, where certification — not lithography — is the moat."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-novosense.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-novosense.png"
 ---
 
 **Chinese name:** 苏州纳芯微电子股份有限公司 (Nàxīnwēi)
@@ -25,6 +33,7 @@ Sensor signal conditioning, isolation/interface, gate drivers and power-path pro
 | **Product Focus** | Automotive and industrial analog: sensor signal-chain ASICs, magnetic/pressure sensors, digital isolators, gate drivers, LED/motor drivers |
 | **Node Sophistication** | Specialty analog nodes undisclosed; flagship metrics: <1µV-referred sensor ASICs, AEC-Q100/Q103 parts, ASIL-D safety chain, 4,200+ SKUs |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 28 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**

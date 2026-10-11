@@ -1,7 +1,15 @@
 ---
-title: "Silan Microelectronics Xiamen Cluster (Jike/Mingjia)"
+title: "Silan Microelectronics Xiamen Cluster (Jike/Mingjia) · 厦门士兰集科微电子有限公司 / 厦门士兰明镓化合物半导体有限公司"
 subtitle: "Hangzhou Silan Microelectronics Co., Ltd. (600460.SH) | Fab"
+description: "The Xiamen campus of Silan — China's flagship private power-semi IDM — stacks a 12-inch silicon power fab (¥7 billion first line, in production since Decem…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-silan-xiamen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-silan-xiamen.png"
 ---
 
 ::: {.callout-tip}

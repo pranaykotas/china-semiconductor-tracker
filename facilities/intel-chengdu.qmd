@@ -1,7 +1,15 @@
 ---
-title: "Intel Chengdu"
+title: "Intel Chengdu · 英特尔产品（成都）有限公司"
 subtitle: "Intel Corporation | Assembly & Packaging"
+description: "Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-intel-chengdu.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-intel-chengdu.png"
 ---
 
 ::: {.callout-tip}

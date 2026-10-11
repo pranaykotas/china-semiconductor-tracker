@@ -1,7 +1,15 @@
 ---
-title: "SMIC South (SPCL) Shanghai — Zhangjiang SN1/SN2"
+title: "SMIC South (SPCL) Shanghai — Zhangjiang SN1/SN2 · 中芯南方集成电路制造有限公司"
 subtitle: "SMIC | Fab"
+description: "The facility this tracker's own About page flagged as its highest-priority missing entry: SMIC's primary advanced-node fab in Zhangjiang — the JV (establis…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-spcl-shanghai.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-spcl-shanghai.png"
 ---
 
 ::: {.callout-tip}

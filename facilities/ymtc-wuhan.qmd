@@ -1,7 +1,15 @@
 ---
-title: "YMTC Wuhan"
+title: "YMTC Wuhan · 长江存储"
 subtitle: "Yangtze Memory Technologies Co. (YMTC) | Memory"
+description: "China's only advanced 3D NAND producer at national/global scale — founded by Tsinghua Unigroup with $24B in state-linked investment, YMTC reached 128-layer…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-ymtc-wuhan.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-ymtc-wuhan.png"
 ---
 
 ::: {.callout-tip}

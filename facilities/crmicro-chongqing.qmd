@@ -1,7 +1,15 @@
 ---
-title: "CR Micro Chongqing (Runxi 12-inch Power Line)"
+title: "CR Micro Chongqing (Runxi 12-inch Power Line) · 润西微电子（重庆）有限公司"
 subtitle: "CR Microelectronics Ltd. (STAR: 688396) | Fab"
+description: "Reported as China's first domestic automotive-grade 12-inch power-semiconductor fab, from China Resources' CR Micro — the country's largest IDM power-semi …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-crmicro-chongqing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-crmicro-chongqing.png"
 ---
 
 ::: {.callout-tip}

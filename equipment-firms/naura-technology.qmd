@@ -1,7 +1,15 @@
 ---
-title: "Naura Technology"
+title: "Naura Technology · 北方华创"
 subtitle: "Etch, Deposition, CMP"
+description: "China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-naura-technology.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-naura-technology.png"
 ---
 
 **Chinese name:** 北方华创 (Běifāng Huáchuàng)

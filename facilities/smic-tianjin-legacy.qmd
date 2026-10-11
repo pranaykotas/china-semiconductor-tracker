@@ -1,7 +1,15 @@
 ---
-title: "SMIC Tianjin (former Motorola 8-inch)"
+title: "SMIC Tianjin (former Motorola 8-inch) · 中芯国际集成电路制造（天津）有限公司"
 subtitle: "SMIC | Fab"
+description: "SMIC acquired Motorola's Tianjin fab in 2003 (entity registered 3 November 2003) — one of the earliest foreign fab assets absorbed into China's domestic fo…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-tianjin-legacy.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-tianjin-legacy.png"
 ---
 
 ::: {.callout-tip}

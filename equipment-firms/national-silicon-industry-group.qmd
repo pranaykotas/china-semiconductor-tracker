@@ -1,7 +1,15 @@
 ---
-title: "National Silicon Industry Group (NSIG)"
+title: "National Silicon Industry Group (NSIG) · 沪硅产业集团股份有限公司"
 subtitle: "Wafers"
+description: "China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment in 2024 to expand 300m…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-national-silicon-industry-group.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-national-silicon-industry-group.png"
 ---
 
 **Chinese name:** 沪硅产业集团股份有限公司 (Hù Guī Chǎnyè Jítuán Gǔfèn Yǒuxiàn Gōngsī)

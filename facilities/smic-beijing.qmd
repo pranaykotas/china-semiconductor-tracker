@@ -1,7 +1,15 @@
 ---
-title: "SMIC Beijing (Jingcheng)"
+title: "SMIC Beijing (Jingcheng) · 中芯京城"
 subtitle: "SMIC | Fab"
+description: "SMIC's Beijing expansion JV (中芯京城, 54.04% SMIC-owned), targeting 100,000 wafers/month of 12-inch, 28nm-and-above capacity in the Beijing Economic-Technolog…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-beijing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-beijing.png"
 ---
 
 ::: {.callout-tip}

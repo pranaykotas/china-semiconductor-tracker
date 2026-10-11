@@ -1,7 +1,15 @@
 ---
-title: "Hua Hong Wuxi (Fab 7, 12-inch specialty)"
+title: "Hua Hong Wuxi (Fab 7, 12-inch specialty) · 华虹半导体（无锡）有限公司"
 subtitle: "Hua Hong Semiconductor | Fab"
+description: "Hua Hong's FIRST Wuxi 12-inch fab — the line that broke ground 2 March 2018 and took its first wafers 17 September 2019 — which this tracker had missed ent…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-wuxi-fab7.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-wuxi-fab7.png"
 ---
 
 ::: {.callout-tip}

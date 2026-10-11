@@ -1,7 +1,15 @@
 ---
-title: "SK Hynix Dalian (former Intel fab)"
+title: "SK Hynix Dalian (former Intel fab) · SK海力士半导体（大连）有限公司"
 subtitle: "SK Hynix | Memory"
+description: "Originally built and operated by Intel as its only fab in China, producing NAND flash — Intel agreed in 2020-2021 to sell its NAND/SSD business, including …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sk-hynix-dalian.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sk-hynix-dalian.png"
 ---
 
 ::: {.callout-tip}

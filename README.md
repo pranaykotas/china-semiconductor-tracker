@@ -30,7 +30,7 @@ The result is not a forecast or an argument — it is a base layer of facts that
 - **Capability & node trajectory** — wafer size, process nodes, product focus
 - **Investment** in ¥亿 (RMB 100M) and/or USD as disclosed, with the lead funder named
 - **Capacity** (wafers/month) and a **last-verified** date, where recorded
-- **US designations** where applicable — Commerce/BIS Entity List vs DoD Section 1260H, kept distinct
+- **US designations** where applicable — Commerce/BIS Entity List vs DoD Section 1260H, kept distinct, and consolidated on a sortable [US Designations register](https://fabs-china.pranaykotas.com/designations.html)
 - **48 chip design firms** — fabless vendors, state-backed design houses, and EDA/IP providers — with earnings, listing progress, and Entity List status verified against filings
 - **Equipment & materials chokepoint firms** — lithography, etch, deposition, CMP, wafers, gases, photoresist
 - **Milestones and sources for every entry** — Chinese-language industry coverage (集微网, 财联社, 芯智讯, 电子工程专辑, 交易所 filings) alongside international outlets

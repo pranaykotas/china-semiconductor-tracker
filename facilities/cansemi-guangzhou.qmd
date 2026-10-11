@@ -1,7 +1,15 @@
 ---
-title: "CanSemi (Guangzhou)"
+title: "CanSemi (Guangzhou) · 粤芯半导体技术股份有限公司"
 subtitle: "CanSemi Technology Inc. | Fab"
+description: "Guangdong province's first and only scaled 12-inch wafer fab — the province that consumes an estimated ~40% of China's chips had no domestic 12-inch mass p…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-cansemi-guangzhou.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-cansemi-guangzhou.png"
 ---
 
 ::: {.callout-tip}

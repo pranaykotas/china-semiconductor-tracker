@@ -10,10 +10,21 @@ raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
 if (!dir.exists("facilities")) dir.create("facilities")
 remove_orphan_pages("facilities", facilities$id)
 
+SITE_URL <- "https://fabs-china.pranaykotas.com"
+yaml_safe <- function(s) gsub('"', "", s)
+
 template <- '---
-title: "{name_en}"
+title: "{title}"
 subtitle: "{company_en} | {type}"
+description: "{description}"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "{image}"
+    twitter-card:
+      card: summary_large_image
+      image: "{image}"
 ---
 
 ::: {{.callout-tip}}
@@ -155,7 +166,12 @@ for (i in 1:nrow(facilities)) {
   what_it_makes <- if (nchar(f$what_it_makes) > 0) f$what_it_makes else "*Details coming soon.*"
   why_it_matters <- if (nchar(f$why_it_matters) > 0) f$why_it_matters else "*Details coming soon.*"
 
+  title <- if (!is.na(f$name_zh) && nchar(f$name_zh) > 0) paste0(f$name_en, " · ", f$name_zh) else f$name_en
+
   page_content <- glue(template,
+    title = yaml_safe(title),
+    description = yaml_safe(social_description(f$significance)),
+    image = paste0(SITE_URL, "/images/cards/facility-", f$id, ".png"),
     name_en = f$name_en, company_en = f$company_en, type = f$type, category = f$category,
     zh_name_block = zh_name_block, capability = f$capability, status = f$status,
     investment_text = investment_text, investment_source = f$investment_source,

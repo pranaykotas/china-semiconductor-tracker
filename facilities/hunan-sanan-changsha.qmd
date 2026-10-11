@@ -1,7 +1,15 @@
 ---
-title: "Hunan Sanan Semiconductor (Changsha SiC IDM)"
+title: "Hunan Sanan Semiconductor (Changsha SiC IDM) · 湖南三安半导体有限责任公司"
 subtitle: "Sanan Optoelectronics Co., Ltd. (600703.SH) | Compound Semiconductor"
+description: "China's first vertically integrated SiC production chain (first line lit June 2021) and the country's largest self-contained SiC IDM platform, at ¥16 billi…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hunan-sanan-changsha.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hunan-sanan-changsha.png"
 ---
 
 ::: {.callout-tip}

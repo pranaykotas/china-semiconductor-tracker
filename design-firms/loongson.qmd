@@ -1,7 +1,15 @@
 ---
-title: "Loongson Technology"
+title: "Loongson Technology · 龙芯中科技术股份有限公司"
 subtitle: "State-Backed Design House"
+description: "Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in t…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-loongson.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-loongson.png"
 ---
 
 **Chinese name:** 龙芯中科技术股份有限公司 (Lóngxīn Zhōngkē Jìshù Gǔfèn Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ General-purpose CPUs (the Loongson 3-series and successors) built on the self-de
 | **Product Focus** | General-purpose CPUs for government, industrial, and (increasingly) consumer use |
 | **Node Sophistication** | Not confirmed at leading-edge nodes; primarily mature-node CPU production |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Newest source dated 28 Sep 2026 (4 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**

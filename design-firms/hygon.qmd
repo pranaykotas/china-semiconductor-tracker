@@ -1,7 +1,15 @@
 ---
-title: "Hygon Information Technology"
+title: "Hygon Information Technology · 海光信息技术股份有限公司"
 subtitle: "State-Backed Design House"
+description: "China's only scaled x86 CPU + GPGPU dual-track design house and the anchor of 信创 server supply: FY2025 revenue ¥143.77亿 (+56.9%, net ¥25.45亿); the formal H…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-hygon.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-hygon.png"
 ---
 
 **Chinese name:** 海光信息技术股份有限公司 (Hǎiguāng Xìnxī)
@@ -25,6 +33,7 @@ Server/desktop CPUs, AI accelerator DCUs, HSL interconnect bus, and the DTK CUDA
 | **Product Focus** | x86-licensed server/desktop CPUs (C86 3000/5000/7000) + DCU GPGPUs (8000 series, DeepSeek-compatible DTK stack) |
 | **Node Sophistication** | GF 14nm-class licensed lineage; 深算三号 DCU entering domestic first tier ('Hopper-class' claim not officially made — not verified) |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Newest source dated 14 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**

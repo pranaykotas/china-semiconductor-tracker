@@ -1,7 +1,15 @@
 ---
-title: "Yandong Micro / Beidian Integration (Beijing Yizhuang)"
+title: "Yandong Micro / Beidian Integration (Beijing Yizhuang) · 北京燕东微电子股份有限公司 / 北京电控集成电路制造有限公司"
 subtitle: "Beijing Yandong Microelectronics (STAR: 688172) | Fab"
+description: "Beijing's flagship effort (under the '芯屏' strategy, pairing with BOE display demand) to backfill its weak manufacturing base: the Yandong listed company ru…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-yandong-beijing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-yandong-beijing.png"
 ---
 
 ::: {.callout-tip}

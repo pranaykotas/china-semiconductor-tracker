@@ -1,7 +1,15 @@
 ---
-title: "Samsung Xi'an"
+title: "Samsung Xi'an · 三星（中国）半导体有限公司"
 subtitle: "Samsung Electronics | Memory"
+description: "Samsung's largest NAND flash site outside South Korea and a major share of its total NAND output (domestic Korean reporting put it around 40%) — the single…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-samsung-xian.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-samsung-xian.png"
 ---
 
 ::: {.callout-tip}

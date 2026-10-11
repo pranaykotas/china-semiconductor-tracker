@@ -1,7 +1,15 @@
 ---
-title: "Sanan IC (Xiamen / Quanzhou compound fabs)"
+title: "Sanan IC (Xiamen / Quanzhou compound fabs) · 厦门市三安集成电路有限公司 / 泉州市三安集成电路有限公司"
 subtitle: "Sanan IC (Sanan Optoelectronics foundry arm) | Compound Semiconductor"
+description: "The foundry arm of Sanan Optoelectronics (separate from the Changsha SiC IDM and the Jinan ST JV this tracker already carries) — 三安集成's Xiamen 6-inch line …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sanan-ic-xiamen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sanan-ic-xiamen.png"
 ---
 
 ::: {.callout-tip}

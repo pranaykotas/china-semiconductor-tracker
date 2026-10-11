@@ -1,7 +1,15 @@
 ---
-title: "SMIC Shanghai (Zhangjiang S1, 200mm)"
+title: "SMIC Shanghai (Zhangjiang S1, 200mm) · 中芯国际集成电路制造（上海）有限公司"
 subtitle: "SMIC | Fab"
+description: "SMIC's founding fab (entity registered 21 December 2000, 张江路18号) — the 8-inch campus the tracker's SMIC coverage omitted while following the new mega-JVs."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-zhangjiang-s1.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-zhangjiang-s1.png"
 ---
 
 ::: {.callout-tip}

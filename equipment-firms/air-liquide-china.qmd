@@ -1,7 +1,15 @@
 ---
-title: "Air Liquide China (Electronics)"
+title: "Air Liquide China (Electronics) · 液化空气（中国）投资有限公司"
 subtitle: "Specialty Gas"
+description: "A foreign (French-headquartered) industrial gas major with one of the largest confirmed manufacturing footprints of any multinational in China — close to 9…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-air-liquide-china.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-air-liquide-china.png"
 ---
 
 **Chinese name:** 液化空气（中国）投资有限公司 (Yèhuà Kōngqì (Zhōngguó) Tóuzī Yǒuxiàn Gōngsī)

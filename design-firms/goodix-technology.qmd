@@ -1,7 +1,15 @@
 ---
-title: "Goodix Technology"
+title: "Goodix Technology · 深圳市汇顶科技股份有限公司"
 subtitle: "Fabless"
+description: "Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-goodix-technology.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-goodix-technology.png"
 ---
 
 **Chinese name:** 深圳市汇顶科技股份有限公司 (Shēnzhèn Shì Huìdǐng Kējì Gǔfèn Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ Fingerprint sensors (ultrasonic, optical in-display, and capacitive) and touch/d
 | **Product Focus** | Fingerprint and touch sensor ICs, biometric and display-integrated sensors |
 | **Node Sophistication** | Not disclosed |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 16 Sep 2026 (4 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**

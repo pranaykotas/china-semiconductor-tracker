@@ -1,7 +1,15 @@
 ---
-title: "SMIC Beijing NORIC (B1/B2A, Yizhuang)"
+title: "SMIC Beijing NORIC (B1/B2A, Yizhuang) · 中芯国际集成电路制造（北京）有限公司 / 中芯北方集成电路制造（北京）有限公司"
 subtitle: "SMIC | Fab"
+description: "SMIC's original Beijing campus — 中芯北京 (registered July 2002, its first 12-inch site) and 中芯北方 (NORIC, established July 2013 with a $3.59 billion initial in…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-nor-beijing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-nor-beijing.png"
 ---
 
 ::: {.callout-tip}

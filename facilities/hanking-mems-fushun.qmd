@@ -1,7 +1,15 @@
 ---
-title: "Hanking MEMS (Liaoning)"
+title: "Hanking MEMS (Liaoning) · 罕王微电子（辽宁）有限公司"
 subtitle: "Hanking Microelectronics (Liaoning) Co., Ltd. | Fab"
+description: "A Wikipedia-dump survivor check: the 'Hanking Electronics, Fushun' row is real but obscure — 罕王微电子 is not the same company as Suzhou Hanking (a fabless SAW…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hanking-mems-fushun.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hanking-mems-fushun.png"
 ---
 
 ::: {.callout-tip}

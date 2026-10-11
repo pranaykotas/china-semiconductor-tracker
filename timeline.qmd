@@ -2,6 +2,7 @@
 title: "Project Timeline"
 subtitle: "Milestones and expected completion dates for China's semiconductor facilities"
 date: last-modified
+description: "Milestones and expected completion dates for China's semiconductor facilities, from announcement to line-out."
 ---
 
 ```{r setup, include=FALSE}

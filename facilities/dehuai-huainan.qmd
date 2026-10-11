@@ -1,7 +1,15 @@
 ---
-title: "Decoma/Tacoma CIS Fabs (Huai'an & Nanjing — cancelled)"
+title: "Decoma/Tacoma CIS Fabs (Huai'an & Nanjing — cancelled) · 江苏德淮半导体有限公司（前身淮安德科码）"
 subtitle: "Jiangsu Decoma Semiconductor Technology Co., Ltd. | Fab"
+description: "The two half-built CIS-fab scams of the same promoter — Huai'an (德科码 → renamed 德淮 after litigation) and Nanjing (Tacoma (Nanjing) Semiconductor 南京德科码, a 20…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-dehuai-huainan.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-dehuai-huainan.png"
 ---
 
 ::: {.callout-tip}

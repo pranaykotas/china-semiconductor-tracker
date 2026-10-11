@@ -1,7 +1,15 @@
 ---
-title: "Innosilicon Technology"
+title: "Innosilicon Technology · 芯动科技"
 subtitle: "Fabless"
+description: "China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tra…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-innosilicon.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-innosilicon.png"
 ---
 
 **Chinese name:** 芯动科技 (Xīndòng Kējì)
@@ -25,6 +33,7 @@ Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series g
 | **Product Focus** | High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services |
 | **Node Sophistication** | IP proven across advanced nodes (HBM/UCIe/224G PHY imply ≤N5-class enablement); Fenghua GPUs ≤12nm; latest node not verified |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 04 Jun 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**

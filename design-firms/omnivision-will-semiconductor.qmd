@@ -1,7 +1,15 @@
 ---
-title: "OmniVision (formerly Will Semiconductor)"
+title: "OmniVision (formerly Will Semiconductor) · 豪威集成电路（集团）股份有限公司"
 subtitle: "Fabless"
+description: "OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; the parent formally renamed itsel…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-omnivision-will-semiconductor.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-omnivision-will-semiconductor.png"
 ---
 
 **Chinese name:** 豪威集成电路（集团）股份有限公司 (Háowēi Jíchéng Diànlù (Jítuán) Gǔfèn Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ CMOS image sensors (smartphone and automotive cameras), plus analog and display 
 | **Product Focus** | CMOS image sensors, analog and display solutions |
 | **Node Sophistication** | Not disclosed |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 28 Sep 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**

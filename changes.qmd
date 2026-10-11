@@ -2,6 +2,7 @@
 title: "What Changed"
 subtitle: "Every update to the tracker's data, newest first"
 date: last-modified
+description: "Every update to the China Semiconductor Tracker's data, newest first — one entry per change, linked to its git diff."
 ---
 
 ```{r setup, include=FALSE}

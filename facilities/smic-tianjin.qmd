@@ -1,7 +1,15 @@
 ---
-title: "SMIC Tianjin (Xiqing)"
+title: "SMIC Tianjin (Xiqing) · 中芯西青"
 subtitle: "SMIC | Fab"
+description: "SMIC's fourth major mature-node fab of this expansion wave (中芯西青, 100% SMIC-owned), located in Tianjin's Xiqing Development Area."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-tianjin.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-tianjin.png"
 ---
 
 ::: {.callout-tip}

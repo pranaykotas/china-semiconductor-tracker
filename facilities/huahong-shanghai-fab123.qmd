@@ -1,7 +1,15 @@
 ---
-title: "Hua Hong Shanghai (Fab 1/2/3, 200mm)"
+title: "Hua Hong Shanghai (Fab 1/2/3, 200mm) · 上海华虹宏力半导体制造有限公司"
 subtitle: "Hua Hong Semiconductor | Fab"
+description: "Hua Hong's original Shanghai 200mm base — the three fabs the tracker missed while following the Wuxi 12-inch expansion; combined capacity ~180,000 wafers/m…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-shanghai-fab123.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-shanghai-fab123.png"
 ---
 
 ::: {.callout-tip}

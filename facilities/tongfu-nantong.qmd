@@ -1,7 +1,15 @@
 ---
-title: "Tongfu Microelectronics Nantong"
+title: "Tongfu Microelectronics Nantong · 通富微电"
 subtitle: "Tongfu Microelectronics Co., Ltd. | Assembly & Packaging"
+description: "Traces to the state-owned Nantong Transistor Factory; its largest shareholder is the state-linked Nantong Huada Microelectronics Group (18.80% as of June 2…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-tongfu-nantong.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-tongfu-nantong.png"
 ---
 
 ::: {.callout-tip}

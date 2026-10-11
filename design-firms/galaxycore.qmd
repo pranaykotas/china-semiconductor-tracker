@@ -1,7 +1,15 @@
 ---
-title: "GalaxyCore Inc."
+title: "GalaxyCore Inc. · 格科微有限公司"
 subtitle: "Fabless"
+description: "The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-galaxycore.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-galaxycore.png"
 ---
 
 **Chinese name:** 格科微有限公司 (Gékēwēi)
@@ -25,6 +33,7 @@ Smartphone/IoT automotive CIS and LCD/OLED display driver ICs, increasingly on i
 | **Product Focus** | High-volume CMOS image sensors (VGA–50MP) and display driver ICs |
 | **Node Sophistication** | GalaxyCell 2.0 BSI platform (0.61–1.0µm pixels); world-first single-chip 0.61µm 50MP CIS; first domestic 12-inch LOFIC sensor (140dB, automotive) |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 29 Sep 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**

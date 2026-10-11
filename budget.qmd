@@ -2,6 +2,7 @@
 title: "Policy & Budget"
 subtitle: "State financing and export-control exposure across China's semiconductor sector"
 date: last-modified
+description: "State financing and export-control exposure across China's semiconductor sector — Big Fund rounds, local subsidies, Entity List coverage."
 ---
 
 ```{r setup, include=FALSE}

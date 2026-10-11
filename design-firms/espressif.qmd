@@ -1,7 +1,15 @@
 ---
-title: "Espressif Systems (Shanghai)"
+title: "Espressif Systems (Shanghai) · 乐鑫信息科技（上海）股份有限公司"
 subtitle: "Fabless"
+description: "The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-espressif.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-espressif.png"
 ---
 
 **Chinese name:** 乐鑫信息科技（上海）股份有限公司 (Yuèxīn Kējì)
@@ -25,6 +33,7 @@ Wi-Fi/BLE/Thread connectivity SoCs and MCUs with self-designed RISC-V CPUs, plus
 | **Product Focus** | Wi-Fi/Bluetooth/802.15.4 connectivity SoCs — the ESP32 family (C/H/P/S lines) from entry MCU to dual-band Wi-Fi 6 (ESP32-C5) and BLE 6.0 (ESP32-H4) |
 | **Node Sophistication** | 40nm-class mainstream — deliberately mature; value is in integration and software, not geometry |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 30 Jul 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **4.8/5**

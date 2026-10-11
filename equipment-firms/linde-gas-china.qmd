@@ -1,7 +1,15 @@
 ---
-title: "Linde Gas China"
+title: "Linde Gas China · 林德气体（中国）有限公司"
 subtitle: "Specialty Gas"
+description: "A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-linde-gas-china.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-linde-gas-china.png"
 ---
 
 **Chinese name:** 林德气体（中国）有限公司 (Líndé Qìtǐ (Zhōngguó) Yǒuxiàn Gōngsī)

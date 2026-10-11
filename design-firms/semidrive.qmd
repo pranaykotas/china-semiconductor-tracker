@@ -1,7 +1,15 @@
 ---
-title: "SemiDrive Technology"
+title: "SemiDrive Technology · 南京芯驰半导体科技有限公司"
 subtitle: "Fabless"
+description: "China's most credible NXP/Renesas challenger — the only domestic firm with cockpit+gateway+ADAS SoC+ASIL-D MCU all in production — now #1 domestic cockpit-…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-semidrive.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-semidrive.png"
 ---
 
 **Chinese name:** 南京芯驰半导体科技有限公司 (Xīnchí Kējì)
@@ -25,6 +33,7 @@ Cockpit/gateway/ADAS automotive SoCs (X9/G9/V9, X10 AI-cockpit at 80 TOPS with B
 | **Product Focus** | Automotive compute across the E/E architecture: X9/X10 smart-cockpit SoCs, G9 central gateway (first ChinaSecurity-certified), V9 ADAS SoCs, E3-series ASIL-D MCUs (E3650 on 22nm) |
 | **Node Sophistication** | First 16nm automotive SoC in China; E3650 22nm in volume; X10 AI-cockpit node undisclosed |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 21 Sep 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**

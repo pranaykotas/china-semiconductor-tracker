@@ -1,7 +1,15 @@
 ---
-title: "Cambricon Technologies"
+title: "Cambricon Technologies · 寒武纪科技股份有限公司"
 subtitle: "Fabless"
+description: "Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going inde…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-cambricon.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-cambricon.png"
 ---
 
 **Chinese name:** 寒武纪科技股份有限公司 (Hánwǔjì Kējì Gǔfèn Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ AI accelerator chips spanning cloud training/inference and edge inference, posit
 | **Product Focus** | AI accelerator chips for cloud training/inference and edge devices |
 | **Node Sophistication** | Not disclosed; treated by markets as China's leading domestic alternative to Nvidia accelerators |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Newest source dated 28 Sep 2026 (6 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **4.8/5**

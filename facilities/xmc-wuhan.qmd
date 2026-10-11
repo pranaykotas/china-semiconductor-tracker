@@ -1,7 +1,15 @@
 ---
-title: "XMC Wuhan (Wuhan Xinxin)"
+title: "XMC Wuhan (Wuhan Xinxin) · 武汉新芯集成电路股份有限公司"
 subtitle: "Wuhan Xinxin Semiconductor Manufacturing Co. (XMC) | Memory"
+description: "Founded 2006 (managed early on by SMIC) as mainland's second-constructed 12-inch fab, then the seed plant from which YMTC's 3D NAND business was spun out i…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-xmc-wuhan.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-xmc-wuhan.png"
 ---
 
 ::: {.callout-tip}

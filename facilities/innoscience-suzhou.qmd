@@ -1,7 +1,15 @@
 ---
-title: "Innoscience Suzhou"
+title: "Innoscience Suzhou · 英诺赛科（苏州）科技股份有限公司"
 subtitle: "Innoscience (Suzhou) Technology Holding Co., Ltd. | Compound Semiconductor"
+description: "Missed in this tracker's earlier passes despite being the world's first company to mass-produce 8-inch silicon-based GaN wafers and, by one 2023 estimate, …"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-innoscience-suzhou.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-innoscience-suzhou.png"
 ---
 
 ::: {.callout-tip}

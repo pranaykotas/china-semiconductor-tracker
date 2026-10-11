@@ -1,7 +1,15 @@
 ---
-title: "GlobalFoundries Chengdu (cancelled)"
+title: "GlobalFoundries Chengdu (cancelled) · 格芯（成都）集成电路制造有限公司（未建成）"
 subtitle: "GlobalFoundries | Fab"
+description: "The $10 billion fab that started China's 12-inch era paper boom and ended it: GF halted funding Oct 2018 amid its own IPO delay; the government-built shell…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-gf-chengdu.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-gf-chengdu.png"
 ---
 
 ::: {.callout-tip}

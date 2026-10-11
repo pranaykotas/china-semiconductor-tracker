@@ -1,7 +1,15 @@
 ---
-title: "Hejian Chip Manufacturing Suzhou (UMC 8N)"
+title: "Hejian Chip Manufacturing Suzhou (UMC 8N) · 和舰芯片制造（苏州）股份有限公司"
 subtitle: "Hejian Technology (Suzhou) Co., Ltd. | Fab"
+description: "UMC's mainland 200mm fab (Fab 8N) — established 2001-11, production since May 2003, controlled by UMC since March 2013; a rare Taiwan-controlled fab operat…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hejian-suzhou.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hejian-suzhou.png"
 ---
 
 ::: {.callout-tip}

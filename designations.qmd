@@ -1,0 +1,79 @@
+---
+title: "US Designations"
+subtitle: "Every tracked Chinese semiconductor entity under US export-control designations"
+description: "Sortable table of all facilities, design firms, and equipment/materials firms on the Commerce/BIS Entity List or DoD Section 1260H list, with dates and sources."
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+source("R/helpers.R")
+library(DT)
+
+desig <- load_designations()
+n_entity  <- sum(desig$kind == "Facility")
+n_design  <- sum(desig$kind == "Design firm")
+n_mat     <- sum(desig$kind == "Equipment & materials")
+n_fn4     <- sum(grepl("FN4", desig$designation))
+n_1260h   <- sum(desig$designation == "DoD 1260H")
+```
+
+## Why this page exists
+
+"Entity List" and "Chinese Military Companies list" are used interchangeably in
+public debate, but they are **legally distinct instruments with distinct
+consequences**:
+
+- **Entity List (Commerce/BIS)** — an export-control denial order. US and many
+  non-US suppliers need BIS licences (presumed deniable) to sell items subject
+  to the EAR to the listed party. This is the list that stops a fab from buying
+  lithography. Entries marked **FN4** additionally carry Footnote 4: the Foreign
+  Direct Product Rule reaches *foreign-made* chips designed for the listed
+  firm — the tool that caught SMIC's 7nm effort and the two GPU startups.
+- **Section 1260H (Defense/DoD)** — a transparency designation of
+  "Chinese military companies." It bans DoD procurement contracts and channels
+  reputational pressure, but it does **not** by itself restrict trade in chips
+  or tools. Firms can sit on one list, the other, or both; this tracker records
+  which, exactly, for each entry.
+
+This page lists every designated entity in the tracker, kept distinct, so the
+difference between *blocked from buying tools* and *named as a military company*
+never gets lost in a headline. A "no designation" entry in the trackers is not
+a claim that the firm is clean — only that no designation is currently on
+record.
+
+## The register
+
+```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+table_data <- desig %>%
+  mutate(
+    Name = paste0('<a href="', page, '">', name, '</a>'),
+    Designation = paste0('<span class="status-badge ',
+      ifelse(designation == "DoD 1260H", "badge-construction",
+        ifelse(designation == "Entity List · FN4", "badge-cancelled", "badge-approved")),
+      '">', designation, '</span>'),
+    Added = format(date, "%d %b %Y"),
+    Detail = gsub("US Commerce BIS", "BIS", gsub("US DoD ", "", list_raw))
+  ) %>%
+  select(Name, Designation, Added, Kind = kind, Sector = sub, Location = place, Detail)
+
+datatable(
+  table_data,
+  escape = FALSE,
+  filter = "top",
+  options = list(
+    pageLength = 25, dom = "ftip", scrollX = TRUE,
+    order = list(list(2, "desc")),
+    columnDefs = list(list(className = "dt-right", targets = 2))
+  ),
+  rownames = FALSE
+)
+```
+
+**`r nrow(desig)`** entities are designated: **`r n_entity`** facilities, **`r n_design`** design firms, **`r n_mat`** equipment/materials firms — including **`r n_fn4`** Footnote-4 (FDPR) entries and **`r n_1260h`** on the DoD 1260H list. Dates are the designation date on record in the tracker's data; the underlying citations sit on each entity's profile page.
+
+::: {.callout-note}
+## How to read the FN4 column value
+Footnote 4 attaches to an entity, but its bite falls on whoever *manufactures
+for* that entity — which is why SMIC itself sits on the plain Entity List while
+Biren and Moore Threads, the designers it cannot openly serve, carry FN4.
+:::

@@ -1,7 +1,15 @@
 ---
-title: "TCL Zhonghuan — Shenzhen Semiconductor Wafer Project"
+title: "TCL Zhonghuan — Shenzhen Semiconductor Wafer Project · 深圳中环领先半导体材料有限公司"
 subtitle: "Wafers"
+description: "TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer company — the world's largest by shipment volume (190GW capacity, 125.8GW shipped i…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-tcl-zhonghuan-shenzhen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/material-tcl-zhonghuan-shenzhen.png"
 ---
 
 **Chinese name:** 深圳中环领先半导体材料有限公司 (Shēnzhèn Zhōnghuán Lǐngxiān Bàndǎotǐ Cáiliào Yǒuxiàn Gōngsī)

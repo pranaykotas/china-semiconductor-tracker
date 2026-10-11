@@ -1,7 +1,15 @@
 ---
-title: "HSMC Wuhan (Hongxin Semiconductor — cancelled)"
+title: "HSMC Wuhan (Hongxin Semiconductor — cancelled) · 武汉弘芯半导体制造有限公司"
 subtitle: "Wuhan Hongxin Semiconductor Manufacturing Co. (HSMC) | Fab"
+description: "The emblematic China fab-boom failure and this tracker's first explicit Cancelled entry (the schema always had the status): a 90%-shell-owned '128-billion-…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hsmc-wuhan.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-hsmc-wuhan.png"
 ---
 
 ::: {.callout-tip}

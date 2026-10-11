@@ -1,7 +1,15 @@
 ---
-title: "Nexchip Hefei Phase 4"
+title: "Nexchip Hefei Phase 4 · 晶合集成四期"
 subtitle: "Nexchip Semiconductor Corporation | Fab"
+description: "Tracked separately from the main `nexchip-hefei` entry (which covers existing operational capacity) because this fourth phase is a distinct, large, separat…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-nexchip-phase4.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-nexchip-phase4.png"
 ---
 
 ::: {.callout-tip}

@@ -1,7 +1,15 @@
 ---
-title: "Hua Hong Wuxi (Fab9, Phase II)"
+title: "Hua Hong Wuxi (Fab9, Phase II) · 华虹无锡二期（Fab 9）"
 subtitle: "Hua Hong Semiconductor | Fab"
+description: "Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund-backed deal since the October 2022 US export control tightening — $4.02B n…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-wuxi-fab9.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-huahong-wuxi-fab9.png"
 ---
 
 ::: {.callout-tip}

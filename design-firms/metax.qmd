@@ -1,7 +1,15 @@
 ---
-title: "MetaX Integrated Circuits"
+title: "MetaX Integrated Circuits · 沐曦集成电路（上海）股份有限公司"
 subtitle: "Fabless"
+description: "The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the G…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-metax.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-metax.png"
 ---
 
 **Chinese name:** 沐曦集成电路（上海）股份有限公司 (Mùxī)
@@ -25,6 +33,7 @@ Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI softwa
 | **Product Focus** | Full-stack GPGPU: 曦云C training/inference (C500/C600, C700 in dev), 曦思N inference, 曦索X scientific compute, 曦彩G graphics |
 | **Node Sophistication** | C500 N7-equivalent + HBM2e; C600 domestic advanced node + HBM; C700 targeting ~H100-level (per company statements relayed by 21经济, exact node undisclosed) |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 26 Mar 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**

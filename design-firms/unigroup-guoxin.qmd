@@ -1,7 +1,15 @@
 ---
-title: "Unigroup Guoxin Microelectronics"
+title: "Unigroup Guoxin Microelectronics · 紫光国芯微电子股份有限公司"
 subtitle: "State-Backed Design House"
+description: "China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-unigroup-guoxin.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-unigroup-guoxin.png"
 ---
 
 **Chinese name:** 紫光国芯微电子股份有限公司 (Zǐguāng Guówēi)
@@ -25,6 +33,7 @@ Radiation/aerospace-tolerant CPUs/FPGA/memory/analog, eSIM and secure-element ch
 | **Product Focus** | Specialty (mil/aerospace-grade) ICs — >60% domestic share in special FPGA, 800+ part numbers; smart- security chips (eSIM/SIM global leader, car security); quartz devices |
 | **Node Sophistication** | Aerospace-grade qualification over geometry; 宇航用FPGA family + specialty HBM in customer test (2025); AI video chip completed |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 12 Sep 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**

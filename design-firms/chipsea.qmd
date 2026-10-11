@@ -1,7 +1,15 @@
 ---
-title: "Chipsea Technologies (Shenzhen)"
+title: "Chipsea Technologies (Shenzhen) · 芯海科技（深圳）股份有限公司"
 subtitle: "Fabless"
+description: "The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-P…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-chipsea.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-chipsea.png"
 ---
 
 **Chinese name:** 芯海科技（深圳）股份有限公司 (Xīnhǎi Kējī)
@@ -25,6 +33,7 @@ High-precision ADC/AFE, health-sensing and haptic SoCs, PC embedded controllers 
 | **Product Focus** | Precision ADC/AFE + MCU platform: health-sensing SoCs (BIA/PPG), force-touch HMI SoCs, PC embedded controllers (EC/SuperIO/PD, Thunderbolt), BMS, HarmonyOS ecosystem chips |
 | **Node Sophistication** | Mature mixed-signal (55/40nm-class typical, undisclosed); 24-bit ADC measuring ~21nV |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 02 Sep 2026 (3 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**

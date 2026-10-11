@@ -1,7 +1,15 @@
 ---
-title: "SiEn Qingdao"
+title: "SiEn Qingdao · 芯恩（青岛）集成电路"
 subtitle: "SiEn (Qingdao) Integrated Circuit Co., Ltd. | Fab"
+description: "China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sien-qingdao.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sien-qingdao.png"
 ---
 
 ::: {.callout-tip}

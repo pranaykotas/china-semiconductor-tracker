@@ -1,5 +1,6 @@
 ---
 title: "About This Tracker"
+description: "How the China Semiconductor Tracker sources, verifies and corrects its data — methodology, units, freshness policy and known gaps."
 ---
 
 ```{r setup, include=FALSE}
@@ -39,15 +40,62 @@ Abandoned projects such as Wuhan Hongxin (HSMC), Dehuai/Tacoma, and GlobalFoundr
 
 ## Freshness
 
-Each facility profile shows a **Last Verified** date where one has been recorded. Where it has not, the profile shows the date of the newest cited source instead, labelled as such. The [What Changed](changes.qmd) page lists every data update in date order.
+Every entry on this site carries a data-age signal, and the aggregate is shown
+honestly below. Each facility and materials profile shows a **Last Verified**
+date where one has been recorded; where it has not, the profile shows the date
+of the newest cited source instead, labelled as such. Design-firm profiles show
+the newest cited source date (no explicit verification dates are recorded for
+them yet). The [What Changed](changes.qmd) page lists every data update in date
+order, and a fortnightly automated sweep flags drift between manual review
+passes.
+
+```{r freshness, echo=FALSE, warning=FALSE, message=FALSE}
+age_rows <- function(path, key, page_dir, label) {
+  entries <- yaml::read_yaml(path)[[key]]
+  tibble(
+    name = vapply(entries, function(e) e$name_en %||% "", character(1)),
+    age = vapply(entries, function(e) {
+      d <- max_source_date(e$sources)
+      if (is.na(d)) 9999L else as.integer(difftime(Sys.Date(), d, units = "days"))
+    }, integer(1)),
+    page = paste0(page_dir, "/", vapply(entries, function(e) e$id %||% "", character(1)), ".html"),
+    kind = label
+  )
+}
+ages <- bind_rows(
+  age_rows("data/facilities.yml", "facilities", "facilities", "Facility"),
+  age_rows("data/design.yml", "design_firms", "design-firms", "Design firm"),
+  age_rows("data/materials.yml", "materials_firms", "equipment-firms", "Equipment & materials")
+)
+ages <- ages %>% mutate(age = ifelse(is.na(age), 9999L, as.integer(age)))
+buckets <- cut(ages$age, breaks = c(-1, 30, 90, 180, 365, Inf),
+               labels = c("≤ 30 days", "31–90 days", "91–180 days", "181–365 days", "over 1 year / no dated source"))
+```
+
+| Data age (days since newest cited source) | Entries |
+|---|---|
+```{r buckets, echo=FALSE, results='asis'}
+tb <- sort(table(buckets))
+for (i in seq_along(tb)) cat("|", names(tb)[i], "|", tb[i], "|\n")
+```
+
+Stalest entries — the first candidates for the next sweep:
+
+```{r stale, echo=FALSE, results='asis'}
+stale <- ages %>% arrange(desc(age)) %>% slice_head(n = 8)
+for (j in seq_len(nrow(stale))) {
+  lab <- if (stale$age[j] >= 9999) "no dated source" else paste0(stale$age[j], " days")
+  cat("-", paste0("[", stale$name[j], "](", stale$page[j], ")"), "·", stale$kind[j], "·", lab, "\n")
+}
+```
+
+## Export-Control Designations
+
+Two distinct US designations appear on this site where relevant: the Commerce Department's Bureau of Industry and Security (BIS) **Entity List**, which restricts exports of controlled items, and the Department of Defense's **Section 1260H list** of Chinese military-linked companies, a disclosure designation with different legal consequences. Each flagged entry names which list applies. All designated entities across facilities, design firms, and equipment/materials firms are consolidated on the [US Designations](designations.qmd) register.
 
 ## Technical Complexity Index
 
 Each facility is scored 1 (low) to 5 (high), benchmarked against a cutting-edge 3nm fab (5/5): composite = Technology Difficulty (55%) + Capital Intensity (45%).
-
-## Export-Control Designations
-
-Two distinct US designations appear on this site where relevant: the Commerce Department's Bureau of Industry and Security (BIS) **Entity List**, which restricts exports of controlled items, and the Department of Defense's **Section 1260H list** of Chinese military-linked companies, a disclosure designation with different legal consequences. Each flagged entry names which list applies — see [Policy & Budget](budget.qmd).
 
 ## Data Status
 

@@ -1,7 +1,15 @@
 ---
-title: "Shanghai Fudan Microelectronics Group"
+title: "Shanghai Fudan Microelectronics Group · 上海复旦微电子集团股份有限公司"
 subtitle: "Fabless"
+description: "Flagship of domestic FPGA independence — its parts underpin satellite, power-grid and telecom infrastructure — and the highest-profile pure-commercial desi…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-fudan-micro.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-fudan-micro.png"
 ---
 
 **Chinese name:** 上海复旦微电子集团股份有限公司 (Fùdàn Wēidiàn)
@@ -25,6 +33,7 @@ FPGAs/PSoCs/RF-FPGAs/FPAI programmable-AI chips + EDA, secure-identity/smartcard
 | **Product Focus** | FPGA family (million-gate 28nm mainstream, billion-gate FinFET, RF-FPGA, PSoC, FPAI), security/ID chips, EEPROM/NOR/SLC NAND, metering MCUs; test via 华岭股份 |
 | **Node Sophistication** | 28nm CMOS mainline; 1x-nm-class FinFET products in customer intro; 2.5D packaging; FN4 constraint blocks foreign tools/output at advanced nodes |
 | **Entity List** | Yes — US Commerce BIS (Entity List, Footnote 4) |
+| **Last Verified** | Newest source dated 28 Mar 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**

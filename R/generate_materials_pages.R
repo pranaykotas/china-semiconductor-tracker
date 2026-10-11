@@ -8,10 +8,21 @@ raw_firms <- yaml::read_yaml("data/materials.yml")$materials_firms
 if (!dir.exists("equipment-firms")) dir.create("equipment-firms")
 remove_orphan_pages("equipment-firms", firms$id)
 
+SITE_URL <- "https://fabs-china.pranaykotas.com"
+yaml_safe <- function(s) gsub('"', "", s)
+
 template <- '---
-title: "{name_en}"
+title: "{title}"
 subtitle: "{segment}"
+description: "{description}"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "{image}"
+    twitter-card:
+      card: summary_large_image
+      image: "{image}"
 ---
 
 {zh_name_block}
@@ -64,6 +75,7 @@ for (i in 1:nrow(firms)) {
   entity_list_text <- if (isTRUE(f$entity_list_flagged)) paste0("Yes — ", f$entity_list_name) else "No"
   significance <- if (nchar(f$significance) > 0) f$significance else "Details coming soon."
   what_it_supplies <- if (nchar(f$what_it_supplies) > 0) f$what_it_supplies else "*Details coming soon.*"
+  title <- if (!is.na(f$name_zh) && nchar(f$name_zh) > 0) paste0(f$name_en, " · ", f$name_zh) else f$name_en
 
   capacity_text <- format_capacity(this_firm$capacity)
   capability_section <- trajectory_md(this_firm$capability_trajectory, "capability", "*Capability history not yet researched.*")
@@ -89,6 +101,9 @@ for (i in 1:nrow(firms)) {
   } else "*No sources linked yet.*"
 
   page_content <- glue(template,
+    title = yaml_safe(title),
+    description = yaml_safe(social_description(f$significance)),
+    image = paste0(SITE_URL, "/images/cards/material-", f$id, ".png"),
     name_en = f$name_en, segment = f$segment, zh_name_block = zh_name_block,
     category = f$category, node_capability = f$node_capability, founded_text = founded_text,
     city = f$city, entity_list_text = entity_list_text, significance = significance,

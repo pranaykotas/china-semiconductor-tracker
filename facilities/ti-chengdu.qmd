@@ -1,7 +1,15 @@
 ---
-title: "Texas Instruments Chengdu"
+title: "Texas Instruments Chengdu · 德州仪器半导体制造（成都）有限公司"
 subtitle: "Texas Instruments | Fab"
+description: "A Wikipedia cross-check correction: TI Chengdu is NOT a 300mm fab (that common claim conflates the 2017 300mm bumping line)."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-ti-chengdu.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-ti-chengdu.png"
 ---
 
 ::: {.callout-tip}

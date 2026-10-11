@@ -2,6 +2,7 @@
 title: "Chip Design in China: Fabless Firms & Design Houses"
 subtitle: "Tracking Chinese fabless companies and semiconductor design operations"
 date: last-modified
+description: "48 Chinese chip design firms tracked: fabless vendors, state-backed design houses and EDA/IP providers — earnings, nodes, listing status and Entity List records."
 ---
 
 ```{r setup, include=FALSE}

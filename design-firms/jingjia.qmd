@@ -1,7 +1,15 @@
 ---
-title: "Changsha Jingjia Microelectronics"
+title: "Changsha Jingjia Microelectronics · 长沙景嘉微电子股份有限公司"
 subtitle: "Fabless"
+description: "China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) ye…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-jingjia.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-jingjia.png"
 ---
 
 **Chinese name:** 长沙景嘉微电子股份有限公司 (Jǐngjiāwēi)
@@ -25,6 +33,7 @@ Graphics/display processors for avionics and信创 desktops, AI accelerator modu
 | **Product Focus** | Military/avionics graphics SoCs, JM9/JM11 GPUs, 景宏 AI modules/servers; 2025 edge-AI SoC expansion via 诚恒微 (CH37, 64 TOPS) |
 | **Node Sophistication** | JM9 mid-range domestic node; JM11 (taped out Dec 2024, cloud-desktop/vGPU small batches 2025-26) more advanced, undisclosed |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 21 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**

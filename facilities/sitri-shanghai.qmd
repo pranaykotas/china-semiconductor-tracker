@@ -1,7 +1,15 @@
 ---
-title: "SITRI — Shanghai Industrial Technology Research Institute"
+title: "SITRI — Shanghai Industrial Technology Research Institute · 上海微技术工业研究院"
 subtitle: "Shanghai Industrial Technology Research Institute (SITRI) | Research Fab"
+description: "China's structural answer to imec — a full-flow 200mm pilot fab (not a lab cleanroom) de-risking the R&D→pilot→industrialization gap for MEMS, silicon phot…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sitri-shanghai.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sitri-shanghai.png"
 ---
 
 ::: {.callout-tip}

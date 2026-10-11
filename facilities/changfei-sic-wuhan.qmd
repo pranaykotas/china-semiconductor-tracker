@@ -1,7 +1,15 @@
 ---
-title: "YOFC Advanced Semiconductor (Wuhan SiC IDM)"
+title: "YOFC Advanced Semiconductor (Wuhan SiC IDM) · 长飞先进半导体（武汉）有限公司"
 subtitle: "YOFC Advanced Semiconductor | Compound Semiconductor"
+description: "The big new 2025 entrant in Chinese SiC: a ¥20 billion Wuhan Optics Valley IDM base (contracted August 2023) that broke ground within two months and produc…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-changfei-sic-wuhan.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-changfei-sic-wuhan.png"
 ---
 
 ::: {.callout-tip}

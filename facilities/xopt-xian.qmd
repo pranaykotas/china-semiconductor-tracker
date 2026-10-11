@@ -1,7 +1,15 @@
 ---
-title: "Xi'an Optoelectronics Pilot Institute (XOPT)"
+title: "Xi'an Optoelectronics Pilot Institute (XOPT) · 陕西光电子先导院科技有限公司"
 subtitle: "Shaanxi Pilot Institute of Optoelectronics | Research Fab"
+description: "Northwest China's first silicon-photonics pilot line, activated 4 November 2025 (cumulative platform investment ~¥1.5 billion) and selected into MIIT's fir…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-xopt-xian.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-xopt-xian.png"
 ---
 
 ::: {.callout-tip}

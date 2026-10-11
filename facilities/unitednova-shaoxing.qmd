@@ -1,7 +1,15 @@
 ---
-title: "United Nova Technology (Shaoxing)"
+title: "United Nova Technology (Shaoxing) · 芯联集成电路制造股份有限公司"
 subtitle: "United Nova Technology Co., Ltd. (STAR: 688469) | Fab"
+description: "Grew out of the 2018 SMIC–Shaoxing JV (中芯绍兴/中芯集成, renamed 芯联集成 on its 2022 STAR listing); today China's leading automotive power-semiconductor foundry — #1…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-unitednova-shaoxing.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-unitednova-shaoxing.png"
 ---
 
 ::: {.callout-tip}

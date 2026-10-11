@@ -1,7 +1,15 @@
 ---
-title: "Nexchip Hefei"
+title: "Nexchip Hefei · 晶合集成"
 subtitle: "Nexchip Semiconductor Corporation | Fab"
+description: "Mainland China's third-largest foundry by revenue after SMIC and Hua Hong — a Taiwan (Powerchip)-mainland joint venture, a structure now rare given cross-s…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-nexchip-hefei.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-nexchip-hefei.png"
 ---
 
 ::: {.callout-tip}

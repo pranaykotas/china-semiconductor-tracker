@@ -1,7 +1,15 @@
 ---
-title: "UNISOC"
+title: "UNISOC · 紫光展锐（上海）科技有限公司"
 subtitle: "Fabless"
+description: "Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microe…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-unisoc.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-unisoc.png"
 ---
 
 **Chinese name:** 紫光展锐（上海）科技有限公司 (Zǐguāng Zhǎnruì (Shànghǎi) Kējì Yǒuxiàn Gōngsī)
@@ -25,6 +33,7 @@ Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plu
 | **Product Focus** | Mobile communication chipsets (mid-range and entry-level), IoT chipsets, automotive chipsets |
 | **Node Sophistication** | Mid-range mobile nodes; not confirmed at the most advanced nodes |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 10 Jun 2026 (5 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**

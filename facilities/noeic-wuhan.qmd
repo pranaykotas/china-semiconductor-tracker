@@ -1,7 +1,15 @@
 ---
-title: "NOEIC — National Optoelectronics Information Innovation Center"
+title: "NOEIC — National Optoelectronics Information Innovation Center · 武汉光谷信息光电子创新中心有限公司（国家信息光电子创新中心）"
 subtitle: "National Optoelectronics Information Innovation Center (Wuhan) | Research Fab"
+description: "A national manufacturing-innovation center approved by MIIT (October 2017), led by Accelink under CICT; its 12-inch silicon-photonics tape-out platform com…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-noeic-wuhan.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-noeic-wuhan.png"
 ---
 
 ::: {.callout-tip}

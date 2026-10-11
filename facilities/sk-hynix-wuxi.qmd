@@ -1,7 +1,15 @@
 ---
-title: "SK Hynix Wuxi"
+title: "SK Hynix Wuxi · SK海力士半导体（中国）有限公司"
 subtitle: "SK Hynix | Memory"
+description: "SK Hynix's largest DRAM site outside South Korea, reported to account for roughly 30-40% of the company's total DRAM production — on the same scale of sign…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sk-hynix-wuxi.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-sk-hynix-wuxi.png"
 ---
 
 ::: {.callout-tip}

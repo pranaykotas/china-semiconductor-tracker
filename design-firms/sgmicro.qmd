@@ -1,7 +1,15 @@
 ---
-title: "SGMICRO Corp."
+title: "SGMICRO Corp. · 圣邦微电子（北京）股份有限公司"
 subtitle: "Fabless"
+description: "China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): F…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-sgmicro.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/design-sgmicro.png"
 ---
 
 **Chinese name:** 圣邦微电子（北京）股份有限公司 (Shèngbāng)
@@ -25,6 +33,7 @@ General-purpose and application-specific analog/mixed-signal ICs across consumer
 | **Product Focus** | Broadline analog: signal chain (amps, ADC/DAC, interface) + power management (LDO, DC-DC, AMOLED, battery) — 7,200+ SKUs across 38 categories |
 | **Node Sophistication** | Mature specialty analog nodes; high-end parts include 140dB log amps, 24-bit ADCs, 120V monitoring AFE, GaN drivers, automotive 100V buck controllers |
 | **Entity List** | No |
+| **Last Verified** | Newest source dated 29 Aug 2026 (2 sources) |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**

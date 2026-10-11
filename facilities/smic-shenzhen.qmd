@@ -1,7 +1,15 @@
 ---
-title: "SMIC Shenzhen"
+title: "SMIC Shenzhen · 中芯深圳"
 subtitle: "SMIC | Fab"
+description: "SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-owned), a $2.35 billion 28nm foundry with the Shenzhen municipal government."
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-shenzhen.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-smic-shenzhen.png"
 ---
 
 ::: {.callout-tip}

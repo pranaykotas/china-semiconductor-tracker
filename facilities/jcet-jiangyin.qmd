@@ -1,7 +1,15 @@
 ---
-title: "JCET Jiangyin"
+title: "JCET Jiangyin · 长电科技"
 subtitle: "JCET Group | Assembly & Packaging"
+description: "China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, and controlled since November 20…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-jcet-jiangyin.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-jcet-jiangyin.png"
 ---
 
 ::: {.callout-tip}

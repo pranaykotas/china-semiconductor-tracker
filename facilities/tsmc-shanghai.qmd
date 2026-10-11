@@ -1,7 +1,15 @@
 ---
-title: "TSMC Shanghai"
+title: "TSMC Shanghai · 台积电（上海）有限公司"
 subtitle: "Taiwan Semiconductor Manufacturing Company (TSMC) | Fab"
+description: "TSMC's original mainland China manufacturing site — Fab 10, a greenfield 200mm fab in the Songjiang Industrial Zone that began trial production on 1 August…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-tsmc-shanghai.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-tsmc-shanghai.png"
 ---
 
 ::: {.callout-tip}

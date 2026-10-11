@@ -1,7 +1,15 @@
 ---
-title: "CXMT Shanghai (Pudong DRAM 'Super Factory')"
+title: "CXMT Shanghai (Pudong DRAM 'Super Factory') · 长鑫存储上海基地"
 subtitle: "ChangXin Memory Technologies (CXMT) | Memory"
+description: "A genuinely new DRAM mega-fab, separate from CXMT's Hefei headquarters site, entering substantive construction in March 2026 — this tracker did not capture…"
 date: last-modified
+format:
+  html:
+    open-graph:
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-cxmt-shanghai.png"
+    twitter-card:
+      card: summary_large_image
+      image: "https://fabs-china.pranaykotas.com/images/cards/facility-cxmt-shanghai.png"
 ---
 
 ::: {.callout-tip}
