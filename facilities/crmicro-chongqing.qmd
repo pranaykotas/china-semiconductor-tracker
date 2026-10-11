@@ -1,0 +1,60 @@
+---
+title: "CR Micro Chongqing (Runxi 12-inch Power Line)"
+subtitle: "CR Microelectronics Ltd. (STAR: 688396) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Reported as China's first domestic automotive-grade 12-inch power-semiconductor fab, from China Resources' CR Micro — the country's largest IDM power-semi maker (MOSFET #1 domestically). Hit its 30,000 wafers/month output target in August 2025, roughly 18 months ahead of plan.
+:::
+
+**Chinese name:** 润西微电子（重庆）有限公司 (Rùn Xī Wēidiànzǐ (Chóngqìng))
+
+## What does this facility make?
+
+12-inch power wafers: automotive/industrial MOSFETs and IGBTs feeding CR Micro's module business and EV/PV/storage customers.
+
+## Why does it matter?
+
+Evidence that China's power-semi migration to 12-inch wafers (the global industry's current cost frontier) is happening at scale and ahead of schedule; July 2026 reporting had CR Micro raising prices across categories ~15% amid 9-month order books — the 2026 power-semi shortage cycle in one company.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | CR Microelectronics Ltd. (STAR: 688396) |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 12-inch automotive-grade power semiconductors — SGT/SJ MOSFET, IGBT (G7 class), power management; 30,000 wafers/month design capacity |
+| **Status** | Operational |
+| **Investment** | ¥75.5亿元 |
+| **Funding Source** | Big Fund II |
+| **Location** | Chongqing, Chongqing Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jun 2021** — ¥7.55 billion 12-inch power line (Runxi Micro) announced; registered capital ¥5 billion (CR 19%, Big Fund II and Chongqing Xiyong holders)
+- **Aug 2025** — 30,000 wafers/month output achieved, ~18 months ahead of schedule
+
+## Sources
+
+- [华润微子公司拟投建12吋功率半导体晶圆生产线 预计投资75.5亿元 (证券时报)](https://stcn.com/article/detail/382164.html) (07 Jun 2021)
+- [30000片！华润微电子重庆12吋项目提前达成目标 (电子工程专辑)](https://www.eet-china.com/mp/a437365.html) (11 Sep 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

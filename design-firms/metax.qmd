@@ -1,0 +1,39 @@
+---
+title: "MetaX Integrated Circuits"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 沐曦集成电路（上海）股份有限公司 (Mùxī)
+
+::: {.callout-tip}
+## Why This Matters
+The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the GPU listing frenzy; FY2025 revenue ¥16.44亿 (+121%) still loss-making (-¥7.89亿), H1 2026 revenue ¥13.24亿 with headline net profit turned positive only on non-recurring items. Its C600 fully-domestic-chain closure is the flagship proof that AI chips can be built without TSMC.
+:::
+
+## What does this firm design?
+
+Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI software stack.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2020 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Full-stack GPGPU: 曦云C training/inference (C500/C600, C700 in dev), 曦思N inference, 曦索X scientific compute, 曦彩G graphics |
+| **Node Sophistication** | C500 N7-equivalent + HBM2e; C600 domestic advanced node + HBM; C700 targeting ~H100-level (per company statements relayed by 21经济, exact node undisclosed) |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [沐曦股份科创板上市首日涨693% (上观新闻)](https://www.jfdaily.com/news/detail?id=1037108) (17 Dec 2025)
+- [沐曦2025年报：营收16.44亿，C600全国产供应链 (电子工程专辑)](https://www.eet-china.com/mp/a492274.html) (26 Mar 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

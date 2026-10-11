@@ -1,0 +1,63 @@
+---
+title: "Xi'an Optoelectronics Pilot Institute (XOPT)"
+subtitle: "Shaanxi Pilot Institute of Optoelectronics | Research Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Northwest China's first silicon-photonics pilot line, activated 4 November 2025 (cumulative platform investment ~¥1.5 billion) and selected into MIIT's first national manufacturing-pilot-platform list; on 23 August 2026 it opened commercial tape-out and released production-grade process data (LPSIN400 SiN PDK) — the first public domestic SiPh PDK of its kind.
+:::
+
+**Chinese name:** 陕西光电子先导院科技有限公司 (Shǎnxī Guāngdiànzǐ Xiāndǎoyuàn Kējì Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Silicon-photonic chips (AI interconnect, LiDAR, optical computing) and GaAs VCSEL optoelectronics on pilot/MPW services; 6-inch compound line online since 2023 with 20+ PDKs and 80+ customers.
+
+## Why does it matter?
+
+Core of Shaanxi's 'Chasing Light' photonics program (409 firms, ¥41 billion output in 2025) — and an operator claim worth tracking: SiPh tape-out cycles '5x faster than overseas', because the alternative for Chinese designers was queuing at foreign pilot fabs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Shaanxi Pilot Institute of Optoelectronics |
+| **Type** | Research Fab |
+| **Category** | State-Backed |
+| **Capability** | Dual pilot lines: 8-inch silicon photonics (130nm IMEC SiPh kit, DUV litho, ~¥750 million platform) + 6-inch compound semiconductor (GaAs VCSEL); ~8,000 sqm cleanroom, ~200 tools |
+| **Status** | Operational |
+| **Investment** | ¥15亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Xi'an, Shaanxi |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.6/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2015** — Founded by CAS Xi'an Institute of Optics + provincial/high-tech-zone government
+- **Mar 2023** — 6-inch compound-semiconductor platform opens
+- **Nov 2025** — 8-inch silicon-photonics pilot line activated — first in northwest China
+- **Aug 2026** — First public release of production-grade SiPh PDK; full commercial tape-out opens
+
+## Sources
+
+- [西北地区首条硅光中试线通线 (陕西省人民政府)](https://www.shaanxi.gov.cn/xw/sxyw/202511/t20251106_3582283.html) (06 Nov 2025)
+- [破局'芯'困境！西北首条硅光中试线正式通线 (中国科学报)](https://news.sciencenet.cn/htmlnews/2025/11/554576.shtm) (05 Nov 2025)
+- [西北首条8英寸硅光中试平台核心工艺数据首次公开 (西安市科技局)](https://xakj.xa.gov.cn/kjdt/mtbd/2092448302231523330.html) (26 Aug 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

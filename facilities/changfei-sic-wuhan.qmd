@@ -1,0 +1,61 @@
+---
+title: "YOFC Advanced Semiconductor (Wuhan SiC IDM)"
+subtitle: "YOFC Advanced Semiconductor | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The big new 2025 entrant in Chinese SiC: a ¥20 billion Wuhan Optics Valley IDM base (contracted August 2023) that broke ground within two months and produced its first 6-inch automotive-grade SiC wafer on 28 May 2025 — 21 months, billed as China's largest SiC device fab, ~30% of domestic wafer capacity at full rate. First-product yield was reported at 97%; ramp to 3,500 wafers/month was the stated end-2025 target.
+:::
+
+**Chinese name:** 长飞先进半导体（武汉）有限公司 (Chángfēi Xiānjìn Bàndǎotǐ (Wǔhàn))
+
+## What does this facility make?
+
+SiC MOSFET wafers (fully automated plant, ~80 line operators on four-shift rotation) and power modules for EV main drives — plus the Wuhu base's 60,000 wafers/year.
+
+## Why does it matter?
+
+A telecom-fiber company's pivot (长飞光纤) into power semis via acquisition and greenfield scale — and after a >¥1 billion A+ round (February 2026, Jiangcheng Fund/Changjiang Industrial lead), management expects its SiC chips in customer vehicles from H2 2026 — the newest test of whether a late entrant can beat the SiC glut narrative.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | YOFC Advanced Semiconductor |
+| **Type** | Compound Semiconductor |
+| **Category** | Private |
+| **Capability** | 6-inch SiC IDM — full-line smart fab: 360,000 wafers/year + 360,000 epi + 61 million modules/year at phase-1 full ramp (with legacy Wuhu base: combined 420,000 wafers/year) |
+| **Status** | Operational |
+| **Investment** | ¥200亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Wuhan, Hubei |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Aug 2023** — Wuhan base project signed (total >¥20 billion, 498 mu)
+- **May 2025** — First 6-inch SiC wafer off the line — fab in mass-production line-out (量产通线)
+- **Feb 2026** — >¥1 billion A+ financing round completed; combined Wuhu+Wuhan capacity stated at 420,000 wafers/year
+
+## Sources
+
+- [总投资200亿元！长飞先进碳化硅晶圆量产通线 (财联社/新浪财经)](https://finance.sina.com.cn/jjxw/2025-05-29/doc-ineyfuvw9501289.shtml) (29 May 2025)
+- [长飞先进：获得超10亿融资，SiC产能达42万片/年 (行家说三代半)](https://www.hjssemi.com/topic/1770705669124) (23 Apr 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

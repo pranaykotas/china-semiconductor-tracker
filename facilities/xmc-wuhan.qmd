@@ -1,0 +1,65 @@
+---
+title: "XMC Wuhan (Wuhan Xinxin)"
+subtitle: "Wuhan Xinxin Semiconductor Manufacturing Co. (XMC) | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Founded 2006 (managed early on by SMIC) as mainland's second-constructed 12-inch fab, then the seed plant from which YMTC's 3D NAND business was spun out in 2016; the two remain siblings under CCSH Corporation (长控集团). XMC is the mainland's largest NOR flash fab (~41% of estimated domestic NOR fab demand in 2023) and the only scaled domestic supplier of wafer-level 3D integration services (TSV/hybrid bonding) — capacity across its two fabs was 531,100 wafers in 2023 and 2024 revenue was ¥4.258 billion (¥42.58亿) per industry coverage.
+:::
+
+**Chinese name:** 武汉新芯集成电路股份有限公司 (Wǔhàn Xīnxīn Jíchéng Diànlù Gǔfèn Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+NOR flash and MCU wafers, CIS and RF-SOI mixed-signal wafers, and 3D-integration (wafer-stacking/HBM-adjacent) foundry services; March 2024 reports describe an HBM development project (reported, not verified).
+
+## Why does it matter?
+
+Added to the US Entity List in the December 2, 2024 package alongside equipment makers — BIS named 'Wuhan Xinxin Semiconductor Manufacturing' explicitly. A STAR IPO (¥4.8 billion raise for Fab 3) was accepted September 2024 but formally withdrawn May 2026 the same day YMTC group began IPO tutoring, widely read as clearing the group listing path; its Fab 3 (reported ~¥28 billion project, 50,000 wafers/month) continues construction independent of the IPO, with first structural steel lifted April 2026.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Wuhan Xinxin Semiconductor Manufacturing Co. (XMC) |
+| **Type** | Memory |
+| **Category** | State-Backed |
+| **Capability** | 12-inch specialty foundry — NOR flash (mainland's largest NOR fab), CIS/RF-SOI mixed-signal, and 3D integration (TSV, hybrid bonding, S-stacking/M-stacking wafer-level stacking) |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Wuhan, Hubei |
+| **Current Node** | NOR flash at 55/65nm class in mass production; 45nm ramping |
+| **Entity List** | Yes — US Commerce BIS (02 Dec 2024) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.5/5**
+
+## Technology Node Trajectory
+
+- **2024**: NOR flash at 55/65nm class in mass production; 45nm ramping
+
+## Project Timeline
+
+- **Aug 2018** — Fab 2 expansion breaks ground (reported ¥13.57 billion)
+- **Sep 2024** — STAR Market IPO accepted — ¥4.8 billion raise, ¥4.3 billion earmarked to Fab 3
+- **Dec 2024** — Added to the US Commerce Department's Entity List (140-entity semiconductor round)
+- **Apr 2026** — Fab 3 main structure first steel lift
+- **May 2026** — IPO withdrawn/terminated by SSE at company request, the same day YMTC group filed IPO tutoring
+
+## Sources
+
+- [武汉新芯科创板IPO审核终止 (证券时报)](https://www.stcn.com/ipo/detail/3282.html) (19 May 2026)
+- [新芯三期项目首片钢结构吊装 (国家集成电路创新中心网站)](https://www.semi.org.cn/site/semi/article/d481ae4b97de4a8c959f83e90a268d19.html) (21 Apr 2026)
+- [140家中国半导体企业被列入实体清单，附完整名单（Wuhan Xinxin listed） (芯智讯)](https://news.qq.com/rain/a/20241203A00IUI00) (03 Dec 2024)
+- [XMC公司简介（国内领先的特色工艺12英寸晶圆代工企业）](https://www.xmcwh.com/site/about-XMC) (01 Oct 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -1,0 +1,39 @@
+---
+title: "Southchip Semiconductor Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 上海南芯半导体科技股份有限公司 (Nánxīn)
+
+::: {.callout-tip}
+## Why This Matters
+Won the flagship fast-charging socket from TI/Qualcomm/NXP inside Xiaomi/OPPO/vivo/Honor/Samsung flagships — import substitution essentially completed — then hit the ceiling of that niche: FY2025 revenue ¥32.61亿 (+27.0%) but profit -22%, and the first half-year loss post-IPO in H1 2026 (-¥44.9 million) as smartphone demand softened. The automotive (+140.6%) and AI-wearable pivot is the sector's escape route in miniature.
+:::
+
+## What does this firm design?
+
+10–300W charging/battery-management IC chains (adapter-to-cell), automotive PMICs, GaN-integrated AC-DC controllers, RISC-V power MCUs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2015 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Wired/wireless charging and power management: charge pumps, switch charging, AC-DC adapters, BMS, automotive PMIC, power MCUs |
+| **Node Sophistication** | High-voltage BCD (700V-class), GaN combo/drive AC-DC, 4:1/6:2 charge-pump topologies at 98.65% peak efficiency (120W SC8571); Qi2.2 25W wireless modules among world's first certified |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [南芯科技2025年年度报告 (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-04-30/1225265339.PDF) (30 Apr 2026)
+- [南芯科技2026年半年度报告 (巨潮资讯)](http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260817/e6e65d63adba4955a2cc6774d1f61c8d.PDF) (17 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

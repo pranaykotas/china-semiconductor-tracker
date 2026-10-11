@@ -1,0 +1,39 @@
+---
+title: "SGMICRO Corp."
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 圣邦微电子（北京）股份有限公司 (Shèngbāng)
+
+::: {.callout-tip}
+## Why This Matters
+China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): FY2025 revenue ¥38.98亿 (+16.5%), H1 2026 ¥25.95亿 (+42.7%) on optical-module/AI-server demand. A+H listing (June 2026, 3661.HK) makes it the consolidation vehicle for Chinese analog.
+:::
+
+## What does this firm design?
+
+General-purpose and application-specific analog/mixed-signal ICs across consumer, industrial, automotive and now datacenter power/optical markets.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2007 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | Broadline analog: signal chain (amps, ADC/DAC, interface) + power management (LDO, DC-DC, AMOLED, battery) — 7,200+ SKUs across 38 categories |
+| **Node Sophistication** | Mature specialty analog nodes; high-end parts include 140dB log amps, 24-bit ADCs, 120V monitoring AFE, GaN drivers, automotive 100V buck controllers |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [圣邦股份2026年半年度报告 (深交所)](https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/ebe4a5fa-a58d-4b69-8d4f-f4b531a51e55.PDF) (29 Aug 2026)
+- [圣邦股份H股港交所上市，市值一度超845亿港元 (腾讯新闻)](https://news.qq.com/rain/a/20260626A088UL00) (26 Jun 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

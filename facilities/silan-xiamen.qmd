@@ -1,0 +1,63 @@
+---
+title: "Silan Microelectronics Xiamen Cluster (Jike/Mingjia)"
+subtitle: "Hangzhou Silan Microelectronics Co., Ltd. (600460.SH) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The Xiamen campus of Silan — China's flagship private power-semi IDM — stacks a 12-inch silicon power fab (¥7 billion first line, in production since December 2020, 2025 output 637,400 wafers) alongside a 6-inch SiC line; two further lines are now in motion at the same campus: the ¥12 billion 8-inch SiC fab (士兰集宏) and ¥20 billion 12-inch high-end analog fab (士兰集华). Investment figure tracked here is the Jike 12-inch project total (¥7bn phase 1 + ¥5bn/¥2bn expansions ≈¥15bn of the ¥17bn two-line plan); the newer phases are covered in milestones.
+:::
+
+**Chinese name:** 厦门士兰集科微电子有限公司 / 厦门士兰明镓化合物半导体有限公司 (Shìmén Shìlán Jíkē / Míngjiā)
+
+## What does this facility make?
+
+IGBT/MOSFET power chips for EV main drives, PV and industrial IPM modules; SiC devices; MEMS sensors.
+
+## Why does it matter?
+
+IPM modules exceeding 250 million units shipped in 2025 (+47%) show a Chinese IDM supplying white goods and cars from wafer up; the January 2026 dual event (集宏 8-inch SiC line-out ceremony + 集华 12-inch analog groundbreaking, reported as China's first fully self-IP 8-inch SiC power line) extends the same campus into the two most strategic specialty segments.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hangzhou Silan Microelectronics Co., Ltd. (600460.SH) |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch power/IGBT/MEMS line (士兰集科, 90nm, design 80,000 wafers/month across two phases) + 6-inch SiC/compound line (士兰明镓, 10,000 wafers/month) |
+| **Status** | Operational |
+| **Investment** | ¥150亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Xiamen, Fujian |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Dec 2020** — Jike 12-inch power line formally enters production (90nm, phase 1 40,000 wafers/month)
+- **May 2024** — ¥12 billion 8-inch SiC project (士兰集宏) signed with Xiamen city
+- **Oct 2025** — ¥20 billion 12-inch high-end analog project (士兰集华) signed (phase 1 ¥10 billion, 45,000 wafers/month planned)
+- **Jan 2026** — 集宏 8-inch SiC line-out ceremony (trial production since Nov 2025) + 集华 12-inch groundbreaking, same day
+
+## Sources
+
+- [12吋芯片生产线今日正式投产 (士兰微官网)](https://www.silan.com.cn/news/details/78.html) (21 Dec 2020)
+- [双线里程碑：8英寸碳化硅通线暨12英寸高端模拟开工 (士兰微官网)](https://www.silan.com.cn/index.php/news/details/286.html) (05 Jan 2026)
+- [总投资200亿士兰微新项目签约落地厦门 (厦门市政府)](https://www.xm.gov.cn/xmyw/202510/t20251019_2960816.htm) (19 Oct 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

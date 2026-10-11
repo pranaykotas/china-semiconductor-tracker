@@ -1,0 +1,39 @@
+---
+title: "Puya Semiconductor (Shanghai)"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 普冉半导体（上海）股份有限公司 (Pǔrǎn)
+
+::: {.callout-tip}
+## Why This Matters
+The textbook double-case of 2025-26 fabless China: buying a distressed global asset to jump product tiers (SHM = ex-SK Hynix 2D NAND carve-out, world #4 SLC NAND), then riding the AI memory supercycle — H1 2026 revenue ¥39.59亿 (+336.7%) and net ¥8.27亿 (+1930%), versus FY2025 ¥23.20亿/+28.6% with profit down. Its MCP modules already ship into HP/Motorola/Cisco/Bosch chains.
+:::
+
+## What does this firm design?
+
+NOR/EEPROM/SLC-NAND/eMMC/MCP memory and general/motor MCUs, camera VCM/OIS drivers.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2016 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | NOR flash (global #5, 550M+ units 2025), EEPROM (leader in phone-camera VCM), MCUs, VCM/OIS drivers; SLC NAND/eMMC/MCP via the SHM acquisition |
+| **Node Sophistication** | 40nm/4x-nm specialty NOR+MCU (2nd-gen SONOS, 3rd-gen '40E' in production); mature-node capacity scarcity (SMIC/Hua Hong) is its stated pricing driver |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+
+## Sources
+
+- [普冉股份2025年年度报告 (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-03-21/1225023836.PDF) (21 Mar 2026)
+- [普冉半年报营收增336%：并购SHM+存储涨价双击 (每日经济新闻)](https://www.mrjjxw.com/articles/2026-08-18/4545641.html) (18 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

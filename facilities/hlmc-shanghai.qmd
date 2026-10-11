@@ -1,0 +1,63 @@
+---
+title: "HLMC (Shanghai Huali, Fab 5 & Fab 6)"
+subtitle: "Hua Hong Semiconductor Group (HLMC) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Mainland China's first fully-automated 12-inch fab (Fab 5, first wafers April 2011, built under the 'Project 909' upgrade lineage) and one of very few domestic 28/22nm logic sites (Fab 6, wafers since October 2018). In September 2026 Fab 5 formally merged into the listed Hua Hong entity (688347/1347.HK) via an ¥8.268 billion share deal — resolving the group's long-standing IPO-era same-competition commitment; Fab 5 contributed ~¥5 billion revenue and >¥500 million net profit in 2024.
+:::
+
+**Chinese name:** 上海华力微电子有限公司 / 上海华力集成电路制造有限公司 (Shànghǎi Huálì Wēidiànzǐ)
+
+## What does this facility make?
+
+12-inch foundry wafers at 65/55/40nm (Fab 5, incl. NOR/eNVM, RF, BSI plans) and 28/22nm (Fab 6, still outside the listed company under group ownership).
+
+## Why does it matter?
+
+Consolidates China's #2 foundry group's 12-inch base at ~a sixth of national 12-inch capacity, and keeps one of the few domestic 28nm logic lines — the node where export controls bite hardest — inside a state-owned structure. The follow-on ¥7.556 billion placement funds a ¥2.53 billion BSI and ¥562 million BCD program.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hua Hong Semiconductor Group (HLMC) |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | Fab 5 (Zhangjiang): 12-inch, 65/55nm and 40nm logic/NOR/RF, 38,000 wafers/month. Fab 6 (Kangqiao): 12-inch, 28/22nm, 40,000 wafers/month planned |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Apr 2011** — Fab 5 (Huali 1) first wafers — mainland's first automated 12-inch fab
+- **Oct 2018** — Fab 6 (Huali 2, 28/22nm, Kangqiao) first wafers
+- **Aug 2025** — Hua Hong announces acquisition of controlling stake in Huali Micro (Fab 5), fulfilling IPO commitment
+- **Sep 2026** — Share transfer completed — Fab 5 becomes wholly within the listed Hua Hong company
+
+## Sources
+
+- [停牌！A股芯片巨头，刚刚公告！ (证券时报)](https://www.stcn.com/article/detail/3142230.html) (17 Aug 2025)
+- [华虹公司股东大会通过华力微收购全部议案 (经济参考报)](http://www.jjckb.cn/20260210/f8ff9880eaa14bdea1cb27ef09ac1f89/c.html) (10 Feb 2026)
+- [发行股份购买华力微完成过户，华虹整合12英寸产能 (腾讯新闻)](https://news.qq.com/rain/a/20260911A0GGGQ00) (11 Sep 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -1,0 +1,63 @@
+---
+title: "Hunan Sanan Semiconductor (Changsha SiC IDM)"
+subtitle: "Sanan Optoelectronics Co., Ltd. (600703.SH) | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+China's first vertically integrated SiC production chain (first line lit June 2021) and the country's largest self-contained SiC IDM platform, at ¥16 billion planned; by the May 2026 shareholders meeting the 6-inch line was running 16,000 wafers/month at ~85% yield with high utilization, and the in-house 8-inch SiC chip line — line-out August 2025, built in under a year — was reported fully activated.
+:::
+
+**Chinese name:** 湖南三安半导体有限责任公司 (Húnán Sān'ān Bàndǎotǐ)
+
+## What does this facility make?
+
+6/8-inch SiC MOSFET/SBD devices and modules for EVs, PV and storage (customers include Sungrow and major OEMs), plus GaN-on-Si power wafers.
+
+## Why does it matter?
+
+Parent Sanan Optoelectronics posted its first annual loss for 2025 with SiC depreciation as a named drag while pushing for SiC profitability in 2026 — the clearest single-company view of China's painful SiC cost-down race. Governance flag: GM Lin Kechuang (also chairman of the ST JV 安意法) was reported detained May 2026 and released around October 2026.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Sanan Optoelectronics Co., Ltd. (600703.SH) |
+| **Type** | Compound Semiconductor |
+| **Category** | Private |
+| **Capability** | Full-chain SiC IDM (substrate→epi→device→module), 6-inch at 16,000 wafers/month + 8-inch SiC chip line (fully activated 2025-2026); GaN-on-Si 2,000 wafers/month |
+| **Status** | Operational |
+| **Investment** | ¥160亿元 |
+| **Funding Source** | Private |
+| **Location** | Changsha, Hunan |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jun 2021** — First SiC line lit — billed as China's first vertically integrated SiC chain (plan 30,000 6-inch wafers/month)
+- **Nov 2022** — ¥3.8 billion multi-year supply agreement with an EV OEM (行家说 coverage)
+- **Aug 2025** — Own 8-inch SiC chip line announced line-out (通线)
+- **May 2026** — Annual meeting: 6-inch at 16,000 wafers/month, 8-inch line fully activated; SiC profitability targeted for 2026
+
+## Sources
+
+- [湖南三安点亮中国首条碳化硅垂直整合生产线 (三安集成官网)](https://www.sanan-ic.com/news-18) (23 Jun 2021)
+- [三安光电8英寸碳化硅芯片产线正式通线 (电子工程专辑)](https://www.eet-china.com/mp/a433589.html) (28 Aug 2025)
+- [三安光电股东大会：SiC产能、良率与盈利目标实录 (同花顺)](https://stock.10jqka.com.cn/20260519/c676810688.shtml) (19 May 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

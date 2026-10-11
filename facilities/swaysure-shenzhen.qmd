@@ -1,0 +1,63 @@
+---
+title: "SwaySure (Shenzhen DRAM/Novel Memory Fab)"
+subtitle: "SwaySure Technology Co., Ltd. | Memory"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Shenzhen-state-backed memory venture founded March 2022 (registered capital ¥5 billion), led by CEO Liu Xiaoqiang (ex-TSMC fab manager) and initially by CSO Sakamoto Yukio (ex-Elpida CEO); the widely quoted '¥300 billion ambition / 140,000 wafers/month' plan is aspirational and unverified. Its 'novel memory production line project' (新型存储器产线) heads Shenzhen's 2025 major-industrial-project list, and 2025-2026 municipal water-use notices for wet-etch/CMP indicate process equipment is operating at plant level.
+:::
+
+**Chinese name:** 深圳市昇维旭技术有限公司 (Shēnzhèn Shì Shēngwéixù Jìshù Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+No verified product output yet; reported to target DRAM from 28nm-class nodes and new memory types.
+
+## Why does it matter?
+
+Added to the Entity List in the December 2, 2024 round; July 2026 reporting (via FT and reprints) describes it as one of the Huawei-linked 'Guanlan'-family Shenzhen sites and part of a government-SwaySure-Huawei triangle building 12-inch DRAM capacity — i.e., a key piece of China's most opaque memory push, with essentially no independently verified output.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SwaySure Technology Co., Ltd. |
+| **Type** | Memory |
+| **Category** | State-Backed |
+| **Capability** | 12-inch DRAM/novel memory fab, 28nm starting node, long-term plan reported at 140,000 wafers/month |
+| **Status** | Under Construction |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Shenzhen, Guangdong |
+| **Current Node** | Not yet researched |
+| **Entity List** | Yes — US Commerce BIS (02 Dec 2024) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Mar 2022** — Company founded, funded entirely by Shenzhen Industrial Investment Group
+- **Dec 2024** — Added to the US Commerce Department's Entity List (SwaySure Technology Co., Ltd.)
+- **Sep 2025** — Shenzhen lists its novel-memory line among top major industrial projects; process water permits confirm fab-level operations
+- **Jul 2026** — Reports describe Huawei co-developing the 12-inch DRAM fab (140,000 wafers/month long-term plan, unverified)
+
+## Sources
+
+- [昇维旭官网（深圳国资背景，存储芯片研发设计生产）](https://www.swaysure.com/) (10 Oct 2026)
+- [美国正式将140家中国半导体公司列入实体清单（含SwaySure/昇维旭全名单） (OFweek)](https://ee.ofweek.com/2024-12/ART-8440-2800-30652527.html) (03 Dec 2024)
+- [深圳又一座晶圆厂：昇维旭DRAM项目，原Elpida CEO坂本幸雄加盟 (电子工程专辑)](https://www.eet-china.com/mp/a141223.html) (23 Jun 2022)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

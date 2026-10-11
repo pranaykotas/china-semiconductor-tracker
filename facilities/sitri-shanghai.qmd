@@ -1,0 +1,61 @@
+---
+title: "SITRI — Shanghai Industrial Technology Research Institute"
+subtitle: "Shanghai Industrial Technology Research Institute (SITRI) | Research Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+China's structural answer to imec — a full-flow 200mm pilot fab (not a lab cleanroom) de-risking the R&D→pilot→industrialization gap for MEMS, silicon photonics and biosensor chips; founded 2013 with the CAS Shanghai microsystems lineage, it has served 1,000+ customers and incubated 20+ companies with aggregate valuation above ¥15 billion, and was named a national 'little giant' 专精特新 platform in 2025.
+:::
+
+**Chinese name:** 上海微技术工业研究院 (Shànghǎi Wēijìshù Gōngyè Yánjiūyuàn)
+
+## What does this facility make?
+
+Engineering/pilot wafers: MEMS sensors, silicon-photonic chips (built under Shanghai's municipal SiPh major special project), biosensor chips; PDK-based tape-out services rather than commercial volume.
+
+## Why does it matter?
+
+Pilot lines like SITRI's are the missing middle layer that export controls cannot block as easily as frontier tools — the country's specialty-silicon innovation capacity increasingly runs through such platforms; it anchors Jiading's 'More than Moore' sensor cluster.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Shanghai Industrial Technology Research Institute (SITRI) |
+| **Type** | Research Fab |
+| **Category** | State-Backed |
+| **Capability** | China's first 8-inch 'More than Moore' R&D pilot line (online September 2017): MEMS/intelligent sensors, silicon photonics, biochips; ~5,000 sqm cleanroom, 14 standardized process modules, CMOS-compatible |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.6/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Nov 2013** — Founded by Shanghai Municipal Commission of STI, Jiading district and Xinwei Group
+- **Sep 2017** — 8-inch R&D pilot line online — China's first 'More than Moore' pilot fab
+- **Jul 2018** — Silicon photonics pilot line (municipal major special project) completes, tape-out capability demonstrated
+
+## Sources
+
+- [SITRI公司简介（国内首条8英寸'超越摩尔'研发中试线）](https://www.sitri.com/gsjj) (01 Oct 2026)
+- [硅光子市级重大专项获突破 首条研发中试线年内建成 (解放日报转载)](https://www.sh-italent.com/Article/201807/201807090022.shtml) (09 Jul 2018)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

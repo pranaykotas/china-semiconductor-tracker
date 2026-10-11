@@ -51,6 +51,8 @@ The clearest case of a Chinese chipmaker reaching a genuinely globally competiti
 - **Jul 2016** — YMTC founded by Tsinghua Unigroup with Hubei provincial and Big Fund backing, $24 billion planned investment
 - **Apr 2020** — YMTC introduces 128-layer 3D NAND using Xtacking 2.0 architecture
 - **Dec 2022** — Added to the US Commerce Department's Entity List
+- **Sep 2025** — Third-fab JV company 长存三期（武汉）集成电路有限责任公司 registered with ¥20.72 billion capital — YMTC 50.19%, an Hubei/Wuhan state-vehicle consortium 49.81%
+- **Apr 2026** — Fab 3 building reported complete with over 50% of equipment domestic (including bonding/stacking tools); planned capacity ~100,000 wafers/month, mass production targeted for H2 2026 and a reported ramp toward ~50,000/month in 2027 (Reuters)
 - **Aug 2026** — Completes pre-IPO regulatory tutoring, clearing a procedural hurdle toward a Shanghai STAR Market listing
 - **Aug 2026** — STAR Market accepts YMTC's formal IPO application (acceptance alone does not guarantee listing approval); plans to raise approximately ¥33 billion by issuing 1.98-2.43 billion shares
 
@@ -62,6 +64,8 @@ The clearest case of a Chinese chipmaker reaching a genuinely globally competiti
 - [YMTC moves ahead with third chipmaking fab in Wuhan despite U.S. sanctions](https://www.tomshardware.com/tech-industry/semiconductors/ymtc-moves-ahead-with-third-fab-in-wuhan-despite-us-sanctions) (28 Sep 2026)
 - [YMTC Moves Closer to Shanghai IPO (Caixin Global)](https://www.caixinglobal.com/2026-08-20/ymtc-moves-closer-to-shanghai-ipo-102476082.html) (20 Aug 2026)
 - [长江存储IPO申请获受理，拟募资330亿元 (TechNode China)](https://cn.technode.com/post/2026-08-24/ymtc-shanghai-ipo-33-billion/) (24 Aug 2026)
+- [长江存储控股股份有限公司 首次公开发行股票并在科创板上市招股说明书 (Shanghai Stock Exchange filing, ¥631.8亿 2025 revenue; ¥470.4亿 Q1-2026)](http://static.sse.com.cn/stock/disclosure/announcement/c/202608/002251_20260821_7075.pdf) (21 Aug 2026)
+- [长江存储三期落地：注册资本207.2亿元，长控与湖北长晟合资 (财联社)](https://m.cls.cn/detail/2144445) (14 Sep 2025)
 
 ---
 

@@ -1,0 +1,63 @@
+---
+title: "GTA Semiconductor (Shanghai Lingang)"
+subtitle: "Shanghai Jita Integrated Technology Service Co., Ltd. (GTA Semi) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+CEC's (China Electronics Corporation) manufacturing anchor and China's flagship state-owned car-grade specialty foundry — a ¥35.9 billion Lingang complex (groundbreaking August 2018) merged with the legacy Shanghai Advanced (SAS) semiconductor plant, plus an ¥8 billion November 2021 strategic round featuring automaker (SAIC), industrial (Inovance) and Xiaomi supply-chain investors.
+:::
+
+**Chinese name:** 上海积塔半导体有限公司 (Shànghǎi Jītǎ Bàndǎotǐ Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Automotive/industrial MCU, BCD analog/PMIC, IGBT/MOSFET and sensor wafers; company capacity pages report 8-inch output above 1.3 million wafers/year, with the 12-inch line (planned ~500,000 wafers/year at full capacity) still marked under construction/ramping.
+
+## Why does it matter?
+
+One of the very few dedicated car-grade 12-inch lines in China and one of the few domestic SiC (6-inch) and FeRAM/eNVM capability holders — a key supply node if China's domestic car-MCU push continues; still private (named a national 'unicorn' in 2026); no verified IPO filing as of this pass.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Shanghai Jita Integrated Technology Service Co., Ltd. (GTA Semi) |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | Car-grade specialty foundry — 8-inch (IGBT, MOSFET, BCD, eNVM/MCU), 12-inch (90-40nm auto MCU/analog/PMIC, line activated 2023, ramping), 6-inch SiC, plus legacy 5/6-inch lines |
+| **Status** | Operational |
+| **Investment** | ¥359亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Aug 2018** — ¥35.9 billion Lingang specialty-process line breaks ground; merger with legacy Shanghai Advanced Semiconductor agreed
+- **Nov 2021** — ¥8 billion strategic financing completed, led by Huada Semiconductor (CEC)
+- **Jun 2023** — 12-inch line activated (tool line-out)
+- **Dec 2025** — Wins 'Influential SiC Wafer Manufacturing Service' at the行家极光 awards
+
+## Sources
+
+- [上海临港崛起'东方芯港' (国务院国资委)](http://www.sasac.gov.cn/n2588025/n2588139/c15768428/content.html) (26 Oct 2020)
+- [积塔半导体获80亿元战略融资 (NE时代)](https://www.ne-time.cn/web/article/22790) (30 Nov 2021)
+- [积塔半导体官网新闻中心（含产能口径：8英寸>130万片/年，12英寸在建）](https://www.gtasemi.com.cn/news) (01 Oct 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

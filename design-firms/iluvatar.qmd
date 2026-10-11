@@ -1,0 +1,39 @@
+---
+title: "Shanghai Iluvatar CoreX Semiconductor"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 上海天数智芯半导体股份有限公司 (Tiānshù Zhìxīn)
+
+::: {.callout-tip}
+## Why This Matters
+China's first company to mass-produce a general-purpose training GPU (天垓100, 2021) and, with H1 2026 results (revenue ¥9.46亿 +191.6%, net +¥1.06亿), the first of the GPU startups to post a profitable half-year — the unit-economics proof point for the whole sector. FY2025 revenue ¥10.34亿 (+91.6%).
+:::
+
+## What does this firm design?
+
+Cloud training/inference GPGPU chips and cards, edge AI products, AI servers/cluster solutions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2015 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | General GPGPUs: 天垓 training series (100/150/Gen3, Gen4 announced July 2026), 智铠 inference series, 彤央 edge modules |
+| **Node Sophistication** | Gen2-class ~7/12nm-equivalent (undisclosed); HBM-equipped; domestic-node transition implied by 60%-of-placement supply-chain mandate — specifics not verified |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [天数智芯港交所上市 (证券时报)](https://www.stcn.com/article/detail/3578078.html) (08 Jan 2026)
+- [天数智芯2025年报：营收10.34亿+91.6% (南方都市报)](https://www.163.com/dy/article/KQ3JKI5605129QAF.html) (09 Apr 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

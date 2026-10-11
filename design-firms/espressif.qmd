@@ -1,0 +1,39 @@
+---
+title: "Espressif Systems (Shanghai)"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 乐鑫信息科技（上海）股份有限公司 (Yuèxīn Kējì)
+
+::: {.callout-tip}
+## Why This Matters
+The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas revenue +40.4%; H1 2026 ¥14.81亿 (+18.9%). Its pivot to fully self-developed RISC-V cores removes the last foreign-IP dependency across its mainstream line.
+:::
+
+## What does this firm design?
+
+Wi-Fi/BLE/Thread connectivity SoCs and MCUs with self-designed RISC-V CPUs, plus modules/devkits (M5Stack majority-owned).
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2008 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Wi-Fi/Bluetooth/802.15.4 connectivity SoCs — the ESP32 family (C/H/P/S lines) from entry MCU to dual-band Wi-Fi 6 (ESP32-C5) and BLE 6.0 (ESP32-H4) |
+| **Node Sophistication** | 40nm-class mainstream — deliberately mature; value is in integration and software, not geometry |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **4.8/5**
+
+## Sources
+
+- [乐鑫科技2025年年度报告摘要 (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-03-21/1225022430.PDF) (21 Mar 2026)
+- [乐鑫2025年报解读：净利4.98亿+47%，海外+40% (新浪财经)](https://finance.sina.com.cn/stock/aigc/stockfs/2026-03-20/doc-inhrrvnu0725505.shtml) (20 Mar 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

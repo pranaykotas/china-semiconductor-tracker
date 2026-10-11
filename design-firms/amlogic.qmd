@@ -1,0 +1,39 @@
+---
+title: "Amlogic (Shanghai) Co., Ltd."
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 晶晨半导体（上海）股份有限公司 (Jīngchén Bàndǎotǐ)
+
+::: {.callout-tip}
+## Why This Matters
+China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026, Samsung TVs enter volume on its silicon. FY2025: ¥67.93亿 revenue (+14.6%), record 174M chips; H1 2026 ¥43.91亿 (+31.9%) with TV SoC shipments +30%; guided FY2026 +25-45%.
+:::
+
+## What does this firm design?
+
+4K/8K STB and smart-TV SoCs, edge-AI NPU platforms, vision-AI and Wi-Fi 6 connectivity chips.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2003 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Smart set-top-box/TV SoCs (S/T lines), AIoT, smart-vision (C line), Wi-Fi 6 (W line); ~270 global operator customers |
+| **Node Sophistication** | 6nm in mass production — first ARMv9-based 6nm STB SoC (~9M units 2025, 30M targeted 2026); the most advanced consumer-SoC node among the listed design houses |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [晶晨股份2025年度业绩快报：营收67.93亿 (上海证券报)](https://paper.cnstock.com/html/2026-02/12/content_2180614.htm) (12 Feb 2026)
+- [晶晨2026半年报点评：进入三星电视供应链 (证券之星)](https://wap.stockstar.com/detail/RB2026081900043670) (19 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -1,0 +1,39 @@
+---
+title: "Unigroup Guoxin Microelectronics"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 紫光国芯微电子股份有限公司 (Zǐguāng Guówēi)
+
+::: {.callout-tip}
+## Why This Matters
+China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (+11.5%), net ¥14.37亿 at 55.6% gross margin; H1 2026 net ¥7.98亿. January 2026: agreed to buy power-semi maker 瑞能半导体 (NXP/WeEn lineage) for ¥1.9 billion, extending the portfolio into power discretes.
+:::
+
+## What does this firm design?
+
+Radiation/aerospace-tolerant CPUs/FPGA/memory/analog, eSIM and secure-element chips, quartz timing devices.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 2001 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | Specialty (mil/aerospace-grade) ICs — >60% domestic share in special FPGA, 800+ part numbers; smart- security chips (eSIM/SIM global leader, car security); quartz devices |
+| **Node Sophistication** | Aerospace-grade qualification over geometry; 宇航用FPGA family + specialty HBM in customer test (2025); AI video chip completed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [紫光国微2026年半年度报告摘要 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-15/1225474653.PDF) (15 Aug 2026)
+- [西安紫光国芯启动A股IPO辅导：DRAM/CXL/堆叠存储 (财联社)](https://www.cls.cn/detail/2249957) (07 Jan 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

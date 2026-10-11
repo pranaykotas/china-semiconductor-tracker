@@ -1,0 +1,39 @@
+---
+title: "Sino Wealth Electronic"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 中颖电子股份有限公司 (Zhōngyǐng Diànzǐ)
+
+::: {.callout-tip}
+## Why This Matters
+Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net +72.9%) recovering — with the control transfer and capital injection a deliberate consolidation play toward automotive/robotics as appliance MCU demand saturates.
+:::
+
+## What does this firm design?
+
+Appliance/industrial MCUs, BMICs for tools/batteries, AMOLED DDICs, early automotive MCUs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 1994 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Home-appliance/industrial MCUs (~60% of revenue, domestic leader), battery-management ICs (~30%), AMOLED display drivers |
+| **Node Sophistication** | Mature MCU nodes; no advanced-node exposure |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [傅启明套现12.45亿：威朗国际转让中颖电子控制权 (虎嗅)](https://m.huxiu.com/article/4495169.html) (22 Jun 2025)
+- [中颖电子定增不超10亿元：致能工电全额认购 (证券时报)](https://www.stcn.com/article/detail/3727506.html) (03 Apr 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

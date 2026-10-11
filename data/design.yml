@@ -504,3 +504,748 @@ design_firms:
       - url: "https://caifuhao.eastmoney.com/news/20260317220822529826630"
         title: "华大九天（301269）投资价值分析报告：国产EDA龙头迈入攻坚期，全流程突破在即 (东方财富)"
         date: "2026-03-17"
+
+  - id: smartsens
+    name_en: "SmartSens Technology"
+    name_zh: "思特威（上海）电子科技股份有限公司"
+    name_pinyin: "Sītèwēi"
+    category: "Fabless"
+    founded: 2017
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.16, lon: 121.40}
+    product_focus: "CMOS image sensors for security/AIoT, smartphone, automotive and machine vision"
+    design_scope: "Pure-play fabless CIS design — pixel array, readout, on-chip ISP and LOFIC HDR IP in-house; wafer and assembly outsourced"
+    node_sophistication: "Specialty CIS platforms; 50MP flagship main-camera sensors (SC585XS family, LOFIC HDR 2.0) described by the company as a fully domesticated process flow; exact nm not disclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 4, market_readiness: 5}
+    narrative:
+      significance: "The clearest import-substitution winner in CIS: #1 globally in surveillance CIS, now cracking flagship smartphone cameras (Xiaomi/OPPO main and sub cameras) and scaling automotive CIS — FY2025 revenue ¥90.31亿 (+51.3%), of which smartphone ¥46.75亿 and automotive ¥11.22亿 (+113%); H1 2026 revenue ¥46.0亿. A March 2026 placement plan (up to ¥3.2 billion) funds vision-AI and edge-AI ASICs — an attempt to outgrow the sensor business."
+      what_it_designs: "1–50MP+ CMOS image sensors (security, smartphone, automotive, machine vision) plus emerging AI-vision/edge ASIC solutions."
+    sources:
+      - url: "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260327/cbe93bc5c61443d880f37708a0126825.PDF"
+        title: "思特威2025年年度报告 (巨潮资讯)"
+        date: "2026-03-27"
+      - url: "https://news.qq.com/rain/a/20260825A034UX00"
+        title: "思特威半年报：营收46亿+21%，拟定增32亿投向高性能CIS与端侧AI (腾讯新闻)"
+        date: "2026-08-25"
+
+  - id: galaxycore
+    name_en: "GalaxyCore Inc."
+    name_zh: "格科微有限公司"
+    name_pinyin: "Gékēwēi"
+    category: "Fabless"
+    founded: 2003
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.21, lon: 121.60}
+    product_focus: "High-volume CMOS image sensors (VGA–50MP) and display driver ICs"
+    design_scope: "Self-declared transition from Fabless to Fab-Lite: in-house 12-inch Lingang fab + Jiashan test/packaging, with portions still outsourced — a hybrid not captured well by any single tracker category"
+    node_sophistication: "GalaxyCell 2.0 BSI platform (0.61–1.0µm pixels); world-first single-chip 0.61µm 50MP CIS; first domestic 12-inch LOFIC sensor (140dB, automotive)"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
+    narrative:
+      significance: "The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment in whether a Chinese design house can run its own 12-inch specialty fab: FY2025 revenue ¥77.82亿 (+21.9%) but net profit collapsed to ¥0.51亿 as the Lingang line absorbed depreciation; September 2026 plan to raise ~¥4.2 billion more for capacity. H1 2026: revenue ¥41.53亿, net ¥7.3 million."
+      what_it_designs: "Smartphone/IoT automotive CIS and LCD/OLED display driver ICs, increasingly on its own 300mm line."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-08-28/1225521830.PDF"
+        title: "格科微2026年半年度报告（经营模式由Fabless转变为Fab-Lite） (巨潮资讯)"
+        date: "2026-08-28"
+      - url: "https://www.cnfin.com/gs-lb/detail/20260929/4475920_1.html"
+        title: "格科微拟定增募资约42亿元扩产 (新华财经)"
+        date: "2026-09-29"
+
+  - id: maxscend
+    name_en: "Maxscend Microelectronics"
+    name_zh: "江苏卓胜微电子股份有限公司"
+    name_pinyin: "Zhuóshèngwēi"
+    category: "Fabless"
+    founded: 2012
+    location: {city: "Wuxi", province: "Jiangsu", lat: 31.50, lon: 120.30}
+    product_focus: "Smartphone RF front-end: switches, LNAs, DiFEM/L-DiFEM modules, SAW/MAX-SAW filters, L-PAMiD, WiFi/BLE, satellite NTN front-ends"
+    design_scope: "Deep Fab-Lite vertical integration — in-house 6-inch SAW filter line (15,000 wafers/month) and 12-inch SiGe RF platform; ~¥9.17 billion cumulative invested in the 芯卓 fab program; ¥3.475 billion placement completed April 2026 to expand it"
+    node_sophistication: "12-inch silicon-based RF platform (switch/LNA, second-gen in volume); 6-inch TCSAW/MAX-SAW filter process; fully domestic-supply-chain L-PAMiD transmit module shipping to top brands — a Chinese first"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 5, market_readiness: 3}
+    narrative:
+      significance: "The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing one: FY2025 revenue ¥37.26亿 (-17.0%) with the company's first-ever annual loss (¥-2.93亿), widened to ¥-3.71亿 in H1 2026 as fab depreciation hit. Its volume L-PAMiD with domestic filter+switch+external PA is the first credible Chinese mid/high-tier module."
+      what_it_designs: "RF front-end chips and modules for smartphones/IoT, WiFi-7 and NTN satellite front-ends, plus 6G-stage research."
+    sources:
+      - url: "http://static.cninfo.com.cn/finalpage/2026-04-28/1225220150.PDF"
+        title: "卓胜微2025年年度报告摘要（Fab-Lite转型细节） (巨潮资讯)"
+        date: "2026-04-28"
+      - url: "https://finance.cnr.cn/ycbd/20260826/t20260826_527792588.shtml"
+        title: "卓胜微半年报亏损3.71亿元 (央广网)"
+        date: "2026-08-26"
+
+  - id: sgmicro
+    name_en: "SGMICRO Corp."
+    name_zh: "圣邦微电子（北京）股份有限公司"
+    name_pinyin: "Shèngbāng"
+    category: "Fabless"
+    founded: 2007
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.93, lon: 116.32}
+    product_focus: "Broadline analog: signal chain (amps, ADC/DAC, interface) + power management (LDO, DC-DC, AMOLED, battery) — 7,200+ SKUs across 38 categories"
+    design_scope: "Pure fabless (TSMC main, SMIC/Eastever secondary; assembly at JCET/Tongfu/Huatian); no owned fab or IP from foreign analog houses"
+    node_sophistication: "Mature specialty analog nodes; high-end parts include 140dB log amps, 24-bit ADCs, 120V monitoring AFE, GaN drivers, automotive 100V buck controllers"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): FY2025 revenue ¥38.98亿 (+16.5%), H1 2026 ¥25.95亿 (+42.7%) on optical-module/AI-server demand. A+H listing (June 2026, 3661.HK) makes it the consolidation vehicle for Chinese analog."
+      what_it_designs: "General-purpose and application-specific analog/mixed-signal ICs across consumer, industrial, automotive and now datacenter power/optical markets."
+    sources:
+      - url: "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/ebe4a5fa-a58d-4b69-8d4f-f4b531a51e55.PDF"
+        title: "圣邦股份2026年半年度报告 (深交所)"
+        date: "2026-08-29"
+      - url: "https://news.qq.com/rain/a/20260626A088UL00"
+        title: "圣邦股份H股港交所上市，市值一度超845亿港元 (腾讯新闻)"
+        date: "2026-06-26"
+
+  - id: southchip
+    name_en: "Southchip Semiconductor Technology"
+    name_zh: "上海南芯半导体科技股份有限公司"
+    name_pinyin: "Nánxīn"
+    category: "Fabless"
+    founded: 2015
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.60}
+    product_focus: "Wired/wireless charging and power management: charge pumps, switch charging, AC-DC adapters, BMS, automotive PMIC, power MCUs"
+    design_scope: "Pure fabless; founder team ex-TI; charge-pump architecture IP globally first-tier"
+    node_sophistication: "High-voltage BCD (700V-class), GaN combo/drive AC-DC, 4:1/6:2 charge-pump topologies at 98.65% peak efficiency (120W SC8571); Qi2.2 25W wireless modules among world's first certified"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 3, market_readiness: 4}
+    narrative:
+      significance: "Won the flagship fast-charging socket from TI/Qualcomm/NXP inside Xiaomi/OPPO/vivo/Honor/Samsung flagships — import substitution essentially completed — then hit the ceiling of that niche: FY2025 revenue ¥32.61亿 (+27.0%) but profit -22%, and the first half-year loss post-IPO in H1 2026 (-¥44.9 million) as smartphone demand softened. The automotive (+140.6%) and AI-wearable pivot is the sector's escape route in miniature."
+      what_it_designs: "10–300W charging/battery-management IC chains (adapter-to-cell), automotive PMICs, GaN-integrated AC-DC controllers, RISC-V power MCUs."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-04-30/1225265339.PDF"
+        title: "南芯科技2025年年度报告 (巨潮资讯)"
+        date: "2026-04-30"
+      - url: "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260817/e6e65d63adba4955a2cc6774d1f61c8d.PDF"
+        title: "南芯科技2026年半年度报告 (巨潮资讯)"
+        date: "2026-08-17"
+
+  - id: novosense
+    name_en: "Novosense Semiconductor"
+    name_zh: "苏州纳芯微电子股份有限公司"
+    name_pinyin: "Nàxīnwēi"
+    category: "Fabless"
+    founded: 2013
+    location: {city: "Suzhou", province: "Jiangsu", lat: 31.31, lon: 120.68}
+    product_focus: "Automotive and industrial analog: sensor signal-chain ASICs, magnetic/pressure sensors, digital isolators, gate drivers, LED/motor drivers"
+    design_scope: "Fabless with self-built automotive functional-safety system (ISO 26262/IATF 16949); 2025 consolidation of magnetic-sensor firm MagIc; founders ex-ADI"
+    node_sophistication: "Specialty analog nodes undisclosed; flagship metrics: <1µV-referred sensor ASICs, AEC-Q100/Q103 parts, ASIL-D safety chain, 4,200+ SKUs"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "China's most credible challenger to ADI/TI in automotive/energy infrastructure analog, where certification — not lithography — is the moat. Revenue is exploding (+71.8% FY2025 to ¥33.68亿; +66.7% H1 2026 to ¥25.40亿 with first profit turnaround), but core operations remain barely breakeven — the 'buy share with R&D' stage of the climb."
+      what_it_designs: "Sensor signal conditioning, isolation/interface, gate drivers and power-path protection for EVs, PV/storage, and industrial systems."
+    sources:
+      - url: "http://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-28/688052_20260828_S5WN.pdf"
+        title: "纳芯微2026年半年度报告 (上交所)"
+        date: "2026-08-28"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-03-31/1225059424.PDF"
+        title: "纳芯微2025年年度报告 (巨潮资讯)"
+        date: "2026-03-31"
+
+  - id: awinic
+    name_en: "Shanghai Awinic Technology"
+    name_zh: "上海艾为电子技术股份有限公司"
+    name_pinyin: "Àiwéi"
+    category: "Fabless"
+    founded: 2008
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.15, lon: 121.38}
+    product_focus: "Smartphone/IOE analog portfolio — audio amps, haptics, PMIC (charge pump/backlight/AMOLED), RF switches/LNA, LED/motor drivers"
+    design_scope: "Pure fabless; tens of billions of units shipped annually into Xiaomi/OV/Transsion plus BYD/Hyundai and overseas brands"
+    node_sophistication: "Mature BCD/analog nodes; no advanced-node dependency"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 2, market_readiness: 4}
+    narrative:
+      significance: "The archetypal volume-first Chinese consumer-analog house — where import substitution is done and the fight is now price: FY2025 revenue ¥28.54亿 (-2.7%) with profit +24% on mix, then H1 2026 non-recurring profit down 91% as memory-driven smartphone cost inflation hit customers. Its ¥1.9 billion January 2026 convertible is earmarked for the auto/industrial escape."
+      what_it_designs: "Audio/haptic/PMIC/RF analog for smartphones, wearables, robotics and increasingly automotive."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-04-10/1225090195.PDF"
+        title: "艾为电子2025年年度报告 (巨潮资讯)"
+        date: "2026-04-10"
+      - url: "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12506287&stockid=688798"
+        title: "艾为电子2026年半年度报告公告 (新浪财经)"
+        date: "2026-08-20"
+
+  - id: 3peak
+    name_en: "3PEAK Inc."
+    name_zh: "思瑞浦微电子科技（苏州）股份有限公司"
+    name_pinyin: "Sīruìpǔ"
+    category: "Fabless"
+    founded: 2008
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.21, lon: 121.60}
+    product_focus: "High-performance analog: precision/high-speed signal chain, ADC/DAC, RF PA-control and optical-module/server-power AFEs + power management (via 创芯微 acquisition)"
+    design_scope: "Pure fabless; Huawei's Hubble was an early significant shareholder; telecom-grade performance benchmarked to ADI/TI"
+    node_sophistication: "Nodes undisclosed; headline capabilities: 8GHz-bandwidth op-amps, 250MSPS 8/10-bit ADCs, 64-channel base-station AFE in volume, 1.6T optical-module SiPho AFE sampling, 120V ASIL-D BMS AFE"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "Standard-bearer for high-end analog indigenization — real share in telecom base-station signal chains and now AI-server/optical-module AFEs, the categories ADI/TI margin most jealously guard. FY2025 revenue ¥21.42亿 (+75.7%, turnaround to profit) and H1 2026 ¥16.06亿 (+69.2%, net +368%) after nine straight quarters of sequential growth."
+      what_it_designs: "Precision and high-speed analog/mixed-signal ICs for telecom, industrial instrumentation, optical modules, servers and automotive."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-03-31/1225060234.PDF"
+        title: "思瑞浦2025年年度报告 (巨潮资讯)"
+        date: "2026-03-31"
+      - url: "http://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-8/2026-08-20/12505957.PDF"
+        title: "思瑞浦2026年半年度报告 (上交所披露)"
+        date: "2026-08-20"
+
+  - id: hygon
+    name_en: "Hygon Information Technology"
+    name_zh: "海光信息技术股份有限公司"
+    name_pinyin: "Hǎiguāng Xìnxī"
+    category: "State-Backed Design House"
+    founded: 2014
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.98, lon: 116.31}
+    product_focus: "x86-licensed server/desktop CPUs (C86 3000/5000/7000) + DCU GPGPUs (8000 series, DeepSeek-compatible DTK stack)"
+    design_scope: "In-house design/verification on the AMD Zen-1 derivative license frozen by 2019 Entity-List action; self-iterated since; fab/OSAT outsourced"
+    node_sophistication: "GF 14nm-class licensed lineage; 深算三号 DCU entering domestic first tier ('Hopper-class' claim not officially made — not verified)"
+    entity_list:
+      status: true
+      date_added: "2019-06-24"
+      list: "US Commerce BIS"
+    design_score: {ip_ownership: 3, design_completeness: 5, domain_difficulty: 5, market_readiness: 5}
+    narrative:
+      significance: "China's only scaled x86 CPU + GPGPU dual-track design house and the anchor of 信创 server supply: FY2025 revenue ¥143.77亿 (+56.9%, net ¥25.45亿), H1 2026 ¥90.99亿 (+66.5%) — with inventory build (¥75亿) telegraphing an AI-demand run. Its planned ¥-with-中科曙光 absorption merger (announced May 2025) was terminated 9 December 2025, keeping chip and system layers separate."
+      what_it_designs: "Server/desktop CPUs, AI accelerator DCUs, HSL interconnect bus, and the DTK CUDA-benchmarked software stack."
+    sources:
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF"
+        title: "海光信息2026年半年度报告 (巨潮资讯)"
+        date: "2026-08-14"
+      - url: "https://companies.caixin.com/2025-12-09/102391672.html"
+        title: "海光信息终止吸收合并中科曙光 (财新)"
+        date: "2025-12-09"
+
+  - id: metax
+    name_en: "MetaX Integrated Circuits"
+    name_zh: "沐曦集成电路（上海）股份有限公司"
+    name_pinyin: "Mùxī"
+    category: "Fabless"
+    founded: 2020
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.19, lon: 121.48}
+    product_focus: "Full-stack GPGPU: 曦云C training/inference (C500/C600, C700 in dev), 曦思N inference, 曦索X scientific compute, 曦彩G graphics"
+    design_scope: "Fabless with self-owned GPU architecture/ISA; MXMACA stack claims high CUDA compatibility; C600 built on a fully domestic supply chain (foundry/DRAM/OSAT/EDA)"
+    node_sophistication: "C500 N7-equivalent + HBM2e; C600 domestic advanced node + HBM; C700 targeting ~H100-level (per company statements relayed by 21经济, exact node undisclosed)"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 3}
+    narrative:
+      significance: "The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the GPU listing frenzy; FY2025 revenue ¥16.44亿 (+121%) still loss-making (-¥7.89亿), H1 2026 revenue ¥13.24亿 with headline net profit turned positive only on non-recurring items. Its C600 fully-domestic-chain closure is the flagship proof that AI chips can be built without TSMC."
+      what_it_designs: "Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI software stack."
+    sources:
+      - url: "https://www.jfdaily.com/news/detail?id=1037108"
+        title: "沐曦股份科创板上市首日涨693% (上观新闻)"
+        date: "2025-12-17"
+      - url: "https://www.eet-china.com/mp/a492274.html"
+        title: "沐曦2025年报：营收16.44亿，C600全国产供应链 (电子工程专辑)"
+        date: "2026-03-26"
+
+  - id: iluvatar
+    name_en: "Shanghai Iluvatar CoreX Semiconductor"
+    name_zh: "上海天数智芯半导体股份有限公司"
+    name_pinyin: "Tiānshù Zhìxīn"
+    category: "Fabless"
+    founded: 2015
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.50}
+    product_focus: "General GPGPUs: 天垓 training series (100/150/Gen3, Gen4 announced July 2026), 智铠 inference series, 彤央 edge modules"
+    design_scope: "Fabless; self-developed architecture/ISA/software; HKEX-listed (9903.HK, IPO 8 January 2026, ~HK$3.7bn raised; ~HK$7.03bn July 2026 placement; Hang Seng Tech constituent Sept 2026)"
+    node_sophistication: "Gen2-class ~7/12nm-equivalent (undisclosed); HBM-equipped; domestic-node transition implied by 60%-of-placement supply-chain mandate — specifics not verified"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "China's first company to mass-produce a general-purpose training GPU (天垓100, 2021) and, with H1 2026 results (revenue ¥9.46亿 +191.6%, net +¥1.06亿), the first of the GPU startups to post a profitable half-year — the unit-economics proof point for the whole sector. FY2025 revenue ¥10.34亿 (+91.6%)."
+      what_it_designs: "Cloud training/inference GPGPU chips and cards, edge AI products, AI servers/cluster solutions."
+    sources:
+      - url: "https://www.stcn.com/article/detail/3578078.html"
+        title: "天数智芯港交所上市 (证券时报)"
+        date: "2026-01-08"
+      - url: "https://www.163.com/dy/article/KQ3JKI5605129QAF.html"
+        title: "天数智芯2025年报：营收10.34亿+91.6% (南方都市报)"
+        date: "2026-04-09"
+
+  - id: kunlunxin
+    name_en: "Kunlunxin (Beijing) Technology"
+    name_zh: "昆仑芯（北京）科技股份有限公司"
+    name_pinyin: "Kūnlún Xīn"
+    category: "Fabless"
+    founded: 2011
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.98, lon: 116.31}
+    product_focus: "AI accelerators: Kunlun 1/2 (2018/2021), P800 third-gen general AI chip (2024 mass production, FP16 345 TFLOPS)"
+    design_scope: "Baidu spin-off (Baidu 57.67%); full stack chip→32,000-card cluster→compiler; external anchor customers confirmed incl. Tencent, China Mobile (¥1bn+ order), Geely"
+    node_sophistication: "P800 on Samsung 7nm (per Lianhe Zaobao); next-gen node not verified"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "The only internet-giant spin-off in the domestic AI-chip first tier — ~116,000 cards shipped in 2025, tied 3rd with Cambricon among domestic vendors, trained ERNIE 5.1 on an all-domestic cluster. In 2026 it launched a dual listing path (confidential HKEX filing January; STAR tutoring via CICC May) targeting a valuation Reuters put near $50 billion. Parent Baidu was added to DoD's 1260H list (26 June 2026) — political, not export, exposure."
+      what_it_designs: "Cloud AI training/inference XPU chips, cluster systems and software for search, ads, recommendation and reasoning workloads."
+    sources:
+      - url: "https://finance.sina.com.cn/tech/roll/2026-06-29/doc-iniezxcc0358752.shtml"
+        title: "昆仑芯P800：2.3倍H20性能，多家大客户落地 (新浪科技转联合早报)"
+        date: "2026-06-29"
+      - url: "https://stcn.com/article/detail/3899769.html"
+        title: "昆仑芯启动科创板上市辅导，中金保荐 (证券时报)"
+        date: "2026-05-08"
+
+  - id: zhaoxin
+    name_en: "Shanghai Zhaoxin Semiconductor"
+    name_zh: "上海兆芯集成电路股份有限公司"
+    name_pinyin: "Zhàoxīn"
+    category: "State-Backed Design House"
+    founded: 2013
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.11, lon: 121.59}
+    product_focus: "x86-compatible CPUs: 开先 KX desktop/embedded (KX-7000, 8-core/3.7GHz, chiplet), 开胜 KH servers (KH-50000 up to 192 cores dual-socket)"
+    design_scope: "In-house microarchitecture on the VIA-derived x86 license base (frozen pre-June-2013 IP); ZX86 instruction extensions; GPU carved out to 格兰菲 Glanville"
+    node_sophistication: "KX-6000 16nm; KX-7000/KH-50000 on more advanced undisclosed node (~N7-class presumed — not verified); domestic-fab pivot underway"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 3, design_completeness: 4, domain_difficulty: 5, market_readiness: 3}
+    narrative:
+      significance: "The state-backed (Shanghai United Investment 50.07%) second x86 path — the only domestic vendor natively running standard Windows+Linux binaries on desktops; July 2026 reporting put ZX86 laptops at ~50% of central-government procurement. STAR IPO accepted June 2025 (¥41.69亿 raise); inquiry responses (April 2026) show FY2025 revenue ≈¥11.11亿 (+54.8%) against ≈-¥10.3亿 loss — still the classic loss-making CPU startup awaiting a listing test."
+      what_it_designs: "x86-compatible desktop/server/embedded CPUs, chipsets, instruction-set extensions; GPU affiliate."
+    sources:
+      - url: "http://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260506/b643291faa98423784e45df45dc6e74c.pdf"
+        title: "兆芯第二轮审核问询函回复（2025年营收11.11亿） (巨潮资讯)"
+        date: "2026-05-06"
+      - url: "https://www.36kr.com/p/3343081803589128"
+        title: "兆芯科创板IPO获受理：上海国资控股的x86之路 (36氪)"
+        date: "2025-06-19"
+
+  - id: jingjia
+    name_en: "Changsha Jingjia Microelectronics"
+    name_zh: "长沙景嘉微电子股份有限公司"
+    name_pinyin: "Jǐngjiāwēi"
+    category: "Fabless"
+    founded: 2006
+    location: {city: "Changsha", province: "Hunan", lat: 28.20, lon: 112.98}
+    product_focus: "Military/avionics graphics SoCs, JM9/JM11 GPUs, 景宏 AI modules/servers; 2025 edge-AI SoC expansion via 诚恒微 (CH37, 64 TOPS)"
+    design_scope: "Chip→module→system full chain with in-house GPU IP; top-5 customers (military programs) = 64.5% of 2025 sales"
+    node_sophistication: "JM9 mid-range domestic node; JM11 (taped out Dec 2024, cloud-desktop/vGPU small batches 2025-26) more advanced, undisclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 4, market_readiness: 2}
+    narrative:
+      significance: "China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) yet posted a second straight annual loss (-¥1.65亿) with R&D at 59% of revenue — the military-specialist squeeze: qualification moat protects share but cannot fund a commercial AI pivot. H1 2026: revenue ¥3.34亿 (+73%), still loss-making."
+      what_it_designs: "Graphics/display processors for avionics and信创 desktops, AI accelerator modules, edge-AI SoCs."
+    sources:
+      - url: "https://www.nbd.com.cn/articles/2026-04-24/4357029.html"
+        title: "景嘉微2025年报：营收7.2亿，连续第二年亏损 (每日经济新闻)"
+        date: "2026-04-24"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-21/1225484966.PDF"
+        title: "景嘉微2026年半年度报告 (巨潮资讯)"
+        date: "2026-08-21"
+
+  - id: innosilicon
+    name_en: "Innosilicon Technology"
+    name_zh: "芯动科技"
+    name_pinyin: "Xīndòng Kējì"
+    category: "Fabless"
+    founded: 2006
+    location: {city: "Wuhan", province: "Hubei", lat: 30.51, lon: 114.42}
+    product_focus: "High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, first domestic full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services"
+    design_scope: "IP licensing + design services + own GPU products; asset-light fabless; world-first 120-lane PCIe Gen5 switch chip (GX9104/9120, Feb 2026)"
+    node_sophistication: "IP proven across advanced nodes (HBM/UCIe/224G PHY imply ≤N5-class enablement); Fenghua GPUs ≤12nm; latest node not verified"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite make it central to de-NVLink scale-up fabrics. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups. Private, no verified IPO filing."
+      what_it_designs: "Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series graphics/compute GPUs."
+    sources:
+      - url: "https://www.163.com/dy/article/L1G15GPC0511BFPT.html"
+        title: "2026硬核中国芯榜单：芯动微电子入选 (网易转集微网)"
+        date: "2026-01-15"
+
+  - id: fudan-micro
+    name_en: "Shanghai Fudan Microelectronics Group"
+    name_zh: "上海复旦微电子集团股份有限公司"
+    name_pinyin: "Fùdàn Wēidiàn"
+    category: "Fabless"
+    founded: 1998
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.50}
+    product_focus: "FPGA family (million-gate 28nm mainstream, billion-gate FinFET, RF-FPGA, PSoC, FPAI), security/ID chips, EEPROM/NOR/SLC NAND, metering MCUs; test via 华岭股份"
+    design_scope: "Chip design + in-house FPGA EDA (Procise) + test subsidiary; HK-listed 2000 (first domestic IC-design IPO), STAR 2021"
+    node_sophistication: "28nm CMOS mainline; 1x-nm-class FinFET products in customer intro; 2.5D packaging; FN4 constraint blocks foreign tools/output at advanced nodes"
+    entity_list:
+      status: true
+      date_added: "2025-09-12"
+      list: "US Commerce BIS (Entity List, Footnote 4)"
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "Flagship of domestic FPGA independence — its parts underpin satellite, power-grid and telecom infrastructure — and the highest-profile pure-commercial design victim so far of US controls: added 12 September 2025 with Footnote 4, hitting fabs, EDA and IP outputs simultaneously. The forced pivot (strategic wafer/tooling stockpile grew from ~¥600m 2020 to ~¥3.1bn by H1 2025) paid off handsomely under scarcity: FY2025 revenue ¥39.82亿 (+10.9%), H1 2026 net profit ¥8.49亿 (+338.6%) with FPGA line ¥13.16亿 (2025, +16%)."
+      what_it_designs: "FPGAs/PSoCs/RF-FPGAs/FPAI programmable-AI chips + EDA, secure-identity/smartcard ICs, non-volatile memory, smart-meter MCUs."
+    sources:
+      - url: "https://www.guancha.cn/economy/2025_09_15_790121.shtml"
+        title: "复旦微电回应被列入实体清单：战略备货与国产化工具链 (观察者网)"
+        date: "2025-09-15"
+      - url: "https://static.cninfo.com.cn/finalpage/2026-03-28/1225048628.PDF"
+        title: "复旦微电2025年年度报告 (巨潮资讯)"
+        date: "2026-03-28"
+
+  - id: anlogic
+    name_en: "Shanghai Anlogic Infotech"
+    name_zh: "上海安路信息科技股份有限公司"
+    name_pinyin: "Ānlù Kējì"
+    category: "State-Backed Design House"
+    founded: 2011
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.40}
+    product_focus: "FPGA/FPSoC (ELF, Eagle, Phoenix/Fenghuang lines) + in-house FPGA EDA toolchain"
+    design_scope: "Fabless design + own full-flow EDA; largest shareholder Huada Semiconductor (CEC) — the 'national team' FPGA complement to Fudan Micro"
+    node_sophistication: "55nm→domestic-28nm FPGA in volume→first advanced-node (FinFET) high-performance FPGA deliveries 2025; ≤¥1.26bn placement for >4KK-LUT chiplet FPGA (2.5D multi-die)"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 2}
+    narrative:
+      significance: "The most explicit domestic attempt to reach Xilinx/Altera-scale FPGA density (4M+ LUT chiplet program) — while still small and loss-making (FY2025 revenue ¥5.20亿, net -¥2.72亿). The turnaround signal is H1 2026: revenue ¥4.32亿 (+93.3%), losses halved, on 'multi-fold' data-center sales as FPGAs ride the AI-emulation wave."
+      what_it_designs: "Reconfigurable logic (FPGA/FPSoC) for telecom, industrial, automotive (cockpit/LiDAR) and compute; FPGA design software."
+    sources:
+      - url: "https://pdf.dfcfw.com/pdf/H2_AN202603301820869925_1.pdf"
+        title: "安路科技2025年年度报告 (东方财富转巨潮)"
+        date: "2026-03-30"
+      - url: "http://www.zqrb.cn/gscy/gongsi/2026-08-29/A1787924786304.html"
+        title: "安路科技半年报营收翻倍：数据中心FPGA放量 (证券日报)"
+        date: "2026-08-29"
+
+  - id: pango
+    name_en: "Pango Micro (Shenzhen)"
+    name_zh: "深圳市紫光同创电子股份有限公司"
+    name_pinyin: "Zǐguāng Tóngchuàng"
+    category: "Fabless"
+    founded: 2013
+    location: {city: "Shenzhen", province: "Guangdong", lat: 22.54, lon: 113.95}
+    product_focus: "FPGA: Logos-2/Titan-2/Kosmo-2 lines + in-house EDA — comms, industrial, consumer"
+    design_scope: "Unlisted; controlled (55.27%) by the restructured 新紫光集团, not by listed Unigroup Guoxin (which equity-accounts it)"
+    node_sophistication: "Mid-range FPGA nodes (28nm-class mainstream in domestic comms); high-end FinFET line not yet demonstrated vs Fudan/Anlogic"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 4, market_readiness: 2}
+    narrative:
+      significance: "The last big unlisted domestic FPGA asset and the volume player in comms-side programmable logic; 2025 net loss narrowed to ¥108m (from ¥344m). STAR listing tutoring (CICC) filed April 2025 — fifth progress update published August 2026, still pre-acceptance — making it a near-term test of FPGA valuations after Fudan Micro's scarcity-driven rally."
+      what_it_designs: "Communication/industrial FPGAs and design software."
+    sources:
+      - url: "https://www.stcn.com/article/detail/1764250.html"
+        title: "紫光同创科创板上市辅导备案 (证券时报)"
+        date: "2025-04-30"
+
+  - id: unigroup-guoxin
+    name_en: "Unigroup Guoxin Microelectronics"
+    name_zh: "紫光国芯微电子股份有限公司"
+    name_pinyin: "Zǐguāng Guówēi"
+    category: "State-Backed Design House"
+    founded: 2001
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 39.99, lon: 116.33}
+    product_focus: "Specialty (mil/aerospace-grade) ICs — >60% domestic share in special FPGA, 800+ part numbers; smart- security chips (eSIM/SIM global leader, car security); quartz devices"
+    design_scope: "Fabless specialty-IC champion; 联营 of Pango FPGA; DRAM arm (西安紫光国芯) carved out in the 2019 restructuring and now filing A-share tutoring (Jan 2026)"
+    node_sophistication: "Aerospace-grade qualification over geometry; 宇航用FPGA family + specialty HBM in customer test (2025); AI video chip completed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 5}
+    narrative:
+      significance: "China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (+11.5%), net ¥14.37亿 at 55.6% gross margin; H1 2026 net ¥7.98亿. January 2026: agreed to buy power-semi maker 瑞能半导体 (NXP/WeEn lineage) for ¥1.9 billion, extending the portfolio into power discretes."
+      what_it_designs: "Radiation/aerospace-tolerant CPUs/FPGA/memory/analog, eSIM and secure-element chips, quartz timing devices."
+    sources:
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-15/1225474653.PDF"
+        title: "紫光国微2026年半年度报告摘要 (巨潮资讯)"
+        date: "2026-08-15"
+      - url: "https://www.cls.cn/detail/2249957"
+        title: "西安紫光国芯启动A股IPO辅导：DRAM/CXL/堆叠存储 (财联社)"
+        date: "2026-01-07"
+
+  - id: espressif
+    name_en: "Espressif Systems (Shanghai)"
+    name_zh: "乐鑫信息科技（上海）股份有限公司"
+    name_pinyin: "Yuèxīn Kējì"
+    category: "Fabless"
+    founded: 2008
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.23, lon: 121.47}
+    product_focus: "Wi-Fi/Bluetooth/802.15.4 connectivity SoCs — the ESP32 family (C/H/P/S lines) from entry MCU to dual-band Wi-Fi 6 (ESP32-C5) and BLE 6.0 (ESP32-H4)"
+    design_scope: "Near-100% self-designed IP — RF, baseband/MAC, power management, and fully in-house RISC-V CPU cores (Xtensa legacy license retired from the mainstream); global developer ecosystem is the moat (180k+ GitHub projects)"
+    node_sophistication: "40nm-class mainstream — deliberately mature; value is in integration and software, not geometry"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 4, market_readiness: 5}
+    narrative:
+      significance: "The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas revenue +40.4%; H1 2026 ¥14.81亿 (+18.9%). Its pivot to fully self-developed RISC-V cores removes the last foreign-IP dependency across its mainstream line."
+      what_it_designs: "Wi-Fi/BLE/Thread connectivity SoCs and MCUs with self-designed RISC-V CPUs, plus modules/devkits (M5Stack majority-owned)."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022430.PDF"
+        title: "乐鑫科技2025年年度报告摘要 (巨潮资讯)"
+        date: "2026-03-21"
+      - url: "https://finance.sina.com.cn/stock/aigc/stockfs/2026-03-20/doc-inhrrvnu0725505.shtml"
+        title: "乐鑫2025年报解读：净利4.98亿+47%，海外+40% (新浪财经)"
+        date: "2026-03-20"
+
+  - id: amlogic
+    name_en: "Amlogic (Shanghai) Co., Ltd."
+    name_zh: "晶晨半导体（上海）股份有限公司"
+    name_pinyin: "Jīngchén Bàndǎotǐ"
+    category: "Fabless"
+    founded: 2003
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.21, lon: 121.53}
+    product_focus: "Smart set-top-box/TV SoCs (S/T lines), AIoT, smart-vision (C line), Wi-Fi 6 (W line); ~270 global operator customers"
+    design_scope: "Full multimedia SoC design; company states >70% of functional modules self-designed incl. video codecs, NPU, Wi-Fi PHY/MAC; Arm CPU licensed"
+    node_sophistication: "6nm in mass production — first ARMv9-based 6nm STB SoC (~9M units 2025, 30M targeted 2026); the most advanced consumer-SoC node among the listed design houses"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 4, market_readiness: 5}
+    narrative:
+      significance: "China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026, Samsung TVs enter volume on its silicon. FY2025: ¥67.93亿 revenue (+14.6%), record 174M chips; H1 2026 ¥43.91亿 (+31.9%) with TV SoC shipments +30%; guided FY2026 +25-45%."
+      what_it_designs: "4K/8K STB and smart-TV SoCs, edge-AI NPU platforms, vision-AI and Wi-Fi 6 connectivity chips."
+    sources:
+      - url: "https://paper.cnstock.com/html/2026-02/12/content_2180614.htm"
+        title: "晶晨股份2025年度业绩快报：营收67.93亿 (上海证券报)"
+        date: "2026-02-12"
+      - url: "https://wap.stockstar.com/detail/RB2026081900043670"
+        title: "晶晨2026半年报点评：进入三星电视供应链 (证券之星)"
+        date: "2026-08-19"
+
+  - id: ingenic
+    name_en: "Ingenic Semiconductor"
+    name_zh: "北京君正集成电路股份有限公司"
+    name_pinyin: "Běijīng Jūnzhèng"
+    category: "Fabless"
+    founded: 2005
+    location: {city: "Beijing", province: "Beijing Municipality", lat: 40.05, lon: 116.30}
+    product_focus: "Automotive/industrial memory via ISSI (¥29.11亿 of 2025 sales: SRAM world #2, niche DRAM, NOR/eMMC), MIPS/RISC-V AIoT & video SoCs, analog & car interconnect (LIN/CAN)"
+    design_scope: "Design fabless with own embedded CPU cores (MIPS heritage → fully self-developed RISC-V shipped in 100M+ chips) and ISSI's US/EU automotive memory franchise (acquired 2019-20)"
+    node_sophistication: "DRAM ramping 20nm→18nm→16nm; LPDDR5 in development; 3D DRAM targeting 2026 tape-out; SoCs ~22nm-class"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 5}
+    narrative:
+      significance: "The closest thing China has to a global automotive/industrial memory design house — 82.7% of revenue is overseas and ISSI qualifies with world carmakers, precisely the niche US Dec-2024 rules tried to fence. Q1 2026 (latest verified): revenue ¥15.6亿 (+47.1%), net ¥3.19亿 (+331.6%) as the DRAM supercycle monetizes; FY2025 ¥47.41亿 (+12.5%). A 3D-DRAM roadmap for AI bandwidth makes it the canary for Chinese memory design moving up."
+      what_it_designs: "Car-grade SRAM/DRAM/NOR/eMMC, RISC/MIPS AIoT-video SoCs, automotive LED drivers and LIN/CAN transceivers."
+    sources:
+      - url: "https://finance.sina.com.cn/tech/roll/2026-03-29/doc-inhssmvq4607958.shtml"
+        title: "北京君正2025年报：存储收入占比61% (新浪科技)"
+        date: "2026-03-29"
+      - url: "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwfpqq6340036.shtml"
+        title: "Q1净利3.19亿+332%：存储超级周期下的北京君正 (长江商报)"
+        date: "2026-04-30"
+
+  - id: puya
+    name_en: "Puya Semiconductor (Shanghai)"
+    name_zh: "普冉半导体（上海）股份有限公司"
+    name_pinyin: "Pǔrǎn"
+    category: "Fabless"
+    founded: 2016
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.22, lon: 121.51}
+    product_focus: "NOR flash (global #5, 550M+ units 2025), EEPROM (leader in phone-camera VCM), MCUs, VCM/OIS drivers; SLC NAND/eMMC/MCP via the SHM acquisition"
+    design_scope: "Fully fabless; SONOS-process NOR is licensed (expiry 2038 — disclosed dependency); April 2026 moving to buy remaining 49% of Noe-longtian/SHM (¥247m)"
+    node_sophistication: "40nm/4x-nm specialty NOR+MCU (2nd-gen SONOS, 3rd-gen '40E' in production); mature-node capacity scarcity (SMIC/Hua Hong) is its stated pricing driver"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 3, design_completeness: 4, domain_difficulty: 3, market_readiness: 5}
+    narrative:
+      significance: "The textbook double-case of 2025-26 fabless China: buying a distressed global asset to jump product tiers (SHM = ex-SK Hynix 2D NAND carve-out, world #4 SLC NAND), then riding the AI memory supercycle — H1 2026 revenue ¥39.59亿 (+336.7%) and net ¥8.27亿 (+1930%), versus FY2025 ¥23.20亿/+28.6% with profit down. Its MCP modules already ship into HP/Motorola/Cisco/Bosch chains."
+      what_it_designs: "NOR/EEPROM/SLC-NAND/eMMC/MCP memory and general/motor MCUs, camera VCM/OIS drivers."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-03-21/1225023836.PDF"
+        title: "普冉股份2025年年度报告 (巨潮资讯)"
+        date: "2026-03-21"
+      - url: "https://www.mrjjxw.com/articles/2026-08-18/4545641.html"
+        title: "普冉半年报营收增336%：并购SHM+存储涨价双击 (每日经济新闻)"
+        date: "2026-08-18"
+
+  - id: dosilicon
+    name_en: "Dosilicon Co., Ltd."
+    name_zh: "东芯半导体股份有限公司"
+    name_pinyin: "Dōngxīn Gǔfèn"
+    category: "Fabless"
+    founded: 2014
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.16, lon: 121.32}
+    product_focus: "Niche small-capacity memory — SLC NAND (domestic leader), NOR, DDR3/LPDDR4x DRAM, MCP combos for phone/module platforms"
+    design_scope: "Pure fabless (Korean subsidiary Fidelix lineage, US Nemostech); distinctive 35.87% stake in 砺算科技 (Lingxi) — China's most 'pure' self-architected consumer GPU"
+    node_sophistication: "1x-nm-class SLC NAND in volume; affiliate Lingxi 7G100 GPU on 6nm (taped out early 2025, retail May/July 2026; 4th globally WHQL-certified Windows GPU vendor)"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 3, design_completeness: 3, domain_difficulty: 4, market_readiness: 4}
+    narrative:
+      significance: "A two-story firm: a niche-memory designer riding the 2025-26 shortage to 67.7% gross margin and H1 2026 net profit ¥6.59亿 (vs FY2025 loss), and a listed proxy for Lingxi's consumer GPU incubation (¥0.42亿 equity loss H1). If the 7G100 scales, the off-balance-sheet GPU template becomes the model for design houses nurturing advanced logic."
+      what_it_designs: "SLC/MLC NAND, NOR, niche DRAM and MCP/eMMC combos; affiliate's 6nm graphics GPUs."
+    sources:
+      - url: "https://static.cninfo.com.cn/finalpage/2026-04-23/1225153903.PDF"
+        title: "东芯股份2025年年度报告 (巨潮资讯)"
+        date: "2026-04-23"
+      - url: "https://www.cls.cn/detail/2461083"
+        title: "东芯股份半年报：扭亏为盈，毛利率67.66% (财联社)"
+        date: "2026-08-21"
+
+  - id: semidrive
+    name_en: "SemiDrive Technology"
+    name_zh: "南京芯驰半导体科技有限公司"
+    name_pinyin: "Xīnchí Kējì"
+    category: "Fabless"
+    founded: 2018
+    location: {city: "Nanjing", province: "Jiangsu", lat: 32.06, lon: 118.80}
+    product_focus: "Automotive compute across the E/E architecture: X9/X10 smart-cockpit SoCs, G9 central gateway (first ChinaSecurity-certified), V9 ADAS SoCs, E3-series ASIL-D MCUs (E3650 on 22nm)"
+    design_scope: "400+ independent IP claimed; full ISO 26262 ASIL-D process chain (first in China, 2019); founders ex-Freescale/NXP; C-round ~$100m closed May 2026; no verified IPO filing"
+    node_sophistication: "First 16nm automotive SoC in China; E3650 22nm in volume; X10 AI-cockpit node undisclosed"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 5, market_readiness: 4}
+    narrative:
+      significance: "China's most credible NXP/Renesas challenger — the only domestic firm with cockpit+gateway+ADAS SoC+ASIL-D MCU all in production — now #1 domestic cockpit-SoC vendor (5th overall, 3.77%, ahead of HiSilicon per GGII 2025), with 14M+ units shipped and 2026 'Strategy 2.0' extending automotive safety silicon to robots (R1 cerebrum/D9-Max cerebellum)."
+      what_it_designs: "Cockpit/gateway/ADAS automotive SoCs, ASIL-D safety MCUs, robotics compute and motion-control chips."
+    sources:
+      - url: "https://news.pedaily.cn/202605/563806.shtml"
+        title: "芯驰科技完成约1亿美元C轮融资 (投资界)"
+        date: "2026-05-13"
+      - url: "https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvyep3941616.shtml"
+        title: "芯驰：智驾座舱舱泊一体出货超1400万片，切入具身智能 (中国经营报)"
+        date: "2026-05-14"
+
+  - id: nationz
+    name_en: "NSING Technologies (Nations Technologies)"
+    name_zh: "国民技术股份有限公司"
+    name_pinyin: "Guómín Jìshù"
+    category: "Fabless"
+    founded: 2000
+    location: {city: "Shenzhen", province: "Guangdong", lat: 22.57, lon: 113.95}
+    product_focus: "General+secure MCUs (N32 line), TPM/TCM security chips (Z32H330TC dual-algorithm for Windows PCs), BMS/PMIC, RF; legacy battery-materials arm"
+    design_scope: "Ex-ZTE IC arm; four self-built platforms (SoC/security/power/RF); 289 valid patents; A-share ChiNext 2010 + H-share 02701 listed 2026"
+    node_sophistication: "40nm-class secure MCU/TCM (NS350); mainstream N32 on mature nodes"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 3}
+    narrative:
+      significance: "The security-silicon incumbent — much of China's compliant TPM/TCM supply for government PCs and banks — and an unexpectedly AI-adjacent one: its April 2026 N32H493 is the first domestic MCU designed for 800G/1.6T optical modules. H1 2026 marked the first half-year profit after years of losses (revenue ¥9.06亿 +43.4%, net ¥4.41m); FY2025 revenue ¥13.60亿 with loss halved."
+      what_it_designs: "32-bit general/auto MCUs, secure elements/TPM/TCM, BMS PMICs, optical-module control MCUs, IoT RF."
+    sources:
+      - url: "https://www.cls.cn/detail/2461409"
+        title: "国民技术半年报首盈+国内首款光模块MCU N32H493 (财联社)"
+        date: "2026-08-22"
+      - url: "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082101371.pdf"
+        title: "NSING Technologies 2026中期報告 (HKEXnews)"
+        date: "2026-08-21"
+
+  - id: chipsea
+    name_en: "Chipsea Technologies (Shenzhen)"
+    name_zh: "芯海科技（深圳）股份有限公司"
+    name_pinyin: "Xīnhǎi Kējī"
+    category: "Fabless"
+    founded: 2003
+    location: {city: "Shenzhen", province: "Guangdong", lat: 22.52, lon: 113.94}
+    product_focus: "Precision ADC/AFE + MCU platform: health-sensing SoCs (BIA/PPG), force-touch HMI SoCs, PC embedded controllers (EC/SuperIO/PD, Thunderbolt), BMS, HarmonyOS ecosystem chips"
+    design_scope: "'A-share first full-signal-chain company'; founder ex-Huawei ASIC director; R&D 32.8% of revenue in 2025; first batch HarmonyOS Connect ISV (~50M devices)"
+    node_sophistication: "Mature mixed-signal (55/40nm-class typical, undisclosed); 24-bit ADC measuring ~21nV"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and Q2 2026 delivered the first profitable quarter (¥623k) after a three-year high-end transition; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making."
+      what_it_designs: "High-precision ADC/AFE, health-sensing and haptic SoCs, PC embedded controllers and PD/BMS, MCUs."
+    sources:
+      - url: "https://paper.cnstock.com/html/2026-03/31/content_2194715.htm"
+        title: "芯海科技2025年报摘要 (上海证券报)"
+        date: "2026-03-31"
+      - url: "https://www.163.com/dy/article/L5EFAQKM0519D4UH.html"
+        title: "芯海科技Q2首盈：高精度ADC+PC控制链放量 (南方都市报转)"
+        date: "2026-08-28"
+
+  - id: xhsc
+    name_en: "XHSC (Xiaohua Semiconductor)"
+    name_zh: "小华半导体有限公司"
+    name_pinyin: "Xiǎohuá Bàndǎotǐ"
+    category: "State-Backed Design House"
+    founded: 2021
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.60}
+    product_focus: "HC32-family 32-bit MCUs: general control, motor, automotive (HC32A), ultra-low-power (HC32L); ~300M units/year shipped"
+    design_scope: "The MCU arm of Huada Semiconductor (CEC central-SOE IC platform that also spans 安路 FPGA, 积塔 fab, 上海贝岭 analog) — the 'national team' MCU champion"
+    node_sophistication: "Mature 55/40nm-class; anchored on CEC-affiliated 积塔 specialty fabs — node-agnostic by design; full IATF16949 + ASIL-D process certification, AEC-Q100 parts"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 3, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
+    narrative:
+      significance: "The state-aligned 'MCU + OS' stack for信创, white goods and automotive body/power domains: scale (300M units/yr), full automotive safety certification chain, and captive specialty-fab backing — plus a February 2025 AUTOSAR pact with CETC's 普华 OS vendor that pairs domestic silicon with a domestic car OS."
+      what_it_designs: "General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines) and supporting RTOS/AUTOSAR software."
+    sources:
+      - url: "https://finance.sina.com.cn/roll/2025-03-13/doc-ineppeuc6667756.shtml"
+        title: "小华半导体与普华基础软件达成AUTOSAR战略合作 (新浪财经)"
+        date: "2025-03-13"
+
+  - id: sinowealth
+    name_en: "Sino Wealth Electronic"
+    name_zh: "中颖电子股份有限公司"
+    name_pinyin: "Zhōngyǐng Diànzǐ"
+    category: "State-Backed Design House"
+    founded: 1994
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.22, lon: 121.42}
+    product_focus: "Home-appliance/industrial MCUs (~60% of revenue, domestic leader), battery-management ICs (~30%), AMOLED display drivers"
+    design_scope: "30-year in-house 8/32-bit MCU + BMIC + DDIC lineage; June-July 2025 founder sold 14.2% control to PE/SOE platform 致能工电 (武岳峰-run) — the first 'investor-becomes-operator' MCU control transfer; April 2026 ≤¥1bn placement for auto/industrial and humanoid-robot joint-control MCUs"
+    node_sophistication: "Mature MCU nodes; no advanced-node exposure"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 3, market_readiness: 4}
+    narrative:
+      significance: "Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net +72.9%) recovering — with the control transfer and capital injection a deliberate consolidation play toward automotive/robotics as appliance MCU demand saturates."
+      what_it_designs: "Appliance/industrial MCUs, BMICs for tools/batteries, AMOLED DDICs, early automotive MCUs."
+    sources:
+      - url: "https://m.huxiu.com/article/4495169.html"
+        title: "傅启明套现12.45亿：威朗国际转让中颖电子控制权 (虎嗅)"
+        date: "2025-06-22"
+      - url: "https://www.stcn.com/article/detail/3727506.html"
+        title: "中颖电子定增不超10亿元：致能工电全额认购 (证券时报)"
+        date: "2026-04-03"

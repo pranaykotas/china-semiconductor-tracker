@@ -1,0 +1,39 @@
+---
+title: "GalaxyCore Inc."
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 格科微有限公司 (Gékēwēi)
+
+::: {.callout-tip}
+## Why This Matters
+The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment in whether a Chinese design house can run its own 12-inch specialty fab: FY2025 revenue ¥77.82亿 (+21.9%) but net profit collapsed to ¥0.51亿 as the Lingang line absorbed depreciation; September 2026 plan to raise ~¥4.2 billion more for capacity. H1 2026: revenue ¥41.53亿, net ¥7.3 million.
+:::
+
+## What does this firm design?
+
+Smartphone/IoT automotive CIS and LCD/OLED display driver ICs, increasingly on its own 300mm line.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2003 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | High-volume CMOS image sensors (VGA–50MP) and display driver ICs |
+| **Node Sophistication** | GalaxyCell 2.0 BSI platform (0.61–1.0µm pixels); world-first single-chip 0.61µm 50MP CIS; first domestic 12-inch LOFIC sensor (140dB, automotive) |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4/5**
+
+## Sources
+
+- [格科微2026年半年度报告（经营模式由Fabless转变为Fab-Lite） (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-08-28/1225521830.PDF) (28 Aug 2026)
+- [格科微拟定增募资约42亿元扩产 (新华财经)](https://www.cnfin.com/gs-lb/detail/20260929/4475920_1.html) (29 Sep 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

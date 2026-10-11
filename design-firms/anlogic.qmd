@@ -1,0 +1,39 @@
+---
+title: "Shanghai Anlogic Infotech"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 上海安路信息科技股份有限公司 (Ānlù Kējì)
+
+::: {.callout-tip}
+## Why This Matters
+The most explicit domestic attempt to reach Xilinx/Altera-scale FPGA density (4M+ LUT chiplet program) — while still small and loss-making (FY2025 revenue ¥5.20亿, net -¥2.72亿). The turnaround signal is H1 2026: revenue ¥4.32亿 (+93.3%), losses halved, on 'multi-fold' data-center sales as FPGAs ride the AI-emulation wave.
+:::
+
+## What does this firm design?
+
+Reconfigurable logic (FPGA/FPSoC) for telecom, industrial, automotive (cockpit/LiDAR) and compute; FPGA design software.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 2011 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | FPGA/FPSoC (ELF, Eagle, Phoenix/Fenghuang lines) + in-house FPGA EDA toolchain |
+| **Node Sophistication** | 55nm→domestic-28nm FPGA in volume→first advanced-node (FinFET) high-performance FPGA deliveries 2025; ≤¥1.26bn placement for >4KK-LUT chiplet FPGA (2.5D multi-die) |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [安路科技2025年年度报告 (东方财富转巨潮)](https://pdf.dfcfw.com/pdf/H2_AN202603301820869925_1.pdf) (30 Mar 2026)
+- [安路科技半年报营收翻倍：数据中心FPGA放量 (证券日报)](http://www.zqrb.cn/gscy/gongsi/2026-08-29/A1787924786304.html) (29 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

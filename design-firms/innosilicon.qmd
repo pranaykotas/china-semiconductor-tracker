@@ -1,0 +1,38 @@
+---
+title: "Innosilicon Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 芯动科技 (Xīndòng Kējì)
+
+::: {.callout-tip}
+## Why This Matters
+China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite make it central to de-NVLink scale-up fabrics. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups. Private, no verified IPO filing.
+:::
+
+## What does this firm design?
+
+Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series graphics/compute GPUs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2006 |
+| **Location** | Wuhan, Hubei |
+| **Product Focus** | High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, first domestic full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services |
+| **Node Sophistication** | IP proven across advanced nodes (HBM/UCIe/224G PHY imply ≤N5-class enablement); Fenghua GPUs ≤12nm; latest node not verified |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+
+## Sources
+
+- [2026硬核中国芯榜单：芯动微电子入选 (网易转集微网)](https://www.163.com/dy/article/L1G15GPC0511BFPT.html) (15 Jan 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

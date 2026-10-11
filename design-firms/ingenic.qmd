@@ -1,0 +1,39 @@
+---
+title: "Ingenic Semiconductor"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 北京君正集成电路股份有限公司 (Běijīng Jūnzhèng)
+
+::: {.callout-tip}
+## Why This Matters
+The closest thing China has to a global automotive/industrial memory design house — 82.7% of revenue is overseas and ISSI qualifies with world carmakers, precisely the niche US Dec-2024 rules tried to fence. Q1 2026 (latest verified): revenue ¥15.6亿 (+47.1%), net ¥3.19亿 (+331.6%) as the DRAM supercycle monetizes; FY2025 ¥47.41亿 (+12.5%). A 3D-DRAM roadmap for AI bandwidth makes it the canary for Chinese memory design moving up.
+:::
+
+## What does this firm design?
+
+Car-grade SRAM/DRAM/NOR/eMMC, RISC/MIPS AIoT-video SoCs, automotive LED drivers and LIN/CAN transceivers.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2005 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | Automotive/industrial memory via ISSI (¥29.11亿 of 2025 sales: SRAM world #2, niche DRAM, NOR/eMMC), MIPS/RISC-V AIoT & video SoCs, analog & car interconnect (LIN/CAN) |
+| **Node Sophistication** | DRAM ramping 20nm→18nm→16nm; LPDDR5 in development; 3D DRAM targeting 2026 tape-out; SoCs ~22nm-class |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [北京君正2025年报：存储收入占比61% (新浪科技)](https://finance.sina.com.cn/tech/roll/2026-03-29/doc-inhssmvq4607958.shtml) (29 Mar 2026)
+- [Q1净利3.19亿+332%：存储超级周期下的北京君正 (长江商报)](https://finance.sina.com.cn/roll/2026-04-30/doc-inhwfpqq6340036.shtml) (30 Apr 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

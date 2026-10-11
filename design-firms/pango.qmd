@@ -1,0 +1,38 @@
+---
+title: "Pango Micro (Shenzhen)"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 深圳市紫光同创电子股份有限公司 (Zǐguāng Tóngchuàng)
+
+::: {.callout-tip}
+## Why This Matters
+The last big unlisted domestic FPGA asset and the volume player in comms-side programmable logic; 2025 net loss narrowed to ¥108m (from ¥344m). STAR listing tutoring (CICC) filed April 2025 — fifth progress update published August 2026, still pre-acceptance — making it a near-term test of FPGA valuations after Fudan Micro's scarcity-driven rally.
+:::
+
+## What does this firm design?
+
+Communication/industrial FPGAs and design software.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2013 |
+| **Location** | Shenzhen, Guangdong |
+| **Product Focus** | FPGA: Logos-2/Titan-2/Kosmo-2 lines + in-house EDA — comms, industrial, consumer |
+| **Node Sophistication** | Mid-range FPGA nodes (28nm-class mainstream in domestic comms); high-end FinFET line not yet demonstrated vs Fudan/Anlogic |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**
+
+## Sources
+
+- [紫光同创科创板上市辅导备案 (证券时报)](https://www.stcn.com/article/detail/1764250.html) (30 Apr 2025)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

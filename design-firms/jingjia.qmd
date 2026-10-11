@@ -1,0 +1,39 @@
+---
+title: "Changsha Jingjia Microelectronics"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 长沙景嘉微电子股份有限公司 (Jǐngjiāwēi)
+
+::: {.callout-tip}
+## Why This Matters
+China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) yet posted a second straight annual loss (-¥1.65亿) with R&D at 59% of revenue — the military-specialist squeeze: qualification moat protects share but cannot fund a commercial AI pivot. H1 2026: revenue ¥3.34亿 (+73%), still loss-making.
+:::
+
+## What does this firm design?
+
+Graphics/display processors for avionics and信创 desktops, AI accelerator modules, edge-AI SoCs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2006 |
+| **Location** | Changsha, Hunan |
+| **Product Focus** | Military/avionics graphics SoCs, JM9/JM11 GPUs, 景宏 AI modules/servers; 2025 edge-AI SoC expansion via 诚恒微 (CH37, 64 TOPS) |
+| **Node Sophistication** | JM9 mid-range domestic node; JM11 (taped out Dec 2024, cloud-desktop/vGPU small batches 2025-26) more advanced, undisclosed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**
+
+## Sources
+
+- [景嘉微2025年报：营收7.2亿，连续第二年亏损 (每日经济新闻)](https://www.nbd.com.cn/articles/2026-04-24/4357029.html) (24 Apr 2026)
+- [景嘉微2026年半年度报告 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-21/1225484966.PDF) (21 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

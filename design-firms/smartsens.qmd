@@ -1,0 +1,39 @@
+---
+title: "SmartSens Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 思特威（上海）电子科技股份有限公司 (Sītèwēi)
+
+::: {.callout-tip}
+## Why This Matters
+The clearest import-substitution winner in CIS: #1 globally in surveillance CIS, now cracking flagship smartphone cameras (Xiaomi/OPPO main and sub cameras) and scaling automotive CIS — FY2025 revenue ¥90.31亿 (+51.3%), of which smartphone ¥46.75亿 and automotive ¥11.22亿 (+113%); H1 2026 revenue ¥46.0亿. A March 2026 placement plan (up to ¥3.2 billion) funds vision-AI and edge-AI ASICs — an attempt to outgrow the sensor business.
+:::
+
+## What does this firm design?
+
+1–50MP+ CMOS image sensors (security, smartphone, automotive, machine vision) plus emerging AI-vision/edge ASIC solutions.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2017 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | CMOS image sensors for security/AIoT, smartphone, automotive and machine vision |
+| **Node Sophistication** | Specialty CIS platforms; 50MP flagship main-camera sensors (SC585XS family, LOFIC HDR 2.0) described by the company as a fully domesticated process flow; exact nm not disclosed |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.5/5**
+
+## Sources
+
+- [思特威2025年年度报告 (巨潮资讯)](http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260327/cbe93bc5c61443d880f37708a0126825.PDF) (27 Mar 2026)
+- [思特威半年报：营收46亿+21%，拟定增32亿投向高性能CIS与端侧AI (腾讯新闻)](https://news.qq.com/rain/a/20260825A034UX00) (25 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

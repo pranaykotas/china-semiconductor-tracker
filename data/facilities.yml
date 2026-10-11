@@ -386,6 +386,10 @@ facilities:
         event: "YMTC introduces 128-layer 3D NAND using Xtacking 2.0 architecture"
       - date: "2022-12-15"
         event: "Added to the US Commerce Department's Entity List"
+      - date: "2025-09-05"
+        event: "Third-fab JV company 长存三期（武汉）集成电路有限责任公司 registered with ¥20.72 billion capital — YMTC 50.19%, an Hubei/Wuhan state-vehicle consortium 49.81%"
+      - date: "2026-04-14"
+        event: "Fab 3 building reported complete with over 50% of equipment domestic (including bonding/stacking tools); planned capacity ~100,000 wafers/month, mass production targeted for H2 2026 and a reported ramp toward ~50,000/month in 2027 (Reuters)"
       - date: "2026-08-20"
         event: "Completes pre-IPO regulatory tutoring, clearing a procedural hurdle toward a Shanghai STAR Market listing"
       - date: "2026-08-24"
@@ -419,6 +423,12 @@ facilities:
       - url: "https://cn.technode.com/post/2026-08-24/ymtc-shanghai-ipo-33-billion/"
         title: "长江存储IPO申请获受理，拟募资330亿元 (TechNode China)"
         date: "2026-08-24"
+      - url: "http://static.sse.com.cn/stock/disclosure/announcement/c/202608/002251_20260821_7075.pdf"
+        title: "长江存储控股股份有限公司 首次公开发行股票并在科创板上市招股说明书 (Shanghai Stock Exchange filing, ¥631.8亿 2025 revenue; ¥470.4亿 Q1-2026)"
+        date: "2026-08-21"
+      - url: "https://m.cls.cn/detail/2144445"
+        title: "长江存储三期落地：注册资本207.2亿元，长控与湖北长晟合资 (财联社)"
+        date: "2025-09-14"
 
   - id: cxmt-hefei
     name_en: "CXMT Hefei"
@@ -452,7 +462,7 @@ facilities:
       - {year: 2020, node: "19nm-class DRAM"}
       - {year: 2025, node: "DDR5-capable node (exact process width not disclosed)"}
     narrative:
-      significance: "China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity. Went public on the Shanghai STAR Market in May 2026 — China's largest A-share IPO of the year to that point — raising roughly ¥29.5 billion at an issue price of ¥8.66/share."
+      significance: "China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity. Went public on the Shanghai STAR Market on 27 July 2026 — China's largest A-share IPO of the year — with total proceeds of ¥66.607 billion at ¥8.66/share; its H1 2026 interim report showed revenue of roughly ¥150.31 billion (+873.6% YoY), placing it fourth in China and fourth globally in DRAM by volume and value."
       what_it_makes: "DRAM chips on 12-inch (300mm) wafers, now including DDR5-capable products."
       why_it_matters: "DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's rise to fourth-largest globally marks a real capability jump, arriving alongside a January 2025 US Department of Defense listing as a Chinese military-linked entity under Section 1260H — a designation legally distinct from the Commerce Department's Entity List: 1260H does not itself restrict exports, but a subsequent statutory provision (FY2024 NDAA Section 805) bars US Department of Defense contracting with listed entities effective mid-2026. A June 2026 Pentagon update revised the 1260H list further; this tracker has not independently verified CXMT's exact status in that later revision, so the January 2025 addition is recorded as the confirmed fact. Domestic capacity reporting put CXMT above 300,000 wafers/month (DRAM equivalent) in early 2026, targeting roughly 350,000/month by year-end across Hefei, a Shanghai line, and Beijing — nearing contemporaneous estimates of Micron's own monthly capacity — with a second Beijing DRAM fab reportedly in planning as of August 2026."
     milestones:
@@ -462,10 +472,14 @@ facilities:
         event: "$7.2 billion investment announced for a 125,000 wafer/month 12-inch DRAM fab"
       - date: "2025-01-07"
         event: "Added to the US Department of Defense's Section 1260H list of Chinese military-linked companies (Federal Register notice)"
-      - date: "2026-05-27"
-        event: "STAR Market (科创板) IPO formally approved; raises approximately ¥29.5 billion ($4.1B) at ¥8.66/share, the largest mainland A-share IPO of 2026 to that point"
+      - date: "2026-06-12"
+        event: "STAR Market IPO registration approved; the listing then raises total proceeds of ¥66.607 billion (net ¥66.31 billion, including ~¥36.8 billion of over-subscription) at ¥8.66/share — China's largest A-share IPO of 2026 — with shares up 471% on the first day of listing, 2026-07-27"
       - date: "2026-08-01"
         event: "Reported to be planning a second DRAM fab in Beijing"
+      - date: "2026-09-18"
+        event: "Reuters, via Chinese reprints, reports CXMT is preparing to enter NAND flash with an R&D pilot line inside the planned Beijing fab"
+      - date: "2026-09-20"
+        event: "Fifth-generation (G5) DRAM platform declared in production — ~12nm-class half-pitch on ArF immersion multi-patterning — followed by an October 2026 statement that G5/LPDDR6 are in mass production"
     complexity:
       technology_difficulty: 4
       foreign_dependence: 4
@@ -489,6 +503,12 @@ facilities:
       - url: "https://www.eet-china.com/news/202608044585.html"
         title: "最新消息：长鑫存储拟在北京建设第二座DRAM工厂！ (电子工程专辑)"
         date: "2026-08-04"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-29/1225529543.PDF"
+        title: "长鑫科技集团股份有限公司 2026年半年度报告 (H1 2026 revenue ¥1503.1亿, +873.6% YoY)"
+        date: "2026-08-29"
+      - url: "https://www.guancha.cn/CaiJing/2026_09_18_901187.shtml"
+        title: "路透：长鑫存储筹备进入NAND市场，北京新厂内设研发试验线 (观察者网编译)"
+        date: "2026-09-18"
 
   - id: nexchip-hefei
     name_en: "Nexchip Hefei"
@@ -628,16 +648,16 @@ facilities:
       source: "Local Govt"
     status: "Operational"
     entity_list:
-      status: false
-      date_added: null
-      list: null
+      status: true
+      date_added: "2024-12-02"
+      list: "US Commerce BIS"
     equipment_origin:
       domestic_pct: null
       key_foreign_tools: []
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC. Domestic reporting in 2026 describes Zhang as having since departed the company he founded, citing difficulty retaining talent — a leadership change this tracker has not independently corroborated beyond that single report. By 2026, reported capacity stood at roughly 60,000 wafers/month (8-inch line) and 40,000 wafers/month (12-inch line), with an annual output value around ¥4.6 billion at full capacity."
+      significance: "China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC. Domestic reporting in 2026 describes Zhang as having since departed the company he founded, citing difficulty retaining talent — a leadership change this tracker has not independently corroborated beyond that single report. By 2026, reported capacity stood at roughly 60,000 wafers/month (8-inch line) and 40,000 wafers/month (12-inch line), with an annual output value around ¥4.6 billion at full capacity. SiEn was added to the US Commerce Department's Entity List on December 2, 2024, as part of the 140-entity semiconductor package — one of only a handful of wafer fabs directly listed in that round."
       what_it_makes: "Logic/foundry, analog/power, and RF/wireless chips at 28nm and 40nm on both 200mm and 300mm wafers."
       why_it_matters: "A structurally different ownership model (collaborative IDM, not a pure foundry or a single-owner state fab) from every other entry in this tracker, and notable for its founder's direct SMIC lineage. In September 2026 it opened a separate 'Industry Innovation Center' — five R&D buildings on a 30,154 sq m site, explicitly a research/innovation facility rather than a new wafer production line — framed domestically as a shift from 'scale manufacturing to innovation creation.'"
     milestones:
@@ -1574,3 +1594,989 @@ facilities:
       - url: "https://www.eet-china.com/news/202507143854.html"
         title: "英诺赛科扩产：8英寸氮化镓晶圆产能年底将达到每月20000片 (电子工程专辑)"
         date: "2026-09-28"
+
+  - id: cansemi-guangzhou
+    name_en: "CanSemi (Guangzhou)"
+    name_zh: "粤芯半导体技术股份有限公司"
+    name_pinyin: "Yuèxīn Bàndǎotǐ"
+    company_en: "CanSemi Technology Inc."
+    company_zh: "粤芯半导体技术股份有限公司"
+    company_pinyin: "Yuèxīn Bàndǎotǐ Jìshù Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Guangzhou municipal and Huangpu district state vehicles", "Guangdong provincial funds"]
+    location:
+      city: "Guangzhou"
+      province: "Guangdong"
+      lat: 23.29
+      lon: 113.53
+    type: "Fab"
+    category: "State-Backed"
+    capability: "12-inch (300mm) specialty analog/mixed-signal foundry, 180nm–55nm; PMIC, fingerprint, display driver, CIS, power, and silicon-photonics platforms"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Guangdong province's first and only scaled 12-inch wafer fab — the province that consumes an estimated ~40% of China's chips had no domestic 12-inch mass production before CanSemi. Phases 1–3 are in production at ~63,300 wafers/month realized versus 80,000 planned (end-2025), with a third fab (Phase 3, ¥16.25 billion) online since December 2024 and a ¥25.2 billion Phase 4 (third site, 480,000 wafers/year mixed-signal) started January 2026."
+      what_it_makes: "Analog/power-management, fingerprint-sensor, display-driver, CIS and power chips on 12-inch wafers — plus, uniquely among mainland foundries, mass-production 12-inch silicon-photonics wafers (90nm platform feeding 400G/800G/1.6T optical modules)."
+      why_it_matters: "Its IPO cleared the ChiNext listing committee in June 2026 as the board's first pre-profit wafer-fab listing under Standard 3, with CSRC registration approved 28 August 2026 — a template for funding loss-making specialty fabs with public markets. Prospectus coverage shows revenues of ¥1.044/1.681/2.582 billion (2023-2025) against net losses of ¥1.917/2.253/2.346 billion, with earliest guided profitability in 2029 — how capital-hungry the model is."
+    milestones:
+      - date: "2019-09-01"
+        event: "Phase 1 enters production, ~18 months after groundbreaking"
+      - date: "2024-12-28"
+        event: "Phase 3 (second fab, ¥16.25 billion, +40,000 wafers/month) line activated"
+      - date: "2026-01-22"
+        event: "Phase 4 (¥25.2 billion, 480,000 wafers/year mixed-signal, nodes roadmap to 65-22nm) formally started"
+      - date: "2026-06-15"
+        event: "ChiNext IPO approved by listing committee — first pre-profit wafer fab on the board"
+      - date: "2026-08-28"
+        event: "CSRC registration approval received for the IPO (planned raise ¥7.5 billion)"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 4
+      capital_intensity: 5
+    dates:
+      announced: "2017-12-01"
+      approved: null
+      construction_start: "2018-03-01"
+      original_expected_completion: null
+      date_completion: "2019-09-01"
+    sources:
+      - url: "http://www.news.cn/tech/20260123/1b1c540bf37b4e73b95e8a15dba491df/c.html"
+        title: "总投资252亿元 粤芯半导体年产48万片晶圆生产线启动 (新华网)"
+        date: "2026-01-23"
+      - url: "http://www.zqrb.cn/gscy/qiyexinxi/2026-08-28/A1787914927566.html"
+        title: "粤芯半导体取得IPO注册批文 (证券日报)"
+        date: "2026-08-28"
+      - url: "https://www.esmchina.com/news/14267.html"
+        title: "粤芯半导体IPO过会 (国际电子商情)"
+        date: "2026-06-16"
+
+  - id: unitednova-shaoxing
+    name_en: "United Nova Technology (Shaoxing)"
+    name_zh: "芯联集成电路制造股份有限公司"
+    name_pinyin: "Xīnlián Jíchéng Diànlù Zhìzào Gǔfèn Yǒuxiàn Gōngsī"
+    company_en: "United Nova Technology Co., Ltd. (STAR: 688469)"
+    company_zh: "芯联集成电路制造股份有限公司"
+    company_pinyin: "Xīnlián Jíchéng Diànlù Zhìzào Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Shaoxing Yuecheng district fund", "SMIC Holdings", "China Development Bank policy capital"]
+    location:
+      city: "Shaoxing"
+      province: "Zhejiang"
+      lat: 30.01
+      lon: 120.59
+    type: "Fab"
+    category: "State-Backed"
+    capability: "8-inch silicon power (IGBT/MOSFET), MEMS (largest Chinese MEMS wafer foundry), 6/8-inch SiC, and 12-inch mixed-signal/analog — automotive-grade focus"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Grew out of the 2018 SMIC–Shaoxing JV (中芯绍兴/中芯集成, renamed 芯联集成 on its 2022 STAR listing); today China's leading automotive power-semiconductor foundry — #1 Chinese SiC device maker by 2025 Yole ranking, in the global top-5 MEMS foundries — with 2025 output of 2.51 million 8-inch-equivalent wafers (+24.7%). Phase 3 (12-inch mixed-signal, ¥22.2 billion total, 100,000 wafers/month planned) is ramping from ~30,000/month; Phase 4 (¥20 billion, 50,000 wafers/month for 40/28nm MCU, 90/55nm BCD/DrMOS and 55nm silicon photonics) was announced June 2026."
+      what_it_makes: "Car-grade IGBT/MOSFET and SiC MOSFET chips, MEMS sensors, analog/BCD and mixed-signal chips for EVs, industrial, renewables and AI-server power/optical I/O."
+      why_it_matters: "Its 8-inch SiC line was China's first (engineering wafers April 2024, mass production confirmed August 2025) — SiC vehicle main-drive modules are the single highest-value target of China's power-semi push, and UnitedNova operates the scaled foundry slot for it. No controlling shareholder: largest holders Yuecheng Fund (local state) 13.74% and SMIC Holdings 11.85%."
+    milestones:
+      - date: "2018-12-01"
+        event: "Founded as the SMIC–Shaoxing joint venture (中芯绍兴)"
+      - date: "2024-04-01"
+        event: "China's first 8-inch SiC line produces engineering wafers"
+      - date: "2025-08-07"
+        event: "8-inch SiC confirmed in mass production; Phase 3 12-inch line at ~30,000 wafers/month of planned 100,000"
+      - date: "2026-06-11"
+        event: "¥20 billion Phase 4 JV announced — 50,000 wafers/month 12-inch for 40/28nm MCU, BCD/DrMOS and 55nm silicon photonics"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 5
+    dates:
+      announced: "2018-12-01"
+      approved: null
+      construction_start: "2019-12-01"
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.cls.cn/detail/2397613"
+        title: "200亿！芯联集成拟扩产+布局光互连 (财联社)"
+        date: "2026-06-11"
+      - url: "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12120051&stockid=688469"
+        title: "芯联集成2025年年度报告 (新浪财经公告)"
+        date: "2026-04-30"
+      - url: "https://www.mrjjxw.com/articles/2026-06-12/4424755.html"
+        title: "功率半导体代工龙头芯联集成启动200亿元四期项目 (每日经济新闻)"
+        date: "2026-06-12"
+
+  - id: jita-shanghai
+    name_en: "GTA Semiconductor (Shanghai Lingang)"
+    name_zh: "上海积塔半导体有限公司"
+    name_pinyin: "Shànghǎi Jītǎ Bàndǎotǐ Yǒuxiàn Gōngsī"
+    company_en: "Shanghai Jita Integrated Technology Service Co., Ltd. (GTA Semi)"
+    company_zh: "上海积塔半导体有限公司"
+    company_pinyin: "Shànghǎi Jītǎ Bàndǎotǐ Yǒuxiàn Gōngsī"
+    partners: ["Huada Semiconductor (CEC)", "National Structural Fund", "SAIC, Inovance, Xiaomi funds, Shanghai state vehicles"]
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 30.91
+      lon: 121.92
+    type: "Fab"
+    category: "State-Backed"
+    capability: "Car-grade specialty foundry — 8-inch (IGBT, MOSFET, BCD, eNVM/MCU), 12-inch (90-40nm auto MCU/analog/PMIC, line activated 2023, ramping), 6-inch SiC, plus legacy 5/6-inch lines"
+    investment:
+      total_rmb_100m: 359
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "CEC's (China Electronics Corporation) manufacturing anchor and China's flagship state-owned car-grade specialty foundry — a ¥35.9 billion Lingang complex (groundbreaking August 2018) merged with the legacy Shanghai Advanced (SAS) semiconductor plant, plus an ¥8 billion November 2021 strategic round featuring automaker (SAIC), industrial (Inovance) and Xiaomi supply-chain investors."
+      what_it_makes: "Automotive/industrial MCU, BCD analog/PMIC, IGBT/MOSFET and sensor wafers; company capacity pages report 8-inch output above 1.3 million wafers/year, with the 12-inch line (planned ~500,000 wafers/year at full capacity) still marked under construction/ramping."
+      why_it_matters: "One of the very few dedicated car-grade 12-inch lines in China and one of the few domestic SiC (6-inch) and FeRAM/eNVM capability holders — a key supply node if China's domestic car-MCU push continues; still private (named a national 'unicorn' in 2026); no verified IPO filing as of this pass."
+    milestones:
+      - date: "2018-08-01"
+        event: "¥35.9 billion Lingang specialty-process line breaks ground; merger with legacy Shanghai Advanced Semiconductor agreed"
+      - date: "2021-11-30"
+        event: "¥8 billion strategic financing completed, led by Huada Semiconductor (CEC)"
+      - date: "2023-06-28"
+        event: "12-inch line activated (tool line-out)"
+      - date: "2025-12-10"
+        event: "Wins 'Influential SiC Wafer Manufacturing Service' at the行家极光 awards"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 5
+    dates:
+      announced: "2017-01-01"
+      approved: "2018-08-01"
+      construction_start: "2018-08-01"
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "http://www.sasac.gov.cn/n2588025/n2588139/c15768428/content.html"
+        title: "上海临港崛起'东方芯港' (国务院国资委)"
+        date: "2020-10-26"
+      - url: "https://www.ne-time.cn/web/article/22790"
+        title: "积塔半导体获80亿元战略融资 (NE时代)"
+        date: "2021-11-30"
+      - url: "https://www.gtasemi.com.cn/news"
+        title: "积塔半导体官网新闻中心（含产能口径：8英寸>130万片/年，12英寸在建）"
+        date: "2026-10-01"
+
+  - id: hlmc-shanghai
+    name_en: "HLMC (Shanghai Huali, Fab 5 & Fab 6)"
+    name_zh: "上海华力微电子有限公司 / 上海华力集成电路制造有限公司"
+    name_pinyin: "Shànghǎi Huálì Wēidiànzǐ"
+    company_en: "Hua Hong Semiconductor Group (HLMC)"
+    company_zh: "上海华力微电子有限公司（华虹五厂）；上海华力集成电路制造有限公司（华虹六厂）"
+    company_pinyin: "Shànghǎi Huálì Jíchéng Diànlù Zhìzào Yǒuxiàn Gōngsī"
+    partners: ["Hua Hong Group (Shanghai SASAC)", "Big Fund II", "Shanghai IC Industry Fund"]
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.20
+      lon: 121.60
+    type: "Fab"
+    category: "State-Backed"
+    capability: "Fab 5 (Zhangjiang): 12-inch, 65/55nm and 40nm logic/NOR/RF, 38,000 wafers/month. Fab 6 (Kangqiao): 12-inch, 28/22nm, 40,000 wafers/month planned"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Mainland China's first fully-automated 12-inch fab (Fab 5, first wafers April 2011, built under the 'Project 909' upgrade lineage) and one of very few domestic 28/22nm logic sites (Fab 6, wafers since October 2018). In September 2026 Fab 5 formally merged into the listed Hua Hong entity (688347/1347.HK) via an ¥8.268 billion share deal — resolving the group's long-standing IPO-era same-competition commitment; Fab 5 contributed ~¥5 billion revenue and >¥500 million net profit in 2024."
+      what_it_makes: "12-inch foundry wafers at 65/55/40nm (Fab 5, incl. NOR/eNVM, RF, BSI plans) and 28/22nm (Fab 6, still outside the listed company under group ownership)."
+      why_it_matters: "Consolidates China's #2 foundry group's 12-inch base at ~a sixth of national 12-inch capacity, and keeps one of the few domestic 28nm logic lines — the node where export controls bite hardest — inside a state-owned structure. The follow-on ¥7.556 billion placement funds a ¥2.53 billion BSI and ¥562 million BCD program."
+    milestones:
+      - date: "2011-04-01"
+        event: "Fab 5 (Huali 1) first wafers — mainland's first automated 12-inch fab"
+      - date: "2018-10-01"
+        event: "Fab 6 (Huali 2, 28/22nm, Kangqiao) first wafers"
+      - date: "2025-08-17"
+        event: "Hua Hong announces acquisition of controlling stake in Huali Micro (Fab 5), fulfilling IPO commitment"
+      - date: "2026-09-11"
+        event: "Share transfer completed — Fab 5 becomes wholly within the listed Hua Hong company"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 4
+      capital_intensity: 5
+    dates:
+      announced: "2010-01-01"
+      approved: null
+      construction_start: "2010-01-01"
+      original_expected_completion: null
+      date_completion: "2011-04-01"
+    sources:
+      - url: "https://www.stcn.com/article/detail/3142230.html"
+        title: "停牌！A股芯片巨头，刚刚公告！ (证券时报)"
+        date: "2025-08-17"
+      - url: "http://www.jjckb.cn/20260210/f8ff9880eaa14bdea1cb27ef09ac1f89/c.html"
+        title: "华虹公司股东大会通过华力微收购全部议案 (经济参考报)"
+        date: "2026-02-10"
+      - url: "https://news.qq.com/rain/a/20260911A0GGGQ00"
+        title: "发行股份购买华力微完成过户，华虹整合12英寸产能 (腾讯新闻)"
+        date: "2026-09-11"
+
+  - id: crmicro-chongqing
+    name_en: "CR Micro Chongqing (Runxi 12-inch Power Line)"
+    name_zh: "润西微电子（重庆）有限公司"
+    name_pinyin: "Rùn Xī Wēidiànzǐ (Chóngqìng)"
+    company_en: "CR Microelectronics Ltd. (STAR: 688396)"
+    company_zh: "华润微电子有限公司"
+    company_pinyin: "Huárùn Wēi Diànzǐ Yǒuxiàn Gōngsī"
+    partners: ["Big Fund II", "Chongqing Xiyong industrial state vehicles"]
+    location:
+      city: "Chongqing"
+      province: "Chongqing Municipality"
+      lat: 29.59
+      lon: 106.33
+    type: "Fab"
+    category: "State-Backed"
+    capability: "12-inch automotive-grade power semiconductors — SGT/SJ MOSFET, IGBT (G7 class), power management; 30,000 wafers/month design capacity"
+    investment:
+      total_rmb_100m: 75.5
+      source: "Big Fund II"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Reported as China's first domestic automotive-grade 12-inch power-semiconductor fab, from China Resources' CR Micro — the country's largest IDM power-semi maker (MOSFET #1 domestically). Hit its 30,000 wafers/month output target in August 2025, roughly 18 months ahead of plan."
+      what_it_makes: "12-inch power wafers: automotive/industrial MOSFETs and IGBTs feeding CR Micro's module business and EV/PV/storage customers."
+      why_it_matters: "Evidence that China's power-semi migration to 12-inch wafers (the global industry's current cost frontier) is happening at scale and ahead of schedule; July 2026 reporting had CR Micro raising prices across categories ~15% amid 9-month order books — the 2026 power-semi shortage cycle in one company."
+    milestones:
+      - date: "2021-06-07"
+        event: "¥7.55 billion 12-inch power line (Runxi Micro) announced; registered capital ¥5 billion (CR 19%, Big Fund II and Chongqing Xiyong holders)"
+      - date: "2025-08-01"
+        event: "30,000 wafers/month output achieved, ~18 months ahead of schedule"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 4
+    dates:
+      announced: "2021-06-07"
+      approved: "2021-06-07"
+      construction_start: "2021-11-01"
+      original_expected_completion: null
+      date_completion: "2025-08-01"
+    sources:
+      - url: "https://stcn.com/article/detail/382164.html"
+        title: "华润微子公司拟投建12吋功率半导体晶圆生产线 预计投资75.5亿元 (证券时报)"
+        date: "2021-06-07"
+      - url: "https://www.eet-china.com/mp/a437365.html"
+        title: "30000片！华润微电子重庆12吋项目提前达成目标 (电子工程专辑)"
+        date: "2025-09-11"
+
+  - id: crmicro-shenzhen
+    name_en: "CR Micro Shenzhen (Runpeng 12-inch Analog Line)"
+    name_zh: "润鹏半导体（深圳）有限公司"
+    name_pinyin: "Rùn Péng Bàndǎotǐ (Shēnzhèn)"
+    company_en: "CR Microelectronics Ltd. (STAR: 688396)"
+    company_zh: "华润微电子有限公司"
+    company_pinyin: "Huárùn Wēi Diànzǐ Yǒuxiàn Gōngsī"
+    partners: ["Shenzhen municipal investment vehicles (深重投)", "Big Fund"]
+    location:
+      city: "Shenzhen"
+      province: "Guangdong"
+      lat: 22.70
+      lon: 113.82
+    type: "Fab"
+    category: "State-Backed"
+    capability: "12-inch analog/mixed-signal specialty (BCD, high-voltage, RF, Flash), ≥40nm-class; 40,000 wafers/month planned"
+    investment:
+      total_rmb_100m: 220
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Shenzhen's second 12-inch wafer fab (after SMIC Shenzhen), part of Guangdong's push to give the province a 'third pole' of chip manufacturing; ¥22 billion phase-1 total, with CR Micro contributing ¥2.475 billion cash into the ¥15 billion-capital Runpeng JV."
+      what_it_makes: "12-inch analog/mixed-signal specialty wafers (power management, BCD, RF) for consumer, industrial and automotive customers."
+      why_it_matters: "Line activated 31 December 2024 and was reported at ~15,000 wafers/month by Q1 2026, targeting full 40,000/month by 2027 — a real-time case study of how long (2-3 years) a greenfield specialty 12-inch line actually takes to ramp."
+    milestones:
+      - date: "2022-10-01"
+        event: "Runpeng 12-inch line breaks ground in Bao'an '湾区芯城' (¥22 billion phase 1)"
+      - date: "2024-12-31"
+        event: "Line activated (通线 ceremony)"
+      - date: "2026-04-01"
+        event: "Reported at ~15,000 wafers/month; 40,000/month targeted 2027"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 4
+    dates:
+      announced: "2022-10-01"
+      approved: null
+      construction_start: "2022-10-01"
+      original_expected_completion: "2027-12-31"
+      date_completion: "2024-12-31"
+    sources:
+      - url: "https://www.stcn.com/article/detail/1478384.html"
+        title: "深圳第二条12英寸项目通线投产（润鹏半导体，总投资220亿） (证券时报)"
+        date: "2025-01-03"
+      - url: "https://news.qq.com/rain/a/20260424A08NGB00"
+        title: "华润微2025年报解读：重庆满产、深圳1.5万片/月爬坡 (腾讯新闻)"
+        date: "2026-04-24"
+
+  - id: silan-xiamen
+    name_en: "Silan Microelectronics Xiamen Cluster (Jike/Mingjia)"
+    name_zh: "厦门士兰集科微电子有限公司 / 厦门士兰明镓化合物半导体有限公司"
+    name_pinyin: "Shìmén Shìlán Jíkē / Míngjiā"
+    company_en: "Hangzhou Silan Microelectronics Co., Ltd. (600460.SH)"
+    company_zh: "杭州士兰微电子股份有限公司"
+    company_pinyin: "Hángzhōu Shìlán Wēidiànzǐ Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Xiamen Semiconductor Investment Group (Haicang)", "Xiamen Xinyi Technology", "Big Fund"]
+    location:
+      city: "Xiamen"
+      province: "Fujian"
+      lat: 24.49
+      lon: 117.98
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch power/IGBT/MEMS line (士兰集科, 90nm, design 80,000 wafers/month across two phases) + 6-inch SiC/compound line (士兰明镓, 10,000 wafers/month)"
+    investment:
+      total_rmb_100m: 150
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The Xiamen campus of Silan — China's flagship private power-semi IDM — stacks a 12-inch silicon power fab (¥7 billion first line, in production since December 2020, 2025 output 637,400 wafers) alongside a 6-inch SiC line; two further lines are now in motion at the same campus: the ¥12 billion 8-inch SiC fab (士兰集宏) and ¥20 billion 12-inch high-end analog fab (士兰集华). Investment figure tracked here is the Jike 12-inch project total (¥7bn phase 1 + ¥5bn/¥2bn expansions ≈¥15bn of the ¥17bn two-line plan); the newer phases are covered in milestones."
+      what_it_makes: "IGBT/MOSFET power chips for EV main drives, PV and industrial IPM modules; SiC devices; MEMS sensors."
+      why_it_matters: "IPM modules exceeding 250 million units shipped in 2025 (+47%) show a Chinese IDM supplying white goods and cars from wafer up; the January 2026 dual event (集宏 8-inch SiC line-out ceremony + 集华 12-inch analog groundbreaking, reported as China's first fully self-IP 8-inch SiC power line) extends the same campus into the two most strategic specialty segments."
+    milestones:
+      - date: "2020-12-21"
+        event: "Jike 12-inch power line formally enters production (90nm, phase 1 40,000 wafers/month)"
+      - date: "2024-05-21"
+        event: "¥12 billion 8-inch SiC project (士兰集宏) signed with Xiamen city"
+      - date: "2025-10-18"
+        event: "¥20 billion 12-inch high-end analog project (士兰集华) signed (phase 1 ¥10 billion, 45,000 wafers/month planned)"
+      - date: "2026-01-04"
+        event: "集宏 8-inch SiC line-out ceremony (trial production since Nov 2025) + 集华 12-inch groundbreaking, same day"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: "2017-12-01"
+      approved: null
+      construction_start: "2018-10-01"
+      original_expected_completion: null
+      date_completion: "2020-12-21"
+    sources:
+      - url: "https://www.silan.com.cn/news/details/78.html"
+        title: "12吋芯片生产线今日正式投产 (士兰微官网)"
+        date: "2020-12-21"
+      - url: "https://www.silan.com.cn/index.php/news/details/286.html"
+        title: "双线里程碑：8英寸碳化硅通线暨12英寸高端模拟开工 (士兰微官网)"
+        date: "2026-01-05"
+      - url: "https://www.xm.gov.cn/xmyw/202510/t20251019_2960816.htm"
+        title: "总投资200亿士兰微新项目签约落地厦门 (厦门市政府)"
+        date: "2025-10-19"
+
+  - id: xmc-wuhan
+    name_en: "XMC Wuhan (Wuhan Xinxin)"
+    name_zh: "武汉新芯集成电路股份有限公司"
+    name_pinyin: "Wǔhàn Xīnxīn Jíchéng Diànlù Gǔfèn Yǒuxiàn Gōngsī"
+    company_en: "Wuhan Xinxin Semiconductor Manufacturing Co. (XMC)"
+    company_zh: "武汉新芯集成电路股份有限公司"
+    company_pinyin: "Wǔhàn Xīnxīn Jíchéng Diànlù Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["长江存储科技控股 (CCSH/YMTC group, 68.19%)", "Wuhan Optics Valley state vehicles", "Big Fund"]
+    location:
+      city: "Wuhan"
+      province: "Hubei"
+      lat: 30.45
+      lon: 114.42
+    type: "Memory"
+    category: "State-Backed"
+    capability: "12-inch specialty foundry — NOR flash (mainland's largest NOR fab), CIS/RF-SOI mixed-signal, and 3D integration (TSV, hybrid bonding, S-stacking/M-stacking wafer-level stacking)"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: true
+      date_added: "2024-12-02"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory:
+      - {year: 2024, node: "NOR flash at 55/65nm class in mass production; 45nm ramping"}
+    narrative:
+      significance: "Founded 2006 (managed early on by SMIC) as mainland's second-constructed 12-inch fab, then the seed plant from which YMTC's 3D NAND business was spun out in 2016; the two remain siblings under CCSH Corporation (长控集团). XMC is the mainland's largest NOR flash fab (~41% of estimated domestic NOR fab demand in 2023) and the only scaled domestic supplier of wafer-level 3D integration services (TSV/hybrid bonding) — capacity across its two fabs was 531,100 wafers in 2023 and 2024 revenue was ¥4.258 billion (¥42.58亿) per industry coverage."
+      what_it_makes: "NOR flash and MCU wafers, CIS and RF-SOI mixed-signal wafers, and 3D-integration (wafer-stacking/HBM-adjacent) foundry services; March 2024 reports describe an HBM development project (reported, not verified)."
+      why_it_matters: "Added to the US Entity List in the December 2, 2024 package alongside equipment makers — BIS named 'Wuhan Xinxin Semiconductor Manufacturing' explicitly. A STAR IPO (¥4.8 billion raise for Fab 3) was accepted September 2024 but formally withdrawn May 2026 the same day YMTC group began IPO tutoring, widely read as clearing the group listing path; its Fab 3 (reported ~¥28 billion project, 50,000 wafers/month) continues construction independent of the IPO, with first structural steel lifted April 2026."
+    milestones:
+      - date: "2018-08-01"
+        event: "Fab 2 expansion breaks ground (reported ¥13.57 billion)"
+      - date: "2024-09-30"
+        event: "STAR Market IPO accepted — ¥4.8 billion raise, ¥4.3 billion earmarked to Fab 3"
+      - date: "2024-12-02"
+        event: "Added to the US Commerce Department's Entity List (140-entity semiconductor round)"
+      - date: "2026-04-21"
+        event: "Fab 3 main structure first steel lift"
+      - date: "2026-05-19"
+        event: "IPO withdrawn/terminated by SSE at company request, the same day YMTC group filed IPO tutoring"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 4
+      capital_intensity: 4
+    dates:
+      announced: "2006-04-21"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.stcn.com/ipo/detail/3282.html"
+        title: "武汉新芯科创板IPO审核终止 (证券时报)"
+        date: "2026-05-19"
+      - url: "https://www.semi.org.cn/site/semi/article/d481ae4b97de4a8c959f83e90a268d19.html"
+        title: "新芯三期项目首片钢结构吊装 (国家集成电路创新中心网站)"
+        date: "2026-04-21"
+      - url: "https://news.qq.com/rain/a/20241203A00IUI00"
+        title: "140家中国半导体企业被列入实体清单，附完整名单（Wuhan Xinxin listed） (芯智讯)"
+        date: "2024-12-03"
+      - url: "https://www.xmcwh.com/site/about-XMC"
+        title: "XMC公司简介（国内领先的特色工艺12英寸晶圆代工企业）"
+        date: "2026-10-01"
+
+  - id: swaysure-shenzhen
+    name_en: "SwaySure (Shenzhen DRAM/Novel Memory Fab)"
+    name_zh: "深圳市昇维旭技术有限公司"
+    name_pinyin: "Shēnzhèn Shì Shēngwéixù Jìshù Yǒuxiàn Gōngsī"
+    company_en: "SwaySure Technology Co., Ltd."
+    company_zh: "深圳市昇维旭技术有限公司"
+    company_pinyin: "Shēnzhèn Shì Shēngwéixù Jìshù Yǒuxiàn Gōngsī"
+    partners: ["Shenzhen Industrial Investment Group (深重投, Shenzhen SASAC)"]
+    location:
+      city: "Shenzhen"
+      province: "Guangdong"
+      lat: 22.69
+      lon: 114.05
+    type: "Memory"
+    category: "State-Backed"
+    capability: "12-inch DRAM/novel memory fab, 28nm starting node, long-term plan reported at 140,000 wafers/month"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: true
+      date_added: "2024-12-02"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Shenzhen-state-backed memory venture founded March 2022 (registered capital ¥5 billion), led by CEO Liu Xiaoqiang (ex-TSMC fab manager) and initially by CSO Sakamoto Yukio (ex-Elpida CEO); the widely quoted '¥300 billion ambition / 140,000 wafers/month' plan is aspirational and unverified. Its 'novel memory production line project' (新型存储器产线) heads Shenzhen's 2025 major-industrial-project list, and 2025-2026 municipal water-use notices for wet-etch/CMP indicate process equipment is operating at plant level."
+      what_it_makes: "No verified product output yet; reported to target DRAM from 28nm-class nodes and new memory types."
+      why_it_matters: "Added to the Entity List in the December 2, 2024 round; July 2026 reporting (via FT and reprints) describes it as one of the Huawei-linked 'Guanlan'-family Shenzhen sites and part of a government-SwaySure-Huawei triangle building 12-inch DRAM capacity — i.e., a key piece of China's most opaque memory push, with essentially no independently verified output."
+    milestones:
+      - date: "2022-03-01"
+        event: "Company founded, funded entirely by Shenzhen Industrial Investment Group"
+      - date: "2024-12-02"
+        event: "Added to the US Commerce Department's Entity List (SwaySure Technology Co., Ltd.)"
+      - date: "2025-09-01"
+        event: "Shenzhen lists its novel-memory line among top major industrial projects; process water permits confirm fab-level operations"
+      - date: "2026-07-12"
+        event: "Reports describe Huawei co-developing the 12-inch DRAM fab (140,000 wafers/month long-term plan, unverified)"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 5
+      capital_intensity: 5
+    dates:
+      announced: "2022-03-01"
+      approved: null
+      construction_start: "2023-01-01"
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.swaysure.com/"
+        title: "昇维旭官网（深圳国资背景，存储芯片研发设计生产）"
+        date: "2026-10-10"
+      - url: "https://ee.ofweek.com/2024-12/ART-8440-2800-30652527.html"
+        title: "美国正式将140家中国半导体公司列入实体清单（含SwaySure/昇维旭全名单） (OFweek)"
+        date: "2024-12-03"
+      - url: "https://www.eet-china.com/mp/a141223.html"
+        title: "深圳又一座晶圆厂：昇维旭DRAM项目，原Elpida CEO坂本幸雄加盟 (电子工程专辑)"
+        date: "2022-06-23"
+
+  - id: yandong-beijing
+    name_en: "Yandong Micro / Beidian Integration (Beijing Yizhuang)"
+    name_zh: "北京燕东微电子股份有限公司 / 北京电控集成电路制造有限公司"
+    name_pinyin: "Běijīng Yàndōng Wēidiànzǐ"
+    company_en: "Beijing Yandong Microelectronics (STAR: 688172)"
+    company_zh: "北京燕东微电子股份有限公司"
+    company_pinyin: "Běijīng Yàndōng Wēidiànzǐ Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["Beijing E-Town (亦庄国投)", "BOE", "Beijing municipal state funds"]
+    location:
+      city: "Beijing"
+      province: "Beijing Municipality"
+      lat: 39.79
+      lon: 116.52
+    type: "Fab"
+    category: "State-Backed"
+    capability: "8-inch power/analog line (60,000+ wafers/month, IGBT/MOS/BCD/silicon-photonics) + 65nm 12-inch specialty line (¥7.5 billion, >20,000 wafers/month phase 1) + Beidian Integration 28nm 12-inch line under construction (¥33 billion, 50,000 wafers/month planned)"
+    investment:
+      total_rmb_100m: 330
+      source: "Local Govt"
+    status: "Under Construction"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Beijing's flagship effort (under the '芯屏' strategy, pairing with BOE display demand) to backfill its weak manufacturing base: the Yandong listed company runs Beijing's first 8-inch volume line and a ¥7.5 billion 'domestic-toolset' 65nm 12-inch specialty line (first wafer April 2023, mass production end-2024); the bigger Beidian Integration (北电集成) 28nm 12-inch fab — ¥33 billion total, ¥20 billion capital — broke ground December 2024, topped out 2025, and took delivery of first equipment 10 December 2025, with company-targeted production start H2 2026."
+      what_it_makes: "Power/analog/silicon-photonics wafers on 8-inch and 65nm 12-inch; planned 28nm DDIC/mixed-signal/MCU wafers on the Beidian line."
+      why_it_matters: "One of the most domestic-equipment-heavy 300mm projects in China (NAURA is the headquartered-next-door tool supplier) — a live test of how far a Chinese fab can go on a partially domestic toolset at 28nm."
+    milestones:
+      - date: "2023-04-01"
+        event: "65nm 12-inch specialty line produces first wafer (SBD power device)"
+      - date: "2024-12-01"
+        event: "Beidian Integration ¥33 billion 28nm 12-inch line breaks ground in Yizhuang"
+      - date: "2025-12-10"
+        event: "First equipment move-in at the Beidian fab; company targets production in H2 2026"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 2
+      capital_intensity: 5
+    dates:
+      announced: "2021-10-01"
+      approved: null
+      construction_start: "2024-12-01"
+      original_expected_completion: "2030-12-31"
+      date_completion: null
+    sources:
+      - url: "http://static.cninfo.com.cn/finalpage/2026-04-29/1225238474.PDF"
+        title: "北京燕东微电子股份有限公司2025年年度报告 (巨潮资讯)"
+        date: "2026-04-29"
+      - url: "https://www.ydme.com/news/158.html"
+        title: "北电集成28nm 12英寸生产线首批设备搬入 (燕东微官网)"
+        date: "2025-12-16"
+
+  - id: hunan-sanan-changsha
+    name_en: "Hunan Sanan Semiconductor (Changsha SiC IDM)"
+    name_zh: "湖南三安半导体有限责任公司"
+    name_pinyin: "Húnán Sān'ān Bàndǎotǐ"
+    company_en: "Sanan Optoelectronics Co., Ltd. (600703.SH)"
+    company_zh: "三安光电股份有限公司"
+    company_pinyin: "Sān'ān Guāngdiàn Gǔfèn Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Changsha"
+      province: "Hunan"
+      lat: 28.22
+      lon: 112.90
+    type: "Compound Semiconductor"
+    category: "Private"
+    capability: "Full-chain SiC IDM (substrate→epi→device→module), 6-inch at 16,000 wafers/month + 8-inch SiC chip line (fully activated 2025-2026); GaN-on-Si 2,000 wafers/month"
+    investment:
+      total_rmb_100m: 160
+      source: "Private"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "China's first vertically integrated SiC production chain (first line lit June 2021) and the country's largest self-contained SiC IDM platform, at ¥16 billion planned; by the May 2026 shareholders meeting the 6-inch line was running 16,000 wafers/month at ~85% yield with high utilization, and the in-house 8-inch SiC chip line — line-out August 2025, built in under a year — was reported fully activated."
+      what_it_makes: "6/8-inch SiC MOSFET/SBD devices and modules for EVs, PV and storage (customers include Sungrow and major OEMs), plus GaN-on-Si power wafers."
+      why_it_matters: "Parent Sanan Optoelectronics posted its first annual loss for 2025 with SiC depreciation as a named drag while pushing for SiC profitability in 2026 — the clearest single-company view of China's painful SiC cost-down race. Governance flag: GM Lin Kechuang (also chairman of the ST JV 安意法) was reported detained May 2026 and released around October 2026."
+    milestones:
+      - date: "2021-06-23"
+        event: "First SiC line lit — billed as China's first vertically integrated SiC chain (plan 30,000 6-inch wafers/month)"
+      - date: "2022-11-01"
+        event: "¥3.8 billion multi-year supply agreement with an EV OEM (行家说 coverage)"
+      - date: "2025-08-27"
+        event: "Own 8-inch SiC chip line announced line-out (通线)"
+      - date: "2026-05-15"
+        event: "Annual meeting: 6-inch at 16,000 wafers/month, 8-inch line fully activated; SiC profitability targeted for 2026"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: "2018-03-01"
+      approved: null
+      construction_start: "2020-07-01"
+      original_expected_completion: null
+      date_completion: "2021-06-23"
+    sources:
+      - url: "https://www.sanan-ic.com/news-18"
+        title: "湖南三安点亮中国首条碳化硅垂直整合生产线 (三安集成官网)"
+        date: "2021-06-23"
+      - url: "https://www.eet-china.com/mp/a433589.html"
+        title: "三安光电8英寸碳化硅芯片产线正式通线 (电子工程专辑)"
+        date: "2025-08-28"
+      - url: "https://stock.10jqka.com.cn/20260519/c676810688.shtml"
+        title: "三安光电股东大会：SiC产能、良率与盈利目标实录 (同花顺)"
+        date: "2026-05-19"
+
+  - id: anyiwa-chongqing
+    name_en: "Anyi-Semic / ST-Sanan JV (Chongqing 8-inch SiC)"
+    name_zh: "安意法半导体有限公司"
+    name_pinyin: "Ānyìfǎ Bàndǎotǐ Yǒuxiàn Gōngsī"
+    company_en: "Anyiwa Semiconductor Co., Ltd. (STMicroelectronics–Sanan JV)"
+    company_zh: "安意法半导体有限公司"
+    company_pinyin: "Ānyìfǎ Bàndǎotǐ Yǒuxiàn Gōngsī"
+    partners: ["湖南三安半导体 (51%)", "STMicroelectronics China Investments (49%)"]
+    location:
+      city: "Chongqing"
+      province: "Chongqing Municipality"
+      lat: 29.59
+      lon: 106.33
+    type: "Compound Semiconductor"
+    category: "JV"
+    capability: "8-inch automotive-grade SiC epitaxy + device (chip) fab, 480,000 wafers/year planned full capacity; output sold to ST; companion 8-inch substrate plant 重庆三安 (¥7 billion)"
+    investment:
+      total_rmb_100m: 230
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "STMicroelectronics' China-for-China twin of its Catania 200mm SiC strategy: an 8-inch automotive SiC device fab built in ~20 months (per ST's CEO), line activated 27 February 2025, and reported by March 2026 as China's first 8-inch automotive-grade SiC line to reach volume production (2,000 wafers/week). JV entity formed August 2023; total project investment ~¥23 billion (~$3.2B) plus ¥7 billion for the co-located Chongqing Sanan substrate plant (activated September 2024)."
+      what_it_makes: "8-inch car-grade SiC MOSFET epi and die, ST-branded, feeding Chinese EV makers' main-drive inverters."
+      why_it_matters: "The clearest case of a Western IDM localizing advanced power-device manufacturing inside China for the Chinese market — a structural answer to 'de-risking' pressure — and Chongqing's anchor in its EV-supply-chain buildout around Changan."
+    milestones:
+      - date: "2023-08-01"
+        event: "JV company established in Chongqing Xiyong micro-electronics park"
+      - date: "2024-09-01"
+        event: "Companion Chongqing Sanan 8-inch substrate plant activated"
+      - date: "2025-02-27"
+        event: "8-inch SiC device line activated (通线 ceremony, Xinhua)"
+      - date: "2026-03-01"
+        event: "Volume production of the 2,000 wafers/week car-grade line reported (China first)"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 3
+      capital_intensity: 4
+    dates:
+      announced: "2023-06-01"
+      approved: "2023-08-01"
+      construction_start: "2023-08-01"
+      original_expected_completion: null
+      date_completion: "2025-02-27"
+    sources:
+      - url: "https://www.yicai.com/news/102490839.html"
+        title: "安意法半导体重庆8英寸碳化硅项目正式通线 (第一财经)"
+        date: "2025-02-27"
+      - url: "https://stock.10jqka.com.cn/20260519/c676810688.shtml"
+        title: "三安光电：安意法现有产能2000片/周，部分产品完成验证进入风险量产 (同花顺转上海证券报)"
+        date: "2026-05-19"
+      - url: "https://www.eet-china.com/mp/a432943.html"
+        title: "重庆三安-意法半导体8英寸SiC进展盘点 (电子工程专辑)"
+        date: "2025-08-27"
+
+  - id: changfei-sic-wuhan
+    name_en: "YOFC Advanced Semiconductor (Wuhan SiC IDM)"
+    name_zh: "长飞先进半导体（武汉）有限公司"
+    name_pinyin: "Chángfēi Xiānjìn Bàndǎotǐ (Wǔhàn)"
+    company_en: "YOFC Advanced Semiconductor"
+    company_zh: "安徽长飞先进半导体股份有限公司（武汉基地）"
+    company_pinyin: "Ānhuī Chángfēi Xiānjìn Bàndǎotǐ Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["长飞光纤 (equity-method JV holder, 22.9%)", "Optics Valley financial holding", "Chery's Xinche Zhilian fund"]
+    location:
+      city: "Wuhan"
+      province: "Hubei"
+      lat: 30.47
+      lon: 114.50
+    type: "Compound Semiconductor"
+    category: "Private"
+    capability: "6-inch SiC IDM — full-line smart fab: 360,000 wafers/year + 360,000 epi + 61 million modules/year at phase-1 full ramp (with legacy Wuhu base: combined 420,000 wafers/year)"
+    investment:
+      total_rmb_100m: 200
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The big new 2025 entrant in Chinese SiC: a ¥20 billion Wuhan Optics Valley IDM base (contracted August 2023) that broke ground within two months and produced its first 6-inch automotive-grade SiC wafer on 28 May 2025 — 21 months, billed as China's largest SiC device fab, ~30% of domestic wafer capacity at full rate. First-product yield was reported at 97%; ramp to 3,500 wafers/month was the stated end-2025 target."
+      what_it_makes: "SiC MOSFET wafers (fully automated plant, ~80 line operators on four-shift rotation) and power modules for EV main drives — plus the Wuhu base's 60,000 wafers/year."
+      why_it_matters: "A telecom-fiber company's pivot (长飞光纤) into power semis via acquisition and greenfield scale — and after a >¥1 billion A+ round (February 2026, Jiangcheng Fund/Changjiang Industrial lead), management expects its SiC chips in customer vehicles from H2 2026 — the newest test of whether a late entrant can beat the SiC glut narrative."
+    milestones:
+      - date: "2023-08-01"
+        event: "Wuhan base project signed (total >¥20 billion, 498 mu)"
+      - date: "2025-05-28"
+        event: "First 6-inch SiC wafer off the line — fab in mass-production line-out (量产通线)"
+      - date: "2026-02-06"
+        event: ">¥1 billion A+ financing round completed; combined Wuhu+Wuhan capacity stated at 420,000 wafers/year"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: "2023-08-01"
+      approved: null
+      construction_start: "2023-09-01"
+      original_expected_completion: null
+      date_completion: "2025-05-28"
+    sources:
+      - url: "https://finance.sina.com.cn/jjxw/2025-05-29/doc-ineyfuvw9501289.shtml"
+        title: "总投资200亿元！长飞先进碳化硅晶圆量产通线 (财联社/新浪财经)"
+        date: "2025-05-29"
+      - url: "https://www.hjssemi.com/topic/1770705669124"
+        title: "长飞先进：获得超10亿融资，SiC产能达42万片/年 (行家说三代半)"
+        date: "2026-04-23"
+
+  - id: sitri-shanghai
+    name_en: "SITRI — Shanghai Industrial Technology Research Institute"
+    name_zh: "上海微技术工业研究院"
+    name_pinyin: "Shànghǎi Wēijìshù Gōngyè Yánjiūyuàn"
+    company_en: "Shanghai Industrial Technology Research Institute (SITRI)"
+    company_zh: "上海微技术工业研究院"
+    company_pinyin: "Shànghǎi Wēijìshù Gōngyè Yánjiūyuàn"
+    partners: ["Shanghai Municipal Commission of Science & Technology", "Jiading District Government", "Xinwei Group (CAS Shanghai Institutes affiliate)"]
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.33
+      lon: 121.24
+    type: "Research Fab"
+    category: "State-Backed"
+    capability: "China's first 8-inch 'More than Moore' R&D pilot line (online September 2017): MEMS/intelligent sensors, silicon photonics, biochips; ~5,000 sqm cleanroom, 14 standardized process modules, CMOS-compatible"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "China's structural answer to imec — a full-flow 200mm pilot fab (not a lab cleanroom) de-risking the R&D→pilot→industrialization gap for MEMS, silicon photonics and biosensor chips; founded 2013 with the CAS Shanghai microsystems lineage, it has served 1,000+ customers and incubated 20+ companies with aggregate valuation above ¥15 billion, and was named a national 'little giant' 专精特新 platform in 2025."
+      what_it_makes: "Engineering/pilot wafers: MEMS sensors, silicon-photonic chips (built under Shanghai's municipal SiPh major special project), biosensor chips; PDK-based tape-out services rather than commercial volume."
+      why_it_matters: "Pilot lines like SITRI's are the missing middle layer that export controls cannot block as easily as frontier tools — the country's specialty-silicon innovation capacity increasingly runs through such platforms; it anchors Jiading's 'More than Moore' sensor cluster."
+    milestones:
+      - date: "2013-11-01"
+        event: "Founded by Shanghai Municipal Commission of STI, Jiading district and Xinwei Group"
+      - date: "2017-09-01"
+        event: "8-inch R&D pilot line online — China's first 'More than Moore' pilot fab"
+      - date: "2018-07-01"
+        event: "Silicon photonics pilot line (municipal major special project) completes, tape-out capability demonstrated"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2013-11-01"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2017-09-01"
+    sources:
+      - url: "https://www.sitri.com/gsjj"
+        title: "SITRI公司简介（国内首条8英寸'超越摩尔'研发中试线）"
+        date: "2026-10-01"
+      - url: "https://www.sh-italent.com/Article/201807/201807090022.shtml"
+        title: "硅光子市级重大专项获突破 首条研发中试线年内建成 (解放日报转载)"
+        date: "2018-07-09"
+
+  - id: xopt-xian
+    name_en: "Xi'an Optoelectronics Pilot Institute (XOPT)"
+    name_zh: "陕西光电子先导院科技有限公司"
+    name_pinyin: "Shǎnxī Guāngdiànzǐ Xiāndǎoyuàn Kējì Yǒuxiàn Gōngsī"
+    company_en: "Shaanxi Pilot Institute of Optoelectronics"
+    company_zh: "陕西光电子先导院科技有限公司"
+    company_pinyin: "Shǎnxī Guāngdiànzǐ Xiāndǎoyuàn Kējì Yǒuxiàn Gōngsī"
+    partners: ["CAS Xi'an Institute of Optics and Precision Mechanics", "Shaanxi Provincial Department of Science & Technology", "Xi'an High-tech Zone"]
+    location:
+      city: "Xi'an"
+      province: "Shaanxi"
+      lat: 34.22
+      lon: 108.90
+    type: "Research Fab"
+    category: "State-Backed"
+    capability: "Dual pilot lines: 8-inch silicon photonics (130nm IMEC SiPh kit, DUV litho, ~¥750 million platform) + 6-inch compound semiconductor (GaAs VCSEL); ~8,000 sqm cleanroom, ~200 tools"
+    investment:
+      total_rmb_100m: 15
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Northwest China's first silicon-photonics pilot line, activated 4 November 2025 (cumulative platform investment ~¥1.5 billion) and selected into MIIT's first national manufacturing-pilot-platform list; on 23 August 2026 it opened commercial tape-out and released production-grade process data (LPSIN400 SiN PDK) — the first public domestic SiPh PDK of its kind."
+      what_it_makes: "Silicon-photonic chips (AI interconnect, LiDAR, optical computing) and GaAs VCSEL optoelectronics on pilot/MPW services; 6-inch compound line online since 2023 with 20+ PDKs and 80+ customers."
+      why_it_matters: "Core of Shaanxi's 'Chasing Light' photonics program (409 firms, ¥41 billion output in 2025) — and an operator claim worth tracking: SiPh tape-out cycles '5x faster than overseas', because the alternative for Chinese designers was queuing at foreign pilot fabs."
+    milestones:
+      - date: "2015-01-01"
+        event: "Founded by CAS Xi'an Institute of Optics + provincial/high-tech-zone government"
+      - date: "2023-03-01"
+        event: "6-inch compound-semiconductor platform opens"
+      - date: "2025-11-04"
+        event: "8-inch silicon-photonics pilot line activated — first in northwest China"
+      - date: "2026-08-23"
+        event: "First public release of production-grade SiPh PDK; full commercial tape-out opens"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2015-01-01"
+      approved: null
+      construction_start: "2023-01-01"
+      original_expected_completion: null
+      date_completion: "2025-11-04"
+    sources:
+      - url: "https://www.shaanxi.gov.cn/xw/sxyw/202511/t20251106_3582283.html"
+        title: "西北地区首条硅光中试线通线 (陕西省人民政府)"
+        date: "2025-11-06"
+      - url: "https://news.sciencenet.cn/htmlnews/2025/11/554576.shtm"
+        title: "破局'芯'困境！西北首条硅光中试线正式通线 (中国科学报)"
+        date: "2025-11-05"
+      - url: "https://xakj.xa.gov.cn/kjdt/mtbd/2092448302231523330.html"
+        title: "西北首条8英寸硅光中试平台核心工艺数据首次公开 (西安市科技局)"
+        date: "2026-08-26"
+
+  - id: noeic-wuhan
+    name_en: "NOEIC — National Optoelectronics Information Innovation Center"
+    name_zh: "武汉光谷信息光电子创新中心有限公司（国家信息光电子创新中心）"
+    name_pinyin: "Guójiā Xìnxī Guāngdiànzǐ Chuàngxīn Zhōngxīn"
+    company_en: "National Optoelectronics Information Innovation Center (Wuhan)"
+    company_zh: "国家信息光电子创新中心"
+    company_pinyin: "Guójiā Xìnxī Guāngdiànzǐ Chuàngxīn Zhōngxīn"
+    partners: ["Accelink (光迅科技) lead", "CICT (中国信科, central SOE)", "Wuhan Optics Valley"]
+    location:
+      city: "Wuhan"
+      province: "Hubei"
+      lat: 30.47
+      lon: 114.40
+    type: "Research Fab"
+    category: "State-Backed"
+    capability: "III-V (InP/GaAs) optoelectronic process platform + silicon photonics; Nov 2025: China's first fully-domesticated 12-inch 40nm CMOS-based SiPh PDK/TDK/ADK tape-out platform (MPW shuttles)"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "A national manufacturing-innovation center approved by MIIT (October 2017), led by Accelink under CICT; its 12-inch silicon-photonics tape-out platform commissioned in Optics Valley in November 2025 — running on a fully domestic toolset (announced September 2025) with a commercial-grade 40nm PDK — makes it the only national-level platform for domesticized optoelectronic chip wafer R&D."
+      what_it_makes: "Optical-communication and opto-AI chips on 200/300mm wafers: demo silicon-photonic interconnect chips (1.6T, 2T chiplet), 170GHz thin-film-lithium-niobate modulator (March 2026), MPW shuttle services for 300+ organizations."
+      why_it_matters: "Silicon photonics is China's most credible 'bypass' strategy for AI-interconnect bottlenecks; Hubei's stated 2030 target is a global-top-3 12-inch SiPh specialty line. This platform de-risks that flow from overseas fabs."
+    milestones:
+      - date: "2017-10-31"
+        event: "MIIT approves the national manufacturing innovation center (挂牌 April 2018)"
+      - date: "2025-09-29"
+        event: "First fully-domesticized silicon-photonics 'toolkit' (PDK/TDK/ADK) released"
+      - date: "2025-11-11"
+        event: "12-inch SiPh tape-out platform commissioned in Optics Valley"
+      - date: "2026-05-26"
+        event: "Selected into MIIT's second-batch national key pilot-platform list"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 3
+      capital_intensity: 3
+    dates:
+      announced: "2017-10-31"
+      approved: "2017-10-31"
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2025-11-11"
+    sources:
+      - url: "https://zrzyhgh.wuhan.gov.cn/dhxjskfqfj/dhxjskfqfj_xwdt/dhxjskfqfj_gzdt/202601/t20260109_2708914.shtml"
+        title: "光谷12寸硅光芯片流片平台投用 (中国光谷)"
+        date: "2025-11-11"
+      - url: "http://jxt.hubei.gov.cn/bmdt/rdjj/202509/t20250929_5782308.shtml"
+        title: "首套全国产化硅光芯片'工具箱'发布 (湖北省经信厅)"
+        date: "2025-09-29"

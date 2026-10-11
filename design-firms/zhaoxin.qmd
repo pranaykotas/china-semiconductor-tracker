@@ -1,0 +1,39 @@
+---
+title: "Shanghai Zhaoxin Semiconductor"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 上海兆芯集成电路股份有限公司 (Zhàoxīn)
+
+::: {.callout-tip}
+## Why This Matters
+The state-backed (Shanghai United Investment 50.07%) second x86 path — the only domestic vendor natively running standard Windows+Linux binaries on desktops; July 2026 reporting put ZX86 laptops at ~50% of central-government procurement. STAR IPO accepted June 2025 (¥41.69亿 raise); inquiry responses (April 2026) show FY2025 revenue ≈¥11.11亿 (+54.8%) against ≈-¥10.3亿 loss — still the classic loss-making CPU startup awaiting a listing test.
+:::
+
+## What does this firm design?
+
+x86-compatible desktop/server/embedded CPUs, chipsets, instruction-set extensions; GPU affiliate.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 2013 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | x86-compatible CPUs: 开先 KX desktop/embedded (KX-7000, 8-core/3.7GHz, chiplet), 开胜 KH servers (KH-50000 up to 192 cores dual-socket) |
+| **Node Sophistication** | KX-6000 16nm; KX-7000/KH-50000 on more advanced undisclosed node (~N7-class presumed — not verified); domestic-fab pivot underway |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.8/5**
+
+## Sources
+
+- [兆芯第二轮审核问询函回复（2025年营收11.11亿） (巨潮资讯)](http://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260506/b643291faa98423784e45df45dc6e74c.pdf) (06 May 2026)
+- [兆芯科创板IPO获受理：上海国资控股的x86之路 (36氪)](https://www.36kr.com/p/3343081803589128) (19 Jun 2025)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

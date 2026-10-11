@@ -1,0 +1,63 @@
+---
+title: "Anyi-Semic / ST-Sanan JV (Chongqing 8-inch SiC)"
+subtitle: "Anyiwa Semiconductor Co., Ltd. (STMicroelectronics–Sanan JV) | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+STMicroelectronics' China-for-China twin of its Catania 200mm SiC strategy: an 8-inch automotive SiC device fab built in ~20 months (per ST's CEO), line activated 27 February 2025, and reported by March 2026 as China's first 8-inch automotive-grade SiC line to reach volume production (2,000 wafers/week). JV entity formed August 2023; total project investment ~¥23 billion (~$3.2B) plus ¥7 billion for the co-located Chongqing Sanan substrate plant (activated September 2024).
+:::
+
+**Chinese name:** 安意法半导体有限公司 (Ānyìfǎ Bàndǎotǐ Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+8-inch car-grade SiC MOSFET epi and die, ST-branded, feeding Chinese EV makers' main-drive inverters.
+
+## Why does it matter?
+
+The clearest case of a Western IDM localizing advanced power-device manufacturing inside China for the Chinese market — a structural answer to 'de-risking' pressure — and Chongqing's anchor in its EV-supply-chain buildout around Changan.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Anyiwa Semiconductor Co., Ltd. (STMicroelectronics–Sanan JV) |
+| **Type** | Compound Semiconductor |
+| **Category** | JV |
+| **Capability** | 8-inch automotive-grade SiC epitaxy + device (chip) fab, 480,000 wafers/year planned full capacity; output sold to ST; companion 8-inch substrate plant 重庆三安 (¥7 billion) |
+| **Status** | Operational |
+| **Investment** | ¥230亿元 |
+| **Funding Source** | Foreign |
+| **Location** | Chongqing, Chongqing Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Aug 2023** — JV company established in Chongqing Xiyong micro-electronics park
+- **Sep 2024** — Companion Chongqing Sanan 8-inch substrate plant activated
+- **Feb 2025** — 8-inch SiC device line activated (通线 ceremony, Xinhua)
+- **Mar 2026** — Volume production of the 2,000 wafers/week car-grade line reported (China first)
+
+## Sources
+
+- [安意法半导体重庆8英寸碳化硅项目正式通线 (第一财经)](https://www.yicai.com/news/102490839.html) (27 Feb 2025)
+- [三安光电：安意法现有产能2000片/周，部分产品完成验证进入风险量产 (同花顺转上海证券报)](https://stock.10jqka.com.cn/20260519/c676810688.shtml) (19 May 2026)
+- [重庆三安-意法半导体8英寸SiC进展盘点 (电子工程专辑)](https://www.eet-china.com/mp/a432943.html) (27 Aug 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

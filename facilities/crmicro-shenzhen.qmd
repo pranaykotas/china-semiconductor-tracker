@@ -1,0 +1,61 @@
+---
+title: "CR Micro Shenzhen (Runpeng 12-inch Analog Line)"
+subtitle: "CR Microelectronics Ltd. (STAR: 688396) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Shenzhen's second 12-inch wafer fab (after SMIC Shenzhen), part of Guangdong's push to give the province a 'third pole' of chip manufacturing; ¥22 billion phase-1 total, with CR Micro contributing ¥2.475 billion cash into the ¥15 billion-capital Runpeng JV.
+:::
+
+**Chinese name:** 润鹏半导体（深圳）有限公司 (Rùn Péng Bàndǎotǐ (Shēnzhèn))
+
+## What does this facility make?
+
+12-inch analog/mixed-signal specialty wafers (power management, BCD, RF) for consumer, industrial and automotive customers.
+
+## Why does it matter?
+
+Line activated 31 December 2024 and was reported at ~15,000 wafers/month by Q1 2026, targeting full 40,000/month by 2027 — a real-time case study of how long (2-3 years) a greenfield specialty 12-inch line actually takes to ramp.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | CR Microelectronics Ltd. (STAR: 688396) |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 12-inch analog/mixed-signal specialty (BCD, high-voltage, RF, Flash), ≥40nm-class; 40,000 wafers/month planned |
+| **Status** | Operational |
+| **Investment** | ¥220亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Shenzhen, Guangdong |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Oct 2022** — Runpeng 12-inch line breaks ground in Bao'an '湾区芯城' (¥22 billion phase 1)
+- **Dec 2024** — Line activated (通线 ceremony)
+- **Apr 2026** — Reported at ~15,000 wafers/month; 40,000/month targeted 2027
+
+## Sources
+
+- [深圳第二条12英寸项目通线投产（润鹏半导体，总投资220亿） (证券时报)](https://www.stcn.com/article/detail/1478384.html) (03 Jan 2025)
+- [华润微2025年报解读：重庆满产、深圳1.5万片/月爬坡 (腾讯新闻)](https://news.qq.com/rain/a/20260424A08NGB00) (24 Apr 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

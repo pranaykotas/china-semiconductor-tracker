@@ -1,0 +1,64 @@
+---
+title: "CanSemi (Guangzhou)"
+subtitle: "CanSemi Technology Inc. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Guangdong province's first and only scaled 12-inch wafer fab — the province that consumes an estimated ~40% of China's chips had no domestic 12-inch mass production before CanSemi. Phases 1–3 are in production at ~63,300 wafers/month realized versus 80,000 planned (end-2025), with a third fab (Phase 3, ¥16.25 billion) online since December 2024 and a ¥25.2 billion Phase 4 (third site, 480,000 wafers/year mixed-signal) started January 2026.
+:::
+
+**Chinese name:** 粤芯半导体技术股份有限公司 (Yuèxīn Bàndǎotǐ)
+
+## What does this facility make?
+
+Analog/power-management, fingerprint-sensor, display-driver, CIS and power chips on 12-inch wafers — plus, uniquely among mainland foundries, mass-production 12-inch silicon-photonics wafers (90nm platform feeding 400G/800G/1.6T optical modules).
+
+## Why does it matter?
+
+Its IPO cleared the ChiNext listing committee in June 2026 as the board's first pre-profit wafer-fab listing under Standard 3, with CSRC registration approved 28 August 2026 — a template for funding loss-making specialty fabs with public markets. Prospectus coverage shows revenues of ¥1.044/1.681/2.582 billion (2023-2025) against net losses of ¥1.917/2.253/2.346 billion, with earliest guided profitability in 2029 — how capital-hungry the model is.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | CanSemi Technology Inc. |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 12-inch (300mm) specialty analog/mixed-signal foundry, 180nm–55nm; PMIC, fingerprint, display driver, CIS, power, and silicon-photonics platforms |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Guangzhou, Guangdong |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Sep 2019** — Phase 1 enters production, ~18 months after groundbreaking
+- **Dec 2024** — Phase 3 (second fab, ¥16.25 billion, +40,000 wafers/month) line activated
+- **Jan 2026** — Phase 4 (¥25.2 billion, 480,000 wafers/year mixed-signal, nodes roadmap to 65-22nm) formally started
+- **Jun 2026** — ChiNext IPO approved by listing committee — first pre-profit wafer fab on the board
+- **Aug 2026** — CSRC registration approval received for the IPO (planned raise ¥7.5 billion)
+
+## Sources
+
+- [总投资252亿元 粤芯半导体年产48万片晶圆生产线启动 (新华网)](http://www.news.cn/tech/20260123/1b1c540bf37b4e73b95e8a15dba491df/c.html) (23 Jan 2026)
+- [粤芯半导体取得IPO注册批文 (证券日报)](http://www.zqrb.cn/gscy/qiyexinxi/2026-08-28/A1787914927566.html) (28 Aug 2026)
+- [粤芯半导体IPO过会 (国际电子商情)](https://www.esmchina.com/news/14267.html) (16 Jun 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

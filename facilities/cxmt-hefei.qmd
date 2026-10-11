@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity. Went public on the Shanghai STAR Market in May 2026 — China's largest A-share IPO of the year to that point — raising roughly ¥29.5 billion at an issue price of ¥8.66/share.
+China's leading DRAM maker (long known as Innotron/Hefei Chang Xin before its current name), majority state-controlled via Hefei SASAC and the Big Fund, now the world's fourth-largest DRAM producer by capacity. Went public on the Shanghai STAR Market on 27 July 2026 — China's largest A-share IPO of the year — with total proceeds of ¥66.607 billion at ¥8.66/share; its H1 2026 interim report showed revenue of roughly ¥150.31 billion (+873.6% YoY), placing it fourth in China and fourth globally in DRAM by volume and value.
 :::
 
 **Chinese name:** 长鑫存储 (Chángxīn Cúnchǔ)
@@ -51,8 +51,10 @@ DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's ris
 - **May 2016** — Founded as Innotron Memory / Hefei Chang Xin
 - **Jan 2017** — $7.2 billion investment announced for a 125,000 wafer/month 12-inch DRAM fab
 - **Jan 2025** — Added to the US Department of Defense's Section 1260H list of Chinese military-linked companies (Federal Register notice)
-- **May 2026** — STAR Market (科创板) IPO formally approved; raises approximately ¥29.5 billion ($4.1B) at ¥8.66/share, the largest mainland A-share IPO of 2026 to that point
+- **Jun 2026** — STAR Market IPO registration approved; the listing then raises total proceeds of ¥66.607 billion (net ¥66.31 billion, including ~¥36.8 billion of over-subscription) at ¥8.66/share — China's largest A-share IPO of 2026 — with shares up 471% on the first day of listing, 2026-07-27
 - **Aug 2026** — Reported to be planning a second DRAM fab in Beijing
+- **Sep 2026** — Reuters, via Chinese reprints, reports CXMT is preparing to enter NAND flash with an R&D pilot line inside the planned Beijing fab
+- **Sep 2026** — Fifth-generation (G5) DRAM platform declared in production — ~12nm-class half-pitch on ArF immersion multi-patterning — followed by an October 2026 statement that G5/LPDDR6 are in mass production
 
 ## Sources
 
@@ -60,6 +62,8 @@ DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's ris
 - [长鑫科技集团股份有限公司 CXMT Corporation 首次公开发行股票并在科创板上市公告 (Shanghai Stock Exchange filing)](https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260517_MGLN.pdf) (17 May 2026)
 - [长鑫科技深度报告：从零起步，10年追赶，剑指全球第三！ (21世纪经济报道)](https://www.21jingji.com/article/20260625/herald/2ae96cf459babea7b4794efa8e88e91f.html) (25 Jun 2026)
 - [最新消息：长鑫存储拟在北京建设第二座DRAM工厂！ (电子工程专辑)](https://www.eet-china.com/news/202608044585.html) (04 Aug 2026)
+- [长鑫科技集团股份有限公司 2026年半年度报告 (H1 2026 revenue ¥1503.1亿, +873.6% YoY)](http://static.cninfo.com.cn/finalpage/2026-08-29/1225529543.PDF) (29 Aug 2026)
+- [路透：长鑫存储筹备进入NAND市场，北京新厂内设研发试验线 (观察者网编译)](https://www.guancha.cn/CaiJing/2026_09_18_901187.shtml) (18 Sep 2026)
 
 ---
 

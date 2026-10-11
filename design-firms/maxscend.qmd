@@ -1,0 +1,39 @@
+---
+title: "Maxscend Microelectronics"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 江苏卓胜微电子股份有限公司 (Zhuóshèngwēi)
+
+::: {.callout-tip}
+## Why This Matters
+The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing one: FY2025 revenue ¥37.26亿 (-17.0%) with the company's first-ever annual loss (¥-2.93亿), widened to ¥-3.71亿 in H1 2026 as fab depreciation hit. Its volume L-PAMiD with domestic filter+switch+external PA is the first credible Chinese mid/high-tier module.
+:::
+
+## What does this firm design?
+
+RF front-end chips and modules for smartphones/IoT, WiFi-7 and NTN satellite front-ends, plus 6G-stage research.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2012 |
+| **Location** | Wuxi, Jiangsu |
+| **Product Focus** | Smartphone RF front-end: switches, LNAs, DiFEM/L-DiFEM modules, SAW/MAX-SAW filters, L-PAMiD, WiFi/BLE, satellite NTN front-ends |
+| **Node Sophistication** | 12-inch silicon-based RF platform (switch/LNA, second-gen in volume); 6-inch TCSAW/MAX-SAW filter process; fully domestic-supply-chain L-PAMiD transmit module shipping to top brands — a Chinese first |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [卓胜微2025年年度报告摘要（Fab-Lite转型细节） (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-04-28/1225220150.PDF) (28 Apr 2026)
+- [卓胜微半年报亏损3.71亿元 (央广网)](https://finance.cnr.cn/ycbd/20260826/t20260826_527792588.shtml) (26 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC. Domestic reporting in 2026 describes Zhang as having since departed the company he founded, citing difficulty retaining talent — a leadership change this tracker has not independently corroborated beyond that single report. By 2026, reported capacity stood at roughly 60,000 wafers/month (8-inch line) and 40,000 wafers/month (12-inch line), with an annual output value around ¥4.6 billion at full capacity.
+China's first 'CIDM' (collaborative IDM) project — pooling IC-design firms, end-application companies, and the manufacturer as joint investors — founded by Richard Chang (Zhang Rujing), who also founded SMIC. Domestic reporting in 2026 describes Zhang as having since departed the company he founded, citing difficulty retaining talent — a leadership change this tracker has not independently corroborated beyond that single report. By 2026, reported capacity stood at roughly 60,000 wafers/month (8-inch line) and 40,000 wafers/month (12-inch line), with an annual output value around ¥4.6 billion at full capacity. SiEn was added to the US Commerce Department's Entity List on December 2, 2024, as part of the 140-entity semiconductor package — one of only a handful of wafer fabs directly listed in that round.
 :::
 
 **Chinese name:** 芯恩（青岛）集成电路 (Xīn'ēn (Qīngdǎo) Jíchéng Diànlù)
@@ -32,7 +32,7 @@ A structurally different ownership model (collaborative IDM, not a pure foundry 
 | **Funding Source** | Local Govt |
 | **Location** | Qingdao, Shandong |
 | **Current Node** | Not yet researched |
-| **Entity List** | No |
+| **Entity List** | Yes — US Commerce BIS (02 Dec 2024) |
 | **Domestic Equipment Share** | Not disclosed |
 | **Key Foreign Tools** | None documented |
 | **Smuggled/Diverted Equipment Flagged** | No |

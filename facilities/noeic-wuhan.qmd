@@ -1,0 +1,62 @@
+---
+title: "NOEIC — National Optoelectronics Information Innovation Center"
+subtitle: "National Optoelectronics Information Innovation Center (Wuhan) | Research Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A national manufacturing-innovation center approved by MIIT (October 2017), led by Accelink under CICT; its 12-inch silicon-photonics tape-out platform commissioned in Optics Valley in November 2025 — running on a fully domestic toolset (announced September 2025) with a commercial-grade 40nm PDK — makes it the only national-level platform for domesticized optoelectronic chip wafer R&D.
+:::
+
+**Chinese name:** 武汉光谷信息光电子创新中心有限公司（国家信息光电子创新中心） (Guójiā Xìnxī Guāngdiànzǐ Chuàngxīn Zhōngxīn)
+
+## What does this facility make?
+
+Optical-communication and opto-AI chips on 200/300mm wafers: demo silicon-photonic interconnect chips (1.6T, 2T chiplet), 170GHz thin-film-lithium-niobate modulator (March 2026), MPW shuttle services for 300+ organizations.
+
+## Why does it matter?
+
+Silicon photonics is China's most credible 'bypass' strategy for AI-interconnect bottlenecks; Hubei's stated 2030 target is a global-top-3 12-inch SiPh specialty line. This platform de-risks that flow from overseas fabs.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | National Optoelectronics Information Innovation Center (Wuhan) |
+| **Type** | Research Fab |
+| **Category** | State-Backed |
+| **Capability** | III-V (InP/GaAs) optoelectronic process platform + silicon photonics; Nov 2025: China's first fully-domesticated 12-inch 40nm CMOS-based SiPh PDK/TDK/ADK tape-out platform (MPW shuttles) |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Wuhan, Hubei |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.6/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Oct 2017** — MIIT approves the national manufacturing innovation center (挂牌 April 2018)
+- **Sep 2025** — First fully-domesticized silicon-photonics 'toolkit' (PDK/TDK/ADK) released
+- **Nov 2025** — 12-inch SiPh tape-out platform commissioned in Optics Valley
+- **May 2026** — Selected into MIIT's second-batch national key pilot-platform list
+
+## Sources
+
+- [光谷12寸硅光芯片流片平台投用 (中国光谷)](https://zrzyhgh.wuhan.gov.cn/dhxjskfqfj/dhxjskfqfj_xwdt/dhxjskfqfj_gzdt/202601/t20260109_2708914.shtml) (11 Nov 2025)
+- [首套全国产化硅光芯片'工具箱'发布 (湖北省经信厅)](http://jxt.hubei.gov.cn/bmdt/rdjj/202509/t20250929_5782308.shtml) (29 Sep 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

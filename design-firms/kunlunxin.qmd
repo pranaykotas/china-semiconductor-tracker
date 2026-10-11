@@ -1,0 +1,39 @@
+---
+title: "Kunlunxin (Beijing) Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 昆仑芯（北京）科技股份有限公司 (Kūnlún Xīn)
+
+::: {.callout-tip}
+## Why This Matters
+The only internet-giant spin-off in the domestic AI-chip first tier — ~116,000 cards shipped in 2025, tied 3rd with Cambricon among domestic vendors, trained ERNIE 5.1 on an all-domestic cluster. In 2026 it launched a dual listing path (confidential HKEX filing January; STAR tutoring via CICC May) targeting a valuation Reuters put near $50 billion. Parent Baidu was added to DoD's 1260H list (26 June 2026) — political, not export, exposure.
+:::
+
+## What does this firm design?
+
+Cloud AI training/inference XPU chips, cluster systems and software for search, ads, recommendation and reasoning workloads.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2011 |
+| **Location** | Beijing, Beijing Municipality |
+| **Product Focus** | AI accelerators: Kunlun 1/2 (2018/2021), P800 third-gen general AI chip (2024 mass production, FP16 345 TFLOPS) |
+| **Node Sophistication** | P800 on Samsung 7nm (per Lianhe Zaobao); next-gen node not verified |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 4.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **4.2/5**
+
+## Sources
+
+- [昆仑芯P800：2.3倍H20性能，多家大客户落地 (新浪科技转联合早报)](https://finance.sina.com.cn/tech/roll/2026-06-29/doc-iniezxcc0358752.shtml) (29 Jun 2026)
+- [昆仑芯启动科创板上市辅导，中金保荐 (证券时报)](https://stcn.com/article/detail/3899769.html) (08 May 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

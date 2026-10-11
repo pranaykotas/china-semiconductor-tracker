@@ -1,0 +1,61 @@
+---
+title: "Yandong Micro / Beidian Integration (Beijing Yizhuang)"
+subtitle: "Beijing Yandong Microelectronics (STAR: 688172) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Beijing's flagship effort (under the '芯屏' strategy, pairing with BOE display demand) to backfill its weak manufacturing base: the Yandong listed company runs Beijing's first 8-inch volume line and a ¥7.5 billion 'domestic-toolset' 65nm 12-inch specialty line (first wafer April 2023, mass production end-2024); the bigger Beidian Integration (北电集成) 28nm 12-inch fab — ¥33 billion total, ¥20 billion capital — broke ground December 2024, topped out 2025, and took delivery of first equipment 10 December 2025, with company-targeted production start H2 2026.
+:::
+
+**Chinese name:** 北京燕东微电子股份有限公司 / 北京电控集成电路制造有限公司 (Běijīng Yàndōng Wēidiànzǐ)
+
+## What does this facility make?
+
+Power/analog/silicon-photonics wafers on 8-inch and 65nm 12-inch; planned 28nm DDIC/mixed-signal/MCU wafers on the Beidian line.
+
+## Why does it matter?
+
+One of the most domestic-equipment-heavy 300mm projects in China (NAURA is the headquartered-next-door tool supplier) — a live test of how far a Chinese fab can go on a partially domestic toolset at 28nm.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Beijing Yandong Microelectronics (STAR: 688172) |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 8-inch power/analog line (60,000+ wafers/month, IGBT/MOS/BCD/silicon-photonics) + 65nm 12-inch specialty line (¥7.5 billion, >20,000 wafers/month phase 1) + Beidian Integration 28nm 12-inch line under construction (¥33 billion, 50,000 wafers/month planned) |
+| **Status** | Under Construction |
+| **Investment** | ¥330亿元 |
+| **Funding Source** | Local Govt |
+| **Location** | Beijing, Beijing Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Apr 2023** — 65nm 12-inch specialty line produces first wafer (SBD power device)
+- **Dec 2024** — Beidian Integration ¥33 billion 28nm 12-inch line breaks ground in Yizhuang
+- **Dec 2025** — First equipment move-in at the Beidian fab; company targets production in H2 2026
+
+## Sources
+
+- [北京燕东微电子股份有限公司2025年年度报告 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-04-29/1225238474.PDF) (29 Apr 2026)
+- [北电集成28nm 12英寸生产线首批设备搬入 (燕东微官网)](https://www.ydme.com/news/158.html) (16 Dec 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -1,0 +1,63 @@
+---
+title: "United Nova Technology (Shaoxing)"
+subtitle: "United Nova Technology Co., Ltd. (STAR: 688469) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Grew out of the 2018 SMIC–Shaoxing JV (中芯绍兴/中芯集成, renamed 芯联集成 on its 2022 STAR listing); today China's leading automotive power-semiconductor foundry — #1 Chinese SiC device maker by 2025 Yole ranking, in the global top-5 MEMS foundries — with 2025 output of 2.51 million 8-inch-equivalent wafers (+24.7%). Phase 3 (12-inch mixed-signal, ¥22.2 billion total, 100,000 wafers/month planned) is ramping from ~30,000/month; Phase 4 (¥20 billion, 50,000 wafers/month for 40/28nm MCU, 90/55nm BCD/DrMOS and 55nm silicon photonics) was announced June 2026.
+:::
+
+**Chinese name:** 芯联集成电路制造股份有限公司 (Xīnlián Jíchéng Diànlù Zhìzào Gǔfèn Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Car-grade IGBT/MOSFET and SiC MOSFET chips, MEMS sensors, analog/BCD and mixed-signal chips for EVs, industrial, renewables and AI-server power/optical I/O.
+
+## Why does it matter?
+
+Its 8-inch SiC line was China's first (engineering wafers April 2024, mass production confirmed August 2025) — SiC vehicle main-drive modules are the single highest-value target of China's power-semi push, and UnitedNova operates the scaled foundry slot for it. No controlling shareholder: largest holders Yuecheng Fund (local state) 13.74% and SMIC Holdings 11.85%.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | United Nova Technology Co., Ltd. (STAR: 688469) |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | 8-inch silicon power (IGBT/MOSFET), MEMS (largest Chinese MEMS wafer foundry), 6/8-inch SiC, and 12-inch mixed-signal/analog — automotive-grade focus |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Shaoxing, Zhejiang |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Dec 2018** — Founded as the SMIC–Shaoxing joint venture (中芯绍兴)
+- **Apr 2024** — China's first 8-inch SiC line produces engineering wafers
+- **Aug 2025** — 8-inch SiC confirmed in mass production; Phase 3 12-inch line at ~30,000 wafers/month of planned 100,000
+- **Jun 2026** — ¥20 billion Phase 4 JV announced — 50,000 wafers/month 12-inch for 40/28nm MCU, BCD/DrMOS and 55nm silicon photonics
+
+## Sources
+
+- [200亿！芯联集成拟扩产+布局光互连 (财联社)](https://www.cls.cn/detail/2397613) (11 Jun 2026)
+- [芯联集成2025年年度报告 (新浪财经公告)](http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12120051&stockid=688469) (30 Apr 2026)
+- [功率半导体代工龙头芯联集成启动200亿元四期项目 (每日经济新闻)](https://www.mrjjxw.com/articles/2026-06-12/4424755.html) (12 Jun 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

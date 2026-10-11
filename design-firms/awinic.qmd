@@ -1,0 +1,39 @@
+---
+title: "Shanghai Awinic Technology"
+subtitle: "Fabless"
+date: last-modified
+---
+
+**Chinese name:** 上海艾为电子技术股份有限公司 (Àiwéi)
+
+::: {.callout-tip}
+## Why This Matters
+The archetypal volume-first Chinese consumer-analog house — where import substitution is done and the fight is now price: FY2025 revenue ¥28.54亿 (-2.7%) with profit +24% on mix, then H1 2026 non-recurring profit down 91% as memory-driven smartphone cost inflation hit customers. Its ¥1.9 billion January 2026 convertible is earmarked for the auto/industrial escape.
+:::
+
+## What does this firm design?
+
+Audio/haptic/PMIC/RF analog for smartphones, wearables, robotics and increasingly automotive.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | Fabless |
+| **Founded** | 2008 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | Smartphone/IOE analog portfolio — audio amps, haptics, PMIC (charge pump/backlight/AMOLED), RF switches/LNA, LED/motor drivers |
+| **Node Sophistication** | Mature BCD/analog nodes; no advanced-node dependency |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span> **3.2/5**
+
+## Sources
+
+- [艾为电子2025年年度报告 (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-04-10/1225090195.PDF) (10 Apr 2026)
+- [艾为电子2026年半年度报告公告 (新浪财经)](https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12506287&stockid=688798) (20 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

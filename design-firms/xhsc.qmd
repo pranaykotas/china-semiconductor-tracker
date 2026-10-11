@@ -1,0 +1,38 @@
+---
+title: "XHSC (Xiaohua Semiconductor)"
+subtitle: "State-Backed Design House"
+date: last-modified
+---
+
+**Chinese name:** 小华半导体有限公司 (Xiǎohuá Bàndǎotǐ)
+
+::: {.callout-tip}
+## Why This Matters
+The state-aligned 'MCU + OS' stack for信创, white goods and automotive body/power domains: scale (300M units/yr), full automotive safety certification chain, and captive specialty-fab backing — plus a February 2025 AUTOSAR pact with CETC's 普华 OS vendor that pairs domestic silicon with a domestic car OS.
+:::
+
+## What does this firm design?
+
+General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines) and supporting RTOS/AUTOSAR software.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | State-Backed Design House |
+| **Founded** | 2021 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | HC32-family 32-bit MCUs: general control, motor, automotive (HC32A), ultra-low-power (HC32L); ~300M units/year shipped |
+| **Node Sophistication** | Mature 55/40nm-class; anchored on CEC-affiliated 积塔 specialty fabs — node-agnostic by design; full IATF16949 + ASIL-D process certification, AEC-Q100 parts |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [小华半导体与普华基础软件达成AUTOSAR战略合作 (新浪财经)](https://finance.sina.com.cn/roll/2025-03-13/doc-ineppeuc6667756.shtml) (13 Mar 2025)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>
