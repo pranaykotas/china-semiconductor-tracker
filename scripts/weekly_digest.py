@@ -82,6 +82,7 @@ QUERIES = [
     # Enumeration sources — the class of report that lists ALL fabs,
     # which is how the October 2026 completeness audit was actually done
     ("芯思想 OR icview 中国 晶圆厂 统计 OR 产能调查", "zh"),
+    ("site:icviews.cn 晶圆厂 OR 产线 OR 投产", "zh"),
     ("集微咨询 OR JW 中国晶圆厂 产能 排名", "zh"),
     ("SEMI 晶圆厂 报告 中国大陆", "zh"),
     ("site:semi.org.cn 晶圆厂 OR 产线 OR 通线", "zh"),
