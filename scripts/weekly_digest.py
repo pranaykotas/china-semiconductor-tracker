@@ -44,6 +44,7 @@ import yaml
 QUERIES = [
     # Domestic foundries, tracked company by company
     ("中芯国际 扩产 OR 晶圆厂 OR 投产", "zh"),
+    ("中芯北方 OR 中芯南方 OR SN2 增资 OR 收购", "zh"),
     ("华虹 无锡 OR 12英寸 OR 华力", "zh"),
     ("晶合集成 四期 OR 扩产", "zh"),
     ("粤芯半导体", "zh"),
@@ -52,6 +53,9 @@ QUERIES = [
     ("华润微 重庆 OR 深圳 OR 功率半导体", "zh"),
     ("士兰微 碳化硅 OR 12英寸 OR 集华", "zh"),
     ("燕东微电子 OR 北电集成 28纳米", "zh"),
+    ("万国半导体 重庆", "zh"),
+    ("和舰 苏州 晶圆", "zh"),
+    ("罕王微电子 OR 臻芯微", "zh"),
     ("芯恩 青岛", "zh"),
     # Memory
     ("长江存储", "zh"),
@@ -72,7 +76,16 @@ QUERIES = [
     # Foreign-invested fabs in China
     ("台积电 南京 OR 上海 fab", "zh"),
     ("三星 西安 半导体", "zh"),
-    ("SK海力士 无锡 OR 大连", "zh"),
+    ("SK海力士 无锡 OR 大连 OR 重庆", "zh"),
+    ("德州仪器 成都 工厂", "zh"),
+    ("三安集成 OR 泉州三安 化合物", "zh"),
+    # Enumeration sources — the class of report that lists ALL fabs,
+    # which is how the October 2026 completeness audit was actually done
+    ("芯思想 OR icview 中国 晶圆厂 统计 OR 产能调查", "zh"),
+    ("集微咨询 OR JW 中国晶圆厂 产能 排名", "zh"),
+    ("SEMI 晶圆厂 报告 中国大陆", "zh"),
+    ("site:semi.org.cn 晶圆厂 OR 产线 OR 通线", "zh"),
+    ("中国半导体行业协会 集成电路 制造 数据", "zh"),
     # Catch-all: new fab projects this tracker may not have yet
     ("晶圆厂 开工 OR 通线 OR 投产 项目", "zh"),
     ("12英寸 生产线 启动 投资", "zh"),
