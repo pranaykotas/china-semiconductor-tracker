@@ -9,6 +9,7 @@ project:
   # resolve (absolute-URL references do not trigger Quarto's asset copying).
   resources:
     - "downloads/*"
+    - "data/boundaries/*"
     - "images/og-image.png"
     - "images/cards/*"
     - "images/favicon.svg"

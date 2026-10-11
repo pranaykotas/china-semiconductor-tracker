@@ -50,7 +50,6 @@ cancelled <- facilities %>% filter(status == "Cancelled")
 # India's own official boundary — see load_boundaries() in R/helpers.R for
 # why the raw ne_countries() China polygon is never drawn directly. No
 # on-page disclaimer here by request; the clipping itself still applies.
-boundaries <- load_boundaries()
 
 popup_opts <- popupOptions(maxWidth = 320, minWidth = 220, maxHeight = 400, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
 label_opts <- labelOptions(style = list("font-size" = "12px", "padding" = "6px 10px"), direction = "auto")
@@ -58,7 +57,7 @@ label_opts <- labelOptions(style = list("font-size" = "12px", "padding" = "6px 1
 leaflet(options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
-  add_boundary_layers(boundaries) %>%
+  add_boundary_layers() %>%
   # Active and completed facilities: filled circles coloured by type
   addCircleMarkers(
     data = live,

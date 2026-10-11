@@ -33,12 +33,11 @@ As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(firms)` des
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 firms$colour <- unname(sapply(firms$category, design_category_color))
 popups <- vapply(1:nrow(firms), function(i) make_design_popup(firms[i, ]), character(1))
-boundaries <- load_boundaries()
 
 leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
-  add_boundary_layers(boundaries) %>%
+  add_boundary_layers() %>%
   addCircleMarkers(
     lng = ~lon, lat = ~lat, radius = 8,
     color = "#ffffff", fillColor = ~colour, fillOpacity = 0.85, stroke = TRUE, weight = 1.5,

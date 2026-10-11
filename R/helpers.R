@@ -104,18 +104,50 @@ load_boundaries <- function() {
 
 # ---- Add the clipped China boundary + India's official boundary to a
 # leaflet map, India always drawn last (on top). ----
-add_boundary_layers <- function(map, boundaries) {
-  map %>%
-    leaflet::addPolygons(
-      data = boundaries$china,
-      color = "#620d3c", weight = 2, fillColor = "#E8EAF0", fillOpacity = 0.1,
-      group = "China Boundary"
-    ) %>%
-    leaflet::addPolygons(
-      data = boundaries$india,
-      color = "#1565C0", weight = 2, fillColor = "#D6E4F0", fillOpacity = 0.25,
-      group = "India (Official Boundary)"
-    )
+# The geometry ships as GeoJSON files (R/write_boundary_files.R) and is
+# attached through the leaflet widget's documented `mapFactory` hook instead
+# of being embedded in every page: identical coordinates, identical
+# L.polygon() call and path options (including the binding's own flattening
+# of multipolygon rings into one polygon), only ~6 MB less HTML per map page.
+add_boundary_layers <- function(map, boundaries = NULL) {
+  map$x$options$mapFactory <- htmlwidgets::JS(
+    "function(el, options) {
+      var files = {
+        china: 'data/boundaries/china-clipped.geojson',
+        india: 'data/boundaries/india.geojson'
+      };
+      var styles = {
+        china: { color: '#620d3c', weight: 2, opacity: 0.5, fillColor: '#E8EAF0', fillOpacity: 0.1, fill: true, stroke: true },
+        india: { color: '#1565C0', weight: 2, opacity: 0.5, fillColor: '#D6E4F0', fillOpacity: 0.25, fill: true, stroke: true }
+      };
+      var map = L.map(el, options);
+      function rings(geom) {
+        // Mirror leaflet-htmlwidgets' addPolygons exactly: every ring of
+        // every polygon, flattened into a single L.polygon.
+        var polys = geom.type === 'Polygon' ? [geom.coordinates]
+                  : geom.type === 'MultiPolygon' ? geom.coordinates : [];
+        var out = [];
+        polys.forEach(function (p) {
+          p.forEach(function (r) { out.push(r.map(function (c) { return [c[1], c[0]]; })); });
+        });
+        return out;
+      }
+      function addLayer(url, style) {
+        return fetch(url).then(function (r) { return r.json(); }).then(function (gj) {
+          gj.features.forEach(function (f) {
+            if (f.geometry) L.polygon(rings(f.geometry), style).addTo(map);
+          });
+        });
+      }
+      // China first, India on top — same insertion order as before, and
+      // sequential chaining so the pane order never depends on fetch timing.
+      addLayer(files.china, styles.china).then(function () {
+        addLayer(files.india, styles.india);
+      });
+      return map;
+    }"
+  )
+  map
 }
 
 # ---- Load and flatten facilities YAML into a tibble ----

@@ -49,6 +49,8 @@ Rscript R/generate_facility_pages.R
 Rscript R/generate_design_pages.R
 Rscript R/generate_materials_pages.R
 Rscript R/export_data.R               # CSV/JSON downloads
+Rscript R/write_boundary_files.R      # boundary GeoJSON fetched by the maps
+Rscript R/generate_social_cards.R     # OpenGraph link-preview images
 quarto render
 ```
 
