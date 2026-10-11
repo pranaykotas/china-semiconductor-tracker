@@ -1,0 +1,72 @@
+name: "Design Firm Update"
+description: "Submit an update about a Chinese fabless / design-house / EDA-IP firm"
+title: "[Design]: "
+labels: ["data-update", "design"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of firm is this about?
+      options:
+        - "Fabless"
+        - "State-Backed Design House"
+        - "EDA & IP Provider"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Update type
+      options:
+        - "New firm to add"
+        - "Update to existing firm (product focus, node, listing, financials, etc.)"
+        - "Correction to existing data"
+        - "Entity List / 1260H designation change"
+    validations:
+      required: true
+
+  - type: input
+    id: firm-name
+    attributes:
+      label: Firm name
+      placeholder: "e.g., 摩尔线程 Moore Threads, 芯来科技"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: >
+        For new firms, include as much as you know: registered name (Chinese +
+        English), HQ city, founding year, product focus, design scope, node
+        sophistication, listing status/ticker, Entity List status.
+      placeholder: |
+        Company: 沐曦集成电路 MetaX
+        Category: Fabless
+        Location: Shanghai
+        Product focus: Datacenter GPGPU
+        Node: advanced-class, undisclosed
+        Listed: STAR 688802 (Dec 2025)
+    validations:
+      required: true
+
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+      description: Link to a news article, filing, press release, or official document.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: source-date
+    attributes:
+      label: Date of source
+      description: When was this source published?
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
