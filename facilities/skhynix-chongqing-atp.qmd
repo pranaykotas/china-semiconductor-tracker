@@ -28,14 +28,14 @@ As of August 2026 SK Hynix is reportedly weighing options incl. selling a stake 
 | **Category** | Foreign-Invested |
 | **Capability** | NAND flash package-and-test — ~80 million units/month; handles over 40% of SK Hynix's global NAND back-end; largest overseas SK Hynix back-end site |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | $1,200M |
 | **Funding Source** | Foreign |
 | **Location** | Chongqing, Chongqing Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Aug 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

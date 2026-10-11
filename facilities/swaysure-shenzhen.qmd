@@ -28,14 +28,14 @@ Added to the Entity List in the December 2, 2024 round; July 2026 reporting (via
 | **Category** | State-Backed |
 | **Capability** | 12-inch DRAM/novel memory fab, 28nm starting node, long-term plan reported at 140,000 wafers/month |
 | **Status** | Under Construction |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Shenzhen, Guangdong |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (02 Dec 2024) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Oct 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

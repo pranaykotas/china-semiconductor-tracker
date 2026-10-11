@@ -28,14 +28,14 @@ Consolidates China's #2 foundry group's 12-inch base at ~a sixth of national 12-
 | **Category** | State-Backed |
 | **Capability** | Fab 5 (Zhangjiang): 12-inch, 65/55nm and 40nm logic/NOR/RF, 38,000 wafers/month. Fab 6 (Kangqiao): 12-inch, 28/22nm, 40,000 wafers/month planned |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

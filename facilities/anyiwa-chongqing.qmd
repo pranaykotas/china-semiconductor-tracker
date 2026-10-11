@@ -28,14 +28,14 @@ The clearest case of a Western IDM localizing advanced power-device manufacturin
 | **Category** | JV |
 | **Capability** | 8-inch automotive-grade SiC epitaxy + device (chip) fab, 480,000 wafers/year planned full capacity; output sold to ST; companion 8-inch substrate plant 重庆三安 (¥7 billion) |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥230亿元 |
 | **Funding Source** | Foreign |
 | **Location** | Chongqing, Chongqing Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated May 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

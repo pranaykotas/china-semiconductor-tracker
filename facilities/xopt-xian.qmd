@@ -28,14 +28,14 @@ Core of Shaanxi's 'Chasing Light' photonics program (409 firms, ¥41 billion out
 | **Category** | State-Backed |
 | **Capability** | Dual pilot lines: 8-inch silicon photonics (130nm IMEC SiPh kit, DUV litho, ~¥750 million platform) + 6-inch compound semiconductor (GaAs VCSEL); ~8,000 sqm cleanroom, ~200 tools |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥15亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Xi'an, Shaanxi |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Aug 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

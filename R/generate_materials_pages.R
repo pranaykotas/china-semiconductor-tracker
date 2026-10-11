@@ -6,6 +6,7 @@ firms <- load_materials_firms("data/materials.yml")
 raw_firms <- yaml::read_yaml("data/materials.yml")$materials_firms
 
 if (!dir.exists("equipment-firms")) dir.create("equipment-firms")
+remove_orphan_pages("equipment-firms", firms$id)
 
 template <- '---
 title: "{name_en}"

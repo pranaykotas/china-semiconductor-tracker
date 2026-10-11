@@ -28,14 +28,14 @@ Like Samsung Xi'an, operates under the same annual US tool-export licensing regi
 | **Category** | Foreign-Invested |
 | **Capability** | DRAM, 12-inch (300mm) wafers |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Foreign |
 | **Location** | Wuxi, Jiangsu |
 | **Current Node** | 1a-class DRAM |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

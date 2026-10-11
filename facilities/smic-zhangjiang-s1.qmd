@@ -28,14 +28,14 @@ The 8-inch legacy fabs are where the 2025-26 mature-node price cycle actually bi
 | **Category** | State-Backed |
 | **Capability** | 8-inch (200mm) wafer fab — 0.35µm–90nm (BCD, eNVM, power); S1 campus ~115,000 wafers/month 8-inch-equivalent planning basis (2019 prospectus) |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Oct 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

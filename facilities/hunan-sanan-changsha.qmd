@@ -28,14 +28,14 @@ Parent Sanan Optoelectronics posted its first annual loss for 2025 with SiC depr
 | **Category** | Private |
 | **Capability** | Full-chain SiC IDM (substrate→epi→device→module), 6-inch at 16,000 wafers/month + 8-inch SiC chip line (fully activated 2025-2026); GaN-on-Si 2,000 wafers/month |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥160亿元 |
 | **Funding Source** | Private |
 | **Location** | Changsha, Hunan |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated May 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

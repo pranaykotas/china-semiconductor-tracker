@@ -28,14 +28,14 @@ A second Taiwanese foundry major (alongside TSMC) with an operating mainland Chi
 | **Category** | Foreign-Invested |
 | **Capability** | 12-inch (300mm) wafer foundry, mature/legacy nodes |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥35亿元 |
 | **Funding Source** | Foreign |
 | **Location** | Xiamen, Fujian |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

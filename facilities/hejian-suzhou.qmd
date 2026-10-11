@@ -28,14 +28,14 @@ One of the few cross-strait manufacturing assets still intact as of 2026 — alo
 | **Category** | Foreign-Invested |
 | **Capability** | 8-inch (200mm) foundry — 0.5µm–0.11µm (eFlash, BCD, CIS, high-voltage platforms); capacity ~64,000/month end-2018, 77,000/month planning basis |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Foreign |
 | **Location** | Suzhou, Jiangsu |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Jun 2025) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

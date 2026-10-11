@@ -28,14 +28,14 @@ The main foreign-owned wafer fab in western China and the clearest counter-examp
 | **Category** | Foreign-Invested |
 | **Capability** | 200mm analog/power wafer fab (acquired from Cension, formerly SMIC-operated, 2010) + wafer test, assembly/test (CDAT/CDAT2) and a 300mm wafer-bumping line — TI's first fully-integrated site outside the United States |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | $1,690M |
 | **Funding Source** | Foreign |
 | **Location** | Chengdu, Sichuan |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Nov 2022) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

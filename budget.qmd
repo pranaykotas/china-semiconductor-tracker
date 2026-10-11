@@ -15,24 +15,40 @@ funding <- load_funding("data/funding.yml")
 facilities <- load_facilities("data/facilities.yml")
 design <- load_design_firms("data/design.yml")
 materials <- load_materials_firms("data/materials.yml")
+raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
+
+# Cancelled projects never spent their announced investment
+active <- active_facilities(facilities)
+
+# Two different counts, kept apart on purpose: facilities where the Big Fund
+# is the tagged LEAD funding source, and facilities where it appears anywhere
+# in the partners list (usually as a minority shareholder).
+active_ids <- active$id
+bf_lead <- sum(grepl("Big Fund", active$investment_source))
+bf_partner <- sum(vapply(raw_facs, function(f) {
+  f$id %in% active_ids && any(grepl("Big Fund|大基金|Industry Investment Fund", unlist(f$partners)))
+}, logical(1)))
+local_lead <- sum(active$investment_source == "Local Govt")
 ```
 
 ## Big Fund Rounds
 
-The National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has run three rounds since 2014.
+The National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has run three rounds since 2014. The headline round sizes are large, but they are commitments spread over many years and many firms, including design houses, equipment makers, and materials suppliers, not only fabs. The fund usually invests as a minority shareholder alongside local-government funds, the operating company, and bank debt.
 
 ```{r rounds-table, echo=FALSE, warning=FALSE, message=FALSE}
 knitr::kable(funding %>% mutate(Size = ifelse(is.na(size_rmb_100m), "Not disclosed", paste0("¥", format(size_rmb_100m, big.mark = ","), "亿"))) %>% select(Round = round, Year = year, Size, Focus = focus))
 ```
 
-## Investment by Funding Source
+## Who Pays for China's Fabs?
 
-Aggregated across all tracked facilities. **RMB-denominated and USD-denominated figures are shown as two separate charts, never summed together** — most facilities in this tracker (including YMTC, tagged Big Fund I, and Hua Hong Wuxi, tagged Big Fund II) only disclose a USD figure, so a chart of RMB totals alone would make Big Fund's role look far smaller than the underlying data shows.
+The Big Fund is the best-known source of state chip financing, but it is not the main one at facility level. Among the `r nrow(active)` active and completed facilities in this tracker, **local governments and their investment vehicles are the lead funder for `r local_lead`**. The Big Fund is the lead funder for `r bf_lead`, and appears as a named shareholder or co-investor in `r bf_partner`.
+
+The charts below group each facility's **total project investment** by its tagged lead funder. They do not show how much each funder itself contributed. A project tagged "Big Fund I" (such as YMTC) counts its whole investment under that bar, even though the Big Fund supplied only part of it. Read the Big Fund bars as "projects the Big Fund led", not as "money the Big Fund spent". Cancelled projects are excluded. **RMB- and USD-denominated figures are shown separately and never summed**, since many facilities disclose only one currency.
 
 ### RMB-Denominated Investment
 
 ```{r source-chart-rmb, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
-source_data_rmb <- facilities %>%
+source_data_rmb <- active %>%
   filter(!is.na(investment_rmb100m)) %>%
   group_by(investment_source) %>%
   summarise(total = sum(investment_rmb100m, na.rm = TRUE), n = n(), .groups = "drop") %>%
@@ -45,7 +61,7 @@ if (nrow(source_data_rmb) > 0) {
     coord_flip() +
     scale_fill_manual(values = sapply(source_data_rmb$investment_source, funding_source_color), guide = "none") +
     scale_y_continuous(expand = expansion(mult = c(0, 0.4))) +
-    labs(x = NULL, y = "Total disclosed investment (¥100M)") +
+    labs(x = "Lead funder (as tagged)", y = "Total project investment (¥100M)") +
     theme_minimal()
 } else {
   cat("*No RMB-denominated investment data yet.*")
@@ -55,7 +71,7 @@ if (nrow(source_data_rmb) > 0) {
 ### USD-Denominated Investment
 
 ```{r source-chart-usd, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, dev="ragg_png"}
-source_data_usd <- facilities %>%
+source_data_usd <- active %>%
   filter(!is.na(investment_usd_m)) %>%
   group_by(investment_source) %>%
   summarise(total = sum(investment_usd_m, na.rm = TRUE), n = n(), .groups = "drop") %>%
@@ -68,7 +84,7 @@ if (nrow(source_data_usd) > 0) {
     coord_flip() +
     scale_fill_manual(values = sapply(source_data_usd$investment_source, funding_source_color), guide = "none") +
     scale_y_continuous(expand = expansion(mult = c(0, 0.4))) +
-    labs(x = NULL, y = "Total disclosed investment ($M)") +
+    labs(x = "Lead funder (as tagged)", y = "Total project investment ($M)") +
     theme_minimal()
 } else {
   cat("*No USD-denominated investment data yet.*")
@@ -77,7 +93,7 @@ if (nrow(source_data_usd) > 0) {
 
 ::: {.callout-note}
 ## Data Limitation
-Unlike India's Union Budget documents, China does not publish itemized Big Fund disbursement-by-project data. Figures here are facility-level investment totals tagged by funding source where a source has disclosed the tag — not an audited Big Fund expenditure ledger. No currency conversion is applied anywhere on this site; RMB and USD figures are always shown separately.
+Unlike India's Union Budget documents, China does not publish itemized Big Fund disbursement-by-project data. Figures here are facility-level investment totals tagged by lead funding source where a source has disclosed it. They are not an audited Big Fund expenditure ledger and should not be read as the Big Fund's own contribution. No currency conversion is applied anywhere on this site; RMB and USD figures are always shown separately.
 :::
 
 ## Export-Control Exposure

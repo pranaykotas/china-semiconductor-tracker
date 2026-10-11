@@ -28,14 +28,14 @@ A reminder that China's fab build-out is not only about advanced logic and memor
 | **Category** | State-Backed |
 | **Capability** | 8-inch (200mm) power semiconductor fab — IGBT, silicon carbide (SiC) chips |
 | **Status** | Under Construction |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥190亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Xi'an, Shaanxi |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

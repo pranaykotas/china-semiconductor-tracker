@@ -28,14 +28,14 @@ Capacity figures here are the most contested numbers in the tracker: official fi
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) FinFET — SN1 line at 14nm and N+1/N+2/N+3 (7nm-class, unconfirmed officially); SN2 equipment-verification and advanced R&D line; Fab8-P1a legacy 300mm converted to photomask production |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Big Fund I |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Current Node** | N+3 — Kirin 9030 class (TechInsights, Dec 2025) |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Jan 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span>

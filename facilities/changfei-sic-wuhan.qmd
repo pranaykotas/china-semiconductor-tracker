@@ -28,14 +28,14 @@ A telecom-fiber company's pivot (长飞光纤) into power semis via acquisition 
 | **Category** | Private |
 | **Capability** | 6-inch SiC IDM — full-line smart fab: 360,000 wafers/year + 360,000 epi + 61 million modules/year at phase-1 full ramp (with legacy Wuhu base: combined 420,000 wafers/year) |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥200亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Wuhan, Hubei |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Apr 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

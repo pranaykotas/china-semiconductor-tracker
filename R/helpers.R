@@ -66,6 +66,17 @@ load_facilities <- function(path = "data/facilities.yml") {
       NA_character_
     }
 
+    # Latest milestone date: used as the end of a cancelled project's
+    # timeline bar (the last thing that happened to it), so the bar does not
+    # run on to today as if the project were still under way.
+    milestone_dates <- as.Date(vapply(f$milestones %||% list(), function(m) as.character(m$date), character(1)))
+    last_milestone <- if (length(milestone_dates) > 0) max(milestone_dates) else as.Date(NA)
+
+    # Latest source date: shown on profile pages as a freshness signal when
+    # no explicit last_verified date has been recorded.
+    source_dates <- as.Date(vapply(f$sources %||% list(), function(s) as.character(s$date), character(1)))
+    latest_source <- if (length(source_dates) > 0) max(source_dates) else as.Date(NA)
+
     tibble(
       id                    = f$id,
       name_en               = f$name_en,
@@ -90,6 +101,13 @@ load_facilities <- function(path = "data/facilities.yml") {
       entity_list_flagged   = f$entity_list$status %||% FALSE,
       entity_list_date      = as.Date(f$entity_list$date_added %||% NA),
       entity_list_name      = f$entity_list$list %||% NA_character_,
+      capacity_wpm          = f$capacity$wafers_per_month %||% NA_real_,
+      capacity_wafer_size   = f$capacity$wafer_size %||% NA_character_,
+      capacity_source       = f$capacity$note %||% NA_character_,
+      last_verified         = as.Date(f$last_verified %||% NA),
+      latest_source_date    = latest_source,
+      last_milestone_date   = last_milestone,
+      equipment_assessed    = !is.null(f$equipment_origin$domestic_pct) || isTRUE(f$equipment_origin$smuggled_flagged) || length(f$equipment_origin$key_foreign_tools) > 0,
       domestic_pct          = f$equipment_origin$domestic_pct %||% NA_real_,
       key_foreign_tools     = paste(f$equipment_origin$key_foreign_tools, collapse = ", "),
       smuggled_flagged      = f$equipment_origin$smuggled_flagged %||% FALSE,
@@ -120,6 +138,25 @@ load_facilities <- function(path = "data/facilities.yml") {
     )
 
   df
+}
+
+# ---- Facilities that count toward headline totals. Cancelled projects stay
+# on the site (they are part of the story) but their announced investment was
+# never spent, so they are excluded from every "disclosed investment" sum. ----
+active_facilities <- function(df) {
+  df %>% filter(status != "Cancelled")
+}
+
+# ---- Delete generated profile pages whose id no longer exists in the YAML
+# (e.g. after an id is renamed). Without this, Quarto keeps rendering the
+# orphaned page and it stays live on the site. ----
+remove_orphan_pages <- function(dir, ids) {
+  existing <- list.files(dir, pattern = "\\.qmd$")
+  orphans <- setdiff(existing, paste0(ids, ".qmd"))
+  if (length(orphans) > 0) {
+    file.remove(file.path(dir, orphans))
+    cat("Removed orphaned pages:", paste(orphans, collapse = ", "), "\n")
+  }
 }
 
 # ---- Format RMB investment (亿 = 100 million yuan), with optional USD ----
@@ -185,7 +222,9 @@ status_badge_html <- function(status, detail = "") {
     "Cancelled"          = "badge-cancelled",
     "badge-announced"
   )
-  title_attr <- if (nchar(detail) > 0) paste0(' title="', detail, '"') else ""
+  # Escape the tooltip text so a quote or angle bracket in status_detail
+  # cannot break the surrounding HTML attribute.
+  title_attr <- if (nchar(detail) > 0) paste0(' title="', htmltools::htmlEscape(detail, attribute = TRUE), '"') else ""
   glue('<span class="status-badge {css_class}"{title_attr}>{status}</span>')
 }
 

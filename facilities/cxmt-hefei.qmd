@@ -28,14 +28,14 @@ DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's ris
 | **Category** | State-Backed |
 | **Capability** | DRAM, 12-inch (300mm) wafers |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | $7,200M |
 | **Funding Source** | Local Govt |
 | **Location** | Hefei, Anhui |
 | **Current Node** | DDR5-capable node (exact process width not disclosed) |
 | **Entity List** | Yes — US DoD 1260H List (Chinese Military Companies) (07 Jan 2025) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

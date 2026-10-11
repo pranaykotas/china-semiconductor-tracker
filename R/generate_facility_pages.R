@@ -8,6 +8,7 @@ facilities <- load_facilities("data/facilities.yml")
 raw_facs <- yaml::read_yaml("data/facilities.yml")$facilities
 
 if (!dir.exists("facilities")) dir.create("facilities")
+remove_orphan_pages("facilities", facilities$id)
 
 template <- '---
 title: "{name_en}"
@@ -39,14 +40,13 @@ date: last-modified
 | **Category** | {category} |
 | **Capability** | {capability} |
 | **Status** | {status} |
+| **Capacity** | {capacity_text} |
 | **Investment** | {investment_text} |
 | **Funding Source** | {investment_source} |
 | **Location** | {city}, {province} |
 | **Current Node** | {current_node_text} |
 | **Entity List** | {entity_list_text} |
-| **Domestic Equipment Share** | {domestic_pct_text} |
-| **Key Foreign Tools** | {key_foreign_tools_text} |
-| **Smuggled/Diverted Equipment Flagged** | {smuggled_flagged_text} |
+{equipment_rows}| **Last Verified** | {last_verified_text} |
 
 ### Technical Complexity
 {complexity_bar}
@@ -86,9 +86,40 @@ for (i in 1:nrow(facilities)) {
   } else {
     "No"
   }
-  domestic_pct_text <- if (!is.na(f$domestic_pct)) paste0(f$domestic_pct, "%") else "Not disclosed"
-  key_foreign_tools_text <- if (nchar(f$key_foreign_tools) > 0) f$key_foreign_tools else "None documented"
-  smuggled_flagged_text <- if (isTRUE(f$smuggled_flagged)) "Yes — see sources" else "No"
+  # Equipment-origin rows are shown only once a facility's equipment base has
+  # actually been researched. Showing "No" for smuggled equipment on an
+  # unassessed facility would read as a verified negative finding.
+  equipment_rows <- if (isTRUE(f$equipment_assessed)) {
+    domestic_pct_text <- if (!is.na(f$domestic_pct)) paste0(f$domestic_pct, "%") else "Not disclosed"
+    key_foreign_tools_text <- if (nchar(f$key_foreign_tools) > 0) f$key_foreign_tools else "None documented"
+    smuggled_flagged_text <- if (isTRUE(f$smuggled_flagged)) "Yes — see sources" else "None reported"
+    paste0(
+      "| **Domestic Equipment Share** | ", domestic_pct_text, " |\n",
+      "| **Key Foreign Tools** | ", key_foreign_tools_text, " |\n",
+      "| **Smuggled/Diverted Equipment** | ", smuggled_flagged_text, " |\n"
+    )
+  } else {
+    "| **Equipment Origin** | Not yet assessed |\n"
+  }
+
+  capacity_text <- if (!is.na(f$capacity_wpm)) {
+    size <- if (!is.na(f$capacity_wafer_size)) paste0(" (", f$capacity_wafer_size, ")") else ""
+    note <- if (!is.na(f$capacity_source)) paste0(" — ", f$capacity_source) else ""
+    paste0(format(f$capacity_wpm, big.mark = ","), " wafers/month", size, note)
+  } else {
+    "Not yet recorded"
+  }
+
+  # Freshness: an explicit last_verified date wins; otherwise show the date
+  # of the newest cited source, labelled as such so it is not mistaken for a
+  # verification date.
+  last_verified_text <- if (!is.na(f$last_verified)) {
+    format(f$last_verified, "%d %b %Y")
+  } else if (!is.na(f$latest_source_date)) {
+    paste0("Not recorded (newest source dated ", format(f$latest_source_date, "%b %Y"), ")")
+  } else {
+    "Not recorded"
+  }
 
   if (!is.null(this_fac$node_trajectory) && length(this_fac$node_trajectory) > 0) {
     traj_lines <- sapply(this_fac$node_trajectory, function(t) paste0("- **", t$year, "**: ", t$node))
@@ -130,10 +161,9 @@ for (i in 1:nrow(facilities)) {
     zh_name_block = zh_name_block, capability = f$capability, status = f$status,
     investment_text = investment_text, investment_source = f$investment_source,
     city = f$city, province = f$province, current_node_text = current_node_text,
-    entity_list_text = entity_list_text, domestic_pct_text = domestic_pct_text,
-    key_foreign_tools_text = key_foreign_tools_text,
+    entity_list_text = entity_list_text, equipment_rows = equipment_rows,
+    capacity_text = capacity_text, last_verified_text = last_verified_text,
     complexity_bar = complexity_bar_html(f$complexity_score), complexity_score = f$complexity_score,
-    smuggled_flagged_text = smuggled_flagged_text,
     significance = significance, what_it_makes = what_it_makes, why_it_matters = why_it_matters,
     node_trajectory_section = node_trajectory_section,
     milestones_section = milestones_section, source_links = source_links

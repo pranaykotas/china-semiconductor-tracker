@@ -28,14 +28,14 @@ Advanced packaging (chiplets, heterogeneous integration) is one of the segments 
 | **Category** | State-Backed |
 | **Capability** | OSAT (assembly, test, and advanced packaging) — flip-chip, SiP, and chiplet-based heterogeneous integration; high-volume 4nm-class chiplet packaging demonstrated |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Not disclosed |
 | **Location** | Jiangyin, Jiangsu |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

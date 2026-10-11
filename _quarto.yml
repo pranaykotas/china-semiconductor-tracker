@@ -4,6 +4,9 @@ project:
   render:
     - "*.qmd"
     - "!CLAUDE.md"
+  # CSV/JSON downloads written by R/export_data.R
+  resources:
+    - "downloads/*"
 
 website:
   title: "China Semiconductor Tracker"
@@ -27,6 +30,8 @@ website:
             href: design.qmd
           - text: "Equipment & Materials"
             href: equipment-materials.qmd
+          - text: "What Changed"
+            href: changes.qmd
       - text: "Policy & Budget"
         href: budget.qmd
       - text: "About"

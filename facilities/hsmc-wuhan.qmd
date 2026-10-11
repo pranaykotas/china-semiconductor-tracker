@@ -28,14 +28,14 @@ HSMC triggered the 2020-21 central-level cleanup of rogue semiconductor pledges 
 | **Category** | Private |
 | **Capability** | Never produced — planned 14nm/7nm logic fab + advanced packaging (claimed ~¥128B); ~300 of 3,560 planned tools ever received |
 | **Status** | Cancelled |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Wuhan, Hubei |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

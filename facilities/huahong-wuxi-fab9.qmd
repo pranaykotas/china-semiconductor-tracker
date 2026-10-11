@@ -9,7 +9,7 @@ date: last-modified
 Hua Hong's second 12-inch fab in Wuxi, financed with the largest single Big Fund-backed deal since the October 2022 US export control tightening — $4.02B new equity (Hua Hong Group, the Big Fund, and a Wuxi entity) plus $2.68B in debt. Reached production in December 2024 at a planned 83,000 wafers/month, with full-capacity ramp targeted for the end of Q3 2026 and process-equipment move-in completed by end of June 2026.
 :::
 
-*Chinese name not yet verified.*
+**Chinese name:** 华虹无锡二期（Fab 9） (Huáhóng Wúxī Èrqī)
 
 ## What does this facility make?
 
@@ -28,14 +28,14 @@ Illustrates China's mature-node strategy: rather than chase export-controlled ad
 | **Category** | State-Backed |
 | **Capability** | 12-inch (300mm) wafer foundry, specialty/mature nodes (65nm, 55nm, 40nm) |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | $6,700M |
 | **Funding Source** | Big Fund II |
 | **Location** | Wuxi, Jiangsu |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

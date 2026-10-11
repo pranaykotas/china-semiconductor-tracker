@@ -28,14 +28,14 @@ A structurally different ownership model (collaborative IDM, not a pure foundry 
 | **Category** | State-Backed |
 | **Capability** | 8-inch (200mm) and 12-inch (300mm) wafer fab, IDM model, 28-40nm logic/foundry, analog/power, RF |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥218亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Qingdao, Shandong |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (02 Dec 2024) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

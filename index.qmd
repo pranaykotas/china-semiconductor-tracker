@@ -14,24 +14,36 @@ library(sf)
 library(rnaturalearth)
 
 facilities <- load_facilities("data/facilities.yml")
+
+# Headline investment totals use only non-cancelled projects: money announced
+# for a project that was later abandoned was never spent.
+active <- active_facilities(facilities)
+n_cancelled <- sum(facilities$status == "Cancelled")
+rmb_total <- format(sum(active$investment_rmb100m, na.rm = TRUE), big.mark = ",")
+usd_total <- format(sum(active$investment_usd_m, na.rm = TRUE), big.mark = ",")
 ```
 
 ## The Story So Far
 
-China's semiconductor industry is racing to indigenize under an expanding regime of US-led export controls. State financing through the National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund") has backed fabs, memory makers, and equipment firms since 2014, while companies like SMIC have pushed mature-node lithography to produce chips at nodes once thought to require tools China cannot buy.
+China's semiconductor industry is racing to indigenize under an expanding regime of US-led export controls. Local governments and their investment vehicles are the lead funder for most facilities in this tracker. The National Integrated Circuit Industry Investment Fund (国家集成电路产业投资基金, "Big Fund"), founded in 2014, typically takes a minority equity stake in a smaller set of flagship projects rather than bankrolling them outright (see [Policy & Budget](budget.qmd)). Meanwhile companies like SMIC have pushed mature-node lithography to produce chips at nodes once thought to require tools China cannot buy.
 
-As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities. Disclosed investment stands at **¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿** in RMB-denominated figures and **$`r format(sum(facilities$investment_usd_m, na.rm = TRUE), big.mark = ",")`M** in USD-denominated figures — the two are shown separately rather than converted, since combining them would require an exchange-rate assumption (see [About](about.qmd)).
+As of `r format(Sys.Date(), "%B %Y")`, this tracker covers **`r nrow(facilities)` facilities** across **`r length(unique(facilities$province))`** provinces/municipalities, including `r n_cancelled` cancelled projects kept on record. Disclosed investment in active and completed projects stands at **¥`r rmb_total`亿** in RMB-denominated figures and **$`r usd_total`M** in USD-denominated figures. The two are shown separately rather than converted, since combining them would require an exchange-rate assumption, and cancelled projects are excluded because their announced investment was never spent (see [About](about.qmd)).
 
 ---
 
 ## Facility Map
 
-Facilities are coloured by type, same as the [India Semiconductor Tracker](https://fabs.pranaykotas.com).
+Facilities are coloured by type, same as the [India Semiconductor Tracker](https://fabs.pranaykotas.com). Cancelled projects appear as hollow grey circles and can be hidden with the layer control.
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
-colors <- unname(sapply(facilities$type, type_color))
 popups <- vapply(1:nrow(facilities), function(i) make_popup(facilities[i, ]), character(1))
 labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(facilities[i, ])))
+facilities$popup <- popups
+facilities$label <- labels
+facilities$color <- unname(sapply(facilities$type, type_color))
+
+live <- facilities %>% filter(status != "Cancelled")
+cancelled <- facilities %>% filter(status == "Cancelled")
 
 # China's boundary CLIPPED of India's officially claimed territory, plus
 # India's own official boundary — see load_boundaries() in R/helpers.R for
@@ -39,25 +51,23 @@ labels <- lapply(1:nrow(facilities), function(i) htmltools::HTML(make_label(faci
 # on-page disclaimer here by request; the clipping itself still applies.
 boundaries <- load_boundaries()
 
-leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
+popup_opts <- popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
+label_opts <- labelOptions(style = list("font-size" = "12px", "padding" = "6px 10px"), direction = "auto")
+
+leaflet(options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   fitBounds(lng1 = 73, lat1 = 18, lng2 = 135, lat2 = 53) %>%
   add_boundary_layers(boundaries) %>%
+  # Active and completed facilities: filled circles coloured by type
   addCircleMarkers(
+    data = live,
     lng = ~lon, lat = ~lat,
     radius = 10,
-    color = colors,
-    fillColor = colors,
-    fillOpacity = 0.8,
-    stroke = TRUE,
-    weight = 1.5,
-    popup = popups,
-    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20)),
-    label = labels,
-    labelOptions = labelOptions(
-      style = list("font-size" = "12px", "padding" = "6px 10px"),
-      direction = "auto"
-    ),
+    color = ~color, fillColor = ~color,
+    fillOpacity = 0.8, stroke = TRUE, weight = 1.5,
+    popup = ~popup, popupOptions = popup_opts,
+    label = live$label, labelOptions = label_opts,
+    group = "Active & completed",
     clusterOptions = markerClusterOptions(
       maxClusterRadius = 30,
       spiderfyOnMaxZoom = TRUE,
@@ -65,52 +75,75 @@ leaflet(facilities, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
       zoomToBoundsOnClick = TRUE
     )
   ) %>%
+  # Cancelled projects: hollow grey circles in their own toggleable layer,
+  # so an abandoned site is never mistaken for a working fab
+  addCircleMarkers(
+    data = cancelled,
+    lng = ~lon, lat = ~lat,
+    radius = 9,
+    color = "#8C8480", fillColor = "#ffffff",
+    fillOpacity = 0.6, stroke = TRUE, weight = 2.5, dashArray = "3,3",
+    popup = ~popup, popupOptions = popup_opts,
+    label = cancelled$label, labelOptions = label_opts,
+    group = "Cancelled projects"
+  ) %>%
+  addLayersControl(
+    overlayGroups = c("Active & completed", "Cancelled projects"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
   addLegend(
     position = "bottomright",
-    colors = c("#620d3c", "#2f6b6b", "#1565C0", "#6A1B9A", "#455A64"),
-    labels = c("Fab", "Assembly & Packaging (OSAT)", "Memory", "Compound Semiconductor", "Research Fab"),
+    colors = c("#620d3c", "#2f6b6b", "#1565C0", "#6A1B9A", "#455A64", "#ffffff"),
+    labels = c("Fab", "Assembly & Packaging (OSAT)", "Memory", "Compound Semiconductor", "Research Fab", "Cancelled (hollow)"),
     title = "Facility Type"
   )
 ```
 
 ## Summary
 
-::: {.grid}
-::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+::::: {.grid}
+:::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ::: {.summary-card}
 [`r nrow(facilities)`]{.card-value}
 [Facilities tracked]{.card-label}
 :::
-:::
+::::
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+:::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ::: {.summary-card}
-[¥`r format(sum(facilities$investment_rmb100m, na.rm = TRUE), big.mark = ",")`亿]{.card-value}
-[Disclosed investment (RMB)]{.card-label}
+[¥`r rmb_total`亿]{.card-value}
+[Disclosed investment, RMB (excl. cancelled)]{.card-label}
 :::
-:::
+::::
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+:::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ::: {.summary-card}
-[$`r format(sum(facilities$investment_usd_m, na.rm = TRUE), big.mark = ",")`M]{.card-value}
-[Disclosed investment (USD)]{.card-label}
+[$`r usd_total`M]{.card-value}
+[Disclosed investment, USD (excl. cancelled)]{.card-label}
 :::
-:::
+::::
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+:::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ::: {.summary-card}
 [`r sum(facilities$status == "Operational")`]{.card-value}
 [Operational]{.card-label}
 :::
-:::
+::::
 
-::: {.g-col-12 .g-col-sm-6 .g-col-md-3}
+:::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ::: {.summary-card}
 [`r sum(facilities$status == "Under Construction")`]{.card-value}
 [Under Construction]{.card-label}
 :::
+::::
+
+:::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+::: {.summary-card}
+[`r n_cancelled`]{.card-value}
+[Cancelled]{.card-label}
 :::
-:::
+::::
+:::::
 
 ## All Facilities
 
@@ -139,7 +172,7 @@ datatable(
 ::: {.callout-note}
 ## Understanding the Metrics
 - **Technical Complexity:** weighted score, 55% Technology Difficulty + 45% Capital Intensity, benchmarked against a 3nm fab (5/5). See [About](about.qmd).
-- **Investment:** shown in ¥ (RMB) 亿 (100 million yuan); a dollar figure is shown alongside when a firm's investment is only disclosed in USD.
+- **Investment:** shown in ¥ (RMB) 亿 (100 million yuan); a dollar figure is shown alongside when a firm's investment is only disclosed in USD. Headline totals exclude cancelled projects.
 :::
 
 ::: {.callout-tip}

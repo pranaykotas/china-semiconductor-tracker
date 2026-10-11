@@ -1,0 +1,54 @@
+---
+title: "What Changed"
+subtitle: "Every update to the tracker's data, newest first"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+```
+
+This page is built automatically from the project's version history: each entry is one change to the data files (facilities, design firms, equipment/materials firms, or Big Fund rounds). Click a change to see exactly which fields were edited on GitHub.
+
+```{r changes, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+# Read the git log for commits that touched data/*.yml.
+# %H = full hash, %ad = date, %s = subject line; fields separated by tabs.
+log_lines <- tryCatch(
+  system2("git", c("log", "--date=short", "--format=%H%x09%ad%x09%s", "--",
+                   "data/facilities.yml", "data/design.yml", "data/materials.yml", "data/funding.yml"),
+          stdout = TRUE, stderr = FALSE),
+  error = function(e) character(0)
+)
+
+if (length(log_lines) == 0) {
+  cat("*Change history is not available in this build.*\n")
+} else {
+  parts <- strsplit(log_lines, "\t", fixed = TRUE)
+  changes <- tibble(
+    hash    = vapply(parts, `[`, character(1), 1),
+    date    = as.Date(vapply(parts, `[`, character(1), 2)),
+    subject = vapply(parts, `[`, character(1), 3)
+  ) %>%
+    # Strip the conventional-commit prefix ("data: ", "fix: ") for readers
+    mutate(subject = sub("^[a-z]+(\\([^)]*\\))?:\\s*", "", subject))
+
+  repo <- "https://github.com/pranaykotas/china-semiconductor-tracker/commit/"
+
+  # Group by month, newest first
+  changes$month <- format(changes$date, "%B %Y")
+  for (m in unique(changes$month)) {
+    cat("\n## ", m, "\n\n", sep = "")
+    rows <- changes[changes$month == m, ]
+    for (i in seq_len(nrow(rows))) {
+      # Escape square brackets so a subject cannot break the Markdown link
+      subj <- gsub("([][])", "\\\\\\1", rows$subject[i])
+      cat(sprintf("- **%s** — [%s](%s%s)\n", format(rows$date[i], "%d %b"), subj, repo, rows$hash[i]))
+    }
+  }
+}
+```
+
+::: {.callout-tip}
+## Have an update?
+**[Email us](mailto:pranay@takshashila.org.in?subject=China%20Semiconductor%20Tracker%20%E2%80%94%20update)** or **[open a GitHub Issue](https://github.com/pranaykotas/china-semiconductor-tracker/issues/new/choose)**. Updates are reviewed and pushed every week.
+:::

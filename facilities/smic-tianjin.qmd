@@ -28,14 +28,14 @@ Extends SMIC's mature-node capacity — the segment least affected by advanced-l
 | **Category** | State-Backed |
 | **Capability** | 12-inch (300mm) wafer foundry, 0.18 micron to 28nm |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | $7,500M |
 | **Funding Source** | Local Govt |
 | **Location** | Tianjin, Tianjin Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 3.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

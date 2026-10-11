@@ -28,14 +28,14 @@ Evidence that China's power-semi migration to 12-inch wafers (the global industr
 | **Category** | State-Backed |
 | **Capability** | 12-inch automotive-grade power semiconductors — SGT/SJ MOSFET, IGBT (G7 class), power management; 30,000 wafers/month design capacity |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥75.5亿元 |
 | **Funding Source** | Big Fund II |
 | **Location** | Chongqing, Chongqing Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2025) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

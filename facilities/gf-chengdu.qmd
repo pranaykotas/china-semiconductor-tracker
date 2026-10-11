@@ -28,14 +28,14 @@ This tracker previously only footnoted GF Chengdu's absence in About; it is now 
 | **Category** | Foreign-Invested |
 | **Capability** | Never produced — announced Feb 2017, ~$10B 12-inch JV fab (22FDX FD-SOI + legacy nodes, 20k wpm planned, 85k at full build) |
 | **Status** | Cancelled |
+| **Capacity** | Not yet recorded |
 | **Investment** | $10,000M |
 | **Funding Source** | Foreign |
 | **Location** | Chengdu, Sichuan |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Nov 2021) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

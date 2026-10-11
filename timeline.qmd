@@ -17,14 +17,21 @@ facilities <- load_facilities("data/facilities.yml")
 
 ## Facility Timelines
 
-Each row represents a facility. **Bars** show the span from construction start (or announcement, if construction hasn't begun) to expected or actual completion. **Diamond markers (◆)** mark the announcement date. The **dashed line** marks today.
+Each row represents a facility. **Bars** show the span from construction start (or announcement, if construction hasn't begun) to expected or actual completion. For **cancelled projects**, the bar is faded and ends at the last recorded event (abandonment, takeover, or bankruptcy), not today. **Diamond markers (◆)** mark the announcement date. The **dashed line** marks today.
 
 ```{r gantt-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=12, fig.height=7.5, dev="ragg_png"}
 gantt_data <- facilities %>%
   filter(!is.na(date_announced)) %>%
   mutate(
     bar_start = coalesce(date_construction, date_announced),
-    bar_end = coalesce(date_completion, date_original_expect, Sys.Date()),
+    # A cancelled project's bar stops at its last recorded milestone, never
+    # at today: otherwise it would look like a project still under way.
+    bar_end = if_else(
+      status == "Cancelled",
+      coalesce(last_milestone_date, date_construction, date_announced),
+      coalesce(date_completion, date_original_expect, Sys.Date())
+    ),
+    is_cancelled = status == "Cancelled",
     has_construction = !is.na(date_construction) | status == "Operational",
     name_label = gsub(" \\(Fab\\)| Facility", "", name_en)
   ) %>%
@@ -36,11 +43,12 @@ status_colors <- c(
   "Approved"           = "#f1a222",
   "Announced"          = "#8C8480",
   "On Hold"            = "#a3282d",
-  "Cancelled"          = "#a3282d"
+  "Cancelled"          = "#8C8480"
 )
 
 p <- ggplot(gantt_data, aes(y = reorder(name_label, desc(date_announced)))) +
-  geom_segment(aes(x = bar_start, xend = bar_end, yend = name_label, color = status), linewidth = 5) +
+  geom_segment(aes(x = bar_start, xend = bar_end, yend = name_label, color = status, alpha = is_cancelled), linewidth = 5) +
+  scale_alpha_manual(values = c(`FALSE` = 1, `TRUE` = 0.35), guide = "none") +
   geom_point(aes(x = date_announced), shape = 18, size = 3, color = "#333") +
   geom_vline(xintercept = Sys.Date(), linetype = "dashed", color = "#888") +
   scale_color_manual(values = status_colors, name = "Status") +

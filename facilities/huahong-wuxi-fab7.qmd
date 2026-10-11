@@ -28,14 +28,14 @@ Fab 7 is where China's 12-inch power-semiconductor migration started; its >100% 
 | **Category** | JV |
 | **Capability** | 12-inch specialty power — 90nm/65/55nm IGBT, MOSFET, BCD, eNVM; world's first 12-inch power-device pure-foundry line; design 40,000 wafers/month, installed ~95,000/month, monthly input >100,000-equivalent reported 2025 |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Wuxi, Jiangsu |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Oct 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

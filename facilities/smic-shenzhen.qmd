@@ -28,14 +28,14 @@ SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-ow
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) wafer foundry, 28nm — plus the site's older 8-inch (200mm) line (operational since Dec 2014, 0.35µm–90nm, ~55,000 wafers/month planning basis) |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | $2,350M |
 | **Funding Source** | Local Govt |
 | **Location** | Shenzhen, Guangdong |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

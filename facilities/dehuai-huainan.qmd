@@ -28,14 +28,14 @@ Shows the Decoma/Tacoma chain (Shenzhen Sile, Wuhan Xiaoxin, Changshu Zhongwei a
 | **Category** | State-Backed |
 | **Capability** | Never produced — claimed ¥45B 12-inch CIS fab (phase 1 ¥12B, 240,000 wafers/year); ~90% of shell built, 57 of 211 tool sets arrived, zero CIS output |
 | **Status** | Cancelled |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Huai'an, Jiangsu |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Jul 2021) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

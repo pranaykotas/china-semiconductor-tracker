@@ -28,14 +28,14 @@ Widely reported as crippled by the 2018 ban in the years immediately after — a
 | **Category** | State-Backed |
 | **Capability** | DRAM, 12-inch (300mm) wafers |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥370亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Jinjiang, Fujian |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (30 Oct 2018) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

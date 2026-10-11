@@ -98,6 +98,80 @@ QUERIES = [
     ("China semiconductor Entity List", "en"),
 ]
 
+# Legal-entity suffixes stripped from company_zh to get a searchable short
+# name: "芯恩（青岛）集成电路有限公司" -> "芯恩"
+ZH_SUFFIXES = [
+    "股份有限公司", "有限责任公司", "有限公司", "集成电路制造", "集成电路",
+    "半导体制造", "半导体技术", "半导体科技", "半导体", "微电子", "科技", "技术",
+    "电子", "制造",
+]
+
+
+# Place-name prefixes on legal names ("江苏长电" -> "长电")
+ZH_PLACE_PREFIXES = [
+    "福建省", "厦门市", "深圳市", "江苏", "天水", "杭州", "北京", "安徽",
+    "陕西", "上海", "重庆", "武汉", "深圳", "厦门",
+]
+
+# Legal names that differ from the short-form the press actually uses
+ZH_ALIASES = {"台湾积体电路": "台积电", "联华": "联电", "电子芯业时代": "芯业时代"}
+
+
+def short_zh_name(name: str) -> str:
+    """Shorten a Chinese legal name to the brand used in news headlines."""
+    name = name.split("；")[0]
+    name = re.sub(r"[（(].*?[）)]", "", name)  # drop (城市) / (华虹五厂) etc.
+    for _ in range(3):  # suffixes can stack: 集成电路 + 股份有限公司
+        for suffix in ZH_SUFFIXES:
+            if name.endswith(suffix) and len(name) > len(suffix) + 1:
+                name = name[: -len(suffix)]
+    for prefix in ZH_PLACE_PREFIXES:
+        if name.startswith(prefix) and len(name) > len(prefix) + 1:
+            name = name[len(prefix):]
+            break
+    name = name.strip()
+    return ZH_ALIASES.get(name, name)
+
+
+def build_auto_queries(facilities: list[dict], curated: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """
+    One query per tracked company not already covered by a curated query, so
+    a facility added to the YAML is searched from its first Monday onward
+    without anyone editing QUERIES by hand. Cancelled projects are skipped.
+    """
+    curated_text = " ".join(q for q, _ in curated)
+    seen, auto = set(), []
+    for f in facilities:
+        if f.get("status") == "Cancelled" or not f.get("company_zh"):
+            continue
+        short = short_zh_name(f["company_zh"])
+        # Covered already if a curated query names it (match on the first
+        # 4 characters, since curated queries use headline short-forms)
+        if len(short) < 2 or short in seen or short[:4] in curated_text:
+            continue
+        seen.add(short)
+        auto.append((f"{short} 晶圆 OR 产线 OR 投产 OR 扩产", "zh"))
+    return auto
+
+
+def build_designations_summary() -> str:
+    """
+    Current US designations for design and equipment/materials firms, so the
+    digest can flag Entity List / 1260H changes beyond the fabs too.
+    """
+    lines = []
+    for path, key in (("data/design.yml", "design_firms"), ("data/materials.yml", "materials_firms")):
+        try:
+            entries = load_yaml(path).get(key, [])
+        except FileNotFoundError:
+            continue
+        for e in entries:
+            el = e.get("entity_list") or {}
+            status = f"{el.get('list')} since {el.get('date_added')}" if el.get("status") else "not designated"
+            lines.append(f"- {e.get('name_en')} ({e.get('name_zh') or ''}): {status}")
+    return "\n".join(lines)
+
+
 SYNTHESIS_PROMPT = """\
 You are the editor of the China Semiconductor Tracker weekly digest
 (live at https://fabs-china.pranaykotas.com, maintained by Pranay
@@ -112,6 +186,10 @@ Kotasthane, Takshashila Institution).
 ## All tracked facility names (every facility must appear in the digest)
 
 {facility_names}
+
+## Current US designations of tracked design and equipment/materials firms
+
+{designations_summary}
 
 ## Search results from the past week
 
@@ -160,6 +238,13 @@ Short bullets for items with weaker sources or unclear relevance. Include source
 Announcements for facilities NOT currently in the YAML. If a big named
 expansion phase of an existing site (e.g. a new 期 phase) is reported and
 the tracker splits phases into separate entries, flag it here.
+
+### Designation changes (design and equipment/materials firms)
+
+Only if a search result reports a NEW Entity List or 1260H designation (or a
+removal) for a firm listed under "Current US designations" above, or for an
+untracked Chinese chip firm. Cite the Federal Register or BIS/DoD source if
+the results include it. Write "None this week." if there are none.
 
 ### Confirmed: no news
 
@@ -435,12 +520,14 @@ def to_html(subject: str, digest_md: str) -> str:
 
 
 def generate_digest(facilities_yaml: str, today: str) -> str:
-    print("  Fetching search snippets via Google News RSS...")
-    search_results = fetch_snippets(QUERIES)
+    data = yaml.safe_load(facilities_yaml)
+    auto_queries = build_auto_queries(data.get("facilities", []), QUERIES)
+    queries = QUERIES + auto_queries
+    print(f"  Fetching search snippets via Google News RSS ({len(QUERIES)} curated + {len(auto_queries)} auto queries)...")
+    search_results = fetch_snippets(queries)
 
     facilities_summary = build_facilities_summary(facilities_yaml)
 
-    data = yaml.safe_load(facilities_yaml)
     facility_names = [f.get("name_en", "") for f in data.get("facilities", [])]
     names_list = "\n".join(f"- {name}" for name in facility_names)
 
@@ -448,17 +535,29 @@ def generate_digest(facilities_yaml: str, today: str) -> str:
         facilities_summary=facilities_summary,
         facility_names=names_list,
         search_results=search_results,
+        designations_summary=build_designations_summary(),
         today=today,
     )
 
     print(f"  Sending to Claude for synthesis (~{len(prompt.split()):,} words)...")
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=8192,
+    # Streamed so a long digest (every facility must be listed) doesn't hit
+    # the HTTP timeout. fallbacks="default" re-runs the request on Anthropic's
+    # recommended fallback model if a safety classifier declines it.
+    with client.beta.messages.stream(
+        model="claude-sonnet-5-5",
+        max_tokens=32000,
+        betas=["server-side-fallback-2026-07-01"],
+        fallbacks="default",
         messages=[{"role": "user", "content": prompt}],
-    )
+    ) as stream:
+        response = stream.get_final_message()
+
+    if response.stop_reason == "refusal":
+        return "The model declined to generate this week's digest. Re-run the workflow manually."
+    if response.stop_reason == "max_tokens":
+        print("  WARNING: digest hit max_tokens and may be cut off.", file=sys.stderr)
 
     text_blocks = [b.text for b in response.content if hasattr(b, "text") and b.text]
     return text_blocks[-1] if text_blocks else "No digest generated."

@@ -28,14 +28,14 @@ Pilot lines like SITRI's are the missing middle layer that export controls canno
 | **Category** | State-Backed |
 | **Capability** | China's first 8-inch 'More than Moore' R&D pilot line (online September 2017): MEMS/intelligent sensors, silicon photonics, biochips; ~5,000 sqm cleanroom, 14 standardized process modules, CMOS-compatible |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Oct 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

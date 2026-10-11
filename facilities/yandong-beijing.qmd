@@ -28,14 +28,14 @@ One of the most domestic-equipment-heavy 300mm projects in China (NAURA is the h
 | **Category** | State-Backed |
 | **Capability** | 8-inch power/analog line (60,000+ wafers/month, IGBT/MOS/BCD/silicon-photonics) + 65nm 12-inch specialty line (¥7.5 billion, >20,000 wafers/month phase 1) + Beidian Integration 28nm 12-inch line under construction (¥33 billion, 50,000 wafers/month planned) |
 | **Status** | Under Construction |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥330亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Beijing, Beijing Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Apr 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>

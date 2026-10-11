@@ -28,14 +28,14 @@ Together with Zhangjiang S1 and Shenzhen's 8-inch line (Dec 2014), this is the S
 | **Category** | State-Backed |
 | **Capability** | 8-inch (200mm) wafer fab — 0.35µm–90nm; installed ~45,000 wafers/month after Phase-2 expansion, ~60,000 reported at full ramp |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Tianjin, Tianjin Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Oct 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>

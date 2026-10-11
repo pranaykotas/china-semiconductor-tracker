@@ -28,14 +28,14 @@ Line activated 31 December 2024 and was reported at ~15,000 wafers/month by Q1 2
 | **Category** | State-Backed |
 | **Capability** | 12-inch analog/mixed-signal specialty (BCD, high-voltage, RF, Flash), ≥40nm-class; 40,000 wafers/month planned |
 | **Status** | Operational |
+| **Capacity** | Not yet recorded |
 | **Investment** | ¥220亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Shenzhen, Guangdong |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
-| **Domestic Equipment Share** | Not disclosed |
-| **Key Foreign Tools** | None documented |
-| **Smuggled/Diverted Equipment Flagged** | No |
+| **Equipment Origin** | Not yet assessed |
+| **Last Verified** | Not recorded (newest source dated Apr 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
