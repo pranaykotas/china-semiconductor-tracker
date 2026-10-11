@@ -4,3 +4,6 @@
 *.qmd~
 .DS_Store
 /.superpowers/
+/data/digest.txt
+/data/digest.html
+/.claude/
