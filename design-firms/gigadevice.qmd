@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. A 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue of ¥11.57 billion (+178.7% YoY) and net profit of ¥6.86 billion (+1,091.5% YoY), per the interim report of 18 August 2026, part of it from fair-value gains on securities including its CXMT (长鑫科技) stake. Q1 2026 alone showed revenue +119.4% and net profit +522.8% year-on-year.
+Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. It has gone dual-listed (H shares on HKEX since 13 January 2026, 03986.HK, ~HK$4.61bn net) and is a listed proxy on China's memory champion: it holds ~1.80% of CXMT/长鑫科技, which IPO'd on the STAR Market on 27 July 2026 in the largest STAR listing ever (¥57.92 billion raised, day-one market cap >¥3 trillion) — though, per the interim report, that stake is carried as 其他权益工具投资, so its revaluation flows to equity, not to P&L. The 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue of ¥11.57 billion (+178.7% YoY) and net profit of ¥6.86 billion (+1,091.5% YoY, incl. ¥2.23bn fair-value gains on listed securities other than CXMT), per the interim report of 18 August 2026. Management's 1 September briefing guided H2 DRAM up 'moderately', expects 2027 tightness not to ease, and SLC NAND strength to run at least through 2027; the CXMT foundry-related procurement cap was raised again on 29 September to ¥7.85 billion for 2026 (¥4.41 billion pre-estimated for Jan–Apr 2027).
 :::
 
 ## What does this firm design?
@@ -34,6 +34,8 @@ NOR flash memory chips, general-purpose microcontrollers, and sensors for consum
 - [兆易创新上半年净利润同比增长逾10倍 (财联社)](https://www.cls.cn/detail/2457600) (18 Aug 2026)
 - [存储芯片供不应求，兆易创新Q1营收同比增长119% (华尔街见闻)](https://wallstreetcn.com/articles/3771244) (29 Apr 2026)
 - [市场底部信号已现？存储芯片龙头兆易创新二季度业绩显著回暖 (界面新闻)](https://m.jiemian.com/article/3449968.html) (27 Aug 2019)
+- [兆易创新关于H股挂牌并上市交易的公告（2026年1月13日，03986.HK） (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-01-14/1224931525.PDF) (14 Jan 2026)
+- [长鑫科技上市首日哪些数据刷A股纪录？ (财联社)](https://m.cls.cn/detail/2438405) (28 Jul 2026)
 
 ---
 

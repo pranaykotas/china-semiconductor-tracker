@@ -13,7 +13,7 @@ Jointly established in 2014 by China Electronics Corporation (a central state-ow
 
 ## What does this firm design?
 
-ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems. Its Tengyun S5000C-E server CPU won an industry innovation award in August 2026, around the same time roughly 3,000 dual-socket servers built on it won a sector procurement tender.
+ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems. Verified 2026 milestones: the Tengyun S5000C-E paired with China Telecom Cloud scored #1 worldwide on SPEC Cloud IaaS 2018 (168.2, May 2026); both S5000C and S5000C-E entered China Mobile's 2026–2027 PC/server procurement (late September 2026); the desktop D3000 took a 130,000-unit win at a major state-owned bank and the D3000M won 100% of a provincial government unified tender (~60,000 units, September 2026). At its August 2026 12th-anniversary briefing Phytium disclosed its first AI accelerator, the 飞腾A1000, now in mass production, a 'CPU+XPU dual-drive' roadmap, and cumulative R&D spend over ¥6 billion; a June 2026 CCB-Tianjin retrospective said an IPO is imminent ('上市在即') — no CSRC/exchange filing visible as of October 2026.
 
 ## Key Facts
 
@@ -23,7 +23,7 @@ ARM-based CPUs across server, desktop, and embedded product lines, used primaril
 | **Founded** | 2014 |
 | **Location** | Tianjin, Tianjin Municipality |
 | **Product Focus** | Server, desktop, and embedded CPUs (ARM-based) |
-| **Node Sophistication** | Not disclosed; reported to have sold over 10 million CPUs, primarily for government and state-enterprise use |
+| **Node Sophistication** | Not disclosed; cumulative CPU sales passed 15 million units by August 2026 (from 10M in early 2025), primarily for government and state-enterprise use |
 | **Entity List** | Yes — US Commerce BIS |
 
 ### Design Score
@@ -34,6 +34,7 @@ ARM-based CPUs across server, desktop, and embedded product lines, used primaril
 - [FeiTeng (Wikipedia)](https://en.wikipedia.org/wiki/FeiTeng) (28 Sep 2026)
 - [Commerce Adds Seven Chinese Supercomputing Entities to Entity List](https://www.commerce.gov/news/press-releases/2021/04/commerce-adds-seven-chinese-supercomputing-entities-entity-list-their) (08 Apr 2021)
 - [筑牢智慧民航数字底座，飞腾芯护航春运'大考' (Phytium official site)](https://www.phytium.com.cn/homepage/news/940/) (28 Sep 2026)
+- [飞腾公司成立12周年：累计销量超1500万片、首款AI芯片A1000量产 (经济参考报)](https://www.jjckb.cn/20260827/fbcc3bc3b4354491b038fbdda8f88aaa/c.html) (27 Aug 2026)
 
 ---
 

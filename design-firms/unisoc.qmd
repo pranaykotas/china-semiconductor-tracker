@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. The fourth-largest smartphone SoC vendor worldwide per Counterpoint, behind MediaTek, Qualcomm and Apple, with 12.1% share for full-year 2025 and 14% in Q1 2026; 2024 revenue was reported at ¥14.5 billion.
+Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. The fourth-largest smartphone SoC vendor worldwide per Counterpoint, behind MediaTek, Qualcomm and Apple, with 12.1% share for full-year 2025 and 14% in Q1 2026; FY2025 revenue was ~¥20 billion (first time above that mark, up from ¥14.5 billion in 2024). IPO: sponsors 国泰海通+中信建投 filed the third tutoring-progress report in April 2026 (prospectus framework and filing drafts reportedly assembled), but as of 11 October 2026 no SSE acceptance or published prospectus had occurred.
 :::
 
 ## What does this firm design?
 
-Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines.
+Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines — a global top-two player in sub-$99 smartphone silicon, with Transsion its largest customer. The 6nm T8300 (launched March 2025, benchmarking >510k) was its first SoC integrating 5G NR NTN satellite communications, first shipped in nubia's Neo 3 gaming phones; 5G handsets on UNISOC silicon ship to 76+ countries.
 
 ## Key Facts
 
@@ -34,6 +34,8 @@ Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plu
 - [紫光展锐完成股改！2024年营收145亿 加速冲刺IPO (财联社)](https://www.cls.cn/detail/1990697) (01 Apr 2025)
 - [Counterpoint：2026 年 Q1 智能手机芯片出货 ... 紫光展锐 14% (IT之家)](https://www.ithome.com/0/962/610.htm) (10 Jun 2026)
 - [登陆科创板在望：紫光展锐即将完成IPO辅导验收 (C114通信网)](https://m.c114.com.cn/w16-1308696.html) (18 Apr 2026)
+- [全球第四！年销16亿颗芯片，营收突破200亿，国产手机芯片第一股要来了 (电子工程专辑)](https://www.eet-china.com/mp/a489604.html) (22 Apr 2026)
+- [紫光展锐发布5G SoC T8300，首次融合5G NR NTN卫星通信 (UNISOC官方)](https://www.unisoc.com/cn/news/T8300-2025-03-13) (13 Mar 2025)
 
 ---
 

@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's most credible NXP/Renesas challenger — the only domestic firm with cockpit+gateway+ADAS SoC+ASIL-D MCU all in production — now #1 domestic cockpit-SoC vendor (5th overall, 3.77%, ahead of HiSilicon per GGII 2025), with 14M+ units shipped and 2026 'Strategy 2.0' extending automotive safety silicon to robots (R1 cerebrum/D9-Max cerebellum).
+China's most credible NXP/Renesas challenger — the only domestic firm with cockpit+gateway+ADAS SoC+ASIL-D MCU all in production — now #1 domestic cockpit-SoC vendor (5th overall, 3.77%, ahead of HiSilicon per GGII 2025), with 12–14M+ units shipped and 2026 'Strategy 2.0' extending automotive safety silicon to robots: at the September 2026 服贸会 forum it detailed the full stack — R1 'cerebrum' SoC (ARMv9.2 + new NPU for on-device MLLM/VLA), D9-Max 'cerebellum' (EtherCAT ±5μs, dev kit shipping) and E3-R joint-control MCUs — claiming to be the only domestic vendor covering brain + small-brain + all motor-control MCU.
 :::
 
 ## What does this firm design?
 
-Cockpit/gateway/ADAS automotive SoCs, ASIL-D safety MCUs, robotics compute and motion-control chips.
+Cockpit/gateway/ADAS automotive SoCs (X9/G9/V9, X10 AI-cockpit at 80 TOPS with BAIC leading adoption), ASIL-D safety MCUs, robotics compute and motion-control chips.
 
 ## Key Facts
 
@@ -33,6 +33,7 @@ Cockpit/gateway/ADAS automotive SoCs, ASIL-D safety MCUs, robotics compute and m
 
 - [芯驰科技完成约1亿美元C轮融资 (投资界)](https://news.pedaily.cn/202605/563806.shtml) (13 May 2026)
 - [芯驰：智驾座舱舱泊一体出货超1400万片，切入具身智能 (中国经营报)](https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvyep3941616.shtml) (14 May 2026)
+- [芯驰科技完成C+、C++轮融资 合计约3亿元 (科创板日报 via 腾讯)](https://news.qq.com/rain/a/20260921A0C7JU00) (21 Sep 2026)
 
 ---
 

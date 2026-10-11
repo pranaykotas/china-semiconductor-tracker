@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-A two-story firm: a niche-memory designer riding the 2025-26 shortage to 67.7% gross margin and H1 2026 net profit ¥6.59亿 (vs FY2025 loss), and a listed proxy for Lingxi's consumer GPU incubation (¥0.42亿 equity loss H1). If the 7G100 scales, the off-balance-sheet GPU template becomes the model for design houses nurturing advanced logic.
+A two-story firm: a niche-memory designer riding the 2025-26 shortage to 67.7% gross margin and H1 2026 net profit ¥6.59亿 (vs FY2025 loss) — with an interim dividend of ¥6/10 shares plus a bonus issue — and a listed proxy for Lisuan's consumer GPU incubation (¥0.42亿 equity-method loss H1, ~65% of RTX-3060 gaming performance per independent tests). The 7G100 sold through its ¥2,688 JD retail launch from 16 July and became the first Chinese GPU maker to exhibit standalone at ChinaJoy (July–August); Lisuan's next-gen architecture is in design with no tape-out date given, and Dosilicon says it holds no current integration of its own memory on Lisuan's GPUs. If the 7G100 scales, the off-balance-sheet GPU template becomes the model for design houses nurturing advanced logic.
 :::
 
 ## What does this firm design?
@@ -23,7 +23,7 @@ SLC/MLC NAND, NOR, niche DRAM and MCP/eMMC combos; affiliate's 6nm graphics GPUs
 | **Founded** | 2014 |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Product Focus** | Niche small-capacity memory — SLC NAND (domestic leader), NOR, DDR3/LPDDR4x DRAM, MCP combos for phone/module platforms |
-| **Node Sophistication** | 1x-nm-class SLC NAND in volume; affiliate Lingxi 7G100 GPU on 6nm (taped out early 2025, retail May/July 2026; 4th globally WHQL-certified Windows GPU vendor) |
+| **Node Sophistication** | 1x-nm-class SLC NAND in volume; affiliate Lisuan's 7G100 GPU on 6nm (taped out early 2025, retail launch ¥2,688 on JD 16 July 2026; 4th globally WHQL-certified Windows GPU vendor) |
 | **Entity List** | No |
 
 ### Design Score

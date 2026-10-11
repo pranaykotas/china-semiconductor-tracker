@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's only scaled x86 CPU + GPGPU dual-track design house and the anchor of 信创 server supply: FY2025 revenue ¥143.77亿 (+56.9%, net ¥25.45亿), H1 2026 ¥90.99亿 (+66.5%) — with inventory build (¥75亿) telegraphing an AI-demand run. Its planned ¥-with-中科曙光 absorption merger (announced May 2025) was terminated 9 December 2025, keeping chip and system layers separate.
+China's only scaled x86 CPU + GPGPU dual-track design house and the anchor of 信创 server supply: FY2025 revenue ¥143.77亿 (+56.9%, net ¥25.45亿); the formal H1 2026 report (13 August) showed revenue ¥90.99亿 (+66.5%) and net profit ¥17.98亿 (+49.7%) — though operating cash flow swung to -¥4.28亿 (from +¥21.8亿) on the inventory build telegraphing an AI-demand run, and gross margin slipped 4.9 points to 55.2% on HBM/substrate cost inflation. Next-generation 深算四号 DCU is confirmed still in development (board secretary, 29 September: 'progressing smoothly', not yet shipping), with 深算三号 BW1000 the current volume part; the DCU stack claims adaptation to 400+ mainstream LLMs. Its planned ¥-with-中科曙光 absorption merger (announced May 2025) was terminated 9 December 2025, keeping chip and system layers separate — no revival as of October 2026.
 :::
 
 ## What does this firm design?

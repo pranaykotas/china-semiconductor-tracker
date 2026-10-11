@@ -1,0 +1,39 @@
+---
+title: "Primarius Technologies"
+subtitle: "EDA & IP Provider"
+date: last-modified
+---
+
+**Chinese name:** 上海概伦电子股份有限公司 (Gàilún Diànzǐ)
+
+::: {.callout-tip}
+## Why This Matters
+STAR-listed (688206, January 2022) specialist in the most physics-heavy corner of EDA — compact modeling/TCAD and memory design tools, the layer where Synopsys/Cadence still set the bar — that pivoted in 2026 into consolidation: its purchase of analog-IP vendor 锐成芯微 (100%) and its subsidiary 纳能微 (45.64%) for ~¥2.17bn in shares and cash cleared CSRC registration on 26 June 2026 (证监许可〔2026〕1505号, ~6 months from acceptance to approval), assets transferred by 31 July, and 67.5m new shares registered at ¥17.42 in mid-August with a ≤¥1.05bn matching financing still in progress — the template deal for Beijing's push to build scale domestic EDA champions. The organic business remains small: H1 2026 revenue ¥2.40亿 (+10.1%) swinging to a ¥6.7m net loss (deal fees, lower investment income), with domestic EDA license revenue +19.8% and test systems +31.1% and R&D at 55.9% of revenue.
+:::
+
+## What does this firm design?
+
+EDA tools (device characterization, compact models, memory and power-semiconductor flows, DTCO) and, post-deal, 1,000+ physical IP packages across 30+ global foundry processes licensed to chip designers.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Category** | EDA & IP Provider |
+| **Founded** | 2010 |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Product Focus** | EDA for device-level design and characterization (SPICE modeling, TCAD, memory/compound-semiconductor flows) plus test/verification systems; since 2026, a large semiconductor-IP portfolio via the 锐成芯微 acquisition |
+| **Node Sophistication** | Not applicable — an EDA software and IP vendor; tools qualified across mature-to-advanced domestic nodes |
+| **Entity List** | No |
+
+### Design Score
+<span class="complexity-bar" title="Design Score: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span> **3.5/5**
+
+## Sources
+
+- [概伦电子2026年半年度报告 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-27/1225514208.PDF) (27 Aug 2026)
+- [概伦电子关于发行股份及支付现金购买锐成芯微100%股权及纳能微45.64%股权之标的资产过户完成的公告 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-04/1225455594.PDF) (04 Aug 2026)
+
+---
+
+<a href="../design.html" class="btn btn-primary">Back to Design Tracker</a>

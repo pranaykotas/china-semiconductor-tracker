@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The closest thing China has to a global automotive/industrial memory design house — 82.7% of revenue is overseas and ISSI qualifies with world carmakers, precisely the niche US Dec-2024 rules tried to fence. Q1 2026 (latest verified): revenue ¥15.6亿 (+47.1%), net ¥3.19亿 (+331.6%) as the DRAM supercycle monetizes; FY2025 ¥47.41亿 (+12.5%). A 3D-DRAM roadmap for AI bandwidth makes it the canary for Chinese memory design moving up.
+The closest thing China has to a global automotive/industrial memory design house — 82.7% of revenue is overseas and ISSI qualifies with world carmakers, precisely the niche US Dec-2024 rules tried to fence. The DRAM supercycle fully monetized in H1 2026 (interim, 28 August): revenue ¥39.57亿 (+76.0%) and net profit ¥11.98亿 (+489.6%), Q2 ¥23.97亿/¥8.79亿; storage line +90.1% to ¥26.32亿, compute +72.7%, gross margin 51.8%. DRAM contract re-pricing began Q1 and continued after July, with the company expecting tight supply until H2 2027 — but the 3D DRAM AI-bandwidth tape-out has slipped on the very capacity crunch it profits from. An A+H route opened: H-share application refiled 26 May 2026 with CSRC overseas-listing备案 received 24 June. FY2025 ¥47.41亿 (+12.5%).
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ Car-grade SRAM/DRAM/NOR/eMMC, RISC/MIPS AIoT-video SoCs, automotive LED drivers 
 
 - [北京君正2025年报：存储收入占比61% (新浪科技)](https://finance.sina.com.cn/tech/roll/2026-03-29/doc-inhssmvq4607958.shtml) (29 Mar 2026)
 - [Q1净利3.19亿+332%：存储超级周期下的北京君正 (长江商报)](https://finance.sina.com.cn/roll/2026-04-30/doc-inhwfpqq6340036.shtml) (30 Apr 2026)
+- [北京君正2026年半年报：营收39.57亿+76%，净利11.98亿+489.6% (爱集微)](https://www.ijiwei.com/n/1101129) (28 Aug 2026)
 
 ---
 

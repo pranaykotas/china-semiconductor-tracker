@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier. Listed on the Hong Kong Stock Exchange's main board on January 2, 2026 — the first new HK listing of the year and, at the time, the largest IPO under HKEX's 18C mechanism for pre-revenue/early-revenue specialist technology companies — issuing about 248 million shares at HK$19.60, with the stock surging as much as 110% on debut (closing around +94.6%).
+Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier. Listed on the Hong Kong Stock Exchange's main board on January 2, 2026 (06082.HK) — the first new HK listing of the year and, at the time, the largest IPO under HKEX's 18C mechanism — issuing about 248 million shares at HK$19.60, with the stock closing up ~94.6% on debut. It has since raised twice more: ~HK$7.04 billion net in a July 2026 placing at HK$46.20, and a second placing announced 8 October 2026 (130 million shares at HK$31.08, HK$4.04 billion gross, ~70% earmarked for supply-chain procurement), taking 2026 capital raised past HK$17 billion; the shares fell ~12% on the October announcement to a market cap around HK$78.9 billion.
 :::
 
 ## What does this firm design?
 
-General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions. H1 2026 revenue reached approximately ¥1.236 billion, up roughly 2,000% year-on-year, reflecting a sharp commercialization acceleration despite the Entity List designation.
+General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions. H1 2026 revenue (formal filing, 28 August) was ¥1.236 billion, up ~2,000% year-on-year, with net loss narrowing to ¥377 million and R&D at ¥804 million; stock-plus-prepayment rose 230% to ¥1.534 billion. The next-generation BR20X has been successfully lit up and is in post-tapeout validation, with reported performance benchmarked against Nvidia's H200 class and launch slated within 2026; at WAIC (July 2026) Biren demonstrated a BLink 2.0 optical-interconnect supernode scaling to 1,024 cards.
 
 ## Key Facts
 
@@ -32,8 +32,9 @@ General-purpose GPUs for AI compute, led by the BR100 series, competing directly
 ## Sources
 
 - [Biren Technology (Wikipedia)](https://en.wikipedia.org/wiki/Biren_Technology) (28 Sep 2026)
-- [Commerce Department Aims to Restrain Chinese Military Modernization by Tightening Export Controls on Advanced AI Chips](https://www.arnoldporter.com/en/perspectives/advisories/2023/10/higher-fences-and-an-increasingly-bigger-yard) (17 Oct 2023)
 - ['港股GPU第一股'壁仞科技大涨94.59% 2026科技企业IPO潮加速来袭 (财联社)](https://www.cls.cn/detail/2246285) (02 Jan 2026)
+- [壁仞科技2026年中期业绩公告 (HKEXnews)](https://www.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800453.pdf) (28 Aug 2026)
+- [壁仞科技拟配股融资逾40亿港元 新一代产品已进入流片后验证阶段 (证券时报)](https://www.stcn.com/article/detail/4208943.html) (09 Oct 2026)
 
 ---
 

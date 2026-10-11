@@ -13,7 +13,7 @@ Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Roboti
 
 ## What does this firm design?
 
-AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms.
+AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms. The 7nm, 250+ TOPS A2000 entered mass production in H2 2026 with first scale-order deliveries from September (design wins at Dongfeng, Yutong, Chery), positioned against the 1 July 2027 mandatory national ADAS standard; the Wudang C1200 cockpit-driving fusion chip is in production on Dongfeng's Tianyuan platform. A 60% acquisition of edge-SoC maker 亿智电子 (Yizhi, standalone H1 2026 revenue ¥164.5 million, profitable) completed in September 2026 adds 0.5–2 TOPS low-power parts and a second curve in embodied AI (H1 embodied-AI revenue ¥47.2 million).
 
 ## Key Facts
 
@@ -34,6 +34,7 @@ AI chips for self-driving cars and advanced driver assistance systems (ADAS), in
 - [智能车AI芯片第一股上市 (界面新闻)](https://www.jiemian.com/article/11531065.html) (08 Aug 2024)
 - [黑芝麻智能盘中涨超12% 上半年营收4.58亿元同比增长81.3% (科创板日报)](https://finance.eastmoney.com/a/202609013861372692.html) (01 Sep 2026)
 - [黑芝麻智能车载业务规模效应失效 (证券之星)](https://wap.stockstar.com/detail/IG2026090300040971) (03 Sep 2026)
+- [黑芝麻智能2026中期报告 (HKEXnews)](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100442_c.pdf) (31 Aug 2026)
 
 ---
 

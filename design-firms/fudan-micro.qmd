@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Flagship of domestic FPGA independence — its parts underpin satellite, power-grid and telecom infrastructure — and the highest-profile pure-commercial design victim so far of US controls: added 12 September 2025 with Footnote 4, hitting fabs, EDA and IP outputs simultaneously. The forced pivot (strategic wafer/tooling stockpile grew from ~¥600m 2020 to ~¥3.1bn by H1 2025) paid off handsomely under scarcity: FY2025 revenue ¥39.82亿 (+10.9%), H1 2026 net profit ¥8.49亿 (+338.6%) with FPGA line ¥13.16亿 (2025, +16%).
+Flagship of domestic FPGA independence — its parts underpin satellite, power-grid and telecom infrastructure — and the highest-profile pure-commercial design victim so far of US controls: added 12 September 2025 with Footnote 4, hitting fabs, EDA and IP outputs simultaneously; no status change through October 2026. The forced pivot (strategic wafer/tooling stockpile grew from ~¥600m 2020 to ~¥3.1bn by H1 2025; inventory was still 32.8% of current assets at mid-2026) paid off handsomely under scarcity: FY2025 revenue ¥39.82亿 (+10.9%); H1 2026 revenue ¥22.25亿 (+21.0%) and net profit ¥8.49亿 (+338.6%) — though ¥4.66–4.70亿 of that was a one-off fair-value gain on its 盛合晶微 (SJ Semi) strategic placement, leaving adjusted profit at ¥4.12亿 (+125.9%). FPGA was ¥7.4亿 (+8.7%) of the half, non-volatile memory ¥6.21亿 (+41.1%) on NAND/NOR price hikes, and car-grade MCUs passed 20M units annualized.
 :::
 
 ## What does this firm design?

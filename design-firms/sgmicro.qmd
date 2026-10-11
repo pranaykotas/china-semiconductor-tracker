@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): FY2025 revenue ¥38.98亿 (+16.5%), H1 2026 ¥25.95亿 (+42.7%) on optical-module/AI-server demand. A+H listing (June 2026, 3661.HK) makes it the consolidation vehicle for Chinese analog.
+China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): FY2025 revenue ¥38.98亿 (+16.5%), H1 2026 ¥25.95亿 (+42.7%) on optical-module/AI-server demand, with net profit ¥4.20亿 (+109.3%) and Q2 revenue ¥14.97亿 a record. The A+H listing (26 June 2026, 3661.HK at HK$85.20; greenshoe fully exercised 23 July, ~HK$5.3bn combined) makes it the consolidation vehicle for Chinese analog — tuck-ins so far are 感睿智能 (magnetic sensing, 67%) and 亿存芯 (EEPROM, 77.5%), with no new deal announced by October; ADI/TI price hikes landing September 2026 give the domestic analog complex pricing cover.
 :::
 
 ## What does this firm design?

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite make it central to de-NVLink scale-up fabrics. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups. Private, no verified IPO filing.
+China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite (224G UALink IP taped out, licensing from H2 2026) make it central to de-NVLink scale-up fabrics, alongside a January 2026 first commercial LPDDR6/5X delivery and GDDR7 PHY pushed to 32Gbps. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups — and is now finding a commercial vehicle: an August 2026 战略合作 with 汉唐云 targets '万P级' all-domestic compute clusters, while GPU head 何颖 confirmed in May that 风华4/5 are in development. IPO remains rumor-only: an HKEX chapter-18C attempt at ¥8–15bn valuation is tracked by secondary sources but no prospectus or CSRC tutoring filing for 芯动 exists as of October 2026.
 :::
 
 ## What does this firm design?

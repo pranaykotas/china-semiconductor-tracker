@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The only internet-giant spin-off in the domestic AI-chip first tier — ~116,000 cards shipped in 2025, tied 3rd with Cambricon among domestic vendors, trained ERNIE 5.1 on an all-domestic cluster. In 2026 it launched a dual listing path (confidential HKEX filing January; STAR tutoring via CICC May) targeting a valuation Reuters put near $50 billion. Parent Baidu was added to DoD's 1260H list (26 June 2026) — political, not export, exposure.
+The only internet-giant spin-off in the domestic AI-chip first tier — ~116,000 cards shipped in 2025, tied 3rd with Cambricon among domestic vendors (IDC: Huawei 81.2万, Alibaba's T-Head/平头哥 26.5万 led), trained ERNIE 5.1 on an all-domestic cluster. In 2026 it launched a dual listing path: an HKEX A1 filed confidentially 1 January 2026 (confirmed by Baidu 2 January; HKEX has cleared the spin-off) and STAR tutoring filed with the Beijing CSRC bureau 29 April (disclosed 7 May, CICC sponsor). Reporting in late June put the target HK valuation near US$50 billion — above Baidu's own ~US$35.5bn market cap — with cornerstone allocations reportedly tied to chip-purchase commitments of 3–7× subscription value; broker ranges span US$16bn (Jefferies) to US$57bn (CCB International). No public hearing (聆讯) as of 11 October. Parent Baidu was added to DoD's 1260H list (26 June 2026) — political, not export, exposure.
 :::
 
 ## What does this firm design?
 
-Cloud AI training/inference XPU chips, cluster systems and software for search, ads, recommendation and reasoning workloads.
+Cloud AI training/inference XPU chips, cluster systems and software for search, ads, recommendation and reasoning workloads. P800 (FP16 345 TFLOPS, 96GB HBM, Samsung 7nm per Lianhe Zaobao) is the volume part; the M100 — a fourth-generation inference chip on a fully domestic supply chain positioned against Nvidia's H20 — made its first public appearance at WAIC in July 2026; 'Tianchi' 256/512-card supernodes are due in 2026, with the 512 claimed to support trillion-parameter training on a single node.
 
 ## Key Facts
 

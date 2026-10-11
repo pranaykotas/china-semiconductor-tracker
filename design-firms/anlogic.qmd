@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The most explicit domestic attempt to reach Xilinx/Altera-scale FPGA density (4M+ LUT chiplet program) — while still small and loss-making (FY2025 revenue ¥5.20亿, net -¥2.72亿). The turnaround signal is H1 2026: revenue ¥4.32亿 (+93.3%), losses halved, on 'multi-fold' data-center sales as FPGAs ride the AI-emulation wave.
+The most explicit domestic attempt to reach Xilinx/Altera-scale FPGA density (4M+ LUT chiplet program) — while still small and loss-making (FY2025 revenue ¥5.20亿, net -¥2.72亿). The turnaround signal is H1 2026: revenue ¥4.32亿 (+93.3%) with the net loss narrowed 47.7% to ¥74.5 million (Q2 alone +104.7% YoY, a fifth straight quarter of sequential growth), on 'multi-fold' data-center sales as FPGAs ride the AI-emulation wave; the ¥12.6亿 placement closed at the full cap in September 2026 to fund exactly that chiplet program.
 :::
 
 ## What does this firm design?
@@ -23,7 +23,7 @@ Reconfigurable logic (FPGA/FPSoC) for telecom, industrial, automotive (cockpit/L
 | **Founded** | 2011 |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Product Focus** | FPGA/FPSoC (ELF, Eagle, Phoenix/Fenghuang lines) + in-house FPGA EDA toolchain |
-| **Node Sophistication** | 55nm→domestic-28nm FPGA in volume→first advanced-node (FinFET) high-performance FPGA deliveries 2025; ≤¥1.26bn placement for >4KK-LUT chiplet FPGA (2.5D multi-die) |
+| **Node Sophistication** | 55nm→domestic-28nm FPGA in volume→first advanced-node (FinFET) high-performance FPGA deliveries 2025; ¥1.262bn placement completed September 2026 (at the full cap, ¥25.49/share, 22 investors) funding a >4KK-LUT chiplet FPGA (2.5D multi-die) whose project kicked off June 2026, sampling 2026, volume 2027–28 |
 | **Entity List** | No |
 
 ### Design Score
@@ -33,6 +33,7 @@ Reconfigurable logic (FPGA/FPSoC) for telecom, industrial, automotive (cockpit/L
 
 - [安路科技2025年年度报告 (东方财富转巨潮)](https://pdf.dfcfw.com/pdf/H2_AN202603301820869925_1.pdf) (30 Mar 2026)
 - [安路科技半年报营收翻倍：数据中心FPGA放量 (证券日报)](http://www.zqrb.cn/gscy/gongsi/2026-08-29/A1787924786304.html) (29 Aug 2026)
+- [安路科技2026年度向特定对象发行股票发行情况报告书（募资12.62亿元） (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-09-11/1225558042.PDF) (11 Sep 2026)
 
 ---
 

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA). H1 2026 revenue reached ¥566 million (+13.0% YoY) but the company posted a net loss of ¥45.06 million for the half; analyst forecasts cited in domestic coverage project a return to profitability by full-year 2026 (roughly ¥40 million net profit), rising toward ¥180 million by 2028 as revenue growth continues at a projected ~20%/year.
+Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA). H1 2026 revenue reached ¥566 million (+13.0% YoY) but the company posted a net loss of ¥45.06 million for the half; analyst forecasts cited in domestic coverage project a return to profitability by full-year 2026 (roughly ¥40 million net profit), rising toward ¥180 million by 2028 as revenue growth continues at a projected ~20%/year. Its M&A is now the strategic story: on 8 October 2026 Empyrean announced ¥149 million for a 6.90% stake in digital place-and-route specialist 芯行纪 (X-Linkage) — after similar fund-routed buys — having already taken equity in 亿方联创, and seeded two more EDA-industry funds (¥91m and ¥90m, Aug–Sep 2026), assembling a domestic toolchain by balance sheet rather than organic build. Product-wise it shipped a full 3DIC/advanced-packaging verification suite (Argus 3DIC, Storm, ALPS 3D cross-node simulation) in mid-2026 — directly aimed at the heterogeneous-stacking designs that leading-edge-node denial makes China's fallback path (the 'τ-scaling/logic folding' wave it was reported to be riding when its stock re-rated in June 2026).
 :::
 
 ## What does this firm design?
@@ -34,6 +34,7 @@ EDA software tools used by chip designers for layout, verification, and simulati
 - [Empyrean Technology (Wikipedia)](https://en.wikipedia.org/wiki/Empyrean_Technology) (28 Sep 2026)
 - [China's top player Empyrean eyes opportunities from US chip curbs on design software](https://www.scmp.com/tech/article/3315237/chinas-top-player-empyrean-eyes-opportunities-us-chip-curbs-design-software) (28 Sep 2026)
 - [华大九天（301269）投资价值分析报告：国产EDA龙头迈入攻坚期，全流程突破在即 (东方财富)](https://caifuhao.eastmoney.com/news/20260317220822529826630) (17 Mar 2026)
+- [华大九天拟1.49亿元收购芯行纪6.90%股份 补齐数字后端布局 (央广网)](https://finance.cnr.cn/ycbd/20261008/t20261008_527836587.shtml) (08 Oct 2026)
 
 ---
 

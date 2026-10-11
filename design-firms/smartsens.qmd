@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The clearest import-substitution winner in CIS: #1 globally in surveillance CIS, now cracking flagship smartphone cameras (Xiaomi/OPPO main and sub cameras) and scaling automotive CIS — FY2025 revenue ¥90.31亿 (+51.3%), of which smartphone ¥46.75亿 and automotive ¥11.22亿 (+113%); H1 2026 revenue ¥46.0亿. A March 2026 placement plan (up to ¥3.2 billion) funds vision-AI and edge-AI ASICs — an attempt to outgrow the sensor business.
+The clearest import-substitution winner in CIS: #1 globally in surveillance CIS, now cracking flagship smartphone cameras (Xiaomi/OPPO main and sub cameras) and scaling automotive CIS — FY2025 revenue ¥90.31亿 (+51.3%), of which smartphone ¥46.75亿 and automotive ¥11.22亿 (+113%). H1 2026 (formal filing 21 Aug): revenue ¥46.00亿 (+21.5%), net profit ¥5.28亿 (+33.2%); automotive ¥6.36亿 (+28.6%, Q2 +106% QoQ); its 200MP SCC62HS flagship sensor (announced June) is slated for mass production from Q3. The ≤¥32亿 capital raise — first floated in March 2026 — cleared CSRC registration on 4 June and launched issuance on 30 September, funding high-performance CIS (¥1.445bn), automotive CIS (¥753m) and AI-CIS/edge-ASIC (¥740m) — an attempt to outgrow the sensor business.
 :::
 
 ## What does this firm design?

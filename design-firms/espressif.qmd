@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas revenue +40.4%; H1 2026 ¥14.81亿 (+18.9%). Its pivot to fully self-developed RISC-V cores removes the last foreign-IP dependency across its mainstream line.
+The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas revenue +40.4%. H1 2026 (interim 30 July): revenue ¥14.81亿 (+18.9%) with net profit ¥3.34亿 (+27.9%) and record 49.3% gross margin — Q2 was the first-ever >¥8亿 quarter; management also announced a ¥50–100m share buyback for equity incentives. Product cadence stayed fast: ESP32-E22 tri-band Wi-Fi 6E (CERTIFIED 6E mark obtained in Q2) and the ESP32-S31 dual-core RISC-V SoC (sampled May, in mass production since July); Wi-Fi 7 capability is targeted by mid-2027. Its pivot to fully self-developed RISC-V cores removes the last foreign-IP dependency across its mainstream line.
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ Wi-Fi/BLE/Thread connectivity SoCs and MCUs with self-designed RISC-V CPUs, plus
 
 - [乐鑫科技2025年年度报告摘要 (巨潮资讯)](https://static.cninfo.com.cn/finalpage/2026-03-21/1225022430.PDF) (21 Mar 2026)
 - [乐鑫2025年报解读：净利4.98亿+47%，海外+40% (新浪财经)](https://finance.sina.com.cn/stock/aigc/stockfs/2026-03-20/doc-inhrrvnu0725505.shtml) (20 Mar 2026)
+- [乐鑫科技2026年上半年净利3.34亿元同比增27.93%，拟回购5000万-1亿元 (东方财富)](https://finance.eastmoney.com/a/202607303827106633.html) (30 Jul 2026)
 
 ---
 

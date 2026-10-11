@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86. Revenue is growing but the company remains unprofitable: H1 2026 revenue reached ¥272 million (+11.6% YoY) with gross margin up 9.6 points to 52.1%, but full-year 2026 guidance of ¥828 million revenue (+30.3% YoY) still projects a ¥230 million net loss.
+Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86. Revenue is growing but the company remains unprofitable: the formal H1 2026 report (29 August) showed revenue ¥271.9 million (+11.6% YoY) with a net loss of ¥223.9 million (narrowed 24%), gross margin up 9.6 points to 52.1%, and R&D absorbing 90.9% of revenue. The sell-side 2026 forecast has been cut (Huachuang, ¥771M on 31 August) and the equity-incentive hurdle — 2026 revenue +80%/+100% vs 2024 (~¥907M/¥1.01B) — looks a near-certain miss at the H1 run-rate. A ¥2.3 billion private placement to fund the 7000-series server CPU and GPU programs passed inquiry on 31 August and remains under SSE review.
 :::
 
 ## What does this firm design?
 
-General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability. H1 2026 segment mix: informatization/IT chips ¥147M (+27.8% YoY), industrial-control chips ¥68M (-22.6% YoY), and solutions/services ¥58M (+38.7% YoY).
+General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability. H1 2026 segment mix: informatization/IT chips ¥147M (+27.8% YoY), industrial-control chips ¥68M (-22.6% YoY), and solutions/services ¥58M (+38.7% YoY). The 3C6000 server family (16C 3C6000/S, 32C dual-die 3D6000, 64C quad-die 3E6000, all on LA664 cores) entered small-batch shipment, with management guiding order-of-magnitude 2026 growth off a tiny base; the 9A1000 GPGPU returned from fab and is scheduled for card launch H1 2027, and the 3D7000 server chip is slated for tape-out before H1 2028.
 
 ## Key Facts
 
@@ -32,7 +32,8 @@ General-purpose CPUs (the Loongson 3-series and successors) built on the self-de
 ## Sources
 
 - [Loongson (Wikipedia)](https://en.wikipedia.org/wiki/Loongson) (28 Sep 2026)
-- [龙芯中科2026年一季报：营收增长但亏损持续，应收账款风险几何？ (股百科)](https://www.aigbk.com/article/loongson_q1_2026_earnings_report_analysis/) (28 Sep 2026)
+- [龙芯中科2026年半年度报告 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-29/1225524354.PDF) (29 Aug 2026)
+- [龙芯中科半年报业绩说明会：3C6000出货量将数量级增长、9A1000显卡H1 2027上市 (科创板日报 via 东方财富)](https://finance.eastmoney.com/a/202609113871997130.html) (11 Sep 2026)
 - [U.S. Govt Blacklists Chinese Tech Firms Loongson and Inspur](https://www.tomshardware.com/news/us-govt-blacklists-loongson-and-inspur) (06 Mar 2023)
 
 ---

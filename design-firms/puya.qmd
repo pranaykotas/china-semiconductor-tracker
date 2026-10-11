@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The textbook double-case of 2025-26 fabless China: buying a distressed global asset to jump product tiers (SHM = ex-SK Hynix 2D NAND carve-out, world #4 SLC NAND), then riding the AI memory supercycle — H1 2026 revenue ¥39.59亿 (+336.7%) and net ¥8.27亿 (+1930%), versus FY2025 ¥23.20亿/+28.6% with profit down. Its MCP modules already ship into HP/Motorola/Cisco/Bosch chains.
+The textbook double-case of 2025-26 fabless China: buying a distressed global asset to jump product tiers (SHM = ex-SK Hynix 2D NAND carve-out, world #4 SLC NAND — the 51% cash purchase closed November 2025 and the ¥23.46亿 H1 consolidated contribution proves the thesis), then riding the AI memory supercycle — H1 2026 revenue ¥39.59亿 (+336.7%) and net ¥8.27亿 (+1930%), versus FY2025 ¥23.20亿/+28.6% with profit down. The remaining 49% (¥2.47bn in shares+convertibles+cash) goes to the SSE's M&A restructuring committee on 14 October 2026, the clearest near-term test of how domestic consolidation deals clear review. Its MCP modules already ship into HP/Motorola/Cisco/Bosch chains.
 :::
 
 ## What does this firm design?

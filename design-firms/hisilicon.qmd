@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019. In May 2026, Huawei semiconductor unit president He Tingbo announced at ISCAS 2026 a new 'logic folding' architecture — stacking two device layers vertically to raise transistor density by a claimed 53.5% at a 3.1GHz core frequency — as a way to keep advancing performance without smaller lithography. The resulting Kirin 9050 Pro shipped in the Mate XT 2 tri-fold phone in September 2026, HiSilicon's first high-performance chip using the technique; reported 2025 HiSilicon revenue roughly doubled year-on-year.
+Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019. In May 2026, Huawei semiconductor unit president He Tingbo announced at ISCAS 2026 a new 'logic folding' (τ/韬 scaling) architecture — stacking two device layers vertically to raise transistor density by a claimed 53.5% — as a way to keep advancing performance without smaller lithography. The Kirin 9050 Pro shipped on 1 October 2026 across the Mate 90 series (claimed +31% overall device performance, first Geekbench results ~1,117/5,076); an updated September 2026 paper claims 41%/58%/66% CPU/GPU/NPU power reductions versus the prior generation at equal performance. On AI, Huawei Connect 2026 (Shanghai, 17 September) unveiled the Ascend 960 SuperPoD — a 4,096-card supernode using near-package optics (Hi-ONE), 8 EFLOPS FP8 — with the roadmap pulled forward: 960DT Q1 2027, Ascend 970 in 2028, 980 in 2029.
 :::
 
 ## What does this firm design?
@@ -23,7 +23,7 @@ Full-stack SoCs across smartphone (Kirin), server/PC (Kunpeng, based on ARM arch
 | **Founded** | 2004 |
 | **Location** | Shenzhen, Guangdong |
 | **Product Focus** | Smartphone SoCs (Kirin), server/PC CPUs (Kunpeng), AI accelerators (Ascend), modem/baseband (Balong) |
-| **Node Sophistication** | 7nm-class via multipatterning (Kirin 9000S, August 2023); the Kirin 9050 Pro (September 2026) and an announced 'Kirin 2026' chip use 3D 'logic folding' (dual-layer vertical die stacking) to raise effective transistor density by a claimed 53.5% without requiring a smaller lithography node |
+| **Node Sophistication** | 7nm-class via multipatterning (Kirin 9000S, August 2023); the Kirin 9050 Pro (launched 1 October 2026 in the Mate 90 series) and the rest of that 'tau-law' cohort use 3D 'logic folding' (dual-layer vertical die stacking) to raise effective transistor density by a claimed 53.5% (238 MTr/mm²) without requiring a smaller lithography node |
 | **Entity List** | Yes — US Commerce BIS |
 
 ### Design Score
@@ -34,6 +34,8 @@ Full-stack SoCs across smartphone (Kirin), server/PC (Kunpeng, based on ARM arch
 - [HiSilicon (Wikipedia)](https://en.wikipedia.org/wiki/HiSilicon) (28 Sep 2026)
 - [HiSilicon: What you need to know about HUAWEI's chip design unit](https://www.androidauthority.com/huawei-hisilicon-852231/) (28 Sep 2026)
 - [麒麟2026芯片今秋面世 (新浪)](https://www.sina.cn/news/detail/5302408323273587.html) (28 Sep 2026)
+- [Huawei unveils Mate 90 phones, leans on homegrown chip design to offset US curbs (Reuters)](https://www.reuters.com/business/retail-consumer/huawei-unveils-mate-90-phones-leans-homegrown-chip-design-offset-us-curbs-2026-10-01/) (01 Oct 2026)
+- [Huawei unveils Mate 90 series with flagship Tau chips adopting logic folding (Global Times)](https://www.globaltimes.cn/page/202610/1371635.shtml) (01 Oct 2026)
 - [华为麒麟芯片'重出江湖'：性能提升36%，去年海思营收翻倍 (新浪财经)](https://finance.sina.com.cn/roll/2025-09-04/doc-infpkxsr1059506.shtml) (04 Sep 2025)
 
 ---

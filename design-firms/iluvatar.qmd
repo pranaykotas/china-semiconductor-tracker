@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's first company to mass-produce a general-purpose training GPU (天垓100, 2021). It posted a headline H1 2026 profit of ¥1.06亿 on revenue of ¥9.46亿 (+191.6%), but the profit came from about ¥7.56亿 of unrealised fair-value gains on its stake in 盛合晶微 (SJ Semiconductor); excluding that gain the core business lost roughly ¥6.5亿. FY2025 revenue ¥10.34亿 (+91.6%).
+China's first company to mass-produce a general-purpose training GPU (天垓100, 2021). It posted a headline H1 2026 profit of ¥1.06亿 on revenue of ¥9.46亿 (+191.6%), but the profit came from about ¥7.56亿 of unrealised fair-value gains on its stake in 盛合晶微 (SJ Semiconductor); excluding that gain the core business lost roughly ¥6.5亿. A margin warning sits inside the growth: blended gross margin collapsed from 50.1% to 17.2% (GPGPU-only margin 43.9%) as low-margin 智铠 inference and a new negative-margin component-resale line mixed in — inference revenue ¥6.54亿 (+651.8%) vs training ¥2.62亿 (+38%). FY2025 revenue ¥10.34亿 (+91.6%). Its 天垓300 (4th-gen architecture, SIMT, >90% attention efficiency claimed) was released at WAIC in July 2026 with a 144-card supernode solution.
 :::
 
 ## What does this firm design?
@@ -22,7 +22,7 @@ Cloud training/inference GPGPU chips and cards, edge AI products, AI servers/clu
 | **Category** | Fabless |
 | **Founded** | 2015 |
 | **Location** | Shanghai, Shanghai Municipality |
-| **Product Focus** | General GPGPUs: 天垓 training series (100/150/Gen3, Gen4 announced July 2026), 智铠 inference series, 彤央 edge modules |
+| **Product Focus** | General GPGPUs: 天垓 training series (100/150, 天垓300 flagship of the new 4th-gen architecture launched at WAIC 19 July 2026), 智铠 inference series, 彤央 edge modules |
 | **Node Sophistication** | Gen2-class ~7/12nm-equivalent (undisclosed); HBM-equipped; domestic-node transition implied by 60%-of-placement supply-chain mandate — specifics not verified |
 | **Entity List** | No |
 

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) yet posted a second straight annual loss (-¥1.65亿) with R&D at 59% of revenue — the military-specialist squeeze: qualification moat protects share but cannot fund a commercial AI pivot. H1 2026: revenue ¥3.34亿 (+73%), still loss-making.
+China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) yet posted a second straight annual loss (-¥1.65亿) with R&D at 59% of revenue — the military-specialist squeeze: qualification moat protects share but cannot fund a commercial AI pivot. H1 2026: revenue ¥3.34亿 (+73%), net loss ¥1.08亿, R&D 85.3% of revenue. JM11 (32 concurrent vGPU per server) is in small-batch delivery with cloud-desktop (Sangfor) and power-grid deployments; its new general-purpose GPU program (Model 1 rendering+GPGPU, Model 2 train-inference) is progressing but an 8 October investor-relations reply declined to give a tape-out date; subsidiary 诚恒微's CH37 edge-AI SoC (64 TOPS) entered small-batch production.
 :::
 
 ## What does this firm design?

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The state-backed (Shanghai United Investment 50.07%) second x86 path — the only domestic vendor natively running standard Windows+Linux binaries on desktops; July 2026 reporting put ZX86 laptops at ~50% of central-government procurement. STAR IPO accepted June 2025 (¥41.69亿 raise); inquiry responses (April 2026) show FY2025 revenue ≈¥11.11亿 (+54.8%) against ≈-¥10.3亿 loss — still the classic loss-making CPU startup awaiting a listing test.
+The state-backed (Shanghai United Investment 50.07%) second x86 path — the only domestic vendor natively running standard Windows+Linux binaries on desktops; a July 2026 central-government (央采) laptop procurement put Zhaoxin-based machines at ~50% of domestic portable PC awards (联想开天 N80z on KX-7000/ZX86). STAR IPO accepted June 2025 (¥41.69亿 planned raise); inquiry responses (May 2026 round two) showed FY2025 revenue ¥11.11亿 (+54.8%) against a ¥10.28亿 loss — and the review is currently paused: the SSE marked Zhaoxin's application '中止（财报更新）' on 30 September 2026 when the financials lapsed, a routine suspension expected to lift once H1 2026 audited numbers are re-filed; no listing-committee meeting (上会) has yet been held. Its KH-50000 server CPU (up to 96 cores) notched only ¥9.91 million of 2025 revenue in 500-chip volumes but is in validation at Lenovo Kaitian and China Mobile's DICT supplier library; the KX-8000 desktop chip (4GHz-class, iGPU, PCIe 5.0/DDR5) is promised but unlaunched as of October 2026.
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ x86-compatible desktop/server/embedded CPUs, chipsets, instruction-set extension
 
 - [兆芯第二轮审核问询函回复（2025年营收11.11亿） (巨潮资讯)](http://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260506/b643291faa98423784e45df45dc6e74c.pdf) (06 May 2026)
 - [兆芯科创板IPO获受理：上海国资控股的x86之路 (36氪)](https://www.36kr.com/p/3343081803589128) (19 Jun 2025)
+- [兆芯集成科创板IPO项目动态：中止（财报更新），2026-09-30披露 (证券时报IPO库)](https://stcn.com/ipo/detail/3362.html) (11 Oct 2026)
 
 ---
 

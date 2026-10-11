@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. FY2025 revenue was ¥4.74 billion (+8.2%) and net profit ¥837 million (+38.7%), helped by ultrasonic fingerprint sensors in commercial use since Q4 2024. H1 2026 reversed: revenue ¥2.06 billion (−8.4%) and net profit ¥252 million (−41.6%). Its 'fingerprint chip king' standing dates from its 2017 market lead.
+Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. FY2025 revenue was ¥4.74 billion (+8.2%) and net profit ¥837 million (+38.7%), helped by ultrasonic fingerprint sensors in commercial use since Q4 2024. H1 2026 reversed: revenue ¥2.06 billion (−8.4%) and net profit ¥252 million (−41.6%). The September 2026 CSRC penalty decision (〔2026〕36号) against former president Liu Yuping for insider trading (≈¥98,400 gains confiscated, ¥1.5m total fines) closed a governance overhang that had shadowed the stock — market cap ~¥24 billion in early September vs a ~¥170 billion peak. Design-win momentum persisted: the Nubia NaviX Ultra (16 September) pairs Goodix ultrasonic + side-capacitive fingerprint sensors, the car-grade BLE GR5410 (Bluetooth 6.1 Channel Sounding) won multiple OEM/Tier-1 projects with trial production in H1, and management targets ~20% ultrasonic penetration of Android flagships in 2026 (from ~10% in 2025). Its 'fingerprint chip king' standing dates from its 2017 market lead.
 :::
 
 ## What does this firm design?
@@ -34,6 +34,7 @@ Fingerprint sensors (ultrasonic, optical in-display, and capacitive) and touch/d
 - [每经专访汇顶科技董事长张帆 (每日经济新闻)](https://www.nbd.com.cn/articles/2017-10-16/1154201.html) (16 Oct 2017)
 - [汇顶科技 2025 年净利润 8.37 亿同比增长 38.7% (IT之家)](https://www.ithome.com/0/933/393.htm) (27 Mar 2026)
 - [炸了！“指纹芯片一哥”原总裁，栽在9.8万上 (钛媒体, via 深蓝财经)](https://www.tmtpost.com/8125384.html) (02 Sep 2026)
+- [努比亚NaviX Ultra发布：汇顶超声波指纹+侧边电容方案 (证券时报)](https://www.stcn.com/article/detail/4187671.html) (16 Sep 2026)
 
 ---
 

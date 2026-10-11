@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips. H1 2026 revenue reached ¥3.335 billion (+26.7% YoY) with net profit of ¥1.997 billion (+72.3% YoY) — one of the stronger, steadier growth stories among this tracker's design firms, benefiting from the same AI-driven memory/data-center demand cycle lifting several other entries.
+Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips. H1 2026 revenue reached ¥3.335 billion (+26.7% YoY) with net profit of ¥1.997 billion (+72.3%; adjusted ¥1.322 billion +21.2%) — one of the stronger, steadier growth stories among this tracker's design firms, benefiting from the same AI-driven memory/data-center demand cycle; the four 'new products' (MRCD/MDB second-gen, PCIe retimer, CKD, CXL MXC) grew 80.7% to ¥538 million. A+H completed on 9 February 2026 (6809.HK, ~HK$8bn incl. greenshoe). The season's tail risk is regulatory, not commercial: on 15 July 2026 Seoul prosecutors raided Montage's Korean office (alongside Renesas and Rambus) over alleged price collusion in memory interface chips — the three hold >93% share — with no charges announced as of early October; Korea accounted for ¥2.93 billion of FY2025 revenue.
 :::
 
 ## What does this firm design?

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026, Samsung TVs enter volume on its silicon. FY2025: ¥67.93亿 revenue (+14.6%), record 174M chips; H1 2026 ¥43.91亿 (+31.9%) with TV SoC shipments +30%; guided FY2026 +25-45%.
+China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026 batch mass production, Samsung TVs enter volume on its silicon; management says its smart-TV SoC shipments could reach roughly one-third of the global market in FY2026 (vs ~16.8% in 2025). FY2025: ¥67.93亿 revenue (+14.6%), record 174M chips; H1 2026 ¥43.91亿 (+31.9%) with net profit ¥6.11亿 (+23.0%), Q2 a record quarter (¥24.96亿 / ¥4.38亿). The Q3 2026 pre-announcement (8 October) is the sweep's standout datapoint: 9M revenue ¥70.8–71.8亿 (+39.6–41.6%), Q3 revenue ¥26.9–27.9亿 (+54.5–60.2%), Q3 net profit ¥6.49–6.99亿 (+223–248%) — and management's operational estimate that FY2026 revenue will top ¥100亿. An A+H listing is in motion: HKEX A1 refiled 12 April 2026 and CSRC overseas-listing备案 (国合函〔2026〕2027号) received 24 August.
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ China's most globally embedded video SoC designer — its chips run operator box
 
 - [晶晨股份2025年度业绩快报：营收67.93亿 (上海证券报)](https://paper.cnstock.com/html/2026-02/12/content_2180614.htm) (12 Feb 2026)
 - [晶晨2026半年报点评：进入三星电视供应链 (证券之星)](https://wap.stockstar.com/detail/RB2026081900043670) (19 Aug 2026)
+- [晶晨股份三季报预告：Q3营收同比增逾54%，全年剑指百亿 (财联社)](https://m.cls.cn/detail/2499667) (08 Oct 2026)
 
 ---
 

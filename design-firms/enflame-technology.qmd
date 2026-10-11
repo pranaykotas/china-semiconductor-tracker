@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded March 2018 by two former AMD engineers, with Tencent among its backers; completed its Shanghai STAR Market IPO on September 11, 2026, raising ¥6.12 billion ($912M) at an issue price of ¥142.18/share — the stock closed up 179% on debut, pushing market capitalization past ¥170 billion.
+Founded March 2018 by two former AMD engineers, with Tencent among its backers; completed its Shanghai STAR Market IPO on September 11, 2026 — priced 31 August at ¥142.18/share for ¥6.119 billion gross ($912M), the stock closed up 179% on debut at ¥397, pushing market capitalization past ¥170 billion. The concentration caveat that defined its prospectus carried into listing: Tencent (a ~20% shareholder through affiliated vehicles) accounted for 83.79% of FY2025 revenue, and the top five customers 96.89%; long-term strategic allotments included GigaDevice, Xiaomi, Tongfu Microelectronics and Hua Hong subsidiaries (Tencent's vehicle 上海启善 locked up for 36 months). H1 2026 revenue was ¥1.12 billion (+279% YoY) against a ¥632 million net loss, with January–September revenue guided at ¥2.3–3.0 billion; chairman Zhao Lidong said signed orders are executable into 2027 and the Gen4 product has passed multiple customers' hardware and model tests, with small-volume delivery expected within 2026.
 :::
 
 ## What does this firm design?

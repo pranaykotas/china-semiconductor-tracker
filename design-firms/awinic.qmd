@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The archetypal volume-first Chinese consumer-analog house — where import substitution is done and the fight is now price: FY2025 revenue ¥28.54亿 (-2.7%) with profit +24% on mix, then H1 2026 non-recurring profit down 91% as memory-driven smartphone cost inflation hit customers. Its ¥1.9 billion January 2026 convertible is earmarked for the auto/industrial escape.
+The archetypal volume-first Chinese consumer-analog house — where import substitution is done and the fight is now price: FY2025 revenue ¥28.54亿 (-2.7%) with profit +24% on mix, then H1 2026 归母 net profit -39.4% (ex-items -91.4%) as memory-driven smartphone cost inflation hit customers. Its ¥1.90 billion convertible (issued 22 January 2026) is earmarked for the auto/industrial escape, which is showing in the design wins — robot customers 拓竹/宇树/智元/优必选 disclosed in the H1 report, plus first car-grade LIN ambient-light SoCs in volume — but capital-markets pressure persists: in August the downward-revision clause on the convertible triggered and the board declined to reprice, leaving the bond deeply out-of-the-money.
 :::
 
 ## What does this firm design?

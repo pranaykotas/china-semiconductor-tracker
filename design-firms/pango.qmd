@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The last big unlisted domestic FPGA asset and the volume player in comms-side programmable logic; 2025 net loss narrowed to ¥108m (from ¥344m). STAR listing tutoring (CICC) filed April 2025 — fifth progress update published August 2026, still pre-acceptance — making it a near-term test of FPGA valuations after Fudan Micro's scarcity-driven rally.
+The last big unlisted domestic FPGA asset and the volume player in comms-side programmable logic; 2025 net loss narrowed to ¥108m (from ¥344m). STAR listing tutoring (CICC) filed April 2025 — the fifth progress report was filed with the Shenzhen CSRC bureau on 15 July and published 3 August 2026, still pre-acceptance, with the fundraising plan undetermined; a January 2026 round made 北京京国管股权投资基金 a >5% shareholder. On the product front, it launched the PG3T500 (a first domestic ~50M-gate FPGA) and PG2K100 heterogeneous SoPC in October 2025, with 28nm in volume and 14nm capability claimed — a near-term test of FPGA valuations after Fudan Micro's scarcity-driven rally.
 :::
 
 ## What does this firm design?
 
-Communication/industrial FPGAs and design software.
+Communication/industrial FPGAs (Logos-2/Titan-2/Kosmo-2) and in-house design software.
 
 ## Key Facts
 
@@ -32,6 +32,8 @@ Communication/industrial FPGAs and design software.
 ## Sources
 
 - [紫光同创科创板上市辅导备案 (证券时报)](https://www.stcn.com/article/detail/1764250.html) (30 Apr 2025)
+- [中信证券关于紫光同创首次公开发行股票并上市辅导第五期工作报告 (CITIC Securities)](https://cs.ecitic.com/newsite/tzgg/ipoqyfdgg/202608/t20260803_1215249.html) (03 Aug 2026)
+- [紫光同创获新融资：京国管基金持股超5% (新浪财经)](https://finance.sina.com.cn/roll/2026-01-20/doc-inhhxqwx6212594.shtml) (20 Jan 2026)
 
 ---
 

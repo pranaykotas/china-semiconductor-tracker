@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market). H1 2026 revenue reached ¥2.877 billion (+40.6% YoY) with net profit of ¥859 million (+61.7% YoY), management citing an edge-AI product push across multiple end markets.
+Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market). H1 2026 revenue reached ¥2.877 billion (+40.6% YoY) with net profit of ¥859 million (+61.7% YoY), Q2 alone ¥1.67 billion (+44%) with a strategic inventory build (¥1.52 billion) against tight foundry capacity; management citing an edge-AI product push across multiple end markets. At the 11 September interim briefing management guided Q3 to 'continue growing normally' and confirmed its RK186X next-gen AI co-processor for a Q4 launch window (RK182X already in mass production across AI TVs, robots and NAS); the long-promised flagship RK3688 remained unannounced as of 11 October, with the company only promising it 'as soon as possible'.
 :::
 
 ## What does this firm design?

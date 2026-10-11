@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap. Full-year 2025 revenue reached ¥6.497 billion with ¥2.059 billion net profit — its first clearly profitable year — and Q1 2026 alone brought ¥2.885 billion revenue (+159.6% YoY) and ¥1.013 billion net profit (+185% YoY), with operating cash flow swinging from -¥1.399 billion a year earlier to +¥834 million. Market capitalization stood around ¥597.4 billion (roughly $84B) at the end of Q1 2026.
+Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap. Added to the US Entity List on 16 December 2022 alongside YMTC and SMEE. Full-year 2025 revenue reached ¥6.497 billion with ¥2.059 billion net profit — its first clearly profitable year — and H1 2026 brought ¥5.996 billion revenue (+108.1% YoY) and ¥2.311 billion net profit (+122.6%); Q1 2026 alone was ¥2.885 billion revenue (+159.6% YoY). The stock crossed a ¥1 trillion market capitalization on 30 June 2026 (first STAR Market member to reach it), easing to roughly ¥7,500亿 after the 7 August results. Its July 2026 restricted-share incentive plan sets a 2026 revenue target of ≥¥13.5 billion (implying H2 ≥¥7.5 billion) and a cumulative 2026–28 target of ¥100 billion; supply remains the binding constraint — inventory was ¥8.248 billion (45.3% of assets) at mid-2026.
 :::
 
 ## What does this firm design?
@@ -24,7 +24,7 @@ AI accelerator chips spanning cloud training/inference and edge inference, posit
 | **Location** | Beijing, Beijing Municipality |
 | **Product Focus** | AI accelerator chips for cloud training/inference and edge devices |
 | **Node Sophistication** | Not disclosed; treated by markets as China's leading domestic alternative to Nvidia accelerators |
-| **Entity List** | No |
+| **Entity List** | Yes — US Commerce BIS |
 
 ### Design Score
 <span class="complexity-bar" title="Design Score: 4.8/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span> **4.8/5**
@@ -34,6 +34,9 @@ AI accelerator chips spanning cloud training/inference and edge inference, posit
 - [Cambricon Technologies (Wikipedia)](https://en.wikipedia.org/wiki/Cambricon_Technologies) (28 Sep 2026)
 - [Cambricon's second act: From Huawei's castoff to China's AI hopeful](https://www.digitimes.com/news/a20250829PD213/cambricon-huawei-ai-chip-startup-shanghai.html) (28 Sep 2026)
 - [寒武纪2026年一季度归母净利润增超185%，存货跌价计提2.46亿元 (每日经济新闻)](https://www.nbd.com.cn/articles/2026-04-29/4374207.html) (29 Apr 2026)
+- [长江存储、上海微电子、寒武纪等36家公司被美纳入实体清单 (财新)](https://www.caixin.com/m/2022-12-16/101978580.html) (16 Dec 2022)
+- [寒武纪交出半年报：营收60亿元、净利23亿元双双翻倍 (每日经济新闻)](https://www.nbd.com.cn/articles/2026-08-07/4535627.html) (07 Aug 2026)
+- [中科寒武纪科技股份有限公司2026年半年度报告摘要 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-08/1225464971.PDF) (08 Aug 2026)
 
 ---
 

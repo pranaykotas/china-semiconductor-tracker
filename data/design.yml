@@ -13,14 +13,14 @@ design_firms:
     location: {city: "Shenzhen", province: "Guangdong", lat: 22.543, lon: 114.058}
     product_focus: "Smartphone SoCs (Kirin), server/PC CPUs (Kunpeng), AI accelerators (Ascend), modem/baseband (Balong)"
     design_scope: "Full SoC and chiplet design across mobile, server, and AI compute"
-    node_sophistication: "7nm-class via multipatterning (Kirin 9000S, August 2023); the Kirin 9050 Pro (September 2026) and an announced 'Kirin 2026' chip use 3D 'logic folding' (dual-layer vertical die stacking) to raise effective transistor density by a claimed 53.5% without requiring a smaller lithography node"
+    node_sophistication: "7nm-class via multipatterning (Kirin 9000S, August 2023); the Kirin 9050 Pro (launched 1 October 2026 in the Mate 90 series) and the rest of that 'tau-law' cohort use 3D 'logic folding' (dual-layer vertical die stacking) to raise effective transistor density by a claimed 53.5% (238 MTr/mm²) without requiring a smaller lithography node"
     entity_list:
       status: true
       date_added: "2019-05-16"
       list: "US Commerce BIS"
     design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019. In May 2026, Huawei semiconductor unit president He Tingbo announced at ISCAS 2026 a new 'logic folding' architecture — stacking two device layers vertically to raise transistor density by a claimed 53.5% at a 3.1GHz core frequency — as a way to keep advancing performance without smaller lithography. The resulting Kirin 9050 Pro shipped in the Mate XT 2 tri-fold phone in September 2026, HiSilicon's first high-performance chip using the technique; reported 2025 HiSilicon revenue roughly doubled year-on-year."
+      significance: "Huawei's wholly-owned chip design arm, and the entity behind China's most publicized export-control test case: the Kirin 9000S in the August 2023 Mate 60 Pro, fabricated domestically by SMIC at a 7nm-class node despite Huawei itself being Entity List-restricted since 2019. In May 2026, Huawei semiconductor unit president He Tingbo announced at ISCAS 2026 a new 'logic folding' (τ/韬 scaling) architecture — stacking two device layers vertically to raise transistor density by a claimed 53.5% — as a way to keep advancing performance without smaller lithography. The Kirin 9050 Pro shipped on 1 October 2026 across the Mate 90 series (claimed +31% overall device performance, first Geekbench results ~1,117/5,076); an updated September 2026 paper claims 41%/58%/66% CPU/GPU/NPU power reductions versus the prior generation at equal performance. On AI, Huawei Connect 2026 (Shanghai, 17 September) unveiled the Ascend 960 SuperPoD — a 4,096-card supernode using near-package optics (Hi-ONE), 8 EFLOPS FP8 — with the roadmap pulled forward: 960DT Q1 2027, Ascend 970 in 2028, 980 in 2029."
       what_it_designs: "Full-stack SoCs across smartphone (Kirin), server/PC (Kunpeng, based on ARM architecture licensed before restrictions tightened), AI accelerator (Ascend), and modem (Balong) product lines."
     sources:
       - url: "https://en.wikipedia.org/wiki/HiSilicon"
@@ -32,6 +32,12 @@ design_firms:
       - url: "https://www.sina.cn/news/detail/5302408323273587.html"
         title: "麒麟2026芯片今秋面世 (新浪)"
         date: "2026-09-28"
+      - url: "https://www.reuters.com/business/retail-consumer/huawei-unveils-mate-90-phones-leans-homegrown-chip-design-offset-us-curbs-2026-10-01/"
+        title: "Huawei unveils Mate 90 phones, leans on homegrown chip design to offset US curbs (Reuters)"
+        date: "2026-10-01"
+      - url: "https://www.globaltimes.cn/page/202610/1371635.shtml"
+        title: "Huawei unveils Mate 90 series with flagship Tau chips adopting logic folding (Global Times)"
+        date: "2026-10-01"
       - url: "https://finance.sina.com.cn/roll/2025-09-04/doc-infpkxsr1059506.shtml"
         title: "华为麒麟芯片'重出江湖'：性能提升36%，去年海思营收翻倍 (新浪财经)"
         date: "2025-09-04"
@@ -52,8 +58,8 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. The fourth-largest smartphone SoC vendor worldwide per Counterpoint, behind MediaTek, Qualcomm and Apple, with 12.1% share for full-year 2025 and 14% in Q1 2026; 2024 revenue was reported at ¥14.5 billion."
-      what_it_designs: "Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines."
+      significance: "Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. The fourth-largest smartphone SoC vendor worldwide per Counterpoint, behind MediaTek, Qualcomm and Apple, with 12.1% share for full-year 2025 and 14% in Q1 2026; FY2025 revenue was ~¥20 billion (first time above that mark, up from ¥14.5 billion in 2024). IPO: sponsors 国泰海通+中信建投 filed the third tutoring-progress report in April 2026 (prospectus framework and filing drafts reportedly assembled), but as of 11 October 2026 no SSE acceptance or published prospectus had occurred."
+      what_it_designs: "Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines — a global top-two player in sub-$99 smartphone silicon, with Transsion its largest customer. The 6nm T8300 (launched March 2025, benchmarking >510k) was its first SoC integrating 5G NR NTN satellite communications, first shipped in nubia's Neo 3 gaming phones; 5G handsets on UNISOC silicon ship to 76+ countries."
     sources:
       - url: "https://www.cls.cn/detail/1990697"
         title: "紫光展锐完成股改！2024年营收145亿 加速冲刺IPO (财联社)"
@@ -64,6 +70,12 @@ design_firms:
       - url: "https://m.c114.com.cn/w16-1308696.html"
         title: "登陆科创板在望：紫光展锐即将完成IPO辅导验收 (C114通信网)"
         date: "2026-04-18"
+      - url: "https://www.eet-china.com/mp/a489604.html"
+        title: "全球第四！年销16亿颗芯片，营收突破200亿，国产手机芯片第一股要来了 (电子工程专辑)"
+        date: "2026-04-22"
+      - url: "https://www.unisoc.com/cn/news/T8300-2025-03-13"
+        title: "紫光展锐发布5G SoC T8300，首次融合5G NR NTN卫星通信 (UNISOC官方)"
+        date: "2025-03-13"
 
   - id: loongson
     name_en: "Loongson Technology"
@@ -81,15 +93,18 @@ design_firms:
       list: "US Commerce BIS"
     design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86. Revenue is growing but the company remains unprofitable: H1 2026 revenue reached ¥272 million (+11.6% YoY) with gross margin up 9.6 points to 52.1%, but full-year 2026 guidance of ¥828 million revenue (+30.3% YoY) still projects a ¥230 million net loss."
-      what_it_designs: "General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability. H1 2026 segment mix: informatization/IT chips ¥147M (+27.8% YoY), industrial-control chips ¥68M (-22.6% YoY), and solutions/services ¥58M (+38.7% YoY)."
+      significance: "Formally established in Beijing's Zhongguancun district in April 2010 with funding traced to China's 10th and 11th Five-Year Plans — the clearest case in this tracker of a design house built explicitly for indigenous instruction-set independence, developing its own LoongArch ISA rather than licensing ARM or x86. Revenue is growing but the company remains unprofitable: the formal H1 2026 report (29 August) showed revenue ¥271.9 million (+11.6% YoY) with a net loss of ¥223.9 million (narrowed 24%), gross margin up 9.6 points to 52.1%, and R&D absorbing 90.9% of revenue. The sell-side 2026 forecast has been cut (Huachuang, ¥771M on 31 August) and the equity-incentive hurdle — 2026 revenue +80%/+100% vs 2024 (~¥907M/¥1.01B) — looks a near-certain miss at the H1 run-rate. A ¥2.3 billion private placement to fund the 7000-series server CPU and GPU programs passed inquiry on 31 August and remains under SSE review."
+      what_it_designs: "General-purpose CPUs (the Loongson 3-series and successors) built on the self-developed LoongArch architecture, used primarily in government, state-owned enterprise, and industrial systems, with growing consumer availability. H1 2026 segment mix: informatization/IT chips ¥147M (+27.8% YoY), industrial-control chips ¥68M (-22.6% YoY), and solutions/services ¥58M (+38.7% YoY). The 3C6000 server family (16C 3C6000/S, 32C dual-die 3D6000, 64C quad-die 3E6000, all on LA664 cores) entered small-batch shipment, with management guiding order-of-magnitude 2026 growth off a tiny base; the 9A1000 GPGPU returned from fab and is scheduled for card launch H1 2027, and the 3D7000 server chip is slated for tape-out before H1 2028."
     sources:
       - url: "https://en.wikipedia.org/wiki/Loongson"
         title: "Loongson (Wikipedia)"
         date: "2026-09-28"
-      - url: "https://www.aigbk.com/article/loongson_q1_2026_earnings_report_analysis/"
-        title: "龙芯中科2026年一季报：营收增长但亏损持续，应收账款风险几何？ (股百科)"
-        date: "2026-09-28"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-29/1225524354.PDF"
+        title: "龙芯中科2026年半年度报告 (巨潮资讯)"
+        date: "2026-08-29"
+      - url: "https://finance.eastmoney.com/a/202609113871997130.html"
+        title: "龙芯中科半年报业绩说明会：3C6000出货量将数量级增长、9A1000显卡H1 2027上市 (科创板日报 via 东方财富)"
+        date: "2026-09-11"
       - url: "https://www.tomshardware.com/news/us-govt-blacklists-loongson-and-inspur"
         title: "U.S. Govt Blacklists Chinese Tech Firms Loongson and Inspur"
         date: "2023-03-06"
@@ -105,12 +120,12 @@ design_firms:
     design_scope: "Full-stack AI chip design, including its own instruction set extensions for neural-network workloads"
     node_sophistication: "Not disclosed; treated by markets as China's leading domestic alternative to Nvidia accelerators"
     entity_list:
-      status: false
-      date_added: null
-      list: null
+      status: true
+      date_added: "2022-12-16"
+      list: "US Commerce BIS"
     design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 5, market_readiness: 5}
     narrative:
-      significance: "Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap. Full-year 2025 revenue reached ¥6.497 billion with ¥2.059 billion net profit — its first clearly profitable year — and Q1 2026 alone brought ¥2.885 billion revenue (+159.6% YoY) and ¥1.013 billion net profit (+185% YoY), with operating cash flow swinging from -¥1.399 billion a year earlier to +¥834 million. Market capitalization stood around ¥597.4 billion (roughly $84B) at the end of Q1 2026."
+      significance: "Spun out of the Chinese Academy of Sciences' Institute of Computing Technology in March 2016; originally supplied AI silicon IP to Huawei before going independent, Cambricon is now one of China's most closely watched Nvidia-alternative plays, briefly becoming China's most valuable listed company by market cap. Added to the US Entity List on 16 December 2022 alongside YMTC and SMEE. Full-year 2025 revenue reached ¥6.497 billion with ¥2.059 billion net profit — its first clearly profitable year — and H1 2026 brought ¥5.996 billion revenue (+108.1% YoY) and ¥2.311 billion net profit (+122.6%); Q1 2026 alone was ¥2.885 billion revenue (+159.6% YoY). The stock crossed a ¥1 trillion market capitalization on 30 June 2026 (first STAR Market member to reach it), easing to roughly ¥7,500亿 after the 7 August results. Its July 2026 restricted-share incentive plan sets a 2026 revenue target of ≥¥13.5 billion (implying H2 ≥¥7.5 billion) and a cumulative 2026–28 target of ¥100 billion; supply remains the binding constraint — inventory was ¥8.248 billion (45.3% of assets) at mid-2026."
       what_it_designs: "AI accelerator chips spanning cloud training/inference and edge inference, positioned as a domestic substitute as US export controls restrict Nvidia GPU access in China."
     sources:
       - url: "https://en.wikipedia.org/wiki/Cambricon_Technologies"
@@ -122,6 +137,15 @@ design_firms:
       - url: "https://www.nbd.com.cn/articles/2026-04-29/4374207.html"
         title: "寒武纪2026年一季度归母净利润增超185%，存货跌价计提2.46亿元 (每日经济新闻)"
         date: "2026-04-29"
+      - url: "https://www.caixin.com/m/2022-12-16/101978580.html"
+        title: "长江存储、上海微电子、寒武纪等36家公司被美纳入实体清单 (财新)"
+        date: "2022-12-16"
+      - url: "https://www.nbd.com.cn/articles/2026-08-07/4535627.html"
+        title: "寒武纪交出半年报：营收60亿元、净利23亿元双双翻倍 (每日经济新闻)"
+        date: "2026-08-07"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-08/1225464971.PDF"
+        title: "中科寒武纪科技股份有限公司2026年半年度报告摘要 (巨潮资讯)"
+        date: "2026-08-08"
 
   - id: biren-technology
     name_en: "Biren Technology"
@@ -139,18 +163,21 @@ design_firms:
       list: "US Commerce BIS (Footnote 4 Foreign Direct Product Rule)"
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier. Listed on the Hong Kong Stock Exchange's main board on January 2, 2026 — the first new HK listing of the year and, at the time, the largest IPO under HKEX's 18C mechanism for pre-revenue/early-revenue specialist technology companies — issuing about 248 million shares at HK$19.60, with the stock surging as much as 110% on debut (closing around +94.6%)."
-      what_it_designs: "General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions. H1 2026 revenue reached approximately ¥1.236 billion, up roughly 2,000% year-on-year, reflecting a sharp commercialization acceleration despite the Entity List designation."
+      significance: "Founded September 2019 by former SenseTime president Zhang Wen and former Huawei engineer Jiao Guofang; one of two Chinese GPU startups (with Moore Threads) directly named in the US Commerce Department's October 17, 2023 Entity List action targeting AI chip designers with a Foreign Direct Product Rule designation, the most restrictive tier. Listed on the Hong Kong Stock Exchange's main board on January 2, 2026 (06082.HK) — the first new HK listing of the year and, at the time, the largest IPO under HKEX's 18C mechanism — issuing about 248 million shares at HK$19.60, with the stock closing up ~94.6% on debut. It has since raised twice more: ~HK$7.04 billion net in a July 2026 placing at HK$46.20, and a second placing announced 8 October 2026 (130 million shares at HK$31.08, HK$4.04 billion gross, ~70% earmarked for supply-chain procurement), taking 2026 capital raised past HK$17 billion; the shares fell ~12% on the October announcement to a market cap around HK$78.9 billion."
+      what_it_designs: "General-purpose GPUs for AI compute, led by the BR100 series, competing directly in the segment most exposed to Nvidia export restrictions. H1 2026 revenue (formal filing, 28 August) was ¥1.236 billion, up ~2,000% year-on-year, with net loss narrowing to ¥377 million and R&D at ¥804 million; stock-plus-prepayment rose 230% to ¥1.534 billion. The next-generation BR20X has been successfully lit up and is in post-tapeout validation, with reported performance benchmarked against Nvidia's H200 class and launch slated within 2026; at WAIC (July 2026) Biren demonstrated a BLink 2.0 optical-interconnect supernode scaling to 1,024 cards."
     sources:
       - url: "https://en.wikipedia.org/wiki/Biren_Technology"
         title: "Biren Technology (Wikipedia)"
         date: "2026-09-28"
-      - url: "https://www.arnoldporter.com/en/perspectives/advisories/2023/10/higher-fences-and-an-increasingly-bigger-yard"
-        title: "Commerce Department Aims to Restrain Chinese Military Modernization by Tightening Export Controls on Advanced AI Chips"
-        date: "2023-10-17"
       - url: "https://www.cls.cn/detail/2246285"
         title: "'港股GPU第一股'壁仞科技大涨94.59% 2026科技企业IPO潮加速来袭 (财联社)"
         date: "2026-01-02"
+      - url: "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800453.pdf"
+        title: "壁仞科技2026年中期业绩公告 (HKEXnews)"
+        date: "2026-08-28"
+      - url: "https://www.stcn.com/article/detail/4208943.html"
+        title: "壁仞科技拟配股融资逾40亿港元 新一代产品已进入流片后验证阶段 (证券时报)"
+        date: "2026-10-09"
 
   - id: moore-threads
     name_en: "Moore Threads"
@@ -168,18 +195,18 @@ design_firms:
       list: "US Commerce BIS (Footnote 4 Foreign Direct Product Rule)"
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024 and completed it on the Shanghai STAR Market on December 5, 2025 at an issue price of ¥114.28/share — the stock later traded as high as ¥657.02 intraday. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together. Announced in August 2026 that it was pursuing a secondary listing on the Hong Kong Stock Exchange."
-      what_it_designs: "Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'China's answer to Nvidia.'"
+      significance: "Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024 and completed it on the Shanghai STAR Market on December 5, 2025 at an issue price of ¥114.28/share — the stock later traded as high as ¥657.02 intraday. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together. On 7 August 2026 its board approved a plan to pursue an H-share listing on the Hong Kong Stock Exchange (announced 9–10 August); a special shareholders' meeting approved the H-share plan (≤10% of post-issuance shares plus a 15% greenshoe) on 28 August 2026, though no CSRC overseas-listing filing or HKEX A1 had been published as of 11 October 2026."
+      what_it_designs: "Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'China's answer to Nvidia.' H1 2026 (filing 9 August): revenue ¥1.736 billion (+147.4% YoY — already more than full-year 2025's ¥1.506 billion), cloud/data-center products 97.5% of sales, headline net loss narrowed 95.7% to ¥11.6 million (still ¥151 million loss on an adjusted basis) with gross margin 56.95%; the Kuae (夸娥) cluster business booked ¥660 million of contracted sales in the half. Next-generation '花港' architecture (unpublished December 2025) targets >100,000-card clusters."
     sources:
       - url: "https://en.wikipedia.org/wiki/Moore_Threads"
         title: "Moore Threads (Wikipedia)"
         date: "2026-09-28"
-      - url: "https://technode.com/2024/11/15/chinese-gpu-unicorn-moore-threads-files-for-ipo-in-china/"
-        title: "Chinese GPU unicorn Moore Threads files for IPO in China"
-        date: "2024-11-15"
       - url: "https://static.sse.com.cn/stock/disclosure/announcement/c/202509/002098_20250919_IP6Z.pdf"
         title: "摩尔线程智能科技（北京）股份有限公司首次公开发行股票并在科创板上市招股说明书 (Shanghai Stock Exchange prospectus)"
         date: "2025-09-19"
+      - url: "https://pdf.dfcfw.com/pdf/H2_AN202608091827791238_1.pdf"
+        title: "摩尔线程关于筹划发行H股股票并在香港联交所主板上市的提示性公告（公告2026-030）"
+        date: "2026-08-09"
 
   - id: enflame-technology
     name_en: "Enflame Technology"
@@ -197,7 +224,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Founded March 2018 by two former AMD engineers, with Tencent among its backers; completed its Shanghai STAR Market IPO on September 11, 2026, raising ¥6.12 billion ($912M) at an issue price of ¥142.18/share — the stock closed up 179% on debut, pushing market capitalization past ¥170 billion."
+      significance: "Founded March 2018 by two former AMD engineers, with Tencent among its backers; completed its Shanghai STAR Market IPO on September 11, 2026 — priced 31 August at ¥142.18/share for ¥6.119 billion gross ($912M), the stock closed up 179% on debut at ¥397, pushing market capitalization past ¥170 billion. The concentration caveat that defined its prospectus carried into listing: Tencent (a ~20% shareholder through affiliated vehicles) accounted for 83.79% of FY2025 revenue, and the top five customers 96.89%; long-term strategic allotments included GigaDevice, Xiaomi, Tongfu Microelectronics and Hua Hong subsidiaries (Tencent's vehicle 上海启善 locked up for 36 months). H1 2026 revenue was ¥1.12 billion (+279% YoY) against a ¥632 million net loss, with January–September revenue guided at ¥2.3–3.0 billion; chairman Zhao Lidong said signed orders are executable into 2027 and the Gen4 product has passed multiple customers' hardware and model tests, with small-volume delivery expected within 2026."
       what_it_designs: "AI training and inference accelerators (branded GCUs) for cloud compute, with an accompanying software stack."
     sources:
       - url: "https://en.wikipedia.org/wiki/Enflame"
@@ -226,7 +253,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 4, market_readiness: 5}
     narrative:
-      significance: "Founded July 2015; listed on the Hong Kong Stock Exchange, one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation. Full-year 2025 revenue reached ¥3.758 billion (+57.7% YoY), while R&D spending grew even faster, up 63.3% to ¥5.154 billion — deliberately outspending revenue growth. H1 2026 revenue was ¥2.055 billion (+32.9% YoY) with ¥1.356 billion gross profit."
+      significance: "Founded July 2015; listed on the Hong Kong Stock Exchange (9660.HK, entered the Hang Seng Tech Index March 2025 and the blue-chip Hang Seng Index itself at ~0.5% weight by the August 2026 review), one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation. Full-year 2025 revenue reached ¥3.758 billion (+57.7% YoY), while R&D spending grew even faster, up 63.3% to ¥5.154 billion — deliberately outspending revenue growth. H1 2026 (HKEX interim, 31 August) revenue was ¥2.055 billion (+32.9% YoY) with ¥1.356 billion gross profit (66% margin), licensing/services ¥1.129 billion (+52.7%) and chip shipments 2.218 million sets; the cumulative Journey milestone passed 15 million chips in September 2026, ~500 lifetime vehicle design wins, and city-NOA installed share rose to 22.8% (No. 2 behind Nvidia). VW/CARIAD converted early to become a ~9.9% strategic shareholder (closed 3 August 2026), with the Carizon joint venture's full-scenario AD (Journey 6 + HSD) entering mass production across seven new VW-group EV models; HSD V2.0's active-use ratio exceeds 88% of equipped vehicles, the cockpit-driving fusion '星空' SoC targets Q4 2026 production, and Journey 7 tape-out is expected around Q2 2027."
       what_it_designs: "Automotive-grade processors and the accompanying software platform for intelligent/autonomous driving systems."
     sources:
       - url: "https://cs.com.cn/qs/202410/t20241025_6448740.html"
@@ -241,6 +268,9 @@ design_firms:
       - url: "https://stock.10jqka.com.cn/20260902/c679536300.shtml"
         title: "地平线机器人2026半年报：营收、毛利双增 (经济参考网 via 同花顺)"
         date: "2026-09-02"
+      - url: "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101010_c.pdf"
+        title: "地平线机器人2026中期业绩公告 (HKEXnews)"
+        date: "2026-08-31"
 
   - id: black-sesame-technologies
     name_en: "Black Sesame Technologies"
@@ -259,7 +289,7 @@ design_firms:
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 4}
     narrative:
       significance: "Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips. H1 2026 revenue reached ¥458 million (+81.3% YoY, its fourth consecutive year of high YoY growth) with gross margin nearly doubling to 49.5% (gross profit +261.9% YoY) and chip shipments of more than 6 million units in the half — but net loss still widened slightly to ¥770 million, underscoring that revenue growth has not yet translated into profitability."
-      what_it_designs: "AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms."
+      what_it_designs: "AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms. The 7nm, 250+ TOPS A2000 entered mass production in H2 2026 with first scale-order deliveries from September (design wins at Dongfeng, Yutong, Chery), positioned against the 1 July 2027 mandatory national ADAS standard; the Wudang C1200 cockpit-driving fusion chip is in production on Dongfeng's Tianyuan platform. A 60% acquisition of edge-SoC maker 亿智电子 (Yizhi, standalone H1 2026 revenue ¥164.5 million, profitable) completed in September 2026 adds 0.5–2 TOPS low-power parts and a second curve in embodied AI (H1 embodied-AI revenue ¥47.2 million)."
     sources:
       - url: "https://www.jiemian.com/article/11531065.html"
         title: "智能车AI芯片第一股上市 (界面新闻)"
@@ -270,6 +300,9 @@ design_firms:
       - url: "https://wap.stockstar.com/detail/IG2026090300040971"
         title: "黑芝麻智能车载业务规模效应失效 (证券之星)"
         date: "2026-09-03"
+      - url: "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100442_c.pdf"
+        title: "黑芝麻智能2026中期报告 (HKEXnews)"
+        date: "2026-08-31"
 
   - id: phytium
     name_en: "Phytium Technology"
@@ -280,7 +313,7 @@ design_firms:
     location: {city: "Tianjin", province: "Tianjin Municipality", lat: 39.10, lon: 117.15}
     product_focus: "Server, desktop, and embedded CPUs (ARM-based)"
     design_scope: "Full CPU design across server (Tengyun S series), desktop (Tengrui D series), and embedded (Tenglong E series) product lines"
-    node_sophistication: "Not disclosed; reported to have sold over 10 million CPUs, primarily for government and state-enterprise use"
+    node_sophistication: "Not disclosed; cumulative CPU sales passed 15 million units by August 2026 (from 10M in early 2025), primarily for government and state-enterprise use"
     entity_list:
       status: true
       date_added: "2021-04-08"
@@ -288,7 +321,7 @@ design_firms:
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 4, market_readiness: 3}
     narrative:
       significance: "Jointly established in 2014 by China Electronics Corporation (a central state-owned enterprise), the Tianjin Binhai New Area government, and the Tianjin Advanced Technology Research Institute — one of the most directly state-backed design houses in this tracker. Added to the Entity List in April 2021 over supercomputing ties to Chinese military modernization; TSMC subsequently stopped supplying it. Remains privately held (not publicly listed), so financial disclosure is limited, but reported a notable deployment milestone in February 2026: its chips went into production for the first time at a major international hub airport (Ürümqi Tianshan International, 10M+ annual passenger throughput) in civil aviation systems."
-      what_it_designs: "ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems. Its Tengyun S5000C-E server CPU won an industry innovation award in August 2026, around the same time roughly 3,000 dual-socket servers built on it won a sector procurement tender."
+      what_it_designs: "ARM-based CPUs across server, desktop, and embedded product lines, used primarily in government and state-sector systems. Verified 2026 milestones: the Tengyun S5000C-E paired with China Telecom Cloud scored #1 worldwide on SPEC Cloud IaaS 2018 (168.2, May 2026); both S5000C and S5000C-E entered China Mobile's 2026–2027 PC/server procurement (late September 2026); the desktop D3000 took a 130,000-unit win at a major state-owned bank and the D3000M won 100% of a provincial government unified tender (~60,000 units, September 2026). At its August 2026 12th-anniversary briefing Phytium disclosed its first AI accelerator, the 飞腾A1000, now in mass production, a 'CPU+XPU dual-drive' roadmap, and cumulative R&D spend over ¥6 billion; a June 2026 CCB-Tianjin retrospective said an IPO is imminent ('上市在即') — no CSRC/exchange filing visible as of October 2026."
     sources:
       - url: "https://en.wikipedia.org/wiki/FeiTeng"
         title: "FeiTeng (Wikipedia)"
@@ -299,6 +332,9 @@ design_firms:
       - url: "https://www.phytium.com.cn/homepage/news/940/"
         title: "筑牢智慧民航数字底座，飞腾芯护航春运'大考' (Phytium official site)"
         date: "2026-09-28"
+      - url: "https://www.jjckb.cn/20260827/fbcc3bc3b4354491b038fbdda8f88aaa/c.html"
+        title: "飞腾公司成立12周年：累计销量超1500万片、首款AI芯片A1000量产 (经济参考报)"
+        date: "2026-08-27"
 
   - id: gigadevice
     name_en: "GigaDevice Semiconductor"
@@ -316,7 +352,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 2, market_readiness: 5}
     narrative:
-      significance: "Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. A 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue of ¥11.57 billion (+178.7% YoY) and net profit of ¥6.86 billion (+1,091.5% YoY), per the interim report of 18 August 2026, part of it from fair-value gains on securities including its CXMT (长鑫科技) stake. Q1 2026 alone showed revenue +119.4% and net profit +522.8% year-on-year."
+      significance: "Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. It has gone dual-listed (H shares on HKEX since 13 January 2026, 03986.HK, ~HK$4.61bn net) and is a listed proxy on China's memory champion: it holds ~1.80% of CXMT/长鑫科技, which IPO'd on the STAR Market on 27 July 2026 in the largest STAR listing ever (¥57.92 billion raised, day-one market cap >¥3 trillion) — though, per the interim report, that stake is carried as 其他权益工具投资, so its revaluation flows to equity, not to P&L. The 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue of ¥11.57 billion (+178.7% YoY) and net profit of ¥6.86 billion (+1,091.5% YoY, incl. ¥2.23bn fair-value gains on listed securities other than CXMT), per the interim report of 18 August 2026. Management's 1 September briefing guided H2 DRAM up 'moderately', expects 2027 tightness not to ease, and SLC NAND strength to run at least through 2027; the CXMT foundry-related procurement cap was raised again on 29 September to ¥7.85 billion for 2026 (¥4.41 billion pre-estimated for Jan–Apr 2027)."
       what_it_designs: "NOR flash memory chips, general-purpose microcontrollers, and sensors for consumer electronics, industrial, and automotive applications."
     sources:
       - url: "https://www.cls.cn/detail/2457600"
@@ -328,6 +364,12 @@ design_firms:
       - url: "https://m.jiemian.com/article/3449968.html"
         title: "市场底部信号已现？存储芯片龙头兆易创新二季度业绩显著回暖 (界面新闻)"
         date: "2019-08-27"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-01-14/1224931525.PDF"
+        title: "兆易创新关于H股挂牌并上市交易的公告（2026年1月13日，03986.HK） (巨潮资讯)"
+        date: "2026-01-14"
+      - url: "https://m.cls.cn/detail/2438405"
+        title: "长鑫科技上市首日哪些数据刷A股纪录？ (财联社)"
+        date: "2026-07-28"
 
   - id: rockchip
     name_en: "Rockchip"
@@ -345,7 +387,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market). H1 2026 revenue reached ¥2.877 billion (+40.6% YoY) with net profit of ¥859 million (+61.7% YoY), management citing an edge-AI product push across multiple end markets."
+      significance: "Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market). H1 2026 revenue reached ¥2.877 billion (+40.6% YoY) with net profit of ¥859 million (+61.7% YoY), Q2 alone ¥1.67 billion (+44%) with a strategic inventory build (¥1.52 billion) against tight foundry capacity; management citing an edge-AI product push across multiple end markets. At the 11 September interim briefing management guided Q3 to 'continue growing normally' and confirmed its RK186X next-gen AI co-processor for a Q4 launch window (RK182X already in mass production across AI TVs, robots and NAS); the long-promised flagship RK3688 remained unannounced as of 11 October, with the company only promising it 'as soon as possible'."
       what_it_designs: "Application processor SoCs for tablets, set-top boxes, and embedded/IoT devices."
     sources:
       - url: "https://m.cls.cn/detail/438950"
@@ -371,7 +413,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 2, market_readiness: 5}
     narrative:
-      significance: "Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment. H1 2026 revenue reached ¥1.888 billion (+41.2% YoY) with net profit of ¥490 million (+204.2% YoY), driven by new product ramp."
+      significance: "Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment. H1 2026 (interim filed 26 August) revenue reached ¥1.888 billion (+41.2% YoY) with net profit of ¥490 million (+204.2% YoY) and gross margin up 5.3 points to 43.1% — driven by new-product volume ramp plus price hikes passing through storage/packaging cost inflation. No Q3 pre-announcement was on file as of 11 October (ChiNext deadline 15 October; last year's came 10 October)."
       what_it_designs: "Application processor SoCs for tablets, streaming devices, and consumer IoT hardware."
     sources:
       - url: "https://govt.chinadaily.com.cn/s/201902/19/WS5c6b7c1d498e27e338038901/allwinner-technology-co.html"
@@ -397,7 +439,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips. H1 2026 revenue reached ¥3.335 billion (+26.7% YoY) with net profit of ¥1.997 billion (+72.3% YoY) — one of the stronger, steadier growth stories among this tracker's design firms, benefiting from the same AI-driven memory/data-center demand cycle lifting several other entries."
+      significance: "Founded 2004 in Shanghai; a global leader in server memory interface chips (DDR5 registering clock drivers), a niche but structurally important part of the data-center supply chain, with an active collaboration with Intel on AI-related chips. H1 2026 revenue reached ¥3.335 billion (+26.7% YoY) with net profit of ¥1.997 billion (+72.3%; adjusted ¥1.322 billion +21.2%) — one of the stronger, steadier growth stories among this tracker's design firms, benefiting from the same AI-driven memory/data-center demand cycle; the four 'new products' (MRCD/MDB second-gen, PCIe retimer, CKD, CXL MXC) grew 80.7% to ¥538 million. A+H completed on 9 February 2026 (6809.HK, ~HK$8bn incl. greenshoe). The season's tail risk is regulatory, not commercial: on 15 July 2026 Seoul prosecutors raided Montage's Korean office (alongside Renesas and Rambus) over alleged price collusion in memory interface chips — the three hold >93% share — with no charges announced as of early October; Korea accounted for ¥2.93 billion of FY2025 revenue."
       what_it_designs: "Memory interface chips for server DRAM modules and data-center/AI interconnect chips, including CXL-related products."
     sources:
       - url: "https://en.wikipedia.org/wiki/Montage_Technology"
@@ -426,7 +468,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; the parent formally renamed itself from Will Semiconductor (韦尔股份) to OmniVision Group (豪威集团/豪威集成电路（集团）股份有限公司) and pursued a Hong Kong IPO — a notable case of a Chinese fabless firm acquiring a once-independent Western chip brand outright rather than building one from scratch. Unlike most other entries updated in this tracker's 2026 sweep, OmniVision's recent results moved the other direction: Q1 2026 net profit fell 41.9% YoY to ¥503 million, and H1 2026 net profit fell 39.9% YoY to ¥1.22 billion — a useful reminder that China's chip sector is not uniformly booming even where AI/memory-linked names are. 2025 full-year net profit had been reported up ~498% YoY to ¥3.3 billion, making the 2026 decline a reversal from an unusually strong prior-year base rather than a new structural problem, though this tracker has not independently confirmed which explanation is correct."
+      significance: "OmniVision Technologies (originally a US company) was acquired by a Chinese consortium led by Will Semiconductor in 2019; the parent formally renamed itself from Will Semiconductor (韦尔股份) to OmniVision Group (豪威集团/豪威集成电路（集团）股份有限公司) and completed its Hong Kong listing in mid-January 2026 (first day +16.2%, market cap >HK$152.9bn) — a notable case of a Chinese fabless firm acquiring a once-independent Western chip brand outright rather than building one from scratch. Unlike most other entries updated in this tracker's 2026 sweep, OmniVision's recent results moved the other direction: Q1 2026 net profit fell 41.9% YoY to ¥503 million, and H1 2026 revenue was essentially flat at ¥14.03 billion with net profit down 39.9% to ¥1.22 billion (CIS -10.5% on smartphone softness and storage-cost crowding-out; analog +17.1%, display +12.9%, 'emerging' machine-vision/robotics CIS +47.1% and +71.2% respectively) — a useful reminder that China's chip sector is not uniformly booming even where AI/memory-linked names are. Management then did something unusual for an A-share name and pre-disclosed Q3 operating data (25 August): Q3 revenue ¥7.58–8.13 billion, i.e. between -3.2% and +3.9% YoY, with gross margin recovering sequentially to 29.4–30.7% — stabilization guidance rather than a new spiral. 2025 full-year net profit had been reported up ~498% YoY to ¥3.3 billion, making the 2026 decline a reversal from an unusually strong prior-year base."
       what_it_designs: "CMOS image sensors (smartphone and automotive cameras), plus analog and display driver solutions."
     sources:
       - url: "https://en.wikipedia.org/wiki/OmniVision_Group"
@@ -455,7 +497,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. FY2025 revenue was ¥4.74 billion (+8.2%) and net profit ¥837 million (+38.7%), helped by ultrasonic fingerprint sensors in commercial use since Q4 2024. H1 2026 reversed: revenue ¥2.06 billion (−8.4%) and net profit ¥252 million (−41.6%). Its 'fingerprint chip king' standing dates from its 2017 market lead."
+      significance: "Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. FY2025 revenue was ¥4.74 billion (+8.2%) and net profit ¥837 million (+38.7%), helped by ultrasonic fingerprint sensors in commercial use since Q4 2024. H1 2026 reversed: revenue ¥2.06 billion (−8.4%) and net profit ¥252 million (−41.6%). The September 2026 CSRC penalty decision (〔2026〕36号) against former president Liu Yuping for insider trading (≈¥98,400 gains confiscated, ¥1.5m total fines) closed a governance overhang that had shadowed the stock — market cap ~¥24 billion in early September vs a ~¥170 billion peak. Design-win momentum persisted: the Nubia NaviX Ultra (16 September) pairs Goodix ultrasonic + side-capacitive fingerprint sensors, the car-grade BLE GR5410 (Bluetooth 6.1 Channel Sounding) won multiple OEM/Tier-1 projects with trial production in H1, and management targets ~20% ultrasonic penetration of Android flagships in 2026 (from ~10% in 2025). Its 'fingerprint chip king' standing dates from its 2017 market lead."
       what_it_designs: "Fingerprint sensors (ultrasonic, optical in-display, and capacitive) and touch/display-integrated sensor ICs."
     sources:
       - url: "https://www.nbd.com.cn/articles/2017-10-16/1154201.html"
@@ -467,6 +509,9 @@ design_firms:
       - url: "https://www.tmtpost.com/8125384.html"
         title: "炸了！“指纹芯片一哥”原总裁，栽在9.8万上 (钛媒体, via 深蓝财经)"
         date: "2026-09-02"
+      - url: "https://www.stcn.com/article/detail/4187671.html"
+        title: "努比亚NaviX Ultra发布：汇顶超声波指纹+侧边电容方案 (证券时报)"
+        date: "2026-09-16"
 
   - id: verisilicon
     name_en: "VeriSilicon"
@@ -484,7 +529,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
     narrative:
-      significance: "Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product. Revenue has grown very fast but profitability has not followed: H1 2026 revenue reached ¥1.864 billion (+91.4% YoY, a record half-year), while net loss widened to ¥612 million (roughly 91% worse than the prior year), as the company front-loads R&D and NRE costs against a reported AI ASIC order backlog exceeding ¥15 billion."
+      significance: "Founded August 2001; the world's seventh-largest silicon IP vendor by one industry ranking (IPnest, 2023), and China's leading chip-design-service/IP-licensing firm — a different business model from every other entry in this tracker, since it designs chips for customers rather than selling its own branded product. Revenue has grown very fast but profitability has not followed: H1 2026 revenue reached ¥1.864 billion (+91.4% YoY, a record half-year, with chip量产 services +185%), while net loss widened to ¥612 million (roughly 91% worse than the prior year). Demand visibility sharpened in August: backlog stood at ¥12.45 billion at 30 June (+142.5% vs Q1-end, 83%+ from data-center/AI ASIC work) and ¥15.14 billion of new orders were booked 1 January–17 August — and management issued its first-ever profit outlook (adjusted EBITDA positive in H2 2026; adjusted net profit positive in FY2027). Its UCIe die-to-die PHY IP passed silicon validation inside customer projects, and an H-share listing A1 was filed with HKEX on 1 April 2026 (CITIC/UBS), pending CSRC and HKEX clearance."
       what_it_designs: "Licensable semiconductor IP blocks and full custom ASIC/SoC design services for other companies' chip products, increasingly weighted toward AI ASIC design services."
     sources:
       - url: "https://www.digitimes.com/news/a20230425VL206/ic-design-distribution-ip-verisilicon.html"
@@ -493,6 +538,9 @@ design_firms:
       - url: "https://cn.technode.com/post/2026-08-18/verisilicon-first-half-2026-revenue-loss-orders/"
         title: "芯原股份上半年营收增长91%，仍亏损6.12亿元 (TechNode China)"
         date: "2026-08-18"
+      - url: "https://static.cninfo.com.cn/finalpage/2026-04-02/1225073660.PDF"
+        title: "芯原股份关于向香港联交所递交H股发行并上市申请并刊发申请资料的公告 (巨潮资讯)"
+        date: "2026-04-02"
 
   - id: empyrean-technology
     name_en: "Empyrean Technology"
@@ -510,7 +558,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA). H1 2026 revenue reached ¥566 million (+13.0% YoY) but the company posted a net loss of ¥45.06 million for the half; analyst forecasts cited in domestic coverage project a return to profitability by full-year 2026 (roughly ¥40 million net profit), rising toward ¥180 million by 2028 as revenue growth continues at a projected ~20%/year."
+      significance: "Founded May 2009; China's largest domestic EDA software vendor, positioned to benefit directly as US export controls restrict Chinese chip designers' access to foreign EDA tools (Synopsys, Cadence, Siemens EDA). H1 2026 revenue reached ¥566 million (+13.0% YoY) but the company posted a net loss of ¥45.06 million for the half; analyst forecasts cited in domestic coverage project a return to profitability by full-year 2026 (roughly ¥40 million net profit), rising toward ¥180 million by 2028 as revenue growth continues at a projected ~20%/year. Its M&A is now the strategic story: on 8 October 2026 Empyrean announced ¥149 million for a 6.90% stake in digital place-and-route specialist 芯行纪 (X-Linkage) — after similar fund-routed buys — having already taken equity in 亿方联创, and seeded two more EDA-industry funds (¥91m and ¥90m, Aug–Sep 2026), assembling a domestic toolchain by balance sheet rather than organic build. Product-wise it shipped a full 3DIC/advanced-packaging verification suite (Argus 3DIC, Storm, ALPS 3D cross-node simulation) in mid-2026 — directly aimed at the heterogeneous-stacking designs that leading-edge-node denial makes China's fallback path (the 'τ-scaling/logic folding' wave it was reported to be riding when its stock re-rated in June 2026)."
       what_it_designs: "EDA software tools used by chip designers for layout, verification, and simulation — the software layer that every other fabless firm in this tracker depends on."
     sources:
       - url: "https://en.wikipedia.org/wiki/Empyrean_Technology"
@@ -522,6 +570,35 @@ design_firms:
       - url: "https://caifuhao.eastmoney.com/news/20260317220822529826630"
         title: "华大九天（301269）投资价值分析报告：国产EDA龙头迈入攻坚期，全流程突破在即 (东方财富)"
         date: "2026-03-17"
+      - url: "https://finance.cnr.cn/ycbd/20261008/t20261008_527836587.shtml"
+        title: "华大九天拟1.49亿元收购芯行纪6.90%股份 补齐数字后端布局 (央广网)"
+        date: "2026-10-08"
+
+  - id: primarius
+    name_en: "Primarius Technologies"
+    name_zh: "上海概伦电子股份有限公司"
+    name_pinyin: "Gàilún Diànzǐ"
+    category: "EDA & IP Provider"
+    founded: 2010
+    location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.22, lon: 121.52}
+    product_focus: "EDA for device-level design and characterization (SPICE modeling, TCAD, memory/compound-semiconductor flows) plus test/verification systems; since 2026, a large semiconductor-IP portfolio via the 锐成芯微 acquisition"
+    design_scope: "EDA tool development plus IP licensing after the year's largest domestic EDA M&A — China's first self-declared 'EDA + IP' dual-engine platform"
+    node_sophistication: "Not applicable — an EDA software and IP vendor; tools qualified across mature-to-advanced domestic nodes"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 4, market_readiness: 3}
+    narrative:
+      significance: "STAR-listed (688206, January 2022) specialist in the most physics-heavy corner of EDA — compact modeling/TCAD and memory design tools, the layer where Synopsys/Cadence still set the bar — that pivoted in 2026 into consolidation: its purchase of analog-IP vendor 锐成芯微 (100%) and its subsidiary 纳能微 (45.64%) for ~¥2.17bn in shares and cash cleared CSRC registration on 26 June 2026 (证监许可〔2026〕1505号, ~6 months from acceptance to approval), assets transferred by 31 July, and 67.5m new shares registered at ¥17.42 in mid-August with a ≤¥1.05bn matching financing still in progress — the template deal for Beijing's push to build scale domestic EDA champions. The organic business remains small: H1 2026 revenue ¥2.40亿 (+10.1%) swinging to a ¥6.7m net loss (deal fees, lower investment income), with domestic EDA license revenue +19.8% and test systems +31.1% and R&D at 55.9% of revenue."
+      what_it_designs: "EDA tools (device characterization, compact models, memory and power-semiconductor flows, DTCO) and, post-deal, 1,000+ physical IP packages across 30+ global foundry processes licensed to chip designers."
+    sources:
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-27/1225514208.PDF"
+        title: "概伦电子2026年半年度报告 (巨潮资讯)"
+        date: "2026-08-27"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-08-04/1225455594.PDF"
+        title: "概伦电子关于发行股份及支付现金购买锐成芯微100%股权及纳能微45.64%股权之标的资产过户完成的公告 (巨潮资讯)"
+        date: "2026-08-04"
 
   - id: smartsens
     name_en: "SmartSens Technology"
@@ -539,7 +616,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 4, market_readiness: 5}
     narrative:
-      significance: "The clearest import-substitution winner in CIS: #1 globally in surveillance CIS, now cracking flagship smartphone cameras (Xiaomi/OPPO main and sub cameras) and scaling automotive CIS — FY2025 revenue ¥90.31亿 (+51.3%), of which smartphone ¥46.75亿 and automotive ¥11.22亿 (+113%); H1 2026 revenue ¥46.0亿. A March 2026 placement plan (up to ¥3.2 billion) funds vision-AI and edge-AI ASICs — an attempt to outgrow the sensor business."
+      significance: "The clearest import-substitution winner in CIS: #1 globally in surveillance CIS, now cracking flagship smartphone cameras (Xiaomi/OPPO main and sub cameras) and scaling automotive CIS — FY2025 revenue ¥90.31亿 (+51.3%), of which smartphone ¥46.75亿 and automotive ¥11.22亿 (+113%). H1 2026 (formal filing 21 Aug): revenue ¥46.00亿 (+21.5%), net profit ¥5.28亿 (+33.2%); automotive ¥6.36亿 (+28.6%, Q2 +106% QoQ); its 200MP SCC62HS flagship sensor (announced June) is slated for mass production from Q3. The ≤¥32亿 capital raise — first floated in March 2026 — cleared CSRC registration on 4 June and launched issuance on 30 September, funding high-performance CIS (¥1.445bn), automotive CIS (¥753m) and AI-CIS/edge-ASIC (¥740m) — an attempt to outgrow the sensor business."
       what_it_designs: "1–50MP+ CMOS image sensors (security, smartphone, automotive, machine vision) plus emerging AI-vision/edge ASIC solutions."
     sources:
       - url: "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260327/cbe93bc5c61443d880f37708a0126825.PDF"
@@ -565,7 +642,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
     narrative:
-      significance: "The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment in whether a Chinese design house can run its own 12-inch specialty fab: FY2025 revenue ¥77.82亿 (+21.9%) but net profit collapsed to ¥0.51亿 as the Lingang line absorbed depreciation; September 2026 plan to raise ~¥4.2 billion more for capacity. H1 2026: revenue ¥41.53亿, net ¥7.3 million."
+      significance: "The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment in whether a Chinese design house can run its own 12-inch specialty fab: FY2025 revenue ¥77.82亿 (+21.9%) but net profit collapsed to ¥0.51亿 as the Lingang line absorbed depreciation; a ≤¥42亿 placement for 12-inch CIS capacity expansion was pre-announced 18 September 2026 (exchange acceptance/CSRC registration still pending as of 11 October). H1 2026: revenue ¥41.53亿 (+14.2%), net ¥7.3 million (扣非 -¥31 million), with the Lingang fab running at full capacity and fully converted to the 50MP platform — cumulative 50MP shipments passed 100 million units — and the first domestically-made 12-inch LOFIC automotive sensor (3MP GC3903, 140dB) fabbed in-house in June."
       what_it_designs: "Smartphone/IoT automotive CIS and LCD/OLED display driver ICs, increasingly on its own 300mm line."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-08-28/1225521830.PDF"
@@ -591,7 +668,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 5, design_completeness: 4, domain_difficulty: 5, market_readiness: 3}
     narrative:
-      significance: "The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing one: FY2025 revenue ¥37.26亿 (-17.0%) with the company's first-ever annual loss (¥-2.93亿), widened to ¥-3.71亿 in H1 2026 as fab depreciation hit. Its volume L-PAMiD with domestic filter+switch+external PA is the first credible Chinese mid/high-tier module."
+      significance: "The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing one: FY2025 revenue ¥37.26亿 (-17.0%) with the company's first-ever annual loss (¥-2.93亿), deepening to ¥-3.71亿 in H1 2026 (interim 25 Aug, on revenue +6.2%) as fab depreciation hit. The industrial payoff is arriving even as P&L suffers: the 6-inch SAW line runs at 15,000 wafers/month, the 12-inch RF platform at ~9,000 wafers/month SOI capacity (expandable within existing cleanroom), yield 'first-tier' per management, and the fully-domestic-supply-chain L-PAMiD entered large-scale batch shipment at multiple flagship-brand customers in H2 2026 — so much so that L-PAMiD shipment growth is the core KPI of the company's 2026–28 equity incentive."
       what_it_designs: "RF front-end chips and modules for smartphones/IoT, WiFi-7 and NTN satellite front-ends, plus 6G-stage research."
     sources:
       - url: "http://static.cninfo.com.cn/finalpage/2026-04-28/1225220150.PDF"
@@ -617,7 +694,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): FY2025 revenue ¥38.98亿 (+16.5%), H1 2026 ¥25.95亿 (+42.7%) on optical-module/AI-server demand. A+H listing (June 2026, 3661.HK) makes it the consolidation vehicle for Chinese analog."
+      significance: "China's closest analogue to TI's broadline model and — by 2025 revenue — the #1 domestic analog supplier and #8 worldwide (1.8% share, Frost & Sullivan): FY2025 revenue ¥38.98亿 (+16.5%), H1 2026 ¥25.95亿 (+42.7%) on optical-module/AI-server demand, with net profit ¥4.20亿 (+109.3%) and Q2 revenue ¥14.97亿 a record. The A+H listing (26 June 2026, 3661.HK at HK$85.20; greenshoe fully exercised 23 July, ~HK$5.3bn combined) makes it the consolidation vehicle for Chinese analog — tuck-ins so far are 感睿智能 (magnetic sensing, 67%) and 亿存芯 (EEPROM, 77.5%), with no new deal announced by October; ADI/TI price hikes landing September 2026 give the domestic analog complex pricing cover."
       what_it_designs: "General-purpose and application-specific analog/mixed-signal ICs across consumer, industrial, automotive and now datacenter power/optical markets."
     sources:
       - url: "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/ebe4a5fa-a58d-4b69-8d4f-f4b531a51e55.PDF"
@@ -643,7 +720,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 3, market_readiness: 4}
     narrative:
-      significance: "Won the flagship fast-charging socket from TI/Qualcomm/NXP inside Xiaomi/OPPO/vivo/Honor/Samsung flagships — import substitution essentially completed — then hit the ceiling of that niche: FY2025 revenue ¥32.61亿 (+27.0%) but profit -22%, and the first half-year loss post-IPO in H1 2026 (-¥44.9 million) as smartphone demand softened. The automotive (+140.6%) and AI-wearable pivot is the sector's escape route in miniature."
+      significance: "Won the flagship fast-charging socket from TI/Qualcomm/NXP inside Xiaomi/OPPO/vivo/Honor/Samsung flagships — import substitution essentially completed — then hit the ceiling of that niche: FY2025 revenue ¥32.61亿 (+27.0%) but profit -22%, and the first half-year loss post-IPO in H1 2026 (-¥44.87 million on revenue of just ¥15.46亿, +5.2%) as smartphone demand softened, gross margin slipping to 35.3%. The pivot is now explicit in guidance rather than realized in numbers: consumer remains 87% of sales, AI-compute power revenue only ~¥20 million in H1, but management targets a 60A multiphase server controller in small-batch by year-end, 90A volume in 2027, 800V rack-power products within two years, and roughly doubling automotive revenue (from a ¥2亿+ base — the '+140.6% H1' figure circulating in sell-side notes is not supported by the filing); DrMOS SD13050/CPU controllers shipped into AI-server designs in August–September. A ¥1.587 billion convertible completed June 2026 funds the same escape route."
       what_it_designs: "10–300W charging/battery-management IC chains (adapter-to-cell), automotive PMICs, GaN-integrated AC-DC controllers, RISC-V power MCUs."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-04-30/1225265339.PDF"
@@ -669,7 +746,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "China's most credible challenger to ADI/TI in automotive/energy infrastructure analog, where certification — not lithography — is the moat. Revenue is exploding (+71.8% FY2025 to ¥33.68亿; +66.7% H1 2026 to ¥25.40亿 with first profit turnaround), but core operations remain barely breakeven — the 'buy share with R&D' stage of the climb."
+      significance: "China's most credible challenger to ADI/TI in automotive/energy infrastructure analog, where certification — not lithography — is the moat. Revenue is exploding (+71.8% FY2025 to ¥33.68亿; +66.7% H1 2026 to ¥25.40亿), and the accounting turnaround arrived in H1 — net profit ¥67.6m, but ex-non-recurring items still -¥47.9m, with the true inflection being Q2's first positive adjusted quarter (+¥6.9m) partly flattered by PE-fund fair-value gains. Automotive now 32.4% of revenue (19.5亿 cumulative car chips) and pan-energy ~58%; the MagIc magnetic-sensor consolidation lifted sensors to the #2-margin line, a third-generation isolation platform (packages 50–70% smaller) launched 10 October, and the automotive HSMT SerDes (6.4Gbps) is verified at a head ADAS customer with mass-production adoption in progress — the 'buy share with R&D' stage of the climb, now with price-hike leverage as TI/ADI repriced in September 2026."
       what_it_designs: "Sensor signal conditioning, isolation/interface, gate drivers and power-path protection for EVs, PV/storage, and industrial systems."
     sources:
       - url: "http://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-28/688052_20260828_S5WN.pdf"
@@ -695,7 +772,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 2, market_readiness: 4}
     narrative:
-      significance: "The archetypal volume-first Chinese consumer-analog house — where import substitution is done and the fight is now price: FY2025 revenue ¥28.54亿 (-2.7%) with profit +24% on mix, then H1 2026 non-recurring profit down 91% as memory-driven smartphone cost inflation hit customers. Its ¥1.9 billion January 2026 convertible is earmarked for the auto/industrial escape."
+      significance: "The archetypal volume-first Chinese consumer-analog house — where import substitution is done and the fight is now price: FY2025 revenue ¥28.54亿 (-2.7%) with profit +24% on mix, then H1 2026 归母 net profit -39.4% (ex-items -91.4%) as memory-driven smartphone cost inflation hit customers. Its ¥1.90 billion convertible (issued 22 January 2026) is earmarked for the auto/industrial escape, which is showing in the design wins — robot customers 拓竹/宇树/智元/优必选 disclosed in the H1 report, plus first car-grade LIN ambient-light SoCs in volume — but capital-markets pressure persists: in August the downward-revision clause on the convertible triggered and the board declined to reprice, leaving the bond deeply out-of-the-money."
       what_it_designs: "Audio/haptic/PMIC/RF analog for smartphones, wearables, robotics and increasingly automotive."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-04-10/1225090195.PDF"
@@ -721,7 +798,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Standard-bearer for high-end analog indigenization — real share in telecom base-station signal chains and now AI-server/optical-module AFEs, the categories ADI/TI margin most jealously guard. FY2025 revenue ¥21.42亿 (+75.7%, turnaround to profit) and H1 2026 ¥16.06亿 (+69.2%, net +368%) after nine straight quarters of sequential growth."
+      significance: "Standard-bearer for high-end analog indigenization — real share in telecom base-station signal chains and now AI-server/optical-module AFEs, the categories ADI/TI margin most jealously guard. FY2025 revenue ¥21.42亿 (+75.7%, turnaround to profit) and H1 2026 ¥16.06亿 (+69.2%, net ¥3.08亿 +368.5%) after nine straight quarters of sequential growth. The optical-module line now spans 400G/800G/1.6T AFEs at head module vendors with a second top customer starting to ship and 3.2T/NPO/CPO parts in R&D — on 9 October management judged a rumored FCC rule requiring ≥65% US-origin content for 3.2T modules to have no near-term impact, since those parts aren't shipping yet; the 创芯微 power-management acquisition has effectively completed (its ¥383m consideration convertible bonds redeemed to a ¥100 residual by 8 October)."
       what_it_designs: "Precision and high-speed analog/mixed-signal ICs for telecom, industrial instrumentation, optical modules, servers and automotive."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-03-31/1225060234.PDF"
@@ -747,7 +824,7 @@ design_firms:
       list: "US Commerce BIS"
     design_score: {ip_ownership: 3, design_completeness: 5, domain_difficulty: 5, market_readiness: 5}
     narrative:
-      significance: "China's only scaled x86 CPU + GPGPU dual-track design house and the anchor of 信创 server supply: FY2025 revenue ¥143.77亿 (+56.9%, net ¥25.45亿), H1 2026 ¥90.99亿 (+66.5%) — with inventory build (¥75亿) telegraphing an AI-demand run. Its planned ¥-with-中科曙光 absorption merger (announced May 2025) was terminated 9 December 2025, keeping chip and system layers separate."
+      significance: "China's only scaled x86 CPU + GPGPU dual-track design house and the anchor of 信创 server supply: FY2025 revenue ¥143.77亿 (+56.9%, net ¥25.45亿); the formal H1 2026 report (13 August) showed revenue ¥90.99亿 (+66.5%) and net profit ¥17.98亿 (+49.7%) — though operating cash flow swung to -¥4.28亿 (from +¥21.8亿) on the inventory build telegraphing an AI-demand run, and gross margin slipped 4.9 points to 55.2% on HBM/substrate cost inflation. Next-generation 深算四号 DCU is confirmed still in development (board secretary, 29 September: 'progressing smoothly', not yet shipping), with 深算三号 BW1000 the current volume part; the DCU stack claims adaptation to 400+ mainstream LLMs. Its planned ¥-with-中科曙光 absorption merger (announced May 2025) was terminated 9 December 2025, keeping chip and system layers separate — no revival as of October 2026."
       what_it_designs: "Server/desktop CPUs, AI accelerator DCUs, HSL interconnect bus, and the DTK CUDA-benchmarked software stack."
     sources:
       - url: "http://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF"
@@ -773,8 +850,8 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 3}
     narrative:
-      significance: "The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the GPU listing frenzy; FY2025 revenue ¥16.44亿 (+121%) still loss-making (-¥7.89亿), H1 2026 revenue ¥13.24亿 with headline net profit turned positive only on non-recurring items. Its C600 fully-domestic-chain closure is the flagship proof that AI chips can be built without TSMC."
-      what_it_designs: "Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI software stack."
+      significance: "The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the GPU listing frenzy; FY2025 revenue ¥16.44亿 (+121%) still loss-making (-¥7.89亿). H1 2026 (formal filing, 30 August): revenue ¥13.24亿 (+44.7%) with headline net profit turning positive at ¥6.12亿 — but only because of ¥8.87亿 of non-cash fair-value gains; excluding non-recurring items the company still lost ¥4900万, and gross margin was 57.2%. A tranche of IPO offline-allotment shares (3.49% of the company) came off lock-up on 17 September, and the market cap had eased to roughly ¥2,080亿 by late September. A plan to issue up to 5% new H shares in Hong Kong was announced 12 June 2026, pending CSRC filing. Its C600 fully-domestic-chain closure is the flagship proof that AI chips can be built without TSMC."
+      what_it_designs: "Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI software stack. Flagship 曦云C600 — the first high-performance GPU on a fully domestic process chain, with HBM3e and FP8 support, having passed China's national security-certification (安可) evaluation — entered mass production and delivery in H1 2026 (May); the C700 (H100-class) is in core verification with tape-out targeted within 2026 and volume around H2 2027; MXMACA reports compatibility for 6,000+ CUDA applications."
     sources:
       - url: "https://www.jfdaily.com/news/detail?id=1037108"
         title: "沐曦股份科创板上市首日涨693% (上观新闻)"
@@ -790,8 +867,8 @@ design_firms:
     category: "Fabless"
     founded: 2015
     location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.50}
-    product_focus: "General GPGPUs: 天垓 training series (100/150/Gen3, Gen4 announced July 2026), 智铠 inference series, 彤央 edge modules"
-    design_scope: "Fabless; self-developed architecture/ISA/software; HKEX-listed (9903.HK, IPO 8 January 2026, ~HK$3.7bn raised; ~HK$7.03bn July 2026 placement; Hang Seng Tech constituent Sept 2026)"
+    product_focus: "General GPGPUs: 天垓 training series (100/150, 天垓300 flagship of the new 4th-gen architecture launched at WAIC 19 July 2026), 智铠 inference series, 彤央 edge modules"
+    design_scope: "Fabless; self-developed architecture/ISA/software; HKEX-listed (9903.HK, IPO 8 January 2026 at HK$144.60, ~HK$3.7bn raised; 9 July 2026 placing of 14.857M H shares at HK$476, net ~HK$7.04bn; Hang Seng Tech constituent effective 7 September; 22 September capitalisation issue of two new shares per existing share)"
     node_sophistication: "Gen2-class ~7/12nm-equivalent (undisclosed); HBM-equipped; domestic-node transition implied by 60%-of-placement supply-chain mandate — specifics not verified"
     entity_list:
       status: false
@@ -799,7 +876,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "China's first company to mass-produce a general-purpose training GPU (天垓100, 2021). It posted a headline H1 2026 profit of ¥1.06亿 on revenue of ¥9.46亿 (+191.6%), but the profit came from about ¥7.56亿 of unrealised fair-value gains on its stake in 盛合晶微 (SJ Semiconductor); excluding that gain the core business lost roughly ¥6.5亿. FY2025 revenue ¥10.34亿 (+91.6%)."
+      significance: "China's first company to mass-produce a general-purpose training GPU (天垓100, 2021). It posted a headline H1 2026 profit of ¥1.06亿 on revenue of ¥9.46亿 (+191.6%), but the profit came from about ¥7.56亿 of unrealised fair-value gains on its stake in 盛合晶微 (SJ Semiconductor); excluding that gain the core business lost roughly ¥6.5亿. A margin warning sits inside the growth: blended gross margin collapsed from 50.1% to 17.2% (GPGPU-only margin 43.9%) as low-margin 智铠 inference and a new negative-margin component-resale line mixed in — inference revenue ¥6.54亿 (+651.8%) vs training ¥2.62亿 (+38%). FY2025 revenue ¥10.34亿 (+91.6%). Its 天垓300 (4th-gen architecture, SIMT, >90% attention efficiency claimed) was released at WAIC in July 2026 with a 144-card supernode solution."
       what_it_designs: "Cloud training/inference GPGPU chips and cards, edge AI products, AI servers/cluster solutions."
     sources:
       - url: "https://www.stcn.com/article/detail/3578078.html"
@@ -831,8 +908,8 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "The only internet-giant spin-off in the domestic AI-chip first tier — ~116,000 cards shipped in 2025, tied 3rd with Cambricon among domestic vendors, trained ERNIE 5.1 on an all-domestic cluster. In 2026 it launched a dual listing path (confidential HKEX filing January; STAR tutoring via CICC May) targeting a valuation Reuters put near $50 billion. Parent Baidu was added to DoD's 1260H list (26 June 2026) — political, not export, exposure."
-      what_it_designs: "Cloud AI training/inference XPU chips, cluster systems and software for search, ads, recommendation and reasoning workloads."
+      significance: "The only internet-giant spin-off in the domestic AI-chip first tier — ~116,000 cards shipped in 2025, tied 3rd with Cambricon among domestic vendors (IDC: Huawei 81.2万, Alibaba's T-Head/平头哥 26.5万 led), trained ERNIE 5.1 on an all-domestic cluster. In 2026 it launched a dual listing path: an HKEX A1 filed confidentially 1 January 2026 (confirmed by Baidu 2 January; HKEX has cleared the spin-off) and STAR tutoring filed with the Beijing CSRC bureau 29 April (disclosed 7 May, CICC sponsor). Reporting in late June put the target HK valuation near US$50 billion — above Baidu's own ~US$35.5bn market cap — with cornerstone allocations reportedly tied to chip-purchase commitments of 3–7× subscription value; broker ranges span US$16bn (Jefferies) to US$57bn (CCB International). No public hearing (聆讯) as of 11 October. Parent Baidu was added to DoD's 1260H list (26 June 2026) — political, not export, exposure."
+      what_it_designs: "Cloud AI training/inference XPU chips, cluster systems and software for search, ads, recommendation and reasoning workloads. P800 (FP16 345 TFLOPS, 96GB HBM, Samsung 7nm per Lianhe Zaobao) is the volume part; the M100 — a fourth-generation inference chip on a fully domestic supply chain positioned against Nvidia's H20 — made its first public appearance at WAIC in July 2026; 'Tianchi' 256/512-card supernodes are due in 2026, with the 512 claimed to support trillion-parameter training on a single node."
     sources:
       - url: "https://finance.sina.com.cn/tech/roll/2026-06-29/doc-iniezxcc0358752.shtml"
         title: "昆仑芯P800：2.3倍H20性能，多家大客户落地 (新浪科技转联合早报)"
@@ -857,7 +934,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 3, design_completeness: 4, domain_difficulty: 5, market_readiness: 3}
     narrative:
-      significance: "The state-backed (Shanghai United Investment 50.07%) second x86 path — the only domestic vendor natively running standard Windows+Linux binaries on desktops; July 2026 reporting put ZX86 laptops at ~50% of central-government procurement. STAR IPO accepted June 2025 (¥41.69亿 raise); inquiry responses (April 2026) show FY2025 revenue ≈¥11.11亿 (+54.8%) against ≈-¥10.3亿 loss — still the classic loss-making CPU startup awaiting a listing test."
+      significance: "The state-backed (Shanghai United Investment 50.07%) second x86 path — the only domestic vendor natively running standard Windows+Linux binaries on desktops; a July 2026 central-government (央采) laptop procurement put Zhaoxin-based machines at ~50% of domestic portable PC awards (联想开天 N80z on KX-7000/ZX86). STAR IPO accepted June 2025 (¥41.69亿 planned raise); inquiry responses (May 2026 round two) showed FY2025 revenue ¥11.11亿 (+54.8%) against a ¥10.28亿 loss — and the review is currently paused: the SSE marked Zhaoxin's application '中止（财报更新）' on 30 September 2026 when the financials lapsed, a routine suspension expected to lift once H1 2026 audited numbers are re-filed; no listing-committee meeting (上会) has yet been held. Its KH-50000 server CPU (up to 96 cores) notched only ¥9.91 million of 2025 revenue in 500-chip volumes but is in validation at Lenovo Kaitian and China Mobile's DICT supplier library; the KX-8000 desktop chip (4GHz-class, iGPU, PCIe 5.0/DDR5) is promised but unlaunched as of October 2026."
       what_it_designs: "x86-compatible desktop/server/embedded CPUs, chipsets, instruction-set extensions; GPU affiliate."
     sources:
       - url: "http://dataclouds.cninfo.com.cn/sjother2/documents/2026/20260506/b643291faa98423784e45df45dc6e74c.pdf"
@@ -866,6 +943,9 @@ design_firms:
       - url: "https://www.36kr.com/p/3343081803589128"
         title: "兆芯科创板IPO获受理：上海国资控股的x86之路 (36氪)"
         date: "2025-06-19"
+      - url: "https://stcn.com/ipo/detail/3362.html"
+        title: "兆芯集成科创板IPO项目动态：中止（财报更新），2026-09-30披露 (证券时报IPO库)"
+        date: "2026-10-11"
 
   - id: jingjia
     name_en: "Changsha Jingjia Microelectronics"
@@ -883,7 +963,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 4, market_readiness: 2}
     narrative:
-      significance: "China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) yet posted a second straight annual loss (-¥1.65亿) with R&D at 59% of revenue — the military-specialist squeeze: qualification moat protects share but cannot fund a commercial AI pivot. H1 2026: revenue ¥3.34亿 (+73%), still loss-making."
+      significance: "China's original 'GPU first stock' (ChiNext 2016) and only GPU house with deep military-aircraft incumbency; FY2025 revenue rebounded to ¥7.20亿 (+54.4%) yet posted a second straight annual loss (-¥1.65亿) with R&D at 59% of revenue — the military-specialist squeeze: qualification moat protects share but cannot fund a commercial AI pivot. H1 2026: revenue ¥3.34亿 (+73%), net loss ¥1.08亿, R&D 85.3% of revenue. JM11 (32 concurrent vGPU per server) is in small-batch delivery with cloud-desktop (Sangfor) and power-grid deployments; its new general-purpose GPU program (Model 1 rendering+GPGPU, Model 2 train-inference) is progressing but an 8 October investor-relations reply declined to give a tape-out date; subsidiary 诚恒微's CH37 edge-AI SoC (64 TOPS) entered small-batch production."
       what_it_designs: "Graphics/display processors for avionics and信创 desktops, AI accelerator modules, edge-AI SoCs."
     sources:
       - url: "https://www.nbd.com.cn/articles/2026-04-24/4357029.html"
@@ -909,7 +989,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite make it central to de-NVLink scale-up fabrics. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups. Private, no verified IPO filing."
+      significance: "China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite (224G UALink IP taped out, licensing from H2 2026) make it central to de-NVLink scale-up fabrics, alongside a January 2026 first commercial LPDDR6/5X delivery and GDDR7 PHY pushed to 32Gbps. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups — and is now finding a commercial vehicle: an August 2026 战略合作 with 汉唐云 targets '万P级' all-domestic compute clusters, while GPU head 何颖 confirmed in May that 风华4/5 are in development. IPO remains rumor-only: an HKEX chapter-18C attempt at ¥8–15bn valuation is tracked by secondary sources but no prospectus or CSRC tutoring filing for 芯动 exists as of October 2026."
       what_it_designs: "Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series graphics/compute GPUs."
     sources:
       - url: "https://www.stdaily.com/web/gdxw/2026-02/27/content_477518.html"
@@ -938,7 +1018,7 @@ design_firms:
       list: "US Commerce BIS (Entity List, Footnote 4)"
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "Flagship of domestic FPGA independence — its parts underpin satellite, power-grid and telecom infrastructure — and the highest-profile pure-commercial design victim so far of US controls: added 12 September 2025 with Footnote 4, hitting fabs, EDA and IP outputs simultaneously. The forced pivot (strategic wafer/tooling stockpile grew from ~¥600m 2020 to ~¥3.1bn by H1 2025) paid off handsomely under scarcity: FY2025 revenue ¥39.82亿 (+10.9%), H1 2026 net profit ¥8.49亿 (+338.6%) with FPGA line ¥13.16亿 (2025, +16%)."
+      significance: "Flagship of domestic FPGA independence — its parts underpin satellite, power-grid and telecom infrastructure — and the highest-profile pure-commercial design victim so far of US controls: added 12 September 2025 with Footnote 4, hitting fabs, EDA and IP outputs simultaneously; no status change through October 2026. The forced pivot (strategic wafer/tooling stockpile grew from ~¥600m 2020 to ~¥3.1bn by H1 2025; inventory was still 32.8% of current assets at mid-2026) paid off handsomely under scarcity: FY2025 revenue ¥39.82亿 (+10.9%); H1 2026 revenue ¥22.25亿 (+21.0%) and net profit ¥8.49亿 (+338.6%) — though ¥4.66–4.70亿 of that was a one-off fair-value gain on its 盛合晶微 (SJ Semi) strategic placement, leaving adjusted profit at ¥4.12亿 (+125.9%). FPGA was ¥7.4亿 (+8.7%) of the half, non-volatile memory ¥6.21亿 (+41.1%) on NAND/NOR price hikes, and car-grade MCUs passed 20M units annualized."
       what_it_designs: "FPGAs/PSoCs/RF-FPGAs/FPAI programmable-AI chips + EDA, secure-identity/smartcard ICs, non-volatile memory, smart-meter MCUs."
     sources:
       - url: "https://www.guancha.cn/economy/2025_09_15_790121.shtml"
@@ -957,14 +1037,14 @@ design_firms:
     location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.20, lon: 121.40}
     product_focus: "FPGA/FPSoC (ELF, Eagle, Phoenix/Fenghuang lines) + in-house FPGA EDA toolchain"
     design_scope: "Fabless design + own full-flow EDA; largest shareholder Huada Semiconductor (CEC) — the 'national team' FPGA complement to Fudan Micro"
-    node_sophistication: "55nm→domestic-28nm FPGA in volume→first advanced-node (FinFET) high-performance FPGA deliveries 2025; ≤¥1.26bn placement for >4KK-LUT chiplet FPGA (2.5D multi-die)"
+    node_sophistication: "55nm→domestic-28nm FPGA in volume→first advanced-node (FinFET) high-performance FPGA deliveries 2025; ¥1.262bn placement completed September 2026 (at the full cap, ¥25.49/share, 22 investors) funding a >4KK-LUT chiplet FPGA (2.5D multi-die) whose project kicked off June 2026, sampling 2026, volume 2027–28"
     entity_list:
       status: false
       date_added: null
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 5, market_readiness: 2}
     narrative:
-      significance: "The most explicit domestic attempt to reach Xilinx/Altera-scale FPGA density (4M+ LUT chiplet program) — while still small and loss-making (FY2025 revenue ¥5.20亿, net -¥2.72亿). The turnaround signal is H1 2026: revenue ¥4.32亿 (+93.3%), losses halved, on 'multi-fold' data-center sales as FPGAs ride the AI-emulation wave."
+      significance: "The most explicit domestic attempt to reach Xilinx/Altera-scale FPGA density (4M+ LUT chiplet program) — while still small and loss-making (FY2025 revenue ¥5.20亿, net -¥2.72亿). The turnaround signal is H1 2026: revenue ¥4.32亿 (+93.3%) with the net loss narrowed 47.7% to ¥74.5 million (Q2 alone +104.7% YoY, a fifth straight quarter of sequential growth), on 'multi-fold' data-center sales as FPGAs ride the AI-emulation wave; the ¥12.6亿 placement closed at the full cap in September 2026 to fund exactly that chiplet program."
       what_it_designs: "Reconfigurable logic (FPGA/FPSoC) for telecom, industrial, automotive (cockpit/LiDAR) and compute; FPGA design software."
     sources:
       - url: "https://pdf.dfcfw.com/pdf/H2_AN202603301820869925_1.pdf"
@@ -973,6 +1053,9 @@ design_firms:
       - url: "http://www.zqrb.cn/gscy/gongsi/2026-08-29/A1787924786304.html"
         title: "安路科技半年报营收翻倍：数据中心FPGA放量 (证券日报)"
         date: "2026-08-29"
+      - url: "https://static.cninfo.com.cn/finalpage/2026-09-11/1225558042.PDF"
+        title: "安路科技2026年度向特定对象发行股票发行情况报告书（募资12.62亿元） (巨潮资讯)"
+        date: "2026-09-11"
 
   - id: pango
     name_en: "Pango Micro (Shenzhen)"
@@ -990,12 +1073,18 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 4, market_readiness: 2}
     narrative:
-      significance: "The last big unlisted domestic FPGA asset and the volume player in comms-side programmable logic; 2025 net loss narrowed to ¥108m (from ¥344m). STAR listing tutoring (CICC) filed April 2025 — fifth progress update published August 2026, still pre-acceptance — making it a near-term test of FPGA valuations after Fudan Micro's scarcity-driven rally."
-      what_it_designs: "Communication/industrial FPGAs and design software."
+      significance: "The last big unlisted domestic FPGA asset and the volume player in comms-side programmable logic; 2025 net loss narrowed to ¥108m (from ¥344m). STAR listing tutoring (CICC) filed April 2025 — the fifth progress report was filed with the Shenzhen CSRC bureau on 15 July and published 3 August 2026, still pre-acceptance, with the fundraising plan undetermined; a January 2026 round made 北京京国管股权投资基金 a >5% shareholder. On the product front, it launched the PG3T500 (a first domestic ~50M-gate FPGA) and PG2K100 heterogeneous SoPC in October 2025, with 28nm in volume and 14nm capability claimed — a near-term test of FPGA valuations after Fudan Micro's scarcity-driven rally."
+      what_it_designs: "Communication/industrial FPGAs (Logos-2/Titan-2/Kosmo-2) and in-house design software."
     sources:
       - url: "https://www.stcn.com/article/detail/1764250.html"
         title: "紫光同创科创板上市辅导备案 (证券时报)"
         date: "2025-04-30"
+      - url: "https://cs.ecitic.com/newsite/tzgg/ipoqyfdgg/202608/t20260803_1215249.html"
+        title: "中信证券关于紫光同创首次公开发行股票并上市辅导第五期工作报告 (CITIC Securities)"
+        date: "2026-08-03"
+      - url: "https://finance.sina.com.cn/roll/2026-01-20/doc-inhhxqwx6212594.shtml"
+        title: "紫光同创获新融资：京国管基金持股超5% (新浪财经)"
+        date: "2026-01-20"
 
   - id: unigroup-guoxin
     name_en: "Unigroup Guoxin Microelectronics"
@@ -1013,7 +1102,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 5}
     narrative:
-      significance: "China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (+11.5%), net ¥14.37亿 at 55.6% gross margin; H1 2026 net ¥7.98亿. January 2026: agreed to buy power-semi maker 瑞能半导体 (NXP/WeEn lineage) for ¥1.9 billion, extending the portfolio into power discretes."
+      significance: "China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (+11.5%), net ¥14.37亿 at 55.6% gross margin; H1 2026 revenue ¥34.43亿 (+13.0%), net ¥7.98亿 (+15.3%). January 2026: agreed to buy power-semi maker 瑞能半导体 (NXP/WeEn lineage) for ¥1.9 billion (¥1.52bn in shares at ¥61.45 + ¥380m cash), extending the portfolio into power discretes and, since 瑞能 owns wafer fabs, from pure fabless toward 'fabless+IDM' — the deal was accepted by the SZSE on 15 June 2026 and a revised draft (audit base rolled to 30 June) was disclosed 12 September, still short of a clearance vote as of 11 October. August 2026: its 紫光同芯 unit launched a next-gen 'satellite-terrestrial converged' AI eSIM with China Unicom."
       what_it_designs: "Radiation/aerospace-tolerant CPUs/FPGA/memory/analog, eSIM and secure-element chips, quartz timing devices."
     sources:
       - url: "http://static.cninfo.com.cn/finalpage/2026-08-15/1225474653.PDF"
@@ -1022,6 +1111,9 @@ design_firms:
       - url: "https://www.cls.cn/detail/2249957"
         title: "西安紫光国芯启动A股IPO辅导：DRAM/CXL/堆叠存储 (财联社)"
         date: "2026-01-07"
+      - url: "http://static.cninfo.com.cn/finalpage/2026-09-12/1225561834.PDF"
+        title: "紫光国微关于发行股份及支付现金购买瑞能半导体资产审核问询函回复更新（修订稿）的提示性公告 (巨潮资讯)"
+        date: "2026-09-12"
 
   - id: espressif
     name_en: "Espressif Systems (Shanghai)"
@@ -1039,7 +1131,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 5, design_completeness: 5, domain_difficulty: 4, market_readiness: 5}
     narrative:
-      significance: "The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas revenue +40.4%; H1 2026 ¥14.81亿 (+18.9%). Its pivot to fully self-developed RISC-V cores removes the last foreign-IP dependency across its mainstream line."
+      significance: "The only Chinese fabless with genuine global developer-ecosystem dominance (Wi-Fi MCU #1 worldwide) — FY2025 revenue ¥25.65亿 (+27.8%), net ¥4.98亿, overseas revenue +40.4%. H1 2026 (interim 30 July): revenue ¥14.81亿 (+18.9%) with net profit ¥3.34亿 (+27.9%) and record 49.3% gross margin — Q2 was the first-ever >¥8亿 quarter; management also announced a ¥50–100m share buyback for equity incentives. Product cadence stayed fast: ESP32-E22 tri-band Wi-Fi 6E (CERTIFIED 6E mark obtained in Q2) and the ESP32-S31 dual-core RISC-V SoC (sampled May, in mass production since July); Wi-Fi 7 capability is targeted by mid-2027. Its pivot to fully self-developed RISC-V cores removes the last foreign-IP dependency across its mainstream line."
       what_it_designs: "Wi-Fi/BLE/Thread connectivity SoCs and MCUs with self-designed RISC-V CPUs, plus modules/devkits (M5Stack majority-owned)."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022430.PDF"
@@ -1048,6 +1140,9 @@ design_firms:
       - url: "https://finance.sina.com.cn/stock/aigc/stockfs/2026-03-20/doc-inhrrvnu0725505.shtml"
         title: "乐鑫2025年报解读：净利4.98亿+47%，海外+40% (新浪财经)"
         date: "2026-03-20"
+      - url: "https://finance.eastmoney.com/a/202607303827106633.html"
+        title: "乐鑫科技2026年上半年净利3.34亿元同比增27.93%，拟回购5000万-1亿元 (东方财富)"
+        date: "2026-07-30"
 
   - id: amlogic
     name_en: "Amlogic (Shanghai) Co., Ltd."
@@ -1065,7 +1160,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 4, market_readiness: 5}
     narrative:
-      significance: "China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026, Samsung TVs enter volume on its silicon. FY2025: ¥67.93亿 revenue (+14.6%), record 174M chips; H1 2026 ¥43.91亿 (+31.9%) with TV SoC shipments +30%; guided FY2026 +25-45%."
+      significance: "China's most globally embedded video SoC designer — its chips run operator boxes worldwide (Netflix/Google-certified) and, from Q4 2026 batch mass production, Samsung TVs enter volume on its silicon; management says its smart-TV SoC shipments could reach roughly one-third of the global market in FY2026 (vs ~16.8% in 2025). FY2025: ¥67.93亿 revenue (+14.6%), record 174M chips; H1 2026 ¥43.91亿 (+31.9%) with net profit ¥6.11亿 (+23.0%), Q2 a record quarter (¥24.96亿 / ¥4.38亿). The Q3 2026 pre-announcement (8 October) is the sweep's standout datapoint: 9M revenue ¥70.8–71.8亿 (+39.6–41.6%), Q3 revenue ¥26.9–27.9亿 (+54.5–60.2%), Q3 net profit ¥6.49–6.99亿 (+223–248%) — and management's operational estimate that FY2026 revenue will top ¥100亿. An A+H listing is in motion: HKEX A1 refiled 12 April 2026 and CSRC overseas-listing备案 (国合函〔2026〕2027号) received 24 August."
       what_it_designs: "4K/8K STB and smart-TV SoCs, edge-AI NPU platforms, vision-AI and Wi-Fi 6 connectivity chips."
     sources:
       - url: "https://paper.cnstock.com/html/2026-02/12/content_2180614.htm"
@@ -1074,6 +1169,9 @@ design_firms:
       - url: "https://wap.stockstar.com/detail/RB2026081900043670"
         title: "晶晨2026半年报点评：进入三星电视供应链 (证券之星)"
         date: "2026-08-19"
+      - url: "https://m.cls.cn/detail/2499667"
+        title: "晶晨股份三季报预告：Q3营收同比增逾54%，全年剑指百亿 (财联社)"
+        date: "2026-10-08"
 
   - id: ingenic
     name_en: "Ingenic Semiconductor"
@@ -1091,7 +1189,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 5}
     narrative:
-      significance: "The closest thing China has to a global automotive/industrial memory design house — 82.7% of revenue is overseas and ISSI qualifies with world carmakers, precisely the niche US Dec-2024 rules tried to fence. Q1 2026 (latest verified): revenue ¥15.6亿 (+47.1%), net ¥3.19亿 (+331.6%) as the DRAM supercycle monetizes; FY2025 ¥47.41亿 (+12.5%). A 3D-DRAM roadmap for AI bandwidth makes it the canary for Chinese memory design moving up."
+      significance: "The closest thing China has to a global automotive/industrial memory design house — 82.7% of revenue is overseas and ISSI qualifies with world carmakers, precisely the niche US Dec-2024 rules tried to fence. The DRAM supercycle fully monetized in H1 2026 (interim, 28 August): revenue ¥39.57亿 (+76.0%) and net profit ¥11.98亿 (+489.6%), Q2 ¥23.97亿/¥8.79亿; storage line +90.1% to ¥26.32亿, compute +72.7%, gross margin 51.8%. DRAM contract re-pricing began Q1 and continued after July, with the company expecting tight supply until H2 2027 — but the 3D DRAM AI-bandwidth tape-out has slipped on the very capacity crunch it profits from. An A+H route opened: H-share application refiled 26 May 2026 with CSRC overseas-listing备案 received 24 June. FY2025 ¥47.41亿 (+12.5%)."
       what_it_designs: "Car-grade SRAM/DRAM/NOR/eMMC, RISC/MIPS AIoT-video SoCs, automotive LED drivers and LIN/CAN transceivers."
     sources:
       - url: "https://finance.sina.com.cn/tech/roll/2026-03-29/doc-inhssmvq4607958.shtml"
@@ -1100,6 +1198,9 @@ design_firms:
       - url: "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwfpqq6340036.shtml"
         title: "Q1净利3.19亿+332%：存储超级周期下的北京君正 (长江商报)"
         date: "2026-04-30"
+      - url: "https://www.ijiwei.com/n/1101129"
+        title: "北京君正2026年半年报：营收39.57亿+76%，净利11.98亿+489.6% (爱集微)"
+        date: "2026-08-28"
 
   - id: puya
     name_en: "Puya Semiconductor (Shanghai)"
@@ -1109,7 +1210,7 @@ design_firms:
     founded: 2016
     location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.22, lon: 121.51}
     product_focus: "NOR flash (global #5, 550M+ units 2025), EEPROM (leader in phone-camera VCM), MCUs, VCM/OIS drivers; SLC NAND/eMMC/MCP via the SHM acquisition"
-    design_scope: "Fully fabless; SONOS-process NOR is licensed (expiry 2038 — disclosed dependency); April 2026 moving to buy remaining 49% of Noe-longtian/SHM (¥247m)"
+    design_scope: "Fully fabless; SONOS-process NOR is licensed (expiry 2038 — disclosed dependency); buying the remaining 49% of 珠海诺亚长天/SHM for ¥2.47bn (shares + convertible bonds + cash) — SSE restructuring committee review scheduled 14 October 2026"
     node_sophistication: "40nm/4x-nm specialty NOR+MCU (2nd-gen SONOS, 3rd-gen '40E' in production); mature-node capacity scarcity (SMIC/Hua Hong) is its stated pricing driver"
     entity_list:
       status: false
@@ -1117,7 +1218,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 3, design_completeness: 4, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "The textbook double-case of 2025-26 fabless China: buying a distressed global asset to jump product tiers (SHM = ex-SK Hynix 2D NAND carve-out, world #4 SLC NAND), then riding the AI memory supercycle — H1 2026 revenue ¥39.59亿 (+336.7%) and net ¥8.27亿 (+1930%), versus FY2025 ¥23.20亿/+28.6% with profit down. Its MCP modules already ship into HP/Motorola/Cisco/Bosch chains."
+      significance: "The textbook double-case of 2025-26 fabless China: buying a distressed global asset to jump product tiers (SHM = ex-SK Hynix 2D NAND carve-out, world #4 SLC NAND — the 51% cash purchase closed November 2025 and the ¥23.46亿 H1 consolidated contribution proves the thesis), then riding the AI memory supercycle — H1 2026 revenue ¥39.59亿 (+336.7%) and net ¥8.27亿 (+1930%), versus FY2025 ¥23.20亿/+28.6% with profit down. The remaining 49% (¥2.47bn in shares+convertibles+cash) goes to the SSE's M&A restructuring committee on 14 October 2026, the clearest near-term test of how domestic consolidation deals clear review. Its MCP modules already ship into HP/Motorola/Cisco/Bosch chains."
       what_it_designs: "NOR/EEPROM/SLC-NAND/eMMC/MCP memory and general/motor MCUs, camera VCM/OIS drivers."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-03-21/1225023836.PDF"
@@ -1135,15 +1236,15 @@ design_firms:
     founded: 2014
     location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.16, lon: 121.32}
     product_focus: "Niche small-capacity memory — SLC NAND (domestic leader), NOR, DDR3/LPDDR4x DRAM, MCP combos for phone/module platforms"
-    design_scope: "Pure fabless (Korean subsidiary Fidelix lineage, US Nemostech); distinctive 35.87% stake in 砺算科技 (Lingxi) — China's most 'pure' self-architected consumer GPU"
-    node_sophistication: "1x-nm-class SLC NAND in volume; affiliate Lingxi 7G100 GPU on 6nm (taped out early 2025, retail May/July 2026; 4th globally WHQL-certified Windows GPU vendor)"
+    design_scope: "Pure fabless (Korean subsidiary Fidelix lineage, US Nemostech); distinctive 35.87% stake in 砺算科技 (Lisuan Technology) — China's most 'pure' self-architected consumer GPU; ¥6.82亿 of surplus IPO funds redirected (Aug 2026) into an in-house compute-storage-interconnect chip project; board approved up-to-10% H-share plan 22 May 2026"
+    node_sophistication: "1x-nm-class SLC NAND in volume; affiliate Lisuan's 7G100 GPU on 6nm (taped out early 2025, retail launch ¥2,688 on JD 16 July 2026; 4th globally WHQL-certified Windows GPU vendor)"
     entity_list:
       status: false
       date_added: null
       list: null
     design_score: {ip_ownership: 3, design_completeness: 3, domain_difficulty: 4, market_readiness: 4}
     narrative:
-      significance: "A two-story firm: a niche-memory designer riding the 2025-26 shortage to 67.7% gross margin and H1 2026 net profit ¥6.59亿 (vs FY2025 loss), and a listed proxy for Lingxi's consumer GPU incubation (¥0.42亿 equity loss H1). If the 7G100 scales, the off-balance-sheet GPU template becomes the model for design houses nurturing advanced logic."
+      significance: "A two-story firm: a niche-memory designer riding the 2025-26 shortage to 67.7% gross margin and H1 2026 net profit ¥6.59亿 (vs FY2025 loss) — with an interim dividend of ¥6/10 shares plus a bonus issue — and a listed proxy for Lisuan's consumer GPU incubation (¥0.42亿 equity-method loss H1, ~65% of RTX-3060 gaming performance per independent tests). The 7G100 sold through its ¥2,688 JD retail launch from 16 July and became the first Chinese GPU maker to exhibit standalone at ChinaJoy (July–August); Lisuan's next-gen architecture is in design with no tape-out date given, and Dosilicon says it holds no current integration of its own memory on Lisuan's GPUs. If the 7G100 scales, the off-balance-sheet GPU template becomes the model for design houses nurturing advanced logic."
       what_it_designs: "SLC/MLC NAND, NOR, niche DRAM and MCP/eMMC combos; affiliate's 6nm graphics GPUs."
     sources:
       - url: "https://static.cninfo.com.cn/finalpage/2026-04-23/1225153903.PDF"
@@ -1161,7 +1262,7 @@ design_firms:
     founded: 2018
     location: {city: "Nanjing", province: "Jiangsu", lat: 32.06, lon: 118.80}
     product_focus: "Automotive compute across the E/E architecture: X9/X10 smart-cockpit SoCs, G9 central gateway (first ChinaSecurity-certified), V9 ADAS SoCs, E3-series ASIL-D MCUs (E3650 on 22nm)"
-    design_scope: "400+ independent IP claimed; full ISO 26262 ASIL-D process chain (first in China, 2019); founders ex-Freescale/NXP; C-round ~$100m closed May 2026; no verified IPO filing"
+    design_scope: "400+ independent IP claimed; full ISO 26262 ASIL-D process chain (first in China, 2019); founders ex-Freescale/NXP; ~$100m C-round May 2026 followed by a ~¥300m C+/C++ round (华登科技 Walden, 陕投基金 et al.) closed 21 September 2026 — 2026 C-series total ~¥1bn; no verified IPO filing as of October 2026"
     node_sophistication: "First 16nm automotive SoC in China; E3650 22nm in volume; X10 AI-cockpit node undisclosed"
     entity_list:
       status: false
@@ -1169,8 +1270,8 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "China's most credible NXP/Renesas challenger — the only domestic firm with cockpit+gateway+ADAS SoC+ASIL-D MCU all in production — now #1 domestic cockpit-SoC vendor (5th overall, 3.77%, ahead of HiSilicon per GGII 2025), with 14M+ units shipped and 2026 'Strategy 2.0' extending automotive safety silicon to robots (R1 cerebrum/D9-Max cerebellum)."
-      what_it_designs: "Cockpit/gateway/ADAS automotive SoCs, ASIL-D safety MCUs, robotics compute and motion-control chips."
+      significance: "China's most credible NXP/Renesas challenger — the only domestic firm with cockpit+gateway+ADAS SoC+ASIL-D MCU all in production — now #1 domestic cockpit-SoC vendor (5th overall, 3.77%, ahead of HiSilicon per GGII 2025), with 12–14M+ units shipped and 2026 'Strategy 2.0' extending automotive safety silicon to robots: at the September 2026 服贸会 forum it detailed the full stack — R1 'cerebrum' SoC (ARMv9.2 + new NPU for on-device MLLM/VLA), D9-Max 'cerebellum' (EtherCAT ±5μs, dev kit shipping) and E3-R joint-control MCUs — claiming to be the only domestic vendor covering brain + small-brain + all motor-control MCU."
+      what_it_designs: "Cockpit/gateway/ADAS automotive SoCs (X9/G9/V9, X10 AI-cockpit at 80 TOPS with BAIC leading adoption), ASIL-D safety MCUs, robotics compute and motion-control chips."
     sources:
       - url: "https://news.pedaily.cn/202605/563806.shtml"
         title: "芯驰科技完成约1亿美元C轮融资 (投资界)"
@@ -1178,6 +1279,9 @@ design_firms:
       - url: "https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxvyep3941616.shtml"
         title: "芯驰：智驾座舱舱泊一体出货超1400万片，切入具身智能 (中国经营报)"
         date: "2026-05-14"
+      - url: "https://news.qq.com/rain/a/20260921A0C7JU00"
+        title: "芯驰科技完成C+、C++轮融资 合计约3亿元 (科创板日报 via 腾讯)"
+        date: "2026-09-21"
 
   - id: nationz
     name_en: "NSING Technologies (Nations Technologies)"
@@ -1195,7 +1299,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 3}
     narrative:
-      significance: "The security-silicon incumbent — much of China's compliant TPM/TCM supply for government PCs and banks — and an unexpectedly AI-adjacent one: its April 2026 N32H493 is the first domestic MCU designed for 800G/1.6T optical modules. H1 2026 marked the first half-year profit after years of losses (revenue ¥9.06亿 +43.4%, net ¥4.41m); FY2025 revenue ¥13.60亿 with loss halved."
+      significance: "The security-silicon incumbent — much of China's compliant TPM/TCM supply for government PCs and banks — and an unexpectedly AI-adjacent one: its April 2026 N32H493 is the first domestic MCU designed for 800G/1.6T optical modules, now in 量产导入 at tier-1/2 module makers with the M32H5 (1.6T+) next in line. H1 2026 marked the first half-year profit after years of losses (revenue ¥9.06亿 +43.4%, 归母 net ¥4.41 million) — though ex-items it still lost ¥23.6 million, the chip line (¥4.30亿, +38.1%) roughly balanced by the still-sinking graphite-anode materials arm (¥4.38亿, +50.5% at tiny margins). Two price letters in 2026 (March +15–20%; 11 August, +10–20% effective 1 October) track the analog inflation cycle; H shares listed 23 March 2026 (02701.HK, HK$10.80, ~HK$945m). Live risk flag: outstanding guarantees to subsidiaries (¥1.24bn) equal ~135% of audited net assets. FY2025 revenue ¥13.60亿 with loss halved."
       what_it_designs: "32-bit general/auto MCUs, secure elements/TPM/TCM, BMS PMICs, optical-module control MCUs, IoT RF."
     sources:
       - url: "https://www.cls.cn/detail/2461409"
@@ -1221,7 +1325,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and Q2 2026 delivered a small quarterly profit (¥623k), though H1 2026 as a whole still lost ¥38.4m; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making."
+      significance: "The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and by the H1 2026 report Chipsea is mainland China's only Intel-PCL-and-AMD-AVL dual-certified EC vendor (the 4th globally), shipping into Lenovo with a world-first Zephyr-OS EC co-launched there and the second-gen EC through Intel PCL validation; an edge-BMC for AI-NAS/edge servers is in volume and an ASIL-D automotive MCU is at Tier-1 joint validation after sample light-up. Q2 2026 delivered a small quarterly profit (¥623k), though H1 2026 as a whole still lost ¥38.6m; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making."
       what_it_designs: "High-precision ADC/AFE, health-sensing and haptic SoCs, PC embedded controllers and PD/BMS, MCUs."
     sources:
       - url: "https://paper.cnstock.com/html/2026-03/31/content_2194715.htm"
@@ -1250,12 +1354,15 @@ design_firms:
       list: null
     design_score: {ip_ownership: 3, design_completeness: 4, domain_difficulty: 3, market_readiness: 4}
     narrative:
-      significance: "The state-aligned 'MCU + OS' stack for信创, white goods and automotive body/power domains: scale (300M units/yr), full automotive safety certification chain, and captive specialty-fab backing — plus a February 2025 AUTOSAR pact with CETC's 普华 OS vendor that pairs domestic silicon with a domestic car OS."
-      what_it_designs: "General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines) and supporting RTOS/AUTOSAR software."
+      significance: "The state-aligned 'MCU + OS' stack for信创, white goods and automotive body/power domains: scale (300M units/yr), full automotive safety certification chain, and captive specialty-fab backing — plus a February 2025 AUTOSAR pact with CETC's 普华 OS vendor that pairs domestic silicon with a domestic car OS, deepened in July 2026 when the XC27x series (dual Cortex-M7, ASIL-B, 12×CAN-FD + GbE) completed adaptation to 普华 OrientAIS CP. In early February 2026 XHSC announced its XC38 automotive MCU had taped out on a fully domestic mature process: multi-core ASIL-D lockstep at 400MHz (claims higher DMIPS than comparable Infineon/NXP parts at the same node), targeting e-drive, 800V BMS, ZCU and AEB safety domains, with samples to OEMs/Tier-1s through 2026."
+      what_it_designs: "General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines, plus the XC-series automotive MCUs) and supporting RTOS/AUTOSAR software."
     sources:
       - url: "https://finance.sina.com.cn/roll/2025-03-13/doc-ineppeuc6667756.shtml"
         title: "小华半导体与普华基础软件达成AUTOSAR战略合作 (新浪财经)"
         date: "2025-03-13"
+      - url: "https://www.eetrend.com/content/2026-02/f2758328-6fc3-41f4-9abd-61ce6498e6e0-100598678.html"
+        title: "小华半导体高性能车规处理器XC38流片成功：纯国产工艺、400MHz ASIL-D锁步核 (电子创新网)"
+        date: "2026-02-05"
 
   - id: sinowealth
     name_en: "Sino Wealth Electronic"
@@ -1265,7 +1372,7 @@ design_firms:
     founded: 1994
     location: {city: "Shanghai", province: "Shanghai Municipality", lat: 31.22, lon: 121.42}
     product_focus: "Home-appliance/industrial MCUs (~60% of revenue, domestic leader), battery-management ICs (~30%), AMOLED display drivers"
-    design_scope: "30-year in-house 8/32-bit MCU + BMIC + DDIC lineage; June-July 2025 founder sold 14.2% control to PE/SOE platform 致能工电 (武岳峰-run) — the first 'investor-becomes-operator' MCU control transfer; April 2026 ≤¥1bn placement for auto/industrial and humanoid-robot joint-control MCUs"
+    design_scope: "30-year in-house 8/32-bit MCU + BMIC + DDIC lineage; June-July 2025 founder sold 14.2% control to PE/SOE platform 致能工电 (武岳峰-run) — the first 'investor-becomes-operator' MCU control transfer; ≤¥1bn directed placement to 致能工电 for auto/industrial and humanoid-robot joint-control MCUs planned April 2026, CSRC registration approved late September, issuance still pending as of 11 October"
     node_sophistication: "Mature MCU nodes; no advanced-node exposure"
     entity_list:
       status: false
@@ -1273,7 +1380,7 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 3, domain_difficulty: 3, market_readiness: 4}
     narrative:
-      significance: "Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net +72.9%) recovering — with the control transfer and capital injection a deliberate consolidation play toward automotive/robotics as appliance MCU demand saturates."
+      significance: "Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net ¥71m +72.9% incl. ¥23.8m partnership fair-value gains) recovering — with the control transfer, the pending ≤¥1bn placement (fully subscribed by controlling shareholder 致能工电 in cash; the company now discloses 无实际控制人 status) a deliberate consolidation play toward automotive/robotics as appliance MCU demand saturates. Roadmap disclosed in August: robot-joint control MCU in design with engineering samples targeted H2 2026, a 26-cell EV BMS AFE and first laptop fuel-gauge IC next year, 55nm MCU volume 2027, and a third car-grade MCU (after two shipping since Q3 2025 AEC-Q100 qualification) due within 2026."
       what_it_designs: "Appliance/industrial MCUs, BMICs for tools/batteries, AMOLED DDICs, early automotive MCUs."
     sources:
       - url: "https://m.huxiu.com/article/4495169.html"

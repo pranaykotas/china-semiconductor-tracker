@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (+11.5%), net ¥14.37亿 at 55.6% gross margin; H1 2026 net ¥7.98亿. January 2026: agreed to buy power-semi maker 瑞能半导体 (NXP/WeEn lineage) for ¥1.9 billion, extending the portfolio into power discretes.
+China's specialty-IC national champion — the chip backbone of defense/avionics — and the profitable exception among design houses: FY2025 revenue ¥61.46亿 (+11.5%), net ¥14.37亿 at 55.6% gross margin; H1 2026 revenue ¥34.43亿 (+13.0%), net ¥7.98亿 (+15.3%). January 2026: agreed to buy power-semi maker 瑞能半导体 (NXP/WeEn lineage) for ¥1.9 billion (¥1.52bn in shares at ¥61.45 + ¥380m cash), extending the portfolio into power discretes and, since 瑞能 owns wafer fabs, from pure fabless toward 'fabless+IDM' — the deal was accepted by the SZSE on 15 June 2026 and a revised draft (audit base rolled to 30 June) was disclosed 12 September, still short of a clearance vote as of 11 October. August 2026: its 紫光同芯 unit launched a next-gen 'satellite-terrestrial converged' AI eSIM with China Unicom.
 :::
 
 ## What does this firm design?
@@ -33,6 +33,7 @@ Radiation/aerospace-tolerant CPUs/FPGA/memory/analog, eSIM and secure-element ch
 
 - [紫光国微2026年半年度报告摘要 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-08-15/1225474653.PDF) (15 Aug 2026)
 - [西安紫光国芯启动A股IPO辅导：DRAM/CXL/堆叠存储 (财联社)](https://www.cls.cn/detail/2249957) (07 Jan 2026)
+- [紫光国微关于发行股份及支付现金购买瑞能半导体资产审核问询函回复更新（修订稿）的提示性公告 (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2026-09-12/1225561834.PDF) (12 Sep 2026)
 
 ---
 

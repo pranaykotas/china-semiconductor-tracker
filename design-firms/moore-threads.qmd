@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024 and completed it on the Shanghai STAR Market on December 5, 2025 at an issue price of ¥114.28/share — the stock later traded as high as ¥657.02 intraday. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together. Announced in August 2026 that it was pursuing a secondary listing on the Hong Kong Stock Exchange.
+Founded June 2020 by Zhang Jianzhong, Nvidia's former China general manager; filed for a mainland China IPO in late 2024 and completed it on the Shanghai STAR Market on December 5, 2025 at an issue price of ¥114.28/share — the stock later traded as high as ¥657.02 intraday. Added to the Entity List the same day as Biren (October 17, 2023), underscoring how directly the US targeted China's two leading GPU startups together. On 7 August 2026 its board approved a plan to pursue an H-share listing on the Hong Kong Stock Exchange (announced 9–10 August); a special shareholders' meeting approved the H-share plan (≤10% of post-issuance shares plus a 15% greenshoe) on 28 August 2026, though no CSRC overseas-listing filing or HKEX A1 had been published as of 11 October 2026.
 :::
 
 ## What does this firm design?
 
-Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'China's answer to Nvidia.'
+Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'China's answer to Nvidia.' H1 2026 (filing 9 August): revenue ¥1.736 billion (+147.4% YoY — already more than full-year 2025's ¥1.506 billion), cloud/data-center products 97.5% of sales, headline net loss narrowed 95.7% to ¥11.6 million (still ¥151 million loss on an adjusted basis) with gross margin 56.95%; the Kuae (夸娥) cluster business booked ¥660 million of contracted sales in the half. Next-generation '花港' architecture (unpublished December 2025) targets >100,000-card clusters.
 
 ## Key Facts
 
@@ -32,8 +32,8 @@ Consumer and data-center GPUs, explicitly positioned in domestic coverage as 'Ch
 ## Sources
 
 - [Moore Threads (Wikipedia)](https://en.wikipedia.org/wiki/Moore_Threads) (28 Sep 2026)
-- [Chinese GPU unicorn Moore Threads files for IPO in China](https://technode.com/2024/11/15/chinese-gpu-unicorn-moore-threads-files-for-ipo-in-china/) (15 Nov 2024)
 - [摩尔线程智能科技（北京）股份有限公司首次公开发行股票并在科创板上市招股说明书 (Shanghai Stock Exchange prospectus)](https://static.sse.com.cn/stock/disclosure/announcement/c/202509/002098_20250919_IP6Z.pdf) (19 Sep 2025)
+- [摩尔线程关于筹划发行H股股票并在香港联交所主板上市的提示性公告（公告2026-030）](https://pdf.dfcfw.com/pdf/H2_AN202608091827791238_1.pdf) (09 Aug 2026)
 
 ---
 

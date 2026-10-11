@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The state-aligned 'MCU + OS' stack for信创, white goods and automotive body/power domains: scale (300M units/yr), full automotive safety certification chain, and captive specialty-fab backing — plus a February 2025 AUTOSAR pact with CETC's 普华 OS vendor that pairs domestic silicon with a domestic car OS.
+The state-aligned 'MCU + OS' stack for信创, white goods and automotive body/power domains: scale (300M units/yr), full automotive safety certification chain, and captive specialty-fab backing — plus a February 2025 AUTOSAR pact with CETC's 普华 OS vendor that pairs domestic silicon with a domestic car OS, deepened in July 2026 when the XC27x series (dual Cortex-M7, ASIL-B, 12×CAN-FD + GbE) completed adaptation to 普华 OrientAIS CP. In early February 2026 XHSC announced its XC38 automotive MCU had taped out on a fully domestic mature process: multi-core ASIL-D lockstep at 400MHz (claims higher DMIPS than comparable Infineon/NXP parts at the same node), targeting e-drive, 800V BMS, ZCU and AEB safety domains, with samples to OEMs/Tier-1s through 2026.
 :::
 
 ## What does this firm design?
 
-General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines) and supporting RTOS/AUTOSAR software.
+General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines, plus the XC-series automotive MCUs) and supporting RTOS/AUTOSAR software.
 
 ## Key Facts
 
@@ -32,6 +32,7 @@ General/motor/automotive/ultra-low-power 32-bit MCUs (HC32 lines) and supporting
 ## Sources
 
 - [小华半导体与普华基础软件达成AUTOSAR战略合作 (新浪财经)](https://finance.sina.com.cn/roll/2025-03-13/doc-ineppeuc6667756.shtml) (13 Mar 2025)
+- [小华半导体高性能车规处理器XC38流片成功：纯国产工艺、400MHz ASIL-D锁步核 (电子创新网)](https://www.eetrend.com/content/2026-02/f2758328-6fc3-41f4-9abd-61ce6498e6e0-100598678.html) (05 Feb 2026)
 
 ---
 

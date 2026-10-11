@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing one: FY2025 revenue ¥37.26亿 (-17.0%) with the company's first-ever annual loss (¥-2.93亿), widened to ¥-3.71亿 in H1 2026 as fab depreciation hit. Its volume L-PAMiD with domestic filter+switch+external PA is the first credible Chinese mid/high-tier module.
+The boldest bet by a Chinese design house to conquer RF filters — the last big chokepoint held by Broadcom/Murata/Skyworks — and the financially punish-ing one: FY2025 revenue ¥37.26亿 (-17.0%) with the company's first-ever annual loss (¥-2.93亿), deepening to ¥-3.71亿 in H1 2026 (interim 25 Aug, on revenue +6.2%) as fab depreciation hit. The industrial payoff is arriving even as P&L suffers: the 6-inch SAW line runs at 15,000 wafers/month, the 12-inch RF platform at ~9,000 wafers/month SOI capacity (expandable within existing cleanroom), yield 'first-tier' per management, and the fully-domestic-supply-chain L-PAMiD entered large-scale batch shipment at multiple flagship-brand customers in H2 2026 — so much so that L-PAMiD shipment growth is the core KPI of the company's 2026–28 equity incentive.
 :::
 
 ## What does this firm design?

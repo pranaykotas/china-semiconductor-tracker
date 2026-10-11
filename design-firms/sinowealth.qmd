@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net +72.9%) recovering — with the control transfer and capital injection a deliberate consolidation play toward automotive/robotics as appliance MCU demand saturates.
+Bellwether of China's most commoditized MCU market: FY2025 revenue ¥12.84亿 (-4.4%) in a price war, H1 2026 ¥7.22亿 (+10.8%, net ¥71m +72.9% incl. ¥23.8m partnership fair-value gains) recovering — with the control transfer, the pending ≤¥1bn placement (fully subscribed by controlling shareholder 致能工电 in cash; the company now discloses 无实际控制人 status) a deliberate consolidation play toward automotive/robotics as appliance MCU demand saturates. Roadmap disclosed in August: robot-joint control MCU in design with engineering samples targeted H2 2026, a 26-cell EV BMS AFE and first laptop fuel-gauge IC next year, 55nm MCU volume 2027, and a third car-grade MCU (after two shipping since Q3 2025 AEC-Q100 qualification) due within 2026.
 :::
 
 ## What does this firm design?

@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Standard-bearer for high-end analog indigenization — real share in telecom base-station signal chains and now AI-server/optical-module AFEs, the categories ADI/TI margin most jealously guard. FY2025 revenue ¥21.42亿 (+75.7%, turnaround to profit) and H1 2026 ¥16.06亿 (+69.2%, net +368%) after nine straight quarters of sequential growth.
+Standard-bearer for high-end analog indigenization — real share in telecom base-station signal chains and now AI-server/optical-module AFEs, the categories ADI/TI margin most jealously guard. FY2025 revenue ¥21.42亿 (+75.7%, turnaround to profit) and H1 2026 ¥16.06亿 (+69.2%, net ¥3.08亿 +368.5%) after nine straight quarters of sequential growth. The optical-module line now spans 400G/800G/1.6T AFEs at head module vendors with a second top customer starting to ship and 3.2T/NPO/CPO parts in R&D — on 9 October management judged a rumored FCC rule requiring ≥65% US-origin content for 3.2T modules to have no near-term impact, since those parts aren't shipping yet; the 创芯微 power-management acquisition has effectively completed (its ¥383m consideration convertible bonds redeemed to a ¥100 residual by 8 October).
 :::
 
 ## What does this firm design?

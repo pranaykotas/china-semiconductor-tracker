@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded July 2015; listed on the Hong Kong Stock Exchange, one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation. Full-year 2025 revenue reached ¥3.758 billion (+57.7% YoY), while R&D spending grew even faster, up 63.3% to ¥5.154 billion — deliberately outspending revenue growth. H1 2026 revenue was ¥2.055 billion (+32.9% YoY) with ¥1.356 billion gross profit.
+Founded July 2015; listed on the Hong Kong Stock Exchange (9660.HK, entered the Hang Seng Tech Index March 2025 and the blue-chip Hang Seng Index itself at ~0.5% weight by the August 2026 review), one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation. Full-year 2025 revenue reached ¥3.758 billion (+57.7% YoY), while R&D spending grew even faster, up 63.3% to ¥5.154 billion — deliberately outspending revenue growth. H1 2026 (HKEX interim, 31 August) revenue was ¥2.055 billion (+32.9% YoY) with ¥1.356 billion gross profit (66% margin), licensing/services ¥1.129 billion (+52.7%) and chip shipments 2.218 million sets; the cumulative Journey milestone passed 15 million chips in September 2026, ~500 lifetime vehicle design wins, and city-NOA installed share rose to 22.8% (No. 2 behind Nvidia). VW/CARIAD converted early to become a ~9.9% strategic shareholder (closed 3 August 2026), with the Carizon joint venture's full-scenario AD (Journey 6 + HSD) entering mass production across seven new VW-group EV models; HSD V2.0's active-use ratio exceeds 88% of equipped vehicles, the cockpit-driving fusion '星空' SoC targets Q4 2026 production, and Journey 7 tape-out is expected around Q2 2027.
 :::
 
 ## What does this firm design?
@@ -35,6 +35,7 @@ Automotive-grade processors and the accompanying software platform for intellige
 - [地平线的2025年：收入和亏损都扩大了 (第一财经)](https://www.yicai.com/news/103096908.html) (20 Mar 2026)
 - [地平线半年业绩预告：营收高增、账面“浮盈” 经营亏损小幅扩大 (财联社)](https://www.cls.cn/detail/2432692) (21 Jul 2026)
 - [地平线机器人2026半年报：营收、毛利双增 (经济参考网 via 同花顺)](https://stock.10jqka.com.cn/20260902/c679536300.shtml) (02 Sep 2026)
+- [地平线机器人2026中期业绩公告 (HKEXnews)](https://www.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101010_c.pdf) (31 Aug 2026)
 
 ---
 

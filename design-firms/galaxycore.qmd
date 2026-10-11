@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment in whether a Chinese design house can run its own 12-inch specialty fab: FY2025 revenue ¥77.82亿 (+21.9%) but net profit collapsed to ¥0.51亿 as the Lingang line absorbed depreciation; September 2026 plan to raise ~¥4.2 billion more for capacity. H1 2026: revenue ¥41.53亿, net ¥7.3 million.
+The volume counterweight to OmniVision/SmartSens in domestic CIS — top-4 by unit shipments globally, 1.45 billion CIS units in 2025 — and a live experiment in whether a Chinese design house can run its own 12-inch specialty fab: FY2025 revenue ¥77.82亿 (+21.9%) but net profit collapsed to ¥0.51亿 as the Lingang line absorbed depreciation; a ≤¥42亿 placement for 12-inch CIS capacity expansion was pre-announced 18 September 2026 (exchange acceptance/CSRC registration still pending as of 11 October). H1 2026: revenue ¥41.53亿 (+14.2%), net ¥7.3 million (扣非 -¥31 million), with the Lingang fab running at full capacity and fully converted to the 50MP platform — cumulative 50MP shipments passed 100 million units — and the first domestically-made 12-inch LOFIC automotive sensor (3MP GC3903, 140dB) fabbed in-house in June.
 :::
 
 ## What does this firm design?

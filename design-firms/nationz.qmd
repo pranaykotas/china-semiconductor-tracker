@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The security-silicon incumbent — much of China's compliant TPM/TCM supply for government PCs and banks — and an unexpectedly AI-adjacent one: its April 2026 N32H493 is the first domestic MCU designed for 800G/1.6T optical modules. H1 2026 marked the first half-year profit after years of losses (revenue ¥9.06亿 +43.4%, net ¥4.41m); FY2025 revenue ¥13.60亿 with loss halved.
+The security-silicon incumbent — much of China's compliant TPM/TCM supply for government PCs and banks — and an unexpectedly AI-adjacent one: its April 2026 N32H493 is the first domestic MCU designed for 800G/1.6T optical modules, now in 量产导入 at tier-1/2 module makers with the M32H5 (1.6T+) next in line. H1 2026 marked the first half-year profit after years of losses (revenue ¥9.06亿 +43.4%, 归母 net ¥4.41 million) — though ex-items it still lost ¥23.6 million, the chip line (¥4.30亿, +38.1%) roughly balanced by the still-sinking graphite-anode materials arm (¥4.38亿, +50.5% at tiny margins). Two price letters in 2026 (March +15–20%; 11 August, +10–20% effective 1 October) track the analog inflation cycle; H shares listed 23 March 2026 (02701.HK, HK$10.80, ~HK$945m). Live risk flag: outstanding guarantees to subsidiaries (¥1.24bn) equal ~135% of audited net assets. FY2025 revenue ¥13.60亿 with loss halved.
 :::
 
 ## What does this firm design?

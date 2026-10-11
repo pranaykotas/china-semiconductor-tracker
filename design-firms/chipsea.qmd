@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and Q2 2026 delivered a small quarterly profit (¥623k), though H1 2026 as a whole still lost ¥38.4m; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making.
+The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and by the H1 2026 report Chipsea is mainland China's only Intel-PCL-and-AMD-AVL dual-certified EC vendor (the 4th globally), shipping into Lenovo with a world-first Zephyr-OS EC co-launched there and the second-gen EC through Intel PCL validation; an edge-BMC for AI-NAS/edge servers is in volume and an ASIL-D automotive MCU is at Tier-1 joint validation after sample light-up. Q2 2026 delivered a small quarterly profit (¥623k), though H1 2026 as a whole still lost ¥38.6m; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making.
 :::
 
 ## What does this firm design?

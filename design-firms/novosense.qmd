@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's most credible challenger to ADI/TI in automotive/energy infrastructure analog, where certification — not lithography — is the moat. Revenue is exploding (+71.8% FY2025 to ¥33.68亿; +66.7% H1 2026 to ¥25.40亿 with first profit turnaround), but core operations remain barely breakeven — the 'buy share with R&D' stage of the climb.
+China's most credible challenger to ADI/TI in automotive/energy infrastructure analog, where certification — not lithography — is the moat. Revenue is exploding (+71.8% FY2025 to ¥33.68亿; +66.7% H1 2026 to ¥25.40亿), and the accounting turnaround arrived in H1 — net profit ¥67.6m, but ex-non-recurring items still -¥47.9m, with the true inflection being Q2's first positive adjusted quarter (+¥6.9m) partly flattered by PE-fund fair-value gains. Automotive now 32.4% of revenue (19.5亿 cumulative car chips) and pan-energy ~58%; the MagIc magnetic-sensor consolidation lifted sensors to the #2-margin line, a third-generation isolation platform (packages 50–70% smaller) launched 10 October, and the automotive HSMT SerDes (6.4Gbps) is verified at a head ADAS customer with mass-production adoption in progress — the 'buy share with R&D' stage of the climb, now with price-hike leverage as TI/ADI repriced in September 2026.
 :::
 
 ## What does this firm design?

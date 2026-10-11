@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the GPU listing frenzy; FY2025 revenue ¥16.44亿 (+121%) still loss-making (-¥7.89亿), H1 2026 revenue ¥13.24亿 with headline net profit turned positive only on non-recurring items. Its C600 fully-domestic-chain closure is the flagship proof that AI chips can be built without TSMC.
+The 'second stock of domestic GPU' — STAR IPO 17 December 2025 raised ¥41.97亿 with a +693% first day and ¥330 billion initial cap, the peak moment of the GPU listing frenzy; FY2025 revenue ¥16.44亿 (+121%) still loss-making (-¥7.89亿). H1 2026 (formal filing, 30 August): revenue ¥13.24亿 (+44.7%) with headline net profit turning positive at ¥6.12亿 — but only because of ¥8.87亿 of non-cash fair-value gains; excluding non-recurring items the company still lost ¥4900万, and gross margin was 57.2%. A tranche of IPO offline-allotment shares (3.49% of the company) came off lock-up on 17 September, and the market cap had eased to roughly ¥2,080亿 by late September. A plan to issue up to 5% new H shares in Hong Kong was announced 12 June 2026, pending CSRC filing. Its C600 fully-domestic-chain closure is the flagship proof that AI chips can be built without TSMC.
 :::
 
 ## What does this firm design?
 
-Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI software stack.
+Data-center GPGPU chips/cards, GPU IP, MetaXLink cluster interconnect, AI software stack. Flagship 曦云C600 — the first high-performance GPU on a fully domestic process chain, with HBM3e and FP8 support, having passed China's national security-certification (安可) evaluation — entered mass production and delivery in H1 2026 (May); the C700 (H100-class) is in core verification with tape-out targeted within 2026 and volume around H2 2027; MXMACA reports compatibility for 6,000+ CUDA applications.
 
 ## Key Facts
 

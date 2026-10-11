@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Won the flagship fast-charging socket from TI/Qualcomm/NXP inside Xiaomi/OPPO/vivo/Honor/Samsung flagships — import substitution essentially completed — then hit the ceiling of that niche: FY2025 revenue ¥32.61亿 (+27.0%) but profit -22%, and the first half-year loss post-IPO in H1 2026 (-¥44.9 million) as smartphone demand softened. The automotive (+140.6%) and AI-wearable pivot is the sector's escape route in miniature.
+Won the flagship fast-charging socket from TI/Qualcomm/NXP inside Xiaomi/OPPO/vivo/Honor/Samsung flagships — import substitution essentially completed — then hit the ceiling of that niche: FY2025 revenue ¥32.61亿 (+27.0%) but profit -22%, and the first half-year loss post-IPO in H1 2026 (-¥44.87 million on revenue of just ¥15.46亿, +5.2%) as smartphone demand softened, gross margin slipping to 35.3%. The pivot is now explicit in guidance rather than realized in numbers: consumer remains 87% of sales, AI-compute power revenue only ~¥20 million in H1, but management targets a 60A multiphase server controller in small-batch by year-end, 90A volume in 2027, 800V rack-power products within two years, and roughly doubling automotive revenue (from a ¥2亿+ base — the '+140.6% H1' figure circulating in sell-side notes is not supported by the filing); DrMOS SD13050/CPU controllers shipped into AI-server designs in August–September. A ¥1.587 billion convertible completed June 2026 funds the same escape route.
 :::
 
 ## What does this firm design?
