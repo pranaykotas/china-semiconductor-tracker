@@ -1,0 +1,62 @@
+---
+title: "Sanan IC (Xiamen / Quanzhou compound fabs)"
+subtitle: "Sanan IC (Sanan Optoelectronics foundry arm) | Compound Semiconductor"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The foundry arm of Sanan Optoelectronics (separate from the Changsha SiC IDM and the Jinan ST JV this tracker already carries) — 三安集成's Xiamen 6-inch line was China's first compound foundry, and its GaN RF PA work won a National Science & Technology Progress first prize (2023). 2025 IC-segment revenue ¥29.16亿 (+2.1%), with filter capacity at 150 million die/month. Quanzhou campus plan reported at ~$4.6B in Wikipedia-era coverage; treat as site-plan not verified total.
+:::
+
+**Chinese name:** 厦门市三安集成电路有限公司 / 泉州市三安集成电路有限公司 (Sān'ān Jíchéng Diànlù)
+
+## What does this facility make?
+
+GaAs/GaN RF, SiC and InP optoelectronic wafers as a foundry; SAW filters for mobile.
+
+## Why does it matter?
+
+RF front-end localization (GaAs/GaN PA + domestic SAW) is a direct answer to the Qualcomm/Skyworks chokepoint; governance flag: from June 2026 creditors petitioned to restructure the holding companies 厦门三安电子/三安集团 (real controllers' 留置 episode May-Oct 2026) — fabs operating, ownership under restructuring review.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Sanan IC (Sanan Optoelectronics foundry arm) |
+| **Type** | Compound Semiconductor |
+| **Category** | Private |
+| **Capability** | China's first 6-inch compound-semiconductor foundry (est. 2014): GaAs RF HBT/pHEMT, GaN-on-SiC RF PA (5G base stations), GaN power, InP optical; Quanzhou line: SAW/TC-SAW filters (~150M die/month), IATF16949-certified 2022 |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Private |
+| **Location** | Xiamen, Fujian |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.6/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2014** — 三安集成 established — China's first 6-inch compound-semiconductor foundry line
+- **Jan 2017** — Quanzhou compound fab line enters operation (SAW/RF)
+- **Jun 2026** — Creditor restructuring petition filed against Sanan holding entities; fabs continue production
+
+## Sources
+
+- [三安光电2025年半年度报告（三安集成营收/产线） (巨潮资讯)](http://static.cninfo.com.cn/finalpage/2025-08-28/1224589218.PDF) (28 Aug 2025)
+- [三安集团债务重整申请：化合物半导体产线现状 (界面新闻)](https://www.jiemian.com/article/14576535.html) (20 Jun 2026)
+- [Sanan IC — foundry platform page (GaAs/GaN/SiC/InP/SAW)](https://www.sanan-ic.com/en/news-23) (01 Oct 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

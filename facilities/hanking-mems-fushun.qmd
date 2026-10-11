@@ -1,0 +1,60 @@
+---
+title: "Hanking MEMS (Liaoning)"
+subtitle: "Hanking Microelectronics (Liaoning) Co., Ltd. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A Wikipedia-dump survivor check: the 'Hanking Electronics, Fushun' row is real but obscure — 罕王微电子 is not the same company as Suzhou Hanking (a fabless SAW designer, whose separate Changshu line 臻芯微 went live 2022-10). Listed on MIIT's official IC-producer roster and a 2017 'Made in China 2025' showcase line.
+:::
+
+**Chinese name:** 罕王微电子（辽宁）有限公司 (Hǎnwáng Wēidiànzǐ (Liáoníng))
+
+## What does this facility make?
+
+MEMS sensors (pressure, inertial, gas) on 200mm, IDM + MUMPs-style foundry services.
+
+## Why does it matter?
+
+Included with an explicit low-confidence flag: the site is live and the company still exists, but there is no independent 2025-26 news flow confirming utilization or viability — a candidate for the 'operational-but-quiet' grey zone that this tracker marks as not verified rather than dropping.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hanking Microelectronics (Liaoning) Co., Ltd. |
+| **Type** | Fab |
+| **Category** | Private |
+| **Capability** | China's first dedicated 8-inch pure-MEMS production line (est. 2011, Shenfu New Area); pressure/inertial/gas MEMS IDM + foundry; phase-1 ~10,000 wafers/month (marketed to 30k incl. WLP) |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Private |
+| **Location** | Fushun, Liaoning |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.6/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.6/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **May 2011** — Company established in Shenfu New Area
+- **Apr 2017** — 8-inch MEMS line showcased in MIIT Made-in-China-2025 materials; on official IC-producer list
+
+## Sources
+
+- [罕王微电子（辽宁）有限公司官网（8英寸MEMS产线）](https://hankingmems.cn/) (01 Oct 2026)
+- [国内首条8英寸MEMS专线：罕王微电子 (国家半导体产业网)](https://www.semi.org.cn/site/semi/article/f37dee0e2d1c42a99efed8927977d6bb.html) (01 Jun 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

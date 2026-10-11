@@ -26,7 +26,7 @@ SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-ow
 | **Company** | SMIC |
 | **Type** | Fab |
 | **Category** | JV |
-| **Capability** | 12-inch (300mm) wafer foundry, 28nm |
+| **Capability** | 12-inch (300mm) wafer foundry, 28nm — plus the site's older 8-inch (200mm) line (operational since Dec 2014, 0.35µm–90nm, ~55,000 wafers/month planning basis) |
 | **Status** | Operational |
 | **Investment** | $2,350M |
 | **Funding Source** | Local Govt |
@@ -47,6 +47,8 @@ SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-ow
 
 ## Project Timeline
 
+- **Mar 2008** — SMIC Shenzhen entity registered (registered capital $2.415B) — predecessor of the 8-inch line at 坪山
+- **Dec 2014** — 8-inch (200mm) line enters production, 0.35µm–90nm
 - **Mar 2021** — SMIC and the Shenzhen municipal government announce a $2.35 billion joint venture for a new 28nm foundry
 - **Dec 2022** — Fab enters production, targeting an eventual ~40,000 wafers/month
 

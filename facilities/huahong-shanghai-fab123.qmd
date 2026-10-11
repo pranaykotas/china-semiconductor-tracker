@@ -1,0 +1,60 @@
+---
+title: "Hua Hong Shanghai (Fab 1/2/3, 200mm)"
+subtitle: "Hua Hong Semiconductor | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Hua Hong's original Shanghai 200mm base — the three fabs the tracker missed while following the Wuxi 12-inch expansion; combined capacity ~180,000 wafers/month puts them among the largest 8-inch clusters in China. The listed A-share entity was renamed 华虹宏力 on 8 June 2026, and a formal '8-inch fab optimization & upgrade' program (2023 raise) is expanding rather than winding them down.
+:::
+
+**Chinese name:** 上海华虹宏力半导体制造有限公司 (Shànghǎi Huáhóng Hónglì Bàndǎotǐ Zhìzào Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+Mature specialty wafers — embedded non-volatile memory, power discretes, BCD analog, RF — for automotive, industrial and consumer customers.
+
+## Why does it matter?
+
+With TSMC and Samsung shrinking global 8-inch capacity from 2025, these fabs ran above 100% utilization through 2025 with >10% price hikes in 2026 — China's legacy-node base is now the world's marginal supplier of mature wafers, which is the strategic argument for the 2026 export-control debates over 'legacy chip' security.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hua Hong Semiconductor |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | Three 8-inch (200mm) fabs — Jinqiao (Fab1, 9091-project heritage) and two Zhangjiang lines (Fab2/3 from the 2009 Hongli/Grace consolidation); ~180,000–190,000 wafers/month total; 1µm–90nm eNVM, power, BCD, RF |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jun 2009** — Hua Hong merges Honghai/Hongli/Huali design+fab assets into 华虹宏力, consolidating the Zhangjiang 8-inch fabs
+- **Jun 2026** — STAR-listed entity renamed 华虹宏力; 8-inch upgrade program running; utilization >100%
+
+## Sources
+
+- [华虹宏力里程碑（金桥/张江8英寸厂沿革）](https://www.huahonggrace.com/s/about_milestone.php) (01 Oct 2026)
+- [华虹8英寸：产能约19万片/月、提价10%+ (讯石光通讯/芯闻)](https://www.infoobs.com/article/20260122/70699.html) (22 Jan 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -1,0 +1,62 @@
+---
+title: "Texas Instruments Chengdu"
+subtitle: "Texas Instruments | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+A Wikipedia cross-check correction: TI Chengdu is NOT a 300mm fab (that common claim conflates the 2017 300mm bumping line). It is TI's 200mm analog fab, bought in October 2010 from Cension — which SMIC had been operating — plus back-end sites, under a 15-year strategy worth up to $1.69 billion; CDAT2 assembly/test entered production after November 2022.
+:::
+
+**Chinese name:** 德州仪器半导体制造（成都）有限公司 (Dézhōu Yíqì Chéngdū)
+
+## What does this facility make?
+
+Analog and power management chips for industrial/automotive markets; packaging and test for TI products.
+
+## Why does it matter?
+
+The main foreign-owned wafer fab in western China and the clearest counter-example to the 'foreign majors are exiting China' narrative in 2025-26: while TI closes 150mm fabs in the US/Europe, its Chengdu integrated site stays in production, and the tracker's Chengdu cluster (Intel ATP + TI fab) now matches what actually exists.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Texas Instruments |
+| **Type** | Fab |
+| **Category** | Foreign-Invested |
+| **Capability** | 200mm analog/power wafer fab (acquired from Cension, formerly SMIC-operated, 2010) + wafer test, assembly/test (CDAT/CDAT2) and a 300mm wafer-bumping line — TI's first fully-integrated site outside the United States |
+| **Status** | Operational |
+| **Investment** | $1,690M |
+| **Funding Source** | Foreign |
+| **Location** | Chengdu, Sichuan |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Oct 2010** — TI opens its first China manufacturing plant — 200mm fab acquired from Cension (ex-SMIC-operated)
+- **Apr 2017** — 300mm wafer-bumping (not a wafer fab) facility announced
+- **Nov 2022** — CDAT2 assembly/test site announced entering production; second A/T building completed 2021-08
+
+## Sources
+
+- [TI Opens First Semiconductor Manufacturing Plant in China (TI Newsroom)](https://www.ti.com/about-ti/newsroom/news-releases/2010/2010-10-14-texas-instruments-opens-the-company-s-first-semiconductor-manufacturing-plant-in-china.html) (14 Oct 2010)
+- [TI buys former SMIC-operated fab in Chengdu (EDN)](https://www.edn.com/ti-buys-former-smic-fab-in-chengdu) (15 Oct 2010)
+- [进博会：德州仪器成都第二封装测试厂即将投产 (界面新闻)](https://www.jiemian.com/article/8352881.html) (07 Nov 2022)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

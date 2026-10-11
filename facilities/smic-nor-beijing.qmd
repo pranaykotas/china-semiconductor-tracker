@@ -1,0 +1,63 @@
+---
+title: "SMIC Beijing NORIC (B1/B2A, Yizhuang)"
+subtitle: "SMIC | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+SMIC's original Beijing campus — 中芯北京 (registered July 2002, its first 12-inch site) and 中芯北方 (NORIC, established July 2013 with a $3.59 billion initial investment) — the mature-node workhorse the tracker had missed while covering the newer 中芯京城 JV: NORIC ran at 100.76% utilization in Jan–Aug 2025 and earned ¥11.58 billion net in 2024, SMIC's 'cash cow'.
+:::
+
+**Chinese name:** 中芯国际集成电路制造（北京）有限公司 / 中芯北方集成电路制造（北京）有限公司 (Zhōngxīn Běijīng / Zhōngxīn Běifāng)
+
+## What does this facility make?
+
+28nm-and-above logic, RF, embedded memory and CIS wafers on two 300mm lines.
+
+## Why does it matter?
+
+September 2025: SMIC announced it would buy out NORIC's remaining 49% (¥40.601 billion, share-and-cash at ¥74.20/share, valuing NORIC well above the ¥37.4 billion transaction basis); approved by the SSE M&A committee 11 May 2026 — the largest STAR-market M&A — and completed via HKEX disclosure 24 June 2026. Consolidating the mature-node cash cow inside the listed company shows how central 28nm economics have become to China's foundry champion.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SMIC |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch (300mm) mature-node foundry — two 35,000 wafers/month lines (L1: 40/28nm; L2: 28nm HKMG), 65–28nm logic/RF/eNVM/CIS; reached 75,000 wafers/month full design capacity in 2022 |
+| **Status** | Operational |
+| **Investment** | $3,590M |
+| **Funding Source** | Big Fund I |
+| **Location** | Beijing, Beijing Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.9/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jul 2013** — 中芯北方 (NORIC) established; initial total investment $3.59 billion
+- **Jun 2016** — First NORIC line (L1, 40/28nm) reaches production
+- **Jan 2022** — Both lines combined reach 75,000 wafers/month design capacity
+- **Jun 2026** — SMIC's ¥40.6 billion buyout of the remaining 49% completed — NORIC now wholly owned
+
+## Sources
+
+- [406亿吞下中芯北方：SMIC北京三厂版图（北京/北方/京城） (每日经济新闻)](https://www.nbd.com.cn/articles/2025-09-08/4053282.html) (08 Sep 2025)
+- [科创板最大并购过会：中芯国际406亿元收购中芯北方49%股权 (21世纪经济报道)](https://news.qq.com/rain/a/20260511A07YLO00) (11 May 2026)
+- [中芯国际：完成收购中芯北方少数股权 通函 (HKEXnews)](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/2026062401102_c.pdf) (24 Jun 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

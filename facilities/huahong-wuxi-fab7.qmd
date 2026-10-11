@@ -1,0 +1,63 @@
+---
+title: "Hua Hong Wuxi (Fab 7, 12-inch specialty)"
+subtitle: "Hua Hong Semiconductor | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+Hua Hong's FIRST Wuxi 12-inch fab — the line that broke ground 2 March 2018 and took its first wafers 17 September 2019 — which this tracker had missed entirely while covering the newer Fab 9 (Phase II) and Phase 3. This is also a naming correction: Wikipedia and secondary sources label the Wuxi site 'Fab 7'; the $6.7B Phase-II fab is Fab 9. Design capacity grew from the original 40,000/month (phase 1, $2.5B of a ~10-year $10B site plan) to ~95,000/month installed, running above 100% utilization through 2025.
+:::
+
+**Chinese name:** 华虹半导体（无锡）有限公司 (Huáhóng Bàndǎotǐ (Wúxī))
+
+## What does this facility make?
+
+12-inch power semiconductors for EVs, PV, and industrial applications — IGBTs, MOSFETs, BCD analog — plus eNVM and RF platforms.
+
+## Why does it matter?
+
+Fab 7 is where China's 12-inch power-semiconductor migration started; its >100% utilization and the group-wide 2026 8-inch price hikes (>10%) define the supply picture for domestic EV power electronics. The Wuxi campus's three-way split (Fab7 / Fab9 / Phase3) is why this tracker keeps per-phase entries.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hua Hong Semiconductor |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch specialty power — 90nm/65/55nm IGBT, MOSFET, BCD, eNVM; world's first 12-inch power-device pure-foundry line; design 40,000 wafers/month, installed ~95,000/month, monthly input >100,000-equivalent reported 2025 |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Wuxi, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Mar 2018** — Wuxi 12-inch specialty fab (Fab 7 / 一期) breaks ground — $2.5B phase 1 of ~$10B site plan
+- **Sep 2019** — First wafers out (55nm power products); world's first 12-inch pure power-device foundry line
+- **May 2021** — Phase 1 reaches its 40,000 wafers/month design capacity ahead of schedule
+- **Dec 2025** — Installed capacity ~95,000 wafers/month; group utilization >100% (106.1% FY2025)
+
+## Sources
+
+- [华虹半导体（无锡）有限公司 — 华虹七厂（官方）](https://www.huahong.com.cn/?id=9&m=channel) (01 Oct 2026)
+- [华虹无锡项目大事记：2018开工、2019投片、2021达产 (格林微)](https://greenmicro.net/article/hyzx/2014.html) (01 Jun 2026)
+- [华虹无锡：二期2024年12月投产、三期启动招标 (央视)](https://business.cctv.com/2026/05/22/ARTIg1aTwIezWj9GZzPPsZCs260522.shtml) (22 May 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

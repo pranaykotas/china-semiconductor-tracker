@@ -1,0 +1,62 @@
+---
+title: "HSMC Wuhan (Hongxin Semiconductor — cancelled)"
+subtitle: "Wuhan Hongxin Semiconductor Manufacturing Co. (HSMC) | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The emblematic China fab-boom failure and this tracker's first explicit Cancelled entry (the schema always had the status): a 90%-shell-owned '128-billion-yuan 14nm' project that spent ~¥15.3 billion by end-2019, staged a fake production line for investors, took delivery of an ASML NXT:1980Di DUV scanner (repeatedly misreported in Chinese media as 'EUV') in Dec 2019, and mortgaged it for ¥580 million in Jan 2020.
+:::
+
+**Chinese name:** 武汉弘芯半导体制造有限公司 (Wǔhàn Hóngxīn Bàndǎotǐ)
+
+## What does this facility make?
+
+Nothing — unfinished shells and two vacant dormitory towers; state takeover Nov 2020, staff cut Feb 2021, renamed 武汉新工现代制造 and deregistered 29 June 2021.
+
+## Why does it matter?
+
+HSMC triggered the 2020-21 central-level cleanup of rogue semiconductor pledges and the 'new-type举国体制' debate over local-government fab financing; site reuse as of 2025-26 is not verified. Keeping cancelled projects in the tracker matters: the denominator of announced Chinese fabs is as analytically important as the operational numerator.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Wuhan Hongxin Semiconductor Manufacturing Co. (HSMC) |
+| **Type** | Fab |
+| **Category** | Private |
+| **Capability** | Never produced — planned 14nm/7nm logic fab + advanced packaging (claimed ~¥128B); ~300 of 3,560 planned tools ever received |
+| **Status** | Cancelled |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Wuhan, Hubei |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 4.4/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**4.4/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Nov 2017** — Registered in Wuhan Linkonggang (Dongxihu) with claimed ¥128B plan
+- **Dec 2019** — ASML NXT:1980Di DUV tool arrives — the only major tool ever delivered
+- **Nov 2020** — State takes over; company deregistered 29 June 2021
+
+## Sources
+
+- [武汉弘芯（维基百科条目，含ASML/DUV误报澄清）](https://zh.wikipedia.org/zh-hans/%E6%AD%A6%E6%BC%A2%E5%BC%98%E8%8A%AF) (30 Sep 2026)
+- [弘芯破产调查：注册资本20亿实缴2亿 (每日经济新闻)](https://www.nbd.com.cn/rss/zaker/articles/1499833.html) (22 May 2024)
+- [复盘武汉弘芯：3560台设备只到了300台 (电子工程专辑)](https://www.eet-china.com/mp/a197317.html) (10 Jun 2024)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

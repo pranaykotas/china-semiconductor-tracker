@@ -1,0 +1,61 @@
+---
+title: "Hejian Chip Manufacturing Suzhou (UMC 8N)"
+subtitle: "Hejian Technology (Suzhou) Co., Ltd. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+UMC's mainland 200mm fab (Fab 8N) — established 2001-11, production since May 2003, controlled by UMC since March 2013; a rare Taiwan-controlled fab operating on mainland soil, and still running at high utilization per UMC's mid-2025 statements, raising prices with the 8-inch cycle in 2026. A planned STAR IPO (filed March 2019) was withdrawn July 2019 over control-chain questions; a frequently repeated 'sold to a local group in 2018' claim found NO supporting source and is not adopted here.
+:::
+
+**Chinese name:** 和舰芯片制造（苏州）股份有限公司 (Héjiàn Xīnpiàn Zhìzào (Sūzhōu))
+
+## What does this facility make?
+
+Mature-node analog/power/flash wafers on 200mm for UMC's customer base from mainland China.
+
+## Why does it matter?
+
+One of the few cross-strait manufacturing assets still intact as of 2026 — alongside UMC Xiamen (联芯) — its continued high utilization and 10-15% 2026 price actions show Taiwan's mature-node operations remain commercially embedded in the mainland cluster.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Hejian Technology (Suzhou) Co., Ltd. |
+| **Type** | Fab |
+| **Category** | Foreign-Invested |
+| **Capability** | 8-inch (200mm) foundry — 0.5µm–0.11µm (eFlash, BCD, CIS, high-voltage platforms); capacity ~64,000/month end-2018, 77,000/month planning basis |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Foreign |
+| **Location** | Suzhou, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **May 2003** — Suzhou Industrial Park 8-inch fab begins production
+- **Mar 2013** — UMC completes takeover of controlling stake in Hejian
+- **Jul 2019** — STAR Market IPO application withdrawn
+
+## Sources
+
+- [和舰芯片科创板招股说明书（股权/制程/产能） (东方财富)](https://pdf.dfcfw.com/pdf/H2_AN201903221308711323_1.pdf) (22 Mar 2019)
+- [联电：和舰、联芯厂区保持高稼动 (新浪财经转全球半导体观察)](https://finance.sina.com.cn/stock/relnews/cn/2025-06-02/doc-ineyskrx9483691.shtml) (02 Jun 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

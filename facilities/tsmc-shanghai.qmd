@@ -6,18 +6,18 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-TSMC's original mainland China manufacturing site, predating the newer Nanjing 12-inch fab, serving legacy/mature-node demand. Exact current process node and wafer size were not independently confirmed in the sources checked for this tracker; recorded here for completeness rather than with the same confidence as the Nanjing entry.
+TSMC's original mainland China manufacturing site — Fab 10, a greenfield 200mm fab in the Songjiang Industrial Zone that began trial production on 1 August 2004 (build cost ~$1.3B per the Wikipedia fab-list; ~74,000 wafers/month planning figure), serving legacy-node analog/sensor/mixed-signal demand and still listed on TSMC's official fab-capacity disclosure in 2025 as one of two overseas 8-inch fabs. Node/wafer specifics are now confirmed against the Wikipedia dump cross-check; current capacity figures are not verified.
 :::
 
 **Chinese name:** 台积电（上海）有限公司 (Táijīdiàn (Shànghǎi) Yǒuxiàn Gōngsī)
 
 ## What does this facility make?
 
-Legacy/mature-node wafers — the precise node and wafer diameter are not confirmed in this tracker's current sources.
+0.25µm–0.11µm-class 200mm foundry wafers — analog, sensor and mixed-signal legacy work, multiple generations behind TSMC's frontier nodes.
 
 ## Why does it matter?
 
-Alongside Nanjing, establishes that TSMC's mainland China footprint is deliberately confined to mature/legacy process technology, not its leading-edge nodes.
+Alongside Nanjing, establishes that TSMC's mainland footprint is deliberately confined to mature/legacy process technology. Not affected by TSMC's Aug 2025 6-inch-exit/8-inch-consolidation plan (which targets Taiwan fabs Fab 5/2, with no verified closure of Fab 10 as of late 2026); it operates under the same annual US tool-export license granted to Nanjing in January 2026.
 
 ## Key Facts
 
@@ -26,9 +26,9 @@ Alongside Nanjing, establishes that TSMC's mainland China footprint is deliberat
 | **Company** | Taiwan Semiconductor Manufacturing Company (TSMC) |
 | **Type** | Fab |
 | **Category** | Foreign-Invested |
-| **Capability** | Wafer foundry, legacy/mature nodes (older than Nanjing's 16nm line) |
+| **Capability** | 8-inch (200mm) wafer foundry — TSMC Fab 10, Songjiang; legacy/mature nodes ~0.25µm–0.13/0.11µm class (no FinFET) |
 | **Status** | Operational |
-| **Investment** | Not disclosed |
+| **Investment** | $1,300M |
 | **Funding Source** | Foreign |
 | **Location** | Shanghai, Shanghai Municipality |
 | **Current Node** | Not yet researched |
@@ -47,11 +47,14 @@ Alongside Nanjing, establishes that TSMC's mainland China footprint is deliberat
 
 ## Project Timeline
 
-*No milestones recorded yet.*
+- **Aug 2004** — Fab 10 (Songjiang) trial production begins — TSMC's first mainland fab
+- **Jan 2026** — Granted US annual export licence for chipmaking tools to China (shared regime with Nanjing)
 
 ## Sources
 
-- [U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC) — notes TSMC 'also has a chipmaking plant in Shanghai'](https://www.cnbc.com/2026/01/01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html) (01 Jan 2026)
+- [U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC) — notes TSMC 'also has a chipmaking plant in Shanghai'](https://www.cnbc.com/2026-01-01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html) (01 Jan 2026)
+- [TSMC Shanghai begins trial production at 8-inch Fab 10 (DigiTimes)](https://www.digitimes.com/news/a20040806PR202.html) (06 Aug 2004)
+- [TSMC Fab Capacity disclosure — 'TSMC China Company Limited' listed as overseas 8-inch fab](https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity) (31 Dec 2025)
 
 ---
 

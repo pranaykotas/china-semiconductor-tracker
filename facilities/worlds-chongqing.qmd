@@ -1,0 +1,61 @@
+---
+title: "Worlds (Chongqing) Semiconductor"
+subtitle: "Worlds (Chongqing) Semiconductor Technology Co., Ltd. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The AOS–Chongqing JV (registered April 2016, ~$1B, US$355M registered capital) that the Wikipedia dump lists as 'Wandai under construction' — actually in volume production since December 2019. In July 2025 AOS agreed to sell ~20.3% (half its stake) for $150M, reportedly to Shanghai Xinwei Technology Group, completing the transition toward Chinese control.
+:::
+
+**Chinese name:** 重庆万国半导体科技有限公司 (Chóngqìng Wànguó Bàndǎotǐ Kējì Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+12-inch MOSFET/analog power devices and modules for consumer, industrial and EV-adjacent applications.
+
+## Why does it matter?
+
+A case study in how a US-designed power-semi fab in inland China changes hands without ever closing — the stake sale to a Shanghai tech-asset group mirrors the broader pattern of foreign-origin fabs being absorbed into domestic capital structures.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Worlds (Chongqing) Semiconductor Technology Co., Ltd. |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch power semiconductors (MOSFET/analog) + on-site assembly/test — marketed at launch as China's first integrated 12-inch power-device fab; phase-1 20,000 wafers/month (volume from Dec 2019), phase-2 target 50,000/month |
+| **Status** | Operational |
+| **Investment** | $1,000M |
+| **Funding Source** | Foreign |
+| **Location** | Chongqing, Chongqing Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Apr 2016** — Company registered in Chongqing Liangjiang New Area (AOS + local state funds)
+- **Jun 2018** — Phase-1 fab + assembly/test trial production (20,000 wafers/month)
+- **Dec 2019** — Volume production begins — first integrated 12-inch power fab claim
+- **Jul 2025** — AOS agrees to sell 20.3% stake (~$150M), reportedly to Shanghai Xinwei
+
+## Sources
+
+- [万国半导体：AOS出售重庆万国20.3%股权予上海新微 (今日头条财经)](https://www.toutiao.com/article/7528305789035938342/) (20 Jul 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

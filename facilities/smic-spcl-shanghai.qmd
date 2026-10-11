@@ -1,0 +1,64 @@
+---
+title: "SMIC South (SPCL) Shanghai — Zhangjiang SN1/SN2"
+subtitle: "SMIC | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The facility this tracker's own About page flagged as its highest-priority missing entry: SMIC's primary advanced-node fab in Zhangjiang — the JV (established 1 December 2016, SMIC holding 41.56% after the December 2025 capital increase took registered capital from $6.5B to $10.077B) that operates SN1, the only confirmed 7nm-class (N+2/N+3) production line in China and the fab behind the Kirin 9000S/9030 story. Unlike the 28nm-era JVs in this tracker, its exposure is not mature-node competition with the West but the export-control frontier itself: EUV is banned, and it produces leading-edge-adjacent logic on DUV multi-patterning.
+:::
+
+**Chinese name:** 中芯南方集成电路制造有限公司 (Zhōngxīn Nánfāng Jíchéng Diànlù Zhìzào Yǒuxiàn Gōngsī)
+
+## What does this facility make?
+
+12-inch FinFET wafers at 14nm and below for Huawei (Kirin SoCs) and, per unverified self-media claims only, other domestic advanced customers; SN2 doubles as an equipment/tool-verification line for domestic toolmakers.
+
+## Why does it matter?
+
+Capacity figures here are the most contested numbers in the tracker: official filings give registered capital but not output, and media claims of ~35k wafers/month N+2 rising to ~70k in 2026 (and Huawei taking a fixed share) come from self-media sources and are explicitly NOT verified by this tracker. What is confirmed by primary/research sources: the December 2025 capital increase with Big Fund III taking an 8.361% stake, and TechInsights' confirmation of N+3 production in the Kirin 9030 (December 2025).
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SMIC |
+| **Type** | Fab |
+| **Category** | JV |
+| **Capability** | 12-inch (300mm) FinFET — SN1 line at 14nm and N+1/N+2/N+3 (7nm-class, unconfirmed officially); SN2 equipment-verification and advanced R&D line; Fab8-P1a legacy 300mm converted to photomask production |
+| **Status** | Operational |
+| **Investment** | Not disclosed |
+| **Funding Source** | Big Fund I |
+| **Location** | Shanghai, Shanghai Municipality |
+| **Current Node** | N+3 — Kirin 9030 class (TechInsights, Dec 2025) |
+| **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span></span>
+**5/5**
+
+## Technology Node Trajectory
+
+- **2020**: 14nm FinFET (SN1)
+- **2023**: N+2 — Kirin 9000S class (TechInsights teardown)
+- **2025**: N+3 — Kirin 9030 class (TechInsights, Dec 2025)
+
+## Project Timeline
+
+- **Dec 2016** — SMIC South (中芯南方) established as SMIC–Big Fund–Shanghai fund JV in Zhangjiang
+- **Sep 2019** — First FinFET lithography tool installed; SN1 targeted at 35,000 wafers/month
+- **Dec 2025** — Capital increase completed: registered capital $6.5B → $10.077B; Big Fund III appears as 8.361% shareholder; SMIC retains control at 41.56%
+
+## Sources
+
+- [中芯南方 Fab8 P1/P2/P3 = SN1/SN2 产线梳理 (是说芯语/EEFocus)](https://www.eefocus.com/article/1833533.html) (27 Apr 2025)
+- [大基金三期新进中芯南方股东，注册资本增至100.77亿美元 (中国基金报)](https://www.chnfund.com/article/AR550085e5-8164-cf1a-401f-3a1e90be8dde) (02 Jan 2026)
+- [TechInsights：麒麟9030采用中芯N+3工艺](https://www.seccw.com/document/detail/id/39438.html) (20 Dec 2025)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -225,7 +225,7 @@ facilities:
       lon: 114.058
     type: "Fab"
     category: "JV"
-    capability: "12-inch (300mm) wafer foundry, 28nm"
+    capability: "12-inch (300mm) wafer foundry, 28nm — plus the site's older 8-inch (200mm) line (operational since Dec 2014, 0.35µm–90nm, ~55,000 wafers/month planning basis)"
     investment:
       total_usd_million: 2350
       source: "Local Govt"
@@ -244,6 +244,10 @@ facilities:
       what_it_makes: "12-inch (300mm) wafers at the 28nm node."
       why_it_matters: "28nm is the workhorse node for automotive, IoT, and power-management chips — the segment of demand China's fabs can serve without needing export-controlled EUV lithography. Chinese industry trade coverage confirms the fab entered production by the end of 2022, on schedule against its original target."
     milestones:
+      - date: "2008-03-20"
+        event: "SMIC Shenzhen entity registered (registered capital $2.415B) — predecessor of the 8-inch line at 坪山"
+      - date: "2014-12-01"
+        event: "8-inch (200mm) line enters production, 0.35µm–90nm"
       - date: "2021-03-18"
         event: "SMIC and the Shenzhen municipal government announce a $2.35 billion joint venture for a new 28nm foundry"
       - date: "2022-12-01"
@@ -1164,10 +1168,10 @@ facilities:
       lon: 121.22
     type: "Fab"
     category: "Foreign-Invested"
-    capability: "Wafer foundry, legacy/mature nodes (older than Nanjing's 16nm line)"
+    capability: "8-inch (200mm) wafer foundry — TSMC Fab 10, Songjiang; legacy/mature nodes ~0.25µm–0.13/0.11µm class (no FinFET)"
     investment:
       total_rmb_100m: null
-      total_usd_million: null
+      total_usd_million: 1300
       source: "Foreign"
     status: "Operational"
     entity_list:
@@ -1180,24 +1184,34 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "TSMC's original mainland China manufacturing site, predating the newer Nanjing 12-inch fab, serving legacy/mature-node demand. Exact current process node and wafer size were not independently confirmed in the sources checked for this tracker; recorded here for completeness rather than with the same confidence as the Nanjing entry."
-      what_it_makes: "Legacy/mature-node wafers — the precise node and wafer diameter are not confirmed in this tracker's current sources."
-      why_it_matters: "Alongside Nanjing, establishes that TSMC's mainland China footprint is deliberately confined to mature/legacy process technology, not its leading-edge nodes."
-    milestones: []
+      significance: "TSMC's original mainland China manufacturing site — Fab 10, a greenfield 200mm fab in the Songjiang Industrial Zone that began trial production on 1 August 2004 (build cost ~$1.3B per the Wikipedia fab-list; ~74,000 wafers/month planning figure), serving legacy-node analog/sensor/mixed-signal demand and still listed on TSMC's official fab-capacity disclosure in 2025 as one of two overseas 8-inch fabs. Node/wafer specifics are now confirmed against the Wikipedia dump cross-check; current capacity figures are not verified."
+      what_it_makes: "0.25µm–0.11µm-class 200mm foundry wafers — analog, sensor and mixed-signal legacy work, multiple generations behind TSMC's frontier nodes."
+      why_it_matters: "Alongside Nanjing, establishes that TSMC's mainland footprint is deliberately confined to mature/legacy process technology. Not affected by TSMC's Aug 2025 6-inch-exit/8-inch-consolidation plan (which targets Taiwan fabs Fab 5/2, with no verified closure of Fab 10 as of late 2026); it operates under the same annual US tool-export license granted to Nanjing in January 2026."
+    milestones:
+      - date: "2004-08-01"
+        event: "Fab 10 (Songjiang) trial production begins — TSMC's first mainland fab"
+      - date: "2026-01-01"
+        event: "Granted US annual export licence for chipmaking tools to China (shared regime with Nanjing)"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
       capital_intensity: 3
     dates:
-      announced: null
+      announced: "2003-08-01"
       approved: null
-      construction_start: null
+      construction_start: "2003-08-01"
       original_expected_completion: null
-      date_completion: null
+      date_completion: "2004-08-01"
     sources:
-      - url: "https://www.cnbc.com/2026/01/01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html"
+      - url: "https://www.cnbc.com/2026-01-01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html"
         title: "U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC) — notes TSMC 'also has a chipmaking plant in Shanghai'"
         date: "2026-01-01"
+      - url: "https://www.digitimes.com/news/a20040806PR202.html"
+        title: "TSMC Shanghai begins trial production at 8-inch Fab 10 (DigiTimes)"
+        date: "2004-08-06"
+      - url: "https://www.tsmc.com/english/dedicatedFoundry/manufacturing/fab_capacity"
+        title: "TSMC Fab Capacity disclosure — 'TSMC China Company Limited' listed as overseas 8-inch fab"
+        date: "2025-12-31"
 
   - id: umc-xiamen
     name_en: "UMC Xiamen (United Semiconductor)"
@@ -2580,3 +2594,890 @@ facilities:
       - url: "http://jxt.hubei.gov.cn/bmdt/rdjj/202509/t20250929_5782308.shtml"
         title: "首套全国产化硅光芯片'工具箱'发布 (湖北省经信厅)"
         date: "2025-09-29"
+
+  - id: smic-spcl-shanghai
+    name_en: "SMIC South (SPCL) Shanghai — Zhangjiang SN1/SN2"
+    name_zh: "中芯南方集成电路制造有限公司"
+    name_pinyin: "Zhōngxīn Nánfāng Jíchéng Diànlù Zhìzào Yǒuxiàn Gōngsī"
+    company_en: "SMIC"
+    company_zh: "中芯南方集成电路制造有限公司"
+    company_pinyin: "Zhōngxīn Nánfāng Jíchéng Diànlù Zhìzào Yǒuxiàn Gōngsī"
+    partners: ["Big Fund I/II/III", "Shanghai Integrated Circuit Industry Fund"]
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.21
+      lon: 121.61
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch (300mm) FinFET — SN1 line at 14nm and N+1/N+2/N+3 (7nm-class, unconfirmed officially); SN2 equipment-verification and advanced R&D line; Fab8-P1a legacy 300mm converted to photomask production"
+    investment:
+      total_usd_million: null
+      source: "Big Fund I"
+    status: "Operational"
+    entity_list:
+      status: true
+      date_added: "2020-12-18"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory:
+      - {year: 2020, node: "14nm FinFET (SN1)"}
+      - {year: 2023, node: "N+2 — Kirin 9000S class (TechInsights teardown)"}
+      - {year: 2025, node: "N+3 — Kirin 9030 class (TechInsights, Dec 2025)"}
+    narrative:
+      significance: "The facility this tracker's own About page flagged as its highest-priority missing entry: SMIC's primary advanced-node fab in Zhangjiang — the JV (established 1 December 2016, SMIC holding 41.56% after the December 2025 capital increase took registered capital from $6.5B to $10.077B) that operates SN1, the only confirmed 7nm-class (N+2/N+3) production line in China and the fab behind the Kirin 9000S/9030 story. Unlike the 28nm-era JVs in this tracker, its exposure is not mature-node competition with the West but the export-control frontier itself: EUV is banned, and it produces leading-edge-adjacent logic on DUV multi-patterning."
+      what_it_makes: "12-inch FinFET wafers at 14nm and below for Huawei (Kirin SoCs) and, per unverified self-media claims only, other domestic advanced customers; SN2 doubles as an equipment/tool-verification line for domestic toolmakers."
+      why_it_matters: "Capacity figures here are the most contested numbers in the tracker: official filings give registered capital but not output, and media claims of ~35k wafers/month N+2 rising to ~70k in 2026 (and Huawei taking a fixed share) come from self-media sources and are explicitly NOT verified by this tracker. What is confirmed by primary/research sources: the December 2025 capital increase with Big Fund III taking an 8.361% stake, and TechInsights' confirmation of N+3 production in the Kirin 9030 (December 2025)."
+    milestones:
+      - date: "2016-12-01"
+        event: "SMIC South (中芯南方) established as SMIC–Big Fund–Shanghai fund JV in Zhangjiang"
+      - date: "2019-09-01"
+        event: "First FinFET lithography tool installed; SN1 targeted at 35,000 wafers/month"
+      - date: "2025-12-29"
+        event: "Capital increase completed: registered capital $6.5B → $10.077B; Big Fund III appears as 8.361% shareholder; SMIC retains control at 41.56%"
+    complexity:
+      technology_difficulty: 5
+      foreign_dependence: 5
+      capital_intensity: 5
+    dates:
+      announced: "2016-12-01"
+      approved: null
+      construction_start: "2017-01-01"
+      original_expected_completion: null
+      date_completion: "2020-04-01"
+    sources:
+      - url: "https://www.eefocus.com/article/1833533.html"
+        title: "中芯南方 Fab8 P1/P2/P3 = SN1/SN2 产线梳理 (是说芯语/EEFocus)"
+        date: "2025-04-27"
+      - url: "https://www.chnfund.com/article/AR550085e5-8164-cf1a-401f-3a1e90be8dde"
+        title: "大基金三期新进中芯南方股东，注册资本增至100.77亿美元 (中国基金报)"
+        date: "2026-01-02"
+      - url: "https://www.seccw.com/document/detail/id/39438.html"
+        title: "TechInsights：麒麟9030采用中芯N+3工艺"
+        date: "2025-12-20"
+
+  - id: smic-nor-beijing
+    name_en: "SMIC Beijing NORIC (B1/B2A, Yizhuang)"
+    name_zh: "中芯国际集成电路制造（北京）有限公司 / 中芯北方集成电路制造（北京）有限公司"
+    name_pinyin: "Zhōngxīn Běijīng / Zhōngxīn Běifāng"
+    company_en: "SMIC"
+    company_zh: "中芯北方集成电路制造（北京）有限公司"
+    company_pinyin: "Zhōngxīn Běifāng Jíchéng Diànlù Zhìzào (Běijīng) Yǒuxiàn Gōngsī"
+    partners: ["Big Fund I", "Beijing Integrated Circuit Industry Center", "E-Town Guotou"]
+    location:
+      city: "Beijing"
+      province: "Beijing Municipality"
+      lat: 39.79
+      lon: 116.51
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch (300mm) mature-node foundry — two 35,000 wafers/month lines (L1: 40/28nm; L2: 28nm HKMG), 65–28nm logic/RF/eNVM/CIS; reached 75,000 wafers/month full design capacity in 2022"
+    investment:
+      total_usd_million: 3590
+      source: "Big Fund I"
+    status: "Operational"
+    entity_list:
+      status: true
+      date_added: "2020-12-18"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "SMIC's original Beijing campus — 中芯北京 (registered July 2002, its first 12-inch site) and 中芯北方 (NORIC, established July 2013 with a $3.59 billion initial investment) — the mature-node workhorse the tracker had missed while covering the newer 中芯京城 JV: NORIC ran at 100.76% utilization in Jan–Aug 2025 and earned ¥11.58 billion net in 2024, SMIC's 'cash cow'."
+      what_it_makes: "28nm-and-above logic, RF, embedded memory and CIS wafers on two 300mm lines."
+      why_it_matters: "September 2025: SMIC announced it would buy out NORIC's remaining 49% (¥40.601 billion, share-and-cash at ¥74.20/share, valuing NORIC well above the ¥37.4 billion transaction basis); approved by the SSE M&A committee 11 May 2026 — the largest STAR-market M&A — and completed via HKEX disclosure 24 June 2026. Consolidating the mature-node cash cow inside the listed company shows how central 28nm economics have become to China's foundry champion."
+    milestones:
+      - date: "2013-07-12"
+        event: "中芯北方 (NORIC) established; initial total investment $3.59 billion"
+      - date: "2016-06-01"
+        event: "First NORIC line (L1, 40/28nm) reaches production"
+      - date: "2022-01-01"
+        event: "Both lines combined reach 75,000 wafers/month design capacity"
+      - date: "2026-06-24"
+        event: "SMIC's ¥40.6 billion buyout of the remaining 49% completed — NORIC now wholly owned"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 4
+      capital_intensity: 5
+    dates:
+      announced: "2013-07-12"
+      approved: null
+      construction_start: "2013-12-01"
+      original_expected_completion: null
+      date_completion: "2016-06-01"
+    sources:
+      - url: "https://www.nbd.com.cn/articles/2025-09-08/4053282.html"
+        title: "406亿吞下中芯北方：SMIC北京三厂版图（北京/北方/京城） (每日经济新闻)"
+        date: "2025-09-08"
+      - url: "https://news.qq.com/rain/a/20260511A07YLO00"
+        title: "科创板最大并购过会：中芯国际406亿元收购中芯北方49%股权 (21世纪经济报道)"
+        date: "2026-05-11"
+      - url: "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/2026062401102_c.pdf"
+        title: "中芯国际：完成收购中芯北方少数股权 通函 (HKEXnews)"
+        date: "2026-06-24"
+
+  - id: smic-zhangjiang-s1
+    name_en: "SMIC Shanghai (Zhangjiang S1, 200mm)"
+    name_zh: "中芯国际集成电路制造（上海）有限公司"
+    name_pinyin: "Zhōngxīn Shànghǎi (Zhāngjiāng)"
+    company_en: "SMIC"
+    company_zh: "中芯国际集成电路制造（上海）有限公司"
+    company_pinyin: "Zhōngxīn Guójì Jíchéng Diànlù Zhìzào (Shànghǎi) Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.20
+      lon: 121.60
+    type: "Fab"
+    category: "State-Backed"
+    capability: "8-inch (200mm) wafer fab — 0.35µm–90nm (BCD, eNVM, power); S1 campus ~115,000 wafers/month 8-inch-equivalent planning basis (2019 prospectus)"
+    investment:
+      total_usd_million: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: true
+      date_added: "2020-12-18"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "SMIC's founding fab (entity registered 21 December 2000, 张江路18号) — the 8-inch campus the tracker's SMIC coverage omitted while following the new mega-JVs. It remains the backbone of SMIC's 200mm base (~355,000 wafers/month group 8-inch across Shanghai/Tianjin/Shenzhen, running at ~96% utilization in 2025 Q3, with BCD prices raised ~10% from December 2025 as global 8-inch supply tightened)."
+      what_it_makes: "Mature-node 200mm logic, analog/power (BCD), and embedded-nonvolatile wafers."
+      why_it_matters: "The 8-inch legacy fabs are where the 2025-26 mature-node price cycle actually bites — SMIC's >95% utilization on these lines, not the headline 28nm JVs, is the volume story of China's foundry expansion."
+    milestones:
+      - date: "2000-12-21"
+        event: "SMIC Shanghai entity registered; Zhangjiang 8-inch fab production 2001"
+      - date: "2025-12-01"
+        event: "Group 8-inch lines at ~96% utilization; BCD platform pricing raised ~10%"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2000-12-21"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2001-09-01"
+    sources:
+      - url: "https://top.qcc.com/tc/54890d4e86f7.html"
+        title: "中芯国际四大制造主体注册信息（上海/北京/天津/深圳） (企查查)"
+        date: "2026-10-01"
+      - url: "https://pdf.dfcfw.com/pdf/H3_AP202509031738421581_1.pdf"
+        title: "中芯国际8英寸产能与利用率（2025Q3 约96%，BCD提价） (东吴证券)"
+        date: "2025-09-03"
+
+  - id: smic-tianjin-legacy
+    name_en: "SMIC Tianjin (former Motorola 8-inch)"
+    name_zh: "中芯国际集成电路制造（天津）有限公司"
+    name_pinyin: "Zhōngxīn Tiānjīn"
+    company_en: "SMIC"
+    company_zh: "中芯国际集成电路制造（天津）有限公司"
+    company_pinyin: "Zhōngxīn Guójì Jíchéng Diànlù Zhìzào (Tiānjīn) Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Tianjin"
+      province: "Tianjin Municipality"
+      lat: 39.14
+      lon: 117.01
+    type: "Fab"
+    category: "State-Backed"
+    capability: "8-inch (200mm) wafer fab — 0.35µm–90nm; installed ~45,000 wafers/month after Phase-2 expansion, ~60,000 reported at full ramp"
+    investment:
+      total_usd_million: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: true
+      date_added: "2020-12-18"
+      list: "US Commerce BIS"
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "SMIC acquired Motorola's Tianjin fab in 2003 (entity registered 3 November 2003) — one of the earliest foreign fab assets absorbed into China's domestic foundry base, and the mature-node counterpart to the new 中芯西青 12-inch JV in the same municipality."
+      what_it_makes: "200mm mature logic/power wafers, 0.35µm–90nm, incl. the 2018 Phase-2 capacity expansion."
+      why_it_matters: "Together with Zhangjiang S1 and Shenzhen's 8-inch line (Dec 2014), this is the SMIC legacy-8-inch layer the tracker had entirely missed — a reminder that China's wafer capacity sits at least as much in 20-year-old fabs as in the headline mega-JVs."
+    milestones:
+      - date: "2003-11-03"
+        event: "Entity established on the acquired former Motorola Tianjin fab"
+      - date: "2018-07-01"
+        event: "Phase-2 expansion first new process equipment moves in (~45k→~60k wafers/month)"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2003-11-03"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2004-01-01"
+    sources:
+      - url: "https://pdf.dfcfw.com/pdf/H3_AP202509031738421581_1.pdf"
+        title: "中芯天津：2003年收购摩托罗拉天津厂沿革 (东吴证券研报)"
+        date: "2025-09-03"
+      - url: "https://top.qcc.com/tc/54890d4e86f7.html"
+        title: "中芯国际集成电路制造（天津）有限公司工商信息 (企查查)"
+        date: "2026-10-01"
+
+  - id: huahong-wuxi-fab7
+    name_en: "Hua Hong Wuxi (Fab 7, 12-inch specialty)"
+    name_zh: "华虹半导体（无锡）有限公司"
+    name_pinyin: "Huáhóng Bàndǎotǐ (Wúxī)"
+    company_en: "Hua Hong Semiconductor"
+    company_zh: "华虹半导体（无锡）有限公司"
+    company_pinyin: "Huáhóng Bàndǎotǐ (Wúxī) Yǒuxiàn Gōngsī"
+    partners: ["Wuxi Xihong Lianxin (local state)", "Big Fund"]
+    location:
+      city: "Wuxi"
+      province: "Jiangsu"
+      lat: 31.57
+      lon: 120.30
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch specialty power — 90nm/65/55nm IGBT, MOSFET, BCD, eNVM; world's first 12-inch power-device pure-foundry line; design 40,000 wafers/month, installed ~95,000/month, monthly input >100,000-equivalent reported 2025"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Hua Hong's FIRST Wuxi 12-inch fab — the line that broke ground 2 March 2018 and took its first wafers 17 September 2019 — which this tracker had missed entirely while covering the newer Fab 9 (Phase II) and Phase 3. This is also a naming correction: Wikipedia and secondary sources label the Wuxi site 'Fab 7'; the $6.7B Phase-II fab is Fab 9. Design capacity grew from the original 40,000/month (phase 1, $2.5B of a ~10-year $10B site plan) to ~95,000/month installed, running above 100% utilization through 2025."
+      what_it_makes: "12-inch power semiconductors for EVs, PV, and industrial applications — IGBTs, MOSFETs, BCD analog — plus eNVM and RF platforms."
+      why_it_matters: "Fab 7 is where China's 12-inch power-semiconductor migration started; its >100% utilization and the group-wide 2026 8-inch price hikes (>10%) define the supply picture for domestic EV power electronics. The Wuxi campus's three-way split (Fab7 / Fab9 / Phase3) is why this tracker keeps per-phase entries."
+    milestones:
+      - date: "2018-03-02"
+        event: "Wuxi 12-inch specialty fab (Fab 7 / 一期) breaks ground — $2.5B phase 1 of ~$10B site plan"
+      - date: "2019-09-17"
+        event: "First wafers out (55nm power products); world's first 12-inch pure power-device foundry line"
+      - date: "2021-05-01"
+        event: "Phase 1 reaches its 40,000 wafers/month design capacity ahead of schedule"
+      - date: "2025-12-01"
+        event: "Installed capacity ~95,000 wafers/month; group utilization >100% (106.1% FY2025)"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 4
+    dates:
+      announced: "2017-09-01"
+      approved: null
+      construction_start: "2018-03-02"
+      original_expected_completion: null
+      date_completion: "2019-09-17"
+    sources:
+      - url: "https://www.huahong.com.cn/?id=9&m=channel"
+        title: "华虹半导体（无锡）有限公司 — 华虹七厂（官方）"
+        date: "2026-10-01"
+      - url: "https://greenmicro.net/article/hyzx/2014.html"
+        title: "华虹无锡项目大事记：2018开工、2019投片、2021达产 (格林微)"
+        date: "2026-06-01"
+      - url: "https://business.cctv.com/2026/05/22/ARTIg1aTwIezWj9GZzPPsZCs260522.shtml"
+        title: "华虹无锡：二期2024年12月投产、三期启动招标 (央视)"
+        date: "2026-05-22"
+
+  - id: huahong-shanghai-fab123
+    name_en: "Hua Hong Shanghai (Fab 1/2/3, 200mm)"
+    name_zh: "上海华虹宏力半导体制造有限公司"
+    name_pinyin: "Shànghǎi Huáhóng Hónglì Bàndǎotǐ Zhìzào Yǒuxiàn Gōngsī"
+    company_en: "Hua Hong Semiconductor"
+    company_zh: "上海华虹宏力半导体制造有限公司"
+    company_pinyin: "Shànghǎi Huáhóng Hónglì Bàndǎotǐ Zhìzào Yǒuxiàn Gōngsī"
+    partners: ["Shanghai SASAC (via 华虹集团)"]
+    location:
+      city: "Shanghai"
+      province: "Shanghai Municipality"
+      lat: 31.25
+      lon: 121.59
+    type: "Fab"
+    category: "State-Backed"
+    capability: "Three 8-inch (200mm) fabs — Jinqiao (Fab1, 9091-project heritage) and two Zhangjiang lines (Fab2/3 from the 2009 Hongli/Grace consolidation); ~180,000–190,000 wafers/month total; 1µm–90nm eNVM, power, BCD, RF"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "Hua Hong's original Shanghai 200mm base — the three fabs the tracker missed while following the Wuxi 12-inch expansion; combined capacity ~180,000 wafers/month puts them among the largest 8-inch clusters in China. The listed A-share entity was renamed 华虹宏力 on 8 June 2026, and a formal '8-inch fab optimization & upgrade' program (2023 raise) is expanding rather than winding them down."
+      what_it_makes: "Mature specialty wafers — embedded non-volatile memory, power discretes, BCD analog, RF — for automotive, industrial and consumer customers."
+      why_it_matters: "With TSMC and Samsung shrinking global 8-inch capacity from 2025, these fabs ran above 100% utilization through 2025 with >10% price hikes in 2026 — China's legacy-node base is now the world's marginal supplier of mature wafers, which is the strategic argument for the 2026 export-control debates over 'legacy chip' security."
+    milestones:
+      - date: "2009-06-01"
+        event: "Hua Hong merges Honghai/Hongli/Huali design+fab assets into 华虹宏力, consolidating the Zhangjiang 8-inch fabs"
+      - date: "2026-06-08"
+        event: "STAR-listed entity renamed 华虹宏力; 8-inch upgrade program running; utilization >100%"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: "2009-06-01"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://www.huahonggrace.com/s/about_milestone.php"
+        title: "华虹宏力里程碑（金桥/张江8英寸厂沿革）"
+        date: "2026-10-01"
+      - url: "https://www.infoobs.com/article/20260122/70699.html"
+        title: "华虹8英寸：产能约19万片/月、提价10%+ (讯石光通讯/芯闻)"
+        date: "2026-01-22"
+
+  - id: ti-chengdu
+    name_en: "Texas Instruments Chengdu"
+    name_zh: "德州仪器半导体制造（成都）有限公司"
+    name_pinyin: "Dézhōu Yíqì Chéngdū"
+    company_en: "Texas Instruments"
+    company_zh: "德州仪器半导体制造（成都）有限公司"
+    company_pinyin: "Dézhōu Yíqì Bàndǎotǐ Zhìzào (Chéngdū) Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Chengdu"
+      province: "Sichuan"
+      lat: 30.55
+      lon: 103.95
+    type: "Fab"
+    category: "Foreign-Invested"
+    capability: "200mm analog/power wafer fab (acquired from Cension, formerly SMIC-operated, 2010) + wafer test, assembly/test (CDAT/CDAT2) and a 300mm wafer-bumping line — TI's first fully-integrated site outside the United States"
+    investment:
+      total_usd_million: 1690
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "A Wikipedia cross-check correction: TI Chengdu is NOT a 300mm fab (that common claim conflates the 2017 300mm bumping line). It is TI's 200mm analog fab, bought in October 2010 from Cension — which SMIC had been operating — plus back-end sites, under a 15-year strategy worth up to $1.69 billion; CDAT2 assembly/test entered production after November 2022."
+      what_it_makes: "Analog and power management chips for industrial/automotive markets; packaging and test for TI products."
+      why_it_matters: "The main foreign-owned wafer fab in western China and the clearest counter-example to the 'foreign majors are exiting China' narrative in 2025-26: while TI closes 150mm fabs in the US/Europe, its Chengdu integrated site stays in production, and the tracker's Chengdu cluster (Intel ATP + TI fab) now matches what actually exists."
+    milestones:
+      - date: "2010-10-14"
+        event: "TI opens its first China manufacturing plant — 200mm fab acquired from Cension (ex-SMIC-operated)"
+      - date: "2017-04-01"
+        event: "300mm wafer-bumping (not a wafer fab) facility announced"
+      - date: "2022-11-01"
+        event: "CDAT2 assembly/test site announced entering production; second A/T building completed 2021-08"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 1
+      capital_intensity: 3
+    dates:
+      announced: "2009-09-01"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2010-10-14"
+    sources:
+      - url: "https://www.ti.com/about-ti/newsroom/news-releases/2010/2010-10-14-texas-instruments-opens-the-company-s-first-semiconductor-manufacturing-plant-in-china.html"
+        title: "TI Opens First Semiconductor Manufacturing Plant in China (TI Newsroom)"
+        date: "2010-10-14"
+      - url: "https://www.edn.com/ti-buys-former-smic-fab-in-chengdu"
+        title: "TI buys former SMIC-operated fab in Chengdu (EDN)"
+        date: "2010-10-15"
+      - url: "https://www.jiemian.com/article/8352881.html"
+        title: "进博会：德州仪器成都第二封装测试厂即将投产 (界面新闻)"
+        date: "2022-11-07"
+
+  - id: hejian-suzhou
+    name_en: "Hejian Chip Manufacturing Suzhou (UMC 8N)"
+    name_zh: "和舰芯片制造（苏州）股份有限公司"
+    name_pinyin: "Héjiàn Xīnpiàn Zhìzào (Sūzhōu)"
+    company_en: "Hejian Technology (Suzhou) Co., Ltd."
+    company_zh: "和舰芯片制造（苏州）股份有限公司"
+    company_pinyin: "Héjiàn Xīnpiàn Zhìzào (Sūzhōu) Gǔfèn Yǒuxiàn Gōngsī"
+    partners: ["UMC (via Oakwood Associates, 98.14% at IPO docs)"]
+    location:
+      city: "Suzhou"
+      province: "Jiangsu"
+      lat: 31.32
+      lon: 120.71
+    type: "Fab"
+    category: "Foreign-Invested"
+    capability: "8-inch (200mm) foundry — 0.5µm–0.11µm (eFlash, BCD, CIS, high-voltage platforms); capacity ~64,000/month end-2018, 77,000/month planning basis"
+    investment:
+      total_usd_million: null
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "UMC's mainland 200mm fab (Fab 8N) — established 2001-11, production since May 2003, controlled by UMC since March 2013; a rare Taiwan-controlled fab operating on mainland soil, and still running at high utilization per UMC's mid-2025 statements, raising prices with the 8-inch cycle in 2026. A planned STAR IPO (filed March 2019) was withdrawn July 2019 over control-chain questions; a frequently repeated 'sold to a local group in 2018' claim found NO supporting source and is not adopted here."
+      what_it_makes: "Mature-node analog/power/flash wafers on 200mm for UMC's customer base from mainland China."
+      why_it_matters: "One of the few cross-strait manufacturing assets still intact as of 2026 — alongside UMC Xiamen (联芯) — its continued high utilization and 10-15% 2026 price actions show Taiwan's mature-node operations remain commercially embedded in the mainland cluster."
+    milestones:
+      - date: "2003-05-01"
+        event: "Suzhou Industrial Park 8-inch fab begins production"
+      - date: "2013-03-01"
+        event: "UMC completes takeover of controlling stake in Hejian"
+      - date: "2019-07-21"
+        event: "STAR Market IPO application withdrawn"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 2
+      capital_intensity: 2
+    dates:
+      announced: "2001-11-01"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2003-05-01"
+    sources:
+      - url: "https://pdf.dfcfw.com/pdf/H2_AN201903221308711323_1.pdf"
+        title: "和舰芯片科创板招股说明书（股权/制程/产能） (东方财富)"
+        date: "2019-03-22"
+      - url: "https://finance.sina.com.cn/stock/relnews/cn/2025-06-02/doc-ineyskrx9483691.shtml"
+        title: "联电：和舰、联芯厂区保持高稼动 (新浪财经转全球半导体观察)"
+        date: "2025-06-02"
+
+  - id: worlds-chongqing
+    name_en: "Worlds (Chongqing) Semiconductor"
+    name_zh: "重庆万国半导体科技有限公司"
+    name_pinyin: "Chóngqìng Wànguó Bàndǎotǐ Kējì Yǒuxiàn Gōngsī"
+    company_en: "Worlds (Chongqing) Semiconductor Technology Co., Ltd."
+    company_zh: "重庆万国半导体科技有限公司"
+    company_pinyin: "Chóngqìng Wànguó Bàndǎotǐ Kējì Yǒuxiàn Gōngsī"
+    partners: ["Alpha & Omega Semiconductor (US)", "Chongqing Liangjiang新区 state funds"]
+    location:
+      city: "Chongqing"
+      province: "Chongqing Municipality"
+      lat: 29.65
+      lon: 106.50
+    type: "Fab"
+    category: "JV"
+    capability: "12-inch power semiconductors (MOSFET/analog) + on-site assembly/test — marketed at launch as China's first integrated 12-inch power-device fab; phase-1 20,000 wafers/month (volume from Dec 2019), phase-2 target 50,000/month"
+    investment:
+      total_usd_million: 1000
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The AOS–Chongqing JV (registered April 2016, ~$1B, US$355M registered capital) that the Wikipedia dump lists as 'Wandai under construction' — actually in volume production since December 2019. In July 2025 AOS agreed to sell ~20.3% (half its stake) for $150M, reportedly to Shanghai Xinwei Technology Group, completing the transition toward Chinese control."
+      what_it_makes: "12-inch MOSFET/analog power devices and modules for consumer, industrial and EV-adjacent applications."
+      why_it_matters: "A case study in how a US-designed power-semi fab in inland China changes hands without ever closing — the stake sale to a Shanghai tech-asset group mirrors the broader pattern of foreign-origin fabs being absorbed into domestic capital structures."
+    milestones:
+      - date: "2016-04-22"
+        event: "Company registered in Chongqing Liangjiang New Area (AOS + local state funds)"
+      - date: "2018-06-01"
+        event: "Phase-1 fab + assembly/test trial production (20,000 wafers/month)"
+      - date: "2019-12-01"
+        event: "Volume production begins — first integrated 12-inch power fab claim"
+      - date: "2025-07-01"
+        event: "AOS agrees to sell 20.3% stake (~$150M), reportedly to Shanghai Xinwei"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 3
+      capital_intensity: 3
+    dates:
+      announced: "2015-04-01"
+      approved: null
+      construction_start: "2016-08-01"
+      original_expected_completion: null
+      date_completion: "2019-12-01"
+    sources:
+      - url: "https://www.toutiao.com/article/7528305789035938342/"
+        title: "万国半导体：AOS出售重庆万国20.3%股权予上海新微 (今日头条财经)"
+        date: "2026-07-20"
+
+  - id: skhynix-chongqing-atp
+    name_en: "SK Hynix Chongqing (Assembly & Test)"
+    name_zh: "爱思开海力士半导体（重庆）有限公司"
+    name_pinyin: "Àisīkāi Hǎilìshì Bàndǎotǐ (Chóngqìng)"
+    company_en: "SK Hynix"
+    company_zh: "SK海力士半导体（重庆）有限公司"
+    company_pinyin: "SK Hǎilìshì Bàndǎotǐ (Chóngqìng) Yǒuxiàn Gōngsī"
+    partners: []
+    location:
+      city: "Chongqing"
+      province: "Chongqing Municipality"
+      lat: 29.60
+      lon: 106.32
+    type: "Assembly & Packaging"
+    category: "Foreign-Invested"
+    capability: "NAND flash package-and-test — ~80 million units/month; handles over 40% of SK Hynix's global NAND back-end; largest overseas SK Hynix back-end site"
+    investment:
+      total_usd_million: 1200
+      source: "Foreign"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "SK Hynix's Chongqing back-end (2013 agreement, mass production 2014, phase-2 2019, ~$1.2B cumulative) — the assembly/test counterpart to its Wuxi DRAM and Dalian NAND fabs, and the reason the Korean memory maker's China exposure is not only about wafer fabs."
+      what_it_makes: "Packaging and test of NAND flash modules/SSD components."
+      why_it_matters: "As of August 2026 SK Hynix is reportedly weighing options incl. selling a stake (~$3B valuation, possible Chinese fund buyers) while keeping the site running — the first major case of a Korean memory back-end in China facing a divest-or-double-down decision under tool-control pressure."
+    milestones:
+      - date: "2013-07-01"
+        event: "Site founded and breaks ground (2013-05 agreement)"
+      - date: "2014-09-01"
+        event: "Mass production begins (~$250-300M phase 1)"
+      - date: "2019-09-01"
+        event: "Phase-2 completed; cumulative investment ~$1.2B"
+      - date: "2026-08-01"
+        event: "Stake-sale options reported (~$3B valuation); no decision confirmed"
+    complexity:
+      technology_difficulty: 2
+      foreign_dependence: 1
+      capital_intensity: 3
+    dates:
+      announced: "2013-05-01"
+      approved: null
+      construction_start: "2013-07-01"
+      original_expected_completion: null
+      date_completion: "2014-09-01"
+    sources:
+      - url: "https://www.koreaherald.com/article/3824990"
+        title: "SK hynix weighs options for Chongqing plant (~$3B) (Korea Herald)"
+        date: "2026-08-15"
+      - url: "https://wap.seccw.com/document/detail/id/48700.html"
+        title: "SK海力士重庆封测基地处置选项梳理"
+        date: "2026-08-20"
+
+  - id: sanan-ic-xiamen
+    name_en: "Sanan IC (Xiamen / Quanzhou compound fabs)"
+    name_zh: "厦门市三安集成电路有限公司 / 泉州市三安集成电路有限公司"
+    name_pinyin: "Sān'ān Jíchéng Diànlù"
+    company_en: "Sanan IC (Sanan Optoelectronics foundry arm)"
+    company_zh: "厦门市三安集成电路有限公司"
+    company_pinyin: "Shàménn Shì Sān'ān Jíchéng Diànlù Yǒuxiàn Gōngsī"
+    partners: ["三安光电 (600703.SH)"]
+    location:
+      city: "Xiamen"
+      province: "Fujian"
+      lat: 24.62
+      lon: 118.12
+    type: "Compound Semiconductor"
+    category: "Private"
+    capability: "China's first 6-inch compound-semiconductor foundry (est. 2014): GaAs RF HBT/pHEMT, GaN-on-SiC RF PA (5G base stations), GaN power, InP optical; Quanzhou line: SAW/TC-SAW filters (~150M die/month), IATF16949-certified 2022"
+    investment:
+      total_rmb_100m: null
+      source: "Private"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The foundry arm of Sanan Optoelectronics (separate from the Changsha SiC IDM and the Jinan ST JV this tracker already carries) — 三安集成's Xiamen 6-inch line was China's first compound foundry, and its GaN RF PA work won a National Science & Technology Progress first prize (2023). 2025 IC-segment revenue ¥29.16亿 (+2.1%), with filter capacity at 150 million die/month. Quanzhou campus plan reported at ~$4.6B in Wikipedia-era coverage; treat as site-plan not verified total."
+      what_it_makes: "GaAs/GaN RF, SiC and InP optoelectronic wafers as a foundry; SAW filters for mobile."
+      why_it_matters: "RF front-end localization (GaAs/GaN PA + domestic SAW) is a direct answer to the Qualcomm/Skyworks chokepoint; governance flag: from June 2026 creditors petitioned to restructure the holding companies 厦门三安电子/三安集团 (real controllers' 留置 episode May-Oct 2026) — fabs operating, ownership under restructuring review."
+    milestones:
+      - date: "2014-01-01"
+        event: "三安集成 established — China's first 6-inch compound-semiconductor foundry line"
+      - date: "2017-01-01"
+        event: "Quanzhou compound fab line enters operation (SAW/RF)"
+      - date: "2026-06-01"
+        event: "Creditor restructuring petition filed against Sanan holding entities; fabs continue production"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 2
+      capital_intensity: 3
+    dates:
+      announced: "2014-01-01"
+      approved: null
+      construction_start: "2014-01-01"
+      original_expected_completion: null
+      date_completion: "2017-01-01"
+    sources:
+      - url: "http://static.cninfo.com.cn/finalpage/2025-08-28/1224589218.PDF"
+        title: "三安光电2025年半年度报告（三安集成营收/产线） (巨潮资讯)"
+        date: "2025-08-28"
+      - url: "https://www.jiemian.com/article/14576535.html"
+        title: "三安集团债务重整申请：化合物半导体产线现状 (界面新闻)"
+        date: "2026-06-20"
+      - url: "https://www.sanan-ic.com/en/news-23"
+        title: "Sanan IC — foundry platform page (GaAs/GaN/SiC/InP/SAW)"
+        date: "2026-10-01"
+
+  - id: hanking-mems-fushun
+    name_en: "Hanking MEMS (Liaoning)"
+    name_zh: "罕王微电子（辽宁）有限公司"
+    name_pinyin: "Hǎnwáng Wēidiànzǐ (Liáoníng)"
+    company_en: "Hanking Microelectronics (Liaoning) Co., Ltd."
+    company_zh: "罕王微电子（辽宁）有限公司"
+    company_pinyin: "Hǎnwáng Wēidiànzǐ (Liáoníng) Yǒuxiàn Gōngsī"
+    partners: ["Hanking Group (罕王集团, listed iron-ore origin)"]
+    location:
+      city: "Fushun"
+      province: "Liaoning"
+      lat: 41.85
+      lon: 123.85
+    type: "Fab"
+    category: "Private"
+    capability: "China's first dedicated 8-inch pure-MEMS production line (est. 2011, Shenfu New Area); pressure/inertial/gas MEMS IDM + foundry; phase-1 ~10,000 wafers/month (marketed to 30k incl. WLP)"
+    investment:
+      total_rmb_100m: null
+      source: "Private"
+    status: "Operational"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "A Wikipedia-dump survivor check: the 'Hanking Electronics, Fushun' row is real but obscure — 罕王微电子 is not the same company as Suzhou Hanking (a fabless SAW designer, whose separate Changshu line 臻芯微 went live 2022-10). Listed on MIIT's official IC-producer roster and a 2017 'Made in China 2025' showcase line."
+      what_it_makes: "MEMS sensors (pressure, inertial, gas) on 200mm, IDM + MUMPs-style foundry services."
+      why_it_matters: "Included with an explicit low-confidence flag: the site is live and the company still exists, but there is no independent 2025-26 news flow confirming utilization or viability — a candidate for the 'operational-but-quiet' grey zone that this tracker marks as not verified rather than dropping."
+    milestones:
+      - date: "2011-05-01"
+        event: "Company established in Shenfu New Area"
+      - date: "2017-04-01"
+        event: "8-inch MEMS line showcased in MIIT Made-in-China-2025 materials; on official IC-producer list"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 3
+      capital_intensity: 2
+    dates:
+      announced: "2011-05-01"
+      approved: null
+      construction_start: null
+      original_expected_completion: null
+      date_completion: "2017-04-01"
+    sources:
+      - url: "https://hankingmems.cn/"
+        title: "罕王微电子（辽宁）有限公司官网（8英寸MEMS产线）"
+        date: "2026-10-01"
+      - url: "https://www.semi.org.cn/site/semi/article/f37dee0e2d1c42a99efed8927977d6bb.html"
+        title: "国内首条8英寸MEMS专线：罕王微电子 (国家半导体产业网)"
+        date: "2025-06-01"
+
+  - id: hsmc-wuhan
+    name_en: "HSMC Wuhan (Hongxin Semiconductor — cancelled)"
+    name_zh: "武汉弘芯半导体制造有限公司"
+    name_pinyin: "Wǔhàn Hóngxīn Bàndǎotǐ"
+    company_en: "Wuhan Hongxin Semiconductor Manufacturing Co. (HSMC)"
+    company_zh: "武汉弘芯半导体制造有限公司"
+    company_pinyin: "Wǔhàn Hóngxīn Bàndǎotǐ Zhìzào Yǒuxiàn Gōngsī"
+    partners: ["Dongxihu district SOE (10%)", "Beijing Guangliang Lantu shell vehicle (90%, zero paid-in)"]
+    location:
+      city: "Wuhan"
+      province: "Hubei"
+      lat: 30.62
+      lon: 114.13
+    type: "Fab"
+    category: "Private"
+    capability: "Never produced — planned 14nm/7nm logic fab + advanced packaging (claimed ~¥128B); ~300 of 3,560 planned tools ever received"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Cancelled"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The emblematic China fab-boom failure and this tracker's first explicit Cancelled entry (the schema always had the status): a 90%-shell-owned '128-billion-yuan 14nm' project that spent ~¥15.3 billion by end-2019, staged a fake production line for investors, took delivery of an ASML NXT:1980Di DUV scanner (repeatedly misreported in Chinese media as 'EUV') in Dec 2019, and mortgaged it for ¥580 million in Jan 2020."
+      what_it_makes: "Nothing — unfinished shells and two vacant dormitory towers; state takeover Nov 2020, staff cut Feb 2021, renamed 武汉新工现代制造 and deregistered 29 June 2021."
+      why_it_matters: "HSMC triggered the 2020-21 central-level cleanup of rogue semiconductor pledges and the 'new-type举国体制' debate over local-government fab financing; site reuse as of 2025-26 is not verified. Keeping cancelled projects in the tracker matters: the denominator of announced Chinese fabs is as analytically important as the operational numerator."
+    milestones:
+      - date: "2017-11-01"
+        event: "Registered in Wuhan Linkonggang (Dongxihu) with claimed ¥128B plan"
+      - date: "2019-12-01"
+        event: "ASML NXT:1980Di DUV tool arrives — the only major tool ever delivered"
+      - date: "2020-11-01"
+        event: "State takes over; company deregistered 29 June 2021"
+    complexity:
+      technology_difficulty: 4
+      foreign_dependence: 5
+      capital_intensity: 5
+    dates:
+      announced: "2017-11-01"
+      approved: null
+      construction_start: "2018-01-01"
+      original_expected_completion: "2020-12-31"
+      date_completion: null
+    sources:
+      - url: "https://zh.wikipedia.org/zh-hans/%E6%AD%A6%E6%BC%A2%E5%BC%98%E8%8A%AF"
+        title: "武汉弘芯（维基百科条目，含ASML/DUV误报澄清）"
+        date: "2026-09-30"
+      - url: "https://www.nbd.com.cn/rss/zaker/articles/1499833.html"
+        title: "弘芯破产调查：注册资本20亿实缴2亿 (每日经济新闻)"
+        date: "2024-05-22"
+      - url: "https://www.eet-china.com/mp/a197317.html"
+        title: "复盘武汉弘芯：3560台设备只到了300台 (电子工程专辑)"
+        date: "2024-06-10"
+
+  - id: dehuai-huainan
+    name_en: "Decoma/Tacoma CIS Fabs (Huai'an & Nanjing — cancelled)"
+    name_zh: "江苏德淮半导体有限公司（前身淮安德科码）"
+    name_pinyin: "Jiāngsū Déhuái Bàndǎotǐ"
+    company_en: "Jiangsu Decoma Semiconductor Technology Co., Ltd."
+    company_zh: "江苏德淮半导体有限公司"
+    company_pinyin: "Jiāngsū Déhuái Bàndǎotǐ Kējì Yǒuxiàn Gōngsī"
+    partners: ["Huai'an municipal government (post-2017 takeover)", "promoter Li Ruiwei (Decoma/Tacoma chain)"]
+    location:
+      city: "Huai'an"
+      province: "Jiangsu"
+      lat: 33.58
+      lon: 119.03
+    type: "Fab"
+    category: "State-Backed"
+    capability: "Never produced — claimed ¥45B 12-inch CIS fab (phase 1 ¥12B, 240,000 wafers/year); ~90% of shell built, 57 of 211 tool sets arrived, zero CIS output"
+    investment:
+      total_rmb_100m: null
+      source: "Local Govt"
+    status: "Cancelled"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The two half-built CIS-fab scams of the same promoter — Huai'an (德科码 → renamed 德淮 after litigation) and Nanjing (Tacoma (Nanjing) Semiconductor 南京德科码, a 2017 TowerJazz-licensed CIS/RF-SOI paper JV that built nothing and was declared bankrupt 22 June 2020; the Wikipedia 'Tower Tacoma Nanjing' row) — resolved as one tracker entry since the Wikipedia dump splits them."
+      what_it_makes: "Nothing: bankrupt, assets auctioned — Huai'an's 62 tool sets (AMAT/Nikon/KLA/TEL/LAM), 19 buildings and 171,000 m² land appraised ¥2.38B for JD auction from ¥1.666B (Aug 2021; result not verified)."
+      why_it_matters: "Shows the Decoma/Tacoma chain (Shenzhen Sile, Wuhan Xiaoxin, Changshu Zhongwei also surfaced in the same 2021 OFweek exposé) exploiting the 2016-2018 CIS investment wave with tool-count theatre; the government-takeover-then-auction sequence is the standard lifecycle of the cancelled-fab cohort this entry and HSMC document."
+    milestones:
+      - date: "2016-01-01"
+        event: "Huai'an Deco Code registered; groundbreaking March 2016 (claimed ¥45B, phase 1 ¥12B)"
+      - date: "2017-08-01"
+        event: "Nanjing Tacoma — TowerJazz signs CIS/RF-SOI tech-license JV; nothing built"
+      - date: "2020-06-22"
+        event: "Tacoma (Nanjing) declared bankrupt by Nanjing Intermediate Court"
+      - date: "2021-08-06"
+        event: "Dehuai assets (¥2.38B appraised) listed for bankruptcy auction"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 4
+      capital_intensity: 4
+    dates:
+      announced: "2016-01-01"
+      approved: null
+      construction_start: "2016-03-01"
+      original_expected_completion: null
+      date_completion: null
+    sources:
+      - url: "https://ee.ofweek.com/2021-07/ART-8120-2816-30508868.html"
+        title: "德科码系骗局全复盘：淮安45亿、南京破产 (OFweek电子工程)"
+        date: "2021-07-20"
+
+  - id: gf-chengdu
+    name_en: "GlobalFoundries Chengdu (cancelled)"
+    name_zh: "格芯（成都）集成电路制造有限公司（未建成）"
+    name_pinyin: "Géxīn (Chéngdū)"
+    company_en: "GlobalFoundries"
+    company_zh: "格芯（成都）集成电路制造有限公司"
+    company_pinyin: "Géxīn (Chéngdū) Jíchéng Diànlù Zhìzào Yǒuxiàn Gōngsī"
+    partners: ["Chengdu municipal government (fab shell built for ~¥7B)"]
+    location:
+      city: "Chengdu"
+      province: "Sichuan"
+      lat: 30.68
+      lon: 103.99
+    type: "Fab"
+    category: "Foreign-Invested"
+    capability: "Never produced — announced Feb 2017, ~$10B 12-inch JV fab (22FDX FD-SOI + legacy nodes, 20k wpm planned, 85k at full build)"
+    investment:
+      total_usd_million: 10000
+      source: "Foreign"
+    status: "Cancelled"
+    entity_list:
+      status: false
+      date_added: null
+      list: null
+    equipment_origin:
+      domestic_pct: null
+      key_foreign_tools: []
+      smuggled_flagged: false
+    node_trajectory: []
+    narrative:
+      significance: "The $10 billion fab that started China's 12-inch era paper boom and ended it: GF halted funding Oct 2018 amid its own IPO delay; the government-built shell stood empty; formal closure with severance for the last 74 employees May 2020; a reported revival by Intel was shelved Nov 2021; a 2020 claim that ex-SK Hynix VP Choi Jin-seok's 成都高真科技 would take the shell for DRAM is not verified as ever materializing."
+      what_it_makes: "Nothing — the site never brought production tools in; it was sealed January 2019."
+      why_it_matters: "This tracker previously only footnoted GF Chengdu's absence in About; it is now a proper Cancelled entry — the closure of GF Chengdu is the pivot point after which every surviving 12-inch project became state-financed, and the empty shell became the cautionary reference in every subsequent local-government fab pitch."
+    milestones:
+      - date: "2017-02-28"
+        event: "GF-Chengdu JV announced — at the time the largest planned 12-inch logic fab in mainland China"
+      - date: "2018-10-01"
+        event: "GF cancels remaining investment; tools removed early 2019, site sealed"
+      - date: "2021-11-01"
+        event: "SCMP: Intel shelts takeover of the abandoned plant"
+    complexity:
+      technology_difficulty: 3
+      foreign_dependence: 2
+      capital_intensity: 4
+    dates:
+      announced: "2017-02-28"
+      approved: null
+      construction_start: "2017-10-01"
+      original_expected_completion: "2020-12-31"
+      date_completion: null
+    sources:
+      - url: "https://www.eetimes.com/globalfoundries-abandons-chengdu-wafer-fab"
+        title: "GlobalFoundries Abandons Chengdu Wafer Fab (EE Times)"
+        date: "2018-10-04"
+      - url: "https://www.scmp.com/tech/tech-war/article/3156519/intel-shelves-plan-take-over-globalfoundries-abandoned-chip-plant"
+        title: "Intel shelves plan to take over GF's abandoned Chengdu plant (SCMP)"
+        date: "2021-11-28"

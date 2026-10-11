@@ -1,0 +1,62 @@
+---
+title: "SK Hynix Chongqing (Assembly & Test)"
+subtitle: "SK Hynix | Assembly & Packaging"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+SK Hynix's Chongqing back-end (2013 agreement, mass production 2014, phase-2 2019, ~$1.2B cumulative) — the assembly/test counterpart to its Wuxi DRAM and Dalian NAND fabs, and the reason the Korean memory maker's China exposure is not only about wafer fabs.
+:::
+
+**Chinese name:** 爱思开海力士半导体（重庆）有限公司 (Àisīkāi Hǎilìshì Bàndǎotǐ (Chóngqìng))
+
+## What does this facility make?
+
+Packaging and test of NAND flash modules/SSD components.
+
+## Why does it matter?
+
+As of August 2026 SK Hynix is reportedly weighing options incl. selling a stake (~$3B valuation, possible Chinese fund buyers) while keeping the site running — the first major case of a Korean memory back-end in China facing a divest-or-double-down decision under tool-control pressure.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | SK Hynix |
+| **Type** | Assembly & Packaging |
+| **Category** | Foreign-Invested |
+| **Capability** | NAND flash package-and-test — ~80 million units/month; handles over 40% of SK Hynix's global NAND back-end; largest overseas SK Hynix back-end site |
+| **Status** | Operational |
+| **Investment** | $1,200M |
+| **Funding Source** | Foreign |
+| **Location** | Chongqing, Chongqing Municipality |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
+**2.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jul 2013** — Site founded and breaks ground (2013-05 agreement)
+- **Sep 2014** — Mass production begins (~$250-300M phase 1)
+- **Sep 2019** — Phase-2 completed; cumulative investment ~$1.2B
+- **Aug 2026** — Stake-sale options reported (~$3B valuation); no decision confirmed
+
+## Sources
+
+- [SK hynix weighs options for Chongqing plant (~$3B) (Korea Herald)](https://www.koreaherald.com/article/3824990) (15 Aug 2026)
+- [SK海力士重庆封测基地处置选项梳理](https://wap.seccw.com/document/detail/id/48700.html) (20 Aug 2026)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>

@@ -1,0 +1,61 @@
+---
+title: "Decoma/Tacoma CIS Fabs (Huai'an & Nanjing — cancelled)"
+subtitle: "Jiangsu Decoma Semiconductor Technology Co., Ltd. | Fab"
+date: last-modified
+---
+
+::: {.callout-tip}
+## Why This Matters
+The two half-built CIS-fab scams of the same promoter — Huai'an (德科码 → renamed 德淮 after litigation) and Nanjing (Tacoma (Nanjing) Semiconductor 南京德科码, a 2017 TowerJazz-licensed CIS/RF-SOI paper JV that built nothing and was declared bankrupt 22 June 2020; the Wikipedia 'Tower Tacoma Nanjing' row) — resolved as one tracker entry since the Wikipedia dump splits them.
+:::
+
+**Chinese name:** 江苏德淮半导体有限公司（前身淮安德科码） (Jiāngsū Déhuái Bàndǎotǐ)
+
+## What does this facility make?
+
+Nothing: bankrupt, assets auctioned — Huai'an's 62 tool sets (AMAT/Nikon/KLA/TEL/LAM), 19 buildings and 171,000 m² land appraised ¥2.38B for JD auction from ¥1.666B (Aug 2021; result not verified).
+
+## Why does it matter?
+
+Shows the Decoma/Tacoma chain (Shenzhen Sile, Wuhan Xiaoxin, Changshu Zhongwei also surfaced in the same 2021 OFweek exposé) exploiting the 2016-2018 CIS investment wave with tool-count theatre; the government-takeover-then-auction sequence is the standard lifecycle of the cancelled-fab cohort this entry and HSMC document.
+
+## Key Facts
+
+| | |
+|---|---|
+| **Company** | Jiangsu Decoma Semiconductor Technology Co., Ltd. |
+| **Type** | Fab |
+| **Category** | State-Backed |
+| **Capability** | Never produced — claimed ¥45B 12-inch CIS fab (phase 1 ¥12B, 240,000 wafers/year); ~90% of shell built, 57 of 211 tool sets arrived, zero CIS output |
+| **Status** | Cancelled |
+| **Investment** | Not disclosed |
+| **Funding Source** | Local Govt |
+| **Location** | Huai'an, Jiangsu |
+| **Current Node** | Not yet researched |
+| **Entity List** | No |
+| **Domestic Equipment Share** | Not disclosed |
+| **Key Foreign Tools** | None documented |
+| **Smuggled/Diverted Equipment Flagged** | No |
+
+### Technical Complexity
+<span class="complexity-bar" title="Technical Complexity: 3.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span></span>
+**3.5/5**
+
+## Technology Node Trajectory
+
+*Node history not yet researched.*
+
+## Project Timeline
+
+- **Jan 2016** — Huai'an Deco Code registered; groundbreaking March 2016 (claimed ¥45B, phase 1 ¥12B)
+- **Aug 2017** — Nanjing Tacoma — TowerJazz signs CIS/RF-SOI tech-license JV; nothing built
+- **Jun 2020** — Tacoma (Nanjing) declared bankrupt by Nanjing Intermediate Court
+- **Aug 2021** — Dehuai assets (¥2.38B appraised) listed for bankruptcy auction
+
+## Sources
+
+- [德科码系骗局全复盘：淮安45亿、南京破产 (OFweek电子工程)](https://ee.ofweek.com/2021-07/ART-8120-2816-30508868.html) (20 Jul 2021)
+
+---
+
+<a href="../index.html" class="btn btn-primary">Back to Map</a>
