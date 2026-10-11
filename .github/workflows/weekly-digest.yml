@@ -1,4 +1,6 @@
 name: Weekly semiconductor digest
+# Requires repo secrets: ANTHROPIC_API_KEY, SMTP_SERVER, SMTP_PORT,
+# SMTP_USERNAME, SMTP_PASSWORD, NOTIFICATION_EMAIL (Settings → Secrets).
 
 on:
   schedule:
