@@ -8,6 +8,21 @@ Maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila I
 
 ---
 
+## Why This Matters
+
+China is building more semiconductor manufacturing capacity than every other country combined — while operating under the most restrictive export-control regime ever applied to a single nation. Whether that buildout succeeds or stalls is the central question of the chip era: it decides how much of the world's silicon stays dependent on a single geography, whether US-led controls achieve their stated aim, and how countries like India should price their own fab incentives.
+
+But the evidence for that question is scattered, fragmented, and mostly in Chinese. Fab announcements appear in provincial government notices, 集微网 reprints, exchange filings, and industry press — then get contradicted, delayed, or quietly abandoned without anyone updating the narrative. Published "China fab lists" circulate for years with stale statuses and inflated investment totals.
+
+This tracker is an attempt to fix that for one narrow, verifiable slice:
+
+- **One entry per facility or firm, one source per claim.** Every status, investment figure, and designation cites where it came from — filings and primary disclosures first, industry press second, content farms never. Weak sources get replaced in periodic sweeps against 科技日报, exchange filings, and financial press.
+- **Status is tracked, not assumed.** Announced → Approved → Under Construction → Operational, per phase where phases move at different speeds. Cancelled projects stay on record (they are part of the story) but are excluded from investment totals — announced money that was never spent is not capacity.
+- **Designations are kept distinct.** The Commerce/BIS Entity List and the DoD's Section 1260H list are legally different instruments; conflating them misstates what a chipmaker can actually be blocked from doing.
+- **It is corrected in public.** All changes are visible in git history ([What Changed](https://fabs-china.pranaykotas.com/changes.html)), with a fortnightly automated sweep of Chinese and English sources flagging drift.
+
+The result is not a forecast or an argument — it is a base layer of facts that forecasts and arguments about chips, China, and export controls should be built on. The data is CC BY 4.0: use it, cite it, challenge it.
+
 ## What It Tracks
 
 - **Fabs and back-end sites** across 25+ provinces/municipalities — State-Backed, Private, JV, and Foreign-Invested — reconciled in October 2026 against a full national fab list; cancelled projects are kept on record but excluded from investment totals
@@ -16,6 +31,8 @@ Maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila I
 - **Investment** in ¥亿 (RMB 100M) and/or USD as disclosed, with the lead funder named
 - **Capacity** (wafers/month) and a **last-verified** date, where recorded
 - **US designations** where applicable — Commerce/BIS Entity List vs DoD Section 1260H, kept distinct
+- **48 chip design firms** — fabless vendors, state-backed design houses, and EDA/IP providers — with earnings, listing progress, and Entity List status verified against filings
+- **Equipment & materials chokepoint firms** — lithography, etch, deposition, CMP, wafers, gases, photoresist
 - **Milestones and sources for every entry** — Chinese-language industry coverage (集微网, 财联社, 芯智讯, 电子工程专辑, 交易所 filings) alongside international outlets
 
 ## The Data
@@ -45,10 +62,10 @@ The tracker depends on community contributions to stay accurate. There are two w
 
 ### Option 1 — Email (no account needed)
 
-**Email pranay@takshashila.org.in** with the subject "China Semiconductor Tracker — update" (the site's "Have an update?" button prefills this). Use it for:
+Use the **"Have an update?"** button in the site footer or on the About page — it opens a prefilled email, no GitHub account required. Use it for:
 - Status changes (construction started, line-out 通线, production begun)
 - Corrections to investment figures, capacity, dates, or descriptions
-- New facility announcements
+- New facility or design-firm announcements
 
 ### Option 2 — GitHub Issue (for detailed contributions)
 
@@ -63,7 +80,7 @@ All submissions are reviewed against the tracker's sourcing standard before bein
 
 GitHub Actions keeps the site and its maintainer current:
 
-- **`weekly-digest.yml`** — every Monday, trawls Google News (Chinese zh-CN + English editions) with one query per tracked facility (built from the YAML, so new entries are covered automatically) plus enumeration and Entity List queries, diffs the results against the live `data/facilities.yml` with Claude, and emails a "what changed this week" digest with suggested YAML edits.
+- **`weekly-digest.yml`** — every second Monday, trawls Google News (Chinese zh-CN + English editions) with one query per tracked facility **and per tracked design firm** (built from the YAML, so new entries are covered automatically), plus enumeration and Entity List queries, diffs the results against the live YAML state with Claude, and emails a "what changed" digest with suggested YAML edits.
 - **`deploy.yml`** — validates the YAML, then rebuilds and deploys the Quarto site to GitHub Pages weekly and on merge.
 
 ## Licence
