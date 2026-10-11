@@ -1,6 +1,6 @@
 # China Semiconductor Tracker
 
-An interactive, open-source tracker for mainland China's semiconductor manufacturing footprint — fabs, memory makers, OSAT/advanced-packaging sites, compound-semiconductor lines, and research/pilot fabs — plus the chip design firms and equipment/materials companies it depends on.
+An interactive, open-source tracker of mainland China's semiconductor manufacturing footprint—fabs, memory makers, OSAT/advanced-packaging sites, compound-semiconductor lines, and research/pilot fabs—plus the chip design firms and equipment/materials companies.
 
 **Live site:** [fabs-china.pranaykotas.com](https://fabs-china.pranaykotas.com)
 
@@ -10,14 +10,14 @@ Maintained by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila I
 
 ## Why This Matters
 
-China is building more semiconductor manufacturing capacity than every other country combined — while operating under the most restrictive export-control regime ever applied to a single nation. Whether that buildout succeeds or stalls is the central question of the chip era: it decides how much of the world's silicon stays dependent on a single geography, whether US-led controls achieve their stated aim, and how countries like India should price their own fab incentives.
+China is building more semiconductor manufacturing capacity than every other country combined — while operating under the most restrictive export-control regime ever applied to a single nation. Whether that buildout succeeds or stalls is the central question of the chip era. It decides how much of the world's silicon stays dependent on a single geography, whether US-led controls achieve their stated aim, and how countries like India should price their own fab incentives.
 
 But the evidence for that question is scattered, fragmented, and mostly in Chinese. Fab announcements appear in provincial government notices, 集微网 reprints, exchange filings, and industry press — then get contradicted, delayed, or quietly abandoned without anyone updating the narrative. Published "China fab lists" circulate for years with stale statuses and inflated investment totals.
 
 This tracker is an attempt to fix that for one narrow, verifiable slice:
 
 - **One entry per facility or firm, one source per claim.** Every status, investment figure, and designation cites where it came from — filings and primary disclosures first, industry press second, content farms never. Weak sources get replaced in periodic sweeps against 科技日报, exchange filings, and financial press.
-- **Status is tracked, not assumed.** Announced → Approved → Under Construction → Operational, per phase where phases move at different speeds. Cancelled projects stay on record (they are part of the story) but are excluded from investment totals — announced money that was never spent is not capacity.
+- **Status is tracked.** Announced → Approved → Under Construction → Operational, per phase where phases move at different speeds. Cancelled projects stay on record (they are part of the story) but are excluded from investment totals — announced money that was never spent is not capacity.
 - **Designations are kept distinct.** The Commerce/BIS Entity List and the DoD's Section 1260H list are legally different instruments; conflating them misstates what a chipmaker can actually be blocked from doing.
 - **It is corrected in public.** All changes are visible in git history ([What Changed](https://fabs-china.pranaykotas.com/changes.html)), with a fortnightly automated sweep of Chinese and English sources flagging drift.
 
