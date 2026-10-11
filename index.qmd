@@ -141,3 +141,8 @@ datatable(
 - **Technical Complexity:** weighted score, 55% Technology Difficulty + 45% Capital Intensity, benchmarked against a 3nm fab (5/5). See [About](about.qmd).
 - **Investment:** shown in ¥ (RMB) 亿 (100 million yuan); a dollar figure is shown alongside when a firm's investment is only disclosed in USD.
 :::
+
+::: {.callout-tip}
+## Have an update?
+Know about a status change, a new announcement, or a correction? **[Email us](mailto:pranay@takshashila.org.in?subject=China%20Semiconductor%20Tracker%20%E2%80%94%20update)** — the fastest way to flag something, no account required — or **[open a GitHub Issue](https://github.com/pranaykotas/china-semiconductor-tracker/issues/new/choose)** for detailed contributions with sources. Updates are reviewed and pushed to the site every week.
+:::

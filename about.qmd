@@ -55,4 +55,9 @@ Known gaps queued for a future research batch, not omitted by oversight: the rem
 
 ## Have an Update?
 
-Found an error or have new information? [Open a GitHub Issue](https://github.com/pranaykotas/china-semiconductor-tracker/issues/new).
+This tracker is maintained on a weekly cycle — reported errors and new information are reviewed and pushed to the site every week.
+
+- **Quick update (no account needed):** **[Email us](mailto:pranay@takshashila.org.in?subject=China%20Semiconductor%20Tracker%20%E2%80%94%20update)** — name the facility, what changed, and a source link if you have one.
+- **Detailed contribution (GitHub):** **[Open a GitHub Issue](https://github.com/pranaykotas/china-semiconductor-tracker/issues/new/choose)** with the same three things — which facility, what changed, and a source URL or document reference.
+
+All submissions are checked against the tracker's sourcing standard before being incorporated.
