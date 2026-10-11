@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale. Earnings accelerated sharply in 2026: Q1 revenue reached ¥4.8 billion (+34.5% YoY), and the company guided H1 2026 net profit to ¥750-850 million, up 231-275% year-on-year, crediting advanced-packaging mix shift and M&A integration.
+One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Electronic Group (天水华天电子集团), held 22.34% as of September 2025. Earnings accelerated sharply in 2026: H1 net profit came in at ¥813 million (+259% year-on-year) on revenue of ¥10.51 billion, which the company credited to advanced-packaging mix shift and M&A integration.
 :::
 
 **Chinese name:** 华天科技 (Huátiān Kējì)
@@ -35,7 +35,7 @@ Based in Gansu province — a notable geographic outlier among China's semicondu
 | **Current Node** | Not applicable (assembly & test) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
-| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+| **Last Verified** | Not recorded (newest source dated Aug 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
@@ -52,11 +52,12 @@ Based in Gansu province — a notable geographic outlier among China's semicondu
 
 ## Sources
 
-- [Huatian Technology (Wikipedia)](https://en.wikipedia.org/wiki/Huatian_Technology) (28 Sep 2026)
-- [华天科技：预计2026年半年度盈利7.50亿至8.50亿 净利润同比增长231.16%至275.31% (同花顺)](http://yuanchuang.10jqka.com.cn/20260713/c678138484.shtml) (13 Jul 2026)
+- [天水华天科技股份有限公司关于本次交易停牌前一个交易日前十大股东和前十大流通股股东持股情况的公告](https://static.cninfo.com.cn/finalpage/2025-10-17/1224717168.PDF) (17 Oct 2025)
+- [华天科技：预计上半年净利润同比增长231%-275% (财联社)](https://www.cls.cn/detail/2424676) (13 Jul 2026)
 - [天水华天科技股份有限公司非公开发行A股股票募集资金运用的可行性报告](https://disc.static.szse.cn/disc/disk02/finalpage/2021-01-20/d4372f6e-3c04-4075-9365-12d6227050bb.PDF) (20 Jan 2021)
 - [天风证券关于天水华天科技股份有限公司2024年度募集资金存放与使用情况的核查意见](https://static.cninfo.com.cn/finalpage/2025-04-01/1222975803.PDF) (01 Apr 2025)
 - [华天科技：4月10日接受机构调研，中粮资本参与](https://wap.stockstar.com/detail/RB2026041000028467) (10 Apr 2026)
+- [华天科技:上半年净利润同比增长259% 存储器封装等业务规模扩大 (同花顺/财闻)](https://stock.10jqka.com.cn/20260821/c679173788.shtml) (21 Aug 2026)
 
 ---
 

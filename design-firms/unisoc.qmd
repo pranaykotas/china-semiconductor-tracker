@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. Held roughly 13% of global smartphone SoC market share as of September 2025, ranking fourth worldwide behind MediaTek, Qualcomm, and Apple; 2024 revenue was reported at ¥14.5 billion.
+Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. The fourth-largest smartphone SoC vendor worldwide per Counterpoint, behind MediaTek, Qualcomm and Apple, with 12.1% share for full-year 2025 and 14% in Q1 2026; 2024 revenue was reported at ¥14.5 billion.
 :::
 
 ## What does this firm design?
 
-Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines. In 2026 introduced an 'Agentic AI' platform (the N9 SoC series) targeted at on-device/edge AI agents, claimed to cut customer bill-of-materials cost by 39% and development time by 67%.
+Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines.
 
 ## Key Facts
 
@@ -31,8 +31,9 @@ Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plu
 
 ## Sources
 
-- [UNISOC (Wikipedia)](https://en.wikipedia.org/wiki/UNISOC) (28 Sep 2026)
-- [紫光展锐：全球第四，逼近苹果 (腾讯云开发者社区)](https://cloud.tencent.cn/developer/news/1191227) (28 Sep 2026)
+- [紫光展锐完成股改！2024年营收145亿 加速冲刺IPO (财联社)](https://www.cls.cn/detail/1990697) (01 Apr 2025)
+- [Counterpoint：2026 年 Q1 智能手机芯片出货 ... 紫光展锐 14% (IT之家)](https://www.ithome.com/0/962/610.htm) (10 Jun 2026)
+- [登陆科创板在望：紫光展锐即将完成IPO辅导验收 (C114通信网)](https://m.c114.com.cn/w16-1308696.html) (18 Apr 2026)
 
 ---
 

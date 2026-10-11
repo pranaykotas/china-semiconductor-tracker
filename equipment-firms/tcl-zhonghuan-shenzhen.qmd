@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer company — the world's largest by shipment volume (190GW capacity, 125.8GW shipped in 2024) — and is tracked here specifically for its separate, smaller semiconductor-grade wafer business, not its core solar operation, to avoid overstating its role in the chip supply chain. That semiconductor-materials segment grew 17% year-on-year even as the parent company's core solar business posted a net loss (narrowing, but still a loss) amid a broader Chinese solar-panel oversupply downturn — a useful reminder that a company's overall financial headlines can mask a growing chip-adjacent sub-business.
+TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer company — the world's largest by shipment volume (190GW capacity, 125.8GW shipped in 2024) — and is tracked here specifically for its separate, smaller semiconductor-grade wafer business, not its core solar operation, to avoid overstating its role in the chip supply chain. That semiconductor-materials segment (Zhonghuan Advanced) grew shipments 17% year-on-year in H1 2026, to 689 million square inches, on revenue of ¥3.04 billion, even as the parent company's core solar business posted a net loss (narrowing, but still a loss) amid a broader Chinese solar-panel oversupply downturn — a useful reminder that a company's overall financial headlines can mask a growing chip-adjacent sub-business.
 :::
 
 ## What does this firm supply?
@@ -26,7 +26,7 @@ Large-diameter semiconductor-grade silicon wafers. Current production runs throu
 | **HQ** | Shenzhen |
 | **Capacity** | 700,000 12-inch (300mm) semiconductor wafers/month, as of 2024-12 — installed, Zhonghuan Advanced (中环领先) group-wide; excludes 8-inch and smaller; Shenzhen project adds planned 700k/month |
 | **Entity List** | No |
-| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+| **Last Verified** | Not recorded (newest source dated Aug 2026) |
 
 ## Capability Trajectory
 
@@ -46,7 +46,7 @@ Large-diameter semiconductor-grade silicon wafers. Current production runs throu
 ## Sources
 
 - [TCL中环拟投建近120亿元项目，加码半导体大硅片 (新浪财经)](https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxru1479438.shtml) (18 Jul 2026)
-- [TCL中环：半导体材料业务销量同比增长17% (网易)](https://www.163.com/dy/article/L2FC7A4B051984TV.html) (28 Sep 2026)
+- [TCL中环：控股子公司实现出货量689MSI，12英寸和8英寸及以下出货量占比为57.8%、42.2% (财闻/同花顺)](https://news.10jqka.com.cn/20260831/c679442417.shtml) (31 Aug 2026)
 - [TCL 中环新能源科技股份有限公司 2022 年半年度报告](https://disc.static.szse.cn/disc/disk03/finalpage/2022-08-25/4c538f5a-f179-4253-a8b6-7b0332a6621d.PDF) (25 Aug 2022)
 - [半导体领域重磅并购！TCL中环拟77亿出手鑫芯半导体 (财联社)](https://www.cls.cn/detail/1247179) (20 Jan 2023)
 - [TCL 中环新能源科技股份有限公司 2024 年年度报告](https://static.cninfo.com.cn/finalpage/2025-04-26/1223330188.PDF) (26 Apr 2025)

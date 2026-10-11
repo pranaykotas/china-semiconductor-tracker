@@ -22,7 +22,7 @@ Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series g
 | **Category** | Fabless |
 | **Founded** | 2006 |
 | **Location** | Wuhan, Hubei |
-| **Product Focus** | High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, first domestic full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services |
+| **Product Focus** | High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services |
 | **Node Sophistication** | IP proven across advanced nodes (HBM/UCIe/224G PHY imply ≤N5-class enablement); Fenghua GPUs ≤12nm; latest node not verified |
 | **Entity List** | No |
 
@@ -31,7 +31,9 @@ Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series g
 
 ## Sources
 
-- [2026硬核中国芯榜单：芯动微电子入选 (网易转集微网)](https://www.163.com/dy/article/L1G15GPC0511BFPT.html) (15 Jan 2026)
+- [全球首款120通道PCIe Gen5交换芯片在湖北武汉发布 (科技日报)](https://www.stdaily.com/web/gdxw/2026-02/27/content_477518.html) (27 Feb 2026)
+- [INNOSILICON Unveils Full Suite of High-Speed UALink IP (company site)](https://www.innosilicon.com/news/17) (04 Jun 2026)
+- [国产全功能GPU “风华3号” 重磅发布：拿下多项国内第一！(快科技, reprinting 芯智讯)](https://news.mydrivers.com/1/1076/1076214.htm) (22 Sep 2025)
 
 ---
 

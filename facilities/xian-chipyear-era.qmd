@@ -29,13 +29,13 @@ A reminder that China's fab build-out is not only about advanced logic and memor
 | **Capability** | 8-inch (200mm) power semiconductor fab — IGBT, silicon carbide (SiC) chips |
 | **Status** | Under Construction |
 | **Capacity** | Not yet recorded |
-| **Investment** | ¥190亿元 |
+| **Investment** | ¥45亿元 |
 | **Funding Source** | Local Govt |
 | **Location** | Xi'an, Shaanxi |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
-| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+| **Last Verified** | Not recorded (newest source dated Oct 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.9/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
@@ -48,12 +48,13 @@ A reminder that China's fab build-out is not only about advanced logic and memor
 ## Project Timeline
 
 - **Dec 2025** — Phase 1 (¥3.2 billion, 50,000 wafers/month design capacity) completes and enters production
-- **Sep 2026** — Phase 2 construction preparation begins, formal start targeted for Q3 2026, under a stated ¥19 billion total investment plan through 2030
+- **Sep 2026** — Phase 2 construction preparation begins, formal start targeted for Q3 2026, (the 8-inch line's total investment is ¥4.5 billion per Shaanxi SASAC, ¥3.2 billion of it spent in Phase 1; a larger ¥19 billion plan appears only in secondary coverage)
 
 ## Sources
 
-- [西北首条8英寸高性能特色工艺半导体生产线正式投产 (搜狐)](https://www.sohu.com/a/959372050_120122160) (28 Sep 2026)
+- [陕西西安 锻造“芯光同辉”产业新引擎 (人民日报)](https://www.peopleapp.com/column/30052407887-500007548337) (16 Jun 2026)
 - [陕西芯业时代8英寸芯片生产线项目预计Q3启动二期建设 (新浪财经)](https://finance.sina.com.cn/roll/2026-06-09/doc-iniauzkt5103109.shtml) (09 Jun 2026)
+- [西北首条8英寸高性能特色工艺半导体生产线投产 (界面新闻, reprinting Shaanxi SASAC; publish date not shown, date below is access date)](https://m.jiemian.com/article/13804571.html) (11 Oct 2026)
 
 ---
 

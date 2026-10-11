@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's first company to mass-produce a general-purpose training GPU (天垓100, 2021) and, with H1 2026 results (revenue ¥9.46亿 +191.6%, net +¥1.06亿), the first of the GPU startups to post a profitable half-year — the unit-economics proof point for the whole sector. FY2025 revenue ¥10.34亿 (+91.6%).
+China's first company to mass-produce a general-purpose training GPU (天垓100, 2021). It posted a headline H1 2026 profit of ¥1.06亿 on revenue of ¥9.46亿 (+191.6%), but the profit came from about ¥7.56亿 of unrealised fair-value gains on its stake in 盛合晶微 (SJ Semiconductor); excluding that gain the core business lost roughly ¥6.5亿. FY2025 revenue ¥10.34亿 (+91.6%).
 :::
 
 ## What does this firm design?
@@ -32,7 +32,9 @@ Cloud training/inference GPGPU chips and cards, edge AI products, AI servers/clu
 ## Sources
 
 - [天数智芯港交所上市 (证券时报)](https://www.stcn.com/article/detail/3578078.html) (08 Jan 2026)
-- [天数智芯2025年报：营收10.34亿+91.6% (南方都市报)](https://www.163.com/dy/article/KQ3JKI5605129QAF.html) (09 Apr 2026)
+- [天数智芯 2025业绩报告深度解读：推理增长 238.2% (投中网)](https://m.chinaventure.com.cn/news/108-20260331-390736.html) (31 Mar 2026)
+- [企业密集上市，AI迈入“技术+资本”驱动成长期 (科技日报)](https://www.stdaily.com/web/gdxw/2026-01/24/content_465708.html) (24 Jan 2026)
+- [天数智芯扭亏背后：营收增191% 超7亿股权投资浮盈托底利润 (时代财经 via 东方财富)](https://finance.eastmoney.com/a/202608313859600545.html) (31 Aug 2026)
 
 ---
 

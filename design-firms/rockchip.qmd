@@ -31,8 +31,8 @@ Application processor SoCs for tablets, set-top boxes, and embedded/IoT devices.
 
 ## Sources
 
-- [Rockchip (Wikipedia)](https://en.wikipedia.org/wiki/Rockchip) (28 Sep 2026)
-- [瑞芯微2026半年报：营收增长40.6%净利润激增61.7% 端侧AI战略引领多领域突破 (新浪财经)](https://finance.sina.com.cn/stock/aigc/agcbld/2026-08-18/doc-ininrzfz9965736.shtml) (18 Aug 2026)
+- [国产IC设计龙头瑞芯微上市首日涨44% (财联社)](https://m.cls.cn/detail/438950) (07 Feb 2020)
+- [下游需求持续释放 瑞芯微上半年净利同比增逾六成 (上海证券报)](https://stock.10jqka.com.cn/20260818/c679025072.shtml) (18 Aug 2026)
 
 ---
 

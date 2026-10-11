@@ -26,7 +26,7 @@ Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and 
 | **HQ** | Beijing |
 | **Capacity** | Planned: 500 IC equipment units/year (planned, Majuqiao phase IV), as of 2021 — planned design capacity of 2021 fundraising project, not confirmed installed output; plus 500 emerging-semi, 300 LED, 700 PV tools/year |
 | **Entity List** | Yes — US Commerce BIS |
-| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+| **Last Verified** | Not recorded (newest source dated Aug 2026) |
 
 ## Capability Trajectory
 
@@ -43,13 +43,14 @@ Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and 
 
 ## Sources
 
-- [Naura Technology (Wikipedia)](https://en.wikipedia.org/wiki/Naura_Technology) (28 Sep 2026)
+- [北方华创董事长赵晋荣：着力打造规范透明高效国有上市公司形象 (中证网)](https://www.cs.com.cn/xwzx/hg/202304/t20230422_6339334.html) (22 Apr 2023)
 - [US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers](https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/) (03 Dec 2024)
-- [北方华创2026年上半年营收201.61亿元，归母净利润33.70亿元 (Sohu)](https://www.sohu.com/a/1068756715_114984) (28 Sep 2026)
+- [5000亿市值半导体设备龙头发半年报：营收狂飙25%、净利仅增5%！ (每日经济新闻)](https://www.mrjjxw.com/articles/2026-08-25/4555845.html) (25 Aug 2026)
 - [北方华创 非公开发行A股股票募集资金使用的可行性分析报告（修订稿）](https://disc.static.szse.cn/disc/disk02/finalpage/2019-07-06/6d7b8829-3f4e-4f2a-8587-fc07f620ec19.PDF) (06 Jul 2019)
 - [北方华创 非公开发行股票募集资金使用可行性分析报告](https://disc.static.szse.cn/disc/disk02/finalpage/2021-04-22/9da9c849-2973-46e8-a2a1-74e021fd40cd.PDF) (22 Apr 2021)
 - [不止晶圆代工，中芯国际捧出 10 个 IPO (IT之家/芯东西)](https://www.ithome.com/0/625/385.htm) (20 Jun 2022)
 - [北方华创(002371)2025年报及2026年一季报点评：收入保持稳健增长 平台型龙头持续完善产品矩阵](https://m.gelonghui.com/news/5228431) (06 May 2026)
+- [Federal Register Vol. 89 No. 234, Additions to the Entity List (2024-28267)](https://www.govinfo.gov/content/pkg/FR-2024-12-05/html/2024-28267.htm) (05 Dec 2024)
 
 ---
 

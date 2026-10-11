@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-A foreign (French-headquartered) industrial gas major with one of the largest confirmed manufacturing footprints of any multinational in China — reportedly close to 90 factories across 40+ Chinese cities and over 4,000 employees overall, with a dedicated electronics business (ultra-high-purity gases, chemical liquids, and related equipment for semiconductor, flat-panel-display, and photovoltaic customers) employing over 3,000 of them. Represented here at its Shanghai electronics-business base; its actual gas plants are distributed nationally, not concentrated at one site — a genuine case where a single map marker understates the real footprint.
+A foreign (French-headquartered) industrial gas major with one of the largest confirmed manufacturing footprints of any multinational in China — close to 90 factories across 40+ Chinese cities and over 4,000 employees overall, as of 2018, with a dedicated electronics business (ultra-high-purity gases, chemical liquids, and related equipment for semiconductor, flat-panel-display, and photovoltaic customers) employing over 3,000 of them. Represented here at its Shanghai electronics-business base; its actual gas plants are distributed nationally, not concentrated at one site — a genuine case where a single map marker understates the real footprint.
 :::
 
 ## What does this firm supply?

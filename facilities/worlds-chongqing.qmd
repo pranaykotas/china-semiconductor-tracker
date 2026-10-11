@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-The AOS–Chongqing JV (registered April 2016, ~$1B, US$355M registered capital) that the Wikipedia dump lists as 'Wandai under construction' — actually in volume production since December 2019. In July 2025 AOS agreed to sell ~20.3% (half its stake) for $150M, reportedly to Shanghai Xinwei Technology Group, completing the transition toward Chinese control.
+The AOS–Chongqing JV (registered April 2016; AOS reported initial capitalisation of $330M and total capitalisation of $379M by November 2019, split 51% AOS / 49% Chongqing funds at formation) that the Wikipedia fab list shows as 'under construction'. It has in fact been in 12-inch mass production since mid-2019. In July 2025 AOS agreed to sell about 20.3% of the JV for $150M to SIMIC Holdings Co., Ltd. (reportedly Shanghai Xinwei Technology Group); the sale completed in May 2026, moving the fab toward Chinese control.
 :::
 
 **Chinese name:** 重庆万国半导体科技有限公司 (Chóngqìng Wànguó Bàndǎotǐ Kējì Yǒuxiàn Gōngsī)
@@ -26,16 +26,16 @@ A case study in how a US-designed power-semi fab in inland China changes hands w
 | **Company** | Worlds (Chongqing) Semiconductor Technology Co., Ltd. |
 | **Type** | Fab |
 | **Category** | JV |
-| **Capability** | 12-inch power semiconductors (MOSFET/analog) + on-site assembly/test — marketed at launch as China's first integrated 12-inch power-device fab; phase-1 20,000 wafers/month (volume from Dec 2019), phase-2 target 50,000/month |
+| **Capability** | 12-inch power semiconductors (MOSFET/analog) + on-site assembly/test — marketed at launch as China's first integrated 12-inch power-device fab; phase-1 20,000 wafers/month (mass production from July–September 2019, per AOS), phase-2 target 50,000/month |
 | **Status** | Operational |
 | **Capacity** | Not yet recorded |
-| **Investment** | $1,000M |
+| **Investment** | $379M |
 | **Funding Source** | Foreign |
 | **Location** | Chongqing, Chongqing Municipality |
 | **Current Node** | Not yet researched |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
-| **Last Verified** | Not recorded (newest source dated Jul 2026) |
+| **Last Verified** | Not recorded (newest source dated May 2026) |
 
 ### Technical Complexity
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
@@ -49,12 +49,15 @@ A case study in how a US-designed power-semi fab in inland China changes hands w
 
 - **Apr 2016** — Company registered in Chongqing Liangjiang New Area (AOS + local state funds)
 - **Jun 2018** — Phase-1 fab + assembly/test trial production (20,000 wafers/month)
-- **Dec 2019** — Volume production begins — first integrated 12-inch power fab claim
-- **Jul 2025** — AOS agrees to sell 20.3% stake (~$150M), reportedly to Shanghai Xinwei
+- **Jul 2019** — 12-inch Phase 1 mass production begins (AOS fiscal Q1 2020, July–September 2019); marketed as China's first integrated 12-inch power fab (company claim)
+- **Jul 2025** — AOS agrees to sell 20.3% of the JV (about half its 39.2% stake) for ~$150M to SIMIC Holdings Co., Ltd. (reportedly Shanghai Xinwei); sale completed May 2026
 
 ## Sources
 
-- [万国半导体：AOS出售重庆万国20.3%股权予上海新微 (今日头条财经)](https://www.toutiao.com/article/7528305789035938342/) (20 Jul 2026)
+- [AOS Announced $150 Million Sale of a Portion of its Equity Interest in CQJV](https://investor.aosmd.com/press-releases/press-release-details/2025/AOS-Announced-150-Million-Sale-of-a-Portion-of-its-Equity-Interest-in-CQJV/default.aspx) (14 Jul 2025)
+- [Alpha & Omega Semiconductors (AOSL) Completes Sale of Interests in China-based Joint Venture](https://finance.yahoo.com/markets/stocks/articles/alpha-omega-semiconductors-aosl-completes-191619240.html) (12 May 2026)
+- [AOSL November 2019 IR Presentation](https://s22.q4cdn.com/656605939/files/doc_presentations/2019/11/26/AOSL_November-2019-IR-Presentation.pdf) (26 Nov 2019)
+- [Alpha and Omega Semiconductor Limited Announces Joint Venture Agreement in China](https://investor.aosmd.com/press-releases/press-release-details/2016/Alpha-and-Omega-Semiconductor-Limited-Announces-Joint-Venture-Agreement-in-China/default.aspx) (29 Mar 2016)
 
 ---
 

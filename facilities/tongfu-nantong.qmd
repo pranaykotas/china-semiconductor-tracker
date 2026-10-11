@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; largest shareholder is the state-linked Nantong Huada Microelectronics Group (19.91%) with the Big Fund holding 11.26%. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright. H1 2026 revenue reached ¥16 billion (+23% YoY) with net profit up 317% YoY to ¥1.72 billion; Q2 2026 net profit alone grew 286-347% quarter-on-quarter.
+Traces to the state-owned Nantong Transistor Factory; its largest shareholder is the state-linked Nantong Huada Microelectronics Group (18.80% as of June 2026). The Big Fund, which once held as much as 21.72%, has been selling down since 2020 and held 5.00% by June 2026. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright. H1 2026 revenue reached ¥16 billion (+23% YoY) with net profit up 317% YoY to ¥1.72 billion; Q2 2026 net profit alone was ¥1.39 billion, up 346.9% year-on-year.
 :::
 
 **Chinese name:** 通富微电 (Tōngfù Wēidiàn)
@@ -17,7 +17,7 @@ At Nantong: flip-chip (FC) and system-in-package (SiP) packaging for high-perfor
 
 ## Why does it matter?
 
-One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains. By 2026, domestic reporting says Tongfu has entered Samsung's and SK Hynix's own HBM supply chains, capturing close to 45% of Samsung's outsourced HBM packaging volume — and separately handles over 80% of AMD's global CPU/GPU packaging and test orders, with AMD alone accounting for about 52.3% of Tongfu's total revenue. That dependence cuts both ways: it is the clearest evidence of a Chinese OSAT firm embedded deep in the global AI-memory supply chain, and a concentration risk if AMD diversifies.
+One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains. Tongfu also handles over 80% of AMD's global CPU/GPU packaging and test orders, with AMD alone accounting for about 52.3% of Tongfu's total revenue. That dependence cuts both ways: it is the clearest evidence of a Chinese OSAT firm embedded deep in the global AI-memory supply chain, and a concentration risk if AMD diversifies.
 
 ## Key Facts
 
@@ -53,11 +53,12 @@ One of two mainland Chinese firms in the world's top five OSAT companies by reve
 
 ## Sources
 
-- [Tongfu Microelectronics (Wikipedia)](https://en.wikipedia.org/wiki/Tongfu_Microelectronics) (28 Sep 2026)
+- [通富微电石明达：让中国半导体拥有与世界对话的底气 (上海证券报)](https://paper.cnstock.com/html/2026-02/25/content_2182125.htm) (25 Feb 2026)
 - [Tongfu Microelectronics Chairman's Letter of Gratitude to All Sectors for Completing the Acquisition of 85% Equity in Two AMD Packaging and Testing Facilities](https://en.tfme.com/news/378.html) (28 Sep 2026)
-- [不惧存储杀跌！封测龙头通富微电业绩炸裂，半年净利最高增337%，Q2环比暴涨286%-347% (金融界)](https://m.jrj.com.cn/madapter/stock/2026/07/14172357798587.shtml) (14 Jul 2026)
+- [通富微电：上半年归母净利润17.2亿元，同比上升316.8% (东方财富)](https://finance.eastmoney.com/a/202608283858419867.html) (28 Aug 2026)
 - [通富微电获42.2亿定增 (新浪财经) — AMD/Samsung HBM supply-chain detail](https://www.sina.cn/news/detail/5317759326225537.html) (28 Sep 2026)
 - [通富微电子股份有限公司2026年度向特定对象发行A股股票募集说明书（注册稿）](https://pdf.dfcfw.com/pdf/H2_AN202607031826702614_1.pdf) (03 Jul 2026)
+- [从11.72%到5%，大基金逐步退出通富微电，股价不跌反涨创出历史新高 (东方财富)](https://finance.eastmoney.com/a/202606253783309916.html) (25 Jun 2026)
 
 ---
 

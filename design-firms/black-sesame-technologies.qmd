@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips. H1 2026 revenue reached ¥458 million (+81.3% YoY, its fourth consecutive year of high YoY growth) with gross margin nearly doubling to 49.5% (gross profit +261.9% YoY) and cumulative chip shipments passing 6 million units — but net loss still widened slightly to ¥770 million, underscoring that revenue growth has not yet translated into profitability.
+Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips. H1 2026 revenue reached ¥458 million (+81.3% YoY, its fourth consecutive year of high YoY growth) with gross margin nearly doubling to 49.5% (gross profit +261.9% YoY) and chip shipments of more than 6 million units in the half — but net loss still widened slightly to ¥770 million, underscoring that revenue growth has not yet translated into profitability.
 :::
 
 ## What does this firm design?
@@ -31,8 +31,9 @@ AI chips for self-driving cars and advanced driver assistance systems (ADAS), in
 
 ## Sources
 
-- [Black Sesame Technologies (Wikipedia)](https://en.wikipedia.org/wiki/Black_Sesame_Technologies) (28 Sep 2026)
-- [黑芝麻智能2026上半年营收连续四年同比高增长，三大业务引擎协同进阶 (腾讯新闻)](https://news.qq.com/rain/a/20260831A08KAS00) (31 Aug 2026)
+- [智能车AI芯片第一股上市 (界面新闻)](https://www.jiemian.com/article/11531065.html) (08 Aug 2024)
+- [黑芝麻智能盘中涨超12% 上半年营收4.58亿元同比增长81.3% (科创板日报)](https://finance.eastmoney.com/a/202609013861372692.html) (01 Sep 2026)
+- [黑芝麻智能车载业务规模效应失效 (证券之星)](https://wap.stockstar.com/detail/IG2026090300040971) (03 Sep 2026)
 
 ---
 

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix. Chengdu is an assembly-and-test (ATP) site, not a fab — it packages and tests chips rather than fabricating wafers.
+Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix. Chengdu is an assembly-and-test (ATP) site, not a fab — it packages and tests chips rather than fabricating wafers. Intel had invested $600 million in the site by December 2014, when it announced a further $1.6 billion over 15 years; in 2024 it added $300 million in registered capital to expand server-chip packaging and test.
 :::
 
 **Chinese name:** 英特尔产品（成都）有限公司 (Yīngtè'ěr Chǎnpǐn (Chéngdū) Yǒuxiàn Gōngsī)
@@ -55,10 +55,10 @@ With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the cleare
 ## Sources
 
 - [Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)](https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix) (28 Sep 2026)
-- [英特尔宣布扩容成都封装测试基地，增加服务器芯片服务](https://www.ithome.com/0/805/679.htm) (28 Oct 2024)
 - [Intel to invest $1.6 billion in China plant to push mobile chip development](https://www.infoworld.com/article/2236166/intel-to-invest-16-billion-in-china-plant-to-push-mobile-chip-development.html) (04 Dec 2014)
 - [世界500强企业宣布扩容成都封装测试基地](https://www.yicai.com/news/102330103.html) (28 Oct 2024)
 - [英特尔中国区董事长王稚聪：正依托成都工厂建设先进制造人工智能实践中心](https://www.mrjjxw.com/articles/2026-07-21/4487128.html) (21 Jul 2026)
+- [英特尔成都封装测试基地扩容 (IT之家)](https://www.ithome.com/0/805/679.htm) (28 Oct 2024)
 
 ---
 

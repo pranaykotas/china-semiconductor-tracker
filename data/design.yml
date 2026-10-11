@@ -52,15 +52,18 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. Held roughly 13% of global smartphone SoC market share as of September 2025, ranking fourth worldwide behind MediaTek, Qualcomm, and Apple; 2024 revenue was reported at ¥14.5 billion."
-      what_it_designs: "Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines. In 2026 introduced an 'Agentic AI' platform (the N9 SoC series) targeted at on-device/edge AI agents, claimed to cut customer bill-of-materials cost by 39% and development time by 67%."
+      significance: "Part of Tsinghua Unigroup (the same state-linked group behind YMTC), formed from the 2018 merger of Spreadtrum Communications (founded 2001) and RDA Microelectronics — one of the highest-volume mobile chipset vendors globally by unit shipments, concentrated in the mass market rather than flagship tier. The fourth-largest smartphone SoC vendor worldwide per Counterpoint, behind MediaTek, Qualcomm and Apple, with 12.1% share for full-year 2025 and 14% in Q1 2026; 2024 revenue was reported at ¥14.5 billion."
+      what_it_designs: "Mobile SoCs and baseband chipsets for entry-level and mid-range smartphones, plus IoT and automotive chip lines."
     sources:
-      - url: "https://en.wikipedia.org/wiki/UNISOC"
-        title: "UNISOC (Wikipedia)"
-        date: "2026-09-28"
-      - url: "https://cloud.tencent.cn/developer/news/1191227"
-        title: "紫光展锐：全球第四，逼近苹果 (腾讯云开发者社区)"
-        date: "2026-09-28"
+      - url: "https://www.cls.cn/detail/1990697"
+        title: "紫光展锐完成股改！2024年营收145亿 加速冲刺IPO (财联社)"
+        date: "2025-04-01"
+      - url: "https://www.ithome.com/0/962/610.htm"
+        title: "Counterpoint：2026 年 Q1 智能手机芯片出货 ... 紫光展锐 14% (IT之家)"
+        date: "2026-06-10"
+      - url: "https://m.c114.com.cn/w16-1308696.html"
+        title: "登陆科创板在望：紫光展锐即将完成IPO辅导验收 (C114通信网)"
+        date: "2026-04-18"
 
   - id: loongson
     name_en: "Loongson Technology"
@@ -226,12 +229,18 @@ design_firms:
       significance: "Founded July 2015; listed on the Hong Kong Stock Exchange, one of the clearer success cases of a Chinese fabless firm reaching volume automotive design wins without an Entity List designation. Full-year 2025 revenue reached ¥3.758 billion (+57.7% YoY), while R&D spending grew even faster, up 63.3% to ¥5.154 billion — deliberately outspending revenue growth. H1 2026 revenue was ¥2.055 billion (+32.9% YoY) with ¥1.356 billion gross profit."
       what_it_designs: "Automotive-grade processors and the accompanying software platform for intelligent/autonomous driving systems."
     sources:
-      - url: "https://en.wikipedia.org/wiki/Horizon_Robotics"
-        title: "Horizon Robotics (Wikipedia)"
-        date: "2026-09-28"
-      - url: "https://nev.ofweek.com/2026-03/ART-77015-12003-30683591.html"
-        title: "地平线由盈转亏背后：研发大增投入超50亿，余凯瞄准60%+增长 (OFweek)"
+      - url: "https://cs.com.cn/qs/202410/t20241025_6448740.html"
+        title: "赋能高质量发展 中信建投助力地平线港股上市 (中国证券报)"
+        date: "2024-10-25"
+      - url: "https://www.yicai.com/news/103096908.html"
+        title: "地平线的2025年：收入和亏损都扩大了 (第一财经)"
         date: "2026-03-20"
+      - url: "https://www.cls.cn/detail/2432692"
+        title: "地平线半年业绩预告：营收高增、账面“浮盈” 经营亏损小幅扩大 (财联社)"
+        date: "2026-07-21"
+      - url: "https://stock.10jqka.com.cn/20260902/c679536300.shtml"
+        title: "地平线机器人2026半年报：营收、毛利双增 (经济参考网 via 同花顺)"
+        date: "2026-09-02"
 
   - id: black-sesame-technologies
     name_en: "Black Sesame Technologies"
@@ -249,15 +258,18 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 4}
     narrative:
-      significance: "Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips. H1 2026 revenue reached ¥458 million (+81.3% YoY, its fourth consecutive year of high YoY growth) with gross margin nearly doubling to 49.5% (gross profit +261.9% YoY) and cumulative chip shipments passing 6 million units — but net loss still widened slightly to ¥770 million, underscoring that revenue growth has not yet translated into profitability."
+      significance: "Founded July 2016, also Hong Kong Stock Exchange-listed alongside Horizon Robotics, its closest domestic competitor in automotive AI chips. H1 2026 revenue reached ¥458 million (+81.3% YoY, its fourth consecutive year of high YoY growth) with gross margin nearly doubling to 49.5% (gross profit +261.9% YoY) and chip shipments of more than 6 million units in the half — but net loss still widened slightly to ¥770 million, underscoring that revenue growth has not yet translated into profitability."
       what_it_designs: "AI chips for self-driving cars and advanced driver assistance systems (ADAS), including image processing and perception algorithms."
     sources:
-      - url: "https://en.wikipedia.org/wiki/Black_Sesame_Technologies"
-        title: "Black Sesame Technologies (Wikipedia)"
-        date: "2026-09-28"
-      - url: "https://news.qq.com/rain/a/20260831A08KAS00"
-        title: "黑芝麻智能2026上半年营收连续四年同比高增长，三大业务引擎协同进阶 (腾讯新闻)"
-        date: "2026-08-31"
+      - url: "https://www.jiemian.com/article/11531065.html"
+        title: "智能车AI芯片第一股上市 (界面新闻)"
+        date: "2024-08-08"
+      - url: "https://finance.eastmoney.com/a/202609013861372692.html"
+        title: "黑芝麻智能盘中涨超12% 上半年营收4.58亿元同比增长81.3% (科创板日报)"
+        date: "2026-09-01"
+      - url: "https://wap.stockstar.com/detail/IG2026090300040971"
+        title: "黑芝麻智能车载业务规模效应失效 (证券之星)"
+        date: "2026-09-03"
 
   - id: phytium
     name_en: "Phytium Technology"
@@ -304,15 +316,18 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 2, market_readiness: 5}
     narrative:
-      significance: "Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. A 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue guidance of ¥11.5 billion (+177% YoY) and net profit of roughly ¥6.9 billion (+1,099% YoY), with Q1 2026 alone showing revenue +119.4% and net profit +522.8% year-on-year."
+      significance: "Founded 2005; one of the largest NOR flash and MCU suppliers globally, representing the mass-market, lower-complexity end of China's fabless sector rather than the leading-edge/AI segment most export-control coverage focuses on. A 2026 global memory supply crunch (AI-driven DRAM/NAND demand tightening prices across the board) lifted GigaDevice's pricing power sharply: H1 2026 revenue of ¥11.57 billion (+178.7% YoY) and net profit of ¥6.86 billion (+1,091.5% YoY), per the interim report of 18 August 2026, part of it from fair-value gains on securities including its CXMT (长鑫科技) stake. Q1 2026 alone showed revenue +119.4% and net profit +522.8% year-on-year."
       what_it_designs: "NOR flash memory chips, general-purpose microcontrollers, and sensors for consumer electronics, industrial, and automotive applications."
     sources:
-      - url: "https://en.wikipedia.org/wiki/GigaDevice"
-        title: "GigaDevice (Wikipedia)"
-        date: "2026-09-28"
-      - url: "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-30/doc-inhwhenh6201287.shtml"
-        title: "兆易创新2026年一季度财报解读：营收增119.38% 净利润暴涨522.79% (新浪财经)"
-        date: "2026-04-30"
+      - url: "https://www.cls.cn/detail/2457600"
+        title: "兆易创新上半年净利润同比增长逾10倍 (财联社)"
+        date: "2026-08-18"
+      - url: "https://wallstreetcn.com/articles/3771244"
+        title: "存储芯片供不应求，兆易创新Q1营收同比增长119% (华尔街见闻)"
+        date: "2026-04-29"
+      - url: "https://m.jiemian.com/article/3449968.html"
+        title: "市场底部信号已现？存储芯片龙头兆易创新二季度业绩显著回暖 (界面新闻)"
+        date: "2019-08-27"
 
   - id: rockchip
     name_en: "Rockchip"
@@ -333,11 +348,11 @@ design_firms:
       significance: "Founded 2001 in Fuzhou, Fujian — one of China's longest-running fabless SoC vendors, widely used in white-label and embedded hardware globally (notably in the single-board-computer and IoT hobbyist hardware market). H1 2026 revenue reached ¥2.877 billion (+40.6% YoY) with net profit of ¥859 million (+61.7% YoY), management citing an edge-AI product push across multiple end markets."
       what_it_designs: "Application processor SoCs for tablets, set-top boxes, and embedded/IoT devices."
     sources:
-      - url: "https://en.wikipedia.org/wiki/Rockchip"
-        title: "Rockchip (Wikipedia)"
-        date: "2026-09-28"
-      - url: "https://finance.sina.com.cn/stock/aigc/agcbld/2026-08-18/doc-ininrzfz9965736.shtml"
-        title: "瑞芯微2026半年报：营收增长40.6%净利润激增61.7% 端侧AI战略引领多领域突破 (新浪财经)"
+      - url: "https://m.cls.cn/detail/438950"
+        title: "国产IC设计龙头瑞芯微上市首日涨44% (财联社)"
+        date: "2020-02-07"
+      - url: "https://stock.10jqka.com.cn/20260818/c679025072.shtml"
+        title: "下游需求持续释放 瑞芯微上半年净利同比增逾六成 (上海证券报)"
         date: "2026-08-18"
 
   - id: allwinner-technology
@@ -359,9 +374,9 @@ design_firms:
       significance: "Founded 2007 in Zhuhai, Guangdong; alongside Rockchip, one of the two dominant Chinese SoC vendors in the budget tablet and embedded/IoT hardware segment. H1 2026 revenue reached ¥1.888 billion (+41.2% YoY) with net profit of ¥490 million (+204.2% YoY), driven by new product ramp."
       what_it_designs: "Application processor SoCs for tablets, streaming devices, and consumer IoT hardware."
     sources:
-      - url: "https://en.wikipedia.org/wiki/Allwinner_Technology"
-        title: "Allwinner Technology (Wikipedia)"
-        date: "2026-09-28"
+      - url: "https://govt.chinadaily.com.cn/s/201902/19/WS5c6b7c1d498e27e338038901/allwinner-technology-co.html"
+        title: "Allwinner Technology Co (China Daily)"
+        date: "2019-02-19"
       - url: "https://www.21jingji.com/article/20260826/herald/368f127ce51aa3c399b7b894a52ca7bf.html"
         title: "全志科技2026年半年报：新产品量产放量，净利翻倍增长 (21世纪经济报道)"
         date: "2026-08-26"
@@ -440,15 +455,18 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 5, domain_difficulty: 3, market_readiness: 5}
     narrative:
-      significance: "Founded 2002 in Shenzhen; known as China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. Analyst consensus as of May 2026 (two covering institutions) projected modest, steady full-year 2026 growth — EPS of ¥1.91 (+4.95% YoY) and net profit of ¥886 million (+5.84% YoY) — a contrast to the much sharper swings (up and down) seen elsewhere in this tracker's 2026 updates."
+      significance: "Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. FY2025 revenue was ¥4.74 billion (+8.2%) and net profit ¥837 million (+38.7%), helped by ultrasonic fingerprint sensors in commercial use since Q4 2024. H1 2026 reversed: revenue ¥2.06 billion (−8.4%) and net profit ¥252 million (−41.6%). Its 'fingerprint chip king' standing dates from its 2017 market lead."
       what_it_designs: "Fingerprint sensors (ultrasonic, optical in-display, and capacitive) and touch/display-integrated sensor ICs."
     sources:
-      - url: "https://en.wikipedia.org/wiki/Goodix"
-        title: "Goodix (Wikipedia)"
-        date: "2026-09-28"
-      - url: "https://caifuhao.eastmoney.com/news/20260401183729938667670"
-        title: "汇顶科技（603160 CH）：深度价值与估值错配，目标价110元 (东方财富)"
-        date: "2026-04-01"
+      - url: "https://www.nbd.com.cn/articles/2017-10-16/1154201.html"
+        title: "每经专访汇顶科技董事长张帆 (每日经济新闻)"
+        date: "2017-10-16"
+      - url: "https://www.ithome.com/0/933/393.htm"
+        title: "汇顶科技 2025 年净利润 8.37 亿同比增长 38.7% (IT之家)"
+        date: "2026-03-27"
+      - url: "https://www.tmtpost.com/8125384.html"
+        title: "炸了！“指纹芯片一哥”原总裁，栽在9.8万上 (钛媒体, via 深蓝财经)"
+        date: "2026-09-02"
 
   - id: verisilicon
     name_en: "VeriSilicon"
@@ -781,15 +799,21 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 5, market_readiness: 4}
     narrative:
-      significance: "China's first company to mass-produce a general-purpose training GPU (天垓100, 2021) and, with H1 2026 results (revenue ¥9.46亿 +191.6%, net +¥1.06亿), the first of the GPU startups to post a profitable half-year — the unit-economics proof point for the whole sector. FY2025 revenue ¥10.34亿 (+91.6%)."
+      significance: "China's first company to mass-produce a general-purpose training GPU (天垓100, 2021). It posted a headline H1 2026 profit of ¥1.06亿 on revenue of ¥9.46亿 (+191.6%), but the profit came from about ¥7.56亿 of unrealised fair-value gains on its stake in 盛合晶微 (SJ Semiconductor); excluding that gain the core business lost roughly ¥6.5亿. FY2025 revenue ¥10.34亿 (+91.6%)."
       what_it_designs: "Cloud training/inference GPGPU chips and cards, edge AI products, AI servers/cluster solutions."
     sources:
       - url: "https://www.stcn.com/article/detail/3578078.html"
         title: "天数智芯港交所上市 (证券时报)"
         date: "2026-01-08"
-      - url: "https://www.163.com/dy/article/KQ3JKI5605129QAF.html"
-        title: "天数智芯2025年报：营收10.34亿+91.6% (南方都市报)"
-        date: "2026-04-09"
+      - url: "https://m.chinaventure.com.cn/news/108-20260331-390736.html"
+        title: "天数智芯 2025业绩报告深度解读：推理增长 238.2% (投中网)"
+        date: "2026-03-31"
+      - url: "https://www.stdaily.com/web/gdxw/2026-01/24/content_465708.html"
+        title: "企业密集上市，AI迈入“技术+资本”驱动成长期 (科技日报)"
+        date: "2026-01-24"
+      - url: "https://finance.eastmoney.com/a/202608313859600545.html"
+        title: "天数智芯扭亏背后：营收增191% 超7亿股权投资浮盈托底利润 (时代财经 via 东方财富)"
+        date: "2026-08-31"
 
   - id: kunlunxin
     name_en: "Kunlunxin (Beijing) Technology"
@@ -876,8 +900,8 @@ design_firms:
     category: "Fabless"
     founded: 2006
     location: {city: "Wuhan", province: "Hubei", lat: 30.51, lon: 114.42}
-    product_focus: "High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, first domestic full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services"
-    design_scope: "IP licensing + design services + own GPU products; asset-light fabless; world-first 120-lane PCIe Gen5 switch chip (GX9104/9120, Feb 2026)"
+    product_focus: "High-speed interface IP (PCIe 3/4/5/6+CXL3.0, GDDR7, HBM3E/4 PHY, LPDDR6, 224G SerDes, UCIe, full UALink suite), 风华 Fenghua GPUs, custom ASIC/chiplet services"
+    design_scope: "IP licensing + design services + own GPU products; asset-light fabless; 120-lane PCIe Gen5 switch chip described as a world first (company claim, reported by 科技日报, Feb 2026)"
     node_sophistication: "IP proven across advanced nodes (HBM/UCIe/224G PHY imply ≤N5-class enablement); Fenghua GPUs ≤12nm; latest node not verified"
     entity_list:
       status: false
@@ -888,9 +912,15 @@ design_firms:
       significance: "China's most valuable domestic semiconductor-IP supplier — the quiet enabler whose PCIe/DRAM/UCIe/UALink PHYs sit inside AI-startup roadmaps across the tracker; its February 2026 120-lane Gen5 PCIe switch and June 2026 UALink suite make it central to de-NVLink scale-up fabrics. 风华3号 (September 2025) keeps a homegrown full-function GPU alive outside the four listed startups. Private, no verified IPO filing."
       what_it_designs: "Interface IP cores, PCIe switches, custom AI SoCs and chiplets, Fenghua-series graphics/compute GPUs."
     sources:
-      - url: "https://www.163.com/dy/article/L1G15GPC0511BFPT.html"
-        title: "2026硬核中国芯榜单：芯动微电子入选 (网易转集微网)"
-        date: "2026-01-15"
+      - url: "https://www.stdaily.com/web/gdxw/2026-02/27/content_477518.html"
+        title: "全球首款120通道PCIe Gen5交换芯片在湖北武汉发布 (科技日报)"
+        date: "2026-02-27"
+      - url: "https://www.innosilicon.com/news/17"
+        title: "INNOSILICON Unveils Full Suite of High-Speed UALink IP (company site)"
+        date: "2026-06-04"
+      - url: "https://news.mydrivers.com/1/1076/1076214.htm"
+        title: "国产全功能GPU “风华3号” 重磅发布：拿下多项国内第一！(快科技, reprinting 芯智讯)"
+        date: "2025-09-22"
 
   - id: fudan-micro
     name_en: "Shanghai Fudan Microelectronics Group"
@@ -1183,7 +1213,7 @@ design_firms:
     founded: 2003
     location: {city: "Shenzhen", province: "Guangdong", lat: 22.52, lon: 113.94}
     product_focus: "Precision ADC/AFE + MCU platform: health-sensing SoCs (BIA/PPG), force-touch HMI SoCs, PC embedded controllers (EC/SuperIO/PD, Thunderbolt), BMS, HarmonyOS ecosystem chips"
-    design_scope: "'A-share first full-signal-chain company'; founder ex-Huawei ASIC director; R&D 32.8% of revenue in 2025; first batch HarmonyOS Connect ISV (~50M devices)"
+    design_scope: "Self-described full-signal-chain chip designer; founder ex-Huawei ASIC director; R&D 32.8% of revenue in 2025; first batch HarmonyOS Connect ISV (~50M devices)"
     node_sophistication: "Mature mixed-signal (55/40nm-class typical, undisclosed); 24-bit ADC measuring ~21nV"
     entity_list:
       status: false
@@ -1191,15 +1221,18 @@ design_firms:
       list: null
     design_score: {ip_ownership: 4, design_completeness: 4, domain_difficulty: 4, market_readiness: 3}
     narrative:
-      significance: "The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and Q2 2026 delivered the first profitable quarter (¥623k) after a three-year high-end transition; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making."
+      significance: "The TI/ADI-substitution test case for precision analog: its PC EC/SuperIO chips sit in domestic AI-PCs (Honor Book Pro 14, Intel PCL) — a quiet sovereign-PC node — and Q2 2026 delivered a small quarterly profit (¥623k), though H1 2026 as a whole still lost ¥38.4m; FY2025 revenue ¥8.49亿 (+20.8%), still loss-making."
       what_it_designs: "High-precision ADC/AFE, health-sensing and haptic SoCs, PC embedded controllers and PD/BMS, MCUs."
     sources:
       - url: "https://paper.cnstock.com/html/2026-03/31/content_2194715.htm"
         title: "芯海科技2025年报摘要 (上海证券报)"
         date: "2026-03-31"
-      - url: "https://www.163.com/dy/article/L5EFAQKM0519D4UH.html"
-        title: "芯海科技Q2首盈：高精度ADC+PC控制链放量 (南方都市报转)"
-        date: "2026-08-28"
+      - url: "https://wap.stockstar.com/detail/RB2026090200007343"
+        title: "芯海科技2026年中报：端侧AI放量营收+16.43%、单季扭亏 (证券之星)"
+        date: "2026-09-02"
+      - url: "https://www.stcn.com/article/detail/3718301.html"
+        title: "芯海科技2025年营收8.49亿元 AI战略多点开花驶入增长快车道 (证券时报)"
+        date: "2026-03-31"
 
   - id: xhsc
     name_en: "XHSC (Xiaohua Semiconductor)"

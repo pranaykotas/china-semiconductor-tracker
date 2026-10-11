@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Founded 2002 in Shenzhen; known as China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. Analyst consensus as of May 2026 (two covering institutions) projected modest, steady full-year 2026 growth — EPS of ¥1.91 (+4.95% YoY) and net profit of ¥886 million (+5.84% YoY) — a contrast to the much sharper swings (up and down) seen elsewhere in this tracker's 2026 updates.
+Founded 2002 in Shenzhen; once called China's 'fingerprint chip king,' a major global supplier of fingerprint and touch sensor ICs to smartphone makers. FY2025 revenue was ¥4.74 billion (+8.2%) and net profit ¥837 million (+38.7%), helped by ultrasonic fingerprint sensors in commercial use since Q4 2024. H1 2026 reversed: revenue ¥2.06 billion (−8.4%) and net profit ¥252 million (−41.6%). Its 'fingerprint chip king' standing dates from its 2017 market lead.
 :::
 
 ## What does this firm design?
@@ -31,8 +31,9 @@ Fingerprint sensors (ultrasonic, optical in-display, and capacitive) and touch/d
 
 ## Sources
 
-- [Goodix (Wikipedia)](https://en.wikipedia.org/wiki/Goodix) (28 Sep 2026)
-- [汇顶科技（603160 CH）：深度价值与估值错配，目标价110元 (东方财富)](https://caifuhao.eastmoney.com/news/20260401183729938667670) (01 Apr 2026)
+- [每经专访汇顶科技董事长张帆 (每日经济新闻)](https://www.nbd.com.cn/articles/2017-10-16/1154201.html) (16 Oct 2017)
+- [汇顶科技 2025 年净利润 8.37 亿同比增长 38.7% (IT之家)](https://www.ithome.com/0/933/393.htm) (27 Mar 2026)
+- [炸了！“指纹芯片一哥”原总裁，栽在9.8万上 (钛媒体, via 深蓝财经)](https://www.tmtpost.com/8125384.html) (02 Sep 2026)
 
 ---
 

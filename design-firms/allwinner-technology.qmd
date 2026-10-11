@@ -31,7 +31,7 @@ Application processor SoCs for tablets, streaming devices, and consumer IoT hard
 
 ## Sources
 
-- [Allwinner Technology (Wikipedia)](https://en.wikipedia.org/wiki/Allwinner_Technology) (28 Sep 2026)
+- [Allwinner Technology Co (China Daily)](https://govt.chinadaily.com.cn/s/201902/19/WS5c6b7c1d498e27e338038901/allwinner-technology-co.html) (19 Feb 2019)
 - [全志科技2026年半年报：新产品量产放量，净利翻倍增长 (21世纪经济报道)](https://www.21jingji.com/article/20260826/herald/368f127ce51aa3c399b7b894a52ca7bf.html) (26 Aug 2026)
 
 ---

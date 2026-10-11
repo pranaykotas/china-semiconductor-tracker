@@ -26,11 +26,11 @@ China's largest domestic semiconductor silicon wafer producer, founded December 
 | **HQ** | Shanghai |
 | **Capacity** | 1,000,000 300mm wafers/month, as of 2026-06 — installed, Shanghai + Taiyuan combined; company targets 1.2m/month by end-2026 |
 | **Entity List** | No |
-| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+| **Last Verified** | Not recorded (newest source dated Aug 2026) |
 
 ## Capability Trajectory
 
-- **2017**: Shanghai Xinsheng becomes China's first volume producer of 300mm silicon wafers
+- **2018**: Shanghai Xinsheng reaches volume production of 300mm wafers (first 300mm ingot pulled 2016)
 - **2023**: 300mm wafer capacity reaches 450k wafers/month
 - **2024**: 300mm wafer capacity 650k/month; 300mm SOI 80k wafers/year
 - **2025**: 300mm wafer capacity 850k/month; 300mm SOI 160k wafers/year
@@ -44,7 +44,7 @@ China's largest domestic semiconductor silicon wafer producer, founded December 
 
 ## Sources
 
-- [National Silicon Industry Group (Wikipedia)](https://en.wikipedia.org/wiki/National_Silicon_Industry_Group) (28 Sep 2026)
+- [沪硅产业大硅片传奇 (上海证券报)](https://paper.cnstock.com/html/2023-07/28/content_1800214.htm) (28 Jul 2023)
 - [China-based National Silicon Industry to double wafer production capacity to foster self-reliant chip ecosystem](https://www.digitimes.com/news/a20240613VL201/national-silicon-industry-wafer-production-capacity-ic-manufacturing.html) (13 Jun 2024)
 - [沪硅产业：2026年上半年营收同比增长36.51% 300mm硅片销量增幅超90% (中证网)](https://www.cs.com.cn/ssgs/01/2026/08/20/detail_2026082010032570.html) (20 Aug 2026)
 - [再投 68 亿元！国产大硅片战事升级，7 大玩家冲锋 (IT之家)](https://www.ithome.com/0/622/062.htm) (02 Jun 2022)

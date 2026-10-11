@@ -30,7 +30,6 @@ Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plas
 
 ## Capability Trajectory
 
-- **2018**: 5nm plasma etch tools reportedly verified by TSMC (secondary report)
 - **2021**: Etch tools on tier-1 lines 65nm to 5nm; 12-inch etch used for key 5nm/sub-5nm steps
 - **2021**: 1,500th CCP etch reaction chamber shipped; products used at 5nm and below
 - **2025**: Advanced-logic MOL etch and memory ultra-high-aspect-ratio etch in volume; >6,800 etch chambers shipped
@@ -48,7 +47,7 @@ Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plas
 
 ## Sources
 
-- [Advanced Micro-Fabrication Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment) (28 Sep 2026)
+- [中微公司荣获“杰出半导体设备奖” (科技日报)](https://www.stdaily.com/web/gdxw/2026-03/30/content_495067.html) (30 Mar 2026)
 - [China's Amec setting industry standard for chipmaking tech, founder says](https://www.scmp.com/tech/tech-trends/article/3353937/chinas-amec-semiconductor-technology-now-industry-standard-adopted-rivals-founder) (28 Sep 2026)
 - [中微公司上半年归母净利增长3倍 刻蚀设备新品取得重复订单 临港二期项目拟投建 (财联社)](https://www.cls.cn/detail/2458571) (28 Sep 2026)
 - [[News] China's AMEC Reportedly Saw Plasma Etching Grow at 50% CAGR, Backs 5nm Without EUV](https://www.trendforce.com/news/2025/06/03/news-chinas-amec-reportedly-saw-plasma-etching-grow-at-50-cagr-believes-5nm-achievable-without-euv/) (03 Jun 2025)
@@ -60,6 +59,8 @@ Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plas
 - [中微公司上半年营收同比增长34.89%，净利润增300.22%，斥资35亿扩产能 | 财报见闻](https://wallstreetcn.com/articles/3779798) (19 Aug 2026)
 - [中微公司董事长尹志尧：到 2035 年在规模、产品竞争力上成为全球第一梯队的半导体设备公司](https://www.ithome.com/0/984/618.htm) (01 Aug 2026)
 - [中微公司成都研发及生产基地 暨西南总部项目正式开工](https://cn.chinadaily.com.cn/a/202510/17/WS68f20182a310c4deea5ece2c.html) (17 Oct 2025)
+- [Federal Register Vol. 89 No. 234, Additions to the Entity List (2024-28267)](https://www.govinfo.gov/content/pkg/FR-2024-12-05/html/2024-28267.htm) (05 Dec 2024)
+- [钛媒体 (林志佳)](https://www.tmtpost.com/7541066.html) (19 Apr 2025)
 
 ---
 

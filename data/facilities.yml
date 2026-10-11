@@ -805,7 +805,7 @@ facilities:
     company_en: "JCET Group"
     company_zh: "江苏长电科技股份有限公司"
     company_pinyin: "Jiāngsū Chángdiàn Kējì Gǔfèn Yǒuxiàn Gōngsī"
-    partners: ["China Resources Microelectronics"]
+    partners: ["China Resources (Holdings), via Panshi Runqi"]
     location:
       city: "Jiangyin"
       province: "Jiangsu"
@@ -832,7 +832,7 @@ facilities:
       - {year: 2016, technology: "Jiangyin (JCET Advanced Packaging): Bumping and WLCSP at global scale"}
       - {year: 2023, technology: "company-wide: XDFOI chiplet (2.5D/3D fan-out) stable volume; 4nm MCM ship"}
     narrative:
-      significance: "China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, now majority-owned via China Resources Microelectronics. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target. H1 2026 non-GAAP net profit grew 84.7% year-on-year as advanced-packaging orders accelerated; Q1 2026 alone brought ¥9.171 billion revenue and ¥290 million net profit (+42.7% YoY)."
+      significance: "China's largest OSAT (Outsourced Semiconductor Assembly and Test) company and the world's third-largest — founded in 1972, and controlled since November 2024 by China Resources (Holdings), which holds a 22.53% stake through its subsidiary Panshi Runqi and controls a board majority. Not found on the US Entity List in the sources checked for this tracker, despite advanced packaging increasingly being discussed as a future export-control target. H1 2026 non-GAAP net profit grew 84.7% year-on-year as advanced-packaging orders accelerated."
       what_it_makes: "Chip assembly, test, and advanced packaging services — not a fab, but the step between a finished wafer and a sellable chip. Demonstrated high-volume packaging of 4nm-class chips using chiplet technology."
       why_it_matters: "Advanced packaging (chiplets, heterogeneous integration) is one of the segments China's Big Fund III and its OSAT majors are explicitly pivoting toward, since it offers a path to competitive chip performance without needing export-controlled leading-edge lithography. By 2026 the company says its entire production line has moved upmarket to five top-tier processes: XDFOI multi-dimensional heterogeneous integration, 1.5-micron ultra-fine hybrid bonding, 3D logic folding, HBM (high-bandwidth memory) packaging, and CPO (co-packaged optics)."
     milestones:
@@ -851,15 +851,15 @@ facilities:
       original_expected_completion: null
       date_completion: null
     sources:
-      - url: "https://en.wikipedia.org/wiki/JCET_(company)"
-        title: "JCET (company) (Wikipedia)"
-        date: "2026-09-28"
+      - url: "https://notice.10jqka.com.cn/api/pdf/d281fd73f5d2a04f_1761741341/2025%E5%B9%B4%E5%BA%A6%E6%B1%9F%E8%8B%8F%E9%95%BF%E7%94%B5%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BF%A1%E7%94%A8%E8%AF%84%E7%BA%A7%E6%8A%A5%E5%91%8A(%E5%88%9D%E7%A8%BF).pdf"
+        title: "2025年度江苏长电科技股份有限公司信用评级报告 (中诚信国际)"
+        date: "2025-08-20"
       - url: "https://jw.ijiwei.com/n/871800"
         title: "China's leading OSAT company JCET Group achieves high-volume packaging of 4-nanometer chips by leveraging Chiplet technology"
         date: "2026-09-28"
-      - url: "https://app.myzaker.com/news/article.php?pk=6a56f1598e9f092c045b7dbd"
-        title: "长电科技2026年半年报业绩预测+季度同比环比+78亿临港高端封测项目解读 (ZAKER)"
-        date: "2026-09-28"
+      - url: "https://www.cls.cn/detail/2460145"
+        title: "A股封测龙头长电科技上半年盈利增速远超收入 头部厂商扩产提速|财报解读 (财联社)"
+        date: "2026-08-21"
       - url: "https://www.jcetglobal.com/uploads/68ce55da2b334730.pdf"
         title: "江苏长电科技股份有限公司2013年度非公开发行A股股票募集资金使用的可行性分析报告"
         date: "2013-11-27"
@@ -908,9 +908,9 @@ facilities:
       as_of: "2025"
       note: "theoretical capacity of the HPC/communications packaging business run by 南通通富 (Sutong plant): ~14亿块/yr / 12 = ~116.7M units/month; 2025 utilisation 78.88%. Not total Nantong capacity"
     narrative:
-      significance: "Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; largest shareholder is the state-linked Nantong Huada Microelectronics Group (19.91%) with the Big Fund holding 11.26%. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright. H1 2026 revenue reached ¥16 billion (+23% YoY) with net profit up 317% YoY to ¥1.72 billion; Q2 2026 net profit alone grew 286-347% quarter-on-quarter."
+      significance: "Traces to the state-owned Nantong Transistor Factory; its largest shareholder is the state-linked Nantong Huada Microelectronics Group (18.80% as of June 2026). The Big Fund, which once held as much as 21.72%, has been selling down since 2020 and held 5.00% by June 2026. In 2016, Tongfu and the Big Fund jointly paid $371 million for 85% stakes in AMD's Suzhou and Penang assembly and test facilities — a rare case of a Chinese OSAT firm acquiring a Western chipmaker's own packaging plants outright. H1 2026 revenue reached ¥16 billion (+23% YoY) with net profit up 317% YoY to ¥1.72 billion; Q2 2026 net profit alone was ¥1.39 billion, up 346.9% year-on-year."
       what_it_makes: "At Nantong: flip-chip (FC) and system-in-package (SiP) packaging for high-performance computing and communications chips at the Sutong plant, and 8/12-inch wafer-level packaging (copper pillar, solder bump, WLCSP) at the Chongchuan headquarters. Tongfu's most advanced work, 7nm/5nm FCBGA and chiplet integration for AMD, is done at its Suzhou and Penang subsidiaries (TF-AMD), not in Nantong, according to the company's 2026 prospectus."
-      why_it_matters: "One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains. By 2026, domestic reporting says Tongfu has entered Samsung's and SK Hynix's own HBM supply chains, capturing close to 45% of Samsung's outsourced HBM packaging volume — and separately handles over 80% of AMD's global CPU/GPU packaging and test orders, with AMD alone accounting for about 52.3% of Tongfu's total revenue. That dependence cuts both ways: it is the clearest evidence of a Chinese OSAT firm embedded deep in the global AI-memory supply chain, and a concentration risk if AMD diversifies."
+      why_it_matters: "One of two mainland Chinese firms in the world's top five OSAT companies by revenue (JCET is the other) — reporting describes Tongfu as one of three Chinese firms that have begun HBM packaging, a capability central to AI-accelerator supply chains. Tongfu also handles over 80% of AMD's global CPU/GPU packaging and test orders, with AMD alone accounting for about 52.3% of Tongfu's total revenue. That dependence cuts both ways: it is the clearest evidence of a Chinese OSAT firm embedded deep in the global AI-memory supply chain, and a concentration risk if AMD diversifies."
     milestones:
       - date: "2016-01-01"
         event: "Tongfu and the Big Fund jointly acquire 85% equity stakes in AMD's Suzhou and Penang assembly and test facilities for $371 million"
@@ -927,21 +927,24 @@ facilities:
       original_expected_completion: null
       date_completion: null
     sources:
-      - url: "https://en.wikipedia.org/wiki/Tongfu_Microelectronics"
-        title: "Tongfu Microelectronics (Wikipedia)"
-        date: "2026-09-28"
+      - url: "https://paper.cnstock.com/html/2026-02/25/content_2182125.htm"
+        title: "通富微电石明达：让中国半导体拥有与世界对话的底气 (上海证券报)"
+        date: "2026-02-25"
       - url: "https://en.tfme.com/news/378.html"
         title: "Tongfu Microelectronics Chairman's Letter of Gratitude to All Sectors for Completing the Acquisition of 85% Equity in Two AMD Packaging and Testing Facilities"
         date: "2026-09-28"
-      - url: "https://m.jrj.com.cn/madapter/stock/2026/07/14172357798587.shtml"
-        title: "不惧存储杀跌！封测龙头通富微电业绩炸裂，半年净利最高增337%，Q2环比暴涨286%-347% (金融界)"
-        date: "2026-07-14"
+      - url: "https://finance.eastmoney.com/a/202608283858419867.html"
+        title: "通富微电：上半年归母净利润17.2亿元，同比上升316.8% (东方财富)"
+        date: "2026-08-28"
       - url: "https://www.sina.cn/news/detail/5317759326225537.html"
         title: "通富微电获42.2亿定增 (新浪财经) — AMD/Samsung HBM supply-chain detail"
         date: "2026-09-28"
       - url: "https://pdf.dfcfw.com/pdf/H2_AN202607031826702614_1.pdf"
         title: "通富微电子股份有限公司2026年度向特定对象发行A股股票募集说明书（注册稿）"
         date: "2026-07-03"
+      - url: "https://finance.eastmoney.com/a/202606253783309916.html"
+        title: "从11.72%到5%，大基金逐步退出通富微电，股价不跌反涨创出历史新高 (东方财富)"
+        date: "2026-06-25"
 
   - id: huatian-tianshui
     name_en: "Huatian Technology Tianshui"
@@ -950,7 +953,7 @@ facilities:
     company_en: "Tianshui Huatian Technology Co., Ltd."
     company_zh: "天水华天科技股份有限公司"
     company_pinyin: "Tiānshuǐ Huátiān Kējì Gǔfèn Yǒuxiàn Gōngsī"
-    partners: ["Tianshui Huatian Microelectronics Co."]
+    partners: ["Tianshui Huatian Electronic Group (天水华天电子集团)"]
     location:
       city: "Tianshui"
       province: "Gansu"
@@ -980,7 +983,7 @@ facilities:
       as_of: "2024-12"
       note: "design capacity ADDED by the Tianshui MCM(MCP) project only (18亿只/yr / 12 = 150M units/month), completed end-2024; not total Tianshui site output"
     narrative:
-      significance: "One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Microelectronics Co., holds 23%, with the remaining float heavily retail-owned (57%) — an unusually dispersed ownership structure for a Chinese semiconductor firm of this scale. Earnings accelerated sharply in 2026: Q1 revenue reached ¥4.8 billion (+34.5% YoY), and the company guided H1 2026 net profit to ¥750-850 million, up 231-275% year-on-year, crediting advanced-packaging mix shift and M&A integration."
+      significance: "One of China's three major OSAT firms alongside JCET and Tongfu, founded December 2003 with roots in a state-owned enterprise; its largest shareholder, Tianshui Huatian Electronic Group (天水华天电子集团), held 22.34% as of September 2025. Earnings accelerated sharply in 2026: H1 net profit came in at ¥813 million (+259% year-on-year) on revenue of ¥10.51 billion, which the company credited to advanced-packaging mix shift and M&A integration."
       what_it_makes: "The Tianshui base mainly packages leadframe products (driver ICs, power management, Bluetooth, MCU, NOR flash), with a multi-chip (MCM/MCP) expansion completed at end-2024. Huatian's company-wide portfolio is broader (SiP, flip-chip, TSV, bumping, fan-out, wafer/panel-level packaging, 2.5D/3D), but its wafer-level and TSV work is done at its Kunshan and Jiangsu sites, not Tianshui, according to an April 2026 investor-relations record."
       why_it_matters: "Based in Gansu province — a notable geographic outlier among China's semiconductor firms, most of which cluster in the Yangtze River Delta (Jiangsu/Shanghai) or Pearl River Delta (Guangdong) regions. Its 2026 earnings jump, alongside JCET's and Tongfu's, points to a sector-wide advanced-packaging upcycle among China's three major OSATs rather than a single-company story."
     milestones:
@@ -999,11 +1002,11 @@ facilities:
       original_expected_completion: null
       date_completion: null
     sources:
-      - url: "https://en.wikipedia.org/wiki/Huatian_Technology"
-        title: "Huatian Technology (Wikipedia)"
-        date: "2026-09-28"
-      - url: "http://yuanchuang.10jqka.com.cn/20260713/c678138484.shtml"
-        title: "华天科技：预计2026年半年度盈利7.50亿至8.50亿 净利润同比增长231.16%至275.31% (同花顺)"
+      - url: "https://static.cninfo.com.cn/finalpage/2025-10-17/1224717168.PDF"
+        title: "天水华天科技股份有限公司关于本次交易停牌前一个交易日前十大股东和前十大流通股股东持股情况的公告"
+        date: "2025-10-17"
+      - url: "https://www.cls.cn/detail/2424676"
+        title: "华天科技：预计上半年净利润同比增长231%-275% (财联社)"
         date: "2026-07-13"
       - url: "https://disc.static.szse.cn/disc/disk02/finalpage/2021-01-20/d4372f6e-3c04-4075-9365-12d6227050bb.PDF"
         title: "天水华天科技股份有限公司非公开发行A股股票募集资金运用的可行性报告"
@@ -1014,6 +1017,9 @@ facilities:
       - url: "https://wap.stockstar.com/detail/RB2026041000028467"
         title: "华天科技：4月10日接受机构调研，中粮资本参与"
         date: "2026-04-10"
+      - url: "https://stock.10jqka.com.cn/20260821/c679173788.shtml"
+        title: "华天科技:上半年净利润同比增长259% 存储器封装等业务规模扩大 (同花顺/财闻)"
+        date: "2026-08-21"
 
   - id: samsung-xian
     name_en: "Samsung Xi'an"
@@ -1242,7 +1248,7 @@ facilities:
       - {year: 2024, technology: "Server-chip packaging & test added (announced; US$300M capital increase)"}
       - {year: 2026, technology: "Wafer pre-processing + advanced packaging + test (stated, as of)"}
     narrative:
-      significance: "Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix. Chengdu is an assembly-and-test (ATP) site, not a fab — it packages and tests chips rather than fabricating wafers."
+      significance: "Intel's remaining manufacturing presence in China, after fully divesting its only China wafer fab (the Dalian NAND plant) to SK Hynix. Chengdu is an assembly-and-test (ATP) site, not a fab — it packages and tests chips rather than fabricating wafers. Intel had invested $600 million in the site by December 2014, when it announced a further $1.6 billion over 15 years; in 2024 it added $300 million in registered capital to expand server-chip packaging and test."
       what_it_makes: "Chip assembly and test services for Intel products — the step between finished wafers and sellable packaged chips, not wafer fabrication."
       why_it_matters: "With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the clearest marker of what 'Intel in China' now means: assembly and test only, no fab. Included here to avoid the common misconception (prompted by Intel's historical Dalian fab) that Intel still operates a wafer fab in China."
     milestones:
@@ -1262,9 +1268,6 @@ facilities:
       - url: "https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix"
         title: "Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)"
         date: "2026-09-28"
-      - url: "https://www.ithome.com/0/805/679.htm"
-        title: "英特尔宣布扩容成都封装测试基地，增加服务器芯片服务"
-        date: "2024-10-28"
       - url: "https://www.infoworld.com/article/2236166/intel-to-invest-16-billion-in-china-plant-to-push-mobile-chip-development.html"
         title: "Intel to invest $1.6 billion in China plant to push mobile chip development"
         date: "2014-12-04"
@@ -1274,6 +1277,9 @@ facilities:
       - url: "https://www.mrjjxw.com/articles/2026-07-21/4487128.html"
         title: "英特尔中国区董事长王稚聪：正依托成都工厂建设先进制造人工智能实践中心"
         date: "2026-07-21"
+      - url: "https://www.ithome.com/0/805/679.htm"
+        title: "英特尔成都封装测试基地扩容 (IT之家)"
+        date: "2024-10-28"
 
   - id: tsmc-nanjing
     name_en: "TSMC Nanjing"
@@ -1532,7 +1538,7 @@ facilities:
     category: "State-Backed"
     capability: "8-inch (200mm) power semiconductor fab — IGBT, silicon carbide (SiC) chips"
     investment:
-      total_rmb_100m: 190
+      total_rmb_100m: 45
       source: "Local Govt"
     status: "Under Construction"
     entity_list:
@@ -1552,7 +1558,7 @@ facilities:
       - date: "2025-12-01"
         event: "Phase 1 (¥3.2 billion, 50,000 wafers/month design capacity) completes and enters production"
       - date: "2026-09-01"
-        event: "Phase 2 construction preparation begins, formal start targeted for Q3 2026, under a stated ¥19 billion total investment plan through 2030"
+        event: "Phase 2 construction preparation begins, formal start targeted for Q3 2026, (the 8-inch line's total investment is ¥4.5 billion per Shaanxi SASAC, ¥3.2 billion of it spent in Phase 1; a larger ¥19 billion plan appears only in secondary coverage)"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 2
@@ -1564,12 +1570,15 @@ facilities:
       original_expected_completion: null
       date_completion: "2025-12-01"
     sources:
-      - url: "https://www.sohu.com/a/959372050_120122160"
-        title: "西北首条8英寸高性能特色工艺半导体生产线正式投产 (搜狐)"
-        date: "2026-09-28"
+      - url: "https://www.peopleapp.com/column/30052407887-500007548337"
+        title: "陕西西安 锻造“芯光同辉”产业新引擎 (人民日报)"
+        date: "2026-06-16"
       - url: "https://finance.sina.com.cn/roll/2026-06-09/doc-iniauzkt5103109.shtml"
         title: "陕西芯业时代8英寸芯片生产线项目预计Q3启动二期建设 (新浪财经)"
         date: "2026-06-09"
+      - url: "https://m.jiemian.com/article/13804571.html"
+        title: "西北首条8英寸高性能特色工艺半导体生产线投产 (界面新闻, reprinting Shaanxi SASAC; publish date not shown, date below is access date)"
+        date: "2026-10-11"
 
   - id: smic-lingang-phase2
     name_en: "SMIC Shanghai (Lingang) Phase 2"
@@ -3340,9 +3349,9 @@ facilities:
       lon: 106.50
     type: "Fab"
     category: "JV"
-    capability: "12-inch power semiconductors (MOSFET/analog) + on-site assembly/test — marketed at launch as China's first integrated 12-inch power-device fab; phase-1 20,000 wafers/month (volume from Dec 2019), phase-2 target 50,000/month"
+    capability: "12-inch power semiconductors (MOSFET/analog) + on-site assembly/test — marketed at launch as China's first integrated 12-inch power-device fab; phase-1 20,000 wafers/month (mass production from July–September 2019, per AOS), phase-2 target 50,000/month"
     investment:
-      total_usd_million: 1000
+      total_usd_million: 379
       source: "Foreign"
     status: "Operational"
     entity_list:
@@ -3355,7 +3364,7 @@ facilities:
       smuggled_flagged: false
     node_trajectory: []
     narrative:
-      significance: "The AOS–Chongqing JV (registered April 2016, ~$1B, US$355M registered capital) that the Wikipedia dump lists as 'Wandai under construction' — actually in volume production since December 2019. In July 2025 AOS agreed to sell ~20.3% (half its stake) for $150M, reportedly to Shanghai Xinwei Technology Group, completing the transition toward Chinese control."
+      significance: "The AOS–Chongqing JV (registered April 2016; AOS reported initial capitalisation of $330M and total capitalisation of $379M by November 2019, split 51% AOS / 49% Chongqing funds at formation) that the Wikipedia fab list shows as 'under construction'. It has in fact been in 12-inch mass production since mid-2019. In July 2025 AOS agreed to sell about 20.3% of the JV for $150M to SIMIC Holdings Co., Ltd. (reportedly Shanghai Xinwei Technology Group); the sale completed in May 2026, moving the fab toward Chinese control."
       what_it_makes: "12-inch MOSFET/analog power devices and modules for consumer, industrial and EV-adjacent applications."
       why_it_matters: "A case study in how a US-designed power-semi fab in inland China changes hands without ever closing — the stake sale to a Shanghai tech-asset group mirrors the broader pattern of foreign-origin fabs being absorbed into domestic capital structures."
     milestones:
@@ -3363,10 +3372,10 @@ facilities:
         event: "Company registered in Chongqing Liangjiang New Area (AOS + local state funds)"
       - date: "2018-06-01"
         event: "Phase-1 fab + assembly/test trial production (20,000 wafers/month)"
-      - date: "2019-12-01"
-        event: "Volume production begins — first integrated 12-inch power fab claim"
+      - date: "2019-07-01"
+        event: "12-inch Phase 1 mass production begins (AOS fiscal Q1 2020, July–September 2019); marketed as China's first integrated 12-inch power fab (company claim)"
       - date: "2025-07-01"
-        event: "AOS agrees to sell 20.3% stake (~$150M), reportedly to Shanghai Xinwei"
+        event: "AOS agrees to sell 20.3% of the JV (about half its 39.2% stake) for ~$150M to SIMIC Holdings Co., Ltd. (reportedly Shanghai Xinwei); sale completed May 2026"
     complexity:
       technology_difficulty: 2
       foreign_dependence: 3
@@ -3376,11 +3385,20 @@ facilities:
       approved: null
       construction_start: "2016-08-01"
       original_expected_completion: null
-      date_completion: "2019-12-01"
+      date_completion: "2019-07-01"
     sources:
-      - url: "https://www.toutiao.com/article/7528305789035938342/"
-        title: "万国半导体：AOS出售重庆万国20.3%股权予上海新微 (今日头条财经)"
-        date: "2026-07-20"
+      - url: "https://investor.aosmd.com/press-releases/press-release-details/2025/AOS-Announced-150-Million-Sale-of-a-Portion-of-its-Equity-Interest-in-CQJV/default.aspx"
+        title: "AOS Announced $150 Million Sale of a Portion of its Equity Interest in CQJV"
+        date: "2025-07-14"
+      - url: "https://finance.yahoo.com/markets/stocks/articles/alpha-omega-semiconductors-aosl-completes-191619240.html"
+        title: "Alpha & Omega Semiconductors (AOSL) Completes Sale of Interests in China-based Joint Venture"
+        date: "2026-05-12"
+      - url: "https://s22.q4cdn.com/656605939/files/doc_presentations/2019/11/26/AOSL_November-2019-IR-Presentation.pdf"
+        title: "AOSL November 2019 IR Presentation"
+        date: "2019-11-26"
+      - url: "https://investor.aosmd.com/press-releases/press-release-details/2016/Alpha-and-Omega-Semiconductor-Limited-Announces-Joint-Venture-Agreement-in-China/default.aspx"
+        title: "Alpha and Omega Semiconductor Limited Announces Joint Venture Agreement in China"
+        date: "2016-03-29"
 
   - id: skhynix-chongqing-atp
     name_en: "SK Hynix Chongqing (Assembly & Test)"
@@ -3397,7 +3415,7 @@ facilities:
       lon: 106.32
     type: "Assembly & Packaging"
     category: "Foreign-Invested"
-    capability: "NAND flash package-and-test — ~80 million units/month; handles over 40% of SK Hynix's global NAND back-end; largest overseas SK Hynix back-end site"
+    capability: "NAND flash package-and-test — ~80 million units/month at the 2014 launch"
     investment:
       total_usd_million: 1200
       source: "Foreign"
@@ -3446,9 +3464,9 @@ facilities:
       - url: "https://www.koreaherald.com/article/3824990"
         title: "SK hynix weighs options for Chongqing plant (~$3B) (Korea Herald)"
         date: "2026-08-15"
-      - url: "https://wap.seccw.com/document/detail/id/48700.html"
-        title: "SK海力士重庆封测基地处置选项梳理"
-        date: "2026-08-20"
+      - url: "https://en.edaily.co.kr/news/eda202608095040"
+        title: "SK hynix Considers Selling Stake in Chongqing Plant in China, Among Other Options (EDAILY)"
+        date: "2026-08-09"
       - url: "https://technews.tw/2014/09/29/sk-hynix-chongqinggo-into-operation/"
         title: "SK 海力士重慶封測廠投產、估明年銷售上看 6 億美元"
         date: "2014-09-29"
