@@ -87,6 +87,10 @@ QUERIES = [
     ("SEMI 晶圆厂 报告 中国大陆", "zh"),
     ("site:semi.org.cn 晶圆厂 OR 产线 OR 通线", "zh"),
     ("中国半导体行业协会 集成电路 制造 数据", "zh"),
+    # Science and Technology Daily (科技日报), the Ministry of Science and
+    # Technology's paper: the official line on equipment and lithography
+    # progress, useful for checking claims that circulate on social media
+    ("site:stdaily.com 光刻机 OR 晶圆 OR 芯片 OR 半导体", "zh"),
     # Catch-all: new fab projects this tracker may not have yet
     ("晶圆厂 开工 OR 通线 OR 投产 项目", "zh"),
     ("12英寸 生产线 启动 投资", "zh"),

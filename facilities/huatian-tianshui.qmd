@@ -13,7 +13,7 @@ One of China's three major OSAT firms alongside JCET and Tongfu, founded Decembe
 
 ## What does this facility make?
 
-Chip assembly, test, and wafer-level/advanced packaging services, now spanning SiP, flip-chip, TSV, bumping, fan-out (FO), wafer/panel-level packaging (WLP/PLP), and 2.5D/3D integration.
+The Tianshui base mainly packages leadframe products (driver ICs, power management, Bluetooth, MCU, NOR flash), with a multi-chip (MCM/MCP) expansion completed at end-2024. Huatian's company-wide portfolio is broader (SiP, flip-chip, TSV, bumping, fan-out, wafer/panel-level packaging, 2.5D/3D), but its wafer-level and TSV work is done at its Kunshan and Jiangsu sites, not Tianshui, according to an April 2026 investor-relations record.
 
 ## Why does it matter?
 
@@ -26,13 +26,13 @@ Based in Gansu province — a notable geographic outlier among China's semicondu
 | **Company** | Tianshui Huatian Technology Co., Ltd. |
 | **Type** | Assembly & Packaging |
 | **Category** | State-Backed |
-| **Capability** | OSAT — wafer-level and advanced packaging |
+| **Capability** | OSAT — Tianshui base: mainly leadframe packaging, plus MCM/MCP multi-chip lines (wafer-level work is at Kunshan/Jiangsu) |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 150,000,000 units/month, as of 2024-12 — design capacity ADDED by the Tianshui MCM(MCP) project only (18亿只/yr / 12 = 150M units/month), completed end-2024; not total Tianshui site output |
 | **Investment** | Not disclosed |
 | **Funding Source** | Not disclosed |
 | **Location** | Tianshui, Gansu |
-| **Current Node** | Not yet researched |
+| **Current Node** | Not applicable (assembly & test) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Sep 2026) |
@@ -41,9 +41,9 @@ Based in Gansu province — a notable geographic outlier among China's semicondu
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
 **2.5/5**
 
-## Technology Node Trajectory
+## Packaging Technology Trajectory
 
-*Node history not yet researched.*
+- **2024**: Tianshui: MCM/MCP multi-chip packaging expansion completed (18亿只/yr design)
 
 ## Project Timeline
 
@@ -54,6 +54,9 @@ Based in Gansu province — a notable geographic outlier among China's semicondu
 
 - [Huatian Technology (Wikipedia)](https://en.wikipedia.org/wiki/Huatian_Technology) (28 Sep 2026)
 - [华天科技：预计2026年半年度盈利7.50亿至8.50亿 净利润同比增长231.16%至275.31% (同花顺)](http://yuanchuang.10jqka.com.cn/20260713/c678138484.shtml) (13 Jul 2026)
+- [天水华天科技股份有限公司非公开发行A股股票募集资金运用的可行性报告](https://disc.static.szse.cn/disc/disk02/finalpage/2021-01-20/d4372f6e-3c04-4075-9365-12d6227050bb.PDF) (20 Jan 2021)
+- [天风证券关于天水华天科技股份有限公司2024年度募集资金存放与使用情况的核查意见](https://static.cninfo.com.cn/finalpage/2025-04-01/1222975803.PDF) (01 Apr 2025)
+- [华天科技：4月10日接受机构调研，中粮资本参与](https://wap.stockstar.com/detail/RB2026041000028467) (10 Apr 2026)
 
 ---
 

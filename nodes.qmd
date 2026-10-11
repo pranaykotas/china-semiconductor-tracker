@@ -62,10 +62,13 @@ trajectory_rows <- do.call(rbind, lapply(raw_facs, function(f) {
 # literally says "N-layer" — never inferred from a bare leading number,
 # which previously misread 3D NAND layer counts (e.g. "128-layer") as a
 # 128nm process node.
+# When a string names several nodes ("150nm/110nm/90nm"), the smallest is
+# the most advanced one in production, so that is the value plotted.
 node_to_nm <- function(s) {
-  m <- regexpr("([0-9]+(\\.[0-9]+)?)\\s*nm", s, ignore.case = TRUE, perl = TRUE)
-  if (m[1] == -1) return(NA_real_)
-  as.numeric(gsub("[^0-9.]", "", regmatches(s, m)))
+  m <- gregexpr("([0-9]+(\\.[0-9]+)?)\\s*nm", s, ignore.case = TRUE, perl = TRUE)
+  hits <- regmatches(s, m)[[1]]
+  if (length(hits) == 0) return(NA_real_)
+  min(as.numeric(gsub("[^0-9.]", "", hits)))
 }
 node_to_layers <- function(s) {
   m <- regexpr("([0-9]+)-layer", s, ignore.case = TRUE, perl = TRUE)
@@ -117,3 +120,54 @@ if (nrow(layer_rows) > 0) {
 ## Reading These Charts
 A facility with no plotted line has not yet had its node history researched (see [About](about.qmd) for data status). Absence from a chart is a data gap, not a claim about the facility's capability. An entry whose process technology doesn't parse into either unit (for example, a named-but-unquantified node such as "DDR5-capable, exact width not disclosed") is excluded from both charts rather than guessed — it still appears in that facility's own profile page.
 :::
+
+## Monthly Wafer Capacity
+
+Recorded monthly wafer starts for each fab, by wafer size. Capacity is shown only where a cited source gives a facility-specific figure. Bars are coloured by whether the figure is installed capacity or a planned/full-build target, since announced targets often run well ahead of what is actually running.
+
+```{r capacity-chart, echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=6, dev="ragg_png"}
+cap_rows <- facilities %>%
+  filter(!is.na(capacity_wpm), status != "Cancelled", type != "Assembly & Packaging") %>%
+  mutate(
+    wafer_size = coalesce(capacity_wafer_size, "Size not stated"),
+    # Each capacity figure records whether it is installed or a planned /
+    # full-build target, so a target is never read as output
+    basis = if_else(capacity_basis == "planned", "Planned / full-build target", "Installed / reported")
+  )
+
+if (nrow(cap_rows) > 0) {
+  ggplot(cap_rows, aes(x = reorder(name_en, capacity_wpm), y = capacity_wpm, fill = basis)) +
+    geom_col(width = 0.7) +
+    coord_flip() +
+    facet_grid(wafer_size ~ ., scales = "free_y", space = "free_y") +
+    scale_y_continuous(labels = scales::comma) +
+    scale_fill_manual(values = c("Installed / reported" = "#620d3c", "Planned / full-build target" = "#f1a222")) +
+    labs(x = NULL, y = "Wafers per month", fill = NULL) +
+    theme_minimal() +
+    theme(legend.position = "top", strip.text.y = element_text(angle = 0))
+} else {
+  cat("*No facility-level capacity figures recorded yet.*")
+}
+```
+
+Wafer counts at different sizes are not comparable one-for-one: a 300mm wafer has about 2.25 times the area of a 200mm wafer. They are therefore shown in separate panels and never summed.
+
+## Advanced Packaging (OSAT Sites)
+
+Assembly-and-test sites have no process node. Their equivalent is the packaging technology they can produce in volume, which matters more as chiplets and stacked memory let packaging make up for restricted lithography.
+
+```{r packaging-table, echo=FALSE, warning=FALSE, message=FALSE}
+osat <- Filter(function(f) f$type == "Assembly & Packaging", raw_facs)
+pkg_rows <- do.call(rbind, lapply(osat, function(f) {
+  traj <- f$packaging_trajectory
+  latest <- if (length(traj) > 0) traj[[length(traj)]] else NULL
+  data.frame(
+    Facility = sprintf('<a href="facilities/%s.html">%s</a>', f$id, f$name_en),
+    `Latest technology in production` = if (!is.null(latest)) latest$technology else "Not yet researched",
+    Since = if (!is.null(latest)) as.character(latest$year) else "",
+    Capacity = format_capacity(f$capacity),
+    check.names = FALSE, stringsAsFactors = FALSE
+  )
+}))
+knitr::kable(pkg_rows, escape = FALSE)
+```

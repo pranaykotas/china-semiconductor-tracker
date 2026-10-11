@@ -18,6 +18,27 @@ materials_firms:
       status: true
       date_added: "2024-12-03"
       list: "US Commerce BIS"
+    capability_trajectory:
+      - {year: 2019, capability: "12-inch tools qualified 90-28nm; 28nm+ in volume; 14nm tools at customer for qualification"}
+      - {year: 2019, capability: "28nm-and-above IC tools in mass production; key 14nm tools in validation"}
+      - {year: 2022, capability: "Oxidation furnace, etch, cleaning tools validated at SMIC for 90/55/40/28nm"}
+      - {year: 2025, capability: "Vertical furnace and PVD each pass 1,000 units delivered; ion implant and ECP tools launched"}
+    capacity:
+      basis: "planned"
+      amount: 500
+      unit: "IC equipment units/year (planned, Majuqiao phase IV)"
+      as_of: "2021"
+      note: "planned design capacity of 2021 fundraising project, not confirmed installed output; plus 500 emerging-semi, 300 LED, 700 PV tools/year"
+    manufacturing_sites:
+      - name: "NAURA Majuqiao Intelligent Manufacturing Base (phase IV expansion)"
+        city: "Beijing (Beijing Economic-Technological Development Area, Majuqiao)"
+        what: "IC equipment (etch, deposition, vertical furnace, cleaning, anneal, epi), plus LED/PV tools; 365,000 m2 new floor area, RMB 3.82bn investment"
+      - name: "NAURA existing industrial base, Beijing E-Town (Yizhuang)"
+        city: "Beijing (Beijing Economic-Technological Development Area)"
+        what: "Sub-28nm IC equipment industrialisation; planned 30 etch, 30 PVD, 15 anneal, 30 ALD, 30 furnace, 30 cleaning tools/year (2019 project)"
+      - name: "Mafang precision electronic components base"
+        city: "Beijing (Pinggu District, Mafang)"
+        what: "High-precision electronic components (not semiconductor equipment)"
     narrative:
       significance: "China's largest semiconductor equipment maker, formed from the restructuring of Beijing Sevenstar Electronics and North Microelectronics — added to the US Entity List in the December 2024 action that named 140 Chinese semiconductor firms. H1 2026 revenue reached ¥20.161 billion (+24.9% year-on-year) with net profit of ¥3.37 billion (+5.05%), driven by rising market share in etch and deposition tools."
       what_it_supplies: "Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and wafer cleaning systems — alongside NAURA, AMEC, and Piotech helped raise China's global deposition-tool market share from roughly 2% to 7% between 2019 and 2024."
@@ -31,6 +52,18 @@ materials_firms:
       - url: "https://www.sohu.com/a/1068756715_114984"
         title: "北方华创2026年上半年营收201.61亿元，归母净利润33.70亿元 (Sohu)"
         date: "2026-09-28"
+      - url: "https://disc.static.szse.cn/disc/disk02/finalpage/2019-07-06/6d7b8829-3f4e-4f2a-8587-fc07f620ec19.PDF"
+        title: "北方华创 非公开发行A股股票募集资金使用的可行性分析报告（修订稿）"
+        date: "2019-07-06"
+      - url: "https://disc.static.szse.cn/disc/disk02/finalpage/2021-04-22/9da9c849-2973-46e8-a2a1-74e021fd40cd.PDF"
+        title: "北方华创 非公开发行股票募集资金使用可行性分析报告"
+        date: "2021-04-22"
+      - url: "https://www.ithome.com/0/625/385.htm"
+        title: "不止晶圆代工，中芯国际捧出 10 个 IPO (IT之家/芯东西)"
+        date: "2022-06-20"
+      - url: "https://m.gelonghui.com/news/5228431"
+        title: "北方华创(002371)2025年报及2026年一季报点评：收入保持稳健增长 平台型龙头持续完善产品矩阵"
+        date: "2026-05-06"
 
   - id: amec
     name_en: "AMEC (Advanced Micro-Fabrication Equipment)"
@@ -45,6 +78,32 @@ materials_firms:
       status: false
       date_added: null
       list: null
+    capability_trajectory:
+      - {year: 2018, capability: "5nm plasma etch tools reportedly verified by TSMC (secondary report)"}
+      - {year: 2021, capability: "Etch tools on tier-1 lines 65nm to 5nm; 12-inch etch used for key 5nm/sub-5nm steps"}
+      - {year: 2021, capability: "1,500th CCP etch reaction chamber shipped; products used at 5nm and below"}
+      - {year: 2025, capability: "Advanced-logic MOL etch and memory ultra-high-aspect-ratio etch in volume; >6,800 etch chambers shipped"}
+      - {year: 2025, capability: "LPCVD cumulative shipments pass 300 chambers; RP-epi tools at customers for qualification"}
+      - {year: 2026, capability: ">8,800 reaction chambers in volume production on 220+ lines (all tool types)"}
+    manufacturing_sites:
+      - name: "AMEC Lingang industrialisation base (phase I)"
+        city: "Shanghai (Lingang New Area)"
+        what: "Plasma etch and thin-film deposition tools; ~157 mu, ~180,000 m2; opened Aug 2024"
+      - name: "AMEC Lingang industrialisation base (phase II, planned)"
+        city: "Shanghai (Lingang New Area)"
+        what: "Etch, metrology/inspection and thin-film deposition tools; RMB 3.5bn planned investment; ~RMB 3bn annual revenue at full output"
+      - name: "AMEC Nanchang production and R&D base"
+        city: "Nanchang"
+        what: "IC and broader semiconductor equipment production (products not specified); 140,000 m2, in use from July 2023"
+      - name: "AMEC Jinqiao (HQ) R&D and production base"
+        city: "Shanghai (Jinqiao, Pudong)"
+        what: "R&D and production (products not specified)"
+      - name: "AMEC Chengdu R&D and production base (under construction)"
+        city: "Chengdu (High-tech Zone)"
+        what: "Thin-film deposition (CVD, ALD) equipment; phase I ~70,000 m2; production planned 2027"
+      - name: "AMEC Guangzhou base (under construction)"
+        city: "Guangzhou"
+        what: "R&D and production (details not disclosed)"
     narrative:
       significance: "Founded by veteran semiconductor engineer Dr. Gerald Yin (尹志尧) in May 2004 — not on the US Entity List as of the sources checked for this tracker, notable given how central etch tools are to advanced-node manufacturing. H1 2026 revenue reached ¥6.691 billion (+34.9% year-on-year) with net profit of ¥2.825 billion, up roughly 300% year-on-year; the company reported several key etch processes for advanced logic and memory devices reaching mass production during the half, and a second Lingang, Shanghai facility was reportedly being planned."
       what_it_supplies: "Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plasma, under the Primo brand) and MOCVD deposition tools used in compound semiconductor and LED manufacturing."
@@ -58,6 +117,33 @@ materials_firms:
       - url: "https://www.cls.cn/detail/2458571"
         title: "中微公司上半年归母净利增长3倍 刻蚀设备新品取得重复订单 临港二期项目拟投建 (财联社)"
         date: "2026-09-28"
+      - url: "https://www.trendforce.com/news/2025/06/03/news-chinas-amec-reportedly-saw-plasma-etching-grow-at-50-cagr-believes-5nm-achievable-without-euv/"
+        title: "[News] China's AMEC Reportedly Saw Plasma Etching Grow at 50% CAGR, Backs 5nm Without EUV"
+        date: "2025-06-03"
+      - url: "https://www.ithome.com/0/544/414.htm"
+        title: "中微公司：公司 12 英寸高端刻蚀设备已应用于 5nm 芯片生产线"
+        date: "2021-04-06"
+      - url: "https://www.ithome.com/0/584/412.htm"
+        title: "中微公司：第 1500 个 CCP 刻蚀设备反应台顺利付运"
+        date: "2021-11-03"
+      - url: "https://wallstreetcn.com/articles/3766347"
+        title: "中微公司2025年营收123亿元创新高，净利润同增30.69%，薄膜设备成新增长点 | 财报见闻"
+        date: "2026-02-27"
+      - url: "https://www.ithome.com/0/984/806.htm"
+        title: "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平"
+        date: "2026-08-02"
+      - url: "https://m.thepaper.cn/newsDetail_forward_28286932"
+        title: "中微临港产业化基地正式启用：到2035年要成第一流半导体设备公司"
+        date: "2024-08-02"
+      - url: "https://wallstreetcn.com/articles/3779798"
+        title: "中微公司上半年营收同比增长34.89%，净利润增300.22%，斥资35亿扩产能 | 财报见闻"
+        date: "2026-08-19"
+      - url: "https://www.ithome.com/0/984/618.htm"
+        title: "中微公司董事长尹志尧：到 2035 年在规模、产品竞争力上成为全球第一梯队的半导体设备公司"
+        date: "2026-08-01"
+      - url: "https://cn.chinadaily.com.cn/a/202510/17/WS68f20182a310c4deea5ece2c.html"
+        title: "中微公司成都研发及生产基地 暨西南总部项目正式开工"
+        date: "2025-10-17"
 
   - id: smee
     name_en: "SMEE (Shanghai Micro Electronics Equipment)"
@@ -65,16 +151,22 @@ materials_firms:
     name_pinyin: "Shànghǎi Wēi Diànzǐ Zhuāngbèi (Jítuán) Gǔfèn Yǒuxiàn Gōngsī"
     category: "Equipment"
     segment: "Lithography"
-    node_capability: "90nm-class in volume production since 2023 (SSA600 scanner). 28nm-class immersion DUV (SSA800 series) delivered to SMIC from May 2025, cleared full-process validation with wafer yields consistently above 90% by early 2026, and was publicly confirmed by China's Minister of Science and Technology in March 2026 to have entered mass-production delivery — a status upgrade from the unverified December 2023 claim this entry previously carried."
+    node_capability: "90nm-class dry ArF (SSA600 series) is SMEE's established front-end product; its 90nm programme passed state acceptance in 2018. The 28nm-class immersion scanner (SSA800 series) has NOT been delivered to commercial fabs: as of May 2026 it was still being tested at the Integrated Circuit R&D Center (ICRD), and spring 2026 reports of batch delivery and 90%+ yields were rumours that industry press (芯智讯, 证券时报) refuted."
     founded: 2002
     hq: {city: "Shanghai", lat: 31.21, lon: 121.61}
     entity_list:
       status: true
       date_added: "2022-12-15"
       list: "US Commerce BIS"
+    capability_trajectory:
+      - {year: 2018, capability: "90nm front-end lithography (SSA600-class) project passes state acceptance"}
+      - {year: 2022, capability: "First Chinese 2.5D/3D advanced-packaging lithography tool shipped"}
+      - {year: 2025, capability: "90nm ArF scanner claimed in mass production (company claim, May 2025)"}
+      - {year: 2025, capability: "SSC800/10 scanner (KrF 248nm, 110nm resolution) sold to MOST lab, ~RMB 110m"}
+      - {year: 2026, capability: "SSA800 28nm-class ArF immersion still in testing at ICRD; not in any commercial fab"}
     narrative:
-      significance: "China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest. The SSA800's confirmed move to mass-production delivery in 2026 is the clearest single data point in this entire tracker of China closing an advanced-lithography gap that export controls were specifically designed to hold open; by April 2026 the tool had been delivered in volume to both SMIC and Hua Hong, and 2026 output plans called for roughly 50 units (doubling year-on-year), with installed capacity reportedly exceeding 120 units."
-      what_it_supplies: "Photolithography scanners — the SSA600 series (90nm-class, established volume product) and the newer SSA800 series (28nm-class immersion DUV, now in mass production) — plus related mask-inspection tools."
+      significance: "China's only domestic lithography scanner maker of consequence, and the firm most exposed to the export controls that target lithography hardest. Its real position is more modest than its reputation: a 90nm-class dry scanner in production, and a 28nm-class immersion tool that remained in testing at ICRD as of May 2026, despite widely shared but unfounded claims in March-April 2026 that it had entered batch delivery to SMIC. The official picture is consistent with testing, not delivery: Science and Technology Daily (科技日报, the Ministry of Science and Technology's newspaper) reported in March 2026 that in 2025 domestic lithography made major breakthroughs in core subsystems (light source, objective lens, dual wafer stage) and that several verification tools had entered production-line testing, without naming a company. No ministry source was found for the circulating claim that the minister had announced 28nm immersion mass production; the ministry's summary of his January 2026 work report does not mention lithography. Separately, a July 2026 report (The Information, relayed by 金角财经) said an unnamed Shanghai state-backed firm planned about 5 immersion DUV tools in 2026 and 20 in 2027, and a September 2025 FT report said the domestic immersion tool SMIC was trialling came from the startup Yuliangsheng, not SMEE."
+      what_it_supplies: "Photolithography scanners: the SSA600 series (90nm-class dry ArF, the established product), the SSA800 series (28nm-class ArF immersion, still in testing), KrF scanners such as the SSC800/10 (110nm resolution; one sold to a Ministry of Science and Technology lab in late 2025 for about ¥110m), and lithography tools for 2.5D/3D advanced packaging."
     sources:
       - url: "https://en.wikipedia.org/wiki/Shanghai_Micro_Electronics_Equipment"
         title: "Shanghai Micro Electronics Equipment (Wikipedia)"
@@ -82,12 +174,21 @@ materials_firms:
       - url: "https://www.kharon.com/brief/semiconductors-lithography-smee-amies-technology-entity-list-export-controls"
         title: "The U.S. Restricted China's Chipmaking-Tech Champion. Its New Spinoff Is Another Story."
         date: "2026-09-28"
-      - url: "https://zhuanlan.zhihu.com/p/2028184174327080121"
-        title: "重新认识中国光刻机的突围：中国光刻机的真实现状与近一年重大进展（2025—2026） (Zhihu)"
-        date: "2026-09-28"
-      - url: "https://netbig.top/thread-89272-1-1.html"
-        title: "中国首款可实现28nm制程的光刻设备于2026年4月官宣全面量产 (forum repost of official coverage)"
-        date: "2026-09-28"
+      - url: "https://www.itiger.com/news/2654369074"
+        title: "国产光刻机突传年产5台，张江高科终于等到了 (金角财经, via Tiger Brokers)"
+        date: "2026-07-28"
+      - url: "https://www.trendforce.com/news/2025/12/26/news-chinas-smee-reportedly-wins-rmb-110m-lithography-tool-contract-amid-domestic-push/"
+        title: "[News] China's SMEE Reportedly Wins RMB 110M Lithography Tool Contract Amid Domestic Push"
+        date: "2025-12-26"
+      - url: "https://tech.ifeng.com/c/8t0l6csZTBT"
+        title: "国产28nm光刻机SSA800批量交付 良率超90%？媒体辟谣：假消息 (凤凰网/快科技, citing 芯智讯)"
+        date: "2026-05-10"
+      - url: "https://www.stdaily.com/web/gdxw/2026-03/04/content_479913.html"
+        title: "锚定科技强国目标，“十五五”聚力启程 (科技日报)"
+        date: "2026-03-04"
+      - url: "https://www.most.gov.cn/kjbgz/202601/t20260127_195800.html"
+        title: "阴和俊在全国科技工作会议上作工作报告 (科学技术部)"
+        date: "2026-01-27"
 
   - id: acm-research
     name_en: "ACM Research (Shanghai)"
@@ -102,6 +203,23 @@ materials_firms:
       status: true
       date_added: "2024-12-03"
       list: "US Commerce BIS"
+    capability_trajectory:
+      - {year: 2011, capability: "First 12-inch single-wafer (SAPS megasonic) cleaning tool wins volume order from SK hynix"}
+      - {year: 2019, capability: "First Ultra-C Tahoe cleaning tool delivered for evaluation; Ultra ECP MAP front-end Cu plating launched"}
+      - {year: 2025, capability: "300 WPH KrF track delivered for evaluation (Sept 2025); PECVD/furnace (LPCVD, ALD) ramping"}
+    capacity:
+      basis: "planned"
+      amount: 3000
+      unit: "USD million annual output capacity (Lingang, two buildings at full build)"
+      as_of: "2026-02"
+      note: "company-stated maximum output value supported by both Lingang buildings; only building A in use"
+    manufacturing_sites:
+      - name: "ACM Shanghai Lingang R&D and Manufacturing Center"
+        city: "Shanghai (Lingang New Area)"
+        what: "Primary production centre for cleaning, ECP, furnace, PECVD, track tools; 138,000 m2 total, 40,000 m2 factory (bldg A in use, B reserved); opened Oct 2024"
+      - name: "ACM Shanghai Chuansha factory"
+        city: "Shanghai (Chuansha, Pudong)"
+        what: "Former main production site; main capacity being moved to Lingang by mid-2025"
     narrative:
       significance: "China-based subsidiary of NASDAQ-listed ACM Research — its Shanghai and Korea units were both added to the Entity List in the same December 2024 action that named Naura, illustrating how a dual-listed structure doesn't shield the China-based operating unit. 2025 full-year revenue reached ¥6.786 billion (+20.8% YoY) with net profit of ¥1.396 billion (+21.1% YoY); 2026 guidance was raised to $1.125-1.175 billion in revenue (+25-30% YoY), with management citing electroplating (ECP) demand and H1 2026 order growth of 105% year-on-year, concentrated in advanced packaging."
       what_it_supplies: "Wafer cleaning systems, electrochemical plating (ECP) tools, PECVD deposition, furnace, and track platforms — several adjacent front-end process categories beyond its original cleaning-tool business."
@@ -115,6 +233,18 @@ materials_firms:
       - url: "http://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-27/688082_20260227_7FPP.pdf"
         title: "盛美半导体设备（上海）股份有限公司2025年年度报告 (Shanghai Stock Exchange annual report filing)"
         date: "2026-02-27"
+      - url: "https://cs.com.cn/ssgs/gsxw/202507/t20250722_6502969.html"
+        title: "盛美上海总经理王坚：以差异化创新铸就'芯'高度 (中国证券报)"
+        date: "2025-07-22"
+      - url: "https://www.sec.gov/Archives/edgar/data/1680062/000165495419005406/acmr_ex991.htm"
+        title: "ACM Research Reports First Quarter 2019 Results (EX-99.1)"
+        date: "2019-05-07"
+      - url: "https://www.fool.com/earnings/call-transcripts/2026/02/27/acm-research-acmr-q4-2025-earnings-transcript/"
+        title: "ACM Research (ACMR) Q4 2025 Earnings Call Transcript"
+        date: "2026-02-27"
+      - url: "https://www.cls.cn/detail/2000191"
+        title: "盛美上海：预计今年营收至高71亿元 关税影响\"整体可控\"|直击业绩会 (财联社)"
+        date: "2025-04-10"
 
   - id: national-silicon-industry-group
     name_en: "National Silicon Industry Group (NSIG)"
@@ -129,8 +259,31 @@ materials_firms:
       status: false
       date_added: null
       list: null
+    capability_trajectory:
+      - {year: 2017, capability: "Shanghai Xinsheng becomes China's first volume producer of 300mm silicon wafers"}
+      - {year: 2023, capability: "300mm wafer capacity reaches 450k wafers/month"}
+      - {year: 2024, capability: "300mm wafer capacity 650k/month; 300mm SOI 80k wafers/year"}
+      - {year: 2025, capability: "300mm wafer capacity 850k/month; 300mm SOI 160k wafers/year"}
+      - {year: 2026, capability: "Shanghai+Taiyuan 300mm capacity 1.0m/month; Taiyuan in bulk prime-wafer sales; SOI pilot line ~300k/yr"}
+    capacity:
+      basis: "installed"
+      amount: 1000000
+      unit: "300mm wafers/month"
+      wafer_size: "300mm"
+      as_of: "2026-06"
+      note: "installed, Shanghai + Taiyuan combined; company targets 1.2m/month by end-2026"
+    manufacturing_sites:
+      - name: "Shanghai Xinsheng (上海新昇) 300mm wafer fab"
+        city: "Shanghai"
+        what: "300mm polished/epi wafers; 2024 plan adds 400k/month slicing-grinding-polishing capacity (RMB 4.1bn)"
+      - name: "Taiyuan Jinke (太原) 300mm wafer base"
+        city: "Taiyuan, Shanxi"
+        what: "300mm crystal pulling 600k/month and slicing-grinding-polishing 200k/month (incl. heavily doped), RMB 9.1bn; in customer qualification/ramp, bulk prime sales started"
+      - name: "Simgui / Xin'ao (新傲) SOI and epi lines"
+        city: "Shanghai"
+        what: "200mm-and-below epi wafers, SOI; 300mm SOI pilot line (~300k/yr via 新傲芯翼)"
     narrative:
-      significance: "China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month. That expansion is ahead of its original pace: H1 2026 revenue grew 36.5% year-on-year with 300mm wafer shipment volume up over 90%, and combined Shanghai + Taiyuan 300mm capacity had already reached roughly 1 million wafers/month, with 1.2 million/month now targeted by end of 2026 rather than as a multi-year goal."
+      significance: "China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment in 2024 to expand 300mm wafer capacity toward 1.2 million wafers per month, from 450,000/month at end-2023 (650,000 at end-2024, 850,000 at end-2025, per company filings). The expansion is ahead of its original pace: H1 2026 revenue grew 36.5% year-on-year with 300mm wafer shipment volume up over 90%, and combined Shanghai + Taiyuan 300mm capacity had already reached roughly 1 million wafers/month, with 1.2 million/month now targeted by end of 2026 rather than as a multi-year goal."
       what_it_supplies: "300mm (12-inch) semiconductor-grade silicon wafers and SOI (silicon-on-insulator) substrates — the base material every fab in this tracker depends on, regardless of the fab's own ownership category or node."
     sources:
       - url: "https://en.wikipedia.org/wiki/National_Silicon_Industry_Group"
@@ -142,6 +295,18 @@ materials_firms:
       - url: "https://www.cs.com.cn/ssgs/01/2026/08/20/detail_2026082010032570.html"
         title: "沪硅产业：2026年上半年营收同比增长36.51% 300mm硅片销量增幅超90% (中证网)"
         date: "2026-08-20"
+      - url: "https://www.ithome.com/0/622/062.htm"
+        title: "再投 68 亿元！国产大硅片战事升级，7 大玩家冲锋 (IT之家)"
+        date: "2022-06-02"
+      - url: "https://www.stcn.com/article/detail/1228001.html"
+        title: "沪硅产业拟132亿元投建300mm硅片产能升级项目 产能将达120万片/月 (证券时报)"
+        date: "2024-06-11"
+      - url: "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445535.PDF"
+        title: "上海硅产业集团股份有限公司关于2025年年度报告的信息披露监管问询函的回复公告 (2026-039)"
+        date: "2026-07-29"
+      - url: "https://stock.10jqka.com.cn/20260618/c677582426.shtml"
+        title: "豪掷114.48亿元！千亿半导体龙头，携手股东增资子公司 (中国证券报)"
+        date: "2026-06-18"
 
   - id: linde-gas-china
     name_en: "Linde Gas China"
@@ -156,8 +321,29 @@ materials_firms:
       status: false
       date_added: null
       list: null
+    capability_trajectory:
+      - {year: 2009, capability: "UHP nitrogen/oxygen plant + H2 generator for new 300mm fab in Dalian (ops early 2009)"}
+      - {year: 2017, capability: "Multiple on-site N2 plants for China electronics fabs, >110,000 Nm3/h combined, on stream end-2017"}
+      - {year: 2020, capability: "Air separation plant + on-site N2/CDA started up in Shanghai to supply HLMC (Hua Hong)"}
+      - {year: 2020, capability: "First of two UHP N2 generators started in Shanghai Lingang for GTA Semiconductor (20-yr deal)"}
+    capacity:
+      basis: "installed"
+      amount: 110000
+      unit: "Nm3/h gaseous nitrogen (combined, 2017 China electronics plants)"
+      as_of: "2017"
+      note: "combined capacity of the 2017 investment batch only; not Linde's total China electronics capacity"
+    manufacturing_sites:
+      - name: "Linde LienHwa on-site N2 plant for GTA Semiconductor"
+        city: "Shanghai (Lingang Industrial Zone)"
+        what: "UHP nitrogen generators (2nd unit due 2022); supplies N2, O2, Ar, CO2, CDA to GTA's fab"
+      - name: "Linde air separation plant for HLMC"
+        city: "Shanghai"
+        what: "ASU supplying N2, high-purity O2, Ar; on-site N2 generators and CDA"
+      - name: "Linde UHP N2/O2 plant for Dalian 300mm fab"
+        city: "Dalian"
+        what: "Integrated UHP nitrogen and oxygen plant, hydrogen generator, Ar/He supply (customer unnamed)"
     narrative:
-      significance: "A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely a sales office. Linde built and started up dedicated ultra-high-purity nitrogen generation and air-separation plants in Shanghai under long-term (reportedly 20-year) supply contracts with named China fabs."
+      significance: "A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely a sales office. Linde built and started up dedicated ultra-high-purity nitrogen generation and air-separation plants in Shanghai for named China fabs, including a 20-year supply contract with GTA Semiconductor in Lingang and an air-separation plant serving HLMC (Hua Hong)."
       what_it_supplies: "Ultra-high-purity industrial and electronic gases (nitrogen, oxygen, argon, and specialty electronic gases) piped or delivered directly to fab customers — confirmed named customers include GTA Semiconductor and Shanghai Huali Microelectronics (HLMC), with broader on-site gas production facilities across China's major fab clusters."
     sources:
       - url: "https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-gta-semiconductor"
@@ -169,6 +355,9 @@ materials_firms:
       - url: "https://www.prnewswire.com/news-releases/linde-invests-over-eur-110-million-in-china-to-strengthen-position-as-supplier-of-choice-for-electronics-manufacturers-300422247.html"
         title: "Linde invests over EUR 110 million in China to strengthen position as supplier of choice for electronics manufacturers"
         date: "2026-09-28"
+      - url: "https://siliconsemiconductor.net/article/70279/Linde_expands_China_semiconductor_business"
+        title: "Linde expands China semiconductor business"
+        date: "2008-01-15"
 
   - id: air-liquide-china
     name_en: "Air Liquide China (Electronics)"
@@ -183,6 +372,23 @@ materials_firms:
       status: false
       date_added: null
       list: null
+    capability_trajectory:
+      - {year: 2014, capability: "On-site UHP nitrogen generator for SMIC Beijing Fab B2 (300mm, 28nm), EUR 18m, start early 2014"}
+      - {year: 2022, capability: "Wuhan plant, 52,000 Nm3/h N2 plus O2/Ar, for a flash memory leader; EUR ~70m"}
+      - {year: 2027, capability: "Four UHP N2 units for electronics customers in YRD/PRD, >100,000 Nm3/h, start late 2027-early 2028"}
+    capacity:
+      basis: "installed"
+      amount: 52000
+      unit: "Nm3/h nitrogen (Wuhan plant)"
+      as_of: "2022"
+      note: "single-plant capacity, planned start 2022; group China electronics total not disclosed"
+    manufacturing_sites:
+      - name: "Air Liquide on-site N2 generator, SMIC Beijing Fab B2"
+        city: "Beijing"
+        what: "Ultra-high-purity nitrogen and bulk carrier gases for SMIC's 300mm 28nm fab"
+      - name: "Air Liquide Wuhan electronics gas plant"
+        city: "Wuhan"
+        what: "52,000 Nm3/h nitrogen plus oxygen and argon for a flash-memory maker (unnamed; YMTC is the Wuhan flash maker but not named)"
     narrative:
       significance: "A foreign (French-headquartered) industrial gas major with one of the largest confirmed manufacturing footprints of any multinational in China — reportedly close to 90 factories across 40+ Chinese cities and over 4,000 employees overall, with a dedicated electronics business (ultra-high-purity gases, chemical liquids, and related equipment for semiconductor, flat-panel-display, and photovoltaic customers) employing over 3,000 of them. Represented here at its Shanghai electronics-business base; its actual gas plants are distributed nationally, not concentrated at one site — a genuine case where a single map marker understates the real footprint."
       what_it_supplies: "Ultra-high-purity carrier gases, electronic specialty gases, and chemical liquids for semiconductor fabs, alongside related delivery equipment — a parallel supplier to Linde in the same specialty-gas chokepoint category."
@@ -190,6 +396,15 @@ materials_firms:
       - url: "https://www.airliquide.com/sites/airliquide.com/files/2018/03/02/ye_hua_kong_qi_ji_tuan_zai_zhong_guo_.pdf"
         title: "液化空气集团 在中国 (Air Liquide China corporate overview)"
         date: "2026-09-28"
+      - url: "https://www.airliquide.com/group/press-releases-news/2013-12-05/air-liquide-signs-major-ultra-pure-carrier-gases-contract-china"
+        title: "Air Liquide signs a major ultra-pure carrier gases contract in China"
+        date: "2013-12-05"
+      - url: "https://cn.airliquide.com/en/air-liquide-announces-new-investment-reinforce-its-position-electronics-hub-wuhan-china"
+        title: "Air Liquide announces new investment to reinforce its position in the electronics hub of Wuhan, China"
+        date: "2021-06-28"
+      - url: "https://cn.airliquide.com/en/air-liquide-strengthens-footprint-chinas-key-semiconductor-basins-major-investments"
+        title: "Air Liquide strengthens footprint in China's key semiconductor basins with major investments"
+        date: "2026-07-02"
 
   - id: tcl-zhonghuan-shenzhen
     name_en: "TCL Zhonghuan — Shenzhen Semiconductor Wafer Project"
@@ -204,9 +419,37 @@ materials_firms:
       status: false
       date_added: null
       list: null
+    capability_trajectory:
+      - {year: 2022, capability: "12-inch wafers below-28nm in volume; 12-inch memory/logic wafers enter volume production"}
+      - {year: 2022, capability: "Semiconductor wafer capacity 6in 600k, 8in 870k, 12in 220k per month (mid-2022)"}
+      - {year: 2023, capability: "Acquires Xinxin Semiconductor (Xuzhou) with plant shell for 600k/month 12-inch"}
+      - {year: 2024, capability: "12-inch semiconductor wafer capacity reaches 700k/month"}
+    capacity:
+      basis: "installed"
+      amount: 700000
+      unit: "12-inch (300mm) semiconductor wafers/month"
+      wafer_size: "300mm"
+      as_of: "2024-12"
+      note: "installed, Zhonghuan Advanced (中环领先) group-wide; excludes 8-inch and smaller; Shenzhen project adds planned 700k/month"
+    manufacturing_sites:
+      - name: "Shenzhen Zhonghuan Advanced 12-inch wafer project (planned)"
+        city: "Shenzhen (Guangming)"
+        what: "12-inch polished, epi and test wafers, planned 700k/month; RMB 11.96bn; 18-month core build to first-phase trial production, 60-month total"
+      - name: "Zhonghuan Advanced Semiconductor Technology (中环领先半导体科技) Yixing plant"
+        city: "Yixing, Jiangsu (Yixing Economic Development Zone)"
+        what: "Semiconductor silicon wafers (production and sales)"
+      - name: "Zhonghuan Advanced (Xuzhou) Semiconductor Materials"
+        city: "Xuzhou, Jiangsu (Xuzhou Economic-Technological Development Zone)"
+        what: "Semiconductor wafers (production, sales, R&D); ex-Xinxin Semiconductor, acquired"
+      - name: "Tianjin Zhonghuan Advanced Materials / Tianjin Huanou Semiconductor Materials"
+        city: "Tianjin"
+        what: "Semiconductor material (wafer) production; listed as production units with process wastewater"
+      - name: "Inner Mongolia Zhonghuan Advanced Semiconductor Materials"
+        city: "Hohhot, Inner Mongolia"
+        what: "Semiconductor materials subsidiary (likely crystal growth; products not stated)"
     narrative:
       significance: "TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer company — the world's largest by shipment volume (190GW capacity, 125.8GW shipped in 2024) — and is tracked here specifically for its separate, smaller semiconductor-grade wafer business, not its core solar operation, to avoid overstating its role in the chip supply chain. That semiconductor-materials segment grew 17% year-on-year even as the parent company's core solar business posted a net loss (narrowing, but still a loss) amid a broader Chinese solar-panel oversupply downturn — a useful reminder that a company's overall financial headlines can mask a growing chip-adjacent sub-business."
-      what_it_supplies: "Large-diameter semiconductor-grade silicon wafers, via a dedicated new project — the 'Integrated Circuit Semiconductor Large Silicon Wafer Shenzhen Project,' through subsidiary Shenzhen Zhonghuan Lingxian Semiconductor Materials Co., Ltd. — with a planned total investment of approximately ¥11.96 billion. A separate Ningxia Zhonghuan facility has also been recognized as a national-level 'intelligent manufacturing demonstration factory,' though this tracker could not confirm a capacity breakdown specific to semiconductor-grade (as opposed to solar) wafers there."
+      what_it_supplies: "Large-diameter semiconductor-grade silicon wafers. Current production runs through subsidiary Zhonghuan Advanced (中环领先) at Yixing and Xuzhou (Jiangsu), Tianjin, and Hohhot, reaching 700,000 12-inch wafers/month at end-2024. The Shenzhen 'Integrated Circuit Semiconductor Large Silicon Wafer Project' (subsidiary Shenzhen Zhonghuan Lingxian Semiconductor Materials, about ¥11.96 billion, planned 700,000 wafers/month) is a planned expansion, not yet a producing site. A separate Ningxia Zhonghuan facility has also been recognized as a national-level 'intelligent manufacturing demonstration factory,' though this tracker could not confirm a capacity breakdown specific to semiconductor-grade (as opposed to solar) wafers there."
     sources:
       - url: "https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxru1479438.shtml"
         title: "TCL中环拟投建近120亿元项目，加码半导体大硅片 (新浪财经)"
@@ -214,3 +457,15 @@ materials_firms:
       - url: "https://www.163.com/dy/article/L2FC7A4B051984TV.html"
         title: "TCL中环：半导体材料业务销量同比增长17% (网易)"
         date: "2026-09-28"
+      - url: "https://disc.static.szse.cn/disc/disk03/finalpage/2022-08-25/4c538f5a-f179-4253-a8b6-7b0332a6621d.PDF"
+        title: "TCL 中环新能源科技股份有限公司 2022 年半年度报告"
+        date: "2022-08-25"
+      - url: "https://www.cls.cn/detail/1247179"
+        title: "半导体领域重磅并购！TCL中环拟77亿出手鑫芯半导体 (财联社)"
+        date: "2023-01-20"
+      - url: "https://static.cninfo.com.cn/finalpage/2025-04-26/1223330188.PDF"
+        title: "TCL 中环新能源科技股份有限公司 2024 年年度报告"
+        date: "2025-04-26"
+      - url: "https://www.cs.com.cn/ssgs/01/2026/07/17/detail_2026071710025205.html"
+        title: "TCL中环：控股孙公司拟投建深圳半导体大硅片项目 (中证网)"
+        date: "2026-07-17"

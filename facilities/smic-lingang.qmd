@@ -26,9 +26,9 @@ Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, 
 | **Company** | SMIC |
 | **Type** | Fab |
 | **Category** | JV |
-| **Capability** | 12-inch (300mm) wafer foundry, 28nm and below |
+| **Capability** | 12-inch (300mm) wafer foundry, 28nm and above (per SMIC filings: 28纳米及以上) |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | Planned: 100,000 wafers/month (300mm), as of 2021-09 — planned full build per JV framework agreement; not installed; no installed figure disclosed |
 | **Investment** | ¥500亿元 / $8,870M |
 | **Funding Source** | Local Govt |
 | **Location** | Shanghai, Shanghai Municipality |
@@ -59,6 +59,7 @@ Part of SMIC's 2020-2022 wave of four mega-fab JVs (Shanghai, Beijing, Tianjin, 
 - [Semiconductor Manufacturing International Corporation (Wikipedia) — Entity List addition, 18 Dec 2020](https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation) (28 Sep 2026)
 - [从'沙子到芯片'的完整产业生态，上海临港'东方芯港'全产业链集群已然成型 (Sina Finance)](https://finance.sina.com.cn/roll/2026-05-20/doc-inhypxkf1660944.shtml) (20 May 2026)
 - [上海临港新片区芯港集成晶圆制造项目正式开工 (Sina Finance)](https://finance.sina.com.cn/money/bond/2026-06-30/doc-inifehiu4887824.shtml) (30 Jun 2026)
+- [中芯国际关于自愿披露签订合作框架协议的公告 (临港)](https://static.cninfo.com.cn/finalpage/2021-09-03/1210968149.PDF) (03 Sep 2021)
 
 ---
 

@@ -28,11 +28,11 @@ Fab 7 is where China's 12-inch power-semiconductor migration started; its >100% 
 | **Category** | JV |
 | **Capability** | 12-inch specialty power — 90nm/65/55nm IGBT, MOSFET, BCD, eNVM; world's first 12-inch power-device pure-foundry line; design 40,000 wafers/month, installed ~95,000/month, monthly input >100,000-equivalent reported 2025 |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 94,500 wafers/month (300mm), as of 2024-06 — installed capacity, company-stated; later releases stop giving a per-fab figure |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Wuxi, Jiangsu |
-| **Current Node** | Not yet researched |
+| **Current Node** | 90nm–65/55nm specialty (production start Q4 2019) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Oct 2026) |
@@ -43,7 +43,7 @@ Fab 7 is where China's 12-inch power-semiconductor migration started; its >100% 
 
 ## Technology Node Trajectory
 
-*Node history not yet researched.*
+- **2019**: 90nm–65/55nm specialty (production start Q4 2019)
 
 ## Project Timeline
 
@@ -57,6 +57,9 @@ Fab 7 is where China's 12-inch power-semiconductor migration started; its >100% 
 - [华虹半导体（无锡）有限公司 — 华虹七厂（官方）](https://www.huahong.com.cn/?id=9&m=channel) (01 Oct 2026)
 - [华虹无锡项目大事记：2018开工、2019投片、2021达产 (格林微)](https://greenmicro.net/article/hyzx/2014.html) (01 Jun 2026)
 - [华虹无锡：二期2024年12月投产、三期启动招标 (央视)](https://business.cctv.com/2026/05/22/ARTIg1aTwIezWj9GZzPPsZCs260522.shtml) (22 May 2026)
+- [Hua Hong Semiconductor Limited Reports 2024 Second Quarter Results](https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0808/2024080800257.pdf) (08 Aug 2024)
+- [Hua Hong Semiconductor Achieved Mass Production of 12'' 90nm BCD](https://www.acnnewswire.com/press-release/english/67033/hua-hong-semiconductor-achieved-mass-production-of-12''-90nm-bcd) (03 Jun 2021)
+- [华虹公司首次公开发行股票并在科创板上市招股说明书](https://static.cninfo.com.cn/finalpage/2023-07-31/1217423536.PDF) (31 Jul 2023)
 
 ---
 

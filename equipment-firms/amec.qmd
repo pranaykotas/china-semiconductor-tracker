@@ -24,13 +24,42 @@ Plasma etching systems (Capacitively Coupled Plasma and Inductively Coupled Plas
 | **Node Capability** | Plasma etch tools (Primo CCP/ICP series) in use down to 5nm at some customers, per company statements |
 | **Founded** | 2004 |
 | **HQ** | Shanghai |
+| **Capacity** | Not yet recorded |
 | **Entity List** | No |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2018**: 5nm plasma etch tools reportedly verified by TSMC (secondary report)
+- **2021**: Etch tools on tier-1 lines 65nm to 5nm; 12-inch etch used for key 5nm/sub-5nm steps
+- **2021**: 1,500th CCP etch reaction chamber shipped; products used at 5nm and below
+- **2025**: Advanced-logic MOL etch and memory ultra-high-aspect-ratio etch in volume; >6,800 etch chambers shipped
+- **2025**: LPCVD cumulative shipments pass 300 chambers; RP-epi tools at customers for qualification
+- **2026**: >8,800 reaction chambers in volume production on 220+ lines (all tool types)
+
+## Manufacturing Sites in China
+
+- **AMEC Lingang industrialisation base (phase I)** (Shanghai (Lingang New Area)) — Plasma etch and thin-film deposition tools; ~157 mu, ~180,000 m2; opened Aug 2024
+- **AMEC Lingang industrialisation base (phase II, planned)** (Shanghai (Lingang New Area)) — Etch, metrology/inspection and thin-film deposition tools; RMB 3.5bn planned investment; ~RMB 3bn annual revenue at full output
+- **AMEC Nanchang production and R&D base** (Nanchang) — IC and broader semiconductor equipment production (products not specified); 140,000 m2, in use from July 2023
+- **AMEC Jinqiao (HQ) R&D and production base** (Shanghai (Jinqiao, Pudong)) — R&D and production (products not specified)
+- **AMEC Chengdu R&D and production base (under construction)** (Chengdu (High-tech Zone)) — Thin-film deposition (CVD, ALD) equipment; phase I ~70,000 m2; production planned 2027
+- **AMEC Guangzhou base (under construction)** (Guangzhou) — R&D and production (details not disclosed)
 
 ## Sources
 
 - [Advanced Micro-Fabrication Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Advanced_Micro-Fabrication_Equipment) (28 Sep 2026)
 - [China's Amec setting industry standard for chipmaking tech, founder says](https://www.scmp.com/tech/tech-trends/article/3353937/chinas-amec-semiconductor-technology-now-industry-standard-adopted-rivals-founder) (28 Sep 2026)
 - [中微公司上半年归母净利增长3倍 刻蚀设备新品取得重复订单 临港二期项目拟投建 (财联社)](https://www.cls.cn/detail/2458571) (28 Sep 2026)
+- [[News] China's AMEC Reportedly Saw Plasma Etching Grow at 50% CAGR, Backs 5nm Without EUV](https://www.trendforce.com/news/2025/06/03/news-chinas-amec-reportedly-saw-plasma-etching-grow-at-50-cagr-believes-5nm-achievable-without-euv/) (03 Jun 2025)
+- [中微公司：公司 12 英寸高端刻蚀设备已应用于 5nm 芯片生产线](https://www.ithome.com/0/544/414.htm) (06 Apr 2021)
+- [中微公司：第 1500 个 CCP 刻蚀设备反应台顺利付运](https://www.ithome.com/0/584/412.htm) (03 Nov 2021)
+- [中微公司2025年营收123亿元创新高，净利润同增30.69%，薄膜设备成新增长点 | 财报见闻](https://wallstreetcn.com/articles/3766347) (27 Feb 2026)
+- [中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平](https://www.ithome.com/0/984/806.htm) (02 Aug 2026)
+- [中微临港产业化基地正式启用：到2035年要成第一流半导体设备公司](https://m.thepaper.cn/newsDetail_forward_28286932) (02 Aug 2024)
+- [中微公司上半年营收同比增长34.89%，净利润增300.22%，斥资35亿扩产能 | 财报见闻](https://wallstreetcn.com/articles/3779798) (19 Aug 2026)
+- [中微公司董事长尹志尧：到 2035 年在规模、产品竞争力上成为全球第一梯队的半导体设备公司](https://www.ithome.com/0/984/618.htm) (01 Aug 2026)
+- [中微公司成都研发及生产基地 暨西南总部项目正式开工](https://cn.chinadaily.com.cn/a/202510/17/WS68f20182a310c4deea5ece2c.html) (17 Oct 2025)
 
 ---
 

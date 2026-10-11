@@ -13,7 +13,7 @@ Traces to the Nantong Transistor Factory, a 1966-founded state enterprise; large
 
 ## What does this facility make?
 
-Chip assembly, test, and advanced packaging — including hybrid-bonding-based chiplet packaging and high-bandwidth memory (HBM) packaging, positioning it alongside JCET in China's advanced-packaging push.
+At Nantong: flip-chip (FC) and system-in-package (SiP) packaging for high-performance computing and communications chips at the Sutong plant, and 8/12-inch wafer-level packaging (copper pillar, solder bump, WLCSP) at the Chongchuan headquarters. Tongfu's most advanced work, 7nm/5nm FCBGA and chiplet integration for AMD, is done at its Suzhou and Penang subsidiaries (TF-AMD), not in Nantong, according to the company's 2026 prospectus.
 
 ## Why does it matter?
 
@@ -26,13 +26,13 @@ One of two mainland Chinese firms in the world's top five OSAT companies by reve
 | **Company** | Tongfu Microelectronics Co., Ltd. |
 | **Type** | Assembly & Packaging |
 | **Category** | State-Backed |
-| **Capability** | OSAT — advanced packaging including hybrid bonding IP for chiplets; HBM (high-bandwidth memory) packaging |
+| **Capability** | OSAT — Nantong sites: FC/SiP high-performance packaging and 8/12-inch wafer-level packaging (company-wide: chiplet, HBM) |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 116,700,000 units/month, as of 2025 — theoretical capacity of the HPC/communications packaging business run by 南通通富 (Sutong plant): ~14亿块/yr / 12 = ~116.7M units/month; 2025 utilisation 78.88%. Not total Nantong capacity |
 | **Investment** | $371M |
 | **Funding Source** | Big Fund I |
 | **Location** | Nantong, Jiangsu |
-| **Current Node** | Not yet researched |
+| **Current Node** | Not applicable (assembly & test) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Sep 2026) |
@@ -41,9 +41,10 @@ One of two mainland Chinese firms in the world's top five OSAT companies by reve
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
 **2.5/5**
 
-## Technology Node Trajectory
+## Packaging Technology Trajectory
 
-*Node history not yet researched.*
+- **2025**: Nantong Sutong plant: FC/SiP HPC packaging line (2022 issue) built out
+- **2026**: Nantong Chongchuan HQ: 8/12in wafer-level (Cu pillar, bump, WLCSP), as of
 
 ## Project Timeline
 
@@ -56,6 +57,7 @@ One of two mainland Chinese firms in the world's top five OSAT companies by reve
 - [Tongfu Microelectronics Chairman's Letter of Gratitude to All Sectors for Completing the Acquisition of 85% Equity in Two AMD Packaging and Testing Facilities](https://en.tfme.com/news/378.html) (28 Sep 2026)
 - [不惧存储杀跌！封测龙头通富微电业绩炸裂，半年净利最高增337%，Q2环比暴涨286%-347% (金融界)](https://m.jrj.com.cn/madapter/stock/2026/07/14172357798587.shtml) (14 Jul 2026)
 - [通富微电获42.2亿定增 (新浪财经) — AMD/Samsung HBM supply-chain detail](https://www.sina.cn/news/detail/5317759326225537.html) (28 Sep 2026)
+- [通富微电子股份有限公司2026年度向特定对象发行A股股票募集说明书（注册稿）](https://pdf.dfcfw.com/pdf/H2_AN202607031826702614_1.pdf) (03 Jul 2026)
 
 ---
 

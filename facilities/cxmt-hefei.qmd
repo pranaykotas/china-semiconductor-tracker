@@ -28,7 +28,7 @@ DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's ris
 | **Category** | State-Backed |
 | **Capability** | DRAM, 12-inch (300mm) wafers |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 150,000 wafers/month (300mm), as of 2025-01 — sum of two Hefei fabs: Fab 1 100,000 (19nm DDR4) + Fab 2 50,000 (17nm DDR5); press, not company-disclosed |
 | **Investment** | $7,200M |
 | **Funding Source** | Local Govt |
 | **Location** | Hefei, Anhui |
@@ -64,6 +64,7 @@ DRAM has been China's slower memory story relative to YMTC's NAND — CXMT's ris
 - [最新消息：长鑫存储拟在北京建设第二座DRAM工厂！ (电子工程专辑)](https://www.eet-china.com/news/202608044585.html) (04 Aug 2026)
 - [长鑫科技集团股份有限公司 2026年半年度报告 (H1 2026 revenue ¥1503.1亿, +873.6% YoY)](http://static.cninfo.com.cn/finalpage/2026-08-29/1225529543.PDF) (29 Aug 2026)
 - [路透：长鑫存储筹备进入NAND市场，北京新厂内设研发试验线 (观察者网编译)](https://www.guancha.cn/CaiJing/2026_09_18_901187.shtml) (18 Sep 2026)
+- [中國長鑫存儲 DDR5 良率達 80%，還力拚 2025 年少量生產 HBM2](https://technews.tw/?p=1326637) (03 Jan 2025)
 
 ---
 

@@ -28,11 +28,11 @@ SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-ow
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) wafer foundry, 28nm — plus the site's older 8-inch (200mm) line (operational since Dec 2014, 0.35µm–90nm, ~55,000 wafers/month planning basis) |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | Planned: 40,000 wafers/month (300mm), as of 2021-03 — planned (framework agreement target for the 28nm-and-above 12-inch expansion); not installed |
 | **Investment** | $2,350M |
 | **Funding Source** | Local Govt |
 | **Location** | Shenzhen, Guangdong |
-| **Current Node** | Not yet researched |
+| **Current Node** | 55nm (first Shenzhen 12-inch/300mm line, ~3,000 wpm) |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Sep 2026) |
@@ -43,7 +43,8 @@ SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-ow
 
 ## Technology Node Trajectory
 
-*Node history not yet researched.*
+- **2015**: 110nm (0.11µm, 8-inch line; commercial production end-2014)
+- **2017**: 55nm (first Shenzhen 12-inch/300mm line, ~3,000 wpm)
 
 ## Project Timeline
 
@@ -58,6 +59,9 @@ SMIC's smallest of the four 2020-2022 mega-fab JVs (中芯深圳, 55.05% SMIC-ow
 - [2022年深圳发力12吋半导体产线，中芯国际和华润微产线项目如期推进 (国际电子商情)](https://www.esmchina.com/news/8874.html) (01 Jan 2022)
 - [SMIC joins Shenzhen government in US$2.35 billion chip foundry as China pushes for self-sufficiency in semiconductors](https://www.scmp.com/tech/big-tech/article/3125908/smic-joins-shenzhen-government-us235-billion-chip-foundry-28-nm-node) (19 Mar 2021)
 - [China's SMIC gets Shenzhen funds for US$2.4bn fab](https://www.taipeitimes.com/News/biz/archives/2021/03/19/2003754086) (19 Mar 2021)
+- [SMIC Form 20-F for fiscal year 2015](https://www.sec.gov/Archives/edgar/data/1267482/000114420416095923/v437675_20f.htm) (25 Apr 2016)
+- [SMIC Form 20-F for fiscal year 2018 (fab table and per-fab capacity 2016–2018)](https://www.sec.gov/Archives/edgar/data/1267482/000155837019003539/smi-20181231x20f.htm) (30 Apr 2019)
+- [中芯国际：关于自愿披露签订合作框架协议的公告 (深圳)](https://static.cninfo.com.cn/finalpage/2021-03-18/1209403281.PDF) (18 Mar 2021)
 
 ---
 

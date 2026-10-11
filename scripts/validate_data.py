@@ -88,6 +88,39 @@ def check_sources(label: str, sources) -> None:
         check_date(label, f"sources[{i}].date", s.get("date"), required=True)
 
 
+def check_capacity(label: str, cap) -> None:
+    """A capacity block needs exactly one kind of figure, positive, plus an as_of."""
+    if not cap:
+        return
+    kinds = [k for k in ("wafers_per_month", "units_per_month", "amount") if cap.get(k) is not None]
+    if len(kinds) != 1:
+        err(label, "capacity needs exactly one of wafers_per_month, units_per_month, or amount+unit")
+        return
+    v = cap[kinds[0]]
+    if not isinstance(v, (int, float)) or v <= 0:
+        err(label, f"capacity.{kinds[0]} '{v}' must be a positive number")
+    if kinds[0] == "amount" and not cap.get("unit"):
+        err(label, "capacity.amount given without capacity.unit")
+    if cap.get("as_of") is None:
+        warn(label, "capacity has no as_of date")
+    if cap.get("basis") not in ("installed", "planned"):
+        err(label, f"capacity.basis '{cap.get('basis')}' must be 'installed' or 'planned'")
+
+
+def check_trajectory(label: str, entries, field: str, name: str) -> None:
+    """Dated trajectory lists: integer years, non-empty text, chronological."""
+    years = []
+    for i, t in enumerate(entries or []):
+        if not isinstance(t.get("year"), int):
+            err(label, f"{name}[{i}].year '{t.get('year')}' must be an integer year")
+        else:
+            years.append(t["year"])
+        if not t.get(field):
+            err(label, f"{name}[{i}] has no {field}")
+    if years != sorted(years):
+        err(label, f"{name} is not in chronological order")
+
+
 def check_entity_list(label: str, el) -> None:
     el = el or {}
     if el.get("status") is True:
@@ -134,15 +167,13 @@ def validate_facilities(path: str = "data/facilities.yml") -> int:
             check_date(label, f"milestones[{i}].date", m.get("date"), required=True)
             if not m.get("event"):
                 err(label, f"milestones[{i}] has no event text")
-        for i, t in enumerate(f.get("node_trajectory") or []):
-            if not isinstance(t.get("year"), int):
-                err(label, f"node_trajectory[{i}].year '{t.get('year')}' must be an integer year")
+        check_trajectory(label, f.get("node_trajectory"), "node", "node_trajectory")
+        check_trajectory(label, f.get("packaging_trajectory"), "technology", "packaging_trajectory")
+        if f.get("packaging_trajectory") and f.get("type") != "Assembly & Packaging":
+            err(label, "packaging_trajectory is only for Assembly & Packaging facilities")
 
         check_date(label, "last_verified", f.get("last_verified"))
-        cap = f.get("capacity") or {}
-        wpm = cap.get("wafers_per_month")
-        if wpm is not None and (not isinstance(wpm, (int, float)) or wpm <= 0):
-            err(label, f"capacity.wafers_per_month '{wpm}' must be a positive number")
+        check_capacity(label, f.get("capacity"))
 
         for k in ("technology_difficulty", "capital_intensity", "foreign_dependence"):
             v = (f.get("complexity") or {}).get(k)
@@ -186,6 +217,13 @@ def validate_materials(path: str = "data/materials.yml") -> int:
         check_coords(label, f.get("hq"))
         check_sources(label, f.get("sources"))
         check_entity_list(label, f.get("entity_list"))
+        check_trajectory(label, f.get("capability_trajectory"), "capability", "capability_trajectory")
+        check_capacity(label, f.get("capacity"))
+        check_date(label, "last_verified", f.get("last_verified"))
+        for i, m in enumerate(f.get("manufacturing_sites") or []):
+            for k in ("name", "city", "what"):
+                if not m.get(k):
+                    err(label, f"manufacturing_sites[{i}] has no {k}")
     return len(entries)
 
 

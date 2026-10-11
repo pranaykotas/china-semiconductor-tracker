@@ -28,11 +28,11 @@ As of August 2026 SK Hynix is reportedly weighing options incl. selling a stake 
 | **Category** | Foreign-Invested |
 | **Capability** | NAND flash package-and-test — ~80 million units/month; handles over 40% of SK Hynix's global NAND back-end; largest overseas SK Hynix back-end site |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | Planned: 167,000,000 units/month, as of 2019 — planned post-phase-2 capacity: '接近20亿只'/yr / 12 = ~167M units/month; phase 1 alone was ~9.6亿只/yr (~80M/month, matching the 2014 figure) |
 | **Investment** | $1,200M |
 | **Funding Source** | Foreign |
 | **Location** | Chongqing, Chongqing Municipality |
-| **Current Node** | Not yet researched |
+| **Current Node** | Not applicable (assembly & test) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Aug 2026) |
@@ -41,9 +41,10 @@ As of August 2026 SK Hynix is reportedly weighing options incl. selling a stake 
 <span class="complexity-bar" title="Technical Complexity: 2.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
 **2.5/5**
 
-## Technology Node Trajectory
+## Packaging Technology Trajectory
 
-*Node history not yet researched.*
+- **2014**: NAND flash package & test (16GB mobile NAND from Cheongju) in volume
+- **2019**: Phase 2 dedicated packaging plant; phase 1 becomes test-only (planned)
 
 ## Project Timeline
 
@@ -56,6 +57,8 @@ As of August 2026 SK Hynix is reportedly weighing options incl. selling a stake 
 
 - [SK hynix weighs options for Chongqing plant (~$3B) (Korea Herald)](https://www.koreaherald.com/article/3824990) (15 Aug 2026)
 - [SK海力士重庆封测基地处置选项梳理](https://wap.seccw.com/document/detail/id/48700.html) (20 Aug 2026)
+- [SK 海力士重慶封測廠投產、估明年銷售上看 6 億美元](https://technews.tw/2014/09/29/sk-hynix-chongqinggo-into-operation/) (29 Sep 2014)
+- [SK海力士重庆二期设备搬入，主攻封装，预计9月投产](https://chinaflashmarket.com/a/167031) (15 Jul 2019)
 
 ---
 

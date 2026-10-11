@@ -28,11 +28,11 @@ Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-c
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) wafer foundry, display driver ICs and CIS |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 137,900 wafers/month (300mm), as of 2025-12 — designed capacity; actual output 139.0K (100.8% utilisation). Phase IV (55,000/month, 40/28nm) not included |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Hefei, Anhui |
-| **Current Node** | Not yet researched |
+| **Current Node** | 40nm high-voltage OLED DDIC (mass production) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Sep 2026) |
@@ -43,7 +43,10 @@ Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-c
 
 ## Technology Node Trajectory
 
-*Node history not yet researched.*
+- **2017**: 110nm DDIC (A1 fab production start)
+- **2020**: 150nm/110nm/90nm all in volume (90nm = 53% of 2020 revenue)
+- **2022**: 55nm DDIC (mass production start)
+- **2025**: 40nm high-voltage OLED DDIC (mass production)
 
 ## Project Timeline
 
@@ -54,6 +57,8 @@ Shows Taiwanese foundry know-how transferring into a mainland-listed, mainland-c
 
 - [Nexchip (Wikipedia)](https://en.wikipedia.org/wiki/Nexchip) (28 Sep 2026)
 - [晶合集成2026一季报深度解析 (东方财富)](https://caifuhao.eastmoney.com/news/20260423174626657731640) (23 Apr 2026)
+- [Nexchip Semiconductor Corporation — H Share Global Offering Prospectus](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0630/2026063000123.pdf) (30 Jun 2026)
+- [合肥晶合集成电路股份有限公司首次公开发行股票并在科创板上市招股说明书](https://static.cninfo.com.cn/finalpage/2023-04-26/1216593341.PDF) (26 Apr 2023)
 
 ---
 

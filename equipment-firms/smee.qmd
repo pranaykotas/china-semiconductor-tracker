@@ -8,12 +8,12 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's only domestic lithography scanner maker of consequence — the single most consequential equipment chokepoint firm in this tracker, since lithography (not etch or deposition) is the tool class export controls target hardest. The SSA800's confirmed move to mass-production delivery in 2026 is the clearest single data point in this entire tracker of China closing an advanced-lithography gap that export controls were specifically designed to hold open; by April 2026 the tool had been delivered in volume to both SMIC and Hua Hong, and 2026 output plans called for roughly 50 units (doubling year-on-year), with installed capacity reportedly exceeding 120 units.
+China's only domestic lithography scanner maker of consequence, and the firm most exposed to the export controls that target lithography hardest. Its real position is more modest than its reputation: a 90nm-class dry scanner in production, and a 28nm-class immersion tool that remained in testing at ICRD as of May 2026, despite widely shared but unfounded claims in March-April 2026 that it had entered batch delivery to SMIC. The official picture is consistent with testing, not delivery: Science and Technology Daily (科技日报, the Ministry of Science and Technology's newspaper) reported in March 2026 that in 2025 domestic lithography made major breakthroughs in core subsystems (light source, objective lens, dual wafer stage) and that several verification tools had entered production-line testing, without naming a company. No ministry source was found for the circulating claim that the minister had announced 28nm immersion mass production; the ministry's summary of his January 2026 work report does not mention lithography. Separately, a July 2026 report (The Information, relayed by 金角财经) said an unnamed Shanghai state-backed firm planned about 5 immersion DUV tools in 2026 and 20 in 2027, and a September 2025 FT report said the domestic immersion tool SMIC was trialling came from the startup Yuliangsheng, not SMEE.
 :::
 
 ## What does this firm supply?
 
-Photolithography scanners — the SSA600 series (90nm-class, established volume product) and the newer SSA800 series (28nm-class immersion DUV, now in mass production) — plus related mask-inspection tools.
+Photolithography scanners: the SSA600 series (90nm-class dry ArF, the established product), the SSA800 series (28nm-class ArF immersion, still in testing), KrF scanners such as the SSC800/10 (110nm resolution; one sold to a Ministry of Science and Technology lab in late 2025 for about ¥110m), and lithography tools for 2.5D/3D advanced packaging.
 
 ## Key Facts
 
@@ -21,17 +21,34 @@ Photolithography scanners — the SSA600 series (90nm-class, established volume 
 |---|---|
 | **Category** | Equipment |
 | **Segment** | Lithography |
-| **Node Capability** | 90nm-class in volume production since 2023 (SSA600 scanner). 28nm-class immersion DUV (SSA800 series) delivered to SMIC from May 2025, cleared full-process validation with wafer yields consistently above 90% by early 2026, and was publicly confirmed by China's Minister of Science and Technology in March 2026 to have entered mass-production delivery — a status upgrade from the unverified December 2023 claim this entry previously carried. |
+| **Node Capability** | 90nm-class dry ArF (SSA600 series) is SMEE's established front-end product; its 90nm programme passed state acceptance in 2018. The 28nm-class immersion scanner (SSA800 series) has NOT been delivered to commercial fabs: as of May 2026 it was still being tested at the Integrated Circuit R&D Center (ICRD), and spring 2026 reports of batch delivery and 90%+ yields were rumours that industry press (芯智讯, 证券时报) refuted. |
 | **Founded** | 2002 |
 | **HQ** | Shanghai |
+| **Capacity** | Not yet recorded |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2018**: 90nm front-end lithography (SSA600-class) project passes state acceptance
+- **2022**: First Chinese 2.5D/3D advanced-packaging lithography tool shipped
+- **2025**: 90nm ArF scanner claimed in mass production (company claim, May 2025)
+- **2025**: SSC800/10 scanner (KrF 248nm, 110nm resolution) sold to MOST lab, ~RMB 110m
+- **2026**: SSA800 28nm-class ArF immersion still in testing at ICRD; not in any commercial fab
+
+## Manufacturing Sites in China
+
+*Production sites not yet researched.*
 
 ## Sources
 
 - [Shanghai Micro Electronics Equipment (Wikipedia)](https://en.wikipedia.org/wiki/Shanghai_Micro_Electronics_Equipment) (28 Sep 2026)
 - [The U.S. Restricted China's Chipmaking-Tech Champion. Its New Spinoff Is Another Story.](https://www.kharon.com/brief/semiconductors-lithography-smee-amies-technology-entity-list-export-controls) (28 Sep 2026)
-- [重新认识中国光刻机的突围：中国光刻机的真实现状与近一年重大进展（2025—2026） (Zhihu)](https://zhuanlan.zhihu.com/p/2028184174327080121) (28 Sep 2026)
-- [中国首款可实现28nm制程的光刻设备于2026年4月官宣全面量产 (forum repost of official coverage)](https://netbig.top/thread-89272-1-1.html) (28 Sep 2026)
+- [国产光刻机突传年产5台，张江高科终于等到了 (金角财经, via Tiger Brokers)](https://www.itiger.com/news/2654369074) (28 Jul 2026)
+- [[News] China's SMEE Reportedly Wins RMB 110M Lithography Tool Contract Amid Domestic Push](https://www.trendforce.com/news/2025/12/26/news-chinas-smee-reportedly-wins-rmb-110m-lithography-tool-contract-amid-domestic-push/) (26 Dec 2025)
+- [国产28nm光刻机SSA800批量交付 良率超90%？媒体辟谣：假消息 (凤凰网/快科技, citing 芯智讯)](https://tech.ifeng.com/c/8t0l6csZTBT) (10 May 2026)
+- [锚定科技强国目标，“十五五”聚力启程 (科技日报)](https://www.stdaily.com/web/gdxw/2026-03/04/content_479913.html) (04 Mar 2026)
+- [阴和俊在全国科技工作会议上作工作报告 (科学技术部)](https://www.most.gov.cn/kjbgz/202601/t20260127_195800.html) (27 Jan 2026)
 
 ---
 

@@ -29,10 +29,10 @@ With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the cleare
 | **Capability** | Chip assembly and test (ATP) — not a wafer fab |
 | **Status** | Operational |
 | **Capacity** | Not yet recorded |
-| **Investment** | Not disclosed |
+| **Investment** | $600M |
 | **Funding Source** | Foreign |
 | **Location** | Chengdu, Sichuan |
-| **Current Node** | Not yet researched |
+| **Current Node** | Not applicable (assembly & test) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Sep 2026) |
@@ -41,9 +41,12 @@ With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the cleare
 <span class="complexity-bar" title="Technical Complexity: 1.5/5"><span class="complexity-segment filled"></span><span class="complexity-segment filled"></span><span class="complexity-segment"></span><span class="complexity-segment"></span><span class="complexity-segment"></span></span>
 **1.5/5**
 
-## Technology Node Trajectory
+## Packaging Technology Trajectory
 
-*Node history not yet researched.*
+- **2005**: Assembly & test (client CPUs) begins operation
+- **2016**: Intel Advanced Test Technology in mass production (planned H2 2016)
+- **2024**: Server-chip packaging & test added (announced; US$300M capital increase)
+- **2026**: Wafer pre-processing + advanced packaging + test (stated, as of)
 
 ## Project Timeline
 
@@ -52,6 +55,10 @@ With Dalian fully transferred to SK Hynix, Chengdu's ATP operation is the cleare
 ## Sources
 
 - [Intel's old NAND plant in China is now officially registered as SK hynix after US imposes new sanctions that limit fab upgrades in China (Tom's Hardware)](https://www.tomshardware.com/tech-industry/intel-dalian-plant-now-officially-sk-hynix) (28 Sep 2026)
+- [英特尔宣布扩容成都封装测试基地，增加服务器芯片服务](https://www.ithome.com/0/805/679.htm) (28 Oct 2024)
+- [Intel to invest $1.6 billion in China plant to push mobile chip development](https://www.infoworld.com/article/2236166/intel-to-invest-16-billion-in-china-plant-to-push-mobile-chip-development.html) (04 Dec 2014)
+- [世界500强企业宣布扩容成都封装测试基地](https://www.yicai.com/news/102330103.html) (28 Oct 2024)
+- [英特尔中国区董事长王稚聪：正依托成都工厂建设先进制造人工智能实践中心](https://www.mrjjxw.com/articles/2026-07-21/4487128.html) (21 Jul 2026)
 
 ---
 

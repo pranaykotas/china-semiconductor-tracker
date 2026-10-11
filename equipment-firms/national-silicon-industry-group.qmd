@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment to roughly double its 300mm wafer capacity from about 600,000 to 1.2 million wafers per month. That expansion is ahead of its original pace: H1 2026 revenue grew 36.5% year-on-year with 300mm wafer shipment volume up over 90%, and combined Shanghai + Taiyuan 300mm capacity had already reached roughly 1 million wafers/month, with 1.2 million/month now targeted by end of 2026 rather than as a multi-year goal.
+China's largest domestic semiconductor silicon wafer producer, founded December 2015 — announced a ¥13.2 billion ($1.82B) investment in 2024 to expand 300mm wafer capacity toward 1.2 million wafers per month, from 450,000/month at end-2023 (650,000 at end-2024, 850,000 at end-2025, per company filings). The expansion is ahead of its original pace: H1 2026 revenue grew 36.5% year-on-year with 300mm wafer shipment volume up over 90%, and combined Shanghai + Taiyuan 300mm capacity had already reached roughly 1 million wafers/month, with 1.2 million/month now targeted by end of 2026 rather than as a multi-year goal.
 :::
 
 ## What does this firm supply?
@@ -24,13 +24,33 @@ China's largest domestic semiconductor silicon wafer producer, founded December 
 | **Node Capability** | 300mm silicon wafers; not applicable in the process-node sense used for logic fabs |
 | **Founded** | 2015 |
 | **HQ** | Shanghai |
+| **Capacity** | 1,000,000 300mm wafers/month, as of 2026-06 — installed, Shanghai + Taiyuan combined; company targets 1.2m/month by end-2026 |
 | **Entity List** | No |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2017**: Shanghai Xinsheng becomes China's first volume producer of 300mm silicon wafers
+- **2023**: 300mm wafer capacity reaches 450k wafers/month
+- **2024**: 300mm wafer capacity 650k/month; 300mm SOI 80k wafers/year
+- **2025**: 300mm wafer capacity 850k/month; 300mm SOI 160k wafers/year
+- **2026**: Shanghai+Taiyuan 300mm capacity 1.0m/month; Taiyuan in bulk prime-wafer sales; SOI pilot line ~300k/yr
+
+## Manufacturing Sites in China
+
+- **Shanghai Xinsheng (上海新昇) 300mm wafer fab** (Shanghai) — 300mm polished/epi wafers; 2024 plan adds 400k/month slicing-grinding-polishing capacity (RMB 4.1bn)
+- **Taiyuan Jinke (太原) 300mm wafer base** (Taiyuan, Shanxi) — 300mm crystal pulling 600k/month and slicing-grinding-polishing 200k/month (incl. heavily doped), RMB 9.1bn; in customer qualification/ramp, bulk prime sales started
+- **Simgui / Xin'ao (新傲) SOI and epi lines** (Shanghai) — 200mm-and-below epi wafers, SOI; 300mm SOI pilot line (~300k/yr via 新傲芯翼)
 
 ## Sources
 
 - [National Silicon Industry Group (Wikipedia)](https://en.wikipedia.org/wiki/National_Silicon_Industry_Group) (28 Sep 2026)
 - [China-based National Silicon Industry to double wafer production capacity to foster self-reliant chip ecosystem](https://www.digitimes.com/news/a20240613VL201/national-silicon-industry-wafer-production-capacity-ic-manufacturing.html) (13 Jun 2024)
 - [沪硅产业：2026年上半年营收同比增长36.51% 300mm硅片销量增幅超90% (中证网)](https://www.cs.com.cn/ssgs/01/2026/08/20/detail_2026082010032570.html) (20 Aug 2026)
+- [再投 68 亿元！国产大硅片战事升级，7 大玩家冲锋 (IT之家)](https://www.ithome.com/0/622/062.htm) (02 Jun 2022)
+- [沪硅产业拟132亿元投建300mm硅片产能升级项目 产能将达120万片/月 (证券时报)](https://www.stcn.com/article/detail/1228001.html) (11 Jun 2024)
+- [上海硅产业集团股份有限公司关于2025年年度报告的信息披露监管问询函的回复公告 (2026-039)](https://static.cninfo.com.cn/finalpage/2026-07-29/1225445535.PDF) (29 Jul 2026)
+- [豪掷114.48亿元！千亿半导体龙头，携手股东增资子公司 (中国证券报)](https://stock.10jqka.com.cn/20260618/c677582426.shtml) (18 Jun 2026)
 
 ---
 

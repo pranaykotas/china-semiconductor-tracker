@@ -102,7 +102,10 @@ load_facilities <- function(path = "data/facilities.yml") {
       entity_list_date      = as.Date(f$entity_list$date_added %||% NA),
       entity_list_name      = f$entity_list$list %||% NA_character_,
       capacity_wpm          = f$capacity$wafers_per_month %||% NA_real_,
+      capacity_units_pm     = f$capacity$units_per_month %||% NA_real_,
       capacity_wafer_size   = f$capacity$wafer_size %||% NA_character_,
+      capacity_basis        = f$capacity$basis %||% NA_character_,
+      capacity_as_of        = as.character(f$capacity$as_of %||% NA_character_),
       capacity_source       = f$capacity$note %||% NA_character_,
       last_verified         = as.Date(f$last_verified %||% NA),
       latest_source_date    = latest_source,
@@ -157,6 +160,38 @@ remove_orphan_pages <- function(dir, ids) {
     file.remove(file.path(dir, orphans))
     cat("Removed orphaned pages:", paste(orphans, collapse = ", "), "\n")
   }
+}
+
+# ---- Format a raw YAML capacity block for display. Works for all three
+# kinds of entry: fabs (wafers_per_month), OSAT sites (units_per_month), and
+# equipment/materials firms (amount + unit). Returns "Not yet recorded" when
+# nothing usable is present. ----
+format_capacity <- function(cap) {
+  if (is.null(cap)) return("Not yet recorded")
+  fmt <- function(x) format(x, big.mark = ",", scientific = FALSE, trim = TRUE)
+  main <- if (!is.null(cap$wafers_per_month)) {
+    size <- if (!is.null(cap$wafer_size)) paste0(" (", cap$wafer_size, ")") else ""
+    paste0(fmt(cap$wafers_per_month), " wafers/month", size)
+  } else if (!is.null(cap$units_per_month)) {
+    paste0(fmt(cap$units_per_month), " units/month")
+  } else if (!is.null(cap$amount) && !is.null(cap$unit)) {
+    paste(fmt(cap$amount), cap$unit)
+  } else {
+    return("Not yet recorded")
+  }
+  # A planned or full-build target is labelled as such, so it is never
+  # read as output that is actually running
+  if (identical(cap$basis, "planned")) main <- paste0("Planned: ", main)
+  as_of <- if (!is.null(cap$as_of)) paste0(", as of ", cap$as_of) else ""
+  note <- if (!is.null(cap$note)) paste0(" — ", cap$note) else ""
+  paste0(main, as_of, note)
+}
+
+# ---- Render a dated trajectory list (node / packaging / capability) as
+# Markdown bullets. `field` names the text field in each entry. ----
+trajectory_md <- function(entries, field, empty_text) {
+  if (is.null(entries) || length(entries) == 0) return(empty_text)
+  paste(vapply(entries, function(t) paste0("- **", t$year, "**: ", t[[field]]), character(1)), collapse = "\n")
 }
 
 # ---- Format RMB investment (亿 = 100 million yuan), with optional USD ----
@@ -407,7 +442,8 @@ load_materials_firms <- function(path = "data/materials.yml") {
       entity_list_date    = as.Date(f$entity_list$date_added %||% NA),
       entity_list_name    = f$entity_list$list %||% NA_character_,
       significance   = f$narrative$significance %||% "",
-      what_it_supplies = f$narrative$what_it_supplies %||% ""
+      what_it_supplies = f$narrative$what_it_supplies %||% "",
+      last_verified  = as.Date(f$last_verified %||% NA)
     )
   })
 

@@ -28,7 +28,7 @@ The clearest case of a Chinese chipmaker reaching a genuinely globally competiti
 | **Category** | State-Backed |
 | **Capability** | 3D NAND flash memory, XTacking architecture |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 150,000 wafers/month (300mm), as of 2026-07 — two Wuhan fabs combined, installed; Fab 3 ramping 2H 2026, full-load total >170,000 |
 | **Investment** | $24,000M |
 | **Funding Source** | Big Fund I |
 | **Location** | Wuhan, Hubei |
@@ -66,6 +66,7 @@ The clearest case of a Chinese chipmaker reaching a genuinely globally competiti
 - [长江存储IPO申请获受理，拟募资330亿元 (TechNode China)](https://cn.technode.com/post/2026-08-24/ymtc-shanghai-ipo-33-billion/) (24 Aug 2026)
 - [长江存储控股股份有限公司 首次公开发行股票并在科创板上市招股说明书 (Shanghai Stock Exchange filing, ¥631.8亿 2025 revenue; ¥470.4亿 Q1-2026)](http://static.sse.com.cn/stock/disclosure/announcement/c/202608/002251_20260821_7075.pdf) (21 Aug 2026)
 - [长江存储三期落地：注册资本207.2亿元，长控与湖北长晟合资 (财联社)](https://m.cls.cn/detail/2144445) (14 Sep 2025)
+- [中國記憶體雙雄大撒幣擴產，長鑫存儲年底產能直逼美光](https://technews.tw/2026/07/14/chinas-two-memory-chip-giants-are-spending-heavily-to-expand-production/) (14 Jul 2026)
 
 ---
 

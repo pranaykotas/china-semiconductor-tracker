@@ -26,13 +26,13 @@ Consolidates China's #2 foundry group's 12-inch base at ~a sixth of national 12-
 | **Company** | Hua Hong Semiconductor Group (HLMC) |
 | **Type** | Fab |
 | **Category** | State-Backed |
-| **Capability** | Fab 5 (Zhangjiang): 12-inch, 65/55nm and 40nm logic/NOR/RF, 38,000 wafers/month. Fab 6 (Kangqiao): 12-inch, 28/22nm, 40,000 wafers/month planned |
+| **Capability** | Fab 5 (Zhangjiang): 12-inch, 65/55nm and 40nm logic/NOR/RF, 38,000 wafers/month. Fab 6 (Kangqiao): 12-inch, 28/22nm, capacity not sourced. Hua Hong's 2026 acquisition covers Fab 5 only |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 38,000 wafers/month (300mm), as of 2026-05 — Fab 5 (华力微, Zhangjiang) design capacity only; Fab 6 (华力集成) has no sourced figure |
 | **Investment** | Not disclosed |
 | **Funding Source** | Local Govt |
 | **Location** | Shanghai, Shanghai Municipality |
-| **Current Node** | Not yet researched |
+| **Current Node** | 28nm HKC+ (mass production start; Fab 6 is the 28nm fab) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Sep 2026) |
@@ -43,7 +43,9 @@ Consolidates China's #2 foundry group's 12-inch base at ~a sixth of national 12-
 
 ## Technology Node Trajectory
 
-*Node history not yet researched.*
+- **2014**: 55nm (CIS phone products in volume, Fab 5)
+- **2017**: 55nm SONOS embedded memory in volume (Fab 5)
+- **2019**: 28nm HKC+ (mass production start; Fab 6 is the 28nm fab)
 
 ## Project Timeline
 
@@ -57,6 +59,8 @@ Consolidates China's #2 foundry group's 12-inch base at ~a sixth of national 12-
 - [停牌！A股芯片巨头，刚刚公告！ (证券时报)](https://www.stcn.com/article/detail/3142230.html) (17 Aug 2025)
 - [华虹公司股东大会通过华力微收购全部议案 (经济参考报)](http://www.jjckb.cn/20260210/f8ff9880eaa14bdea1cb27ef09ac1f89/c.html) (10 Feb 2026)
 - [发行股份购买华力微完成过户，华虹整合12英寸产能 (腾讯新闻)](https://news.qq.com/rain/a/20260911A0GGGQ00) (11 Sep 2026)
+- [华虹半导体有限公司发行股份购买资产并募集配套资金暨关联交易报告书（修订稿）](https://static.cninfo.com.cn/finalpage/2026-05-30/1225340255.PDF) (30 May 2026)
+- [華力微繼中芯國際後宣布 2020 年量產 14 奈米，良率將是發展關鍵](https://technews.tw/?p=447689) (22 Mar 2019)
 
 ---
 

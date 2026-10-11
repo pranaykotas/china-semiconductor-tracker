@@ -13,7 +13,7 @@ TCL Zhonghuan (TCL中环) is primarily a solar (photovoltaic) silicon wafer comp
 
 ## What does this firm supply?
 
-Large-diameter semiconductor-grade silicon wafers, via a dedicated new project — the 'Integrated Circuit Semiconductor Large Silicon Wafer Shenzhen Project,' through subsidiary Shenzhen Zhonghuan Lingxian Semiconductor Materials Co., Ltd. — with a planned total investment of approximately ¥11.96 billion. A separate Ningxia Zhonghuan facility has also been recognized as a national-level 'intelligent manufacturing demonstration factory,' though this tracker could not confirm a capacity breakdown specific to semiconductor-grade (as opposed to solar) wafers there.
+Large-diameter semiconductor-grade silicon wafers. Current production runs through subsidiary Zhonghuan Advanced (中环领先) at Yixing and Xuzhou (Jiangsu), Tianjin, and Hohhot, reaching 700,000 12-inch wafers/month at end-2024. The Shenzhen 'Integrated Circuit Semiconductor Large Silicon Wafer Project' (subsidiary Shenzhen Zhonghuan Lingxian Semiconductor Materials, about ¥11.96 billion, planned 700,000 wafers/month) is a planned expansion, not yet a producing site. A separate Ningxia Zhonghuan facility has also been recognized as a national-level 'intelligent manufacturing demonstration factory,' though this tracker could not confirm a capacity breakdown specific to semiconductor-grade (as opposed to solar) wafers there.
 
 ## Key Facts
 
@@ -24,12 +24,33 @@ Large-diameter semiconductor-grade silicon wafers, via a dedicated new project �
 | **Node Capability** | Large-diameter (300mm-class) semiconductor-grade silicon wafers; exact node applicability not disclosed |
 | **Founded** | Unknown |
 | **HQ** | Shenzhen |
+| **Capacity** | 700,000 12-inch (300mm) semiconductor wafers/month, as of 2024-12 — installed, Zhonghuan Advanced (中环领先) group-wide; excludes 8-inch and smaller; Shenzhen project adds planned 700k/month |
 | **Entity List** | No |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2022**: 12-inch wafers below-28nm in volume; 12-inch memory/logic wafers enter volume production
+- **2022**: Semiconductor wafer capacity 6in 600k, 8in 870k, 12in 220k per month (mid-2022)
+- **2023**: Acquires Xinxin Semiconductor (Xuzhou) with plant shell for 600k/month 12-inch
+- **2024**: 12-inch semiconductor wafer capacity reaches 700k/month
+
+## Manufacturing Sites in China
+
+- **Shenzhen Zhonghuan Advanced 12-inch wafer project (planned)** (Shenzhen (Guangming)) — 12-inch polished, epi and test wafers, planned 700k/month; RMB 11.96bn; 18-month core build to first-phase trial production, 60-month total
+- **Zhonghuan Advanced Semiconductor Technology (中环领先半导体科技) Yixing plant** (Yixing, Jiangsu (Yixing Economic Development Zone)) — Semiconductor silicon wafers (production and sales)
+- **Zhonghuan Advanced (Xuzhou) Semiconductor Materials** (Xuzhou, Jiangsu (Xuzhou Economic-Technological Development Zone)) — Semiconductor wafers (production, sales, R&D); ex-Xinxin Semiconductor, acquired
+- **Tianjin Zhonghuan Advanced Materials / Tianjin Huanou Semiconductor Materials** (Tianjin) — Semiconductor material (wafer) production; listed as production units with process wastewater
+- **Inner Mongolia Zhonghuan Advanced Semiconductor Materials** (Hohhot, Inner Mongolia) — Semiconductor materials subsidiary (likely crystal growth; products not stated)
 
 ## Sources
 
 - [TCL中环拟投建近120亿元项目，加码半导体大硅片 (新浪财经)](https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxru1479438.shtml) (18 Jul 2026)
 - [TCL中环：半导体材料业务销量同比增长17% (网易)](https://www.163.com/dy/article/L2FC7A4B051984TV.html) (28 Sep 2026)
+- [TCL 中环新能源科技股份有限公司 2022 年半年度报告](https://disc.static.szse.cn/disc/disk03/finalpage/2022-08-25/4c538f5a-f179-4253-a8b6-7b0332a6621d.PDF) (25 Aug 2022)
+- [半导体领域重磅并购！TCL中环拟77亿出手鑫芯半导体 (财联社)](https://www.cls.cn/detail/1247179) (20 Jan 2023)
+- [TCL 中环新能源科技股份有限公司 2024 年年度报告](https://static.cninfo.com.cn/finalpage/2025-04-26/1223330188.PDF) (26 Apr 2025)
+- [TCL中环：控股孙公司拟投建深圳半导体大硅片项目 (中证网)](https://www.cs.com.cn/ssgs/01/2026/07/17/detail_2026071710025205.html) (17 Jul 2026)
 
 ---
 

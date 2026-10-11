@@ -8,7 +8,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely a sales office. Linde built and started up dedicated ultra-high-purity nitrogen generation and air-separation plants in Shanghai under long-term (reportedly 20-year) supply contracts with named China fabs.
+A foreign (German/UK-headquartered) industrial gas major with confirmed on-the-ground manufacturing in China specifically to supply chip fabs — not merely a sales office. Linde built and started up dedicated ultra-high-purity nitrogen generation and air-separation plants in Shanghai for named China fabs, including a 20-year supply contract with GTA Semiconductor in Lingang and an air-separation plant serving HLMC (Hua Hong).
 :::
 
 ## What does this firm supply?
@@ -24,13 +24,29 @@ Ultra-high-purity industrial and electronic gases (nitrogen, oxygen, argon, and 
 | **Node Capability** | Not applicable — a materials/gas supplier, not a process-node-specific tool |
 | **Founded** | Unknown |
 | **HQ** | Shanghai |
+| **Capacity** | 110,000 Nm3/h gaseous nitrogen (combined, 2017 China electronics plants), as of 2017 — combined capacity of the 2017 investment batch only; not Linde's total China electronics capacity |
 | **Entity List** | No |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2009**: UHP nitrogen/oxygen plant + H2 generator for new 300mm fab in Dalian (ops early 2009)
+- **2017**: Multiple on-site N2 plants for China electronics fabs, >110,000 Nm3/h combined, on stream end-2017
+- **2020**: Air separation plant + on-site N2/CDA started up in Shanghai to supply HLMC (Hua Hong)
+- **2020**: First of two UHP N2 generators started in Shanghai Lingang for GTA Semiconductor (20-yr deal)
+
+## Manufacturing Sites in China
+
+- **Linde LienHwa on-site N2 plant for GTA Semiconductor** (Shanghai (Lingang Industrial Zone)) — UHP nitrogen generators (2nd unit due 2022); supplies N2, O2, Ar, CO2, CDA to GTA's fab
+- **Linde air separation plant for HLMC** (Shanghai) — ASU supplying N2, high-purity O2, Ar; on-site N2 generators and CDA
+- **Linde UHP N2/O2 plant for Dalian 300mm fab** (Dalian) — Integrated UHP nitrogen and oxygen plant, hydrogen generator, Ar/He supply (customer unnamed)
 
 ## Sources
 
 - [Linde Starts Up New Plant in China to Supply GTA Semiconductor](https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-gta-semiconductor) (28 Sep 2026)
 - [Linde Starts Up New Plant in China to Supply Shanghai Huali Microelectronics](https://www.linde.com/news-and-media/2020/linde-starts-up-new-plant-in-china-to-supply-shanghai-huali-microelectronics) (28 Sep 2026)
 - [Linde invests over EUR 110 million in China to strengthen position as supplier of choice for electronics manufacturers](https://www.prnewswire.com/news-releases/linde-invests-over-eur-110-million-in-china-to-strengthen-position-as-supplier-of-choice-for-electronics-manufacturers-300422247.html) (28 Sep 2026)
+- [Linde expands China semiconductor business](https://siliconsemiconductor.net/article/70279/Linde_expands_China_semiconductor_business) (15 Jan 2008)
 
 ---
 

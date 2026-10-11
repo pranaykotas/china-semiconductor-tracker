@@ -32,7 +32,7 @@ The clearest example in this tracker of a foreign advanced-foundry leader operat
 | **Investment** | Not disclosed |
 | **Funding Source** | Foreign |
 | **Location** | Nanjing, Jiangsu |
-| **Current Node** | Not yet researched |
+| **Current Node** | 28nm (new capacity opening from 2H 2022) |
 | **Entity List** | No |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Jan 2026) |
@@ -43,7 +43,8 @@ The clearest example in this tracker of a foreign advanced-foundry leader operat
 
 ## Technology Node Trajectory
 
-*Node history not yet researched.*
+- **2018**: 16nm FinFET (Fab 16 opening/mass-production ceremony 31 Oct 2018)
+- **2022**: 28nm (new capacity opening from 2H 2022)
 
 ## Project Timeline
 
@@ -53,6 +54,8 @@ The clearest example in this tracker of a foreign advanced-foundry leader operat
 
 - [U.S. grants TSMC annual licence to import U.S. chipmaking tools into China (CNBC)](https://www.cnbc.com/2026/01/01/us-grants-tsmc-licence-to-import-us-chipmaking-tools-into-china.html) (01 Jan 2026)
 - [US grants TSMC annual licence to import American chipmaking tools into China (SCMP)](https://www.scmp.com/tech/big-tech/article/3338380/us-grants-tsmc-annual-licence-import-american-chipmaking-tools-china) (01 Jan 2026)
+- [台积电南京12吋晶圆厂量产，2020年月产能达2万片](https://www.chinaflashmarket.com/a/163771) (01 Nov 2018)
+- [台积电回应"南京厂扩产暂停"传闻：按计划进行](https://www.ithome.com/0/662/580.htm) (21 Dec 2022)
 
 ---
 

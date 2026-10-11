@@ -28,11 +28,11 @@ September 2025: SMIC announced it would buy out NORIC's remaining 49% (¥40.601 
 | **Category** | JV |
 | **Capability** | 12-inch (300mm) mature-node foundry — two 35,000 wafers/month lines (L1: 40/28nm; L2: 28nm HKMG), 65–28nm logic/RF/eNVM/CIS; reached 75,000 wafers/month full design capacity in 2022 |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | 75,000 wafers/month (300mm), as of 2026-05 — NORIC (中芯北方) only, installed; design target reached 2022. Excludes B1 (中芯北京): 42,000/mo end-2018 (94,500 8-inch-eq ÷ 2.25, FY2018 20-F) |
 | **Investment** | $3,590M |
 | **Funding Source** | Big Fund I |
 | **Location** | Beijing, Beijing Municipality |
-| **Current Node** | Not yet researched |
+| **Current Node** | 28nm (NORIC/中芯北方 B2 300mm; mass production Q4 2015) |
 | **Entity List** | Yes — US Commerce BIS (18 Dec 2020) |
 | **Equipment Origin** | Not yet assessed |
 | **Last Verified** | Not recorded (newest source dated Jun 2026) |
@@ -43,7 +43,10 @@ September 2025: SMIC announced it would buy out NORIC's remaining 49% (¥40.601 
 
 ## Technology Node Trajectory
 
-*Node history not yet researched.*
+- **2005**: 90nm (B1/中芯北京 300mm; 0.15–0.09µm range, commercial prod. Mar 2005)
+- **2009**: 65nm (B1/中芯北京 300mm)
+- **2012**: 55nm (B1/中芯北京 300mm, most advanced in volume production)
+- **2015**: 28nm (NORIC/中芯北方 B2 300mm; mass production Q4 2015)
 
 ## Project Timeline
 
@@ -57,6 +60,11 @@ September 2025: SMIC announced it would buy out NORIC's remaining 49% (¥40.601 
 - [406亿吞下中芯北方：SMIC北京三厂版图（北京/北方/京城） (每日经济新闻)](https://www.nbd.com.cn/articles/2025-09-08/4053282.html) (08 Sep 2025)
 - [科创板最大并购过会：中芯国际406亿元收购中芯北方49%股权 (21世纪经济报道)](https://news.qq.com/rain/a/20260511A07YLO00) (11 May 2026)
 - [中芯国际：完成收购中芯北方少数股权 通函 (HKEXnews)](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0624/2026062401102_c.pdf) (24 Jun 2026)
+- [SMIC Form 20-F for fiscal year 2005](https://www.sec.gov/Archives/edgar/data/1267482/000119312506138713/d20f.htm) (29 Jun 2006)
+- [SMIC Form 20-F for fiscal year 2009](https://www.sec.gov/Archives/edgar/data/1267482/000135994810000026/smic_20f.htm) (29 Jun 2010)
+- [SMIC Form 20-F for fiscal year 2012](https://www.sec.gov/Archives/edgar/data/1267482/000110465913029353/a13-10017_120f.htm) (15 Apr 2013)
+- [SMIC Form 20-F for fiscal year 2018 (fab table and per-fab capacity 2016–2018)](https://www.sec.gov/Archives/edgar/data/1267482/000155837019003539/smi-20181231x20f.htm) (30 Apr 2019)
+- [406亿整合敲定：中芯国际收编“现金奶牛” 核心资产全盘纳入 (证券时报/21世纪经济报道)](https://www.stcn.com/article/detail/3906248.html) (13 May 2026)
 
 ---
 

@@ -52,7 +52,7 @@ date: last-modified
 {complexity_bar}
 **{complexity_score}/5**
 
-## Technology Node Trajectory
+## {trajectory_heading}
 
 {node_trajectory_section}
 
@@ -80,7 +80,9 @@ for (i in 1:nrow(facilities)) {
   }
 
   investment_text <- format_investment(f$investment_rmb100m, f$investment_usd_m)
-  current_node_text <- if (!is.na(f$current_node)) f$current_node else "Not yet researched"
+  current_node_text <- if (f$type == "Assembly & Packaging") {
+    "Not applicable (assembly & test)"
+  } else if (!is.na(f$current_node)) f$current_node else "Not yet researched"
   entity_list_text <- if (isTRUE(f$entity_list_flagged)) {
     paste0("Yes — ", f$entity_list_name, " (", format(f$entity_list_date, "%d %b %Y"), ")")
   } else {
@@ -102,13 +104,7 @@ for (i in 1:nrow(facilities)) {
     "| **Equipment Origin** | Not yet assessed |\n"
   }
 
-  capacity_text <- if (!is.na(f$capacity_wpm)) {
-    size <- if (!is.na(f$capacity_wafer_size)) paste0(" (", f$capacity_wafer_size, ")") else ""
-    note <- if (!is.na(f$capacity_source)) paste0(" — ", f$capacity_source) else ""
-    paste0(format(f$capacity_wpm, big.mark = ","), " wafers/month", size, note)
-  } else {
-    "Not yet recorded"
-  }
+  capacity_text <- format_capacity(this_fac$capacity)
 
   # Freshness: an explicit last_verified date wins; otherwise show the date
   # of the newest cited source, labelled as such so it is not mistaken for a
@@ -121,11 +117,14 @@ for (i in 1:nrow(facilities)) {
     "Not recorded"
   }
 
-  if (!is.null(this_fac$node_trajectory) && length(this_fac$node_trajectory) > 0) {
-    traj_lines <- sapply(this_fac$node_trajectory, function(t) paste0("- **", t$year, "**: ", t$node))
-    node_trajectory_section <- paste(traj_lines, collapse = "\n")
+  # OSAT sites have no process node; their equivalent is the sequence of
+  # packaging technologies brought into production.
+  if (f$type == "Assembly & Packaging") {
+    trajectory_heading <- "Packaging Technology Trajectory"
+    node_trajectory_section <- trajectory_md(this_fac$packaging_trajectory, "technology", "*Packaging technology history not yet researched.*")
   } else {
-    node_trajectory_section <- "*Node history not yet researched.*"
+    trajectory_heading <- "Technology Node Trajectory"
+    node_trajectory_section <- trajectory_md(this_fac$node_trajectory, "node", "*Node history not yet researched.*")
   }
 
   if (!is.null(this_fac$milestones) && length(this_fac$milestones) > 0) {
@@ -165,7 +164,7 @@ for (i in 1:nrow(facilities)) {
     capacity_text = capacity_text, last_verified_text = last_verified_text,
     complexity_bar = complexity_bar_html(f$complexity_score), complexity_score = f$complexity_score,
     significance = significance, what_it_makes = what_it_makes, why_it_matters = why_it_matters,
-    node_trajectory_section = node_trajectory_section,
+    node_trajectory_section = node_trajectory_section, trajectory_heading = trajectory_heading,
     milestones_section = milestones_section, source_links = source_links
   )
 

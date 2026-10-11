@@ -24,13 +24,32 @@ Etch systems, deposition tools (CVD and PVD), thermal processing equipment, and 
 | **Node Capability** | Advanced-node etch/deposition tools in volume use at SMIC and other mature-node fabs; not confirmed at leading-edge (sub-14nm) nodes |
 | **Founded** | 2001 |
 | **HQ** | Beijing |
+| **Capacity** | Planned: 500 IC equipment units/year (planned, Majuqiao phase IV), as of 2021 — planned design capacity of 2021 fundraising project, not confirmed installed output; plus 500 emerging-semi, 300 LED, 700 PV tools/year |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2019**: 12-inch tools qualified 90-28nm; 28nm+ in volume; 14nm tools at customer for qualification
+- **2019**: 28nm-and-above IC tools in mass production; key 14nm tools in validation
+- **2022**: Oxidation furnace, etch, cleaning tools validated at SMIC for 90/55/40/28nm
+- **2025**: Vertical furnace and PVD each pass 1,000 units delivered; ion implant and ECP tools launched
+
+## Manufacturing Sites in China
+
+- **NAURA Majuqiao Intelligent Manufacturing Base (phase IV expansion)** (Beijing (Beijing Economic-Technological Development Area, Majuqiao)) — IC equipment (etch, deposition, vertical furnace, cleaning, anneal, epi), plus LED/PV tools; 365,000 m2 new floor area, RMB 3.82bn investment
+- **NAURA existing industrial base, Beijing E-Town (Yizhuang)** (Beijing (Beijing Economic-Technological Development Area)) — Sub-28nm IC equipment industrialisation; planned 30 etch, 30 PVD, 15 anneal, 30 ALD, 30 furnace, 30 cleaning tools/year (2019 project)
+- **Mafang precision electronic components base** (Beijing (Pinggu District, Mafang)) — High-precision electronic components (not semiconductor equipment)
 
 ## Sources
 
 - [Naura Technology (Wikipedia)](https://en.wikipedia.org/wiki/Naura_Technology) (28 Sep 2026)
 - [US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers](https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/) (03 Dec 2024)
 - [北方华创2026年上半年营收201.61亿元，归母净利润33.70亿元 (Sohu)](https://www.sohu.com/a/1068756715_114984) (28 Sep 2026)
+- [北方华创 非公开发行A股股票募集资金使用的可行性分析报告（修订稿）](https://disc.static.szse.cn/disc/disk02/finalpage/2019-07-06/6d7b8829-3f4e-4f2a-8587-fc07f620ec19.PDF) (06 Jul 2019)
+- [北方华创 非公开发行股票募集资金使用可行性分析报告](https://disc.static.szse.cn/disc/disk02/finalpage/2021-04-22/9da9c849-2973-46e8-a2a1-74e021fd40cd.PDF) (22 Apr 2021)
+- [不止晶圆代工，中芯国际捧出 10 个 IPO (IT之家/芯东西)](https://www.ithome.com/0/625/385.htm) (20 Jun 2022)
+- [北方华创(002371)2025年报及2026年一季报点评：收入保持稳健增长 平台型龙头持续完善产品矩阵](https://m.gelonghui.com/news/5228431) (06 May 2026)
 
 ---
 

@@ -6,7 +6,7 @@ date: last-modified
 
 ::: {.callout-tip}
 ## Why This Matters
-Tracked separately from `huahong-wuxi-fab9` (Fab9/Phase II, now operational) because this third phase is a distinct, separately-announced $2.127 billion investment with construction having started in March 2026 — Hua Hong's expansion in Wuxi is an open-ended, multi-phase programme rather than a single project.
+Tracked separately from `huahong-wuxi-fab9` (Fab9/Phase II, now operational) because this third phase (Fab 9B) is a distinct, separately-announced US$6.95 billion investment (of which Hua Hong group's share is about $2.127 billion) with construction having started in March 2026 — Hua Hong's expansion in Wuxi is an open-ended, multi-phase programme rather than a single project.
 :::
 
 **Chinese name:** 华虹无锡三期 (Huáhóng Wúxī Sānqī)
@@ -28,8 +28,8 @@ Alongside Nexchip Phase 4 and SMIC Lingang Phase 2, this is one of several concu
 | **Category** | State-Backed |
 | **Capability** | 12-inch (300mm) wafer foundry — third Wuxi phase |
 | **Status** | Under Construction |
-| **Capacity** | Not yet recorded |
-| **Investment** | $2,127M |
+| **Capacity** | Planned: 55,000 wafers/month (300mm), as of 2027-12 — planned; line to be built and in production by Dec 2027 (company target) |
+| **Investment** | $6,950M |
 | **Funding Source** | Local Govt |
 | **Location** | Wuxi, Jiangsu |
 | **Current Node** | Not yet researched |
@@ -48,11 +48,13 @@ Alongside Nexchip Phase 4 and SMIC Lingang Phase 2, this is one of several concu
 ## Project Timeline
 
 - **Mar 2026** — Construction begins on a third Wuxi phase
-- **Sep 2026** — Hua Hong Semiconductor formally announces the $2.127 billion Wuxi Phase 3 investment
+- **Sep 2026** — Hua Hong Semiconductor formally announces the Wuxi Phase 3 joint venture: US$6.95 billion total (US$4.17B equity, US$2.78B debt), group share about US$2.127 billion, 55,000 wafers/month
 
 ## Sources
 
 - [华虹宏力21亿美元增资无锡三期：月产5.5万片12英寸产线落地 (国际电子商情)](https://www.esmchina.com/news/14554.html) (01 Sep 2026)
+- [华虹宏力：有关合营投资协议及合营股东协议的须予披露交易 (HKEX announcement)](https://static.cninfo.com.cn/finalpage/2026-09-01/1225542762.PDF) (01 Sep 2026)
+- [华虹宏力：(1)建议变更人民币股份发行所得款项用途；(2)建议对外投资无锡市合营企业III；及(3)股东特别大会通告 (HKEX circular)](https://static.cninfo.com.cn/finalpage/2026-09-04/1225548867.PDF) (04 Sep 2026)
 
 ---
 

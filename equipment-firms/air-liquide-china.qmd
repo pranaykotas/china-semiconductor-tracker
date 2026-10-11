@@ -24,11 +24,27 @@ Ultra-high-purity carrier gases, electronic specialty gases, and chemical liquid
 | **Node Capability** | Not applicable — a materials/gas supplier, not a process-node-specific tool |
 | **Founded** | Unknown |
 | **HQ** | Shanghai |
+| **Capacity** | 52,000 Nm3/h nitrogen (Wuhan plant), as of 2022 — single-plant capacity, planned start 2022; group China electronics total not disclosed |
 | **Entity List** | No |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2014**: On-site UHP nitrogen generator for SMIC Beijing Fab B2 (300mm, 28nm), EUR 18m, start early 2014
+- **2022**: Wuhan plant, 52,000 Nm3/h N2 plus O2/Ar, for a flash memory leader; EUR ~70m
+- **2027**: Four UHP N2 units for electronics customers in YRD/PRD, >100,000 Nm3/h, start late 2027-early 2028
+
+## Manufacturing Sites in China
+
+- **Air Liquide on-site N2 generator, SMIC Beijing Fab B2** (Beijing) — Ultra-high-purity nitrogen and bulk carrier gases for SMIC's 300mm 28nm fab
+- **Air Liquide Wuhan electronics gas plant** (Wuhan) — 52,000 Nm3/h nitrogen plus oxygen and argon for a flash-memory maker (unnamed; YMTC is the Wuhan flash maker but not named)
 
 ## Sources
 
 - [液化空气集团 在中国 (Air Liquide China corporate overview)](https://www.airliquide.com/sites/airliquide.com/files/2018/03/02/ye_hua_kong_qi_ji_tuan_zai_zhong_guo_.pdf) (28 Sep 2026)
+- [Air Liquide signs a major ultra-pure carrier gases contract in China](https://www.airliquide.com/group/press-releases-news/2013-12-05/air-liquide-signs-major-ultra-pure-carrier-gases-contract-china) (05 Dec 2013)
+- [Air Liquide announces new investment to reinforce its position in the electronics hub of Wuhan, China](https://cn.airliquide.com/en/air-liquide-announces-new-investment-reinforce-its-position-electronics-hub-wuhan-china) (28 Jun 2021)
+- [Air Liquide strengthens footprint in China's key semiconductor basins with major investments](https://cn.airliquide.com/en/air-liquide-strengthens-footprint-chinas-key-semiconductor-basins-major-investments) (02 Jul 2026)
 
 ---
 

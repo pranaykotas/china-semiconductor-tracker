@@ -24,13 +24,30 @@ Wafer cleaning systems, electrochemical plating (ECP) tools, PECVD deposition, f
 | **Node Capability** | Not disclosed at a specific node; tools sold across mature and advanced-node fab lines |
 | **Founded** | 2005 |
 | **HQ** | Shanghai |
+| **Capacity** | Planned: 3,000 USD million annual output capacity (Lingang, two buildings at full build), as of 2026-02 — company-stated maximum output value supported by both Lingang buildings; only building A in use |
 | **Entity List** | Yes — US Commerce BIS |
+| **Last Verified** | Not recorded (newest source dated Sep 2026) |
+
+## Capability Trajectory
+
+- **2011**: First 12-inch single-wafer (SAPS megasonic) cleaning tool wins volume order from SK hynix
+- **2019**: First Ultra-C Tahoe cleaning tool delivered for evaluation; Ultra ECP MAP front-end Cu plating launched
+- **2025**: 300 WPH KrF track delivered for evaluation (Sept 2025); PECVD/furnace (LPCVD, ALD) ramping
+
+## Manufacturing Sites in China
+
+- **ACM Shanghai Lingang R&D and Manufacturing Center** (Shanghai (Lingang New Area)) — Primary production centre for cleaning, ECP, furnace, PECVD, track tools; 138,000 m2 total, 40,000 m2 factory (bldg A in use, B reserved); opened Oct 2024
+- **ACM Shanghai Chuansha factory** (Shanghai (Chuansha, Pudong)) — Former main production site; main capacity being moved to Lingang by mid-2025
 
 ## Sources
 
 - [ACM Research (Wikipedia)](https://en.wikipedia.org/wiki/ACM_Research) (28 Sep 2026)
 - [US adds 140 Chinese semiconductor firms to Entity List, targeting key equipment makers](https://technode.com/2024/12/03/us-adds-140-chinese-semiconductor-firms-to-entity-list-targeting-key-equipment-makers/) (03 Dec 2024)
 - [盛美半导体设备（上海）股份有限公司2025年年度报告 (Shanghai Stock Exchange annual report filing)](http://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-02-27/688082_20260227_7FPP.pdf) (27 Feb 2026)
+- [盛美上海总经理王坚：以差异化创新铸就'芯'高度 (中国证券报)](https://cs.com.cn/ssgs/gsxw/202507/t20250722_6502969.html) (22 Jul 2025)
+- [ACM Research Reports First Quarter 2019 Results (EX-99.1)](https://www.sec.gov/Archives/edgar/data/1680062/000165495419005406/acmr_ex991.htm) (07 May 2019)
+- [ACM Research (ACMR) Q4 2025 Earnings Call Transcript](https://www.fool.com/earnings/call-transcripts/2026/02/27/acm-research-acmr-q4-2025-earnings-transcript/) (27 Feb 2026)
+- [盛美上海：预计今年营收至高71亿元 关税影响"整体可控"|直击业绩会 (财联社)](https://www.cls.cn/detail/2000191) (10 Apr 2025)
 
 ---
 

@@ -28,7 +28,7 @@ Extends SMIC's mature-node capacity — the segment least affected by advanced-l
 | **Category** | State-Backed |
 | **Capability** | 12-inch (300mm) wafer foundry, 0.18 micron to 28nm |
 | **Status** | Operational |
-| **Capacity** | Not yet recorded |
+| **Capacity** | Planned: 100,000 wafers/month (300mm), as of 2022-08 — planned per framework agreement (28–180nm); not installed |
 | **Investment** | $7,500M |
 | **Funding Source** | Local Govt |
 | **Location** | Tianjin, Tianjin Municipality |
@@ -58,6 +58,7 @@ Extends SMIC's mature-node capacity — the segment least affected by advanced-l
 - [China's biggest chip maker SMIC pushes ahead with construction of new Tianjin plant despite Covid-19 lockdowns](https://www.scmp.com/tech/big-tech/article/3194135/chinas-biggest-chip-maker-smic-pushes-ahead-construction-new-tianjin) (01 Sep 2022)
 - [中芯国际75亿美元项目落地，解读背后的西青'芯'速度 (EEFocus)](https://www.eefocus.com/article/525303.html) (28 Sep 2026)
 - [国内四条12英寸晶圆生产线投产！ (Sina Finance)](https://finance.sina.com.cn/roll/2025-01-06/doc-inecztfx8865924.shtml) (06 Jan 2025)
+- [中芯国际关于签订合作框架协议的公告 (天津西青)](https://static.cninfo.com.cn/finalpage/2022-08-27/1214426555.PDF) (27 Aug 2022)
 
 ---
 
