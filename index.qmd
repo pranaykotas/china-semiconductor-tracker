@@ -51,7 +51,7 @@ cancelled <- facilities %>% filter(status == "Cancelled")
 # on-page disclaimer here by request; the clipping itself still applies.
 boundaries <- load_boundaries()
 
-popup_opts <- popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
+popup_opts <- popupOptions(maxWidth = 320, minWidth = 220, maxHeight = 400, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
 label_opts <- labelOptions(style = list("font-size" = "12px", "padding" = "6px 10px"), direction = "auto")
 
 leaflet(options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%

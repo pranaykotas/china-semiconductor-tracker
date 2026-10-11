@@ -22,8 +22,13 @@ The machines that deposit, etch, and pattern silicon, and the wafers and chemica
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 firms$colour <- unname(sapply(firms$segment, segment_color))
+firms$primary_segment <- trimws(sapply(strsplit(firms$segment, ",", fixed = TRUE), `[`, 1))
 popups <- vapply(1:nrow(firms), function(i) make_materials_popup(firms[i, ]), character(1))
 boundaries <- load_boundaries()
+
+segment_order <- c("Lithography", "Etch", "Deposition", "CMP", "Photoresist", "Specialty Gas", "Wafers", "Cleaning")
+legend_segments <- c(segment_order[segment_order %in% unique(firms$primary_segment)],
+                     setdiff(unique(firms$primary_segment), segment_order))
 
 leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
   addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
@@ -33,7 +38,13 @@ leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
     lng = ~lon, lat = ~lat, radius = 8,
     color = "#ffffff", fillColor = ~colour, fillOpacity = 0.85, stroke = TRUE, weight = 1.5,
     popup = popups,
-    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
+    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, maxHeight = 360, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    colors = unname(sapply(legend_segments, segment_color)),
+    labels = legend_segments,
+    title = "Primary Segment"
   )
 ```
 

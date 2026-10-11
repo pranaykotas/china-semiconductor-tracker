@@ -12,6 +12,15 @@ library(sf)
 library(rnaturalearth)
 
 firms <- load_design_firms("data/design.yml")
+
+# Legend is derived from the data, not hardcoded: every category present gets
+# a swatch, canonical order first, any unexpected extras appended so the
+# legend can never silently drift from the markers.
+design_categories_canonical <- c("Fabless", "State-Backed Design House", "EDA & IP Provider")
+design_categories_present <- c(
+  design_categories_canonical[design_categories_canonical %in% unique(firms$category)],
+  setdiff(unique(firms$category), design_categories_canonical)
+)
 ```
 
 ## Overview
@@ -33,7 +42,13 @@ leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
     lng = ~lon, lat = ~lat, radius = 8,
     color = "#ffffff", fillColor = ~colour, fillOpacity = 0.85, stroke = TRUE, weight = 1.5,
     popup = popups,
-    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
+    popupOptions = popupOptions(maxWidth = 320, minWidth = 220, maxHeight = 360, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    colors = unname(sapply(design_categories_present, design_category_color)),
+    labels = design_categories_present,
+    title = "Firm Category"
   )
 ```
 

@@ -307,9 +307,24 @@ zh_name_line <- function(name_zh, name_pinyin) {
 }
 
 # ---- Build leaflet popup HTML ----
+# Popups are an overview, not the full story: long prose fields are clipped
+# at a word boundary so the popup fits the viewport (paired with maxHeight in
+# popupOptions); the "Full Profile" link carries the reader to everything.
+truncate_text <- function(s, max_chars = 260) {
+  if (is.na(s) || nchar(s) <= max_chars) return(s)
+  cut_at <- if (grepl("[.!?] ", substr(s, 1, max_chars))) {
+    m <- gregexpr("[.!?] ", substr(s, 1, max_chars))[[1]]
+    if (length(m) > 0) max(m) + 1 else max_chars
+  } else {
+    w <- gregexpr("\\s", substr(s, 1, max_chars))[[1]]
+    if (length(w) > 0) max(w) - 1 else max_chars
+  }
+  paste0(substr(s, 1, cut_at), " …")
+}
+
 make_popup <- function(row) {
   sig_html <- if (nchar(row$significance) > 0) {
-    glue('<div class="popup-significance">{row$significance}</div>')
+    glue('<div class="popup-significance">{truncate_text(row$significance, 280)}</div>')
   } else ""
 
   node_html <- if (!is.na(row$current_node)) {
@@ -412,8 +427,8 @@ make_design_popup <- function(row) {
       <h4>{row$name_en}</h4>
       {zh_name_line(row$name_zh, row$name_pinyin)}
       <div class="popup-row">{design_category_badge(row$category)}</div>
-      <div class="popup-row"><span class="popup-label">Focus:</span> {row$product_focus}</div>
-      <div class="popup-row"><span class="popup-label">Node:</span> {row$node_sophistication}</div>
+      <div class="popup-row"><span class="popup-label">Focus:</span> {truncate_text(row$product_focus, 160)}</div>
+      <div class="popup-row"><span class="popup-label">Node:</span> {truncate_text(row$node_sophistication, 200)}</div>
       <div class="popup-row">{entity_list_badge_html(row$entity_list_flagged, row$entity_list_date, row$entity_list_name)}</div>
       <div class="popup-row" style="margin-top:6px;"><a href="design-firms/{row$id}.html" class="btn-detail">Full Profile →</a></div>
     </div>
@@ -453,7 +468,11 @@ load_materials_firms <- function(path = "data/materials.yml") {
 }
 
 segment_color <- function(segment) {
-  switch(segment,
+  # Firms often span several process families ("Etch, Deposition, CMP");
+  # colour markers by the primary (first-listed) segment so multi-segment
+  # firms don't fall through to the grey default.
+  primary <- trimws(strsplit(segment, ",", fixed = TRUE)[[1]][1])
+  switch(primary,
     "Lithography"     = "#620d3c",
     "Etch"            = "#1565C0",
     "Deposition"      = "#2f6b4a",
@@ -461,6 +480,7 @@ segment_color <- function(segment) {
     "Photoresist"     = "#f1a222",
     "Specialty Gas"   = "#00796B",
     "Wafers"          = "#455A64",
+    "Cleaning"        = "#8D6E63",
     "#8C8480"
   )
 }
@@ -476,7 +496,7 @@ make_materials_popup <- function(row) {
       {zh_name_line(row$name_zh, row$name_pinyin)}
       <div class="popup-row">{segment_badge_html(row$segment)}</div>
       <div class="popup-row"><span class="popup-label">Category:</span> {row$category}</div>
-      <div class="popup-row"><span class="popup-label">Node capability:</span> {row$node_capability}</div>
+      <div class="popup-row"><span class="popup-label">Node capability:</span> {truncate_text(row$node_capability, 180)}</div>
       <div class="popup-row">{entity_list_badge_html(row$entity_list_flagged, row$entity_list_date, row$entity_list_name)}</div>
       <div class="popup-row" style="margin-top:6px;"><a href="equipment-firms/{row$id}.html" class="btn-detail">Full Profile →</a></div>
     </div>
