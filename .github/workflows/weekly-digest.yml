@@ -4,35 +4,55 @@ name: Weekly semiconductor digest
 
 on:
   schedule:
-    # Every Monday at 07:30 UTC = 13:00 IST
+    # Mondays at 07:30 UTC = 13:00 IST; the cadence step below lets the
+    # digest actually run only every other Monday (even ISO weeks), so the
+    # effective frequency is fortnightly without a fragile cron trick.
     # Runs after the weekly site rebuild (06:00 UTC) so the YAML on main is always fresh
     - cron: '30 7 * * 1'
-  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch: # Manual trigger — always runs, ignores the cadence gate
 
 jobs:
   digest:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Cadence gate (fortnightly on even ISO weeks)
+        id: cadence
+        run: |
+          week=$(date +%V)
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || [ $((10#$week % 2)) -eq 0 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "ISO week $week (even) — running the digest."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "ISO week $week (odd) — off-week, skipping. Next run: following Monday."
+          fi
 
-      - uses: actions/setup-python@v5
+      - if: steps.cadence.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - if: steps.cadence.outputs.run == 'true'
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
+      - if: steps.cadence.outputs.run == 'true'
+        name: Install dependencies
         run: pip install anthropic pyyaml requests markdown
 
-      - name: Generate digest
+      - if: steps.cadence.outputs.run == 'true'
+        name: Generate digest
         run: python scripts/weekly_digest.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: Extract subject line
+      - if: steps.cadence.outputs.run == 'true'
+        name: Extract subject line
         id: subject
-        run: echo "subject=$(head -1 data/digest.txt)" >> $GITHUB_OUTPUT
+        run: echo "subject=$(head -1 data/digest.txt)" >> "$GITHUB_OUTPUT"
 
-      - name: Send email
+      - if: steps.cadence.outputs.run == 'true'
+        name: Send email
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}

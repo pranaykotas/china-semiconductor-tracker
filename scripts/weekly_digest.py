@@ -107,18 +107,27 @@ QUERIES = [
 ZH_SUFFIXES = [
     "股份有限公司", "有限责任公司", "有限公司", "集成电路制造", "集成电路",
     "半导体制造", "半导体技术", "半导体科技", "半导体", "微电子", "科技", "技术",
-    "电子", "制造",
+    "电子", "制造", "集团",
 ]
 
 
 # Place-name prefixes on legal names ("江苏长电" -> "长电")
 ZH_PLACE_PREFIXES = [
     "福建省", "厦门市", "深圳市", "江苏", "天水", "杭州", "北京", "安徽",
-    "陕西", "上海", "重庆", "武汉", "深圳", "厦门",
+    "陕西", "上海", "重庆", "武汉", "深圳", "厦门", "福州", "珠海市", "珠海",
+    "南京", "长沙", "苏州",
 ]
 
 # Legal names that differ from the short-form the press actually uses
-ZH_ALIASES = {"台湾积体电路": "台积电", "联华": "联电", "电子芯业时代": "芯业时代"}
+ZH_ALIASES = {
+    "台湾积体电路": "台积电", "联华": "联电", "电子芯业时代": "芯业时代",
+    "壁仞智能": "壁仞科技", "摩尔线程智能": "摩尔线程",
+    "地平线机器人技术研发": "地平线机器人",
+    "瑞芯": "瑞芯微", "景嘉": "景嘉微", "卓胜": "卓胜微", "纳芯": "纳芯微",
+    "复旦": "复旦微", "安路信息": "安路科技", "紫光国芯": "紫光国微",
+    "飞腾信息": "飞腾", "国民": "国民技术", "乐鑫信息": "乐鑫",
+    "思瑞浦微": "思瑞浦",
+}
 
 
 def short_zh_name(name: str) -> str:
@@ -126,7 +135,7 @@ def short_zh_name(name: str) -> str:
     name = name.split("；")[0]
     name = re.sub(r"[（(].*?[）)]", "", name)  # drop (城市) / (华虹五厂) etc.
     for _ in range(3):  # suffixes can stack: 集成电路 + 股份有限公司
-        for suffix in ZH_SUFFIXES:
+        for suffix in sorted(ZH_SUFFIXES, key=len, reverse=True):
             if name.endswith(suffix) and len(name) > len(suffix) + 1:
                 name = name[: -len(suffix)]
     for prefix in ZH_PLACE_PREFIXES:
@@ -155,6 +164,27 @@ def build_auto_queries(facilities: list[dict], curated: list[tuple[str, str]]) -
             continue
         seen.add(short)
         auto.append((f"{short} 晶圆 OR 产线 OR 投产 OR 扩产", "zh"))
+    return auto
+
+
+def build_design_queries(firms: list[dict], curated: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """
+    One query per tracked design firm, so a firm added to data/design.yml is
+    swept from the next run onward. Skips names already named in curated
+    queries. Legal suffixes are stripped to the headline short name
+    (海思技术有限公司 -> 海思, 兆易创新科技集团股份有限公司 -> 兆易创新).
+    """
+    curated_text = " ".join(q for q, _ in curated)
+    seen, auto = set(), []
+    for f in firms:
+        name_zh = f.get("name_zh")
+        if not name_zh:
+            continue
+        short = short_zh_name(name_zh)
+        if len(short) < 2 or short in seen or short[:4] in curated_text:
+            continue
+        seen.add(short)
+        auto.append((f"{short} 芯片 OR 财报 OR 上市 OR 发布 OR 流片", "zh"))
     return auto
 
 
@@ -195,7 +225,11 @@ Kotasthane, Takshashila Institution).
 
 {designations_summary}
 
-## Search results from the past week
+## Tracked design firms (data/design.yml)
+
+{design_names}
+
+## Search results from the past fortnight
 
 {search_results}
 
@@ -249,6 +283,17 @@ Only if a search result reports a NEW Entity List or 1260H designation (or a
 removal) for a firm listed under "Current US designations" above, or for an
 untracked Chinese chip firm. Cite the Federal Register or BIS/DoD source if
 the results include it. Write "None this week." if there are none.
+
+### Design firm updates
+
+For firms in the tracked design list: earnings (季报/年报/中报), IPO or
+listing progress (受理/过会/注册/上市, HK A+H), placement/acquisition closing,
+first shipments of new chips, funding rounds. 1-2 sentences per firm with
+source URL + date, plus a suggested YAML edit against data/design.yml using
+its fields: narrative.significance, what_it_designs, node_sophistication,
+design_scope, entity_list.{{status,date_added,list}}, sources[].{{url,
+title,date}}. Skip routine stock-price moves with no underlying news. Do NOT
+list design firms with no news — silence is fine here (unlike facilities).
 
 ### Confirmed: no news
 
@@ -458,10 +503,10 @@ def fetch_article_info(url: str) -> tuple[str, datetime | None]:
 def fetch_snippets(queries: list[tuple[str, str]], max_results: int = 3) -> str:
     """
     Fetch news via Google News RSS (free, no API key). Mixed Chinese (zh-CN)
-    and English (en-US) editions per query locale. Only articles from the
-    past 7 days are returned.
+    and English (en-US) editions per query locale. The digest runs every two
+    weeks, so only articles from the past 15 days are returned.
     """
-    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=15)
     lines = []
 
     for query, locale in queries:
@@ -504,7 +549,7 @@ def fetch_snippets(queries: list[tuple[str, str]], max_results: int = 3) -> str:
                 found += 1
 
             if found == 0:
-                lines.append("  (no results in past 7 days)")
+                lines.append("  (no results in past 15 days)")
 
         except Exception as e:
             lines.append(f"  (search failed: {e})")
@@ -525,9 +570,14 @@ def to_html(subject: str, digest_md: str) -> str:
 
 def generate_digest(facilities_yaml: str, today: str) -> str:
     data = yaml.safe_load(facilities_yaml)
+    try:
+        design_firms = load_yaml("data/design.yml").get("design_firms", [])
+    except FileNotFoundError:
+        design_firms = []
     auto_queries = build_auto_queries(data.get("facilities", []), QUERIES)
-    queries = QUERIES + auto_queries
-    print(f"  Fetching search snippets via Google News RSS ({len(QUERIES)} curated + {len(auto_queries)} auto queries)...")
+    design_queries = build_design_queries(design_firms, QUERIES)
+    queries = QUERIES + auto_queries + design_queries
+    print(f"  Fetching search snippets via Google News RSS ({len(QUERIES)} curated + {len(auto_queries)} facility + {len(design_queries)} design queries)...")
     search_results = fetch_snippets(queries)
 
     facilities_summary = build_facilities_summary(facilities_yaml)
@@ -535,9 +585,16 @@ def generate_digest(facilities_yaml: str, today: str) -> str:
     facility_names = [f.get("name_en", "") for f in data.get("facilities", [])]
     names_list = "\n".join(f"- {name}" for name in facility_names)
 
+    design_lines = [
+        f"- {f.get('name_en')} ({short_zh_name(f.get('name_zh') or '')} / {f.get('name_zh') or ''}): "
+        f"{f.get('category')}, entity list: {(f.get('entity_list') or {}).get('status')}"
+        for f in design_firms
+    ]
+
     prompt = SYNTHESIS_PROMPT.format(
         facilities_summary=facilities_summary,
         facility_names=names_list,
+        design_names="\n".join(design_lines),
         search_results=search_results,
         designations_summary=build_designations_summary(),
         today=today,
@@ -576,7 +633,7 @@ def main():
         sys.exit(1)
 
     today = date.today().isoformat()
-    subject = f"[China Semi Tracker] Weekly digest — {today}"
+    subject = f"[China Semi Tracker] Biweekly digest — {today}"
 
     print(f"Generating weekly digest for {today}...")
     digest = generate_digest(facilities_yaml, today)
