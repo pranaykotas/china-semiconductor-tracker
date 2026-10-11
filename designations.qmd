@@ -47,23 +47,21 @@ record.
 table_data <- desig %>%
   mutate(
     Name = paste0('<a href="', page, '">', name, '</a>'),
-    Designation = paste0('<span class="status-badge ',
-      ifelse(designation == "DoD 1260H", "badge-construction",
-        ifelse(designation == "Entity List · FN4", "badge-cancelled", "badge-approved")),
-      '">', designation, '</span>'),
+    Designation = factor(designation, levels = c("Entity List (BIS)", "Entity List · FN4", "DoD 1260H")),
+    Kind = factor(kind),
     Added = format(date, "%d %b %Y"),
     Detail = gsub("US Commerce BIS", "BIS", gsub("US DoD ", "", list_raw))
   ) %>%
-  select(Name, Designation, Added, Kind = kind, Sector = sub, Location = place, Detail)
+  select(Name, Designation, Kind, Added, Sector = sub, Location = place, Detail)
 
 datatable(
   table_data,
   escape = FALSE,
-  filter = "top",
+  filter = list(position = "top", clear = TRUE),
   options = list(
     pageLength = 25, dom = "ftip", scrollX = TRUE,
-    order = list(list(2, "desc")),
-    columnDefs = list(list(className = "dt-right", targets = 2))
+    order = list(list(3, "desc")),
+    columnDefs = list(list(className = "dt-right", targets = 3))
   ),
   rownames = FALSE
 )

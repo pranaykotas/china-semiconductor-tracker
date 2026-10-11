@@ -56,15 +56,19 @@ leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
 ## All Design Firms
 
 ```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+# Category and Designation are plain factors so DT renders dropdown filters.
 table_data <- firms %>%
   mutate(
     Name = paste0('<a href="design-firms/', id, '.html">', name_en, '</a>'),
-    Category = sapply(category, design_category_badge),
+    Category = factor(category, levels = design_categories_present),
+    Designation = factor(
+      ifelse(entity_list_flagged, designation_label(entity_list_name), "No"),
+      levels = c("No", "Entity List (BIS)", "Entity List · FN4", "DoD 1260H")
+    ),
     "Design Score" = sapply(design_composite, design_score_bar_html),
-    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name),
     Location = paste0(city, ", ", province)
   ) %>%
-  select(Name, Category, Founded = founded, "Product Focus" = product_focus, "Design Score", Location, "Entity List")
+  select(Name, Category, Founded = founded, "Product Focus" = product_focus, "Design Score", Location, Designation)
 
-datatable(table_data, escape = FALSE, filter = "top", options = list(pageLength = 20, dom = "ftip", scrollX = TRUE), rownames = FALSE)
+datatable(table_data, escape = FALSE, filter = list(position = "top", clear = TRUE), options = list(pageLength = 20, dom = "ftip", scrollX = TRUE), rownames = FALSE)
 ```

@@ -23,12 +23,15 @@ social_description <- function(text, max_chars = 155) {
   gsub('["\u201c\u201d]', "", sentence)  # quotes would break the YAML meta string
 }
 
-# ---- Normalise a raw entity_list$list string to a short dashboard label ----
+# ---- Normalise raw entity_list$list strings to short dashboard labels ----
+# Vectorised: usable inside dplyr::mutate.
 designation_label <- function(list_raw) {
-  if (is.na(list_raw)) return("US designation")
-  if (grepl("1260H", list_raw, ignore.case = TRUE)) return("DoD 1260H")
-  if (grepl("Footnote 4", list_raw, ignore.case = TRUE)) return("Entity List · FN4")
-  "Entity List (BIS)"
+  dplyr::case_when(
+    is.na(list_raw) ~ "US designation",
+    grepl("1260H", list_raw, ignore.case = TRUE) ~ "DoD 1260H",
+    grepl("Footnote 4", list_raw, ignore.case = TRUE) ~ "Entity List · FN4",
+    TRUE ~ "Entity List (BIS)"
+  )
 }
 
 # ---- All US-designated entities across the three data files ----

@@ -55,10 +55,12 @@ leaflet(firms, options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
 table_data <- firms %>%
   mutate(
     Name = paste0('<a href="equipment-firms/', id, '.html">', name_en, '</a>'),
-    Segment = sapply(segment, segment_badge_html),
-    "Entity List" = mapply(entity_list_badge_html, entity_list_flagged, entity_list_date, entity_list_name)
+    Segment = factor(primary_segment),
+    CategoryF = factor(category),
+    Designation = factor(ifelse(entity_list_flagged, "Yes", "No"), levels = c("No", "Yes")),
+    Node = node_capability
   ) %>%
-  select(Name, Category = category, Segment, "Node Capability" = node_capability, "Entity List")
+  select(Name, Category = CategoryF, Segment, "Node Capability" = Node, Designation)
 
-datatable(table_data, escape = FALSE, filter = "top", options = list(pageLength = 15, dom = "ftip"), rownames = FALSE)
+datatable(table_data, escape = FALSE, filter = list(position = "top", clear = TRUE), options = list(pageLength = 15, dom = "ftip"), rownames = FALSE)
 ```

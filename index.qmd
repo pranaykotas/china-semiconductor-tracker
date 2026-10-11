@@ -149,21 +149,24 @@ leaflet(options = leafletOptions(minZoom = 3, maxZoom = 10)) %>%
 ## All Facilities
 
 ```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+# Type / Category / Status are plain factors so DT renders them as dropdown
+# filters; badge colours live on the map, where they are the legend.
 table_data <- facilities %>%
   mutate(
     Name = paste0('<a href="facilities/', id, '.html">', name_en, '</a>'),
-    Category = sapply(category, category_badge_html),
-    Status = mapply(status_badge_html, status, status_detail),
+    Category = factor(category, levels = sort(unique(category))),
+    Status = factor(status, levels = c("Operational", "Under Construction", "Approved", "Announced", "On Hold", "Cancelled")),
+    Type = factor(type, levels = sort(unique(type))),
     Complexity = sapply(complexity_score, complexity_bar_html),
     Investment = mapply(format_investment, investment_rmb100m, investment_usd_m, MoreArgs = list(short = TRUE)),
     Location = paste0(city, ", ", province)
   ) %>%
-  select(Name, Type = type, Category, Investment, Status, Complexity, Location)
+  select(Name, Type, Category, Investment, Status, Complexity, Location)
 
 datatable(
   table_data,
   escape = FALSE,
-  filter = "top",
+  filter = list(position = "top", clear = TRUE),
   options = list(pageLength = 15, dom = "ftip", scrollX = TRUE),
   rownames = FALSE,
   class = "display compact"
