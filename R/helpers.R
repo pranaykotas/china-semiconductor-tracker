@@ -102,48 +102,38 @@ load_boundaries <- function() {
   list(china = china_clipped, india = india_v)
 }
 
-# ---- Add the clipped China boundary + India's official boundary to a
-# leaflet map, India always drawn last (on top). ----
-# The geometry ships as GeoJSON files (R/write_boundary_files.R) and is
+# ---- Add the clipped China boundary to a leaflet map. ----
+# The geometry ships as a GeoJSON file (R/write_boundary_files.R) and is
 # attached through the leaflet widget's documented `mapFactory` hook instead
 # of being embedded in every page: identical coordinates, identical
 # L.polygon() call and path options (including the binding's own flattening
 # of multipolygon rings into one polygon), only ~6 MB less HTML per map page.
+# India is deliberately NOT drawn any more — this is a China map — but the
+# China polygon remains clipped of India's claimed territory (see
+# load_boundaries above), so nothing Indian is ever painted as Chinese.
 add_boundary_layers <- function(map, boundaries = NULL) {
   map$x$options$mapFactory <- htmlwidgets::JS(
     "function(el, options) {
-      var files = {
-        china: 'data/boundaries/china-clipped.geojson',
-        india: 'data/boundaries/india.geojson'
-      };
-      var styles = {
-        china: { color: '#620d3c', weight: 2, opacity: 0.5, fillColor: '#E8EAF0', fillOpacity: 0.1, fill: true, stroke: true },
-        india: { color: '#1565C0', weight: 2, opacity: 0.5, fillColor: '#D6E4F0', fillOpacity: 0.25, fill: true, stroke: true }
-      };
       var map = L.map(el, options);
-      function rings(geom) {
-        // Mirror leaflet-htmlwidgets' addPolygons exactly: every ring of
-        // every polygon, flattened into a single L.polygon.
-        var polys = geom.type === 'Polygon' ? [geom.coordinates]
-                  : geom.type === 'MultiPolygon' ? geom.coordinates : [];
-        var out = [];
-        polys.forEach(function (p) {
-          p.forEach(function (r) { out.push(r.map(function (c) { return [c[1], c[0]]; })); });
-        });
-        return out;
-      }
-      function addLayer(url, style) {
-        return fetch(url).then(function (r) { return r.json(); }).then(function (gj) {
+      fetch('data/boundaries/china-clipped.geojson')
+        .then(function (r) { return r.json(); })
+        .then(function (gj) {
           gj.features.forEach(function (f) {
-            if (f.geometry) L.polygon(rings(f.geometry), style).addTo(map);
+            if (!f.geometry) return;
+            // Mirror leaflet-htmlwidgets' addPolygons exactly: every ring of
+            // every polygon, flattened into a single L.polygon.
+            var polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates]
+                      : f.geometry.type === 'MultiPolygon' ? f.geometry.coordinates : [];
+            var rings = [];
+            polys.forEach(function (p) {
+              p.forEach(function (r) { rings.push(r.map(function (c) { return [c[1], c[0]]; })); });
+            });
+            L.polygon(rings, {
+              color: '#620d3c', weight: 2, opacity: 0.5,
+              fillColor: '#E8EAF0', fillOpacity: 0.1, fill: true, stroke: true
+            }).addTo(map);
           });
         });
-      }
-      // China first, India on top — same insertion order as before, and
-      // sequential chaining so the pane order never depends on fetch timing.
-      addLayer(files.china, styles.china).then(function () {
-        addLayer(files.india, styles.india);
-      });
       return map;
     }"
   )

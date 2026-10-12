@@ -1,8 +1,8 @@
 ---
-title: "China Semiconductor Tracker: Facilities"
+title: "Facilities"
 subtitle: "Tracking semiconductor manufacturing across mainland China"
 date: last-modified
-description: "Live interactive map of 57 semiconductor facilities across mainland China — fabs, memory, OSAT, compound semiconductors — with investment, capacity, status and sources."
+description: "Interactive map of semiconductor fabs, memory plants, OSAT and compound-semiconductor sites across mainland China — with investment, capacity, status and sources."
 ---
 
 ```{r setup, include=FALSE}
@@ -46,10 +46,11 @@ facilities$color <- unname(sapply(facilities$type, type_color))
 live <- facilities %>% filter(status != "Cancelled")
 cancelled <- facilities %>% filter(status == "Cancelled")
 
-# China's boundary CLIPPED of India's officially claimed territory, plus
-# India's own official boundary — see load_boundaries() in R/helpers.R for
-# why the raw ne_countries() China polygon is never drawn directly. No
-# on-page disclaimer here by request; the clipping itself still applies.
+# China's boundary CLIPPED of India's officially claimed territory — see
+# load_boundaries() in R/helpers.R for why the raw ne_countries() China
+# polygon is never drawn directly. India itself is no longer outlined (this
+# is a China map); the clipping still applies, so no Indian claim is ever
+# shaded as Chinese.
 
 popup_opts <- popupOptions(maxWidth = 320, minWidth = 220, maxHeight = 400, autoPan = TRUE, keepInView = TRUE, autoPanPadding = c(20, 20))
 label_opts <- labelOptions(style = list("font-size" = "12px", "padding" = "6px 10px"), direction = "auto")

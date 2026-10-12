@@ -23,9 +23,10 @@ canvas_setup <- function() {
 
 draw_map <- function(points = NULL, highlight = NULL, accent = "#f1a222") {
   par(mar = c(0.2, 0, 0.2, 0.4))
-  # st_geometry: plot a single map, not one subplot per attribute column
+  # st_geometry: plot a single map, not one subplot per attribute column.
+  # India is not drawn — this is a China map; only the clipped China
+  # silhouette (free of Indian claimed territory) appears.
   plot(sf::st_geometry(boundaries$china), col = DIM, border = "#4E3A45", axes = FALSE)
-  plot(sf::st_geometry(boundaries$india), col = NA, border = "#3E5876", lwd = 1.2, add = TRUE)
   if (!is.null(points) && nrow(points) > 0) {
     points(points$lon, points$lat, col = "#8C8480", pch = 16, cex = 0.55)
   }
@@ -137,10 +138,10 @@ cat("Materials cards:", nrow(firms_mat), "\n")
 agg_png("images/og-image.png", W, H, units = "px", res = 96)
 canvas_setup()
 draw_text_panel(
-  "Semiconductor China · Live Tracker",
-  "China Semiconductor\nTracker",
+  "A Takshashila Research Project",
+  "China Semiconductor Tracker",
   "Fabs · memory · OSAT · compound · design firms · equipment",
-  "Every claim cited to its source",
+  glue("{nrow(facilities)} facilities · {nrow(firms_des)} design firms · {nrow(firms_mat)} equipment & materials firms"),
   ""
 )
 draw_map(points = all_pts, highlight = NULL)
